@@ -23,15 +23,15 @@ Contents
 
 ### Data (not prepared)
 
-| Protein name            | Length  | PDB source       | CS source  | NOE source | RMSD range |
-| ------------------------|--------:|------------------|------------|------------|------------|
-| prolactin               | 77      | 1rws             |            | ?          | ?          |
-| top7                    | 120     | 2mlb             |            | ?          | ?          |
-| sulfur\_reductase       | 151     | 3e0o / 2kzn      |            | ?          | ?          |
-| tctp                    | 183     | 2loy             |            | ?          | ?          |
-| php1                    | 174     | 2lmd             |            | ?          | ?          |
-| rhodopsin               | 225     | 1h68 / 2ksy      |            | ?          | ?          |
-|                         |         |                  |            | ?          |            |
+| Protein name           | Length  | PDB source       | CS source  | NOE source | RMSD range |
+| -----------------------|--------:|------------------|------------|------------|------------|
+| prolactin              | 77      | 1rws             |  | ?          | ?          |
+| top7                   | 120     | 2mbl             | BMRB 19404 | ?          | ?          |
+| sulfur\_reductase      | 151     | 3e0o / 2kzn      |            | ?          | ?          |
+| tctp                   | 183     | 2loy             |            | ?          | ?          |
+| php1                   | 174     | 2lmd             |            | ?          | ?          |
+| rhodopsin              | 225     | 1h68 / 2ksy      |            | ?          | ?          |
+|                        |         |                  |            | ?          |            |
 
 
 ### Scripts
