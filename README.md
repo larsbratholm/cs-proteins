@@ -33,3 +33,8 @@ Contents
 ### Scripts
 
 ### TORUS-CS-DBN files
+
+
+License
+=======
+This repository is offered under the Public Domain (Unlicense). Data in the individual datafiles may be published under their own license.
