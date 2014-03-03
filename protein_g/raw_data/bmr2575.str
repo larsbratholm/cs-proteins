@@ -1,0 +1,1216 @@
+data_2575
+
+#######################
+#  Entry information  #
+#######################
+
+save_entry_information
+   _Entry.Sf_category                    entry_information
+   _Entry.Sf_framecode                   entry_information
+   _Entry.ID                             2575
+   _Entry.Title                         
+;
+Sequence-Specific 1H NMR Assignments and Secondary Structure of the 
+Streptococcal Protein G B2-Domain
+;
+   _Entry.Version_type                   update
+   _Entry.Submission_date                1995-07-31
+   _Entry.Accession_date                 1996-03-25
+   _Entry.Last_release_date              .
+   _Entry.Original_release_date          .
+   _Entry.Origination                    BMRB
+   _Entry.NMR_STAR_version               3.1.0.29
+   _Entry.Original_NMR_STAR_version      2.1
+   _Entry.Experimental_method            NMR
+   _Entry.Experimental_method_subtype    .
+   _Entry.Details                        .
+   _Entry.BMRB_internal_directory_name   .
+
+   loop_
+      _Entry_author.Ordinal
+      _Entry_author.Given_name
+      _Entry_author.Family_name
+      _Entry_author.First_initial
+      _Entry_author.Middle_initials
+      _Entry_author.Family_title
+      _Entry_author.Entry_ID
+
+      1 John    Orban     . . . 2575 
+      2 Patrick Alexander . . . 2575 
+      3 Philip  Bryan     . . . 2575 
+
+   stop_
+
+   loop_
+      _Data_set.Type
+      _Data_set.Count
+      _Data_set.Entry_ID
+
+      assigned_chemical_shifts 1 2575 
+
+   stop_
+
+   loop_
+      _Datum.Type
+      _Datum.Count
+      _Datum.Entry_ID
+
+      '1H chemical shifts' 352 2575 
+
+   stop_
+
+   loop_
+      _Release.Release_number
+      _Release.Date
+      _Release.Submission_date
+      _Release.Type
+      _Release.Author
+      _Release.Detail
+      _Release.Entry_ID
+
+      4 2010-06-17 . revision BMRB 'Complete natural source information'                    2575 
+      3 1999-06-14 . revision BMRB 'Converted to BMRB NMR-STAR V 2.1 format'                2575 
+      2 1996-03-25 . reformat BMRB 'Converted to the BMRB 1996-03-01 STAR flat-file format' 2575 
+      1 1995-07-31 . original BMRB 'Last release in original BMRB flat-file format'         2575 
+
+   stop_
+
+save_
+
+
+###############
+#  Citations  #
+###############
+
+save_entry_citation
+   _Citation.Sf_category                  citations
+   _Citation.Sf_framecode                 entry_citation
+   _Citation.Entry_ID                     2575
+   _Citation.ID                           1
+   _Citation.Class                       'entry citation'
+   _Citation.CAS_abstract_code            .
+   _Citation.MEDLINE_UI_code              .
+   _Citation.DOI                          .
+   _Citation.PubMed_ID                    .
+   _Citation.Full_citation               
+;
+ Orban, John, Alexander, Patrick, Bryan, Philip, 
+ "Sequence-Specific 1H NMR Assignments and Secondary Structure of the 
+ Streptococcal Protein G B2-Domain,"
+ Biochemistry 31 (14), 3604-3611 (1992).
+;
+   _Citation.Title                       
+;
+Sequence-Specific 1H NMR Assignments and Secondary Structure of the 
+Streptococcal Protein G B2-Domain
+;
+   _Citation.Status                       published
+   _Citation.Type                         journal
+   _Citation.Journal_abbrev               Biochemistry
+   _Citation.Journal_name_full            .
+   _Citation.Journal_volume               31
+   _Citation.Journal_issue                14
+   _Citation.Journal_ASTM                 .
+   _Citation.Journal_ISSN                 .
+   _Citation.Journal_CSD                  .
+   _Citation.Book_title                   .
+   _Citation.Book_chapter_title           .
+   _Citation.Book_volume                  .
+   _Citation.Book_series                  .
+   _Citation.Book_publisher               .
+   _Citation.Book_publisher_city          .
+   _Citation.Book_ISBN                    .
+   _Citation.Conference_title             .
+   _Citation.Conference_site              .
+   _Citation.Conference_state_province    .
+   _Citation.Conference_country           .
+   _Citation.Conference_start_date        .
+   _Citation.Conference_end_date          .
+   _Citation.Conference_abstract_number   .
+   _Citation.Thesis_institution           .
+   _Citation.Thesis_institution_city      .
+   _Citation.Thesis_institution_country   .
+   _Citation.WWW_URL                      .
+   _Citation.Page_first                   3604
+   _Citation.Page_last                    3611
+   _Citation.Year                         1992
+   _Citation.Details                      .
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Family_title
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+      1 John    Orban     . . . 2575 1 
+      2 Patrick Alexander . . . 2575 1 
+      3 Philip  Bryan     . . . 2575 1 
+
+   stop_
+
+save_
+
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+
+save_system_IgG_Fc_region-binding_protein
+   _Assembly.Sf_category                       assembly
+   _Assembly.Sf_framecode                      system_IgG_Fc_region-binding_protein
+   _Assembly.Entry_ID                          2575
+   _Assembly.ID                                1
+   _Assembly.Name                             'IgG Fc region-binding protein'
+   _Assembly.BMRB_code                         .
+   _Assembly.Number_of_components              .
+   _Assembly.Organic_ligands                   .
+   _Assembly.Metal_ions                        .
+   _Assembly.Non_standard_bonds                .
+   _Assembly.Ambiguous_conformational_states   .
+   _Assembly.Ambiguous_chem_comp_sites         .
+   _Assembly.Molecules_in_chemical_exchange    .
+   _Assembly.Paramagnetic                      .
+   _Assembly.Thiol_state                       .
+   _Assembly.Molecular_mass                    .
+   _Assembly.Enzyme_commission_number          .
+   _Assembly.Details                           .
+   _Assembly.DB_query_date                     .
+   _Assembly.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_assembly.ID
+      _Entity_assembly.Entity_assembly_name
+      _Entity_assembly.Entity_ID
+      _Entity_assembly.Entity_label
+      _Entity_assembly.Asym_ID
+      _Entity_assembly.PDB_chain_ID
+      _Entity_assembly.Experimental_data_reported
+      _Entity_assembly.Physical_state
+      _Entity_assembly.Conformational_isomer
+      _Entity_assembly.Chemical_exchange_state
+      _Entity_assembly.Magnetic_equivalence_group_code
+      _Entity_assembly.Role
+      _Entity_assembly.Details
+      _Entity_assembly.Entry_ID
+      _Entity_assembly.Assembly_ID
+
+      1 'IgG Fc region-binding protein' 1 $IgG_Fc_region-binding_protein . . . . . . . . . 2575 1 
+
+   stop_
+
+   loop_
+      _Assembly_common_name.Name
+      _Assembly_common_name.Type
+      _Assembly_common_name.Entry_ID
+      _Assembly_common_name.Assembly_ID
+
+      'IgG Fc region-binding protein' system 2575 1 
+
+   stop_
+
+save_
+
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+
+save_IgG_Fc_region-binding_protein
+   _Entity.Sf_category                       entity
+   _Entity.Sf_framecode                      IgG_Fc_region-binding_protein
+   _Entity.Entry_ID                          2575
+   _Entity.ID                                1
+   _Entity.BMRB_code                         .
+   _Entity.Name                             'IgG Fc region-binding protein'
+   _Entity.Type                              polymer
+   _Entity.Polymer_common_type               .
+   _Entity.Polymer_type                      polypeptide(L)
+   _Entity.Polymer_type_details              .
+   _Entity.Polymer_strand_ID                 .
+   _Entity.Polymer_seq_one_letter_code_can  
+;
+MTYKLVINGKTLKGETTTKA
+VDAETAEKAFKQYANDNGVD
+GVWTYDDATKTFTVTE
+;
+   _Entity.Polymer_seq_one_letter_code      
+;
+MTYKLVINGKTLKGETTTKA
+VDAETAEKAFKQYANDNGVD
+GVWTYDDATKTFTVTE
+;
+   _Entity.Target_identifier                 .
+   _Entity.Polymer_author_defined_seq        .
+   _Entity.Polymer_author_seq_details        .
+   _Entity.Ambiguous_conformational_states   .
+   _Entity.Ambiguous_chem_comp_sites         .
+   _Entity.Nstd_monomer                      .
+   _Entity.Nstd_chirality                    .
+   _Entity.Nstd_linkage                      .
+   _Entity.Nonpolymer_comp_ID                .
+   _Entity.Nonpolymer_comp_label             .
+   _Entity.Number_of_monomers                56
+   _Entity.Number_of_nonpolymer_components   .
+   _Entity.Paramagnetic                      .
+   _Entity.Thiol_state                       .
+   _Entity.Src_method                        .
+   _Entity.Parent_entity_ID                  1
+   _Entity.Fragment                          .
+   _Entity.Mutation                          .
+   _Entity.EC_number                         .
+   _Entity.Calc_isoelectric_point            .
+   _Entity.Formula_weight                    .
+   _Entity.Formula_weight_exptl              .
+   _Entity.Formula_weight_exptl_meth         .
+   _Entity.Details                           .
+   _Entity.DB_query_date                     .
+   _Entity.DB_query_revised_last_date        2012-09-02
+
+   loop_
+      _Entity_db_link.Author_supplied
+      _Entity_db_link.Database_code
+      _Entity_db_link.Accession_code
+      _Entity_db_link.Entry_mol_code
+      _Entity_db_link.Entry_mol_name
+      _Entity_db_link.Entry_experimental_method
+      _Entity_db_link.Entry_structure_resolution
+      _Entity_db_link.Entry_relation_type
+      _Entity_db_link.Entry_details
+      _Entity_db_link.Chimera_segment_ID
+      _Entity_db_link.Seq_query_to_submitted_percent
+      _Entity_db_link.Seq_subject_length
+      _Entity_db_link.Seq_identity
+      _Entity_db_link.Seq_positive
+      _Entity_db_link.Seq_homology_expectation_val
+      _Entity_db_link.Seq_align_begin
+      _Entity_db_link.Seq_align_end
+      _Entity_db_link.Seq_difference_details
+      _Entity_db_link.Seq_alignment_details
+      _Entity_db_link.Entry_ID
+      _Entity_db_link.Entity_ID
+
+      no BMRB    15283 .  GB3                                                                                                                              . . . . . 100.00  56  98.21  98.21 1.44e-29 . . . . 2575 1 
+      no BMRB    18531 .  GB3                                                                                                                              . . . . . 100.00  56  98.21  98.21 1.44e-29 . . . . 2575 1 
+      no BMRB     5839 .  GB3                                                                                                                              . . . . . 100.00  56  98.21  98.21 1.44e-29 . . . . 2575 1 
+      no PDB  1IGC      . "Igg1 Fab Fragment (Mopc21) Complex With Domain Iii Of Protein G From Streptococcus"                                              . . . . .  98.21  61 100.00 100.00 2.63e-29 . . . . 2575 1 
+      no PDB  1IGD      . "The Third Igg-Binding Domain From Streptococcal Protein G: An Analysis By X-Ray Crystallography Of The Structure Alone And In A" . . . . .  98.21  61 100.00 100.00 2.63e-29 . . . . 2575 1 
+      no PDB  1P7E      . "Gb3 Solution Structure Obtained By Refinement Of X-Ray Structure With Dipolar Couplings"                                         . . . . . 100.00  56  98.21  98.21 1.44e-29 . . . . 2575 1 
+      no PDB  1P7F      . "Gb3 Solution Structure Obtained By Refinement Of X-Ray Structure With Dipolar Couplings"                                         . . . . . 100.00  56  98.21  98.21 1.44e-29 . . . . 2575 1 
+      no PDB  1PGX      . "The 1.66 Angstroms X-Ray Structure Of The B2 Immunoglobulin- Binding Domain Of Streptococcal Protein G And Comparison To The Nm" . . . . .  98.21  83 100.00 100.00 1.08e-29 . . . . 2575 1 
+      no PDB  2IGD      . "Anisotropic Structure Of Protein G Igg-Binding Domain Iii At 1.1 Angstrom Resolution"                                            . . . . .  98.21  61 100.00 100.00 2.63e-29 . . . . 2575 1 
+      no PDB  2IGH      . "Determination Of The Solution Structures Of Domains Ii And Iii Of Protein G From Streptococcus By 1h Nmr"                        . . . . .  98.21  61 100.00 100.00 2.86e-29 . . . . 2575 1 
+      no PDB  2LUM      . "Three-State Ensemble Obtained From Enoes Of The Third Immunoglobulin Binding Domain Of Protein G (Gb3)"                          . . . . . 100.00  56  98.21  98.21 1.44e-29 . . . . 2575 1 
+      no PDB  2NMQ      . "Simultaneous Determination Of Protein Structure And Dynamics Using Rdcs"                                                         . . . . .  98.21  55 100.00 100.00 3.27e-29 . . . . 2575 1 
+      no PDB  2OED      . "Gb3 Solution Structure Obtained By Refinement Of X-Ray Structure With Dipolar Couplings"                                         . . . . . 100.00  56  98.21  98.21 1.44e-29 . . . . 2575 1 
+      no GB   AAA26921  . "mag [Streptococcus dysgalactiae]"                                                                                                . . . . .  98.21 413  98.18 100.00 6.68e-28 . . . . 2575 1 
+      no GB   AAB27024  . "protein G IgG Fc binding domain [Streptococcus sp. CMCC 32138]"                                                                  . . . . .  98.21  60  98.18  98.18 1.36e-28 . . . . 2575 1 
+      no GB   ABL60854  . "NTAP(GS) [Expression vector pCeMM-NTAP(GS)-Gw]"                                                                                  . . . . .  98.21 176 100.00 100.00 3.55e-28 . . . . 2575 1 
+      no GB   ABL60859  . "CTAP(SG) [Expression vector pCeMM-CTAP(SG)-Gw]"                                                                                  . . . . .  98.21 190 100.00 100.00 4.65e-28 . . . . 2575 1 
+      no GB   ABO76907  . "NTAP(GS) [Expression vector pCeMM-NTAP(GS)]"                                                                                     . . . . .  98.21 176 100.00 100.00 3.55e-28 . . . . 2575 1 
+
+   stop_
+
+   loop_
+      _Entity_common_name.Name
+      _Entity_common_name.Type
+      _Entity_common_name.Entry_ID
+      _Entity_common_name.Entity_ID
+
+      'IgG Fc region-binding protein'   common  2575 1 
+      'protein G IgG-binding domain B2' variant 2575 1 
+
+   stop_
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+       1 . MET . 2575 1 
+       2 . THR . 2575 1 
+       3 . TYR . 2575 1 
+       4 . LYS . 2575 1 
+       5 . LEU . 2575 1 
+       6 . VAL . 2575 1 
+       7 . ILE . 2575 1 
+       8 . ASN . 2575 1 
+       9 . GLY . 2575 1 
+      10 . LYS . 2575 1 
+      11 . THR . 2575 1 
+      12 . LEU . 2575 1 
+      13 . LYS . 2575 1 
+      14 . GLY . 2575 1 
+      15 . GLU . 2575 1 
+      16 . THR . 2575 1 
+      17 . THR . 2575 1 
+      18 . THR . 2575 1 
+      19 . LYS . 2575 1 
+      20 . ALA . 2575 1 
+      21 . VAL . 2575 1 
+      22 . ASP . 2575 1 
+      23 . ALA . 2575 1 
+      24 . GLU . 2575 1 
+      25 . THR . 2575 1 
+      26 . ALA . 2575 1 
+      27 . GLU . 2575 1 
+      28 . LYS . 2575 1 
+      29 . ALA . 2575 1 
+      30 . PHE . 2575 1 
+      31 . LYS . 2575 1 
+      32 . GLN . 2575 1 
+      33 . TYR . 2575 1 
+      34 . ALA . 2575 1 
+      35 . ASN . 2575 1 
+      36 . ASP . 2575 1 
+      37 . ASN . 2575 1 
+      38 . GLY . 2575 1 
+      39 . VAL . 2575 1 
+      40 . ASP . 2575 1 
+      41 . GLY . 2575 1 
+      42 . VAL . 2575 1 
+      43 . TRP . 2575 1 
+      44 . THR . 2575 1 
+      45 . TYR . 2575 1 
+      46 . ASP . 2575 1 
+      47 . ASP . 2575 1 
+      48 . ALA . 2575 1 
+      49 . THR . 2575 1 
+      50 . LYS . 2575 1 
+      51 . THR . 2575 1 
+      52 . PHE . 2575 1 
+      53 . THR . 2575 1 
+      54 . VAL . 2575 1 
+      55 . THR . 2575 1 
+      56 . GLU . 2575 1 
+
+   stop_
+
+   loop_
+      _Entity_poly_seq.Hetero
+      _Entity_poly_seq.Mon_ID
+      _Entity_poly_seq.Num
+      _Entity_poly_seq.Comp_index_ID
+      _Entity_poly_seq.Entry_ID
+      _Entity_poly_seq.Entity_ID
+
+      . MET  1  1 2575 1 
+      . THR  2  2 2575 1 
+      . TYR  3  3 2575 1 
+      . LYS  4  4 2575 1 
+      . LEU  5  5 2575 1 
+      . VAL  6  6 2575 1 
+      . ILE  7  7 2575 1 
+      . ASN  8  8 2575 1 
+      . GLY  9  9 2575 1 
+      . LYS 10 10 2575 1 
+      . THR 11 11 2575 1 
+      . LEU 12 12 2575 1 
+      . LYS 13 13 2575 1 
+      . GLY 14 14 2575 1 
+      . GLU 15 15 2575 1 
+      . THR 16 16 2575 1 
+      . THR 17 17 2575 1 
+      . THR 18 18 2575 1 
+      . LYS 19 19 2575 1 
+      . ALA 20 20 2575 1 
+      . VAL 21 21 2575 1 
+      . ASP 22 22 2575 1 
+      . ALA 23 23 2575 1 
+      . GLU 24 24 2575 1 
+      . THR 25 25 2575 1 
+      . ALA 26 26 2575 1 
+      . GLU 27 27 2575 1 
+      . LYS 28 28 2575 1 
+      . ALA 29 29 2575 1 
+      . PHE 30 30 2575 1 
+      . LYS 31 31 2575 1 
+      . GLN 32 32 2575 1 
+      . TYR 33 33 2575 1 
+      . ALA 34 34 2575 1 
+      . ASN 35 35 2575 1 
+      . ASP 36 36 2575 1 
+      . ASN 37 37 2575 1 
+      . GLY 38 38 2575 1 
+      . VAL 39 39 2575 1 
+      . ASP 40 40 2575 1 
+      . GLY 41 41 2575 1 
+      . VAL 42 42 2575 1 
+      . TRP 43 43 2575 1 
+      . THR 44 44 2575 1 
+      . TYR 45 45 2575 1 
+      . ASP 46 46 2575 1 
+      . ASP 47 47 2575 1 
+      . ALA 48 48 2575 1 
+      . THR 49 49 2575 1 
+      . LYS 50 50 2575 1 
+      . THR 51 51 2575 1 
+      . PHE 52 52 2575 1 
+      . THR 53 53 2575 1 
+      . VAL 54 54 2575 1 
+      . THR 55 55 2575 1 
+      . GLU 56 56 2575 1 
+
+   stop_
+
+save_
+
+
+    ####################
+    #  Natural source  #
+    ####################
+
+save_natural_source
+   _Entity_natural_src_list.Sf_category    natural_source
+   _Entity_natural_src_list.Sf_framecode   natural_source
+   _Entity_natural_src_list.Entry_ID       2575
+   _Entity_natural_src_list.ID             1
+
+   loop_
+      _Entity_natural_src.ID
+      _Entity_natural_src.Entity_ID
+      _Entity_natural_src.Entity_label
+      _Entity_natural_src.Entity_chimera_segment_ID
+      _Entity_natural_src.NCBI_taxonomy_ID
+      _Entity_natural_src.Type
+      _Entity_natural_src.Common
+      _Entity_natural_src.Organism_name_scientific
+      _Entity_natural_src.Organism_name_common
+      _Entity_natural_src.Organism_acronym
+      _Entity_natural_src.ICTVdb_decimal_code
+      _Entity_natural_src.Superkingdom
+      _Entity_natural_src.Kingdom
+      _Entity_natural_src.Genus
+      _Entity_natural_src.Species
+      _Entity_natural_src.Strain
+      _Entity_natural_src.Variant
+      _Entity_natural_src.Subvariant
+      _Entity_natural_src.Organ
+      _Entity_natural_src.Tissue
+      _Entity_natural_src.Tissue_fraction
+      _Entity_natural_src.Cell_line
+      _Entity_natural_src.Cell_type
+      _Entity_natural_src.ATCC_number
+      _Entity_natural_src.Organelle
+      _Entity_natural_src.Cellular_location
+      _Entity_natural_src.Fragment
+      _Entity_natural_src.Fraction
+      _Entity_natural_src.Secretion
+      _Entity_natural_src.Plasmid
+      _Entity_natural_src.Plasmid_details
+      _Entity_natural_src.Gene_mnemonic
+      _Entity_natural_src.Dev_stage
+      _Entity_natural_src.Details
+      _Entity_natural_src.Citation_ID
+      _Entity_natural_src.Citation_label
+      _Entity_natural_src.Entry_ID
+      _Entity_natural_src.Entity_natural_src_list_ID
+
+      1 1 $IgG_Fc_region-binding_protein . 1306 organism . 'Streptococcus sp.' . . . Bacteria . Streptococcus sp. G148 . . . . . . . . . . . . . . . . . . . . 2575 1 
+
+   stop_
+
+save_
+
+
+    #########################
+    #  Experimental source  #
+    #########################
+
+save_experimental_source
+   _Entity_experimental_src_list.Sf_category    experimental_source
+   _Entity_experimental_src_list.Sf_framecode   experimental_source
+   _Entity_experimental_src_list.Entry_ID       2575
+   _Entity_experimental_src_list.ID             1
+
+   loop_
+      _Entity_experimental_src.ID
+      _Entity_experimental_src.Entity_ID
+      _Entity_experimental_src.Entity_label
+      _Entity_experimental_src.Entity_chimera_segment_ID
+      _Entity_experimental_src.Production_method
+      _Entity_experimental_src.Host_org_scientific_name
+      _Entity_experimental_src.Host_org_name_common
+      _Entity_experimental_src.Host_org_details
+      _Entity_experimental_src.Host_org_NCBI_taxonomy_ID
+      _Entity_experimental_src.Host_org_genus
+      _Entity_experimental_src.Host_org_species
+      _Entity_experimental_src.Host_org_strain
+      _Entity_experimental_src.Host_org_variant
+      _Entity_experimental_src.Host_org_subvariant
+      _Entity_experimental_src.Host_org_organ
+      _Entity_experimental_src.Host_org_tissue
+      _Entity_experimental_src.Host_org_tissue_fraction
+      _Entity_experimental_src.Host_org_cell_line
+      _Entity_experimental_src.Host_org_cell_type
+      _Entity_experimental_src.Host_org_cellular_location
+      _Entity_experimental_src.Host_org_organelle
+      _Entity_experimental_src.Host_org_gene
+      _Entity_experimental_src.Host_org_culture_collection
+      _Entity_experimental_src.Host_org_ATCC_number
+      _Entity_experimental_src.Vector_type
+      _Entity_experimental_src.PDBview_host_org_vector_name
+      _Entity_experimental_src.PDBview_plasmid_name
+      _Entity_experimental_src.Vector_name
+      _Entity_experimental_src.Vector_details
+      _Entity_experimental_src.Vendor_name
+      _Entity_experimental_src.Host_org_dev_stage
+      _Entity_experimental_src.Details
+      _Entity_experimental_src.Citation_ID
+      _Entity_experimental_src.Citation_label
+      _Entity_experimental_src.Entry_ID
+      _Entity_experimental_src.Entity_experimental_src_list_ID
+
+      1 1 $IgG_Fc_region-binding_protein . 'not available' 'Escherichia coli' . . . Escherichia coli BL21-(DE3) . . . . . . . . . . . . . . . . . . . . . . 2575 1 
+
+   stop_
+
+save_
+
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+
+save_sample_one
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     sample_one
+   _Sample.Entry_ID                         2575
+   _Sample.ID                               1
+   _Sample.Type                             solution
+   _Sample.Sub_type                         .
+   _Sample.Details                          .
+   _Sample.Aggregate_sample_number          .
+   _Sample.Solvent_system                   .
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+save_
+
+
+#######################
+#  Sample conditions  #
+#######################
+
+save_sample_condition_set_one
+   _Sample_condition_list.Sf_category    sample_conditions
+   _Sample_condition_list.Sf_framecode   sample_condition_set_one
+   _Sample_condition_list.Entry_ID       2575
+   _Sample_condition_list.ID             1
+   _Sample_condition_list.Details        .
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_err
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+      pH            5.4 . na 2575 1 
+      temperature 302   . K  2575 1 
+
+   stop_
+
+save_
+
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+
+save_spectrometer_list
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     spectrometer_list
+   _NMR_spectrometer.Entry_ID         2575
+   _NMR_spectrometer.ID               1
+   _NMR_spectrometer.Details          .
+   _NMR_spectrometer.Manufacturer     .
+   _NMR_spectrometer.Model            .
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   .
+
+save_
+
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+
+save_experiment_list
+   _Experiment_list.Sf_category    experiment_list
+   _Experiment_list.Sf_framecode   experiment_list
+   _Experiment_list.Entry_ID       2575
+   _Experiment_list.ID             1
+   _Experiment_list.Details        .
+
+   loop_
+      _Experiment.ID
+      _Experiment.Name
+      _Experiment.Raw_data_flag
+      _Experiment.NMR_spec_expt_ID
+      _Experiment.NMR_spec_expt_label
+      _Experiment.Sample_ID
+      _Experiment.Sample_label
+      _Experiment.Sample_state
+      _Experiment.Sample_volume
+      _Experiment.Sample_volume_units
+      _Experiment.Sample_condition_list_ID
+      _Experiment.Sample_condition_list_label
+      _Experiment.Sample_spinning_rate
+      _Experiment.Sample_angle
+      _Experiment.NMR_tube_type
+      _Experiment.NMR_spectrometer_ID
+      _Experiment.NMR_spectrometer_label
+      _Experiment.NMR_spectrometer_probe_ID
+      _Experiment.NMR_spectrometer_probe_label
+      _Experiment.NMR_spectral_processing_ID
+      _Experiment.NMR_spectral_processing_label
+      _Experiment.Entry_ID
+      _Experiment.Experiment_list_ID
+
+      1 . . . . 1 $sample_one . . . 1 $sample_condition_set_one . . . 1 $spectrometer_list . . . . 2575 1 
+
+   stop_
+
+save_
+
+
+####################
+#  NMR parameters  #
+####################
+
+    ##############################
+    #  Assigned chemical shifts  #
+    ##############################
+
+	################################
+	#  Chemical shift referencing  #
+	################################
+
+save_chem_shift_reference_par_set_one
+   _Chem_shift_reference.Sf_category    chem_shift_reference
+   _Chem_shift_reference.Sf_framecode   chem_shift_reference_par_set_one
+   _Chem_shift_reference.Entry_ID       2575
+   _Chem_shift_reference.ID             1
+   _Chem_shift_reference.Details        .
+
+   loop_
+      _Chem_shift_ref.Atom_type
+      _Chem_shift_ref.Atom_isotope_number
+      _Chem_shift_ref.Mol_common_name
+      _Chem_shift_ref.Atom_group
+      _Chem_shift_ref.Concentration_val
+      _Chem_shift_ref.Concentration_units
+      _Chem_shift_ref.Solvent
+      _Chem_shift_ref.Rank
+      _Chem_shift_ref.Chem_shift_units
+      _Chem_shift_ref.Chem_shift_val
+      _Chem_shift_ref.Ref_method
+      _Chem_shift_ref.Ref_type
+      _Chem_shift_ref.Indirect_shift_ratio
+      _Chem_shift_ref.External_ref_loc
+      _Chem_shift_ref.External_ref_sample_geometry
+      _Chem_shift_ref.External_ref_axis
+      _Chem_shift_ref.Indirect_shift_ratio_cit_ID
+      _Chem_shift_ref.Indirect_shift_ratio_cit_label
+      _Chem_shift_ref.Ref_correction_type
+      _Chem_shift_ref.Correction_val
+      _Chem_shift_ref.Correction_val_cit_ID
+      _Chem_shift_ref.Correction_val_cit_label
+      _Chem_shift_ref.Entry_ID
+      _Chem_shift_ref.Chem_shift_reference_ID
+
+      H . DSS . . . . . ppm 0 . . . . . . . . . . . . 2575 1 
+
+   stop_
+
+save_
+
+
+     ###################################
+     #  Assigned chemical shift lists  #
+     ###################################
+
+###################################################################
+#       Chemical Shift Ambiguity Index Value Definitions          #
+#                                                                 #
+# The values other than 1 are used for those atoms with different #
+# chemical shifts that cannot be assigned to stereospecific atoms #
+# or to specific residues or chains.                              #
+#                                                                 #
+#   Index Value            Definition                             #
+#                                                                 #
+#      1             Unique (including isolated methyl protons,   #
+#                         geminal atoms, and geminal methyl       #
+#                         groups with identical chemical shifts)  #
+#                         (e.g. ILE HD11, HD12, HD13 protons)     #
+#      2             Ambiguity of geminal atoms or geminal methyl #
+#                         proton groups (e.g. ASP HB2 and HB3     #
+#                         protons, LEU CD1 and CD2 carbons, or    #
+#                         LEU HD11, HD12, HD13 and HD21, HD22,    #
+#                         HD23 methyl protons)                    #
+#      3             Aromatic atoms on opposite sides of          #
+#                         symmetrical rings (e.g. TYR HE1 and HE2 #
+#                         protons)                                #
+#      4             Intraresidue ambiguities (e.g. LYS HG and    #
+#                         HD protons or TRP HZ2 and HZ3 protons)  #
+#      5             Interresidue ambiguities (LYS 12 vs. LYS 27) #
+#      6             Intermolecular ambiguities (e.g. ASP 31 CA   #
+#                         in monomer 1 and ASP 31 CA in monomer 2 #
+#                         of an asymmetrical homodimer, duplex    #
+#                         DNA assignments, or other assignments   #
+#                         that may apply to atoms in one or more  #
+#                         molecule in the molecular assembly)     #
+#      9             Ambiguous, specific ambiguity not defined    #
+#                                                                 #
+###################################################################
+save_chemical_shift_assignment_data_set_one
+   _Assigned_chem_shift_list.Sf_category                   assigned_chemical_shifts
+   _Assigned_chem_shift_list.Sf_framecode                 'chemical_shift_assignment_data_set_one'
+   _Assigned_chem_shift_list.Entry_ID                      2575
+   _Assigned_chem_shift_list.ID                            1
+   _Assigned_chem_shift_list.Sample_condition_list_ID      1
+   _Assigned_chem_shift_list.Sample_condition_list_label  $sample_condition_set_one
+   _Assigned_chem_shift_list.Chem_shift_reference_ID       1
+   _Assigned_chem_shift_list.Chem_shift_reference_label   $chem_shift_reference_par_set_one
+   _Assigned_chem_shift_list.Chem_shift_1H_err             .
+   _Assigned_chem_shift_list.Chem_shift_13C_err            .
+   _Assigned_chem_shift_list.Chem_shift_15N_err            .
+   _Assigned_chem_shift_list.Chem_shift_31P_err            .
+   _Assigned_chem_shift_list.Chem_shift_2H_err             .
+   _Assigned_chem_shift_list.Chem_shift_19F_err            .
+   _Assigned_chem_shift_list.Error_derivation_method       .
+   _Assigned_chem_shift_list.Details                       .
+   _Assigned_chem_shift_list.Text_data_format              .
+   _Assigned_chem_shift_list.Text_data                     .
+
+   loop_
+      _Chem_shift_experiment.Experiment_ID
+      _Chem_shift_experiment.Experiment_name
+      _Chem_shift_experiment.Sample_ID
+      _Chem_shift_experiment.Sample_label
+      _Chem_shift_experiment.Sample_state
+      _Chem_shift_experiment.Entry_ID
+      _Chem_shift_experiment.Assigned_chem_shift_list_ID
+
+      . . 1 $sample_one . 2575 1 
+
+   stop_
+
+   loop_
+      _Atom_chem_shift.ID
+      _Atom_chem_shift.Assembly_atom_ID
+      _Atom_chem_shift.Entity_assembly_ID
+      _Atom_chem_shift.Entity_ID
+      _Atom_chem_shift.Comp_index_ID
+      _Atom_chem_shift.Seq_ID
+      _Atom_chem_shift.Comp_ID
+      _Atom_chem_shift.Atom_ID
+      _Atom_chem_shift.Atom_type
+      _Atom_chem_shift.Atom_isotope_number
+      _Atom_chem_shift.Val
+      _Atom_chem_shift.Val_err
+      _Atom_chem_shift.Assign_fig_of_merit
+      _Atom_chem_shift.Ambiguity_code
+      _Atom_chem_shift.Occupancy
+      _Atom_chem_shift.Resonance_ID
+      _Atom_chem_shift.Auth_entity_assembly_ID
+      _Atom_chem_shift.Auth_seq_ID
+      _Atom_chem_shift.Auth_comp_ID
+      _Atom_chem_shift.Auth_atom_ID
+      _Atom_chem_shift.Details
+      _Atom_chem_shift.Entry_ID
+      _Atom_chem_shift.Assigned_chem_shift_list_ID
+
+        1 . 1 1  2  2 THR H    H 1  8.39 . . 1 . . . . . . . 2575 1 
+        2 . 1 1  2  2 THR HA   H 1  4.92 . . 1 . . . . . . . 2575 1 
+        3 . 1 1  2  2 THR HB   H 1  3.96 . . 1 . . . . . . . 2575 1 
+        4 . 1 1  2  2 THR HG21 H 1  1.19 . . 1 . . . . . . . 2575 1 
+        5 . 1 1  2  2 THR HG22 H 1  1.19 . . 1 . . . . . . . 2575 1 
+        6 . 1 1  2  2 THR HG23 H 1  1.19 . . 1 . . . . . . . 2575 1 
+        7 . 1 1  3  3 TYR H    H 1  9.15 . . 1 . . . . . . . 2575 1 
+        8 . 1 1  3  3 TYR HA   H 1  5.31 . . 1 . . . . . . . 2575 1 
+        9 . 1 1  3  3 TYR HB2  H 1  2.74 . . 2 . . . . . . . 2575 1 
+       10 . 1 1  3  3 TYR HB3  H 1  3.39 . . 2 . . . . . . . 2575 1 
+       11 . 1 1  3  3 TYR HD1  H 1  7.08 . . 1 . . . . . . . 2575 1 
+       12 . 1 1  3  3 TYR HD2  H 1  7.08 . . 1 . . . . . . . 2575 1 
+       13 . 1 1  3  3 TYR HE1  H 1  6.88 . . 1 . . . . . . . 2575 1 
+       14 . 1 1  3  3 TYR HE2  H 1  6.88 . . 1 . . . . . . . 2575 1 
+       15 . 1 1  4  4 LYS H    H 1  9.07 . . 1 . . . . . . . 2575 1 
+       16 . 1 1  4  4 LYS HA   H 1  5.22 . . 1 . . . . . . . 2575 1 
+       17 . 1 1  4  4 LYS HB2  H 1  2.01 . . 2 . . . . . . . 2575 1 
+       18 . 1 1  4  4 LYS HB3  H 1  1.87 . . 2 . . . . . . . 2575 1 
+       19 . 1 1  4  4 LYS HG2  H 1  1.45 . . 2 . . . . . . . 2575 1 
+       20 . 1 1  4  4 LYS HG3  H 1  1.33 . . 2 . . . . . . . 2575 1 
+       21 . 1 1  5  5 LEU H    H 1  8.64 . . 1 . . . . . . . 2575 1 
+       22 . 1 1  5  5 LEU HA   H 1  4.96 . . 1 . . . . . . . 2575 1 
+       23 . 1 1  5  5 LEU HB2  H 1  1.16 . . 2 . . . . . . . 2575 1 
+       24 . 1 1  5  5 LEU HB3  H 1   .78 . . 2 . . . . . . . 2575 1 
+       25 . 1 1  5  5 LEU HG   H 1   .84 . . 1 . . . . . . . 2575 1 
+       26 . 1 1  5  5 LEU HD11 H 1   .46 . . 2 . . . . . . . 2575 1 
+       27 . 1 1  5  5 LEU HD12 H 1   .46 . . 2 . . . . . . . 2575 1 
+       28 . 1 1  5  5 LEU HD13 H 1   .46 . . 2 . . . . . . . 2575 1 
+       29 . 1 1  5  5 LEU HD21 H 1   .5  . . 2 . . . . . . . 2575 1 
+       30 . 1 1  5  5 LEU HD22 H 1   .5  . . 2 . . . . . . . 2575 1 
+       31 . 1 1  5  5 LEU HD23 H 1   .5  . . 2 . . . . . . . 2575 1 
+       32 . 1 1  6  6 VAL H    H 1  9.14 . . 1 . . . . . . . 2575 1 
+       33 . 1 1  6  6 VAL HA   H 1  4.2  . . 1 . . . . . . . 2575 1 
+       34 . 1 1  6  6 VAL HB   H 1  2.06 . . 1 . . . . . . . 2575 1 
+       35 . 1 1  6  6 VAL HG11 H 1   .83 . . 1 . . . . . . . 2575 1 
+       36 . 1 1  6  6 VAL HG12 H 1   .83 . . 1 . . . . . . . 2575 1 
+       37 . 1 1  6  6 VAL HG13 H 1   .83 . . 1 . . . . . . . 2575 1 
+       38 . 1 1  6  6 VAL HG21 H 1   .83 . . 1 . . . . . . . 2575 1 
+       39 . 1 1  6  6 VAL HG22 H 1   .83 . . 1 . . . . . . . 2575 1 
+       40 . 1 1  6  6 VAL HG23 H 1   .83 . . 1 . . . . . . . 2575 1 
+       41 . 1 1  7  7 ILE H    H 1  8.76 . . 1 . . . . . . . 2575 1 
+       42 . 1 1  7  7 ILE HA   H 1  4.1  . . 1 . . . . . . . 2575 1 
+       43 . 1 1  7  7 ILE HB   H 1  1.55 . . 1 . . . . . . . 2575 1 
+       44 . 1 1  7  7 ILE HG12 H 1   .58 . . 2 . . . . . . . 2575 1 
+       45 . 1 1  7  7 ILE HG13 H 1   .75 . . 2 . . . . . . . 2575 1 
+       46 . 1 1  7  7 ILE HG21 H 1   .7  . . 1 . . . . . . . 2575 1 
+       47 . 1 1  7  7 ILE HG22 H 1   .7  . . 1 . . . . . . . 2575 1 
+       48 . 1 1  7  7 ILE HG23 H 1   .7  . . 1 . . . . . . . 2575 1 
+       49 . 1 1  7  7 ILE HD11 H 1  1.31 . . 1 . . . . . . . 2575 1 
+       50 . 1 1  7  7 ILE HD12 H 1  1.31 . . 1 . . . . . . . 2575 1 
+       51 . 1 1  7  7 ILE HD13 H 1  1.31 . . 1 . . . . . . . 2575 1 
+       52 . 1 1  8  8 ASN H    H 1  8.96 . . 1 . . . . . . . 2575 1 
+       53 . 1 1  8  8 ASN HA   H 1  5.26 . . 1 . . . . . . . 2575 1 
+       54 . 1 1  8  8 ASN HB2  H 1  2.52 . . 2 . . . . . . . 2575 1 
+       55 . 1 1  8  8 ASN HB3  H 1  2.95 . . 2 . . . . . . . 2575 1 
+       56 . 1 1  8  8 ASN HD21 H 1  6.76 . . 2 . . . . . . . 2575 1 
+       57 . 1 1  8  8 ASN HD22 H 1  7.16 . . 2 . . . . . . . 2575 1 
+       58 . 1 1  9  9 GLY H    H 1  7.87 . . 1 . . . . . . . 2575 1 
+       59 . 1 1  9  9 GLY HA2  H 1  4.05 . . 2 . . . . . . . 2575 1 
+       60 . 1 1  9  9 GLY HA3  H 1  4.42 . . 2 . . . . . . . 2575 1 
+       61 . 1 1 10 10 LYS H    H 1  9.34 . . 1 . . . . . . . 2575 1 
+       62 . 1 1 10 10 LYS HA   H 1  4.07 . . 1 . . . . . . . 2575 1 
+       63 . 1 1 10 10 LYS HB2  H 1  1.81 . . 1 . . . . . . . 2575 1 
+       64 . 1 1 10 10 LYS HB3  H 1  1.81 . . 1 . . . . . . . 2575 1 
+       65 . 1 1 10 10 LYS HG2  H 1  1.46 . . 1 . . . . . . . 2575 1 
+       66 . 1 1 10 10 LYS HG3  H 1  1.46 . . 1 . . . . . . . 2575 1 
+       67 . 1 1 11 11 THR H    H 1  8.71 . . 1 . . . . . . . 2575 1 
+       68 . 1 1 11 11 THR HA   H 1  4.37 . . 1 . . . . . . . 2575 1 
+       69 . 1 1 11 11 THR HB   H 1  4.19 . . 1 . . . . . . . 2575 1 
+       70 . 1 1 11 11 THR HG21 H 1  1.12 . . 1 . . . . . . . 2575 1 
+       71 . 1 1 11 11 THR HG22 H 1  1.12 . . 1 . . . . . . . 2575 1 
+       72 . 1 1 11 11 THR HG23 H 1  1.12 . . 1 . . . . . . . 2575 1 
+       73 . 1 1 12 12 LEU H    H 1  7.55 . . 1 . . . . . . . 2575 1 
+       74 . 1 1 12 12 LEU HA   H 1  4.42 . . 1 . . . . . . . 2575 1 
+       75 . 1 1 12 12 LEU HB2  H 1  1.37 . . 1 . . . . . . . 2575 1 
+       76 . 1 1 12 12 LEU HB3  H 1  1.37 . . 1 . . . . . . . 2575 1 
+       77 . 1 1 12 12 LEU HG   H 1  1.34 . . 1 . . . . . . . 2575 1 
+       78 . 1 1 12 12 LEU HD11 H 1   .77 . . 2 . . . . . . . 2575 1 
+       79 . 1 1 12 12 LEU HD12 H 1   .77 . . 2 . . . . . . . 2575 1 
+       80 . 1 1 12 12 LEU HD13 H 1   .77 . . 2 . . . . . . . 2575 1 
+       81 . 1 1 12 12 LEU HD21 H 1   .87 . . 2 . . . . . . . 2575 1 
+       82 . 1 1 12 12 LEU HD22 H 1   .87 . . 2 . . . . . . . 2575 1 
+       83 . 1 1 12 12 LEU HD23 H 1   .87 . . 2 . . . . . . . 2575 1 
+       84 . 1 1 13 13 LYS H    H 1  8.07 . . 1 . . . . . . . 2575 1 
+       85 . 1 1 13 13 LYS HA   H 1  5.08 . . 1 . . . . . . . 2575 1 
+       86 . 1 1 13 13 LYS HB2  H 1  1.87 . . 2 . . . . . . . 2575 1 
+       87 . 1 1 13 13 LYS HB3  H 1  1.73 . . 2 . . . . . . . 2575 1 
+       88 . 1 1 13 13 LYS HG2  H 1  1.44 . . 1 . . . . . . . 2575 1 
+       89 . 1 1 13 13 LYS HG3  H 1  1.44 . . 1 . . . . . . . 2575 1 
+       90 . 1 1 14 14 GLY H    H 1  8.29 . . 1 . . . . . . . 2575 1 
+       91 . 1 1 14 14 GLY HA2  H 1  4.21 . . 2 . . . . . . . 2575 1 
+       92 . 1 1 14 14 GLY HA3  H 1  4.18 . . 2 . . . . . . . 2575 1 
+       93 . 1 1 15 15 GLU H    H 1  8.36 . . 1 . . . . . . . 2575 1 
+       94 . 1 1 15 15 GLU HA   H 1  5.61 . . 1 . . . . . . . 2575 1 
+       95 . 1 1 15 15 GLU HB2  H 1  1.93 . . 2 . . . . . . . 2575 1 
+       96 . 1 1 15 15 GLU HB3  H 1  2.03 . . 2 . . . . . . . 2575 1 
+       97 . 1 1 15 15 GLU HG2  H 1  2.18 . . 1 . . . . . . . 2575 1 
+       98 . 1 1 15 15 GLU HG3  H 1  2.18 . . 1 . . . . . . . 2575 1 
+       99 . 1 1 16 16 THR H    H 1  8.8  . . 1 . . . . . . . 2575 1 
+      100 . 1 1 16 16 THR HA   H 1  4.73 . . 1 . . . . . . . 2575 1 
+      101 . 1 1 16 16 THR HB   H 1  3.95 . . 1 . . . . . . . 2575 1 
+      102 . 1 1 16 16 THR HG21 H 1   .5  . . 1 . . . . . . . 2575 1 
+      103 . 1 1 16 16 THR HG22 H 1   .5  . . 1 . . . . . . . 2575 1 
+      104 . 1 1 16 16 THR HG23 H 1   .5  . . 1 . . . . . . . 2575 1 
+      105 . 1 1 17 17 THR H    H 1  8.13 . . 1 . . . . . . . 2575 1 
+      106 . 1 1 17 17 THR HA   H 1  5.83 . . 1 . . . . . . . 2575 1 
+      107 . 1 1 17 17 THR HB   H 1  4.29 . . 1 . . . . . . . 2575 1 
+      108 . 1 1 17 17 THR HG21 H 1  1.2  . . 1 . . . . . . . 2575 1 
+      109 . 1 1 17 17 THR HG22 H 1  1.2  . . 1 . . . . . . . 2575 1 
+      110 . 1 1 17 17 THR HG23 H 1  1.2  . . 1 . . . . . . . 2575 1 
+      111 . 1 1 18 18 THR H    H 1  9.01 . . 1 . . . . . . . 2575 1 
+      112 . 1 1 18 18 THR HA   H 1  4.65 . . 1 . . . . . . . 2575 1 
+      113 . 1 1 18 18 THR HB   H 1  3.78 . . 1 . . . . . . . 2575 1 
+      114 . 1 1 18 18 THR HG21 H 1   .43 . . 1 . . . . . . . 2575 1 
+      115 . 1 1 18 18 THR HG22 H 1   .43 . . 1 . . . . . . . 2575 1 
+      116 . 1 1 18 18 THR HG23 H 1   .43 . . 1 . . . . . . . 2575 1 
+      117 . 1 1 19 19 LYS H    H 1  7.94 . . 1 . . . . . . . 2575 1 
+      118 . 1 1 19 19 LYS HA   H 1  5.39 . . 1 . . . . . . . 2575 1 
+      119 . 1 1 19 19 LYS HB2  H 1  1.7  . . 1 . . . . . . . 2575 1 
+      120 . 1 1 19 19 LYS HB3  H 1  1.7  . . 1 . . . . . . . 2575 1 
+      121 . 1 1 19 19 LYS HG2  H 1  1.45 . . 1 . . . . . . . 2575 1 
+      122 . 1 1 19 19 LYS HG3  H 1  1.45 . . 1 . . . . . . . 2575 1 
+      123 . 1 1 20 20 ALA H    H 1  9.07 . . 1 . . . . . . . 2575 1 
+      124 . 1 1 20 20 ALA HA   H 1  4.79 . . 1 . . . . . . . 2575 1 
+      125 . 1 1 20 20 ALA HB1  H 1  1.34 . . 1 . . . . . . . 2575 1 
+      126 . 1 1 20 20 ALA HB2  H 1  1.34 . . 1 . . . . . . . 2575 1 
+      127 . 1 1 20 20 ALA HB3  H 1  1.34 . . 1 . . . . . . . 2575 1 
+      128 . 1 1 21 21 VAL H    H 1  8.5  . . 1 . . . . . . . 2575 1 
+      129 . 1 1 21 21 VAL HA   H 1  4.13 . . 1 . . . . . . . 2575 1 
+      130 . 1 1 21 21 VAL HB   H 1  2.19 . . 1 . . . . . . . 2575 1 
+      131 . 1 1 21 21 VAL HG11 H 1   .98 . . 1 . . . . . . . 2575 1 
+      132 . 1 1 21 21 VAL HG12 H 1   .98 . . 1 . . . . . . . 2575 1 
+      133 . 1 1 21 21 VAL HG13 H 1   .98 . . 1 . . . . . . . 2575 1 
+      134 . 1 1 21 21 VAL HG21 H 1   .98 . . 1 . . . . . . . 2575 1 
+      135 . 1 1 21 21 VAL HG22 H 1   .98 . . 1 . . . . . . . 2575 1 
+      136 . 1 1 21 21 VAL HG23 H 1   .98 . . 1 . . . . . . . 2575 1 
+      137 . 1 1 22 22 ASP H    H 1  7.32 . . 1 . . . . . . . 2575 1 
+      138 . 1 1 22 22 ASP HA   H 1  4.73 . . 1 . . . . . . . 2575 1 
+      139 . 1 1 22 22 ASP HB2  H 1  2.93 . . 2 . . . . . . . 2575 1 
+      140 . 1 1 22 22 ASP HB3  H 1  3.08 . . 2 . . . . . . . 2575 1 
+      141 . 1 1 23 23 ALA H    H 1  8.32 . . 1 . . . . . . . 2575 1 
+      142 . 1 1 23 23 ALA HA   H 1  3.32 . . 1 . . . . . . . 2575 1 
+      143 . 1 1 23 23 ALA HB1  H 1  1.17 . . 1 . . . . . . . 2575 1 
+      144 . 1 1 23 23 ALA HB2  H 1  1.17 . . 1 . . . . . . . 2575 1 
+      145 . 1 1 23 23 ALA HB3  H 1  1.17 . . 1 . . . . . . . 2575 1 
+      146 . 1 1 24 24 GLU H    H 1  8.35 . . 1 . . . . . . . 2575 1 
+      147 . 1 1 24 24 GLU HA   H 1  3.86 . . 1 . . . . . . . 2575 1 
+      148 . 1 1 24 24 GLU HB2  H 1  1.82 . . 2 . . . . . . . 2575 1 
+      149 . 1 1 24 24 GLU HB3  H 1  1.98 . . 2 . . . . . . . 2575 1 
+      150 . 1 1 24 24 GLU HG2  H 1  2.21 . . 1 . . . . . . . 2575 1 
+      151 . 1 1 24 24 GLU HG3  H 1  2.21 . . 1 . . . . . . . 2575 1 
+      152 . 1 1 25 25 THR H    H 1  8.33 . . 1 . . . . . . . 2575 1 
+      153 . 1 1 25 25 THR HA   H 1  3.67 . . 1 . . . . . . . 2575 1 
+      154 . 1 1 25 25 THR HB   H 1  3.98 . . 1 . . . . . . . 2575 1 
+      155 . 1 1 25 25 THR HG21 H 1  1.22 . . 1 . . . . . . . 2575 1 
+      156 . 1 1 25 25 THR HG22 H 1  1.22 . . 1 . . . . . . . 2575 1 
+      157 . 1 1 25 25 THR HG23 H 1  1.22 . . 1 . . . . . . . 2575 1 
+      158 . 1 1 26 26 ALA H    H 1  7.23 . . 1 . . . . . . . 2575 1 
+      159 . 1 1 26 26 ALA HA   H 1  3.21 . . 1 . . . . . . . 2575 1 
+      160 . 1 1 26 26 ALA HB1  H 1   .52 . . 1 . . . . . . . 2575 1 
+      161 . 1 1 26 26 ALA HB2  H 1   .52 . . 1 . . . . . . . 2575 1 
+      162 . 1 1 26 26 ALA HB3  H 1   .52 . . 1 . . . . . . . 2575 1 
+      163 . 1 1 27 27 GLU H    H 1  8.33 . . 1 . . . . . . . 2575 1 
+      164 . 1 1 27 27 GLU HA   H 1  2.64 . . 1 . . . . . . . 2575 1 
+      165 . 1 1 27 27 GLU HB2  H 1  1.84 . . 2 . . . . . . . 2575 1 
+      166 . 1 1 27 27 GLU HB3  H 1  1.89 . . 2 . . . . . . . 2575 1 
+      167 . 1 1 27 27 GLU HG2  H 1  1.59 . . 1 . . . . . . . 2575 1 
+      168 . 1 1 27 27 GLU HG3  H 1  1.59 . . 1 . . . . . . . 2575 1 
+      169 . 1 1 28 28 LYS H    H 1  7.19 . . 1 . . . . . . . 2575 1 
+      170 . 1 1 28 28 LYS HA   H 1  3.67 . . 1 . . . . . . . 2575 1 
+      171 . 1 1 28 28 LYS HB2  H 1  1.74 . . 1 . . . . . . . 2575 1 
+      172 . 1 1 28 28 LYS HB3  H 1  1.74 . . 1 . . . . . . . 2575 1 
+      173 . 1 1 28 28 LYS HG2  H 1  1.53 . . 1 . . . . . . . 2575 1 
+      174 . 1 1 28 28 LYS HG3  H 1  1.53 . . 1 . . . . . . . 2575 1 
+      175 . 1 1 29 29 ALA H    H 1  7.19 . . 1 . . . . . . . 2575 1 
+      176 . 1 1 29 29 ALA HA   H 1  4.1  . . 1 . . . . . . . 2575 1 
+      177 . 1 1 29 29 ALA HB1  H 1  1.21 . . 1 . . . . . . . 2575 1 
+      178 . 1 1 29 29 ALA HB2  H 1  1.21 . . 1 . . . . . . . 2575 1 
+      179 . 1 1 29 29 ALA HB3  H 1  1.21 . . 1 . . . . . . . 2575 1 
+      180 . 1 1 30 30 PHE H    H 1  8.57 . . 1 . . . . . . . 2575 1 
+      181 . 1 1 30 30 PHE HA   H 1  4.78 . . 1 . . . . . . . 2575 1 
+      182 . 1 1 30 30 PHE HB2  H 1  2.84 . . 2 . . . . . . . 2575 1 
+      183 . 1 1 30 30 PHE HB3  H 1  3.35 . . 2 . . . . . . . 2575 1 
+      184 . 1 1 30 30 PHE HD1  H 1  6.57 . . 1 . . . . . . . 2575 1 
+      185 . 1 1 30 30 PHE HD2  H 1  6.57 . . 1 . . . . . . . 2575 1 
+      186 . 1 1 30 30 PHE HE1  H 1  7.07 . . 1 . . . . . . . 2575 1 
+      187 . 1 1 30 30 PHE HE2  H 1  7.07 . . 1 . . . . . . . 2575 1 
+      188 . 1 1 30 30 PHE HZ   H 1  7.19 . . 1 . . . . . . . 2575 1 
+      189 . 1 1 31 31 LYS H    H 1  9    . . 1 . . . . . . . 2575 1 
+      190 . 1 1 31 31 LYS HA   H 1  4.1  . . 1 . . . . . . . 2575 1 
+      191 . 1 1 31 31 LYS HB2  H 1  1.62 . . 2 . . . . . . . 2575 1 
+      192 . 1 1 31 31 LYS HB3  H 1  1.54 . . 2 . . . . . . . 2575 1 
+      193 . 1 1 31 31 LYS HG2  H 1   .43 . . 2 . . . . . . . 2575 1 
+      194 . 1 1 31 31 LYS HG3  H 1   .77 . . 2 . . . . . . . 2575 1 
+      195 . 1 1 31 31 LYS HD2  H 1  1.08 . . 2 . . . . . . . 2575 1 
+      196 . 1 1 31 31 LYS HD3  H 1  1.61 . . 2 . . . . . . . 2575 1 
+      197 . 1 1 32 32 GLN H    H 1  7.48 . . 1 . . . . . . . 2575 1 
+      198 . 1 1 32 32 GLN HA   H 1  4.03 . . 1 . . . . . . . 2575 1 
+      199 . 1 1 32 32 GLN HB2  H 1  2.19 . . 1 . . . . . . . 2575 1 
+      200 . 1 1 32 32 GLN HB3  H 1  2.19 . . 1 . . . . . . . 2575 1 
+      201 . 1 1 32 32 GLN HG2  H 1  2.4  . . 1 . . . . . . . 2575 1 
+      202 . 1 1 32 32 GLN HG3  H 1  2.4  . . 1 . . . . . . . 2575 1 
+      203 . 1 1 32 32 GLN HE21 H 1  6.84 . . 2 . . . . . . . 2575 1 
+      204 . 1 1 32 32 GLN HE22 H 1  7.82 . . 2 . . . . . . . 2575 1 
+      205 . 1 1 33 33 TYR H    H 1  8.05 . . 1 . . . . . . . 2575 1 
+      206 . 1 1 33 33 TYR HA   H 1  4.24 . . 1 . . . . . . . 2575 1 
+      207 . 1 1 33 33 TYR HB2  H 1  3.29 . . 1 . . . . . . . 2575 1 
+      208 . 1 1 33 33 TYR HB3  H 1  3.29 . . 1 . . . . . . . 2575 1 
+      209 . 1 1 33 33 TYR HD1  H 1  6.96 . . 1 . . . . . . . 2575 1 
+      210 . 1 1 33 33 TYR HD2  H 1  6.96 . . 1 . . . . . . . 2575 1 
+      211 . 1 1 33 33 TYR HE1  H 1  6.69 . . 1 . . . . . . . 2575 1 
+      212 . 1 1 33 33 TYR HE2  H 1  6.69 . . 1 . . . . . . . 2575 1 
+      213 . 1 1 34 34 ALA H    H 1  9.2  . . 1 . . . . . . . 2575 1 
+      214 . 1 1 34 34 ALA HA   H 1  3.77 . . 1 . . . . . . . 2575 1 
+      215 . 1 1 34 34 ALA HB1  H 1  1.81 . . 1 . . . . . . . 2575 1 
+      216 . 1 1 34 34 ALA HB2  H 1  1.81 . . 1 . . . . . . . 2575 1 
+      217 . 1 1 34 34 ALA HB3  H 1  1.81 . . 1 . . . . . . . 2575 1 
+      218 . 1 1 35 35 ASN H    H 1  8.4  . . 1 . . . . . . . 2575 1 
+      219 . 1 1 35 35 ASN HA   H 1  4.46 . . 1 . . . . . . . 2575 1 
+      220 . 1 1 35 35 ASN HB2  H 1  2.93 . . 1 . . . . . . . 2575 1 
+      221 . 1 1 35 35 ASN HB3  H 1  2.93 . . 1 . . . . . . . 2575 1 
+      222 . 1 1 35 35 ASN HD21 H 1  6.92 . . 2 . . . . . . . 2575 1 
+      223 . 1 1 35 35 ASN HD22 H 1  7.6  . . 2 . . . . . . . 2575 1 
+      224 . 1 1 36 36 ASP H    H 1  8.74 . . 1 . . . . . . . 2575 1 
+      225 . 1 1 36 36 ASP HA   H 1  4.37 . . 1 . . . . . . . 2575 1 
+      226 . 1 1 36 36 ASP HB2  H 1  2.56 . . 2 . . . . . . . 2575 1 
+      227 . 1 1 36 36 ASP HB3  H 1  2.73 . . 2 . . . . . . . 2575 1 
+      228 . 1 1 37 37 ASN H    H 1  7.36 . . 1 . . . . . . . 2575 1 
+      229 . 1 1 37 37 ASN HA   H 1  4.62 . . 1 . . . . . . . 2575 1 
+      230 . 1 1 37 37 ASN HB2  H 1  2.07 . . 2 . . . . . . . 2575 1 
+      231 . 1 1 37 37 ASN HB3  H 1  2.69 . . 2 . . . . . . . 2575 1 
+      232 . 1 1 37 37 ASN HD21 H 1  6.34 . . 2 . . . . . . . 2575 1 
+      233 . 1 1 37 37 ASN HD22 H 1  6.62 . . 2 . . . . . . . 2575 1 
+      234 . 1 1 38 38 GLY H    H 1  7.77 . . 1 . . . . . . . 2575 1 
+      235 . 1 1 38 38 GLY HA2  H 1  3.91 . . 1 . . . . . . . 2575 1 
+      236 . 1 1 38 38 GLY HA3  H 1  3.91 . . 1 . . . . . . . 2575 1 
+      237 . 1 1 39 39 VAL H    H 1  8.11 . . 1 . . . . . . . 2575 1 
+      238 . 1 1 39 39 VAL HA   H 1  4.13 . . 1 . . . . . . . 2575 1 
+      239 . 1 1 39 39 VAL HB   H 1  1.76 . . 1 . . . . . . . 2575 1 
+      240 . 1 1 39 39 VAL HG11 H 1   .65 . . 2 . . . . . . . 2575 1 
+      241 . 1 1 39 39 VAL HG12 H 1   .65 . . 2 . . . . . . . 2575 1 
+      242 . 1 1 39 39 VAL HG13 H 1   .65 . . 2 . . . . . . . 2575 1 
+      243 . 1 1 39 39 VAL HG21 H 1   .77 . . 2 . . . . . . . 2575 1 
+      244 . 1 1 39 39 VAL HG22 H 1   .77 . . 2 . . . . . . . 2575 1 
+      245 . 1 1 39 39 VAL HG23 H 1   .77 . . 2 . . . . . . . 2575 1 
+      246 . 1 1 40 40 ASP H    H 1  8.61 . . 1 . . . . . . . 2575 1 
+      247 . 1 1 40 40 ASP HA   H 1  4.88 . . 1 . . . . . . . 2575 1 
+      248 . 1 1 40 40 ASP HB2  H 1  2.59 . . 2 . . . . . . . 2575 1 
+      249 . 1 1 40 40 ASP HB3  H 1  2.74 . . 2 . . . . . . . 2575 1 
+      250 . 1 1 41 41 GLY H    H 1  7.91 . . 1 . . . . . . . 2575 1 
+      251 . 1 1 41 41 GLY HA2  H 1  3.61 . . 2 . . . . . . . 2575 1 
+      252 . 1 1 41 41 GLY HA3  H 1  4.29 . . 2 . . . . . . . 2575 1 
+      253 . 1 1 42 42 VAL H    H 1  8.24 . . 1 . . . . . . . 2575 1 
+      254 . 1 1 42 42 VAL HA   H 1  4.39 . . 1 . . . . . . . 2575 1 
+      255 . 1 1 42 42 VAL HB   H 1  1.96 . . 1 . . . . . . . 2575 1 
+      256 . 1 1 42 42 VAL HG11 H 1   .98 . . 2 . . . . . . . 2575 1 
+      257 . 1 1 42 42 VAL HG12 H 1   .98 . . 2 . . . . . . . 2575 1 
+      258 . 1 1 42 42 VAL HG13 H 1   .98 . . 2 . . . . . . . 2575 1 
+      259 . 1 1 42 42 VAL HG21 H 1  1.03 . . 2 . . . . . . . 2575 1 
+      260 . 1 1 42 42 VAL HG22 H 1  1.03 . . 2 . . . . . . . 2575 1 
+      261 . 1 1 42 42 VAL HG23 H 1  1.03 . . 2 . . . . . . . 2575 1 
+      262 . 1 1 43 43 TRP H    H 1  9.27 . . 1 . . . . . . . 2575 1 
+      263 . 1 1 43 43 TRP HA   H 1  5.34 . . 1 . . . . . . . 2575 1 
+      264 . 1 1 43 43 TRP HB2  H 1  3.3  . . 2 . . . . . . . 2575 1 
+      265 . 1 1 43 43 TRP HB3  H 1  3.15 . . 2 . . . . . . . 2575 1 
+      266 . 1 1 43 43 TRP HD1  H 1  7.51 . . 1 . . . . . . . 2575 1 
+      267 . 1 1 43 43 TRP HE1  H 1 10.45 . . 1 . . . . . . . 2575 1 
+      268 . 1 1 43 43 TRP HE3  H 1  7.55 . . 1 . . . . . . . 2575 1 
+      269 . 1 1 43 43 TRP HZ2  H 1  7.27 . . 1 . . . . . . . 2575 1 
+      270 . 1 1 43 43 TRP HZ3  H 1  6.6  . . 1 . . . . . . . 2575 1 
+      271 . 1 1 43 43 TRP HH2  H 1  6.71 . . 1 . . . . . . . 2575 1 
+      272 . 1 1 44 44 THR H    H 1  9.36 . . 1 . . . . . . . 2575 1 
+      273 . 1 1 44 44 THR HA   H 1  4.84 . . 1 . . . . . . . 2575 1 
+      274 . 1 1 44 44 THR HB   H 1  4.26 . . 1 . . . . . . . 2575 1 
+      275 . 1 1 44 44 THR HG21 H 1  1.16 . . 1 . . . . . . . 2575 1 
+      276 . 1 1 44 44 THR HG22 H 1  1.16 . . 1 . . . . . . . 2575 1 
+      277 . 1 1 44 44 THR HG23 H 1  1.16 . . 1 . . . . . . . 2575 1 
+      278 . 1 1 45 45 TYR H    H 1  8.55 . . 1 . . . . . . . 2575 1 
+      279 . 1 1 45 45 TYR HA   H 1  4.97 . . 1 . . . . . . . 2575 1 
+      280 . 1 1 45 45 TYR HB2  H 1  2.49 . . 2 . . . . . . . 2575 1 
+      281 . 1 1 45 45 TYR HB3  H 1  2.87 . . 2 . . . . . . . 2575 1 
+      282 . 1 1 45 45 TYR HD1  H 1  5.91 . . 1 . . . . . . . 2575 1 
+      283 . 1 1 45 45 TYR HD2  H 1  5.91 . . 1 . . . . . . . 2575 1 
+      284 . 1 1 45 45 TYR HE1  H 1  6.33 . . 1 . . . . . . . 2575 1 
+      285 . 1 1 45 45 TYR HE2  H 1  6.33 . . 1 . . . . . . . 2575 1 
+      286 . 1 1 46 46 ASP H    H 1  7.57 . . 1 . . . . . . . 2575 1 
+      287 . 1 1 46 46 ASP HA   H 1  4.58 . . 1 . . . . . . . 2575 1 
+      288 . 1 1 46 46 ASP HB2  H 1  2.26 . . 2 . . . . . . . 2575 1 
+      289 . 1 1 46 46 ASP HB3  H 1  2.59 . . 2 . . . . . . . 2575 1 
+      290 . 1 1 47 47 ASP H    H 1  8.54 . . 1 . . . . . . . 2575 1 
+      291 . 1 1 47 47 ASP HA   H 1  4.11 . . 1 . . . . . . . 2575 1 
+      292 . 1 1 47 47 ASP HB2  H 1  2.51 . . 2 . . . . . . . 2575 1 
+      293 . 1 1 47 47 ASP HB3  H 1  2.81 . . 2 . . . . . . . 2575 1 
+      294 . 1 1 48 48 ALA H    H 1  8.29 . . 1 . . . . . . . 2575 1 
+      295 . 1 1 48 48 ALA HA   H 1  4.1  . . 1 . . . . . . . 2575 1 
+      296 . 1 1 48 48 ALA HB1  H 1  1.48 . . 1 . . . . . . . 2575 1 
+      297 . 1 1 48 48 ALA HB2  H 1  1.48 . . 1 . . . . . . . 2575 1 
+      298 . 1 1 48 48 ALA HB3  H 1  1.48 . . 1 . . . . . . . 2575 1 
+      299 . 1 1 49 49 THR H    H 1  6.98 . . 1 . . . . . . . 2575 1 
+      300 . 1 1 49 49 THR HA   H 1  4.38 . . 1 . . . . . . . 2575 1 
+      301 . 1 1 49 49 THR HB   H 1  4.38 . . 1 . . . . . . . 2575 1 
+      302 . 1 1 49 49 THR HG21 H 1  1.06 . . 1 . . . . . . . 2575 1 
+      303 . 1 1 49 49 THR HG22 H 1  1.06 . . 1 . . . . . . . 2575 1 
+      304 . 1 1 49 49 THR HG23 H 1  1.06 . . 1 . . . . . . . 2575 1 
+      305 . 1 1 50 50 LYS H    H 1  7.84 . . 1 . . . . . . . 2575 1 
+      306 . 1 1 50 50 LYS HA   H 1  4.18 . . 1 . . . . . . . 2575 1 
+      307 . 1 1 50 50 LYS HB2  H 1  2.22 . . 2 . . . . . . . 2575 1 
+      308 . 1 1 50 50 LYS HB3  H 1  2.07 . . 2 . . . . . . . 2575 1 
+      309 . 1 1 50 50 LYS HG2  H 1  1.73 . . 1 . . . . . . . 2575 1 
+      310 . 1 1 50 50 LYS HG3  H 1  1.73 . . 1 . . . . . . . 2575 1 
+      311 . 1 1 51 51 THR H    H 1  7.39 . . 1 . . . . . . . 2575 1 
+      312 . 1 1 51 51 THR HA   H 1  5.45 . . 1 . . . . . . . 2575 1 
+      313 . 1 1 51 51 THR HB   H 1  3.74 . . 1 . . . . . . . 2575 1 
+      314 . 1 1 51 51 THR HG21 H 1   .97 . . 1 . . . . . . . 2575 1 
+      315 . 1 1 51 51 THR HG22 H 1   .97 . . 1 . . . . . . . 2575 1 
+      316 . 1 1 51 51 THR HG23 H 1   .97 . . 1 . . . . . . . 2575 1 
+      317 . 1 1 52 52 PHE H    H 1 10.36 . . 1 . . . . . . . 2575 1 
+      318 . 1 1 52 52 PHE HA   H 1  5.63 . . 1 . . . . . . . 2575 1 
+      319 . 1 1 52 52 PHE HB2  H 1  3.2  . . 2 . . . . . . . 2575 1 
+      320 . 1 1 52 52 PHE HB3  H 1  3.25 . . 2 . . . . . . . 2575 1 
+      321 . 1 1 52 52 PHE HD1  H 1  7.75 . . 1 . . . . . . . 2575 1 
+      322 . 1 1 52 52 PHE HD2  H 1  7.75 . . 1 . . . . . . . 2575 1 
+      323 . 1 1 52 52 PHE HE1  H 1  7.08 . . 1 . . . . . . . 2575 1 
+      324 . 1 1 52 52 PHE HE2  H 1  7.08 . . 1 . . . . . . . 2575 1 
+      325 . 1 1 52 52 PHE HZ   H 1  6.94 . . 1 . . . . . . . 2575 1 
+      326 . 1 1 53 53 THR H    H 1  9.13 . . 1 . . . . . . . 2575 1 
+      327 . 1 1 53 53 THR HA   H 1  5.27 . . 1 . . . . . . . 2575 1 
+      328 . 1 1 53 53 THR HB   H 1  3.79 . . 1 . . . . . . . 2575 1 
+      329 . 1 1 53 53 THR HG21 H 1   .95 . . 1 . . . . . . . 2575 1 
+      330 . 1 1 53 53 THR HG22 H 1   .95 . . 1 . . . . . . . 2575 1 
+      331 . 1 1 53 53 THR HG23 H 1   .95 . . 1 . . . . . . . 2575 1 
+      332 . 1 1 54 54 VAL H    H 1  8.27 . . 1 . . . . . . . 2575 1 
+      333 . 1 1 54 54 VAL HA   H 1  4.47 . . 1 . . . . . . . 2575 1 
+      334 . 1 1 54 54 VAL HB   H 1  -.29 . . 1 . . . . . . . 2575 1 
+      335 . 1 1 54 54 VAL HG11 H 1   .37 . . 2 . . . . . . . 2575 1 
+      336 . 1 1 54 54 VAL HG12 H 1   .37 . . 2 . . . . . . . 2575 1 
+      337 . 1 1 54 54 VAL HG13 H 1   .37 . . 2 . . . . . . . 2575 1 
+      338 . 1 1 54 54 VAL HG21 H 1   .34 . . 2 . . . . . . . 2575 1 
+      339 . 1 1 54 54 VAL HG22 H 1   .34 . . 2 . . . . . . . 2575 1 
+      340 . 1 1 54 54 VAL HG23 H 1   .34 . . 2 . . . . . . . 2575 1 
+      341 . 1 1 55 55 THR H    H 1  8.33 . . 1 . . . . . . . 2575 1 
+      342 . 1 1 55 55 THR HA   H 1  4.73 . . 1 . . . . . . . 2575 1 
+      343 . 1 1 55 55 THR HB   H 1  3.8  . . 1 . . . . . . . 2575 1 
+      344 . 1 1 55 55 THR HG21 H 1  1.23 . . 1 . . . . . . . 2575 1 
+      345 . 1 1 55 55 THR HG22 H 1  1.23 . . 1 . . . . . . . 2575 1 
+      346 . 1 1 55 55 THR HG23 H 1  1.23 . . 1 . . . . . . . 2575 1 
+      347 . 1 1 56 56 GLU H    H 1  7.88 . . 1 . . . . . . . 2575 1 
+      348 . 1 1 56 56 GLU HA   H 1  4.3  . . 1 . . . . . . . 2575 1 
+      349 . 1 1 56 56 GLU HB2  H 1  1.95 . . 2 . . . . . . . 2575 1 
+      350 . 1 1 56 56 GLU HB3  H 1  2.16 . . 2 . . . . . . . 2575 1 
+      351 . 1 1 56 56 GLU HG2  H 1  2.31 . . 1 . . . . . . . 2575 1 
+      352 . 1 1 56 56 GLU HG3  H 1  2.31 . . 1 . . . . . . . 2575 1 
+
+   stop_
+
+save_
+

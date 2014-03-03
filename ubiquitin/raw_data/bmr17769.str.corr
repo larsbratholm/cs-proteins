@@ -1,0 +1,2254 @@
+Thu Dec 20 06:16:48 2012 1UBI_ ---- temp.str
+--------------------------------------------------
+data_17769
+
+#N.B. (Observed* = Observed shift + Offset correction)
+#
+#After reference correction, the following residues still 
+#have a CO chemical shift difference (obs*-pred) greater than  5.0ppm:
+#NUM  AA    CS     Observed*    Predicted
+# 76   G    C      178.88       172.55
+#
+#The average CS difference between predicted and observed:
+#HA       CA       CB      CO       N      HN
+#-0.04   -0.09   -0.05   -0.27   1.01    0.09    
+#
+#../tmp/ThuDec200616482012.in.corr chemical shifts have been re-referenced with the following 
+#offsets (these values have been added to the original ../tmp/ThuDec200616482012.in file):
+#HA       CA       CB      CO       N      HN
+#N/A    -0.07   -0.07   -0.27   +1.01     N/A
+#
+#The 95% confidence intervals for the above recommended offsets are:
+#    HA       CA       CB       CO       N        HN
+#+/-0.03  +/-0.13  +/-0.15  +/-0.16  +/-0.38  +/-0.07  
+#
+#The Correlation Coefficients between predicted and observed 
+#chemical shifts are:
+#HA       CA       CB      CO       N      HN
+#0.896   0.978   0.997   0.812   0.910   0.726   
+#
+#The RMSD between predicted and observed* (reference 
+#corrected) chemical shifts are:
+#HA       CA       CB      CO       N       HN
+#0.149   0.588   0.630   0.685   1.618   0.297   
+#
+
+
+
+#######################
+#  Entry information  #
+#######################
+
+save_entry_information
+   _Entry.Sf_category                    entry_information
+   _Entry.Sf_framecode                   entry_information
+   _Entry.ID                             17769
+   _Entry.Title                         
+;
+UBIQUITIN NMR STRUCTURE
+;
+   _Entry.Version_type                   original
+   _Entry.Submission_date                2011-07-07
+   _Entry.Accession_date                 2011-07-07
+   _Entry.Last_release_date              .
+   _Entry.Original_release_date          .
+   _Entry.Origination                    author
+   _Entry.NMR_STAR_version               3.1.0.52
+   _Entry.Original_NMR_STAR_version      3.1
+   _Entry.Experimental_method            NMR
+   _Entry.Experimental_method_subtype   'SOLUTION NMR'
+   _Entry.Details                        .
+   _Entry.BMRB_internal_directory_name   .
+
+   loop_
+      _Entry_author.Ordinal
+      _Entry_author.Given_name
+      _Entry_author.Family_name
+      _Entry_author.First_initial
+      _Entry_author.Middle_initials
+      _Entry_author.Family_title
+      _Entry_author.Entry_ID
+
+      1 G. Cornilescu . .  . 17769 
+      2 J. Marquardt  . L. . 17769 
+      3 M. Ottiger    . .  . 17769 
+      4 A. Bax        . .  . 17769 
+
+   stop_
+
+   loop_
+      _Struct_keywords.Keywords
+      _Struct_keywords.Text
+      _Struct_keywords.Entry_ID
+
+      'UBIQUITIN NMR LIQUID CRYSTAL DIPOLAR COUPLING' . 17769 
+       HYDROLASE                                      . 17769 
+
+   stop_
+
+   loop_
+      _Data_set.Type
+      _Data_set.Count
+      _Data_set.Entry_ID
+
+      assigned_chemical_shifts 1 17769 
+
+   stop_
+
+   loop_
+      _Datum.Type
+      _Datum.Count
+      _Datum.Entry_ID
+
+      '1H chemical shifts'  570 17769 
+      '13C chemical shifts' 348 17769 
+      '15N chemical shifts'  83 17769 
+
+   stop_
+
+   loop_
+      _Release.Release_number
+      _Release.Date
+      _Release.Submission_date
+      _Release.Type
+      _Release.Author
+      _Release.Detail
+      _Release.Entry_ID
+
+      1 2011-08-16 2011-07-07 original author . 17769 
+
+   stop_
+
+save_
+
+
+###############
+#  Citations  #
+###############
+
+save_citations
+   _Citation.Sf_category                  citations
+   _Citation.Sf_framecode                 citations
+   _Citation.Entry_ID                     17769
+   _Citation.ID                           1
+   _Citation.Class                       'entry citation'
+   _Citation.CAS_abstract_code            .
+   _Citation.MEDLINE_UI_code              .
+   _Citation.DOI                          .
+   _Citation.PubMed_ID                    .
+   _Citation.Full_citation                .
+   _Citation.Title                       'Validation of Protein Structure from Anisotropic Carbonyl Chemical Shifts in a Dilute Liquid Crystalline Phase'
+   _Citation.Status                       published
+   _Citation.Type                         journal
+   _Citation.Journal_abbrev              'J. Am. Chem. Soc.'
+   _Citation.Journal_name_full            .
+   _Citation.Journal_volume               120
+   _Citation.Journal_issue                .
+   _Citation.Journal_ASTM                 JACSAT
+   _Citation.Journal_ISSN                 0002-7863
+   _Citation.Journal_CSD                  .
+   _Citation.Book_title                   .
+   _Citation.Book_chapter_title           .
+   _Citation.Book_volume                  .
+   _Citation.Book_series                  .
+   _Citation.Book_publisher               .
+   _Citation.Book_publisher_city          .
+   _Citation.Book_ISBN                    .
+   _Citation.Conference_title             .
+   _Citation.Conference_site              .
+   _Citation.Conference_state_province    .
+   _Citation.Conference_country           .
+   _Citation.Conference_start_date        .
+   _Citation.Conference_end_date          .
+   _Citation.Conference_abstract_number   .
+   _Citation.Thesis_institution           .
+   _Citation.Thesis_institution_city      .
+   _Citation.Thesis_institution_country   .
+   _Citation.WWW_URL                      .
+   _Citation.Page_first                   6836
+   _Citation.Page_last                    6837
+   _Citation.Year                         1998
+   _Citation.Details                      .
+
+   loop_
+      _Citation_author.Ordinal
+      _Citation_author.Given_name
+      _Citation_author.Family_name
+      _Citation_author.First_initial
+      _Citation_author.Middle_initials
+      _Citation_author.Family_title
+      _Citation_author.Entry_ID
+      _Citation_author.Citation_ID
+
+      1 G. Cornilescu . .  . 17769 1 
+      2 J. Marquardt  . L. . 17769 1 
+      3 M. Ottiger    . .  . 17769 1 
+      4 A. Bax        . .  . 17769 1 
+
+   stop_
+
+save_
+
+
+#############################################
+#  Molecular system (assembly) description  #
+#############################################
+
+save_assembly
+   _Assembly.Sf_category                       assembly
+   _Assembly.Sf_framecode                      assembly
+   _Assembly.Entry_ID                          17769
+   _Assembly.ID                                1
+   _Assembly.Name                              Ubiquitin
+   _Assembly.BMRB_code                         .
+   _Assembly.Number_of_components              1
+   _Assembly.Organic_ligands                   .
+   _Assembly.Metal_ions                        .
+   _Assembly.Non_standard_bonds                .
+   _Assembly.Ambiguous_conformational_states   .
+   _Assembly.Ambiguous_chem_comp_sites         .
+   _Assembly.Molecules_in_chemical_exchange    .
+   _Assembly.Paramagnetic                      no
+   _Assembly.Thiol_state                       .
+   _Assembly.Molecular_mass                    .
+   _Assembly.Enzyme_commission_number          .
+   _Assembly.Details                           .
+   _Assembly.DB_query_date                     .
+   _Assembly.DB_query_revised_last_date        .
+
+   loop_
+      _Entity_assembly.ID
+      _Entity_assembly.Entity_assembly_name
+      _Entity_assembly.Entity_ID
+      _Entity_assembly.Entity_label
+      _Entity_assembly.Asym_ID
+      _Entity_assembly.PDB_chain_ID
+      _Entity_assembly.Experimental_data_reported
+      _Entity_assembly.Physical_state
+      _Entity_assembly.Conformational_isomer
+      _Entity_assembly.Chemical_exchange_state
+      _Entity_assembly.Magnetic_equivalence_group_code
+      _Entity_assembly.Role
+      _Entity_assembly.Details
+      _Entity_assembly.Entry_ID
+      _Entity_assembly.Assembly_ID
+
+      1 'PROTEIN (UBIQUITIN)' 1 $Ubiquitin A . yes native no no . . . 17769 1 
+
+   stop_
+
+save_
+
+
+    ####################################
+    #  Biological polymers and ligands #
+    ####################################
+
+save_Ubiquitin
+   _Entity.Sf_category                       entity
+   _Entity.Sf_framecode                      Ubiquitin
+   _Entity.Entry_ID                          17769
+   _Entity.ID                                1
+   _Entity.BMRB_code                         .
+   _Entity.Name                              Ubiquitin
+   _Entity.Type                              polymer
+   _Entity.Polymer_common_type               .
+   _Entity.Polymer_type                      polypeptide(L)
+   _Entity.Polymer_type_details              .
+   _Entity.Polymer_strand_ID                 A
+   _Entity.Polymer_seq_one_letter_code_can   .
+   _Entity.Polymer_seq_one_letter_code      
+;
+MQIFVKTLTGKTITLEVEPS
+DTIENVKAKIQDKEGIPPDQ
+QRLIFAGKQLEDGRTLSDYN
+IQKESTLHLVLRLRGG
+;
+   _Entity.Target_identifier                 .
+   _Entity.Polymer_author_defined_seq        .
+   _Entity.Polymer_author_seq_details        .
+   _Entity.Ambiguous_conformational_states   no
+   _Entity.Ambiguous_chem_comp_sites         no
+   _Entity.Nstd_monomer                      no
+   _Entity.Nstd_chirality                    no
+   _Entity.Nstd_linkage                      no
+   _Entity.Nonpolymer_comp_ID                .
+   _Entity.Nonpolymer_comp_label             .
+   _Entity.Number_of_monomers                76
+   _Entity.Number_of_nonpolymer_components   .
+   _Entity.Paramagnetic                      no
+   _Entity.Thiol_state                      'not present'
+   _Entity.Src_method                        man
+   _Entity.Parent_entity_ID                  .
+   _Entity.Fragment                          .
+   _Entity.Mutation                          .
+   _Entity.EC_number                         .
+   _Entity.Calc_isoelectric_point            .
+   _Entity.Formula_weight                    8576.914
+   _Entity.Formula_weight_exptl              .
+   _Entity.Formula_weight_exptl_meth         .
+   _Entity.Details                           .
+   _Entity.DB_query_date                     .
+   _Entity.DB_query_revised_last_date        2012-12-17
+
+   loop_
+      _Entity_db_link.Author_supplied
+      _Entity_db_link.Database_code
+      _Entity_db_link.Accession_code
+      _Entity_db_link.Entry_mol_code
+      _Entity_db_link.Entry_mol_name
+      _Entity_db_link.Entry_experimental_method
+      _Entity_db_link.Entry_structure_resolution
+      _Entity_db_link.Entry_relation_type
+      _Entity_db_link.Entry_details
+      _Entity_db_link.Chimera_segment_ID
+      _Entity_db_link.Seq_query_to_submitted_percent
+      _Entity_db_link.Seq_subject_length
+      _Entity_db_link.Seq_identity
+      _Entity_db_link.Seq_positive
+      _Entity_db_link.Seq_homology_expectation_val
+      _Entity_db_link.Seq_align_begin
+      _Entity_db_link.Seq_align_end
+      _Entity_db_link.Seq_difference_details
+      _Entity_db_link.Seq_alignment_details
+      _Entity_db_link.Entry_ID
+      _Entity_db_link.Entity_ID
+
+      no BMRB        15047 .  denatured_ubiquitin                                                                                                              . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no BMRB        15410 .  Ubi                                                                                                                              . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no BMRB        15689 .  UBB                                                                                                                              . . . . .  98.68  103  98.67 100.00 1.58e-44 . . . . 17769 1 
+      no BMRB        15866 .  ubiquitin                                                                                                                        . . . . .  98.68   76 100.00 100.00 1.01e-45 . . . . 17769 1 
+      no BMRB        15907 .  Ubiquitin                                                                                                                        . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no BMRB        16228 .  ubiquitin                                                                                                                        . . . . . 100.00   76  97.37  98.68 4.40e-45 . . . . 17769 1 
+      no BMRB        16582 .  Ubiquitin                                                                                                                        . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no BMRB        16626 .  Ubiquitin                                                                                                                        . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no BMRB        16763 .  ubiquitin                                                                                                                        . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no BMRB        16880 .  Ubiquitin                                                                                                                        . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no BMRB        16885 .  Ubiquitin                                                                                                                        . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no BMRB        16895 .  UBB+1                                                                                                                            . . . . .  98.68  103  98.67 100.00 1.58e-44 . . . . 17769 1 
+      no BMRB        17059 .  ubiquitin                                                                                                                        . . . . . 100.00  156 100.00 100.00 1.94e-46 . . . . 17769 1 
+      no BMRB        17181 .  ubiquitin                                                                                                                        . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no BMRB        17239 .  ubiquitin                                                                                                                        . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no BMRB        17333 .  UB                                                                                                                               . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no BMRB        17439 .  ubiquitin                                                                                                                        . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no BMRB        17919 .  entity                                                                                                                           . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no BMRB        18582 .  ubiquitin                                                                                                                        . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no BMRB        18583 .  ubiquitin                                                                                                                        . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no BMRB        18584 .  ubiquitin                                                                                                                        . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no BMRB         4245 .  ubiquitin                                                                                                                        . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no BMRB         4375 .  Ubiquitin                                                                                                                        . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no BMRB         4983 .  Ubiquitin                                                                                                                        . . . . .  98.68   76  97.33 100.00 1.36e-44 . . . . 17769 1 
+      no BMRB         5101 .  uq1_51                                                                                                                           . . . . .  67.11   53 100.00 100.00 7.96e-27 . . . . 17769 1 
+      no BMRB         5387 .  ubq                                                                                                                              . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no BMRB         6457 .  Ub                                                                                                                               . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no BMRB         6466 .  Ub                                                                                                                               . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no BMRB         6470 .  Ub                                                                                                                               . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no BMRB         6488 .  Ub                                                                                                                               . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no BMRB           68 .  ubiquitin                                                                                                                        . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no BMRB         7111 .  human_ubiquitin                                                                                                                  . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  1AAR          . "Structure Of A Diubiquitin Conjugate And A Model For Interaction With Ubiquitin Conjugating Enzyme (E2)"                         . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  1CMX          . "Structural Basis For The Specificity Of Ubiquitin C- Terminal Hydrolases"                                                        . . . . .  98.68   76 100.00 100.00 1.12e-45 . . . . 17769 1 
+      no PDB  1D3Z          . "Ubiquitin Nmr Structure"                                                                                                         . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  1F9J          . "Structure Of A New Crystal Form Of Tetraubiquitin"                                                                               . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  1FXT          . "Structure Of A Conjugating Enzyme-Ubiquitin Thiolester Complex"                                                                  . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  1G6J          . "Structure Of Recombinant Human Ubiquitin In Aot Reverse Micelles"                                                                . . . . .  98.68   76 100.00 100.00 1.92e-45 . . . . 17769 1 
+      no PDB  1GJZ          . "Solution Structure Of A Dimeric N-Terminal Fragment Of Human Ubiquitin"                                                          . . . . .  67.11   53 100.00 100.00 7.96e-27 . . . . 17769 1 
+      no PDB  1NBF          . "Crystal Structure Of A Ubp-Family Deubiquitinating Enzyme In Isolation And In Complex With Ubiquitin Aldehyde"                   . . . . .  98.68   76 100.00 100.00 1.12e-45 . . . . 17769 1 
+      no PDB  1OGW          . "Synthetic Ubiquitin With Fluoro-Leu At 50 And 67"                                                                                . . . . . 100.00   76  97.37  97.37 6.72e-45 . . . . 17769 1 
+      no PDB  1P3Q          . "Mechanism Of Ubiquitin Recognition By The Cue Domain Of Vps9"                                                                    . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  1Q5W          . "Ubiquitin Recognition By Npl4 Zinc-Fingers"                                                                                      . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  1S1Q          . "Tsg101(Uev) Domain In Complex With Ubiquitin"                                                                                    . . . . .  98.68   76 100.00 100.00 1.92e-45 . . . . 17769 1 
+      no PDB  1TBE          . "Structure Of Tetraubiquitin Shows How Multiubiquitin Chains Can Be Formed"                                                       . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  1UBI          . "Synthetic Structural And Biological Studies Of The Ubiquitin System. Part 1"                                                     . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  1UBQ          . "Structure Of Ubiquitin Refined At 1.8 Angstroms Resolution"                                                                      . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  1UZX          . "A Complex Of The Vps23 Uev With Ubiquitin"                                                                                       . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  1V80          . "Solution Structures Of Ubiquitin At 30 Bar And 3 Kbar"                                                                           . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  1V81          . "Solution Structures Of Ubiquitin At 30 Bar And 3 Kbar"                                                                           . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  1WR6          . "Crystal Structure Of Gga3 Gat Domain In Complex With Ubiquitin"                                                                  . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  1WRD          . "Crystal Structure Of Tom1 Gat Domain In Complex With Ubiquitin"                                                                  . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  1XD3          . "Crystal Structure Of Uchl3-Ubvme Complex"                                                                                        . . . . .  98.68   75 100.00 100.00 1.09e-45 . . . . 17769 1 
+      no PDB  1XQQ          . "Simultaneous Determination Of Protein Structure And Dynamics"                                                                    . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  1YD8          . "Complex Of Human Gga3 Gat Domain And Ubiquitin"                                                                                  . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  1YIW          . "X-Ray Crystal Structure Of A Chemically Synthesized Ubiquitin"                                                                   . . . . . 100.00   76  98.68 100.00 7.22e-46 . . . . 17769 1 
+      no PDB  1YJ1          . "X-Ray Crystal Structure Of A Chemically Synthesized [d- Gln35]ubiquitin"                                                         . . . . . 100.00   76  97.37  98.68 8.54e-45 . . . . 17769 1 
+      no PDB  1YX5          . "Solution Structure Of S5a Uim-1UBIQUITIN COMPLEX"                                                                                . . . . . 100.00   98 100.00 100.00 5.87e-47 . . . . 17769 1 
+      no PDB  1YX6          . "Solution Structure Of S5a Uim-2UBIQUITIN COMPLEX"                                                                                . . . . . 100.00   98 100.00 100.00 5.87e-47 . . . . 17769 1 
+      no PDB  1ZGU          . "Solution Structure Of The Human Mms2-Ubiquitin Complex"                                                                          . . . . . 100.00   76  98.68 100.00 3.97e-46 . . . . 17769 1 
+      no PDB  2AYO          . "Structure Of Usp14 Bound To Ubquitin Aldehyde"                                                                                   . . . . .  98.68   76 100.00 100.00 1.12e-45 . . . . 17769 1 
+      no PDB  2BGF          . "Nmr Structure Of Lys48-Linked Di-Ubiquitin Using Chemical Shift Perturbation Data Together With Rdcs And 15n- Relaxation Data"   . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  2C7M          . "Human Rabex-5 Residues 1-74 In Complex With Ubiquitin"                                                                           . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  2C7N          . "Human Rabex-5 Residues 1-74 In Complex With Ubiquitin"                                                                           . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  2D3G          . "Double Sided Ubiquitin Binding Of Hrs-Uim"                                                                                       . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  2DEN          . "Solution Structure Of The Ubiquitin-Associated Domain Of Human Bmsc-Ubp And Its Complex With Ubiquitin"                          . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  2DX5          . "The Complex Structure Between The Mouse Eap45-Glue Domain And Ubiquitin"                                                         . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  2FCM          . "X-Ray Crystal Structure Of A Chemically Synthesized [d-Gln35]ubiquitin With A Cubic Space Group"                                 . . . . . 100.00   76  97.37  98.68 8.54e-45 . . . . 17769 1 
+      no PDB  2FCN          . "X-Ray Crystal Structure Of A Chemically Synthesized [d-Val35]ubiquitin With A Cubic Space Group"                                 . . . . . 100.00   76  97.37  98.68 8.54e-45 . . . . 17769 1 
+      no PDB  2FCQ          . "X-Ray Crystal Structure Of A Chemically Synthesized Ubiquitin With A Cubic Space Group"                                          . . . . . 100.00   76  98.68 100.00 7.22e-46 . . . . 17769 1 
+      no PDB  2FCS          . "X-Ray Crystal Structure Of A Chemically Synthesized [l- Gln35]ubiquitin With A Cubic Space Group"                                . . . . . 100.00   76  97.37  98.68 9.73e-45 . . . . 17769 1 
+      no PDB  2FID          . "Crystal Structure Of A Bovine Rabex-5 Fragment Complexed With Ubiquitin"                                                         . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  2FIF          . "Crystal Structure Of A Bovine Rabex-5 Fragment Complexed With Ubiquitin"                                                         . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  2FUH          . "Solution Structure Of The Ubch5cUB NON-Covalent Complex"                                                                         . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  2G45          . "Co-Crystal Structure Of Znf Ubp Domain From The Deubiquitinating Enzyme Isopeptidase T (Isot) In Complex With Ubiquitin"         . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  2GMI          .  Mms2UBC13~UBIQUITIN                                                                                                              . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  2HD5          . "Usp2 In Complex With Ubiquitin"                                                                                                  . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  2HTH          . "Structural Basis For Ubiquitin Recognition By The Human Eap45ESCRT-Ii Glue Domain"                                               . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  2IBI          . "Covalent Ubiquitin-Usp2 Complex"                                                                                                 . . . . .  98.68   75 100.00 100.00 1.09e-45 . . . . 17769 1 
+      no PDB  2J7Q          . "Crystal Structure Of The Ubiquitin-Specific Protease Encoded By Murine Cytomegalovirus Tegument Protein M48 In Complex With A U" . . . . .  98.68   75 100.00 100.00 1.09e-45 . . . . 17769 1 
+      no PDB  2JF5          . "Crystal Structure Of Lys63-Linked Di-Ubiquitin"                                                                                  . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  2JRI          . "Solution Structure Of The Josephin Domain Of Ataxin-3 In Complex With Ubiquitin Molecule."                                       . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  2JY6          . "Solution Structure Of The Complex Of Ubiquitin And Ubiquilin 1 Uba Domain"                                                       . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  2JZZ          . "Solid-State Nmr Structure Of Microcrystalline Ubiquitin"                                                                         . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  2K25          . "Automated Nmr Structure Of The Ubb By Fapsy"                                                                                     . . . . .  98.68  103  98.67 100.00 1.58e-44 . . . . 17769 1 
+      no PDB  2K39          . "Recognition Dynamics Up To Microseconds Revealed From Rdc Derived Ubiquitin Ensemble In Solution"                                . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  2K6D          . "Cin85 Sh3-C Domain In Complex With Ubiquitin"                                                                                    . . . . .  98.68   76 100.00 100.00 1.01e-45 . . . . 17769 1 
+      no PDB  2K8B          . "Solution Structure Of Plaa Family Ubiquitin Binding Domain (Pfuc) Cis Isomer In Complex With Ubiquitin"                          . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  2K8C          . "Solution Structure Of Plaa Family Ubiquitin Binding Domain (Pfuc) Trans Isomer In Complex With Ubiquitin"                        . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  2KDE          . "Nmr Structure Of Major S5a (196-306):k48 Linked Diubiquitin Species"                                                             . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  2KDF          . "Nmr Structure Of Minor S5a (196-306):k48 Linked Diubiquitin Species"                                                             . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  2KHW          . "Solution Structure Of The Human Polymerase Iota Ubm2- Ubiquitin Complex"                                                         . . . . . 100.00   79 100.00 100.00 1.69e-46 . . . . 17769 1 
+      no PDB  2KJH          . "Nmr Based Structural Model Of The Ubch8-Ubiquitin Complex"                                                                       . . . . .  98.68   76 100.00 100.00 1.01e-45 . . . . 17769 1 
+      no PDB  2KLG          . "Pere Nmr Structure Of Ubiquitin"                                                                                                 . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  2KN5          . "A Correspondence Between Solution-State Dynamics Of An Individual Protein And The Sequence And Conformational Diversity Of Its " . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  2KOX          . "Nmr Residual Dipolar Couplings Identify Long Range Correlated Motions In The Backbone Of The Protein Ubiquitin"                  . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  2KTF          . "Solution Nmr Structure Of Human Polymerase Iota Ubm2 In Complex With Ubiquitin"                                                  . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  2KWU          . "Solution Structure Of Ubm2 Of Murine Polymerase Iota In Complex With Ubiquitin"                                                  . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  2KWV          . "Solution Structure Of Ubm1 Of Murine Polymerase Iota In Complex With Ubiquitin"                                                  . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  2KX0          . "The Solution Structure Of Ubb+1, Frameshift Mutant Of Ubiquitin B"                                                               . . . . .  98.68  103  98.67 100.00 1.58e-44 . . . . 17769 1 
+      no PDB  2L0F          . "Solution Nmr Structure Of Human Polymerase Iota Ubm2 (P692a Mutant) In Complex With Ubiquitin"                                   . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  2L0T          . "Solution Structure Of The Complex Of Ubiquitin And The Vhs Domain Of Stam2"                                                      . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  2L3Z          . "Proton-Detected 4d Dream Solid-State Nmr Structure Of Ubiquitin"                                                                 . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  2LD9          . "Backbone Structure Of Ubiquitin Determined Using Backbone Amide Noes And Backbone N-H And N-C Rdcs"                              . . . . . 100.00   77 100.00 100.00 2.01e-46 . . . . 17769 1 
+      no PDB  2LJ5          . "Description Of The Structural Fluctuations Of Proteins From Structure- Based Calculations Of Residual Dipolar Couplings"         . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  2LVO          . "Structure Of The Gp78cue Domain Bound To Monubiquitin"                                                                           . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  2LVP          . "Gp78cue Domain Bound To The Distal Ubiquitin Of K48-Linked Diubiquitin"                                                          . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  2LVQ          . "Gp78cue Domain Bound To The Proximal Ubiquitin Of K48-Linked Diubiquitin"                                                        . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  2NR2          . "The Mumo (Minimal Under-Restraining Minimal Over- Restraining) Method For The Determination Of Native States Ensembles Of Prote" . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  2O6V          . "Crystal Structure And Solution Nmr Studies Of Lys48-Linked Tetraubiquitin At Neutral Ph"                                         . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  2OJR          . "Structure Of Ubiquitin Solved By Sad Using The Lanthanide- Binding Tag"                                                          . . . . . 100.00  111 100.00 100.00 5.82e-46 . . . . 17769 1 
+      no PDB  2OOB          . "Crystal Structure Of The Uba Domain From Cbl-B Ubiquitin Ligase In Complex With Ubiquitin"                                       . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  2PE9          . "Nmr Based Structure Of The Open Conformation Of Lys48- Linked Di-Ubiquitin Using Experimental Global Rotational Diffusion Tenso" . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  2PEA          . "Nmr Based Structure Of The Closed Conformation Of Lys48- Linked Di-Ubiquitin Using Experimental Global Rotational Diffusion Ten" . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  2QHO          . "Crystal Structure Of The Uba Domain From Edd Ubiquitin Ligase In Complex With Ubiquitin"                                         . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  2RR9          . "The Solution Structure Of The K63-Ub2:tuims Complex"                                                                             . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  2W9N          . "Crystal Structure Of Linear Di-Ubiquitin"                                                                                        . . . . .  98.68  152 100.00 100.00 1.43e-44 . . . . 17769 1 
+      no PDB  2WDT          . "Crystal Structure Of Plasmodium Falciparum Uchl3 In Complex With The Suicide Inhibitor Ubvme"                                    . . . . .  98.68   76 100.00 100.00 1.12e-45 . . . . 17769 1 
+      no PDB  2WWZ          . "Tab2 Nzf Domain In Complex With Lys63-Linked Di-Ubiquitin, P212121"                                                              . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  2WX0          . "Tab2 Nzf Domain In Complex With Lys63-Linked Di-Ubiquitin, P21"                                                                  . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  2WX1          . "Tab2 Nzf Domain In Complex With Lys63-Linked Tri-Ubiquitin, P212121"                                                             . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  2XBB          . "Nedd4 Hect:ub Complex"                                                                                                           . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  2XEW          . "Crystal Structure Of K11-Linked Diubiquitin"                                                                                     . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  2XK5          . "Crystal Structure Of K6-Linked Diubiquitin"                                                                                      . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  2Y5B          . "Structure Of Usp21 In Complex With Linear Diubiquitin-Aldehyde"                                                                  . . . . .  98.68  152 100.00 100.00 1.05e-44 . . . . 17769 1 
+      no PDB  2Z59          . "Complex Structures Of Mouse Rpn13 (22-130aa) And Ubiquitin"                                                                      . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  2ZCB          . "Crystal Structure Of Ubiquitin P37aP38A"                                                                                         . . . . . 100.00   76  97.37  97.37 8.72e-45 . . . . 17769 1 
+      no PDB  2ZCC          . "Ubiquitin Crystallized Under High Pressure"                                                                                      . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  2ZNV          . "Crystal Structure Of Human Amsh-Lp Dub Domain In Complex With Lys63-Linked Ubiquitin Dimer"                                      . . . . . 100.00   77 100.00 100.00 1.88e-46 . . . . 17769 1 
+      no PDB  2ZVN          . "Nemo Cozi Domain Incomplex With Diubiquitin In P212121 Space Group"                                                              . . . . . 100.00  154 100.00 100.00 1.52e-45 . . . . 17769 1 
+      no PDB  2ZVO          . "Nemo Cozi Domain In Complex With Diubiquitin In C2 Space Group"                                                                  . . . . . 100.00  154 100.00 100.00 1.52e-45 . . . . 17769 1 
+      no PDB  3A1Q          . "Crystal Structure Of The Mouse Rap80 Uims In Complex With Lys63-Linked Di-Ubiquitin"                                             . . . . . 100.00   77 100.00 100.00 1.88e-46 . . . . 17769 1 
+      no PDB  3A33          . "Ubch5b~ubiquitin Conjugate"                                                                                                      . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  3A9J          . "Crystal Structure Of The Mouse Tab2-Nzf In Complex With Lys63-Linked Di-Ubiquitin"                                               . . . . . 100.00   77 100.00 100.00 1.88e-46 . . . . 17769 1 
+      no PDB  3A9K          . "Crystal Structure Of The Mouse Tab3-Nzf In Complex With Lys63-Linked Di-Ubiquitin"                                               . . . . . 100.00   77 100.00 100.00 1.88e-46 . . . . 17769 1 
+      no PDB  3AI5          . "Crystal Structure Of Yeast Enhanced Green Fluorescent Protein- Ubiquitin Fusion Protein"                                         . . . . .  97.37  307 100.00 100.00 4.16e-42 . . . . 17769 1 
+      no PDB  3ALB          . "Cyclic Lys48-Linked Tetraubiquitin"                                                                                              . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  3AUL          . "Crystal Structure Of Wild-Type Lys48-Linked Diubiquitin In An Open Conformation"                                                 . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  3AXC          . "Crystal Structure Of Linear Diubiquitin"                                                                                         . . . . . 100.00  154 100.00 100.00 1.52e-45 . . . . 17769 1 
+      no PDB  3B08          . "Crystal Structure Of The Mouse Hoil1-L-Nzf In Complex With Linear Di- Ubiquitin"                                                 . . . . . 100.00  152 100.00 100.00 1.63e-45 . . . . 17769 1 
+      no PDB  3B0A          . "Crystal Structure Of The Mouse Hoil1-L-Nzf In Complex With Linear Di- Ubiquitin"                                                 . . . . . 100.00  152 100.00 100.00 1.63e-45 . . . . 17769 1 
+      no PDB  3BY4          . "Structure Of Ovarian Tumor (Otu) Domain In Complex With Ubiquitin"                                                               . . . . .  98.68   75 100.00 100.00 1.09e-45 . . . . 17769 1 
+      no PDB  3C0R          . "Structure Of Ovarian Tumor (Otu) Domain In Complex With Ubiquitin"                                                               . . . . .  98.68   75 100.00 100.00 1.09e-45 . . . . 17769 1 
+      no PDB  3DVG          . "Crystal Structure Of K63-Specific Fab Apu.3a8 Bound To K63-Linked Di- Ubiquitin"                                                 . . . . . 100.00   80 100.00 100.00 2.09e-46 . . . . 17769 1 
+      no PDB  3DVN          . "Crystal Structure Of K63-Specific Fab Apu2.16 Bound To K63- Linked Di-Ubiquitin"                                                 . . . . . 100.00   80 100.00 100.00 2.09e-46 . . . . 17769 1 
+      no PDB  3EEC          . "X-Ray Structure Of Human Ubiquitin Cd(Ii) Adduct"                                                                                . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  3EFU          . "X-Ray Structure Of Human Ubiquitin-Hg(Ii) Adduct"                                                                                . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  3EHV          . "X-Ray Structure Of Human Ubiquitin Zn(Ii) Adduct"                                                                                . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  3H1U          . "Structure Of Ubiquitin In Complex With Cd Ions"                                                                                  . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  3H7P          . "Crystal Structure Of K63-Linked Di-Ubiquitin"                                                                                    . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  3H7S          . "Crystal Structures Of K63-Linked Di- And Tri-Ubiquitin Reveal A Highly Extended Chain Architecture"                              . . . . . 100.00   76  98.68  98.68 7.12e-44 . . . . 17769 1 
+      no PDB  3HM3          . "The Structure And Conformation Of Lys-63 Linked Tetra-Ubiquitin"                                                                 . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  3I3T          . "Crystal Structure Of Covalent Ubiquitin-Usp21 Complex"                                                                           . . . . .  98.68   75 100.00 100.00 1.09e-45 . . . . 17769 1 
+      no PDB  3IFW          . "Crystal Structure Of The S18y Variant Of Ubiquitin Carboxy T Hydrolase L1 Bound To Ubiquitin Vinylmethylester."                  . . . . .  98.68   75 100.00 100.00 1.09e-45 . . . . 17769 1 
+      no PDB  3IHP          . "Covalent Ubiquitin-Usp5 Complex"                                                                                                 . . . . .  98.68   75 100.00 100.00 1.09e-45 . . . . 17769 1 
+      no PDB  3JSV          . "Crystal Structure Of Mouse Nemo Cozi In Complex With Lys63- Linked Di-Ubiquitin"                                                 . . . . . 100.00   77 100.00 100.00 1.88e-46 . . . . 17769 1 
+      no PDB  3JVZ          .  E2~ubiquitin-Hect                                                                                                                . . . . . 100.00   81 100.00 100.00 1.95e-46 . . . . 17769 1 
+      no PDB  3JW0          .  E2~ubiquitin-Hect                                                                                                                . . . . . 100.00   81 100.00 100.00 1.95e-46 . . . . 17769 1 
+      no PDB  3K9O          . "The Crystal Structure Of E2-25k And Ubb+1 Complex"                                                                               . . . . .  98.68   96 100.00 100.00 3.23e-45 . . . . 17769 1 
+      no PDB  3K9P          . "The Crystal Structure Of E2-25k And Ubiquitin Complex"                                                                           . . . . . 100.00   79 100.00 100.00 1.69e-46 . . . . 17769 1 
+      no PDB  3KVF          . "Crystal Structure Of The I93m Mutant Of Ubiquitin Carboxy Te Hydrolase L1 Bound To Ubiquitin Vinylmethylester"                   . . . . .  98.68   75 100.00 100.00 1.09e-45 . . . . 17769 1 
+      no PDB  3KW5          . "Crystal Structure Of Ubiquitin Carboxy Terminal Hydrolase L1 Ubiquitin Vinylmethylester"                                         . . . . .  98.68   75 100.00 100.00 1.09e-45 . . . . 17769 1 
+      no PDB  3LDZ          . "Crystal Structure Of Human Stam1 Vhs Domain In Complex With Ubiquitin"                                                           . . . . .  96.05   73 100.00 100.00 4.54e-44 . . . . 17769 1 
+      no PDB  3M3J          . "A New Crystal Form Of Lys48-Linked Diubiquitin"                                                                                  . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  3MHS          . "Structure Of The Saga Ubp8SGF11SUS1SGF73 DUB MODULE BOUND Ubiquitin Aldehyde"                                                    . . . . .  98.68   76 100.00 100.00 1.12e-45 . . . . 17769 1 
+      no PDB  3MTN          . "Usp21 In Complex With A Ubiquitin-Based, Usp21-Specific Inhi"                                                                    . . . . .  88.16   85  98.51  98.51 3.74e-38 . . . . 17769 1 
+      no PDB  3N30          . "Crystal Structure Of Cubic Zn3-Hub (Human Ubiquitin) Adduct"                                                                     . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  3N32          . "The Crystal Structure Of Human Ubiquitin Adduct With Zeise's Salt"                                                               . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  3NHE          . "High Resolution Structure (1.26a) Of Usp2a In Complex With Ubiquitin"                                                            . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  3NOB          . "Structure Of K11-Linked Di-Ubiquitin"                                                                                            . . . . . 100.00   78 100.00 100.00 1.37e-46 . . . . 17769 1 
+      no PDB  3NS8          . "Crystal Structure Of An Open Conformation Of Lys48-Linked Diubiquitin At Ph 7.5"                                                 . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  3O65          . "Crystal Structure Of A Josephin-Ubiquitin Complex: Evolutionary Restraints On Ataxin-3 Deubiquitinating Activity"                . . . . .  98.68   76 100.00 100.00 1.12e-45 . . . . 17769 1 
+      no PDB  3OFI          . "Crystal Structure Of Human Insulin-Degrading Enzyme In Complex With Ubiquitin"                                                   . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  3OJ3          . "Crystal Structure Of The A20 Znf4 And Ubiquitin Complex"                                                                         . . . . . 100.00   79 100.00 100.00 1.69e-46 . . . . 17769 1 
+      no PDB  3OJ4          . "Crystal Structure Of The A20 Znf4, Ubiquitin And Ubch5a Complex"                                                                 . . . . . 100.00   79 100.00 100.00 1.69e-46 . . . . 17769 1 
+      no PDB  3ONS          . "Crystal Structure Of Human Ubiquitin In A New Crystal Form"                                                                      . . . . .  94.74   72 100.00 100.00 2.16e-43 . . . . 17769 1 
+      no PDB  3PHD          . "Crystal Structure Of Human Hdac6 In Complex With Ubiquitin"                                                                      . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  3PHW          . "Otu Domain Of Crimean Congo Hemorrhagic Fever Virus In Complex With Ubiquitin"                                                   . . . . .  98.68   75 100.00 100.00 1.09e-45 . . . . 17769 1 
+      no PDB  3PRM          . "Structural Analysis Of A Viral Otu Domain Protease From The Crimean- Congo Hemorrhagic Fever Virus In Complex With Human Ubiqui" . . . . .  98.68   75 100.00 100.00 1.09e-45 . . . . 17769 1 
+      no PDB  3PRP          . "Structural Analysis Of A Viral Otu Domain Protease From The Crimean- Congo Hemorrhagic Fever Virus In Complex With Human Ubiqui" . . . . .  98.68   75 100.00 100.00 1.09e-45 . . . . 17769 1 
+      no PDB  3PT2          . "Structure Of A Viral Otu Domain Protease Bound To Ubiquitin"                                                                     . . . . .  98.68   75 100.00 100.00 1.09e-45 . . . . 17769 1 
+      no PDB  3PTF          . "X-Ray Structure Of The Non-Covalent Complex Between Ubch5a And Ubiquitin"                                                        . . . . . 100.00   79 100.00 100.00 1.69e-46 . . . . 17769 1 
+      no PDB  3Q3F          . "Engineering Domain-Swapped Binding Interfaces By Mutually Exclusive Folding: Insertion Of Ubiquitin Into Position 103 Of Barnas" . . . . .  98.68  189 100.00 100.00 1.36e-44 . . . . 17769 1 
+      no PDB  3RUL          . "New Strategy To Analyze Structures Of Glycopeptide-Target Complexes"                                                             . . . . .  98.68   79 100.00 100.00 1.01e-45 . . . . 17769 1 
+      no PDB  3TBL          . "Structure Of Mono-Ubiquitinated Pcna: Implications For Dna Polymerase Switching And Okazaki Fragment Maturation"                 . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  3TMP          . "The Catalytic Domain Of Human Deubiquitinase Duba In Complex With Ubiquitin Aldehyde"                                            . . . . .  98.68   76 100.00 100.00 1.12e-45 . . . . 17769 1 
+      no PDB  3U30          . "Crystal Structure Of A Linear-Specific Ubiquitin Fab Bound To Linear Ubiquitin"                                                  . . . . . 100.00  172 100.00 100.00 3.73e-45 . . . . 17769 1 
+      no PDB  3UGB          . "Ubch5c~ubiquitin Conjugate"                                                                                                      . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  3VDZ          . "Tailoring Encodable Lanthanide-Binding Tags As Mri Contrast Agents: Xq-Dse3-Ubiquitin At 2.4 Angstroms"                          . . . . . 100.00  111 100.00 100.00 3.72e-46 . . . . 17769 1 
+      no PDB  3VHT          . "Crystal Structure Of Gfp-Wrnip1 Ubz Domain Fusion Protein In Complex With Ubiquitin"                                             . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  4A18          . "T.Thermophila 60s Ribosomal Subunit In Complex With Initiation Factor 6. This File Contains 26s Rrna And Proteins Of Molecule 1" . . . . . 100.00  129  97.37  98.68 6.82e-45 . . . . 17769 1 
+      no PDB  4A19          . "T.Thermophila 60s Ribosomal Subunit In Complex With Initiation Factor 6. This File Contains 26s Rrna And Proteins Of Molecule 2" . . . . . 100.00  129  97.37  98.68 6.82e-45 . . . . 17769 1 
+      no PDB  4A1B          . "T.Thermophila 60s Ribosomal Subunit In Complex With Initiation Factor 6. This File Contains 26s Rrna And Proteins Of Molecule 3" . . . . . 100.00  129  97.37  98.68 6.82e-45 . . . . 17769 1 
+      no PDB  4A1D          . "T.Thermophila 60s Ribosomal Subunit In Complex With Initiation Factor 6. This File Contains 26s Rrna And Proteins Of Molecule 4" . . . . . 100.00  129  97.37  98.68 6.82e-45 . . . . 17769 1 
+      no PDB  4ADX          . "The Cryo-Em Structure Of The Archaeal 50s Ribosomal Subunit In Complex With Initiation Factor 6"                                 . . . . . 100.00  129  97.37  98.68 6.82e-45 . . . . 17769 1 
+      no PDB  4AP4          . "Rnf4 - Ubch5a - Ubiquitin Heterotrimeric Complex"                                                                                . . . . . 100.00   80 100.00 100.00 1.74e-46 . . . . 17769 1 
+      no PDB  4AUQ          . "Structure Of Birc7-Ubch5b-Ub Complex"                                                                                            . . . . . 100.00   81 100.00 100.00 1.95e-46 . . . . 17769 1 
+      no PDB  4DDG          . "Crystal Structure Of Human Otub1UBCH5B~UBUB"                                                                                     . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  4DDI          . "Crystal Structure Of Human Otub1UBCH5B~UBUB"                                                                                     . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PDB  4DHJ          . "The Structure Of A Ceotub1 Ubiquitin Aldehyde Ubc13~ub Complex"                                                                  . . . . .  98.68   76 100.00 100.00 1.01e-45 . . . . 17769 1 
+      no PDB  4DHZ          . "The Structure Of HCEOTUB1-Ubiquitin Aldehyde-Ubc13~ub"                                                                           . . . . .  98.68   76 100.00 100.00 1.01e-45 . . . . 17769 1 
+      no DBJ  BAA03983      . "polyubiquitin [Rattus norvegicus]"                                                                                               . . . . . 100.00  305 100.00 100.00 8.24e-44 . . . . 17769 1 
+      no DBJ  BAA09860      . "polyubiquitin [Homo sapiens]"                                                                                                    . . . . . 100.00  611  98.68  98.68 3.88e-41 . . . . 17769 1 
+      no DBJ  BAA11842      . "ubiquitin [Cavia porcellus]"                                                                                                     . . . . . 100.00  311 100.00 100.00 8.94e-44 . . . . 17769 1 
+      no DBJ  BAA11843      . "ubiquitin extention protein [Cavia porcellus]"                                                                                   . . . . . 100.00  156 100.00 100.00 1.94e-46 . . . . 17769 1 
+      no DBJ  BAA23486      . "polyubiquitin [Homo sapiens]"                                                                                                    . . . . . 100.00  609  98.68  98.68 2.09e-41 . . . . 17769 1 
+      no EMBL CAA25706      . "unnamed protein product [Saccharomyces cerevisiae]"                                                                              . . . . .  50.00  191 100.00 100.00 1.11e-16 . . . . 17769 1 
+      no EMBL CAA26488      . "unnamed protein product [Gallus gallus]"                                                                                         . . . . . 100.00  157  98.68  98.68 9.90e-45 . . . . 17769 1 
+      no EMBL CAA28495      . "ubiquitin [Homo sapiens]"                                                                                                        . . . . . 100.00  229 100.00 100.00 1.31e-44 . . . . 17769 1 
+      no EMBL CAA30183      . "unnamed protein product [Dictyostelium discoideum]"                                                                              . . . . . 100.00  128  97.37  97.37 2.01e-44 . . . . 17769 1 
+      no EMBL CAA30815      . "unnamed protein product [Cricetulus sp.]"                                                                                        . . . . .  93.42  223 100.00 100.00 1.38e-40 . . . . 17769 1 
+      no GB   AAA02769      . "polyprotein [Bovine viral diarrhea virus 1-Osloss]"                                                                              . . . . .  98.68 3975  97.33 100.00 7.09e-40 . . . . 17769 1 
+      no GB   AAA28154      . "polyubiquitin [Caenorhabditis elegans]"                                                                                          . . . . . 100.00  838  97.37  98.68 2.68e-40 . . . . 17769 1 
+      no GB   AAA28997      . "ubiquitin [Drosophila melanogaster]"                                                                                             . . . . . 100.00  231 100.00 100.00 1.23e-44 . . . . 17769 1 
+      no GB   AAA28998      . "ubiquitin-hybrid protein precursor [Drosophila melanogaster]"                                                                    . . . . . 100.00  156 100.00 100.00 3.60e-46 . . . . 17769 1 
+      no GB   AAA28999      . "ubiquitin, partial [Drosophila melanogaster]"                                                                                    . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PIR  I50437        . "polyubiquitin 4 - chicken"                                                                                                       . . . . . 100.00  305 100.00 100.00 8.24e-44 . . . . 17769 1 
+      no PIR  I65237        . "ubiquitin / ribosomal protein L40, cytosolic [validated] - rat"                                                                  . . . . . 100.00  128 100.00 100.00 1.15e-46 . . . . 17769 1 
+      no PIR  JN0790        . "ubiquitin/ribosomal protein CEP52 fusion protein - Leishmania major"                                                             . . . . . 100.00  128  97.37  98.68 8.70e-46 . . . . 17769 1 
+      no PIR  S13928        . "ubiquitin precursor - chicken"                                                                                                   . . . . . 100.00  229 100.00 100.00 1.36e-44 . . . . 17769 1 
+      no PIR  S21083        . "polyubiquitin 5 - Chinese hamster"                                                                                               . . . . . 100.00  381 100.00 100.00 3.88e-43 . . . . 17769 1 
+      no PRF  0412265A      .  ubiquitin                                                                                                                        . . . . .  98.68   75  98.67  98.67 4.57e-45 . . . . 17769 1 
+      no PRF  1101405A      . "ubiquitin precursor"                                                                                                             . . . . .  50.00  191 100.00 100.00 1.10e-16 . . . . 17769 1 
+      no PRF  1212243A      . "ubiquitin S1"                                                                                                                    . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no PRF  1212243B      . "ubiquitin S5"                                                                                                                    . . . . .  92.11   77  98.57  98.57 2.84e-41 . . . . 17769 1 
+      no PRF  1212243C      . "ubiquitin S3"                                                                                                                    . . . . . 100.00   76 100.00 100.00 1.66e-46 . . . . 17769 1 
+      no REF  NP_001005123  . "ubiquitin A-52 residue ribosomal protein fusion product 1 [Xenopus (Silurana) tropicalis]"                                       . . . . . 100.00  128 100.00 100.00 1.15e-46 . . . . 17769 1 
+      no REF  NP_001006688  . "ubiquitin C [Xenopus (Silurana) tropicalis]"                                                                                     . . . . . 100.00  609 100.00 100.00 3.68e-42 . . . . 17769 1 
+      no REF  NP_001009117  . "polyubiquitin-B [Pan troglodytes]"                                                                                               . . . . . 100.00  229 100.00 100.00 1.31e-44 . . . . 17769 1 
+      no REF  NP_001009202  . "polyubiquitin-B [Ovis aries]"                                                                                                    . . . . . 100.00  305  98.68 100.00 1.45e-43 . . . . 17769 1 
+      no REF  NP_001009286  . "ubiquitin-60S ribosomal protein L40 [Ovis aries]"                                                                                . . . . . 100.00  128 100.00 100.00 1.15e-46 . . . . 17769 1 
+      no SP   P0C273        . "RecName: Full=Ubiquitin-60S ribosomal protein L40; AltName: Full=Ubiquitin A-52 residue ribosomal protein fusion product 1; Con" . . . . . 100.00  128 100.00 100.00 1.15e-46 . . . . 17769 1 
+      no SP   P0C275        . "RecName: Full=Ubiquitin-60S ribosomal protein L40; AltName: Full=Ubiquitin A-52 residue ribosomal protein fusion product 1; Con" . . . . . 100.00  128 100.00 100.00 1.15e-46 . . . . 17769 1 
+      no SP   P0C276        . "RecName: Full=Ubiquitin-60S ribosomal protein L40; AltName: Full=Ubiquitin A-52 residue ribosomal protein fusion product 1; Con" . . . . . 100.00  128 100.00 100.00 1.15e-46 . . . . 17769 1 
+      no SP   P0CG47        . "RecName: Full=Polyubiquitin-B; Contains: RecName: Full=Ubiquitin; Flags: Precursor"                                              . . . . . 100.00  229 100.00 100.00 1.31e-44 . . . . 17769 1 
+      no SP   P0CG48        . "RecName: Full=Polyubiquitin-C; Contains: RecName: Full=Ubiquitin; Flags: Precursor"                                              . . . . . 100.00  685 100.00 100.00 5.40e-42 . . . . 17769 1 
+      no TPD  FAA00319      . "TPA: polyubiquitin [Cryptococcus neoformans var. neoformans B-3501A]"                                                            . . . . . 100.00  456  97.37  98.68 2.81e-41 . . . . 17769 1 
+      no TPG  DAA34473      . "TPA_exp: ubiquitin [Amblyomma variegatum]"                                                                                       . . . . . 100.00  241  98.68  98.68 1.96e-43 . . . . 17769 1 
+
+   stop_
+
+   loop_
+      _Entity_comp_index.ID
+      _Entity_comp_index.Auth_seq_ID
+      _Entity_comp_index.Comp_ID
+      _Entity_comp_index.Comp_label
+      _Entity_comp_index.Entry_ID
+      _Entity_comp_index.Entity_ID
+
+       1 . MET . 17769 1 
+       2 . GLN . 17769 1 
+       3 . ILE . 17769 1 
+       4 . PHE . 17769 1 
+       5 . VAL . 17769 1 
+       6 . LYS . 17769 1 
+       7 . THR . 17769 1 
+       8 . LEU . 17769 1 
+       9 . THR . 17769 1 
+      10 . GLY . 17769 1 
+      11 . LYS . 17769 1 
+      12 . THR . 17769 1 
+      13 . ILE . 17769 1 
+      14 . THR . 17769 1 
+      15 . LEU . 17769 1 
+      16 . GLU . 17769 1 
+      17 . VAL . 17769 1 
+      18 . GLU . 17769 1 
+      19 . PRO . 17769 1 
+      20 . SER . 17769 1 
+      21 . ASP . 17769 1 
+      22 . THR . 17769 1 
+      23 . ILE . 17769 1 
+      24 . GLU . 17769 1 
+      25 . ASN . 17769 1 
+      26 . VAL . 17769 1 
+      27 . LYS . 17769 1 
+      28 . ALA . 17769 1 
+      29 . LYS . 17769 1 
+      30 . ILE . 17769 1 
+      31 . GLN . 17769 1 
+      32 . ASP . 17769 1 
+      33 . LYS . 17769 1 
+      34 . GLU . 17769 1 
+      35 . GLY . 17769 1 
+      36 . ILE . 17769 1 
+      37 . PRO . 17769 1 
+      38 . PRO . 17769 1 
+      39 . ASP . 17769 1 
+      40 . GLN . 17769 1 
+      41 . GLN . 17769 1 
+      42 . ARG . 17769 1 
+      43 . LEU . 17769 1 
+      44 . ILE . 17769 1 
+      45 . PHE . 17769 1 
+      46 . ALA . 17769 1 
+      47 . GLY . 17769 1 
+      48 . LYS . 17769 1 
+      49 . GLN . 17769 1 
+      50 . LEU . 17769 1 
+      51 . GLU . 17769 1 
+      52 . ASP . 17769 1 
+      53 . GLY . 17769 1 
+      54 . ARG . 17769 1 
+      55 . THR . 17769 1 
+      56 . LEU . 17769 1 
+      57 . SER . 17769 1 
+      58 . ASP . 17769 1 
+      59 . TYR . 17769 1 
+      60 . ASN . 17769 1 
+      61 . ILE . 17769 1 
+      62 . GLN . 17769 1 
+      63 . LYS . 17769 1 
+      64 . GLU . 17769 1 
+      65 . SER . 17769 1 
+      66 . THR . 17769 1 
+      67 . LEU . 17769 1 
+      68 . HIS . 17769 1 
+      69 . LEU . 17769 1 
+      70 . VAL . 17769 1 
+      71 . LEU . 17769 1 
+      72 . ARG . 17769 1 
+      73 . LEU . 17769 1 
+      74 . ARG . 17769 1 
+      75 . GLY . 17769 1 
+      76 . GLY . 17769 1 
+
+   stop_
+
+   loop_
+      _Entity_poly_seq.Hetero
+      _Entity_poly_seq.Mon_ID
+      _Entity_poly_seq.Num
+      _Entity_poly_seq.Comp_index_ID
+      _Entity_poly_seq.Entry_ID
+      _Entity_poly_seq.Entity_ID
+
+      . MET  1  1 17769 1 
+      . GLN  2  2 17769 1 
+      . ILE  3  3 17769 1 
+      . PHE  4  4 17769 1 
+      . VAL  5  5 17769 1 
+      . LYS  6  6 17769 1 
+      . THR  7  7 17769 1 
+      . LEU  8  8 17769 1 
+      . THR  9  9 17769 1 
+      . GLY 10 10 17769 1 
+      . LYS 11 11 17769 1 
+      . THR 12 12 17769 1 
+      . ILE 13 13 17769 1 
+      . THR 14 14 17769 1 
+      . LEU 15 15 17769 1 
+      . GLU 16 16 17769 1 
+      . VAL 17 17 17769 1 
+      . GLU 18 18 17769 1 
+      . PRO 19 19 17769 1 
+      . SER 20 20 17769 1 
+      . ASP 21 21 17769 1 
+      . THR 22 22 17769 1 
+      . ILE 23 23 17769 1 
+      . GLU 24 24 17769 1 
+      . ASN 25 25 17769 1 
+      . VAL 26 26 17769 1 
+      . LYS 27 27 17769 1 
+      . ALA 28 28 17769 1 
+      . LYS 29 29 17769 1 
+      . ILE 30 30 17769 1 
+      . GLN 31 31 17769 1 
+      . ASP 32 32 17769 1 
+      . LYS 33 33 17769 1 
+      . GLU 34 34 17769 1 
+      . GLY 35 35 17769 1 
+      . ILE 36 36 17769 1 
+      . PRO 37 37 17769 1 
+      . PRO 38 38 17769 1 
+      . ASP 39 39 17769 1 
+      . GLN 40 40 17769 1 
+      . GLN 41 41 17769 1 
+      . ARG 42 42 17769 1 
+      . LEU 43 43 17769 1 
+      . ILE 44 44 17769 1 
+      . PHE 45 45 17769 1 
+      . ALA 46 46 17769 1 
+      . GLY 47 47 17769 1 
+      . LYS 48 48 17769 1 
+      . GLN 49 49 17769 1 
+      . LEU 50 50 17769 1 
+      . GLU 51 51 17769 1 
+      . ASP 52 52 17769 1 
+      . GLY 53 53 17769 1 
+      . ARG 54 54 17769 1 
+      . THR 55 55 17769 1 
+      . LEU 56 56 17769 1 
+      . SER 57 57 17769 1 
+      . ASP 58 58 17769 1 
+      . TYR 59 59 17769 1 
+      . ASN 60 60 17769 1 
+      . ILE 61 61 17769 1 
+      . GLN 62 62 17769 1 
+      . LYS 63 63 17769 1 
+      . GLU 64 64 17769 1 
+      . SER 65 65 17769 1 
+      . THR 66 66 17769 1 
+      . LEU 67 67 17769 1 
+      . HIS 68 68 17769 1 
+      . LEU 69 69 17769 1 
+      . VAL 70 70 17769 1 
+      . LEU 71 71 17769 1 
+      . ARG 72 72 17769 1 
+      . LEU 73 73 17769 1 
+      . ARG 74 74 17769 1 
+      . GLY 75 75 17769 1 
+      . GLY 76 76 17769 1 
+
+   stop_
+
+save_
+
+
+    ####################
+    #  Natural source  #
+    ####################
+
+save_natural_source
+   _Entity_natural_src_list.Sf_category    natural_source
+   _Entity_natural_src_list.Sf_framecode   natural_source
+   _Entity_natural_src_list.Entry_ID       17769
+   _Entity_natural_src_list.ID             1
+
+   loop_
+      _Entity_natural_src.ID
+      _Entity_natural_src.Entity_ID
+      _Entity_natural_src.Entity_label
+      _Entity_natural_src.Entity_chimera_segment_ID
+      _Entity_natural_src.NCBI_taxonomy_ID
+      _Entity_natural_src.Type
+      _Entity_natural_src.Common
+      _Entity_natural_src.Organism_name_scientific
+      _Entity_natural_src.Organism_name_common
+      _Entity_natural_src.Organism_acronym
+      _Entity_natural_src.ICTVdb_decimal_code
+      _Entity_natural_src.Superkingdom
+      _Entity_natural_src.Kingdom
+      _Entity_natural_src.Genus
+      _Entity_natural_src.Species
+      _Entity_natural_src.Strain
+      _Entity_natural_src.Variant
+      _Entity_natural_src.Subvariant
+      _Entity_natural_src.Organ
+      _Entity_natural_src.Tissue
+      _Entity_natural_src.Tissue_fraction
+      _Entity_natural_src.Cell_line
+      _Entity_natural_src.Cell_type
+      _Entity_natural_src.ATCC_number
+      _Entity_natural_src.Organelle
+      _Entity_natural_src.Cellular_location
+      _Entity_natural_src.Fragment
+      _Entity_natural_src.Fraction
+      _Entity_natural_src.Secretion
+      _Entity_natural_src.Plasmid
+      _Entity_natural_src.Plasmid_details
+      _Entity_natural_src.Gene_mnemonic
+      _Entity_natural_src.Dev_stage
+      _Entity_natural_src.Details
+      _Entity_natural_src.Citation_ID
+      _Entity_natural_src.Citation_label
+      _Entity_natural_src.Entry_ID
+      _Entity_natural_src.Entity_natural_src_list_ID
+
+      1 1 $Ubiquitin . 9606 organism . 'Homo sapiens' human . . Eukaryota Metazoa Homo sapiens . . . . . . . . . . . . . . . . . . . . . 17769 1 
+
+   stop_
+
+save_
+
+
+    #########################
+    #  Experimental source  #
+    #########################
+
+save_experimental_source
+   _Entity_experimental_src_list.Sf_category    experimental_source
+   _Entity_experimental_src_list.Sf_framecode   experimental_source
+   _Entity_experimental_src_list.Entry_ID       17769
+   _Entity_experimental_src_list.ID             1
+
+   loop_
+      _Entity_experimental_src.ID
+      _Entity_experimental_src.Entity_ID
+      _Entity_experimental_src.Entity_label
+      _Entity_experimental_src.Entity_chimera_segment_ID
+      _Entity_experimental_src.Production_method
+      _Entity_experimental_src.Host_org_scientific_name
+      _Entity_experimental_src.Host_org_name_common
+      _Entity_experimental_src.Host_org_details
+      _Entity_experimental_src.Host_org_NCBI_taxonomy_ID
+      _Entity_experimental_src.Host_org_genus
+      _Entity_experimental_src.Host_org_species
+      _Entity_experimental_src.Host_org_strain
+      _Entity_experimental_src.Host_org_variant
+      _Entity_experimental_src.Host_org_subvariant
+      _Entity_experimental_src.Host_org_organ
+      _Entity_experimental_src.Host_org_tissue
+      _Entity_experimental_src.Host_org_tissue_fraction
+      _Entity_experimental_src.Host_org_cell_line
+      _Entity_experimental_src.Host_org_cell_type
+      _Entity_experimental_src.Host_org_cellular_location
+      _Entity_experimental_src.Host_org_organelle
+      _Entity_experimental_src.Host_org_gene
+      _Entity_experimental_src.Host_org_culture_collection
+      _Entity_experimental_src.Host_org_ATCC_number
+      _Entity_experimental_src.Vector_type
+      _Entity_experimental_src.PDBview_host_org_vector_name
+      _Entity_experimental_src.PDBview_plasmid_name
+      _Entity_experimental_src.Vector_name
+      _Entity_experimental_src.Vector_details
+      _Entity_experimental_src.Vendor_name
+      _Entity_experimental_src.Host_org_dev_stage
+      _Entity_experimental_src.Details
+      _Entity_experimental_src.Citation_ID
+      _Entity_experimental_src.Citation_label
+      _Entity_experimental_src.Entry_ID
+      _Entity_experimental_src.Entity_experimental_src_list_ID
+
+      1 1 $Ubiquitin . 'recombinant technology' 'Escherichia coli' . . . Escherichia coli . . . . . . . . . . . . . . . . . . . . . . . 17769 1 
+
+   stop_
+
+save_
+
+
+#####################################
+#  Sample contents and methodology  #
+#####################################
+	 
+    ########################
+    #  Sample description  #
+    ########################
+
+save_sample
+   _Sample.Sf_category                      sample
+   _Sample.Sf_framecode                     sample
+   _Sample.Entry_ID                         17769
+   _Sample.ID                               1
+   _Sample.Type                             solution
+   _Sample.Sub_type                         .
+   _Sample.Details                         'UBIQUITIN HUMAN SEQUENCE'
+   _Sample.Aggregate_sample_number          .
+   _Sample.Solvent_system                  '93% H2O/7% D2O'
+   _Sample.Preparation_date                 .
+   _Sample.Preparation_expiration_date      .
+   _Sample.Polycrystallization_protocol     .
+   _Sample.Single_crystal_protocol          .
+   _Sample.Crystal_grow_apparatus           .
+   _Sample.Crystal_grow_atmosphere          .
+   _Sample.Crystal_grow_details             .
+   _Sample.Crystal_grow_method              .
+   _Sample.Crystal_grow_method_cit_ID       .
+   _Sample.Crystal_grow_pH                  .
+   _Sample.Crystal_grow_pH_range            .
+   _Sample.Crystal_grow_pressure            .
+   _Sample.Crystal_grow_pressure_esd        .
+   _Sample.Crystal_grow_seeding             .
+   _Sample.Crystal_grow_seeding_cit_ID      .
+   _Sample.Crystal_grow_temp                .
+   _Sample.Crystal_grow_temp_details        .
+   _Sample.Crystal_grow_temp_esd            .
+   _Sample.Crystal_grow_time                .
+   _Sample.Oriented_sample_prep_protocol    .
+   _Sample.Lyophilization_cryo_protectant   .
+   _Sample.Storage_protocol                 .
+
+   loop_
+      _Sample_component.ID
+      _Sample_component.Mol_common_name
+      _Sample_component.Isotopic_labeling
+      _Sample_component.Assembly_ID
+      _Sample_component.Assembly_label
+      _Sample_component.Entity_ID
+      _Sample_component.Entity_label
+      _Sample_component.Product_ID
+      _Sample_component.Type
+      _Sample_component.Concentration_val
+      _Sample_component.Concentration_val_min
+      _Sample_component.Concentration_val_max
+      _Sample_component.Concentration_val_units
+      _Sample_component.Concentration_val_err
+      _Sample_component.Vendor
+      _Sample_component.Vendor_product_name
+      _Sample_component.Vendor_product_code
+      _Sample_component.Entry_ID
+      _Sample_component.Sample_ID
+
+      1 'PROTEIN (UBIQUITIN)' '[U-99% 13C; U-99% 15N]' . . 1 $Ubiquitin . .   . . . mM . . . . 17769 1 
+      2 'Phosphate Buffer'    'natural abundance'      . .  .  .         . . 50 . . mM . . . . 17769 1 
+      3  D2O                  'natural abundance'      . .  .  .         . .  7 . . %  . . . . 17769 1 
+      4  H2O                  'natural abundance'      . .  .  .         . . 93 . . %  . . . . 17769 1 
+
+   stop_
+
+save_
+
+
+#######################
+#  Sample conditions  #
+#######################
+
+save_sample_conditions_1
+   _Sample_condition_list.Sf_category    sample_conditions
+   _Sample_condition_list.Sf_framecode   sample_conditions_1
+   _Sample_condition_list.Entry_ID       17769
+   _Sample_condition_list.ID             1
+   _Sample_condition_list.Details        .
+
+   loop_
+      _Sample_condition_variable.Type
+      _Sample_condition_variable.Val
+      _Sample_condition_variable.Val_err
+      _Sample_condition_variable.Val_units
+      _Sample_condition_variable.Entry_ID
+      _Sample_condition_variable.Sample_condition_list_ID
+
+      'ionic strength'  50   . mM  17769 1 
+       pH                6.5 . pH  17769 1 
+       pressure          1   . atm 17769 1 
+       temperature     298   . K   17769 1 
+
+   stop_
+
+save_
+
+
+############################
+#  Computer software used  #
+############################
+
+save_X-PLOR
+   _Software.Sf_category    software
+   _Software.Sf_framecode   X-PLOR
+   _Software.Entry_ID       17769
+   _Software.ID             1
+   _Software.Name           X-PLOR
+   _Software.Version        3.840
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      'BRUNGER ET AL.' . . 17769 1 
+
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      'structure solution' 17769 1 
+       refinement          17769 1 
+
+   stop_
+
+save_
+
+
+save_NMRPIPE
+   _Software.Sf_category    software
+   _Software.Sf_framecode   NMRPIPE
+   _Software.Entry_ID       17769
+   _Software.ID             2
+   _Software.Name           NMRPIPE
+   _Software.Version        1.70
+   _Software.Details        .
+
+   loop_
+      _Vendor.Name
+      _Vendor.Address
+      _Vendor.Electronic_address
+      _Vendor.Entry_ID
+      _Vendor.Software_ID
+
+      'DELAGLIO ET AL.' . . 17769 2 
+
+   stop_
+
+   loop_
+      _Task.Task
+      _Task.Entry_ID
+      _Task.Software_ID
+
+      processing 17769 2 
+
+   stop_
+
+save_
+
+
+#########################
+#  Experimental detail  #
+#########################
+
+    ##################################
+    #  NMR Spectrometer definitions  #
+    ##################################
+
+save_spectrometer_1
+   _NMR_spectrometer.Sf_category      NMR_spectrometer
+   _NMR_spectrometer.Sf_framecode     spectrometer_1
+   _NMR_spectrometer.Entry_ID         17769
+   _NMR_spectrometer.ID               1
+   _NMR_spectrometer.Details          .
+   _NMR_spectrometer.Manufacturer     BRUKER
+   _NMR_spectrometer.Model            DMX
+   _NMR_spectrometer.Serial_number    .
+   _NMR_spectrometer.Field_strength   600
+
+save_
+
+
+save_NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_category    NMR_spectrometer_list
+   _NMR_spectrometer_list.Sf_framecode   NMR_spectrometer_list
+   _NMR_spectrometer_list.Entry_ID       17769
+   _NMR_spectrometer_list.ID             1
+
+   loop_
+      _NMR_spectrometer_view.ID
+      _NMR_spectrometer_view.Name
+      _NMR_spectrometer_view.Manufacturer
+      _NMR_spectrometer_view.Model
+      _NMR_spectrometer_view.Serial_number
+      _NMR_spectrometer_view.Field_strength
+      _NMR_spectrometer_view.Details
+      _NMR_spectrometer_view.Citation_ID
+      _NMR_spectrometer_view.Citation_label
+      _NMR_spectrometer_view.Entry_ID
+      _NMR_spectrometer_view.NMR_spectrometer_list_ID
+
+      1 spectrometer_1 BRUKER DMX . 600 . 1 $citations 17769 1 
+
+   stop_
+
+save_
+
+
+    #############################
+    #  NMR applied experiments  #
+    #############################
+
+save_experiment_list
+   _Experiment_list.Sf_category    experiment_list
+   _Experiment_list.Sf_framecode   experiment_list
+   _Experiment_list.Entry_ID       17769
+   _Experiment_list.ID             1
+   _Experiment_list.Details       'DIPOLAR COUPLINGS MEASURED IN 2 LIQUID CRYSTAL MEDIA. OTTIGER ET AL., JACS 120, 12334-12341 (1998).'
+
+   loop_
+      _Experiment.ID
+      _Experiment.Name
+      _Experiment.Raw_data_flag
+      _Experiment.NMR_spec_expt_ID
+      _Experiment.NMR_spec_expt_label
+      _Experiment.Sample_ID
+      _Experiment.Sample_label
+      _Experiment.Sample_state
+      _Experiment.Sample_volume
+      _Experiment.Sample_volume_units
+      _Experiment.Sample_condition_list_ID
+      _Experiment.Sample_condition_list_label
+      _Experiment.Sample_spinning_rate
+      _Experiment.Sample_angle
+      _Experiment.NMR_tube_type
+      _Experiment.NMR_spectrometer_ID
+      _Experiment.NMR_spectrometer_label
+      _Experiment.NMR_spectrometer_probe_ID
+      _Experiment.NMR_spectrometer_probe_label
+      _Experiment.NMR_spectral_processing_ID
+      _Experiment.NMR_spectral_processing_label
+      _Experiment.Entry_ID
+      _Experiment.Experiment_list_ID
+
+      1 3D_13C-SEPARATED_NOESY     no . . 1 $sample isotropic . . 1 $sample_conditions_1 . . . 1 $spectrometer_1 . . . . 17769 1 
+      2 4D_13C-SEPARATED_NOESY     no . . 1 $sample isotropic . . 1 $sample_conditions_1 . . . 1 $spectrometer_1 . . . . 17769 1 
+      3 4D_13C/15N-SEPARATED_NOESY no . . 1 $sample isotropic . . 1 $sample_conditions_1 . . . 1 $spectrometer_1 . . . . 17769 1 
+      4 MORE                       no . . 1 $sample isotropic . . 1 $sample_conditions_1 . . . 1 $spectrometer_1 . . . . 17769 1 
+
+   stop_
+
+save_
+
+
+####################
+#  NMR parameters  #
+####################
+
+    ##############################
+    #  Assigned chemical shifts  #
+    ##############################
+
+	################################
+	#  Chemical shift referencing  #
+	################################
+
+save_chemical_shift_reference_1
+   _Chem_shift_reference.Sf_category    chem_shift_reference
+   _Chem_shift_reference.Sf_framecode   chemical_shift_reference_1
+   _Chem_shift_reference.Entry_ID       17769
+   _Chem_shift_reference.ID             1
+   _Chem_shift_reference.Details        .
+
+   loop_
+      _Chem_shift_ref.Atom_type
+      _Chem_shift_ref.Atom_isotope_number
+      _Chem_shift_ref.Mol_common_name
+      _Chem_shift_ref.Atom_group
+      _Chem_shift_ref.Concentration_val
+      _Chem_shift_ref.Concentration_units
+      _Chem_shift_ref.Solvent
+      _Chem_shift_ref.Rank
+      _Chem_shift_ref.Chem_shift_units
+      _Chem_shift_ref.Chem_shift_val
+      _Chem_shift_ref.Ref_method
+      _Chem_shift_ref.Ref_type
+      _Chem_shift_ref.Indirect_shift_ratio
+      _Chem_shift_ref.External_ref_loc
+      _Chem_shift_ref.External_ref_sample_geometry
+      _Chem_shift_ref.External_ref_axis
+      _Chem_shift_ref.Indirect_shift_ratio_cit_ID
+      _Chem_shift_ref.Indirect_shift_ratio_cit_label
+      _Chem_shift_ref.Ref_correction_type
+      _Chem_shift_ref.Correction_val
+      _Chem_shift_ref.Correction_val_cit_ID
+      _Chem_shift_ref.Correction_val_cit_label
+      _Chem_shift_ref.Entry_ID
+      _Chem_shift_ref.Chem_shift_reference_ID
+
+      H  1 DSS 'methyl protons' . . . . ppm 0.00 internal direct   1.000000000 . . . . . . . . . 17769 1 
+      C 13 DSS 'methyl protons' . . . . ppm 0.00 na       indirect 0.251449530 . . . . . . . . . 17769 1 
+      N 15 DSS 'methyl protons' . . . . ppm 0.00 na       indirect 0.101329118 . . . . . . . . . 17769 1 
+
+   stop_
+
+save_
+
+
+     ###################################
+     #  Assigned chemical shift lists  #
+     ###################################
+
+###################################################################
+#       Chemical Shift Ambiguity Index Value Definitions          #
+#                                                                 #
+# The values other than 1 are used for those atoms with different #
+# chemical shifts that cannot be assigned to stereospecific atoms #
+# or to specific residues or chains.                              #
+#                                                                 #
+#   Index Value            Definition                             #
+#                                                                 #
+#      1             Unique (including isolated methyl protons,   #
+#                         geminal atoms, and geminal methyl       #
+#                         groups with identical chemical shifts)  #
+#                         (e.g. ILE HD11, HD12, HD13 protons)     #
+#      2             Ambiguity of geminal atoms or geminal methyl #
+#                         proton groups (e.g. ASP HB2 and HB3     #
+#                         protons, LEU CD1 and CD2 carbons, or    #
+#                         LEU HD11, HD12, HD13 and HD21, HD22,    #
+#                         HD23 methyl protons)                    #
+#      3             Aromatic atoms on opposite sides of          #
+#                         symmetrical rings (e.g. TYR HE1 and HE2 #
+#                         protons)                                #
+#      4             Intraresidue ambiguities (e.g. LYS HG and    #
+#                         HD protons or TRP HZ2 and HZ3 protons)  #
+#      5             Interresidue ambiguities (LYS 12 vs. LYS 27) #
+#      6             Intermolecular ambiguities (e.g. ASP 31 CA   #
+#                         in monomer 1 and ASP 31 CA in monomer 2 #
+#                         of an asymmetrical homodimer, duplex    #
+#                         DNA assignments, or other assignments   #
+#                         that may apply to atoms in one or more  #
+#                         molecule in the molecular assembly)     #
+#      9             Ambiguous, specific ambiguity not defined    #
+#                                                                 #
+###################################################################
+save_assigned_chem_shift_list_1
+   _Assigned_chem_shift_list.Sf_category                   assigned_chemical_shifts
+   _Assigned_chem_shift_list.Sf_framecode                  assigned_chem_shift_list_1
+   _Assigned_chem_shift_list.Entry_ID                      17769
+   _Assigned_chem_shift_list.ID                            1
+   _Assigned_chem_shift_list.Sample_condition_list_ID      1
+   _Assigned_chem_shift_list.Sample_condition_list_label  $sample_conditions_1
+   _Assigned_chem_shift_list.Chem_shift_reference_ID       1
+   _Assigned_chem_shift_list.Chem_shift_reference_label   $chemical_shift_reference_1
+   _Assigned_chem_shift_list.Chem_shift_1H_err             .
+   _Assigned_chem_shift_list.Chem_shift_13C_err            .
+   _Assigned_chem_shift_list.Chem_shift_15N_err            .
+   _Assigned_chem_shift_list.Chem_shift_31P_err            .
+   _Assigned_chem_shift_list.Chem_shift_2H_err             .
+   _Assigned_chem_shift_list.Chem_shift_19F_err            .
+   _Assigned_chem_shift_list.Error_derivation_method       .
+   _Assigned_chem_shift_list.Details                       .
+   _Assigned_chem_shift_list.Text_data_format              .
+   _Assigned_chem_shift_list.Text_data                     .
+
+   loop_
+      _Chem_shift_experiment.Experiment_ID
+      _Chem_shift_experiment.Experiment_name
+      _Chem_shift_experiment.Sample_ID
+      _Chem_shift_experiment.Sample_label
+      _Chem_shift_experiment.Sample_state
+      _Chem_shift_experiment.Entry_ID
+      _Chem_shift_experiment.Assigned_chem_shift_list_ID
+
+      1 3D_13C-SEPARATED_NOESY     . . . 17769 1 
+      2 4D_13C-SEPARATED_NOESY     . . . 17769 1 
+      3 4D_13C/15N-SEPARATED_NOESY . . . 17769 1 
+      4 MORE                       . . . 17769 1 
+
+   stop_
+
+   loop_
+      _Atom_shift_assign_ID
+      _Residue_author_seq_code
+      _Residue_seq_code
+      _Residue_label
+      _Atom_name
+      _Atom_type
+      _Chem_shift_value
+      _Chem_shift_value_error
+      _Chem_shift_ambiguity_code
+
+     1     1     1   MET       HA    H      4.23      0.2     1
+     2     1     1   MET       HB2   H      2.14      0.2     1
+     3     1     1   MET       HB3   H      2.08      0.2     1
+     4     1     1   MET       HG2   H      2.49      0.2     1
+     5     1     1   MET       HG3   H      2.02      0.2     1
+     6     1     1   MET       HE1   H      1.66      0.2     1
+     7     1     1   MET       HE2   H      1.66      0.2     1
+     8     1     1   MET       HE3   H      1.66      0.2     1
+     9     1     1   MET       C     C    170.27      0.2     1
+    10     1     1   MET       CA    C     54.38      0.2     1
+    11     1     1   MET       CB    C     33.20      0.2     1
+    12     1     1   MET       CG    C     30.88      0.2     1
+    13     1     1   MET       CE    C     17.79      0.2     1
+    14     2     2   GLN       H     H      8.90      0.2     1
+    15     2     2   GLN       HA    H      5.25      0.2     1
+    16     2     2   GLN       HB2   H      1.69      0.2     1
+    17     2     2   GLN       HB3   H      1.87      0.2     1
+    18     2     2   GLN       HG2   H      2.21      0.2     1
+    19     2     2   GLN       HG3   H      1.81      0.2     1
+    20     2     2   GLN       HE21  H      7.65      0.2     1
+    21     2     2   GLN       HE22  H      6.79      0.2     1
+    22     2     2   GLN       C     C    175.65      0.2     1
+    23     2     2   GLN       CA    C     55.01      0.2     1
+    24     2     2   GLN       CB    C     30.69      0.2     1
+    25     2     2   GLN       CG    C     34.56      0.2     1
+    26     2     2   GLN       N     N    124.23      0.2     1
+    27     2     2   GLN       NE2   N    111.95      0.2     1
+    28     3     3   ILE       H     H      8.32      0.2     1
+    29     3     3   ILE       HA    H      4.21      0.2     1
+    30     3     3   ILE       HB    H      1.79      0.2     1
+    31     3     3   ILE       HG12  H      1.07      0.2     1
+    32     3     3   ILE       HG13  H      0.83      0.2     1
+    33     3     3   ILE       HG21  H      0.65      0.2     1
+    34     3     3   ILE       HG22  H      0.65      0.2     1
+    35     3     3   ILE       HG23  H      0.65      0.2     1
+    36     3     3   ILE       HD11  H      0.60      0.2     1
+    37     3     3   ILE       HD12  H      0.60      0.2     1
+    38     3     3   ILE       HD13  H      0.60      0.2     1
+    39     3     3   ILE       C     C    172.18      0.2     1
+    40     3     3   ILE       CA    C     59.50      0.2     1
+    41     3     3   ILE       CB    C     42.14      0.2     1
+    42     3     3   ILE       CG1   C     25.10      0.2     1
+    43     3     3   ILE       CG2   C     17.91      0.2     1
+    44     3     3   ILE       CD1   C     14.26      0.2     1
+    45     3     3   ILE       N     N    116.35      0.2     1
+    46     4     4   PHE       H     H      8.61      0.2     1
+    47     4     4   PHE       HA    H      5.63      0.2     1
+    48     4     4   PHE       HB2   H      3.06      0.2     1
+    49     4     4   PHE       HB3   H      2.88      0.2     1
+    50     4     4   PHE       HD1   H      7.08      0.2     1
+    51     4     4   PHE       HD2   H      7.08      0.2     1
+    52     4     4   PHE       HE1   H      7.25      0.2     1
+    53     4     4   PHE       HE2   H      7.25      0.2     1
+    54     4     4   PHE       C     C    175.05      0.2     1
+    55     4     4   PHE       CA    C     55.14      0.2     1
+    56     4     4   PHE       CB    C     41.41      0.2     1
+    57     4     4   PHE       CD1   C    132.14      0.2     1
+    58     4     4   PHE       CD2   C    132.14      0.2     1
+    59     4     4   PHE       CE1   C    131.06      0.2     1
+    60     4     4   PHE       CE2   C    131.06      0.2     1
+    61     4     4   PHE       N     N    119.12      0.2     1
+    62     5     5   VAL       H     H      9.30      0.2     1
+    63     5     5   VAL       HA    H      4.72      0.2     1
+    64     5     5   VAL       HB    H      1.92      0.2     1
+    65     5     5   VAL       HG11  H      0.70      0.2     1
+    66     5     5   VAL       HG12  H      0.70      0.2     1
+    67     5     5   VAL       HG13  H      0.70      0.2     1
+    68     5     5   VAL       HG21  H      0.74      0.2     1
+    69     5     5   VAL       HG22  H      0.74      0.2     1
+    70     5     5   VAL       HG23  H      0.74      0.2     1
+    71     5     5   VAL       C     C    174.60      0.2     1
+    72     5     5   VAL       CA    C     60.55      0.2     1
+    73     5     5   VAL       CB    C     34.16      0.2     1
+    74     5     5   VAL       CG1   C     22.42      0.2     1
+    75     5     5   VAL       CG2   C     20.86      0.2     1
+    76     5     5   VAL       N     N    122.01      0.2     1
+    77     6     6   LYS       H     H      8.82      0.2     1
+    78     6     6   LYS       HA    H      5.37      0.2     1
+    79     6     6   LYS       HB2   H      1.67      0.2     1
+    80     6     6   LYS       HB3   H      1.35      0.2     1
+    81     6     6   LYS       HG2   H      1.51      0.2     1
+    82     6     6   LYS       HG3   H      1.29      0.2     1
+    83     6     6   LYS       HD2   H      1.58      0.2     1
+    84     6     6   LYS       HD3   H      1.58      0.2     1
+    85     6     6   LYS       HE2   H      2.91      0.2     1
+    86     6     6   LYS       HE3   H      2.91      0.2     1
+    87     6     6   LYS       C     C    176.87      0.2     1
+    88     6     6   LYS       CA    C     54.45      0.2     1
+    89     6     6   LYS       CB    C     34.98      0.2     1
+    90     6     6   LYS       CG    C     25.08      0.2     1
+    91     6     6   LYS       CD    C     29.18      0.2     1
+    92     6     6   LYS       CE    C     41.75      0.2     1
+    93     6     6   LYS       N     N    128.53      0.2     1
+    94     7     7   THR       H     H      8.73      0.2     1
+    95     7     7   THR       HA    H      4.97      0.2     1
+    96     7     7   THR       HB    H      4.82      0.2     1
+    97     7     7   THR       HG21  H      1.20      0.2     1
+    98     7     7   THR       HG22  H      1.20      0.2     1
+    99     7     7   THR       HG23  H      1.20      0.2     1
+   100     7     7   THR       C     C    176.64      0.2     1
+   101     7     7   THR       CA    C     60.40      0.2     1
+   102     7     7   THR       CB    C     70.56      0.2     1
+   103     7     7   THR       CG2   C     21.50      0.2     1
+   104     7     7   THR       N     N    116.41      0.2     1
+   105     8     8   LEU       H     H      9.10      0.2     1
+   106     8     8   LEU       HA    H      4.31      0.2     1
+   107     8     8   LEU       HB2   H      1.94      0.2     1
+   108     8     8   LEU       HB3   H      1.78      0.2     1
+   109     8     8   LEU       HG    H      1.88      0.2     1
+   110     8     8   LEU       HD11  H      1.05      0.2     1
+   111     8     8   LEU       HD12  H      1.05      0.2     1
+   112     8     8   LEU       HD13  H      1.05      0.2     1
+   113     8     8   LEU       HD21  H      0.99      0.2     1
+   114     8     8   LEU       HD22  H      0.99      0.2     1
+   115     8     8   LEU       HD23  H      0.99      0.2     1
+   116     8     8   LEU       C     C    178.53      0.2     1
+   117     8     8   LEU       CA    C     57.51      0.2     1
+   118     8     8   LEU       CB    C     41.90      0.2     1
+   119     8     8   LEU       CG    C     27.31      0.2     1
+   120     8     8   LEU       CD1   C     25.26      0.2     1
+   121     8     8   LEU       CD2   C     23.85      0.2     1
+   122     8     8   LEU       N     N    122.34      0.2     1
+   123     9     9   THR       H     H      7.63      0.2     1
+   124     9     9   THR       HA    H      4.43      0.2     1
+   125     9     9   THR       HB    H      4.59      0.2     1
+   126     9     9   THR       HG21  H      1.27      0.2     1
+   127     9     9   THR       HG22  H      1.27      0.2     1
+   128     9     9   THR       HG23  H      1.27      0.2     1
+   129     9     9   THR       C     C    175.25      0.2     1
+   130     9     9   THR       CA    C     61.33      0.2     1
+   131     9     9   THR       CB    C     69.07      0.2     1
+   132     9     9   THR       CG2   C     21.82      0.2     1
+   133     9     9   THR       N     N    106.60      0.2     1
+   134    10    10   GLY       H     H      7.81      0.2     1
+   135    10    10   GLY       HA2   H      4.35      0.2     1
+   136    10    10   GLY       HA3   H      3.61      0.2     1
+   137    10    10   GLY       C     C    173.80      0.2     1
+   138    10    10   GLY       CA    C     45.39      0.2     1
+   139    10    10   GLY       N     N    109.90      0.2     1
+   140    11    11   LYS       H     H      7.28      0.2     1
+   141    11    11   LYS       HA    H      4.36      0.2     1
+   142    11    11   LYS       HB2   H      1.82      0.2     1
+   143    11    11   LYS       HB3   H      1.72      0.2     1
+   144    11    11   LYS       HG2   H      1.42      0.2     1
+   145    11    11   LYS       HG3   H      1.27      0.2     1
+   146    11    11   LYS       HD2   H      1.65      0.2     1
+   147    11    11   LYS       HD3   H      1.65      0.2     1
+   148    11    11   LYS       HE2   H      2.94      0.2     1
+   149    11    11   LYS       HE3   H      2.94      0.2     1
+   150    11    11   LYS       C     C    175.67      0.2     1
+   151    11    11   LYS       CA    C     56.21      0.2     1
+   152    11    11   LYS       CB    C     33.13      0.2     1
+   153    11    11   LYS       CG    C     25.02      0.2     1
+   154    11    11   LYS       CD    C     29.14      0.2     1
+   155    11    11   LYS       CE    C     41.81      0.2     1
+   156    11    11   LYS       N     N    122.61      0.2     1
+   157    12    12   THR       H     H      8.65      0.2     1
+   158    12    12   THR       HA    H      5.05      0.2     1
+   159    12    12   THR       HB    H      3.95      0.2     1
+   160    12    12   THR       HG21  H      1.10      0.2     1
+   161    12    12   THR       HG22  H      1.10      0.2     1
+   162    12    12   THR       HG23  H      1.10      0.2     1
+   163    12    12   THR       C     C    174.05      0.2     1
+   164    12    12   THR       CA    C     62.32      0.2     1
+   165    12    12   THR       CB    C     69.84      0.2     1
+   166    12    12   THR       CG2   C     21.98      0.2     1
+   167    12    12   THR       N     N    121.45      0.2     1
+   168    13    13   ILE       H     H      9.45      0.2     1
+   169    13    13   ILE       HA    H      4.54      0.2     1
+   170    13    13   ILE       HB    H      1.88      0.2     1
+   171    13    13   ILE       HG12  H      1.45      0.2     1
+   172    13    13   ILE       HG13  H      1.10      0.2     1
+   173    13    13   ILE       HG21  H      0.88      0.2     1
+   174    13    13   ILE       HG22  H      0.88      0.2     1
+   175    13    13   ILE       HG23  H      0.88      0.2     1
+   176    13    13   ILE       HD11  H      0.73      0.2     1
+   177    13    13   ILE       HD12  H      0.73      0.2     1
+   178    13    13   ILE       HD13  H      0.73      0.2     1
+   179    13    13   ILE       C     C    174.95      0.2     1
+   180    13    13   ILE       CA    C     59.91      0.2     1
+   181    13    13   ILE       CB    C     40.88      0.2     1
+   182    13    13   ILE       CG1   C     26.94      0.2     1
+   183    13    13   ILE       CG2   C     17.82      0.2     1
+   184    13    13   ILE       CD1   C     14.41      0.2     1
+   185    13    13   ILE       N     N    128.12      0.2     1
+   186    14    14   THR       H     H      8.71      0.2     1
+   187    14    14   THR       HA    H      4.96      0.2     1
+   188    14    14   THR       HB    H      4.03      0.2     1
+   189    14    14   THR       HG21  H      1.13      0.2     1
+   190    14    14   THR       HG22  H      1.13      0.2     1
+   191    14    14   THR       HG23  H      1.13      0.2     1
+   192    14    14   THR       C     C    173.52      0.2     1
+   193    14    14   THR       CA    C     61.87      0.2     1
+   194    14    14   THR       CB    C     69.58      0.2     1
+   195    14    14   THR       CG2   C     21.80      0.2     1
+   196    14    14   THR       N     N    122.53      0.2     1
+   197    15    15   LEU       H     H      8.71      0.2     1
+   198    15    15   LEU       HA    H      4.78      0.2     1
+   199    15    15   LEU       HB2   H      1.36      0.2     1
+   200    15    15   LEU       HB3   H      1.22      0.2     1
+   201    15    15   LEU       HG    H      1.43      0.2     1
+   202    15    15   LEU       HD11  H      0.71      0.2     1
+   203    15    15   LEU       HD12  H      0.71      0.2     1
+   204    15    15   LEU       HD13  H      0.71      0.2     1
+   205    15    15   LEU       HD21  H      0.78      0.2     1
+   206    15    15   LEU       HD22  H      0.78      0.2     1
+   207    15    15   LEU       HD23  H      0.78      0.2     1
+   208    15    15   LEU       C     C    174.40      0.2     1
+   209    15    15   LEU       CA    C     52.76      0.2     1
+   210    15    15   LEU       CB    C     47.00      0.2     1
+   211    15    15   LEU       CG    C     26.79      0.2     1
+   212    15    15   LEU       CD1   C     27.10      0.2     1
+   213    15    15   LEU       CD2   C     24.20      0.2     1
+   214    15    15   LEU       N     N    125.81      0.2     1
+   215    16    16   GLU       H     H      8.14      0.2     1
+   216    16    16   GLU       HA    H      4.92      0.2     1
+   217    16    16   GLU       HB2   H      1.85      0.2     1
+   218    16    16   GLU       HB3   H      1.94      0.2     1
+   219    16    16   GLU       HG2   H      2.29      0.2     1
+   220    16    16   GLU       HG3   H      2.16      0.2     1
+   221    16    16   GLU       C     C    175.59      0.2     1
+   222    16    16   GLU       CA    C     54.75      0.2     1
+   223    16    16   GLU       CB    C     29.38      0.2     1
+   224    16    16   GLU       CG    C     34.84      0.2     1
+   225    16    16   GLU       N     N    123.17      0.2     1
+   226    17    17   VAL       H     H      8.90      0.2     1
+   227    17    17   VAL       HA    H      4.71      0.2     1
+   228    17    17   VAL       HB    H      2.33      0.2     1
+   229    17    17   VAL       HG11  H      0.72      0.2     1
+   230    17    17   VAL       HG12  H      0.72      0.2     1
+   231    17    17   VAL       HG13  H      0.72      0.2     1
+   232    17    17   VAL       HG21  H      0.45      0.2     1
+   233    17    17   VAL       HG22  H      0.45      0.2     1
+   234    17    17   VAL       HG23  H      0.45      0.2     1
+   235    17    17   VAL       C     C    173.89      0.2     1
+   236    17    17   VAL       CA    C     58.36      0.2     1
+   237    17    17   VAL       CB    C     36.33      0.2     1
+   238    17    17   VAL       CG1   C     22.27      0.2     1
+   239    17    17   VAL       CG2   C     19.54      0.2     1
+   240    17    17   VAL       N     N    118.22      0.2     1
+   241    18    18   GLU       H     H      8.64      0.2     1
+   242    18    18   GLU       HA    H      5.08      0.2     1
+   243    18    18   GLU       HB2   H      1.63      0.2     1
+   244    18    18   GLU       HB3   H      2.20      0.2     1
+   245    18    18   GLU       HG2   H      2.42      0.2     1
+   246    18    18   GLU       HG3   H      2.31      0.2     1
+   247    18    18   GLU       C     C    175.89      0.2     1
+   248    18    18   GLU       CA    C     52.65      0.2     1
+   249    18    18   GLU       CB    C     30.24      0.2     1
+   250    18    18   GLU       CG    C     34.22      0.2     1
+   251    18    18   GLU       N     N    120.00      0.2     1
+   252    19    19   PRO       HA    H      4.14      0.2     1
+   253    19    19   PRO       HB2   H      2.45      0.2     1
+   254    19    19   PRO       HB3   H      2.02      0.2     1
+   255    19    19   PRO       HG2   H      2.22      0.2     1
+   256    19    19   PRO       HG3   H      2.08      0.2     1
+   257    19    19   PRO       HD2   H      4.01      0.2     1
+   258    19    19   PRO       HD3   H      3.82      0.2     1
+   259    19    19   PRO       C     C    175.04      0.2     1
+   260    19    19   PRO       CA    C     65.40      0.2     1
+   261    19    19   PRO       CB    C     31.88      0.2     1
+   262    19    19   PRO       CG    C     27.96      0.2     1
+   263    19    19   PRO       CD    C     50.51      0.2     1
+   264    19    19   PRO       N     N    134.79      0.2     1
+   265    20    20   SER       H     H      7.04      0.2     1
+   266    20    20   SER       HA    H      4.37      0.2     1
+   267    20    20   SER       HB2   H      4.15      0.2     1
+   268    20    20   SER       HB3   H      3.79      0.2     1
+   269    20    20   SER       C     C    174.39      0.2     1
+   270    20    20   SER       CA    C     57.33      0.2     1
+   271    20    20   SER       CB    C     63.30      0.2     1
+   272    20    20   SER       N     N    104.41      0.2     1
+   273    21    21   ASP       H     H      8.03      0.2     1
+   274    21    21   ASP       HA    H      4.70      0.2     1
+   275    21    21   ASP       HB2   H      2.96      0.2     1
+   276    21    21   ASP       C     C    176.09      0.2     1
+   277    21    21   ASP       CA    C     55.63      0.2     1
+   278    21    21   ASP       CB    C     40.73      0.2     1
+   279    21    21   ASP       N     N    124.49      0.2     1
+   280    22    22   THR       H     H      7.90      0.2     1
+   281    22    22   THR       HA    H      4.92      0.2     1
+   282    22    22   THR       HB    H      4.83      0.2     1
+   283    22    22   THR       HG21  H      1.28      0.2     1
+   284    22    22   THR       HG22  H      1.28      0.2     1
+   285    22    22   THR       HG23  H      1.28      0.2     1
+   286    22    22   THR       C     C    176.48      0.2     1
+   287    22    22   THR       CA    C     59.62      0.2     1
+   288    22    22   THR       CB    C     71.13      0.2     1
+   289    22    22   THR       CG2   C     22.12      0.2     1
+   290    22    22   THR       N     N    109.81      0.2     1
+   291    23    23   ILE       H     H      8.56      0.2     1
+   292    23    23   ILE       HA    H      3.66      0.2     1
+   293    23    23   ILE       HB    H      2.57      0.2     1
+   294    23    23   ILE       HG12  H      1.90      0.2     1
+   295    23    23   ILE       HG13  H      1.29      0.2     1
+   296    23    23   ILE       HG21  H      0.79      0.2     1
+   297    23    23   ILE       HG22  H      0.79      0.2     1
+   298    23    23   ILE       HG23  H      0.79      0.2     1
+   299    23    23   ILE       HD11  H      0.58      0.2     1
+   300    23    23   ILE       HD12  H      0.58      0.2     1
+   301    23    23   ILE       HD13  H      0.58      0.2     1
+   302    23    23   ILE       C     C    178.77      0.2     1
+   303    23    23   ILE       CA    C     62.19      0.2     1
+   304    23    23   ILE       CB    C     34.28      0.2     1
+   305    23    23   ILE       CG1   C     27.87      0.2     1
+   306    23    23   ILE       CG2   C     18.05      0.2     1
+   307    23    23   ILE       CD1   C      9.41      0.2     1
+   308    23    23   ILE       N     N    122.20      0.2     1
+   309    24    24   GLU       H     H      9.76      0.2     1
+   310    24    24   GLU       HA    H      3.92      0.2     1
+   311    24    24   GLU       HB2   H      2.06      0.2     1
+   312    24    24   GLU       HB3   H      2.06      0.2     1
+   313    24    24   GLU       HG2   H      2.47      0.2     1
+   314    24    24   GLU       HG3   H      2.39      0.2     1
+   315    24    24   GLU       C     C    178.37      0.2     1
+   316    24    24   GLU       CA    C     60.15      0.2     1
+   317    24    24   GLU       CB    C     28.21      0.2     1
+   318    24    24   GLU       CG    C     34.60      0.2     1
+   319    24    24   GLU       N     N    121.84      0.2     1
+   320    25    25   ASN       H     H      7.92      0.2     1
+   321    25    25   ASN       HA    H      4.53      0.2     1
+   322    25    25   ASN       HB2   H      3.21      0.2     1
+   323    25    25   ASN       HB3   H      2.87      0.2     1
+   324    25    25   ASN       HD21  H      7.82      0.2     1
+   325    25    25   ASN       HD22  H      6.89      0.2     1
+   326    25    25   ASN       C     C    178.11      0.2     1
+   327    25    25   ASN       CA    C     55.99      0.2     1
+   328    25    25   ASN       CB    C     38.38      0.2     1
+   329    25    25   ASN       N     N    121.58      0.2     1
+   330    25    25   ASN       ND2   N    109.70      0.2     1
+   331    26    26   VAL       H     H      8.07      0.2     1
+   332    26    26   VAL       HA    H      3.40      0.2     1
+   333    26    26   VAL       HB    H      2.36      0.2     1
+   334    26    26   VAL       HG11  H      0.70      0.2     1
+   335    26    26   VAL       HG12  H      0.70      0.2     1
+   336    26    26   VAL       HG13  H      0.70      0.2     1
+   337    26    26   VAL       HG21  H      0.99      0.2     1
+   338    26    26   VAL       HG22  H      0.99      0.2     1
+   339    26    26   VAL       HG23  H      0.99      0.2     1
+   340    26    26   VAL       C     C    177.68      0.2     1
+   341    26    26   VAL       CA    C     67.59      0.2     1
+   342    26    26   VAL       CB    C     30.77      0.2     1
+   343    26    26   VAL       CG1   C     21.49      0.2     1
+   344    26    26   VAL       CG2   C     23.61      0.2     1
+   345    26    26   VAL       N     N    122.72      0.2     1
+   346    27    27   LYS       H     H      8.56      0.2     1
+   347    27    27   LYS       HA    H      4.58      0.2     1
+   348    27    27   LYS       HB2   H      2.05      0.2     1
+   349    27    27   LYS       HB3   H      1.44      0.2     1
+   350    27    27   LYS       HG2   H      1.59      0.2     1
+   351    27    27   LYS       HG3   H      1.39      0.2     1
+   352    27    27   LYS       HD2   H      1.66      0.2     1
+   353    27    27   LYS       HD3   H      1.66      0.2     1
+   354    27    27   LYS       HE2   H      2.64      0.2     1
+   355    27    27   LYS       HE3   H      2.64      0.2     1
+   356    27    27   LYS       C     C    180.28      0.2     1
+   357    27    27   LYS       CA    C     59.18      0.2     1
+   358    27    27   LYS       CB    C     33.66      0.2     1
+   359    27    27   LYS       CG    C     26.21      0.2     1
+   360    27    27   LYS       CD    C     30.33      0.2     1
+   361    27    27   LYS       CE    C     42.32      0.2     1
+   362    27    27   LYS       N     N    119.87      0.2     1
+   363    28    28   ALA       H     H      8.06      0.2     1
+   364    28    28   ALA       HA    H      4.16      0.2     1
+   365    28    28   ALA       HB1   H      1.64      0.2     1
+   366    28    28   ALA       HB2   H      1.64      0.2     1
+   367    28    28   ALA       HB3   H      1.64      0.2     1
+   368    28    28   ALA       C     C    180.03      0.2     1
+   369    28    28   ALA       CA    C     55.30      0.2     1
+   370    28    28   ALA       CB    C     17.64      0.2     1
+   371    28    28   ALA       N     N    124.45      0.2     1
+   372    29    29   LYS       H     H      7.85      0.2     1
+   373    29    29   LYS       HA    H      4.21      0.2     1
+   374    29    29   LYS       HB2   H      2.15      0.2     1
+   375    29    29   LYS       HB3   H      1.94      0.2     1
+   376    29    29   LYS       HG2   H      1.80      0.2     1
+   377    29    29   LYS       HG3   H      1.60      0.2     1
+   378    29    29   LYS       HD2   H      1.80      0.2     1
+   379    29    29   LYS       HD3   H      1.48      0.2     1
+   380    29    29   LYS       HE2   H      3.18      0.2     1
+   381    29    29   LYS       HE3   H      2.99      0.2     1
+   382    29    29   LYS       C     C    180.05      0.2     1
+   383    29    29   LYS       CA    C     59.58      0.2     1
+   384    29    29   LYS       CB    C     33.22      0.2     1
+   385    29    29   LYS       CG    C     26.41      0.2     1
+   386    29    29   LYS       CD    C     30.00      0.2     1
+   387    29    29   LYS       CE    C     42.25      0.2     1
+   388    29    29   LYS       N     N    120.95      0.2     1
+   389    30    30   ILE       H     H      8.28      0.2     1
+   390    30    30   ILE       HA    H      3.51      0.2     1
+   391    30    30   ILE       HB    H      2.37      0.2     1
+   392    30    30   ILE       HG12  H      2.02      0.2     1
+   393    30    30   ILE       HG13  H      0.71      0.2     1
+   394    30    30   ILE       HG21  H      0.71      0.2     1
+   395    30    30   ILE       HG22  H      0.71      0.2     1
+   396    30    30   ILE       HG23  H      0.71      0.2     1
+   397    30    30   ILE       HD11  H      0.90      0.2     1
+   398    30    30   ILE       HD12  H      0.90      0.2     1
+   399    30    30   ILE       HD13  H      0.90      0.2     1
+   400    30    30   ILE       C     C    178.04      0.2     1
+   401    30    30   ILE       CA    C     66.08      0.2     1
+   402    30    30   ILE       CB    C     36.73      0.2     1
+   403    30    30   ILE       CG1   C     31.06      0.2     1
+   404    30    30   ILE       CG2   C     17.03      0.2     1
+   405    30    30   ILE       CD1   C     15.24      0.2     1
+   406    30    30   ILE       N     N    122.09      0.2     1
+   407    31    31   GLN       H     H      8.58      0.2     1
+   408    31    31   GLN       HA    H      3.83      0.2     1
+   409    31    31   GLN       HB2   H      1.95      0.2     1
+   410    31    31   GLN       HB3   H      2.51      0.2     1
+   411    31    31   GLN       HG2   H      1.98      0.2     1
+   412    31    31   GLN       HG3   H      2.27      0.2     1
+   413    31    31   GLN       HE21  H      7.63      0.2     1
+   414    31    31   GLN       HE22  H      6.80      0.2     1
+   415    31    31   GLN       C     C    178.62      0.2     1
+   416    31    31   GLN       CA    C     59.93      0.2     1
+   417    31    31   GLN       CB    C     27.65      0.2     1
+   418    31    31   GLN       CG    C     33.66      0.2     1
+   419    31    31   GLN       N     N    124.50      0.2     1
+   420    31    31   GLN       NE2   N    109.85      0.2     1
+   421    32    32   ASP       H     H      8.01      0.2     1
+   422    32    32   ASP       HA    H      4.35      0.2     1
+   423    32    32   ASP       HB2   H      2.89      0.2     1
+   424    32    32   ASP       HB3   H      2.81      0.2     1
+   425    32    32   ASP       C     C    176.98      0.2     1
+   426    32    32   ASP       CA    C     57.12      0.2     1
+   427    32    32   ASP       CB    C     40.51      0.2     1
+   428    32    32   ASP       N     N    120.37      0.2     1
+   429    33    33   LYS       H     H      7.43      0.2     1
+   430    33    33   LYS       HA    H      4.34      0.2     1
+   431    33    33   LYS       HB2   H      1.85      0.2     1
+   432    33    33   LYS       HB3   H      1.99      0.2     1
+   433    33    33   LYS       HG2   H      1.61      0.2     1
+   434    33    33   LYS       HG3   H      1.61      0.2     1
+   435    33    33   LYS       HD2   H      1.71      0.2     1
+   436    33    33   LYS       HD3   H      1.71      0.2     1
+   437    33    33   LYS       HE2   H      3.16      0.2     1
+   438    33    33   LYS       HE3   H      3.11      0.2     1
+   439    33    33   LYS       C     C    177.60      0.2     1
+   440    33    33   LYS       CA    C     57.98      0.2     1
+   441    33    33   LYS       CB    C     34.10      0.2     1
+   442    33    33   LYS       CG    C     25.30      0.2     1
+   443    33    33   LYS       CD    C     28.80      0.2     1
+   444    33    33   LYS       CE    C     41.96      0.2     1
+   445    33    33   LYS       N     N    116.14      0.2     1
+   446    34    34   GLU       H     H      8.74      0.2     1
+   447    34    34   GLU       HA    H      4.62      0.2     1
+   448    34    34   GLU       HB2   H      2.27      0.2     1
+   449    34    34   GLU       HB3   H      1.72      0.2     1
+   450    34    34   GLU       HG2   H      2.20      0.2     1
+   451    34    34   GLU       HG3   H      2.20      0.2     1
+   452    34    34   GLU       C     C    177.57      0.2     1
+   453    34    34   GLU       CA    C     55.10      0.2     1
+   454    34    34   GLU       CB    C     32.59      0.2     1
+   455    34    34   GLU       CG    C     35.12      0.2     1
+   456    34    34   GLU       N     N    114.88      0.2     1
+   457    35    35   GLY       H     H      8.53      0.2     1
+   458    35    35   GLY       HA2   H      4.14      0.2     1
+   459    35    35   GLY       HA3   H      3.93      0.2     1
+   460    35    35   GLY       C     C    173.69      0.2     1
+   461    35    35   GLY       CA    C     46.01      0.2     1
+   462    35    35   GLY       N     N    109.66      0.2     1
+   463    36    36   ILE       H     H      6.15      0.2     1
+   464    36    36   ILE       HA    H      4.45      0.2     1
+   465    36    36   ILE       HB    H      1.41      0.2     1
+   466    36    36   ILE       HG12  H      1.41      0.2     1
+   467    36    36   ILE       HG13  H      1.10      0.2     1
+   468    36    36   ILE       HG21  H      0.95      0.2     1
+   469    36    36   ILE       HG22  H      0.95      0.2     1
+   470    36    36   ILE       HG23  H      0.95      0.2     1
+   471    36    36   ILE       HD11  H      0.79      0.2     1
+   472    36    36   ILE       HD12  H      0.79      0.2     1
+   473    36    36   ILE       HD13  H      0.79      0.2     1
+   474    36    36   ILE       C     C    173.32      0.2     1
+   475    36    36   ILE       CA    C     57.68      0.2     1
+   476    36    36   ILE       CB    C     40.51      0.2     1
+   477    36    36   ILE       CG1   C     26.94      0.2     1
+   478    36    36   ILE       CG2   C     17.80      0.2     1
+   479    36    36   ILE       CD1   C     13.52      0.2     1
+   480    36    36   ILE       N     N    120.89      0.2     1
+   481    37    37   PRO       HA    H      4.63      0.2     1
+   482    37    37   PRO       HB2   H      2.43      0.2     1
+   483    37    37   PRO       HB3   H      1.97      0.2     1
+   484    37    37   PRO       HG2   H      2.11      0.2     1
+   485    37    37   PRO       HG3   H      2.05      0.2     1
+   486    37    37   PRO       HD2   H      4.19      0.2     1
+   487    37    37   PRO       HD3   H      3.58      0.2     1
+   488    37    37   PRO       C     C    176.67      0.2     1
+   489    37    37   PRO       CA    C     61.59      0.2     1
+   490    37    37   PRO       CB    C     31.78      0.2     1
+   491    37    37   PRO       CG    C     28.20      0.2     1
+   492    37    37   PRO       CD    C     51.08      0.2     1
+   493    37    37   PRO       N     N    142.25      0.2     1
+   494    38    38   PRO       HA    H      4.12      0.2     1
+   495    38    38   PRO       HB2   H      2.06      0.2     1
+   496    38    38   PRO       HB3   H      2.23      0.2     1
+   497    38    38   PRO       HG2   H      2.19      0.2     1
+   498    38    38   PRO       HG3   H      1.62      0.2     1
+   499    38    38   PRO       HD2   H      3.76      0.2     1
+   500    38    38   PRO       HD3   H      3.76      0.2     1
+   501    38    38   PRO       C     C    178.05      0.2     1
+   502    38    38   PRO       CA    C     66.19      0.2     1
+   503    38    38   PRO       CB    C     32.82      0.2     1
+   504    38    38   PRO       CG    C     27.60      0.2     1
+   505    38    38   PRO       CD    C     51.10      0.2     1
+   506    38    38   PRO       N     N    135.94      0.2     1
+   507    39    39   ASP       H     H      8.55      0.2     1
+   508    39    39   ASP       HA    H      4.43      0.2     1
+   509    39    39   ASP       HB2   H      2.80      0.2     1
+   510    39    39   ASP       HB3   H      2.72      0.2     1
+   511    39    39   ASP       C     C    176.82      0.2     1
+   512    39    39   ASP       CA    C     55.57      0.2     1
+   513    39    39   ASP       CB    C     39.47      0.2     1
+   514    39    39   ASP       N     N    114.39      0.2     1
+   515    40    40   GLN       H     H      7.82      0.2     1
+   516    40    40   GLN       HA    H      4.46      0.2     1
+   517    40    40   GLN       HB2   H      1.84      0.2     1
+   518    40    40   GLN       HB3   H      2.46      0.2     1
+   519    40    40   GLN       HG2   H      2.41      0.2     1
+   520    40    40   GLN       HG3   H      2.41      0.2     1
+   521    40    40   GLN       HE21  H      7.63      0.2     1
+   522    40    40   GLN       HE22  H      6.74      0.2     1
+   523    40    40   GLN       C     C    175.11      0.2     1
+   524    40    40   GLN       CA    C     55.57      0.2     1
+   525    40    40   GLN       CB    C     30.07      0.2     1
+   526    40    40   GLN       CG    C     34.39      0.2     1
+   527    40    40   GLN       N     N    117.79      0.2     1
+   528    40    40   GLN       NE2   N    110.75      0.2     1
+   529    41    41   GLN       H     H      7.48      0.2     1
+   530    41    41   GLN       HA    H      4.24      0.2     1
+   531    41    41   GLN       HB2   H      1.92      0.2     1
+   532    41    41   GLN       HB3   H      1.92      0.2     1
+   533    41    41   GLN       HG2   H      2.53      0.2     1
+   534    41    41   GLN       HG3   H      1.66      0.2     1
+   535    41    41   GLN       HE21  H      6.22      0.2     1
+   536    41    41   GLN       HE22  H      6.52      0.2     1
+   537    41    41   GLN       C     C    176.03      0.2     1
+   538    41    41   GLN       CA    C     56.40      0.2     1
+   539    41    41   GLN       CB    C     31.58      0.2     1
+   540    41    41   GLN       CG    C     33.41      0.2     1
+   541    41    41   GLN       N     N    118.73      0.2     1
+   542    41    41   GLN       NE2   N    111.81      0.2     1
+   543    42    42   ARG       H     H      8.53      0.2     1
+   544    42    42   ARG       HA    H      4.50      0.2     1
+   545    42    42   ARG       HB2   H      1.73      0.2     1
+   546    42    42   ARG       HB3   H      1.64      0.2     1
+   547    42    42   ARG       HG2   H      1.50      0.2     1
+   548    42    42   ARG       HG3   H      1.42      0.2     1
+   549    42    42   ARG       HD2   H      3.11      0.2     1
+   550    42    42   ARG       HD3   H      3.06      0.2     1
+   551    42    42   ARG       C     C    173.78      0.2     1
+   552    42    42   ARG       CA    C     54.98      0.2     1
+   553    42    42   ARG       CB    C     31.68      0.2     1
+   554    42    42   ARG       CG    C     27.04      0.2     1
+   555    42    42   ARG       CD    C     43.54      0.2     1
+   556    42    42   ARG       N     N    123.69      0.2     1
+   557    43    43   LEU       H     H      8.82      0.2     1
+   558    43    43   LEU       HA    H      5.36      0.2     1
+   559    43    43   LEU       HB2   H      1.57      0.2     1
+   560    43    43   LEU       HB3   H      1.16      0.2     1
+   561    43    43   LEU       HG    H      1.48      0.2     1
+   562    43    43   LEU       HD11  H      0.78      0.2     1
+   563    43    43   LEU       HD12  H      0.78      0.2     1
+   564    43    43   LEU       HD13  H      0.78      0.2     1
+   565    43    43   LEU       HD21  H      0.81      0.2     1
+   566    43    43   LEU       HD22  H      0.81      0.2     1
+   567    43    43   LEU       HD23  H      0.81      0.2     1
+   568    43    43   LEU       C     C    175.02      0.2     1
+   569    43    43   LEU       CA    C     52.91      0.2     1
+   570    43    43   LEU       CB    C     45.72      0.2     1
+   571    43    43   LEU       CG    C     27.21      0.2     1
+   572    43    43   LEU       CD1   C     26.48      0.2     1
+   573    43    43   LEU       CD2   C     24.24      0.2     1
+   574    43    43   LEU       N     N    125.05      0.2     1
+   575    44    44   ILE       H     H      9.03      0.2     1
+   576    44    44   ILE       HA    H      4.99      0.2     1
+   577    44    44   ILE       HB    H      1.69      0.2     1
+   578    44    44   ILE       HG12  H      1.35      0.2     1
+   579    44    44   ILE       HG13  H      1.06      0.2     1
+   580    44    44   ILE       HG21  H      0.69      0.2     1
+   581    44    44   ILE       HG22  H      0.69      0.2     1
+   582    44    44   ILE       HG23  H      0.69      0.2     1
+   583    44    44   ILE       HD11  H      0.69      0.2     1
+   584    44    44   ILE       HD12  H      0.69      0.2     1
+   585    44    44   ILE       HD13  H      0.69      0.2     1
+   586    44    44   ILE       C     C    175.79      0.2     1
+   587    44    44   ILE       CA    C     58.91      0.2     1
+   588    44    44   ILE       CB    C     41.35      0.2     1
+   589    44    44   ILE       CG1   C     27.89      0.2     1
+   590    44    44   ILE       CG2   C     17.50      0.2     1
+   591    44    44   ILE       CD1   C     12.79      0.2     1
+   592    44    44   ILE       N     N    122.93      0.2     1
+   593    45    45   PHE       H     H      8.83      0.2     1
+   594    45    45   PHE       HA    H      5.04      0.2     1
+   595    45    45   PHE       HB2   H      3.05      0.2     1
+   596    45    45   PHE       HB3   H      2.81      0.2     1
+   597    45    45   PHE       HD1   H      7.36      0.2     1
+   598    45    45   PHE       HD2   H      7.36      0.2     1
+   599    45    45   PHE       HE1   H      7.54      0.2     1
+   600    45    45   PHE       HE2   H      7.54      0.2     1
+   601    45    45   PHE       HZ    H      7.49      0.2     1
+   602    45    45   PHE       C     C    174.20      0.2     1
+   603    45    45   PHE       CA    C     56.95      0.2     1
+   604    45    45   PHE       CB    C     43.69      0.2     1
+   605    45    45   PHE       CD1   C    132.15      0.2     1
+   606    45    45   PHE       CD2   C    132.15      0.2     1
+   607    45    45   PHE       CE1   C    132.21      0.2     1
+   608    45    45   PHE       CE2   C    132.21      0.2     1
+   609    45    45   PHE       CZ    C    130.19      0.2     1
+   610    45    45   PHE       N     N    126.40      0.2     1
+   611    46    46   ALA       H     H      8.81      0.2     1
+   612    46    46   ALA       HA    H      3.69      0.2     1
+   613    46    46   ALA       HB1   H      0.91      0.2     1
+   614    46    46   ALA       HB2   H      0.91      0.2     1
+   615    46    46   ALA       HB3   H      0.91      0.2     1
+   616    46    46   ALA       C     C    177.02      0.2     1
+   617    46    46   ALA       CA    C     52.47      0.2     1
+   618    46    46   ALA       CB    C     16.50      0.2     1
+   619    46    46   ALA       N     N    133.21      0.2     1
+   620    47    47   GLY       H     H      8.13      0.2     1
+   621    47    47   GLY       HA2   H      4.10      0.2     1
+   622    47    47   GLY       HA3   H      3.48      0.2     1
+   623    47    47   GLY       C     C    173.54      0.2     1
+   624    47    47   GLY       CA    C     45.28      0.2     1
+   625    47    47   GLY       N     N    103.35      0.2     1
+   626    48    48   LYS       H     H      7.98      0.2     1
+   627    48    48   LYS       HA    H      4.62      0.2     1
+   628    48    48   LYS       HB2   H      1.87      0.2     1
+   629    48    48   LYS       HB3   H      1.87      0.2     1
+   630    48    48   LYS       HG2   H      1.53      0.2     1
+   631    48    48   LYS       HG3   H      1.53      0.2     1
+   632    48    48   LYS       HD2   H      1.87      0.2     1
+   633    48    48   LYS       HD3   H      1.87      0.2     1
+   634    48    48   LYS       HE2   H      3.17      0.2     1
+   635    48    48   LYS       HE3   H      3.17      0.2     1
+   636    48    48   LYS       C     C    174.43      0.2     1
+   637    48    48   LYS       CA    C     54.48      0.2     1
+   638    48    48   LYS       CB    C     34.46      0.2     1
+   639    48    48   LYS       CG    C     24.49      0.2     1
+   640    48    48   LYS       CD    C     29.06      0.2     1
+   641    48    48   LYS       CE    C     42.04      0.2     1
+   642    48    48   LYS       N     N    122.58      0.2     1
+   643    49    49   GLN       H     H      8.60      0.2     1
+   644    49    49   GLN       HA    H      4.56      0.2     1
+   645    49    49   GLN       HB2   H      2.00      0.2     1
+   646    49    49   GLN       HB3   H      2.00      0.2     1
+   647    49    49   GLN       HG2   H      2.25      0.2     1
+   648    49    49   GLN       HG3   H      2.25      0.2     1
+   649    49    49   GLN       HE21  H      7.63      0.2     1
+   650    49    49   GLN       HE22  H      6.82      0.2     1
+   651    49    49   GLN       C     C    175.40      0.2     1
+   652    49    49   GLN       CA    C     55.67      0.2     1
+   653    49    49   GLN       CB    C     28.93      0.2     1
+   654    49    49   GLN       CG    C     34.56      0.2     1
+   655    49    49   GLN       N     N    123.42      0.2     1
+   656    49    49   GLN       NE2   N    111.92      0.2     1
+   657    50    50   LEU       H     H      8.53      0.2     1
+   658    50    50   LEU       HA    H      4.09      0.2     1
+   659    50    50   LEU       HB2   H      1.50      0.2     1
+   660    50    50   LEU       HB3   H      1.03      0.2     1
+   661    50    50   LEU       HG    H      1.50      0.2     1
+   662    50    50   LEU       HD11  H      0.53      0.2     1
+   663    50    50   LEU       HD12  H      0.53      0.2     1
+   664    50    50   LEU       HD13  H      0.53      0.2     1
+   665    50    50   LEU       HD21  H     -0.15      0.2     1
+   666    50    50   LEU       HD22  H     -0.15      0.2     1
+   667    50    50   LEU       HD23  H     -0.15      0.2     1
+   668    50    50   LEU       C     C    176.39      0.2     1
+   669    50    50   LEU       CA    C     54.17      0.2     1
+   670    50    50   LEU       CB    C     41.50      0.2     1
+   671    50    50   LEU       CG    C     25.78      0.2     1
+   672    50    50   LEU       CD1   C     25.96      0.2     1
+   673    50    50   LEU       CD2   C     19.62      0.2     1
+   674    50    50   LEU       N     N    126.53      0.2     1
+   675    51    51   GLU       H     H      8.40      0.2     1
+   676    51    51   GLU       HA    H      4.49      0.2     1
+   677    51    51   GLU       HB2   H      2.00      0.2     1
+   678    51    51   GLU       HB3   H      2.25      0.2     1
+   679    51    51   GLU       HG2   H      2.48      0.2     1
+   680    51    51   GLU       HG3   H      2.39      0.2     1
+   681    51    51   GLU       C     C    175.60      0.2     1
+   682    51    51   GLU       CA    C     55.89      0.2     1
+   683    51    51   GLU       CB    C     31.50      0.2     1
+   684    51    51   GLU       CG    C     35.94      0.2     1
+   685    51    51   GLU       N     N    123.95      0.2     1
+   686    52    52   ASP       H     H      8.16      0.2     1
+   687    52    52   ASP       HA    H      4.36      0.2     1
+   688    52    52   ASP       HB2   H      2.57      0.2     1
+   689    52    52   ASP       HB3   H      2.68      0.2     1
+   690    52    52   ASP       C     C    177.06      0.2     1
+   691    52    52   ASP       CA    C     56.89      0.2     1
+   692    52    52   ASP       CB    C     40.78      0.2     1
+   693    52    52   ASP       N     N    121.04      0.2     1
+   694    53    53   GLY       H     H      9.39      0.2     1
+   695    53    53   GLY       HA2   H      4.16      0.2     1
+   696    53    53   GLY       HA3   H      3.93      0.2     1
+   697    53    53   GLY       C     C    174.60      0.2     1
+   698    53    53   GLY       CA    C     45.10      0.2     1
+   699    53    53   GLY       N     N    107.67      0.2     1
+   700    54    54   ARG       H     H      7.46      0.2     1
+   701    54    54   ARG       HA    H      4.70      0.2     1
+   702    54    54   ARG       HB2   H      2.23      0.2     1
+   703    54    54   ARG       HB3   H      2.08      0.2     1
+   704    54    54   ARG       HG2   H      1.83      0.2     1
+   705    54    54   ARG       HG3   H      1.63      0.2     1
+   706    54    54   ARG       HD2   H      3.15      0.2     1
+   707    54    54   ARG       HD3   H      3.08      0.2     1
+   708    54    54   ARG       C     C    175.08      0.2     1
+   709    54    54   ARG       CA    C     54.32      0.2     1
+   710    54    54   ARG       CB    C     32.58      0.2     1
+   711    54    54   ARG       CG    C     27.51      0.2     1
+   712    54    54   ARG       CD    C     42.80      0.2     1
+   713    54    54   ARG       N     N    120.06      0.2     1
+   714    55    55   THR       H     H      8.73      0.2     1
+   715    55    55   THR       HA    H      5.24      0.2     1
+   716    55    55   THR       HB    H      4.55      0.2     1
+   717    55    55   THR       HG21  H      1.13      0.2     1
+   718    55    55   THR       HG22  H      1.13      0.2     1
+   719    55    55   THR       HG23  H      1.13      0.2     1
+   720    55    55   THR       C     C    176.29      0.2     1
+   721    55    55   THR       CA    C     59.62      0.2     1
+   722    55    55   THR       CB    C     72.19      0.2     1
+   723    55    55   THR       CG2   C     22.20      0.2     1
+   724    55    55   THR       N     N    109.41      0.2     1
+   725    56    56   LEU       H     H      8.14      0.2     1
+   726    56    56   LEU       HA    H      4.06      0.2     1
+   727    56    56   LEU       HB2   H      2.12      0.2     1
+   728    56    56   LEU       HB3   H      1.23      0.2     1
+   729    56    56   LEU       HG    H      1.72      0.2     1
+   730    56    56   LEU       HD11  H      0.76      0.2     1
+   731    56    56   LEU       HD12  H      0.76      0.2     1
+   732    56    56   LEU       HD13  H      0.76      0.2     1
+   733    56    56   LEU       HD21  H      0.63      0.2     1
+   734    56    56   LEU       HD22  H      0.63      0.2     1
+   735    56    56   LEU       HD23  H      0.63      0.2     1
+   736    56    56   LEU       C     C    180.54      0.2     1
+   737    56    56   LEU       CA    C     58.64      0.2     1
+   738    56    56   LEU       CB    C     40.30      0.2     1
+   739    56    56   LEU       CG    C     26.86      0.2     1
+   740    56    56   LEU       CD1   C     26.80      0.2     1
+   741    56    56   LEU       CD2   C     23.30      0.2     1
+   742    56    56   LEU       N     N    118.93      0.2     1
+   743    57    57   SER       H     H      8.47      0.2     1
+   744    57    57   SER       HA    H      4.27      0.2     1
+   745    57    57   SER       HB2   H      3.85      0.2     1
+   746    57    57   SER       HB3   H      3.75      0.2     1
+   747    57    57   SER       C     C    178.04      0.2     1
+   748    57    57   SER       CA    C     61.01      0.2     1
+   749    57    57   SER       CB    C     62.46      0.2     1
+   750    57    57   SER       N     N    114.34      0.2     1
+   751    58    58   ASP       H     H      7.93      0.2     1
+   752    58    58   ASP       HA    H      4.30      0.2     1
+   753    58    58   ASP       HB2   H      3.02      0.2     1
+   754    58    58   ASP       HB3   H      2.31      0.2     1
+   755    58    58   ASP       C     C    177.13      0.2     1
+   756    58    58   ASP       CA    C     57.11      0.2     1
+   757    58    58   ASP       CB    C     40.03      0.2     1
+   758    58    58   ASP       N     N    125.20      0.2     1
+   759    59    59   TYR       H     H      7.25      0.2     1
+   760    59    59   TYR       HA    H      4.67      0.2     1
+   761    59    59   TYR       HB2   H      2.54      0.2     1
+   762    59    59   TYR       HB3   H      3.47      0.2     1
+   763    59    59   TYR       HD1   H      7.26      0.2     1
+   764    59    59   TYR       HD2   H      7.26      0.2     1
+   765    59    59   TYR       HE1   H      6.90      0.2     1
+   766    59    59   TYR       HE2   H      6.90      0.2     1
+   767    59    59   TYR       C     C    174.43      0.2     1
+   768    59    59   TYR       CA    C     58.18      0.2     1
+   769    59    59   TYR       CB    C     40.00      0.2     1
+   770    59    59   TYR       CD1   C    133.60      0.2     1
+   771    59    59   TYR       CD2   C    133.60      0.2     1
+   772    59    59   TYR       CE1   C    118.49      0.2     1
+   773    59    59   TYR       CE2   C    118.49      0.2     1
+   774    59    59   TYR       N     N    116.52      0.2     1
+   775    60    60   ASN       H     H      8.15      0.2     1
+   776    60    60   ASN       HA    H      4.36      0.2     1
+   777    60    60   ASN       HB2   H      3.31      0.2     1
+   778    60    60   ASN       HB3   H      2.79      0.2     1
+   779    60    60   ASN       HD21  H      7.53      0.2     1
+   780    60    60   ASN       HD22  H      6.81      0.2     1
+   781    60    60   ASN       C     C    174.07      0.2     1
+   782    60    60   ASN       CA    C     54.05      0.2     1
+   783    60    60   ASN       CB    C     37.34      0.2     1
+   784    60    60   ASN       N     N    116.91      0.2     1
+   785    60    60   ASN       ND2   N    111.15      0.2     1
+   786    61    61   ILE       H     H      7.25      0.2     1
+   787    61    61   ILE       HA    H      3.39      0.2     1
+   788    61    61   ILE       HB    H      1.41      0.2     1
+   789    61    61   ILE       HG12  H      1.13      0.2     1
+   790    61    61   ILE       HG13  H      1.08      0.2     1
+   791    61    61   ILE       HG21  H      0.49      0.2     1
+   792    61    61   ILE       HG22  H      0.49      0.2     1
+   793    61    61   ILE       HG23  H      0.49      0.2     1
+   794    61    61   ILE       HD11  H      0.42      0.2     1
+   795    61    61   ILE       HD12  H      0.42      0.2     1
+   796    61    61   ILE       HD13  H      0.42      0.2     1
+   797    61    61   ILE       C     C    174.34      0.2     1
+   798    61    61   ILE       CA    C     62.35      0.2     1
+   799    61    61   ILE       CB    C     36.67      0.2     1
+   800    61    61   ILE       CG1   C     28.27      0.2     1
+   801    61    61   ILE       CG2   C     17.30      0.2     1
+   802    61    61   ILE       CD1   C     14.31      0.2     1
+   803    61    61   ILE       N     N    119.61      0.2     1
+   804    62    62   GLN       H     H      7.61      0.2     1
+   805    62    62   GLN       HA    H      4.51      0.2     1
+   806    62    62   GLN       HB2   H      1.90      0.2     1
+   807    62    62   GLN       HB3   H      2.26      0.2     1
+   808    62    62   GLN       HG2   H      2.37      0.2     1
+   809    62    62   GLN       HG3   H      2.37      0.2     1
+   810    62    62   GLN       HE21  H      7.28      0.2     1
+   811    62    62   GLN       HE22  H      6.81      0.2     1
+   812    62    62   GLN       C     C    175.70      0.2     1
+   813    62    62   GLN       CA    C     53.59      0.2     1
+   814    62    62   GLN       CB    C     31.58      0.2     1
+   815    62    62   GLN       CG    C     33.36      0.2     1
+   816    62    62   GLN       N     N    125.75      0.2     1
+   817    62    62   GLN       NE2   N    112.15      0.2     1
+   818    63    63   LYS       H     H      8.49      0.2     1
+   819    63    63   LYS       HA    H      4.00      0.2     1
+   820    63    63   LYS       HB2   H      2.06      0.2     1
+   821    63    63   LYS       HB3   H      1.91      0.2     1
+   822    63    63   LYS       HG2   H      1.53      0.2     1
+   823    63    63   LYS       HG3   H      1.49      0.2     1
+   824    63    63   LYS       HD2   H      1.75      0.2     1
+   825    63    63   LYS       HD3   H      1.75      0.2     1
+   826    63    63   LYS       HE2   H      3.04      0.2     1
+   827    63    63   LYS       HE3   H      3.04      0.2     1
+   828    63    63   LYS       C     C    175.54      0.2     1
+   829    63    63   LYS       CA    C     57.72      0.2     1
+   830    63    63   LYS       CB    C     32.58      0.2     1
+   831    63    63   LYS       CG    C     23.94      0.2     1
+   832    63    63   LYS       CD    C     29.70      0.2     1
+   833    63    63   LYS       CE    C     41.89      0.2     1
+   834    63    63   LYS       N     N    121.31      0.2     1
+   835    64    64   GLU       H     H      9.28      0.2     1
+   836    64    64   GLU       HA    H      3.46      0.2     1
+   837    64    64   GLU       HB2   H      2.45      0.2     1
+   838    64    64   GLU       HB3   H      2.59      0.2     1
+   839    64    64   GLU       HG2   H      2.38      0.2     1
+   840    64    64   GLU       HG3   H      2.26      0.2     1
+   841    64    64   GLU       C     C    174.98      0.2     1
+   842    64    64   GLU       CA    C     57.82      0.2     1
+   843    64    64   GLU       CB    C     25.83      0.2     1
+   844    64    64   GLU       CG    C     35.88      0.2     1
+   845    64    64   GLU       N     N    114.96      0.2     1
+   846    65    65   SER       H     H      7.67      0.2     1
+   847    65    65   SER       HA    H      4.64      0.2     1
+   848    65    65   SER       HB2   H      3.89      0.2     1
+   849    65    65   SER       HB3   H      3.65      0.2     1
+   850    65    65   SER       C     C    171.89      0.2     1
+   851    65    65   SER       CA    C     60.82      0.2     1
+   852    65    65   SER       CB    C     64.84      0.2     1
+   853    65    65   SER       N     N    115.74      0.2     1
+   854    66    66   THR       H     H      8.73      0.2     1
+   855    66    66   THR       HA    H      5.27      0.2     1
+   856    66    66   THR       HB    H      4.08      0.2     1
+   857    66    66   THR       HG21  H      0.94      0.2     1
+   858    66    66   THR       HG22  H      0.94      0.2     1
+   859    66    66   THR       HG23  H      0.94      0.2     1
+   860    66    66   THR       C     C    173.68      0.2     1
+   861    66    66   THR       CA    C     62.27      0.2     1
+   862    66    66   THR       CB    C     70.01      0.2     1
+   863    66    66   THR       CG2   C     21.50      0.2     1
+   864    66    66   THR       N     N    118.12      0.2     1
+   865    67    67   LEU       H     H      9.41      0.2     1
+   866    67    67   LEU       HA    H      5.06      0.2     1
+   867    67    67   LEU       HB2   H      1.62      0.2     1
+   868    67    67   LEU       HB3   H      1.62      0.2     1
+   869    67    67   LEU       HG    H      1.78      0.2     1
+   870    67    67   LEU       HD11  H      0.71      0.2     1
+   871    67    67   LEU       HD12  H      0.71      0.2     1
+   872    67    67   LEU       HD13  H      0.71      0.2     1
+   873    67    67   LEU       HD21  H      0.67      0.2     1
+   874    67    67   LEU       HD22  H      0.67      0.2     1
+   875    67    67   LEU       HD23  H      0.67      0.2     1
+   876    67    67   LEU       C     C    175.50      0.2     1
+   877    67    67   LEU       CA    C     53.83      0.2     1
+   878    67    67   LEU       CB    C     44.19      0.2     1
+   879    67    67   LEU       CG    C     29.46      0.2     1
+   880    67    67   LEU       CD1   C     24.94      0.2     1
+   881    67    67   LEU       CD2   C     25.14      0.2     1
+   882    67    67   LEU       N     N    128.12      0.2     1
+   883    68    68   HIS       H     H      9.23      0.2     1
+   884    68    68   HIS       HA    H      5.24      0.2     1
+   885    68    68   HIS       HB2   H      3.03      0.2     1
+   886    68    68   HIS       HB3   H      3.23      0.2     1
+   887    68    68   HIS       HE1   H      7.23      0.2     1
+   888    68    68   HIS       C     C    172.88      0.2     1
+   889    68    68   HIS       CA    C     54.93      0.2     1
+   890    68    68   HIS       CB    C     30.46      0.2     1
+   891    68    68   HIS       CE1   C    135.98      0.2     1
+   892    68    68   HIS       N     N    119.39      0.2     1
+   893    69    69   LEU       H     H      8.34      0.2     1
+   894    69    69   LEU       HA    H      5.19      0.2     1
+   895    69    69   LEU       HB2   H      1.10      0.2     1
+   896    69    69   LEU       HB3   H      1.61      0.2     1
+   897    69    69   LEU       HG    H      1.34      0.2     1
+   898    69    69   LEU       HD11  H      0.87      0.2     1
+   899    69    69   LEU       HD12  H      0.87      0.2     1
+   900    69    69   LEU       HD13  H      0.87      0.2     1
+   901    69    69   LEU       HD21  H      0.74      0.2     1
+   902    69    69   LEU       HD22  H      0.74      0.2     1
+   903    69    69   LEU       HD23  H      0.74      0.2     1
+   904    69    69   LEU       C     C    175.00      0.2     1
+   905    69    69   LEU       CA    C     53.82      0.2     1
+   906    69    69   LEU       CB    C     44.31      0.2     1
+   907    69    69   LEU       CG    C     27.60      0.2     1
+   908    69    69   LEU       CD1   C     23.91      0.2     1
+   909    69    69   LEU       CD2   C     26.10      0.2     1
+   910    69    69   LEU       N     N    125.47      0.2     1
+   911    70    70   VAL       H     H      9.20      0.2     1
+   912    70    70   VAL       HA    H      4.35      0.2     1
+   913    70    70   VAL       HB    H      2.02      0.2     1
+   914    70    70   VAL       HG11  H      0.95      0.2     1
+   915    70    70   VAL       HG12  H      0.95      0.2     1
+   916    70    70   VAL       HG13  H      0.95      0.2     1
+   917    70    70   VAL       HG21  H      0.85      0.2     1
+   918    70    70   VAL       HG22  H      0.85      0.2     1
+   919    70    70   VAL       HG23  H      0.85      0.2     1
+   920    70    70   VAL       C     C    173.73      0.2     1
+   921    70    70   VAL       CA    C     60.73      0.2     1
+   922    70    70   VAL       CB    C     34.84      0.2     1
+   923    70    70   VAL       CG1   C     21.41      0.2     1
+   924    70    70   VAL       CG2   C     20.79      0.2     1
+   925    70    70   VAL       N     N    127.95      0.2     1
+   926    71    71   LEU       H     H      8.12      0.2     1
+   927    71    71   LEU       HA    H      5.06      0.2     1
+   928    71    71   LEU       HB2   H      1.68      0.2     1
+   929    71    71   LEU       HB3   H      1.54      0.2     1
+   930    71    71   LEU       HG    H      1.68      0.2     1
+   931    71    71   LEU       HD11  H      0.97      0.2     1
+   932    71    71   LEU       HD12  H      0.97      0.2     1
+   933    71    71   LEU       HD13  H      0.97      0.2     1
+   934    71    71   LEU       HD21  H      0.87      0.2     1
+   935    71    71   LEU       HD22  H      0.87      0.2     1
+   936    71    71   LEU       HD23  H      0.87      0.2     1
+   937    71    71   LEU       C     C    177.56      0.2     1
+   938    71    71   LEU       CA    C     53.87      0.2     1
+   939    71    71   LEU       CB    C     42.78      0.2     1
+   940    71    71   LEU       CG    C     27.61      0.2     1
+   941    71    71   LEU       CD1   C     24.93      0.2     1
+   942    71    71   LEU       CD2   C     23.97      0.2     1
+   943    71    71   LEU       N     N    124.14      0.2     1
+   944    72    72   ARG       H     H      8.58      0.2     1
+   945    72    72   ARG       HA    H      4.30      0.2     1
+   946    72    72   ARG       HB2   H      1.78      0.2     1
+   947    72    72   ARG       HB3   H      1.55      0.2     1
+   948    72    72   ARG       HG2   H      1.54      0.2     1
+   949    72    72   ARG       HG3   H      1.54      0.2     1
+   950    72    72   ARG       HD2   H      3.16      0.2     1
+   951    72    72   ARG       HD3   H      3.16      0.2     1
+   952    72    72   ARG       C     C    175.08      0.2     1
+   953    72    72   ARG       CA    C     55.54      0.2     1
+   954    72    72   ARG       CB    C     31.28      0.2     1
+   955    72    72   ARG       CG    C     27.19      0.2     1
+   956    72    72   ARG       CD    C     43.37      0.2     1
+   957    72    72   ARG       N     N    124.50      0.2     1
+   958    73    73   LEU       H     H      8.32      0.2     1
+   959    73    73   LEU       HA    H      4.39      0.2     1
+   960    73    73   LEU       HB2   H      1.64      0.2     1
+   961    73    73   LEU       HB3   H      1.58      0.2     1
+   962    73    73   LEU       HG    H      1.64      0.2     1
+   963    73    73   LEU       HD11  H      0.93      0.2     1
+   964    73    73   LEU       HD12  H      0.93      0.2     1
+   965    73    73   LEU       HD13  H      0.93      0.2     1
+   966    73    73   LEU       HD21  H      0.88      0.2     1
+   967    73    73   LEU       HD22  H      0.88      0.2     1
+   968    73    73   LEU       HD23  H      0.88      0.2     1
+   969    73    73   LEU       C     C    177.18      0.2     1
+   970    73    73   LEU       CA    C     54.86      0.2     1
+   971    73    73   LEU       CB    C     42.46      0.2     1
+   972    73    73   LEU       CG    C     27.13      0.2     1
+   973    73    73   LEU       CD1   C     24.96      0.2     1
+   974    73    73   LEU       CD2   C     23.31      0.2     1
+   975    73    73   LEU       N     N    125.23      0.2     1
+   976    74    74   ARG       H     H      8.39      0.2     1
+   977    74    74   ARG       HA    H      4.31      0.2     1
+   978    74    74   ARG       HB2   H      1.88      0.2     1
+   979    74    74   ARG       HB3   H      1.80      0.2     1
+   980    74    74   ARG       HG2   H      1.65      0.2     1
+   981    74    74   ARG       HG3   H      1.65      0.2     1
+   982    74    74   ARG       HD2   H      3.22      0.2     1
+   983    74    74   ARG       HD3   H      3.22      0.2     1
+   984    74    74   ARG       C     C    176.60      0.2     1
+   985    74    74   ARG       CA    C     56.39      0.2     1
+   986    74    74   ARG       CB    C     30.65      0.2     1
+   987    74    74   ARG       CG    C     27.04      0.2     1
+   988    74    74   ARG       CD    C     43.26      0.2     1
+   989    74    74   ARG       N     N    122.46      0.2     1
+   990    75    75   GLY       H     H      8.45      0.2     1
+   991    75    75   GLY       HA2   H      3.98      0.2     1
+   992    75    75   GLY       HA3   H      3.98      0.2     1
+   993    75    75   GLY       C     C    173.41      0.2     1
+   994    75    75   GLY       CA    C     45.28      0.2     1
+   995    75    75   GLY       N     N    111.79      0.2     1
+   996    76    76   GLY       H     H      7.92      0.2     1
+   997    76    76   GLY       HA2   H      3.82      0.2     1
+   998    76    76   GLY       HA3   H      3.75      0.2     1
+   999    76    76   GLY       C     C    178.88      0.2     1
+  1000    76    76   GLY       CA    C     46.03      0.2     1
+  1001    76    76   GLY       N     N    115.69      0.2     1
+
+   stop_
+
+save_
+
