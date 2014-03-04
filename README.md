@@ -10,15 +10,16 @@ Contents
 ### Data (prepared)
 
 
-| Protein name            | Length  | PDB source       | CS source  | NOE source | RMSD range |
-| ------------------------|--------:|------------------|------------|------------|------------|
-| protein\_g              | 56      | 2oed             | RefDB 2575 | none          | All        |
-| smn\_tudor\ domain      | 59      | 1mhn             | RefDB 4899 | none          | 5-54       |
-| enhd                    | 61      | 1enh             | RefDB 15536| none          | 8-53       |
-| chymotrypsin\_inhibitor | 63      | 1ypa / 3ci2      | Kaare      | none          | 4-63 or 4-3,43-63 |
-| ff\_domain              | 71      | 1uzc             | RefDB 5537 | Synthetic ILV | 11-67      |
-| ubiquitin               | 76      | 1ubi             | RefDB 17769| none          | 1-70       |
-| apo\_lfabp              | 129     | 1lfo             | RefDB 15429| Synthetic ILV and HN-HN | All        |
+| Protein name            | Length  | PDB source       | CS source  | NOE source | RMSD range | Folds? |
+| ------------------------|--------:|------------------|------------|------------|------------|:------:|
+| protein\_g              | 56      | 2oed             | RefDB 2575 | ?          | All        | yes    |
+| smn\_tudor\_domain      | 59      | 1mhn             | RefDB 4899 | ?          | 5-54       | yes    |
+| enhd                    | 61      | 1enh             | RefDB 15536| ?          | 8-53       | yes    |
+| chymotrypsin\_inhibitor | 63      | 1ypa / 3ci2      | Kaare      | ?          | 4-63 or 4-3,43-63 | yes |
+| ff\_domain              | 71      | 1uzc             | RefDB 5537 | ?          | 11-67      | yes |
+| ubiquitin               | 76      | 1ubi             | RefDB 17769| ?          | 1-70       | yes |
+| apo\_lfabp              | 129     | 1lfo             | RefDB 15429| ?          | All        | almost :S |
+
 
 
 ### Data (not prepared)
