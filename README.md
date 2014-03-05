@@ -22,13 +22,13 @@ Contents
 | prolactin               | 199     | 1rws             | BMRB 5599   | Synthetic  | 6-183      | N/A    |
 | top7                    | 120     | 2mbl             | BMRB 19404  | Synthetic  | 5-104      | N/A    |
 | msrb                    | 151     | 3e0o / 2kzn      | BMRB 17008  | Synthetic  | 36-105     | N/A    |
+| wr73                    | 183     | 2loy             | BMRB 16833  | Langer PNAS| 1-36,66-181| N/A    |
 
 
 ### Data (not prepared)
 
 | Protein name           | Length  | PDB source       | CS source  | NOE source | RMSD range |
 | -----------------------|--------:|------------------|------------|------------|------------|
-| tctp                   | 183     | 2loy             |            | ?          | ?          |
 | php1                   | 174     | 2lmd             |            | ?          | ?          |
 | rhodopsin              | 225     | 1h68 / 2ksy      |            | ?          | ?          |
 |                        |         |                  |            | ?          |            |

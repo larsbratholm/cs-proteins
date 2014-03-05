@@ -17,7 +17,7 @@ def parse_noe(filename):
                 noe_pairs.append(noe_pair)
     f.close()
 
-    print "NOE pairs",noe_pairs
+    print len(noe_pairs), "NOE pairs",noe_pairs
 
     return noe_pairs
 
