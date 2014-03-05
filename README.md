@@ -19,15 +19,14 @@ Contents
 | ff\_domain              | 71      | 1uzc             | RefDB 5537 | ?          | 11-67      | yes |
 | ubiquitin               | 76      | 1ubi             | RefDB 17769| ?          | 1-70       | yes |
 | apo\_lfabp              | 129     | 1lfo             | RefDB 15429| ?          | All        | almost :S |
-
+| prolactin              | 199     | 1rws             | BMRB 5599  | Synthetic ILV | 6-183   | N/A|
+| top7                   | 120     | 2mbl             | BMRB 19404 | Synthetic ILV | 5-104          | N/A |
 
 
 ### Data (not prepared)
 
 | Protein name           | Length  | PDB source       | CS source  | NOE source | RMSD range |
 | -----------------------|--------:|------------------|------------|------------|------------|
-| prolactin              | 199     | 1rws             | BMRB 5599  | Synthetic ILV | 6-183   |
-| top7                   | 120     | 2mbl             | BMRB 19404 | ?          | ?          |
 | sulfur\_reductase      | 151     | 3e0o / 2kzn      |            | ?          | ?          |
 | tctp                   | 183     | 2loy             |            | ?          | ?          |
 | php1                   | 174     | 2lmd             |            | ?          | ?          |
@@ -36,6 +35,10 @@ Contents
 
 
 ### Scripts
+
+Visualize NOE restraints on a PDB cartoon:
+
+    pymol -r visualize_noe.py -- filename.pdb noe_file.txt
 
 ### TORUS-CS-DBN files
 
