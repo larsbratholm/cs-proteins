@@ -22,8 +22,6 @@ def parse_noe(filename):
     return noe_pairs
 
 
-print sys.argv
-
 native_pdb = sys.argv[1]
 noe = False
 
@@ -33,11 +31,7 @@ if len(sys.argv) == 3:
     noe = True
     noe_file = sys.argv[2]
 
-print "===== LOADING ========="
 cmd.load(native_pdb, "native")
-cmd.load(native_pdb, "traj")
-
-print "========== NICEFYING ==========="
 cmd.hide("all")
 cmd.show("cartoon", "native")
 
