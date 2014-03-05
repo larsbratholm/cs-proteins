@@ -1,0 +1,217 @@
+assign (resid     1 and name   HN )(resid     2 and name   HN) spec=a vol=3.711
+assign (resid     2 and name   HN )(resid     3 and name   HN) spec=a vol=3.119
+assign (resid     3 and name   HN )(resid     4 and name   HN) spec=a vol=2.807
+assign (resid     4 and name   HN )(resid     5 and name   HN) spec=a vol=2.528
+assign (resid     5 and name   HN )(resid     6 and name   HN) spec=a vol=2.817
+assign (resid     6 and name   HN )(resid     7 and name   HN) spec=a vol=2.782
+assign (resid     7 and name   HN )(resid     8 and name   HN) spec=a vol=2.667
+assign (resid     8 and name   HN )(resid     9 and name   HN) spec=a vol=2.680
+assign (resid     9 and name   HN )(resid    10 and name   HN) spec=a vol=2.640
+assign (resid     9 and name   HN )(resid    11 and name   HN) spec=a vol=3.836
+assign (resid    10 and name   HN )(resid    11 and name   HN) spec=a vol=2.511
+assign (resid    11 and name   HN )(resid    12 and name   HN) spec=a vol=2.461
+assign (resid    13 and name   HN )(resid    16 and name   HN) spec=a vol=3.989
+assign (resid    13 and name   HN )(resid    17 and name   HN) spec=a vol=3.812
+assign (resid    14 and name   HN )(resid    15 and name   HN) spec=a vol=3.214
+assign (resid    15 and name   HN )(resid    16 and name   HN) spec=a vol=2.768
+assign (resid    16 and name   HN )(resid    17 and name   HN) spec=a vol=2.787
+assign (resid    17 and name   HN )(resid    18 and name   HN) spec=a vol=2.595
+assign (resid    18 and name   HN )(resid    19 and name   HN) spec=a vol=3.017
+assign (resid    19 and name   HN )(resid    20 and name   HN) spec=a vol=3.030
+assign (resid    20 and name   HN )(resid    21 and name   HN) spec=a vol=2.903
+assign (resid    21 and name   HN )(resid    22 and name   HN) spec=a vol=2.429
+assign (resid    21 and name   HN )(resid    23 and name   HN) spec=a vol=3.659
+assign (resid    22 and name   HN )(resid    23 and name   HN) spec=a vol=2.697
+assign (resid    22 and name   HN )(resid    24 and name   HN) spec=a vol=3.878
+assign (resid    23 and name   HN )(resid    24 and name   HN) spec=a vol=2.882
+assign (resid    29 and name   HN )(resid    30 and name   HN) spec=a vol=2.770
+assign (resid    30 and name   HN )(resid    31 and name   HN) spec=a vol=3.058
+assign (resid    32 and name   HN )(resid    33 and name   HN) spec=a vol=2.980
+assign (resid    33 and name   HN )(resid    34 and name   HN) spec=a vol=2.590
+assign (resid    34 and name   HN )(resid    35 and name   HN) spec=a vol=2.660
+assign (resid    34 and name   HN )(resid    36 and name   HN) spec=a vol=3.674
+assign (resid    35 and name   HN )(resid    36 and name   HN) spec=a vol=2.367
+assign (resid    37 and name   HN )(resid    38 and name   HN) spec=a vol=2.756
+assign (resid    40 and name   HN )(resid    54 and name   HN) spec=a vol=3.091
+assign (resid    41 and name   HN )(resid   124 and name   HN) spec=a vol=3.275
+assign (resid    42 and name   HN )(resid    52 and name   HN) spec=a vol=3.235
+assign (resid    43 and name   HN )(resid   122 and name   HN) spec=a vol=3.173
+assign (resid    44 and name   HN )(resid    49 and name   HN) spec=a vol=3.528
+assign (resid    44 and name   HN )(resid    51 and name   HN) spec=a vol=3.540
+assign (resid    45 and name   HN )(resid    46 and name   HN) spec=a vol=2.651
+assign (resid    46 and name   HN )(resid    47 and name   HN) spec=a vol=2.351
+assign (resid    46 and name   HN )(resid    48 and name   HN) spec=a vol=2.786
+assign (resid    47 and name   HN )(resid    48 and name   HN) spec=a vol=2.285
+assign (resid    48 and name   HN )(resid    49 and name   HN) spec=a vol=2.657
+assign (resid    51 and name   HN )(resid    52 and name   HN) spec=a vol=2.137
+assign (resid    53 and name   HN )(resid    56 and name   HN) spec=a vol=3.981
+assign (resid    54 and name   HN )(resid    55 and name   HN) spec=a vol=2.457
+assign (resid    55 and name   HN )(resid    56 and name   HN) spec=a vol=2.779
+assign (resid    55 and name   HN )(resid    57 and name   HN) spec=a vol=3.832
+assign (resid    56 and name   HN )(resid    57 and name   HN) spec=a vol=2.586
+assign (resid    58 and name   HN )(resid    66 and name   HN) spec=a vol=3.809
+assign (resid    61 and name   HN )(resid    62 and name   HN) spec=a vol=2.631
+assign (resid    62 and name   HN )(resid    63 and name   HN) spec=a vol=2.475
+assign (resid    63 and name   HN )(resid    64 and name   HN) spec=a vol=2.418
+assign (resid    67 and name   HN )(resid   114 and name   HN) spec=a vol=3.216
+assign (resid    68 and name   HN )(resid    69 and name   HN) spec=a vol=2.306
+assign (resid    72 and name   HN )(resid    73 and name   HN) spec=a vol=3.651
+assign (resid    73 and name   HN )(resid    74 and name   HN) spec=a vol=3.177
+assign (resid    74 and name   HN )(resid    75 and name   HN) spec=a vol=2.105
+assign (resid    76 and name   HN )(resid    91 and name   HN) spec=a vol=2.900
+assign (resid    78 and name   HN )(resid    89 and name   HN) spec=a vol=3.220
+assign (resid    80 and name   HN )(resid    81 and name   HN) spec=a vol=3.847
+assign (resid    80 and name   HN )(resid    87 and name   HN) spec=a vol=3.410
+assign (resid    80 and name   HN )(resid    89 and name   HN) spec=a vol=3.701
+assign (resid    81 and name   HN )(resid    82 and name   HN) spec=a vol=2.755
+assign (resid    83 and name   HN )(resid    84 and name   HN) spec=a vol=2.762
+assign (resid    84 and name   HN )(resid    85 and name   HN) spec=a vol=2.929
+assign (resid    86 and name   HN )(resid    87 and name   HN) spec=a vol=3.937
+assign (resid    88 and name   HN )(resid   102 and name   HN) spec=a vol=3.698
+assign (resid    90 and name   HN )(resid   100 and name   HN) spec=a vol=2.945
+assign (resid    92 and name   HN )(resid    97 and name   HN) spec=a vol=2.735
+assign (resid    93 and name   HN )(resid    94 and name   HN) spec=a vol=2.988
+assign (resid    94 and name   HN )(resid    95 and name   HN) spec=a vol=3.089
+assign (resid    95 and name   HN )(resid    96 and name   HN) spec=a vol=2.579
+assign (resid    96 and name   HN )(resid    97 and name   HN) spec=a vol=2.961
+assign (resid    99 and name   HN )(resid   100 and name   HN) spec=a vol=2.099
+assign (resid   101 and name   HN )(resid   115 and name   HN) spec=a vol=3.519
+assign (resid   103 and name   HN )(resid   113 and name   HN) spec=a vol=2.436
+assign (resid   104 and name   HN )(resid   105 and name   HN) spec=a vol=3.092
+assign (resid   105 and name   HN )(resid   106 and name   HN) spec=a vol=2.463
+assign (resid   105 and name   HN )(resid   113 and name   HN) spec=a vol=3.784
+assign (resid   108 and name   HN )(resid   112 and name   HN) spec=a vol=3.907
+assign (resid   110 and name   HN )(resid   111 and name   HN) spec=a vol=2.265
+assign (resid   110 and name   HN )(resid   112 and name   HN) spec=a vol=3.900
+assign (resid   111 and name   HN )(resid   112 and name   HN) spec=a vol=3.247
+assign (resid   113 and name   HN )(resid   114 and name   HN) spec=a vol=3.883
+assign (resid   118 and name   HN )(resid   119 and name   HN) spec=a vol=2.349
+assign (resid   119 and name   HN )(resid   120 and name   HN) spec=a vol=2.933
+assign (resid   120 and name   HN )(resid   121 and name   HN) spec=a vol=2.414
+assign (resid   122 and name   HN )(resid   123 and name   HN) spec=a vol=3.948
+assign (resid   126 and name   HN )(resid   127 and name   HN) spec=a vol=2.840
+assign (resid   127 and name   HN )(resid   128 and name   HN) spec=a vol=2.888
+assign (resid   128 and name   HN )(resid   129 and name   HN) spec=a vol=1.739
+assign (resid   129 and name   HN )(resid   130 and name   HN) spec=a vol=3.050
+assign (resid   130 and name   HN )(resid   131 and name   HN) spec=a vol=2.639
+assign (resid   130 and name   HN )(resid   132 and name   HN) spec=a vol=3.849
+assign (resid   131 and name   HN )(resid   132 and name   HN) spec=a vol=2.107
+assign (resid   131 and name   HN )(resid   133 and name   HN) spec=a vol=3.879
+assign (resid   132 and name   HN )(resid   133 and name   HN) spec=a vol=2.479
+assign (resid   132 and name   HN )(resid   134 and name   HN) spec=a vol=3.454
+assign (resid   133 and name   HN )(resid   134 and name   HN) spec=a vol=2.060
+assign (resid   133 and name   HN )(resid   135 and name   HN) spec=a vol=3.466
+assign (resid   134 and name   HN )(resid   135 and name   HN) spec=a vol=2.489
+assign (resid   135 and name   HN )(resid   136 and name   HN) spec=a vol=2.630
+assign (resid   136 and name   HN )(resid   137 and name   HN) spec=a vol=2.986
+assign (resid   137 and name   HN )(resid   138 and name   HN) spec=a vol=2.205
+assign (resid   138 and name   HN )(resid   139 and name   HN) spec=a vol=2.944
+assign (resid   139 and name   HN )(resid   140 and name   HN) spec=a vol=2.849
+assign (resid   140 and name   HN )(resid   141 and name   HN) spec=a vol=2.736
+assign (resid    43 and name   HG11  )(resid    41 and name  HD22 ) spec=b vol=3.573
+assign (resid    43 and name   HG12  )(resid    41 and name  HD22 ) spec=b vol=3.550
+assign (resid    43 and name   HG13  )(resid    41 and name  HD22 ) spec=b vol=3.509
+assign (resid    45 and name   HD12  )(resid    12 and name  HD21 ) spec=b vol=3.677
+assign (resid    45 and name   HD12  )(resid    12 and name  HD22 ) spec=b vol=3.446
+assign (resid    45 and name   HD13  )(resid    12 and name  HD21 ) spec=b vol=2.441
+assign (resid    45 and name   HD13  )(resid    12 and name  HD22 ) spec=b vol=2.866
+assign (resid    45 and name   HD13  )(resid    12 and name  HD23 ) spec=b vol=2.986
+assign (resid    46 and name   HG13  )(resid     9 and name  HD12 ) spec=b vol=3.911
+assign (resid    46 and name   HG21  )(resid    12 and name  HD11 ) spec=b vol=3.979
+assign (resid    46 and name   HG21  )(resid    12 and name  HD12 ) spec=b vol=2.547
+assign (resid    46 and name   HG21  )(resid    12 and name  HD23 ) spec=b vol=2.928
+assign (resid    46 and name   HG22  )(resid    12 and name  HD12 ) spec=b vol=2.989
+assign (resid    46 and name   HG23  )(resid    12 and name  HD12 ) spec=b vol=3.219
+assign (resid    46 and name   HG23  )(resid    12 and name  HD23 ) spec=b vol=3.224
+assign (resid    71 and name   HD11  )(resid    41 and name  HD12 ) spec=b vol=3.710
+assign (resid    71 and name   HD13  )(resid    41 and name  HD11 ) spec=b vol=3.888
+assign (resid    71 and name   HD13  )(resid    41 and name  HD12 ) spec=b vol=3.578
+assign (resid    75 and name   HG21  )(resid    51 and name  HD11 ) spec=b vol=3.417
+assign (resid    75 and name   HG22  )(resid    51 and name  HD22 ) spec=b vol=3.982
+assign (resid    90 and name   HG11  )(resid    75 and name  HG11 ) spec=b vol=2.120
+assign (resid    90 and name   HG11  )(resid    75 and name  HG12 ) spec=b vol=2.622
+assign (resid    90 and name   HG11  )(resid    75 and name  HG13 ) spec=b vol=2.396
+assign (resid    90 and name   HG12  )(resid    75 and name  HG11 ) spec=b vol=2.904
+assign (resid    90 and name   HG12  )(resid    75 and name  HG12 ) spec=b vol=2.687
+assign (resid    90 and name   HG12  )(resid    75 and name  HG13 ) spec=b vol=3.314
+assign (resid    90 and name   HG13  )(resid    75 and name  HG11 ) spec=b vol=2.469
+assign (resid    90 and name   HG13  )(resid    75 and name  HG12 ) spec=b vol=3.132
+assign (resid    90 and name   HG13  )(resid    75 and name  HG13 ) spec=b vol=3.531
+assign (resid    99 and name   HD11  )(resid    51 and name  HD22 ) spec=b vol=3.931
+assign (resid    99 and name   HD12  )(resid    51 and name  HD21 ) spec=b vol=3.906
+assign (resid    99 and name   HD12  )(resid    51 and name  HD22 ) spec=b vol=2.714
+assign (resid    99 and name   HD12  )(resid    51 and name  HD23 ) spec=b vol=2.540
+assign (resid    99 and name   HD13  )(resid    51 and name  HD22 ) spec=b vol=2.643
+assign (resid    99 and name   HD13  )(resid    51 and name  HD23 ) spec=b vol=3.368
+assign (resid    99 and name   HD21  )(resid    51 and name  HD22 ) spec=b vol=2.968
+assign (resid    99 and name   HD21  )(resid    51 and name  HD23 ) spec=b vol=3.475
+assign (resid    99 and name   HD23  )(resid    51 and name  HD21 ) spec=b vol=3.807
+assign (resid    99 and name   HD23  )(resid    51 and name  HD22 ) spec=b vol=3.095
+assign (resid    99 and name   HD23  )(resid    51 and name  HD23 ) spec=b vol=2.752
+assign (resid    99 and name   HD11  )(resid    75 and name  HG11 ) spec=b vol=2.689
+assign (resid    99 and name   HD11  )(resid    75 and name  HG12 ) spec=b vol=3.959
+assign (resid    99 and name   HD11  )(resid    75 and name  HG22 ) spec=b vol=2.935
+assign (resid    99 and name   HD12  )(resid    75 and name  HG11 ) spec=b vol=3.825
+assign (resid    99 and name   HD12  )(resid    75 and name  HG22 ) spec=b vol=3.029
+assign (resid    99 and name   HD13  )(resid    75 and name  HG11 ) spec=b vol=3.792
+assign (resid    99 and name   HD13  )(resid    75 and name  HG22 ) spec=b vol=3.195
+assign (resid    99 and name   HD11  )(resid    90 and name  HG11 ) spec=b vol=3.467
+assign (resid    99 and name   HD11  )(resid    90 and name  HG12 ) spec=b vol=3.883
+assign (resid    99 and name   HD11  )(resid    90 and name  HG13 ) spec=b vol=2.419
+assign (resid    99 and name   HD13  )(resid    90 and name  HG13 ) spec=b vol=3.324
+assign (resid   102 and name   HG11  )(resid    90 and name  HG21 ) spec=b vol=3.006
+assign (resid   102 and name   HG11  )(resid    90 and name  HG22 ) spec=b vol=3.866
+assign (resid   102 and name   HG11  )(resid    90 and name  HG23 ) spec=b vol=3.867
+assign (resid   102 and name   HG12  )(resid    90 and name  HG12 ) spec=b vol=3.714
+assign (resid   102 and name   HG12  )(resid    90 and name  HG21 ) spec=b vol=2.107
+assign (resid   102 and name   HG12  )(resid    90 and name  HG22 ) spec=b vol=3.073
+assign (resid   102 and name   HG12  )(resid    90 and name  HG23 ) spec=b vol=2.491
+assign (resid   102 and name   HG13  )(resid    90 and name  HG21 ) spec=b vol=3.619
+assign (resid   102 and name   HG21  )(resid    90 and name  HG23 ) spec=b vol=3.732
+assign (resid   102 and name   HG22  )(resid    90 and name  HG21 ) spec=b vol=3.276
+assign (resid   102 and name   HG22  )(resid    90 and name  HG22 ) spec=b vol=3.400
+assign (resid   102 and name   HG22  )(resid    90 and name  HG23 ) spec=b vol=2.450
+assign (resid   112 and name   HD13  )(resid   102 and name  HG13 ) spec=b vol=3.503
+assign (resid   112 and name   HD21  )(resid   102 and name  HG13 ) spec=b vol=3.501
+assign (resid   116 and name   HD12  )(resid    90 and name  HG12 ) spec=b vol=3.686
+assign (resid   121 and name   HD21  )(resid    51 and name  HD21 ) spec=b vol=3.874
+assign (resid   121 and name   HD21  )(resid    51 and name  HD22 ) spec=b vol=3.924
+assign (resid   121 and name   HD22  )(resid    51 and name  HD21 ) spec=b vol=3.040
+assign (resid   121 and name   HD22  )(resid    51 and name  HD22 ) spec=b vol=3.142
+assign (resid   121 and name   HD23  )(resid    51 and name  HD21 ) spec=b vol=3.646
+assign (resid   121 and name   HD23  )(resid    51 and name  HD22 ) spec=b vol=3.051
+assign (resid   121 and name   HD23  )(resid    99 and name  HD21 ) spec=b vol=3.918
+assign (resid   124 and name   HG21  )(resid    43 and name  HG11 ) spec=b vol=3.315
+assign (resid   124 and name   HG21  )(resid    43 and name  HG13 ) spec=b vol=3.412
+assign (resid   124 and name   HG21  )(resid    43 and name  HG21 ) spec=b vol=3.036
+assign (resid   124 and name   HG21  )(resid    43 and name  HG23 ) spec=b vol=3.098
+assign (resid   124 and name   HG22  )(resid    43 and name  HG13 ) spec=b vol=3.677
+assign (resid   124 and name   HG22  )(resid    43 and name  HG21 ) spec=b vol=3.536
+assign (resid   124 and name   HG22  )(resid    43 and name  HG23 ) spec=b vol=2.811
+assign (resid   124 and name   HG23  )(resid    43 and name  HG23 ) spec=b vol=3.915
+assign (resid   129 and name   HD11  )(resid    41 and name  HD21 ) spec=b vol=3.771
+assign (resid   129 and name   HD11  )(resid    41 and name  HD22 ) spec=b vol=3.883
+assign (resid   129 and name   HD12  )(resid    41 and name  HD21 ) spec=b vol=2.605
+assign (resid   129 and name   HD12  )(resid    41 and name  HD22 ) spec=b vol=2.972
+assign (resid   129 and name   HD13  )(resid    41 and name  HD21 ) spec=b vol=3.998
+assign (resid   129 and name   HD21  )(resid    41 and name  HD21 ) spec=b vol=3.763
+assign (resid   129 and name   HD22  )(resid    41 and name  HD21 ) spec=b vol=3.310
+assign (resid   129 and name   HD23  )(resid    41 and name  HD13 ) spec=b vol=2.959
+assign (resid   129 and name   HD23  )(resid    41 and name  HD21 ) spec=b vol=2.224
+assign (resid   129 and name   HD23  )(resid    41 and name  HD22 ) spec=b vol=3.705
+assign (resid   129 and name   HD23  )(resid    41 and name  HD23 ) spec=b vol=3.750
+assign (resid   129 and name   HD11  )(resid   124 and name  HG11 ) spec=b vol=3.208
+assign (resid   129 and name   HD11  )(resid   124 and name  HG12 ) spec=b vol=3.235
+assign (resid   129 and name   HD11  )(resid   124 and name  HG13 ) spec=b vol=1.747
+assign (resid   129 and name   HD12  )(resid   124 and name  HG11 ) spec=b vol=3.913
+assign (resid   129 and name   HD12  )(resid   124 and name  HG13 ) spec=b vol=2.585
+assign (resid   129 and name   HD13  )(resid   124 and name  HG11 ) spec=b vol=3.362
+assign (resid   129 and name   HD13  )(resid   124 and name  HG13 ) spec=b vol=2.473
+assign (resid   138 and name   HD13  )(resid   129 and name  HD21 ) spec=b vol=3.519
+assign (resid   138 and name   HD13  )(resid   129 and name  HD22 ) spec=b vol=2.998
+assign (resid   138 and name   HD21  )(resid   129 and name  HD21 ) spec=b vol=3.986
+assign (resid   138 and name   HD21  )(resid   129 and name  HD22 ) spec=b vol=2.713
+assign (resid   138 and name   HD23  )(resid   129 and name  HD22 ) spec=b vol=3.850
+assign (resid   140 and name   HD11  )(resid    41 and name  HD12 ) spec=b vol=3.115
+assign (resid   140 and name   HD11  )(resid    41 and name  HD13 ) spec=b vol=3.682
+assign (resid   140 and name   HD13  )(resid    41 and name  HD12 ) spec=b vol=3.550
