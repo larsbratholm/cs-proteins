@@ -39,6 +39,6 @@ if noe:
     for pair in parse_noe(noe_file):
         cmd.distance("noe", "native and resi %i and name ca" % (pair[0]),
                             "native and resi %i and name ca" % (pair[1]))
-
+cmd.hide("labels", "noe")
 cmd.color("grey", "native")
 
