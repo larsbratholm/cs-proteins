@@ -15,7 +15,7 @@ Contents
 | protein\_g              | 56      | 2oed             | RefDB 2575  | ?          | All        | yes    |
 | smn\_tudor\_domain      | 59      | 1mhn             | RefDB 4899  | ?          | 5-54       | yes    |
 | enhd                    | 61      | 1enh             | RefDB 15536 | ?          | 8-53       | yes    |
-| chymotrypsin\_inhibitor | 63      | 1ypa / 3ci2      | Kaare       | ?          | 4-63 or 4-3,43-63 | yes |
+| ci2                     | 63      | 1ypa / 3ci2      | Kaare       | ?          | 4-63 or 4-3,43-63 | yes |
 | ff\_domain              | 71      | 1uzc             | RefDB 5537  | ?          | 11-67      | yes    |
 | ubiquitin               | 76      | 1ubi             | RefDB 17769 | ?          | 1-70       | yes    |
 | apo\_lfabp              | 129     | 1lfo             | RefDB 15429 | Synthetic  | All        | almost :S |
