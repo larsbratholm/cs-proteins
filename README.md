@@ -24,20 +24,15 @@ Contents
 | msrb                    | 151     | 3e0o / 2kzn      | BMRB 17008  | Synthetic  | 36-105     | N/A    |
 | wr73                    | 183     | 2loy             | BMRB 16833  | Langer PNAS| 1-36,66-181| N/A    |
 | hr4660b                 | 174     | 2lmd             | BMRB 1870   | BMRB 1870  | 16-162     | N/A    |
-
-### Data (not prepared)
-
-| Protein name           | Length  | PDB source       | CS source  | NOE source | RMSD range |
-| -----------------------|--------:|------------------|------------|------------|------------|
-| rhodopsin              | 225     | 1h68 / 2ksy      |            | ?          | ?          |
-|                        |         |                  |            | ?          |            |
-
+| rhodopsin               | 219 (no tail) | 2ksy       | BMRB 16678  | Synthetic  | all        | N/A    |
 
 ### Scripts
 
 Visualize NOE restraints on a PDB cartoon:
 
     pymol -r visualize_noe.py -- filename.pdb noe_file.txt
+
+
 
 ### TORUS-CS-DBN files
 
