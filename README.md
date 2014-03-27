@@ -42,6 +42,7 @@ Visualize NOE restraints on a PDB cartoon:
 ### TORUS-CS-DBN files
 
 
-License
+License and citation
 =======
-This repository is offered under the Public Domain (Unlicense). Data in the individual datafiles may be published under their own license.
+* This repository is offered under the Public Domain (Unlicense). Data in the individual datafiles may be published under their own license. 
+* Please add a citation with link to this github page when using this repository for academic publications. Use something like the following: Anders S. Christensen (2014) http://github.com/andersx/cs-proteins (Accessed \$date\$)
