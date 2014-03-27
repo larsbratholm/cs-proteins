@@ -7,11 +7,15 @@ filename = sys.argv[1]
 lines = open(filename, "r").readlines()
 
 
+debug = True
+# debug = True
 assi_tokens =[]
 assi_token =[]
 
 
 for line in lines:
+    if "!" in line:
+        continue
 
     if "assi" in line:
 
@@ -23,6 +27,7 @@ for line in lines:
 
 n = 0
 m = 0
+if debug: print "Parsed line"
 
 parser = PDBParser(QUIET=True)
 filename = "/home/andersx/cs-proteins/rhodopsin/rhodopsin.pdb"
@@ -35,8 +40,6 @@ for model in structure:
         break
     break
 
-debug = False
-# debug = True
 
 for i, assi_token in enumerate(assi_tokens):
 
