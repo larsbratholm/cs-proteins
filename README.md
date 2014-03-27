@@ -28,7 +28,9 @@ Contents
 | mbp                     | 376     | 1ez9             | BMRB 6807   | Synthetic ILV // Mueller et al. * | See note. \*\*| N/A |
 
 \*  Mueller et al. J. Mol. Biol. (2000) 300, 197:212, doi:10.1006/jmbi.2000.384 
+
 \*\* FULL: 1-370, Domain 1: 1–111, 260–327, Domain 2: 113–258, 335–370.
+
 ### Scripts
 
 Visualize NOE restraints on a PDB cartoon:
