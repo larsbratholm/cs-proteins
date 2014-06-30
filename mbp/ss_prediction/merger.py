@@ -36,5 +36,4 @@ for i in range(len(d)):
         prediction += "T"
     else:
         prediction += "-"
-    print i, d[i], prediction[-1]
 print prediction

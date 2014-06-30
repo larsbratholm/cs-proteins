@@ -38,9 +38,11 @@ Visualize NOE restraints on a PDB cartoon:
 
     pymol -r visualize_noe.py -- filename.pdb noe_file.txt
 
+### Simulation results
 
-
-### TORUS-CS-DBN files
+| Protein name            | Threads | Steps | Steps/day (queue) | Min RMSD | Min energy RMSD              | Samples < 3Å | Lowest energies < 5Å | MC-Method                | Moves                                                       | Energy       | Backbone-DBN |
+| ------------------------|--------:|------:|-------------------|---------:|------------------------------|-------------:|---------------------:|--------------------------|-------------------------------------------------------------|--------------|--------------|
+| CI2                     | 73      | ~43M  | 43M (kemi3)       | 3.0      | 11.3 (7.1 +camshift rescore) | 0            | 1                    | Muninn (beta 0.7-1.2)    | 0.4 crisp-dbn-eh / 0.1 backbone-dbn / 0.5 sidechain-uniform | profasi + pp | Torus-CS     |
 
 
 License and citation
