@@ -40,9 +40,12 @@ Visualize NOE restraints on a PDB cartoon:
 
 ### Simulation results
 
-| Protein name            | Threads | Steps | Steps/day (queue) | Min RMSD | Min energy RMSD              | Samples < 3Å | Lowest energies < 5Å | MC-Method                | Moves                                                       | Energy       | Backbone-DBN |
-| ------------------------|--------:|------:|-------------------|---------:|------------------------------|-------------:|---------------------:|--------------------------|-------------------------------------------------------------|--------------|--------------|
-| CI2                     | 73      | ~43M  | 43M (kemi3)       | 3.0      | 11.3 (7.1 +camshift rescore) | 0            | 1                    | Muninn (beta 0.7-1.2)    | 0.4 crisp-dbn-eh / 0.1 backbone-dbn / 0.5 sidechain-uniform | profasi + pp | Torus-CS     |
+| Protein name (Simulation type) | Threads | Steps | Steps/day (queue) | Min RMSD | Min energy RMSD              | Samples < 3Å | Lowest energies < 5Å | MC-Method                | Moves                                                                     | Energy                                  | Backbone-DBN |
+| -------------------------------|--------:|------:|-------------------|---------:|------------------------------|-------------:|---------------------:|--------------------------|---------------------------------------------------------------------------|-----------------------------------------|--------------|
+| CI2 (folding)                  | 73      | ~43M  | 43M (kemi3)       | 3.0      | 11.3 (7.1 +camshift rescore) | 0            | 1                    | Muninn (beta 0.7-1.2)    | 0.4 crisp-dbn-eh / 0.1 backbone-dbn / 0.5 sidechain-uniform               | profasi + pp                            | Torus-CS     |
+| CI2 (folding)                  | 72      | ~43M  | 10M (kemi3)       | 3.5      | 4.7                          | 0            | 3                    | Muninn (beta 0.6-1.1)    | 0.01 none / 0.4 crisp-dbn-eh / 0.1 backbone-dbn / 0.495 sidechain-uniform | camshift (sample cauchy) + profasi      | Torus-CS     |
+| CI2 (folding)                  | 73      | ~40M  | 9M (kemi3)        | 2.6      | 4.2                          | 1            | 6                    | Muninn (beta 0.6-1.1)    | 0.01 none / 0.4 crisp-dbn-eh / 0.1 backbone-dbn / 0.495 sidechain-uniform | camshift (sample cauchy) + profasi + pp | Torus-CS     |
+| CI2 (folding)                  | 24      | ~11M  | 1.1M (kemi3)      | 7.6      | 9.7 (13.5 +camshift rescore) | 0            | 0                    | Muninn (beta 0.7-1.2)    | 0.4 crisp-dbn-eh / 0.1 backbone-dbn / 0.5 sidechain-uniform               | profasi + pp                            | Torus-CS     |
 
 
 License and citation
