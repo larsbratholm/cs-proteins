@@ -1,0 +1,1947 @@
+assi (resi 101 and name hn )(resi 102 and name hn ) 1.8 0 1.2 ! intense peak
+assi (resi 101 and name hn )(resi  99 and name hn ) 1.8 0 5.2 
+assi (resi 165 and name hn )(resi 164 and name hn ) 1.8 0 1.2 ! intense peak
+assi (resi 165 and name hn )(resi 163 and name hn ) 1.8 0 5.2 
+assi (resi 165 and name hn )(resi 166 and name hn ) 1.8 0 3.2 
+assi (resi 165 and name hn )(resi 162 and name hn ) 1.8 0 5.2 
+assi (resi 174 and name hn )(resi 172 and name hn ) 1.8 0 3.2
+assi (resi 174 and name hn )(resi 176 and name hn ) 1.8 0 5.2
+assi (resi 174 and name hn )(resi 175 and name hn ) 1.8 0 1.2 ! intense peak
+assi (resi 252 and name hn )(resi 250 and name hn ) 1.8 0 1.2 ! intense peak
+assi (resi 252 and name hn )(resi 253 and name hn ) 1.8 0 1.2 ! intense peak
+assi (resi 252 and name hn )(resi 251 and name hn ) 1.8 0 1.2 ! intense peak
+assi (resi 252 and name hn )(resi 249 and name hn ) 1.8 0 5.2 
+assi (resi 262 and name hn )(resi 108 and name hn ) 1.8 0 1.2 ! intense peak
+assi (resi 262 and name hn )(resi 109 and name hn ) 1.8 0 1.2
+assi (resi 262 and name hn )(resi 111 and name hn ) 1.8 0 3.2 
+assi (resi 262 and name hn )(resi 263 and name hn ) 1.8 0 5.2 
+assi (resi 262 and name hn )(resi 261 and name hn ) 1.8 0 5.2 
+assi (resi 300 and name hn )(resi 299 and name hn ) 1.8 0 1.2 ! intense peak
+! Not confident in these two
+!assi (resi 300 and name hn )(resi 311 and name hn ) 1.8 0 5.2 
+!assi (resi 300 and name hn )(resi 314 and name hn ) 1.8 0 5.2 
+! Met-amide peaks
+assi (resi 262 and name hn )(resi 261 and name hg1# ) 1.8 0 7.2 ! hcnh_noe_peaklist.2029
+assi (resi 262 and name hn )(resi 261 and name hg2# ) 1.8 0 7.2 ! hcnh_noe_peaklist.2027
+assi (resi 262 and name hn )(resi 110 and name hg1# ) 1.8 0 7.2 ! hcnh_noe_peaklist.2026
+assi (resi 262 and name hn )(resi 262 and name hd2# ) 1.8 0 7.2 ! hcnh_noe_peaklist.2020
+assi (resi 300 and name hn )(resi 317 and name hd1# ) 1.8 0 7.2 ! hcnh_noe_peaklist.551
+assi (resi 300 and name hn )(resi 302 and name hg1# ) 1.8 0 7.2 ! hcnh_noe_peaklist.541
+assi (resi 4 and name hn )(resi 5 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.716
+assi (resi 4 and name hn )(resi 6 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.760
+assi (resi 5 and name hn )(resi 6 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1383
+assi (resi 6 and name hn )(resi 7 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1353
+assi (resi 7 and name hn )(resi 8 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.312
+assi (resi 8 and name hn )(resi 9 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.126
+assi (resi 9 and name hn )(resi 10 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.123
+assi (resi 10 and name hn )(resi 11 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.247
+assi (resi 12 and name hn )(resi 13 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.131
+assi (resi 13 and name hn )(resi 14 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.140
+assi (resi 12 and name hn )(resi 15 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.645
+assi (resi 13 and name hn )(resi 15 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.138
+assi (resi 14 and name hn )(resi 15 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1493
+assi (resi 14 and name hn )(resi 16 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1776
+assi (resi 15 and name hn )(resi 16 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1408
+assi (resi 15 and name hn )(resi 17 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1444
+assi (resi 16 and name hn )(resi 17 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1051
+assi (resi 16 and name hn )(resi 18 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.504
+assi (resi 17 and name hn )(resi 18 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.522
+assi (resi 17 and name hn )(resi 19 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1114
+assi (resi 18 and name hn )(resi 19 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.543
+assi (resi 19 and name hn )(resi 20 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.864
+assi (resi 18 and name hn )(resi 21 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.976
+assi (resi 19 and name hn )(resi 21 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.2361
+assi (resi 20 and name hn )(resi 21 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.831
+assi (resi 18 and name hn )(resi 22 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1063
+assi (resi 19 and name hn )(resi 22 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1146
+assi (resi 20 and name hn )(resi 22 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.836
+assi (resi 21 and name hn )(resi 22 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1013
+assi (resi 20 and name hn )(resi 23 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.561
+assi (resi 21 and name hn )(resi 23 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.562
+assi (resi 22 and name hn )(resi 23 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.563
+assi (resi 21 and name hn )(resi 24 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.132
+assi (resi 22 and name hn )(resi 24 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.136
+assi (resi 23 and name hn )(resi 24 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.128
+assi (resi 22 and name hn )(resi 25 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1125
+assi (resi 23 and name hn )(resi 25 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.556
+assi (resi 24 and name hn )(resi 25 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.129
+assi (resi 22 and name hn )(resi 26 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.637
+assi (resi 24 and name hn )(resi 26 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.130
+assi (resi 25 and name hn )(resi 26 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.609
+assi (resi 24 and name hn )(resi 27 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.104
+assi (resi 25 and name hn )(resi 27 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.639
+assi (resi 26 and name hn )(resi 27 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.641
+assi (resi 25 and name hn )(resi 28 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.431
+assi (resi 26 and name hn )(resi 28 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.432
+assi (resi 27 and name hn )(resi 28 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.440
+assi (resi 25 and name hn )(resi 29 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.740
+assi (resi 26 and name hn )(resi 29 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.620
+assi (resi 27 and name hn )(resi 29 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1171
+assi (resi 28 and name hn )(resi 29 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.436
+assi (resi 26 and name hn )(resi 30 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.658
+assi (resi 27 and name hn )(resi 30 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1888
+assi (resi 28 and name hn )(resi 30 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.446
+assi (resi 29 and name hn )(resi 30 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1834
+assi (resi 28 and name hn )(resi 31 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.71
+assi (resi 29 and name hn )(resi 31 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.74
+assi (resi 30 and name hn )(resi 31 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.88
+assi (resi 28 and name hn )(resi 32 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.450
+assi (resi 29 and name hn )(resi 32 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.777
+assi (resi 30 and name hn )(resi 32 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1921
+assi (resi 31 and name hn )(resi 32 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.90
+assi (resi 28 and name hn )(resi 33 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.426
+assi (resi 29 and name hn )(resi 33 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.801
+assi (resi 30 and name hn )(resi 33 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1874
+assi (resi 31 and name hn )(resi 33 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.72
+assi (resi 32 and name hn )(resi 33 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.451
+assi (resi 5 and name hn )(resi 34 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.413
+assi (resi 6 and name hn )(resi 34 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1321
+assi (resi 7 and name hn )(resi 34 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.397
+assi (resi 7 and name hn )(resi 35 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.363
+assi (resi 28 and name hn )(resi 35 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.359
+assi (resi 34 and name hn )(resi 35 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.358
+assi (resi 7 and name hn )(resi 36 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.336
+assi (resi 8 and name hn )(resi 36 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.274
+assi (resi 9 and name hn )(resi 36 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.127
+assi (resi 35 and name hn )(resi 36 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.331
+assi (resi 9 and name hn )(resi 37 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.121
+assi (resi 36 and name hn )(resi 37 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.192
+assi (resi 9 and name hn )(resi 38 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.122
+assi (resi 10 and name hn )(resi 38 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.217
+assi (resi 11 and name hn )(resi 38 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.223
+assi (resi 37 and name hn )(resi 38 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.204
+assi (resi 11 and name hn )(resi 39 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.773
+assi (resi 38 and name hn )(resi 39 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.231
+assi (resi 41 and name hn )(resi 42 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1015
+assi (resi 42 and name hn )(resi 43 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1200
+assi (resi 42 and name hn )(resi 44 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.486
+assi (resi 43 and name hn )(resi 44 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.484
+assi (resi 42 and name hn )(resi 45 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1088
+assi (resi 44 and name hn )(resi 45 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.481
+assi (resi 44 and name hn )(resi 46 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.482
+assi (resi 45 and name hn )(resi 46 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1083
+assi (resi 44 and name hn )(resi 47 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.494
+assi (resi 45 and name hn )(resi 47 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1100
+assi (resi 46 and name hn )(resi 47 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1218
+assi (resi 47 and name hn )(resi 49 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1763
+assi (resi 49 and name hn )(resi 50 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.2132
+assi (resi 47 and name hn )(resi 51 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1710
+assi (resi 49 and name hn )(resi 51 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.368
+assi (resi 50 and name hn )(resi 51 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.371
+assi (resi 49 and name hn )(resi 52 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1695
+assi (resi 50 and name hn )(resi 52 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1700
+assi (resi 51 and name hn )(resi 52 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.364
+assi (resi 49 and name hn )(resi 53 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.2096
+assi (resi 51 and name hn )(resi 53 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.150
+assi (resi 52 and name hn )(resi 53 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.163
+assi (resi 53 and name hn )(resi 54 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.172
+assi (resi 51 and name hn )(resi 55 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1320
+assi (resi 52 and name hn )(resi 55 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1358
+assi (resi 53 and name hn )(resi 55 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.159
+assi (resi 54 and name hn )(resi 55 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1385
+assi (resi 53 and name hn )(resi 56 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.119
+assi (resi 54 and name hn )(resi 56 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.171
+assi (resi 55 and name hn )(resi 56 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.137
+assi (resi 8 and name hn )(resi 58 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1599
+assi (resi 9 and name hn )(resi 58 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.161
+assi (resi 10 and name hn )(resi 58 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.229
+assi (resi 8 and name hn )(resi 59 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.322
+assi (resi 9 and name hn )(resi 59 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.142
+assi (resi 10 and name hn )(resi 59 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.232
+assi (resi 58 and name hn )(resi 59 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1643
+assi (resi 10 and name hn )(resi 60 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.240
+assi (resi 59 and name hn )(resi 60 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.407
+assi (resi 10 and name hn )(resi 61 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.221
+assi (resi 11 and name hn )(resi 61 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.732
+assi (resi 12 and name hn )(resi 61 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.279
+assi (resi 60 and name hn )(resi 61 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.377
+assi (resi 61 and name hn )(resi 62 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.280
+assi (resi 62 and name hn )(resi 63 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.262
+assi (resi 62 and name hn )(resi 64 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.940
+assi (resi 63 and name hn )(resi 64 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.266
+assi (resi 63 and name hn )(resi 65 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.264
+assi (resi 64 and name hn )(resi 65 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1371
+assi (resi 63 and name hn )(resi 66 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1709
+assi (resi 65 and name hn )(resi 66 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1363
+assi (resi 63 and name hn )(resi 67 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.265
+assi (resi 65 and name hn )(resi 67 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1400
+assi (resi 66 and name hn )(resi 67 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1850
+assi (resi 65 and name hn )(resi 68 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.85
+assi (resi 66 and name hn )(resi 68 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1778
+assi (resi 67 and name hn )(resi 68 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1827
+assi (resi 66 and name hn )(resi 69 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.42
+assi (resi 67 and name hn )(resi 69 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.45
+assi (resi 68 and name hn )(resi 69 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.9
+assi (resi 67 and name hn )(resi 70 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1844
+assi (resi 68 and name hn )(resi 70 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1389
+assi (resi 69 and name hn )(resi 70 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.36
+assi (resi 66 and name hn )(resi 71 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.653
+assi (resi 68 and name hn )(resi 71 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.584
+assi (resi 69 and name hn )(resi 71 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.18
+assi (resi 70 and name hn )(resi 71 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.643
+assi (resi 69 and name hn )(resi 73 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.2328
+assi (resi 70 and name hn )(resi 73 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1380
+assi (resi 72 and name hn )(resi 73 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.715
+assi (resi 72 and name hn )(resi 74 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.718
+assi (resi 73 and name hn )(resi 74 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.2351
+assi (resi 71 and name hn )(resi 75 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.2187
+assi (resi 72 and name hn )(resi 75 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.2193
+assi (resi 73 and name hn )(resi 75 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.2223
+assi (resi 74 and name hn )(resi 75 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.2227
+assi (resi 71 and name hn )(resi 76 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1877
+assi (resi 73 and name hn )(resi 76 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1923
+assi (resi 74 and name hn )(resi 76 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1928
+assi (resi 75 and name hn )(resi 76 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1919
+assi (resi 76 and name hn )(resi 77 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.283
+assi (resi 76 and name hn )(resi 78 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1029
+assi (resi 77 and name hn )(resi 78 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.263
+assi (resi 79 and name hn )(resi 80 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.2282
+assi (resi 84 and name hn )(resi 85 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1351
+assi (resi 84 and name hn )(resi 86 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1733
+assi (resi 85 and name hn )(resi 86 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1488
+assi (resi 84 and name hn )(resi 87 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1367
+assi (resi 85 and name hn )(resi 87 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1492
+assi (resi 86 and name hn )(resi 87 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1756
+assi (resi 84 and name hn )(resi 88 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1360
+assi (resi 86 and name hn )(resi 88 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1742
+assi (resi 87 and name hn )(resi 88 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1757
+assi (resi 85 and name hn )(resi 89 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1449
+assi (resi 86 and name hn )(resi 89 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1220
+assi (resi 87 and name hn )(resi 89 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1226
+assi (resi 88 and name hn )(resi 89 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1221
+assi (resi 90 and name hn )(resi 93 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1821
+assi (resi 92 and name hn )(resi 93 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.2326
+assi (resi 90 and name hn )(resi 94 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1797
+assi (resi 92 and name hn )(resi 94 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1308
+assi (resi 93 and name hn )(resi 94 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1255
+assi (resi 93 and name hn )(resi 95 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.2041
+assi (resi 94 and name hn )(resi 95 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1240
+assi (resi 93 and name hn )(resi 96 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1512
+assi (resi 94 and name hn )(resi 96 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1207
+assi (resi 95 and name hn )(resi 96 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1505
+assi (resi 94 and name hn )(resi 97 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.157
+assi (resi 95 and name hn )(resi 97 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.166
+assi (resi 96 and name hn )(resi 97 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.160
+assi (resi 95 and name hn )(resi 98 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1034
+assi (resi 96 and name hn )(resi 98 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.926
+assi (resi 97 and name hn )(resi 98 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.155
+assi (resi 98 and name hn )(resi 99 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.225
+assi (resi 99 and name hn )(resi 102 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.224
+assi (resi 79 and name hn )(resi 103 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.518
+assi (resi 99 and name hn )(resi 103 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.244
+assi (resi 102 and name hn )(resi 103 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.520
+assi (resi 78 and name hn )(resi 104 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.2287
+assi (resi 79 and name hn )(resi 104 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.2281
+assi (resi 99 and name hn )(resi 104 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.233
+assi (resi 103 and name hn )(resi 104 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.542
+assi (resi 79 and name hn )(resi 105 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1718
+assi (resi 99 and name hn )(resi 105 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1708
+assi (resi 103 and name hn )(resi 105 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.533
+assi (resi 104 and name hn )(resi 105 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.2296
+assi (resi 104 and name hn )(resi 106 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.2302
+assi (resi 105 and name hn )(resi 106 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.2208
+assi (resi 108 and name hn )(resi 109 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1575
+assi (resi 109 and name hn )(resi 110 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1539
+assi (resi 110 and name hn )(resi 111 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.521
+assi (resi 111 and name hn )(resi 112 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.532
+assi (resi 112 and name hn )(resi 113 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.652
+assi (resi 112 and name hn )(resi 114 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1652
+assi (resi 113 and name hn )(resi 114 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.2560
+assi (resi 114 and name hn )(resi 115 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.720
+assi (resi 114 and name hn )(resi 116 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.0
+assi (resi 115 and name hn )(resi 116 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.21
+assi (resi 116 and name hn )(resi 117 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.25
+assi (resi 117 and name hn )(resi 118 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.830
+assi (resi 118 and name hn )(resi 119 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.307
+assi (resi 119 and name hn )(resi 120 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.318
+assi (resi 119 and name hn )(resi 121 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.315
+assi (resi 120 and name hn )(resi 121 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1640
+assi (resi 118 and name hn )(resi 122 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.904
+assi (resi 119 and name hn )(resi 122 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.309
+assi (resi 120 and name hn )(resi 122 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1238
+assi (resi 121 and name hn )(resi 122 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1215
+assi (resi 127 and name hn )(resi 128 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1515
+assi (resi 127 and name hn )(resi 129 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.490
+assi (resi 128 and name hn )(resi 129 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.503
+assi (resi 128 and name hn )(resi 130 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1650
+assi (resi 129 and name hn )(resi 130 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.491
+assi (resi 127 and name hn )(resi 131 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1497
+assi (resi 128 and name hn )(resi 131 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1864
+assi (resi 129 and name hn )(resi 131 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.497
+assi (resi 130 and name hn )(resi 131 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1634
+assi (resi 129 and name hn )(resi 132 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.479
+assi (resi 130 and name hn )(resi 132 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1610
+assi (resi 131 and name hn )(resi 132 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.854
+assi (resi 132 and name hn )(resi 134 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.847
+assi (resi 131 and name hn )(resi 135 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1841
+assi (resi 132 and name hn )(resi 135 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.837
+assi (resi 134 and name hn )(resi 135 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1213
+assi (resi 134 and name hn )(resi 136 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1476
+assi (resi 135 and name hn )(resi 136 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1206
+assi (resi 135 and name hn )(resi 137 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1223
+assi (resi 136 and name hn )(resi 137 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1486
+assi (resi 135 and name hn )(resi 138 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1450
+assi (resi 136 and name hn )(resi 138 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1460
+assi (resi 137 and name hn )(resi 138 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1489
+assi (resi 135 and name hn )(resi 139 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.906
+assi (resi 136 and name hn )(resi 139 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.920
+assi (resi 137 and name hn )(resi 139 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.934
+assi (resi 138 and name hn )(resi 139 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.921
+assi (resi 137 and name hn )(resi 140 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.444
+assi (resi 138 and name hn )(resi 140 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.442
+assi (resi 139 and name hn )(resi 140 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.437
+assi (resi 137 and name hn )(resi 141 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1719
+assi (resi 138 and name hn )(resi 141 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.762
+assi (resi 139 and name hn )(resi 141 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.751
+assi (resi 140 and name hn )(resi 141 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.435
+assi (resi 138 and name hn )(resi 142 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1501
+assi (resi 139 and name hn )(resi 142 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.2009
+assi (resi 140 and name hn )(resi 142 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.447
+assi (resi 141 and name hn )(resi 142 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.769
+assi (resi 140 and name hn )(resi 143 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.14
+assi (resi 141 and name hn )(resi 143 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.23
+assi (resi 142 and name hn )(resi 143 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.47
+assi (resi 140 and name hn )(resi 144 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1162
+assi (resi 141 and name hn )(resi 144 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.756
+assi (resi 142 and name hn )(resi 144 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1235
+assi (resi 143 and name hn )(resi 144 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.33
+assi (resi 144 and name hn )(resi 145 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1257
+assi (resi 135 and name hn )(resi 146 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1168
+assi (resi 136 and name hn )(resi 146 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1424
+assi (resi 138 and name hn )(resi 146 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.644
+assi (resi 139 and name hn )(resi 146 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.625
+assi (resi 145 and name hn )(resi 146 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.670
+assi (resi 145 and name hn )(resi 147 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1823
+assi (resi 146 and name hn )(resi 147 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.656
+assi (resi 146 and name hn )(resi 148 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.807
+assi (resi 147 and name hn )(resi 148 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.852
+assi (resi 148 and name hn )(resi 149 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.838
+assi (resi 149 and name hn )(resi 150 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1233
+assi (resi 149 and name hn )(resi 151 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.565
+assi (resi 150 and name hn )(resi 151 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.576
+assi (resi 150 and name hn )(resi 152 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1992
+assi (resi 151 and name hn )(resi 152 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.579
+assi (resi 151 and name hn )(resi 153 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.578
+assi (resi 152 and name hn )(resi 153 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.2222
+assi (resi 153 and name hn )(resi 156 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.2224
+assi (resi 155 and name hn )(resi 156 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1646
+assi (resi 155 and name hn )(resi 157 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.185
+assi (resi 156 and name hn )(resi 157 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.186
+assi (resi 155 and name hn )(resi 158 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.443
+assi (resi 156 and name hn )(resi 158 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.452
+assi (resi 157 and name hn )(resi 158 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.180
+assi (resi 157 and name hn )(resi 160 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.2379
+assi (resi 158 and name hn )(resi 160 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.453
+assi (resi 158 and name hn )(resi 161 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.441
+assi (resi 160 and name hn )(resi 161 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1381
+assi (resi 160 and name hn )(resi 162 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.2090
+assi (resi 161 and name hn )(resi 162 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1376
+assi (resi 160 and name hn )(resi 163 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1116
+assi (resi 161 and name hn )(resi 163 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1089
+assi (resi 162 and name hn )(resi 163 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1106
+assi (resi 162 and name hn )(resi 164 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.2123
+assi (resi 163 and name hn )(resi 164 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1108
+assi (resi 162 and name hn )(resi 166 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.2043
+assi (resi 163 and name hn )(resi 166 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1053
+assi (resi 164 and name hn )(resi 166 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.2093
+assi (resi 166 and name hn )(resi 167 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1996
+assi (resi 167 and name hn )(resi 168 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.448
+assi (resi 167 and name hn )(resi 169 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1995
+assi (resi 168 and name hn )(resi 169 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.373
+assi (resi 169 and name hn )(resi 170 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.287
+assi (resi 170 and name hn )(resi 171 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.272
+assi (resi 171 and name hn )(resi 172 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.10
+assi (resi 171 and name hn )(resi 175 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.37
+assi (resi 172 and name hn )(resi 175 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.228
+assi (resi 172 and name hn )(resi 176 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.227
+assi (resi 175 and name hn )(resi 176 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1202
+assi (resi 170 and name hn )(resi 177 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.297
+assi (resi 171 and name hn )(resi 177 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.457
+assi (resi 172 and name hn )(resi 177 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.243
+assi (resi 175 and name hn )(resi 177 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.489
+assi (resi 176 and name hn )(resi 177 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.485
+assi (resi 177 and name hn )(resi 178 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.496
+assi (resi 177 and name hn )(resi 179 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.498
+assi (resi 178 and name hn )(resi 179 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1818
+assi (resi 170 and name hn )(resi 180 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.298
+assi (resi 177 and name hn )(resi 180 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.477
+assi (resi 178 and name hn )(resi 180 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.538
+assi (resi 179 and name hn )(resi 180 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.575
+assi (resi 170 and name hn )(resi 181 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.278
+assi (resi 178 and name hn )(resi 181 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1791
+assi (resi 179 and name hn )(resi 181 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1876
+assi (resi 180 and name hn )(resi 181 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.557
+assi (resi 167 and name hn )(resi 182 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1104
+assi (resi 169 and name hn )(resi 182 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1052
+assi (resi 170 and name hn )(resi 182 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1056
+assi (resi 181 and name hn )(resi 182 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.634
+assi (resi 167 and name hn )(resi 183 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.2036
+assi (resi 181 and name hn )(resi 183 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.2190
+assi (resi 182 and name hn )(resi 183 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1111
+assi (resi 181 and name hn )(resi 184 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.662
+assi (resi 182 and name hn )(resi 184 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1107
+assi (resi 183 and name hn )(resi 184 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.2130
+assi (resi 167 and name hn )(resi 185 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.2076
+assi (resi 183 and name hn )(resi 185 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1917
+assi (resi 184 and name hn )(resi 185 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1914
+assi (resi 166 and name hn )(resi 187 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.2459
+assi (resi 185 and name hn )(resi 187 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1929
+assi (resi 166 and name hn )(resi 188 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.188
+assi (resi 185 and name hn )(resi 188 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.194
+assi (resi 187 and name hn )(resi 188 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.198
+assi (resi 185 and name hn )(resi 189 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1913
+assi (resi 187 and name hn )(resi 189 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.2091
+assi (resi 188 and name hn )(resi 189 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.196
+assi (resi 185 and name hn )(resi 190 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.366
+assi (resi 187 and name hn )(resi 190 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.372
+assi (resi 188 and name hn )(resi 190 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.193
+assi (resi 189 and name hn )(resi 190 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.404
+assi (resi 188 and name hn )(resi 191 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.70
+assi (resi 189 and name hn )(resi 191 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.48
+assi (resi 190 and name hn )(resi 191 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.13
+assi (resi 189 and name hn )(resi 192 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.2062
+assi (resi 190 and name hn )(resi 192 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.389
+assi (resi 191 and name hn )(resi 192 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.27
+assi (resi 190 and name hn )(resi 193 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.402
+assi (resi 191 and name hn )(resi 193 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.44
+assi (resi 192 and name hn )(resi 193 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.939
+assi (resi 191 and name hn )(resi 194 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.22
+assi (resi 192 and name hn )(resi 194 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.750
+assi (resi 193 and name hn )(resi 194 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.767
+assi (resi 161 and name hn )(resi 195 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1347
+assi (resi 192 and name hn )(resi 195 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.910
+assi (resi 193 and name hn )(resi 195 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1297
+assi (resi 194 and name hn )(resi 195 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.758
+assi (resi 194 and name hn )(resi 196 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.763
+assi (resi 195 and name hn )(resi 196 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1296
+assi (resi 194 and name hn )(resi 197 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.619
+assi (resi 195 and name hn )(resi 197 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.642
+assi (resi 196 and name hn )(resi 197 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.651
+assi (resi 194 and name hn )(resi 198 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.753
+assi (resi 195 and name hn )(resi 198 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1283
+assi (resi 196 and name hn )(resi 198 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1144
+assi (resi 197 and name hn )(resi 198 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.635
+assi (resi 196 and name hn )(resi 199 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1216
+assi (resi 197 and name hn )(resi 199 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.638
+assi (resi 198 and name hn )(resi 199 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1135
+assi (resi 197 and name hn )(resi 200 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.386
+assi (resi 198 and name hn )(resi 200 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.392
+assi (resi 199 and name hn )(resi 200 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.393
+assi (resi 199 and name hn )(resi 201 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1250
+assi (resi 200 and name hn )(resi 201 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.409
+assi (resi 198 and name hn )(resi 202 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1147
+assi (resi 199 and name hn )(resi 202 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1254
+assi (resi 200 and name hn )(resi 202 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.411
+assi (resi 201 and name hn )(resi 202 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.2225
+assi (resi 199 and name hn )(resi 203 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1232
+assi (resi 200 and name hn )(resi 203 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.403
+assi (resi 201 and name hn )(resi 203 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1918
+assi (resi 202 and name hn )(resi 203 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1925
+assi (resi 199 and name hn )(resi 204 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1249
+assi (resi 200 and name hn )(resi 204 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.410
+assi (resi 201 and name hn )(resi 204 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.2173
+assi (resi 202 and name hn )(resi 204 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.2175
+assi (resi 203 and name hn )(resi 204 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1915
+assi (resi 206 and name hn )(resi 207 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.2277
+assi (resi 151 and name hn )(resi 208 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.573
+assi (resi 205 and name hn )(resi 208 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1846
+assi (resi 206 and name hn )(resi 208 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.365
+assi (resi 207 and name hn )(resi 208 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1859
+assi (resi 207 and name hn )(resi 209 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.2521
+assi (resi 208 and name hn )(resi 209 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1933
+assi (resi 209 and name hn )(resi 210 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1775
+assi (resi 209 and name hn )(resi 211 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.2157
+assi (resi 210 and name hn )(resi 211 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1766
+assi (resi 209 and name hn )(resi 212 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.414
+assi (resi 210 and name hn )(resi 212 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.399
+assi (resi 211 and name hn )(resi 212 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.406
+assi (resi 209 and name hn )(resi 213 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1118
+assi (resi 211 and name hn )(resi 213 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1110
+assi (resi 212 and name hn )(resi 213 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.391
+assi (resi 212 and name hn )(resi 214 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1712
+assi (resi 213 and name hn )(resi 214 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1099
+assi (resi 212 and name hn )(resi 215 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1266
+assi (resi 213 and name hn )(resi 215 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1086
+assi (resi 214 and name hn )(resi 215 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1732
+assi (resi 215 and name hn )(resi 216 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1295
+assi (resi 148 and name hn )(resi 217 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.916
+assi (resi 215 and name hn )(resi 217 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1289
+assi (resi 216 and name hn )(resi 217 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1357
+assi (resi 217 and name hn )(resi 219 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1842
+assi (resi 219 and name hn )(resi 220 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1863
+assi (resi 217 and name hn )(resi 221 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1894
+assi (resi 220 and name hn )(resi 221 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1862
+assi (resi 145 and name hn )(resi 222 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.2457
+assi (resi 217 and name hn )(resi 222 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1382
+assi (resi 219 and name hn )(resi 222 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1861
+assi (resi 220 and name hn )(resi 222 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.2523
+assi (resi 221 and name hn )(resi 222 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1860
+assi (resi 145 and name hn )(resi 223 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.211
+assi (resi 146 and name hn )(resi 223 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.205
+assi (resi 147 and name hn )(resi 223 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.207
+assi (resi 148 and name hn )(resi 223 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.796
+assi (resi 222 and name hn )(resi 223 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.210
+assi (resi 146 and name hn )(resi 224 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.664
+assi (resi 147 and name hn )(resi 224 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.2166
+assi (resi 148 and name hn )(resi 224 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.861
+assi (resi 222 and name hn )(resi 224 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.2446
+assi (resi 223 and name hn )(resi 224 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.208
+assi (resi 116 and name hn )(resi 225 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.51
+assi (resi 148 and name hn )(resi 225 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.2265
+assi (resi 224 and name hn )(resi 225 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.2174
+assi (resi 116 and name hn )(resi 226 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.20
+assi (resi 148 and name hn )(resi 226 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.691
+assi (resi 150 and name hn )(resi 226 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.708
+assi (resi 225 and name hn )(resi 226 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.2234
+assi (resi 114 and name hn )(resi 227 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.784
+assi (resi 116 and name hn )(resi 227 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.26
+assi (resi 225 and name hn )(resi 227 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.2266
+assi (resi 226 and name hn )(resi 227 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.690
+assi (resi 114 and name hn )(resi 228 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.2408
+assi (resi 227 and name hn )(resi 228 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.865
+assi (resi 228 and name hn )(resi 230 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.2376
+assi (resi 228 and name hn )(resi 231 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.345
+assi (resi 230 and name hn )(resi 231 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.344
+assi (resi 228 and name hn )(resi 232 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1513
+assi (resi 230 and name hn )(resi 232 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1588
+assi (resi 231 and name hn )(resi 232 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.338
+assi (resi 119 and name hn )(resi 242 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.306
+assi (resi 117 and name hn )(resi 243 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.75
+assi (resi 118 and name hn )(resi 243 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.80
+assi (resi 119 and name hn )(resi 243 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.288
+assi (resi 242 and name hn )(resi 243 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.76
+assi (resi 117 and name hn )(resi 244 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.833
+assi (resi 243 and name hn )(resi 244 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.82
+assi (resi 115 and name hn )(resi 245 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.759
+assi (resi 117 and name hn )(resi 245 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.840
+assi (resi 244 and name hn )(resi 245 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1085
+assi (resi 115 and name hn )(resi 246 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.739
+assi (resi 245 and name hn )(resi 246 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.526
+assi (resi 115 and name hn )(resi 247 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.305
+assi (resi 245 and name hn )(resi 247 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1263
+assi (resi 246 and name hn )(resi 247 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.299
+assi (resi 128 and name hn )(resi 249 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.2377
+assi (resi 129 and name hn )(resi 249 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.501
+assi (resi 130 and name hn )(resi 249 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1648
+assi (resi 129 and name hn )(resi 250 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.738
+assi (resi 249 and name hn )(resi 250 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.779
+assi (resi 129 and name hn )(resi 251 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.15
+assi (resi 130 and name hn )(resi 251 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.40
+assi (resi 249 and name hn )(resi 251 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.2378
+assi (resi 250 and name hn )(resi 251 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.24
+assi (resi 250 and name hn )(resi 252 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.866
+assi (resi 164 and name hn )(resi 253 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.710
+assi (resi 249 and name hn )(resi 253 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.2383
+assi (resi 250 and name hn )(resi 253 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.689
+assi (resi 251 and name hn )(resi 253 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.19
+assi (resi 162 and name hn )(resi 255 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1641
+assi (resi 247 and name hn )(resi 255 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1601
+assi (resi 249 and name hn )(resi 255 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.2390
+assi (resi 250 and name hn )(resi 255 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.849
+assi (resi 161 and name hn )(resi 256 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.527
+assi (resi 162 and name hn )(resi 256 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.2056
+assi (resi 163 and name hn )(resi 256 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.523
+assi (resi 255 and name hn )(resi 256 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.570
+assi (resi 111 and name hn )(resi 260 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.539
+assi (resi 259 and name hn )(resi 260 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.855
+assi (resi 64 and name hn )(resi 261 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.109
+assi (resi 65 and name hn )(resi 261 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.106
+assi (resi 111 and name hn )(resi 261 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.97
+assi (resi 260 and name hn )(resi 261 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.110
+assi (resi 62 and name hn )(resi 263 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.248
+assi (resi 63 and name hn )(resi 263 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.237
+assi (resi 64 and name hn )(resi 263 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.251
+assi (resi 108 and name hn )(resi 263 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.252
+assi (resi 109 and name hn )(resi 263 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1520
+assi (resi 106 and name hn )(resi 264 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.500
+assi (resi 108 and name hn )(resi 264 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.499
+assi (resi 109 and name hn )(resi 264 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.530
+assi (resi 263 and name hn )(resi 264 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.242
+assi (resi 60 and name hn )(resi 265 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.412
+assi (resi 61 and name hn )(resi 265 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.270
+assi (resi 62 and name hn )(resi 265 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.2415
+assi (resi 106 and name hn )(resi 265 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.2226
+assi (resi 264 and name hn )(resi 265 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.544
+assi (resi 77 and name hn )(resi 266 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.260
+assi (resi 265 and name hn )(resi 266 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.2413
+assi (resi 58 and name hn )(resi 267 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.316
+assi (resi 59 and name hn )(resi 267 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.284
+assi (resi 60 and name hn )(resi 267 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.275
+assi (resi 77 and name hn )(resi 267 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.273
+assi (resi 265 and name hn )(resi 267 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.323
+assi (resi 266 and name hn )(resi 267 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.277
+assi (resi 76 and name hn )(resi 268 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1931
+assi (resi 77 and name hn )(resi 268 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.271
+assi (resi 267 and name hn )(resi 268 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.286
+assi (resi 77 and name hn )(resi 269 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1521
+assi (resi 267 and name hn )(resi 269 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1600
+assi (resi 268 and name hn )(resi 269 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1590
+assi (resi 77 and name hn )(resi 270 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.268
+assi (resi 267 and name hn )(resi 270 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.285
+assi (resi 268 and name hn )(resi 270 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.2258
+assi (resi 269 and name hn )(resi 270 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1583
+assi (resi 270 and name hn )(resi 272 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.2241
+assi (resi 272 and name hn )(resi 273 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1288
+assi (resi 272 and name hn )(resi 274 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1550
+assi (resi 273 and name hn )(resi 274 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1354
+assi (resi 273 and name hn )(resi 275 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1087
+assi (resi 274 and name hn )(resi 275 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1094
+assi (resi 272 and name hn )(resi 276 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1282
+assi (resi 273 and name hn )(resi 276 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1138
+assi (resi 274 and name hn )(resi 276 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1142
+assi (resi 275 and name hn )(resi 276 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1082
+assi (resi 275 and name hn )(resi 277 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1095
+assi (resi 276 and name hn )(resi 277 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1143
+assi (resi 275 and name hn )(resi 278 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1092
+assi (resi 276 and name hn )(resi 278 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1141
+assi (resi 277 and name hn )(resi 278 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1480
+assi (resi 275 and name hn )(resi 279 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1440
+assi (resi 277 and name hn )(resi 279 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1559
+assi (resi 278 and name hn )(resi 279 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1478
+assi (resi 278 and name hn )(resi 280 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1203
+assi (resi 279 and name hn )(resi 280 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1209
+assi (resi 278 and name hn )(resi 281 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1406
+assi (resi 279 and name hn )(resi 281 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1587
+assi (resi 280 and name hn )(resi 281 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1251
+assi (resi 279 and name hn )(resi 282 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.2508
+assi (resi 280 and name hn )(resi 282 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1258
+assi (resi 281 and name hn )(resi 282 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.2316
+assi (resi 280 and name hn )(resi 283 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1890
+assi (resi 281 and name hn )(resi 283 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1922
+assi (resi 282 and name hn )(resi 283 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1930
+assi (resi 281 and name hn )(resi 284 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.954
+assi (resi 282 and name hn )(resi 284 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.959
+assi (resi 283 and name hn )(resi 284 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.942
+assi (resi 281 and name hn )(resi 285 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1379
+assi (resi 282 and name hn )(resi 285 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.2482
+assi (resi 283 and name hn )(resi 285 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1370
+assi (resi 284 and name hn )(resi 285 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.917
+assi (resi 284 and name hn )(resi 286 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.960
+assi (resi 285 and name hn )(resi 286 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1386
+assi (resi 286 and name hn )(resi 287 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.781
+assi (resi 286 and name hn )(resi 288 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.2042
+assi (resi 287 and name hn )(resi 288 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.771
+assi (resi 286 and name hn )(resi 289 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.2317
+assi (resi 287 and name hn )(resi 289 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.776
+assi (resi 288 and name hn )(resi 289 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.2038
+assi (resi 283 and name hn )(resi 290 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1369
+assi (resi 285 and name hn )(resi 290 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1342
+assi (resi 286 and name hn )(resi 290 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1309
+assi (resi 287 and name hn )(resi 290 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.757
+assi (resi 288 and name hn )(resi 290 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1302
+assi (resi 289 and name hn )(resi 290 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1307
+assi (resi 286 and name hn )(resi 291 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1050
+assi (resi 287 and name hn )(resi 291 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.990
+assi (resi 288 and name hn )(resi 291 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1032
+assi (resi 289 and name hn )(resi 291 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1041
+assi (resi 290 and name hn )(resi 291 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1278
+assi (resi 286 and name hn )(resi 292 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1311
+assi (resi 288 and name hn )(resi 292 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1303
+assi (resi 289 and name hn )(resi 292 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1253
+assi (resi 290 and name hn )(resi 292 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1287
+assi (resi 291 and name hn )(resi 292 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1014
+assi (resi 290 and name hn )(resi 293 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1299
+assi (resi 291 and name hn )(resi 293 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1030
+assi (resi 292 and name hn )(resi 293 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1237
+assi (resi 291 and name hn )(resi 294 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1024
+assi (resi 292 and name hn )(resi 294 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1224
+assi (resi 293 and name hn )(resi 294 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1761
+assi (resi 292 and name hn )(resi 295 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1236
+assi (resi 293 and name hn )(resi 295 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1978
+assi (resi 294 and name hn )(resi 295 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1760
+assi (resi 19 and name hn )(resi 296 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.2366
+assi (resi 293 and name hn )(resi 296 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1964
+assi (resi 294 and name hn )(resi 296 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1399
+assi (resi 295 and name hn )(resi 296 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1403
+assi (resi 16 and name hn )(resi 297 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.2584
+assi (resi 292 and name hn )(resi 297 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1301
+assi (resi 293 and name hn )(resi 297 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1984
+assi (resi 295 and name hn )(resi 297 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1977
+assi (resi 296 and name hn )(resi 297 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1404
+assi (resi 110 and name hn )(resi 301 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.480
+assi (resi 110 and name hn )(resi 302 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1117
+assi (resi 301 and name hn )(resi 302 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.502
+assi (resi 109 and name hn )(resi 303 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1806
+assi (resi 110 and name hn )(resi 303 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1098
+assi (resi 302 and name hn )(resi 304 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.2440
+assi (resi 303 and name hn )(resi 304 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1764
+assi (resi 89 and name hn )(resi 305 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.84
+assi (resi 90 and name hn )(resi 305 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.87
+assi (resi 304 and name hn )(resi 305 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.2094
+assi (resi 305 and name hn )(resi 306 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.91
+assi (resi 304 and name hn )(resi 307 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.2103
+assi (resi 305 and name hn )(resi 307 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.73
+assi (resi 306 and name hn )(resi 307 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.713
+assi (resi 304 and name hn )(resi 308 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.2104
+assi (resi 305 and name hn )(resi 308 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.78
+assi (resi 306 and name hn )(resi 308 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.955
+assi (resi 307 and name hn )(resi 308 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.693
+assi (resi 305 and name hn )(resi 309 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.89
+assi (resi 306 and name hn )(resi 309 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.2040
+assi (resi 307 and name hn )(resi 309 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.772
+assi (resi 308 and name hn )(resi 309 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.944
+assi (resi 307 and name hn )(resi 310 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.764
+assi (resi 308 and name hn )(resi 310 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.931
+assi (resi 309 and name hn )(resi 310 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1693
+assi (resi 308 and name hn )(resi 311 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1001
+assi (resi 309 and name hn )(resi 311 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1031
+assi (resi 310 and name hn )(resi 311 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1020
+assi (resi 309 and name hn )(resi 312 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1638
+assi (resi 310 and name hn )(resi 312 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1629
+assi (resi 311 and name hn )(resi 312 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1019
+assi (resi 312 and name hn )(resi 313 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1633
+assi (resi 312 and name hn )(resi 314 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.930
+assi (resi 313 and name hn )(resi 314 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.935
+assi (resi 314 and name hn )(resi 316 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.937
+assi (resi 301 and name hn )(resi 317 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.478
+assi (resi 314 and name hn )(resi 317 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.979
+assi (resi 316 and name hn )(resi 317 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.572
+assi (resi 314 and name hn )(resi 318 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.624
+assi (resi 316 and name hn )(resi 318 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.657
+assi (resi 317 and name hn )(resi 318 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.559
+assi (resi 316 and name hn )(resi 319 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1491
+assi (resi 317 and name hn )(resi 319 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.646
+assi (resi 318 and name hn )(resi 319 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.699
+assi (resi 318 and name hn )(resi 320 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.661
+assi (resi 319 and name hn )(resi 320 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.2112
+assi (resi 320 and name hn )(resi 321 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.2109
+assi (resi 320 and name hn )(resi 322 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.950
+assi (resi 321 and name hn )(resi 322 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.915
+assi (resi 247 and name hn )(resi 323 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.319
+assi (resi 320 and name hn )(resi 323 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.2084
+assi (resi 321 and name hn )(resi 323 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1375
+assi (resi 322 and name hn )(resi 323 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.947
+assi (resi 322 and name hn )(resi 324 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1276
+assi (resi 323 and name hn )(resi 324 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1305
+assi (resi 324 and name hn )(resi 325 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1298
+assi (resi 324 and name hn )(resi 326 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1292
+assi (resi 325 and name hn )(resi 326 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1636
+assi (resi 324 and name hn )(resi 327 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.158
+assi (resi 325 and name hn )(resi 327 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.165
+assi (resi 326 and name hn )(resi 327 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.162
+assi (resi 259 and name hn )(resi 328 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.812
+assi (resi 327 and name hn )(resi 328 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.153
+assi (resi 259 and name hn )(resi 329 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.729
+assi (resi 328 and name hn )(resi 329 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.182
+assi (resi 259 and name hn )(resi 330 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.360
+assi (resi 260 and name hn )(resi 330 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.367
+assi (resi 261 and name hn )(resi 330 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.348
+assi (resi 329 and name hn )(resi 330 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.179
+assi (resi 332 and name hn )(resi 333 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1592
+assi (resi 333 and name hn )(resi 336 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1591
+assi (resi 335 and name hn )(resi 336 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1571
+assi (resi 335 and name hn )(resi 337 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.2211
+assi (resi 336 and name hn )(resi 337 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1584
+assi (resi 336 and name hn )(resi 338 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.569
+assi (resi 337 and name hn )(resi 338 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.577
+assi (resi 336 and name hn )(resi 339 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1482
+assi (resi 337 and name hn )(resi 339 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1405
+assi (resi 338 and name hn )(resi 339 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.567
+assi (resi 337 and name hn )(resi 340 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.2245
+assi (resi 338 and name hn )(resi 340 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.571
+assi (resi 339 and name hn )(resi 340 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1398
+assi (resi 338 and name hn )(resi 341 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.663
+assi (resi 339 and name hn )(resi 341 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.2146
+assi (resi 340 and name hn )(resi 341 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1642
+assi (resi 340 and name hn )(resi 342 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1611
+assi (resi 341 and name hn )(resi 342 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.860
+assi (resi 339 and name hn )(resi 343 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1552
+assi (resi 341 and name hn )(resi 343 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1579
+assi (resi 342 and name hn )(resi 343 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.846
+assi (resi 341 and name hn )(resi 344 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1109
+assi (resi 342 and name hn )(resi 344 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.834
+assi (resi 343 and name hn )(resi 344 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1093
+assi (resi 342 and name hn )(resi 345 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.775
+assi (resi 343 and name hn )(resi 345 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1508
+assi (resi 344 and name hn )(resi 345 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1113
+assi (resi 343 and name hn )(resi 346 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.648
+assi (resi 344 and name hn )(resi 346 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1066
+assi (resi 345 and name hn )(resi 346 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.666
+assi (resi 345 and name hn )(resi 347 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1991
+assi (resi 346 and name hn )(resi 347 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.660
+assi (resi 345 and name hn )(resi 348 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1585
+assi (resi 346 and name hn )(resi 348 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.649
+assi (resi 347 and name hn )(resi 348 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1573
+assi (resi 344 and name hn )(resi 349 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1011
+assi (resi 345 and name hn )(resi 349 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1039
+assi (resi 346 and name hn )(resi 349 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.629
+assi (resi 347 and name hn )(resi 349 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1028
+assi (resi 348 and name hn )(resi 349 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1017
+assi (resi 346 and name hn )(resi 350 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.606
+assi (resi 347 and name hn )(resi 350 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.659
+assi (resi 348 and name hn )(resi 350 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.647
+assi (resi 349 and name hn )(resi 350 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.627
+assi (resi 348 and name hn )(resi 351 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1016
+assi (resi 349 and name hn )(resi 351 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.995
+assi (resi 350 and name hn )(resi 351 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.626
+assi (resi 349 and name hn )(resi 352 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.962
+assi (resi 350 and name hn )(resi 352 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.582
+assi (resi 351 and name hn )(resi 352 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.961
+assi (resi 350 and name hn )(resi 353 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.671
+assi (resi 351 and name hn )(resi 353 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1047
+assi (resi 352 and name hn )(resi 353 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.2448
+assi (resi 350 and name hn )(resi 354 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.986
+assi (resi 351 and name hn )(resi 354 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.996
+assi (resi 352 and name hn )(resi 354 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.963
+assi (resi 353 and name hn )(resi 354 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1048
+assi (resi 350 and name hn )(resi 355 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.667
+assi (resi 351 and name hn )(resi 355 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1038
+assi (resi 352 and name hn )(resi 355 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.2177
+assi (resi 353 and name hn )(resi 355 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.2257
+assi (resi 354 and name hn )(resi 355 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1040
+assi (resi 354 and name hn )(resi 356 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1044
+assi (resi 355 and name hn )(resi 356 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.2256
+assi (resi 356 and name hn )(resi 357 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.956
+assi (resi 356 and name hn )(resi 358 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.2089
+assi (resi 357 and name hn )(resi 358 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.946
+assi (resi 356 and name hn )(resi 359 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1511
+assi (resi 358 and name hn )(resi 359 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1506
+assi (resi 359 and name hn )(resi 360 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.919
+assi (resi 356 and name hn )(resi 361 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1924
+assi (resi 359 and name hn )(resi 361 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1500
+assi (resi 360 and name hn )(resi 361 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.941
+assi (resi 359 and name hn )(resi 362 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.925
+assi (resi 360 and name hn )(resi 362 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.894
+assi (resi 361 and name hn )(resi 362 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.943
+assi (resi 359 and name hn )(resi 363 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1204
+assi (resi 360 and name hn )(resi 363 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.905
+assi (resi 361 and name hn )(resi 363 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1231
+assi (resi 362 and name hn )(resi 363 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.909
+assi (resi 359 and name hn )(resi 364 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.924
+assi (resi 363 and name hn )(resi 364 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.908
+assi (resi 184 and name hn )(resi 365 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1580
+assi (resi 363 and name hn )(resi 365 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1210
+assi (resi 364 and name hn )(resi 365 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.928
+assi (resi 362 and name hn )(resi 366 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.949
+assi (resi 363 and name hn )(resi 366 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1241
+assi (resi 364 and name hn )(resi 366 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.948
+assi (resi 365 and name hn )(resi 366 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1577
+assi (resi 363 and name hn )(resi 367 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1187
+assi (resi 364 and name hn )(resi 367 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.907
+assi (resi 365 and name hn )(resi 367 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1211
+assi (resi 366 and name hn )(resi 367 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1242
+assi (resi 365 and name hn )(resi 368 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.1566
+assi (resi 366 and name hn )(resi 368 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.1762
+assi (resi 367 and name hn )(resi 368 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1219
+assi (resi 366 and name hn )(resi 369 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.111
+assi (resi 367 and name hn )(resi 369 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.105
+assi (resi 368 and name hn )(resi 369 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.108
+assi (resi 366 and name hn )(resi 370 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.168
+assi (resi 367 and name hn )(resi 370 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.156
+assi (resi 368 and name hn )(resi 370 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.164
+assi (resi 369 and name hn )(resi 370 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.68
+assi (resi 6 and name hn )(resi 7 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1281
+assi (resi 6 and name hn )(resi 7 and name hd2# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1281
+assi (resi 7 and name hd1# )(resi 7 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1344
+assi (resi 7 and name hd2# )(resi 7 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1344
+assi (resi 6 and name hn )(resi 8 and name hg* ) 1.8 0 6.2 ! hcnh_noe_peaklist.1301
+assi (resi 7 and name hn )(resi 8 and name hg* ) 1.8 0 6.2 ! hcnh_noe_peaklist.1363
+assi (resi 7 and name hd1# )(resi 8 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.587
+assi (resi 7 and name hd2# )(resi 8 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.587
+assi (resi 8 and name hg* )(resi 8 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.603
+assi (resi 7 and name hn )(resi 9 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1374
+assi (resi 8 and name hn )(resi 9 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.610
+assi (resi 8 and name hg* )(resi 9 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.273
+assi (resi 9 and name hd1# )(resi 9 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.285
+assi (resi 8 and name hg* )(resi 10 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.471
+assi (resi 9 and name hd1# )(resi 10 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.508
+assi (resi 11 and name hd1# )(resi 11 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.958
+assi (resi 11 and name hd1# )(resi 12 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.910
+assi (resi 11 and name hd1# )(resi 15 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1379
+assi (resi 11 and name hd1# )(resi 16 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.2797
+assi (resi 11 and name hd1# )(resi 17 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1144
+assi (resi 11 and name hn )(resi 20 and name hd* ) 1.8 0 6.2 ! hcnh_noe_peaklist.919
+assi (resi 20 and name hd1# )(resi 20 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.974
+assi (resi 20 and name hd2# )(resi 20 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.974
+assi (resi 20 and name hd1# )(resi 21 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1069
+assi (resi 20 and name hd2# )(resi 21 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1069
+assi (resi 20 and name hd* )(resi 22 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1160
+assi (resi 20 and name hn )(resi 23 and name hg* ) 1.8 0 6.2 ! hcnh_noe_peaklist.982
+assi (resi 20 and name hd* )(resi 23 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.808
+assi (resi 21 and name hn )(resi 23 and name hg* ) 1.8 0 6.2 ! hcnh_noe_peaklist.1074
+assi (resi 22 and name hn )(resi 23 and name hg1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1168
+assi (resi 22 and name hn )(resi 23 and name hg2# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1168
+assi (resi 23 and name hg1# )(resi 23 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.817
+assi (resi 23 and name hg2# )(resi 23 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.817
+assi (resi 23 and name hg1# )(resi 25 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.866
+assi (resi 23 and name hg2# )(resi 25 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.866
+assi (resi 23 and name hg1# )(resi 26 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.868
+assi (resi 23 and name hg2# )(resi 26 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.868
+assi (resi 23 and name hg1# )(resi 27 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1208
+assi (resi 23 and name hg2# )(resi 27 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1208
+assi (resi 7 and name hn )(resi 35 and name hg1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1365
+assi (resi 7 and name hn )(resi 35 and name hg2# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1365
+assi (resi 7 and name hd1# )(resi 35 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.645
+assi (resi 7 and name hd2# )(resi 35 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.645
+assi (resi 9 and name hn )(resi 35 and name hg* ) 1.8 0 6.2 ! hcnh_noe_peaklist.232
+assi (resi 9 and name hd1# )(resi 35 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.667
+assi (resi 25 and name hn )(resi 35 and name hg* ) 1.8 0 6.2 ! hcnh_noe_peaklist.874
+assi (resi 28 and name hn )(resi 35 and name hg1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.717
+assi (resi 28 and name hn )(resi 35 and name hg2# ) 1.8 0 6.2 ! hcnh_noe_peaklist.717
+assi (resi 34 and name hn )(resi 35 and name hg1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.690
+assi (resi 34 and name hn )(resi 35 and name hg2# ) 1.8 0 6.2 ! hcnh_noe_peaklist.690
+assi (resi 35 and name hg1# )(resi 35 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.656
+assi (resi 35 and name hg2# )(resi 35 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.656
+assi (resi 7 and name hd1# )(resi 36 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.625
+assi (resi 7 and name hd2# )(resi 36 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.625
+assi (resi 8 and name hg* )(resi 36 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.630
+assi (resi 9 and name hd1# )(resi 36 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.636
+assi (resi 35 and name hg1# )(resi 36 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.631
+assi (resi 35 and name hg2# )(resi 36 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.631
+assi (resi 8 and name hg* )(resi 37 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.383
+assi (resi 9 and name hn )(resi 37 and name hg1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.266
+assi (resi 9 and name hn )(resi 37 and name hg2# ) 1.8 0 6.2 ! hcnh_noe_peaklist.266
+assi (resi 9 and name hd1# )(resi 37 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.440
+assi (resi 11 and name hn )(resi 37 and name hg1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.939
+assi (resi 11 and name hn )(resi 37 and name hg2# ) 1.8 0 6.2 ! hcnh_noe_peaklist.939
+assi (resi 17 and name hn )(resi 37 and name hg* ) 1.8 0 6.2 ! hcnh_noe_peaklist.1164
+assi (resi 20 and name hn )(resi 37 and name hg* ) 1.8 0 6.2 ! hcnh_noe_peaklist.998
+assi (resi 20 and name hd1# )(resi 37 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.420
+assi (resi 20 and name hd2# )(resi 37 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.420
+assi (resi 21 and name hn )(resi 37 and name hg1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1082
+assi (resi 21 and name hn )(resi 37 and name hg2# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1082
+assi (resi 22 and name hn )(resi 37 and name hg1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1165
+assi (resi 22 and name hn )(resi 37 and name hg2# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1165
+assi (resi 35 and name hn )(resi 37 and name hg* ) 1.8 0 6.2 ! hcnh_noe_peaklist.658
+assi (resi 35 and name hg1# )(resi 37 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.429
+assi (resi 35 and name hg2# )(resi 37 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.429
+assi (resi 36 and name hn )(resi 37 and name hg* ) 1.8 0 6.2 ! hcnh_noe_peaklist.632
+assi (resi 37 and name hg1# )(resi 37 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.424
+assi (resi 37 and name hg2# )(resi 37 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.424
+assi (resi 8 and name hg* )(resi 38 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.470
+assi (resi 9 and name hd1# )(resi 38 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.480
+assi (resi 20 and name hd* )(resi 38 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.456
+assi (resi 37 and name hg1# )(resi 38 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.465
+assi (resi 37 and name hg2# )(resi 38 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.465
+assi (resi 37 and name hg* )(resi 39 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1746
+assi (resi 10 and name hn )(resi 43 and name hd* ) 1.8 0 6.2 ! hcnh_noe_peaklist.457
+assi (resi 11 and name hn )(resi 43 and name hd* ) 1.8 0 6.2 ! hcnh_noe_peaklist.922
+assi (resi 12 and name hn )(resi 43 and name hd* ) 1.8 0 6.2 ! hcnh_noe_peaklist.894
+assi (resi 42 and name hn )(resi 43 and name hd* ) 1.8 0 6.2 ! hcnh_noe_peaklist.1273
+assi (resi 43 and name hd* )(resi 43 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1185
+assi (resi 43 and name hd* )(resi 44 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.734
+assi (resi 43 and name hd* )(resi 45 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1114
+assi (resi 43 and name hd* )(resi 46 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1156
+assi (resi 43 and name hd* )(resi 47 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1509
+assi (resi 47 and name hn )(resi 50 and name hg* ) 1.8 0 6.2 ! hcnh_noe_peaklist.1577
+assi (resi 49 and name hn )(resi 50 and name hg1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1828
+assi (resi 49 and name hn )(resi 50 and name hg2# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1828
+assi (resi 50 and name hg1# )(resi 50 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.2312
+assi (resi 50 and name hg2# )(resi 50 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.2312
+assi (resi 50 and name hg1# )(resi 51 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.655
+assi (resi 50 and name hg2# )(resi 51 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.655
+assi (resi 50 and name hg1# )(resi 52 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1487
+assi (resi 50 and name hg2# )(resi 52 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1487
+assi (resi 50 and name hg1# )(resi 55 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1302
+assi (resi 50 and name hg2# )(resi 55 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1302
+assi (resi 7 and name hd* )(resi 58 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1440
+assi (resi 8 and name hg1# )(resi 58 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1452
+assi (resi 8 and name hg2# )(resi 58 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1452
+assi (resi 7 and name hd1# )(resi 59 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1822
+assi (resi 7 and name hd2# )(resi 59 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1822
+assi (resi 8 and name hn )(resi 59 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.611
+assi (resi 8 and name hg* )(resi 59 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1829
+assi (resi 9 and name hd1# )(resi 59 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1836
+assi (resi 58 and name hn )(resi 59 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1461
+assi (resi 59 and name hd1# )(resi 59 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1838
+assi (resi 10 and name hn )(resi 60 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.507
+assi (resi 43 and name hn )(resi 60 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1220
+assi (resi 44 and name hn )(resi 60 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.757
+assi (resi 47 and name hn )(resi 60 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1542
+assi (resi 59 and name hd1# )(resi 60 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.702
+assi (resi 60 and name hd1# )(resi 60 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.700
+assi (resi 11 and name hd1# )(resi 61 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.583
+assi (resi 43 and name hd* )(resi 61 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.567
+assi (resi 60 and name hd1# )(resi 61 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.582
+assi (resi 60 and name hd1# )(resi 62 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1051
+assi (resi 51 and name hn )(resi 75 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.644
+assi (resi 51 and name hn )(resi 75 and name hd2# ) 1.8 0 6.2 ! hcnh_noe_peaklist.644
+assi (resi 52 and name hn )(resi 75 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1475
+assi (resi 52 and name hn )(resi 75 and name hd2# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1475
+assi (resi 73 and name hn )(resi 75 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.2016
+assi (resi 73 and name hn )(resi 75 and name hd2# ) 1.8 0 6.2 ! hcnh_noe_peaklist.2016
+assi (resi 74 and name hn )(resi 75 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.2356
+assi (resi 74 and name hn )(resi 75 and name hd2# ) 1.8 0 6.2 ! hcnh_noe_peaklist.2356
+assi (resi 75 and name hd1# )(resi 75 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1867
+assi (resi 75 and name hd2# )(resi 75 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1867
+assi (resi 60 and name hn )(resi 76 and name hd* ) 1.8 0 6.2 ! hcnh_noe_peaklist.716
+assi (resi 70 and name hn )(resi 76 and name hd* ) 1.8 0 6.2 ! hcnh_noe_peaklist.1315
+assi (resi 71 and name hn )(resi 76 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.838
+assi (resi 71 and name hn )(resi 76 and name hd2# ) 1.8 0 6.2 ! hcnh_noe_peaklist.838
+assi (resi 75 and name hn )(resi 76 and name hd* ) 1.8 0 6.2 ! hcnh_noe_peaklist.1879
+assi (resi 75 and name hd1# )(resi 76 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1669
+assi (resi 75 and name hd2# )(resi 76 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1669
+assi (resi 76 and name hd1# )(resi 76 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1667
+assi (resi 76 and name hd2# )(resi 76 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1667
+assi (resi 76 and name hd1# )(resi 77 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.566
+assi (resi 76 and name hd2# )(resi 77 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.566
+assi (resi 79 and name hd1# )(resi 79 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.891
+assi (resi 86 and name hn )(resi 89 and name hd* ) 1.8 0 6.2 ! hcnh_noe_peaklist.1510
+assi (resi 87 and name hn )(resi 89 and name hd* ) 1.8 0 6.2 ! hcnh_noe_peaklist.1554
+assi (resi 88 and name hn )(resi 89 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1512
+assi (resi 88 and name hn )(resi 89 and name hd2# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1512
+assi (resi 89 and name hd1# )(resi 89 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1188
+assi (resi 89 and name hd2# )(resi 89 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1188
+assi (resi 89 and name hd1# )(resi 90 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1555
+assi (resi 89 and name hd2# )(resi 90 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1555
+assi (resi 64 and name hn )(resi 97 and name hg* ) 1.8 0 6.2 ! hcnh_noe_peaklist.1643
+assi (resi 95 and name hn )(resi 97 and name hg1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1721
+assi (resi 95 and name hn )(resi 97 and name hg2# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1721
+assi (resi 96 and name hn )(resi 97 and name hg1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1358
+assi (resi 96 and name hn )(resi 97 and name hg2# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1358
+assi (resi 97 and name hg1# )(resi 98 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1033
+assi (resi 97 and name hg2# )(resi 98 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1033
+assi (resi 79 and name hn )(resi 103 and name hd* ) 1.8 0 6.2 ! hcnh_noe_peaklist.847
+assi (resi 98 and name hn )(resi 103 and name hd* ) 1.8 0 6.2 ! hcnh_noe_peaklist.1024
+assi (resi 99 and name hn )(resi 103 and name hd* ) 1.8 0 6.2 ! hcnh_noe_peaklist.462
+assi (resi 103 and name hd1# )(resi 103 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.767
+assi (resi 103 and name hd2# )(resi 103 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.767
+assi (resi 70 and name hn )(resi 104 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1331
+assi (resi 71 and name hn )(resi 104 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.886
+assi (resi 79 and name hn )(resi 104 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.887
+assi (resi 79 and name hd1# )(resi 104 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1977
+assi (resi 97 and name hg1# )(resi 104 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1963
+assi (resi 97 and name hg2# )(resi 104 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1963
+assi (resi 98 and name hn )(resi 104 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1052
+assi (resi 99 and name hn )(resi 104 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.479
+assi (resi 103 and name hd1# )(resi 104 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1957
+assi (resi 103 and name hd2# )(resi 104 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1957
+assi (resi 104 and name hd1# )(resi 104 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1971
+assi (resi 79 and name hd1# )(resi 105 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1548
+assi (resi 97 and name hg1# )(resi 105 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1529
+assi (resi 97 and name hg2# )(resi 105 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1529
+assi (resi 103 and name hd1# )(resi 105 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1517
+assi (resi 103 and name hd2# )(resi 105 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1517
+assi (resi 104 and name hd1# )(resi 105 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1543
+assi (resi 79 and name hd1# )(resi 106 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1894
+assi (resi 97 and name hg* )(resi 106 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1877
+assi (resi 108 and name hn )(resi 110 and name hg* ) 1.8 0 6.2 ! hcnh_noe_peaklist.1752
+assi (resi 109 and name hn )(resi 110 and name hg* ) 1.8 0 6.2 ! hcnh_noe_peaklist.1413
+assi (resi 110 and name hg1# )(resi 110 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1090
+assi (resi 110 and name hg2# )(resi 110 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1090
+assi (resi 110 and name hg1# )(resi 111 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.779
+assi (resi 110 and name hg2# )(resi 111 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.779
+assi (resi 110 and name hg* )(resi 112 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1488
+assi (resi 113 and name hd1# )(resi 113 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.840
+assi (resi 113 and name hd2# )(resi 113 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.840
+assi (resi 113 and name hd1# )(resi 114 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.2774
+assi (resi 113 and name hd2# )(resi 114 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.2774
+assi (resi 115 and name hd1# )(resi 115 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.940
+assi (resi 115 and name hd2# )(resi 115 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.940
+assi (resi 114 and name hn )(resi 116 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.2796
+assi (resi 115 and name hd1# )(resi 116 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.53
+assi (resi 115 and name hd2# )(resi 116 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.53
+assi (resi 116 and name hd1# )(resi 116 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.68
+assi (resi 115 and name hd1# )(resi 117 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.983
+assi (resi 115 and name hd2# )(resi 117 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.983
+assi (resi 115 and name hd* )(resi 118 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1080
+assi (resi 118 and name hn )(resi 121 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1068
+assi (resi 118 and name hn )(resi 121 and name hd2# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1068
+assi (resi 119 and name hn )(resi 121 and name hd* ) 1.8 0 6.2 ! hcnh_noe_peaklist.596
+assi (resi 120 and name hn )(resi 121 and name hd* ) 1.8 0 6.2 ! hcnh_noe_peaklist.1718
+assi (resi 121 and name hd1# )(resi 121 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1477
+assi (resi 121 and name hd2# )(resi 121 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1477
+assi (resi 118 and name hn )(resi 122 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1064
+assi (resi 118 and name hn )(resi 122 and name hd2# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1064
+assi (resi 121 and name hd1# )(resi 122 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1236
+assi (resi 121 and name hd2# )(resi 122 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1236
+assi (resi 122 and name hd* )(resi 122 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1233
+assi (resi 129 and name hn )(resi 132 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.761
+assi (resi 130 and name hn )(resi 132 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1465
+assi (resi 131 and name hn )(resi 132 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1622
+assi (resi 132 and name hd1# )(resi 134 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1432
+assi (resi 131 and name hn )(resi 135 and name hd* ) 1.8 0 6.2 ! hcnh_noe_peaklist.1603
+assi (resi 132 and name hn )(resi 135 and name hd* ) 1.8 0 6.2 ! hcnh_noe_peaklist.1025
+assi (resi 132 and name hd1# )(resi 135 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1226
+assi (resi 134 and name hn )(resi 135 and name hd* ) 1.8 0 6.2 ! hcnh_noe_peaklist.1441
+assi (resi 135 and name hd* )(resi 135 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1197
+assi (resi 132 and name hd1# )(resi 136 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1381
+assi (resi 135 and name hd* )(resi 136 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1348
+assi (resi 135 and name hd* )(resi 137 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1522
+assi (resi 135 and name hd* )(resi 138 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1351
+assi (resi 121 and name hn )(resi 139 and name hd* ) 1.8 0 6.2 ! hcnh_noe_peaklist.1443
+assi (resi 135 and name hn )(resi 139 and name hd* ) 1.8 0 6.2 ! hcnh_noe_peaklist.1190
+assi (resi 135 and name hd* )(resi 139 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1072
+assi (resi 136 and name hn )(resi 139 and name hd* ) 1.8 0 6.2 ! hcnh_noe_peaklist.1339
+assi (resi 137 and name hn )(resi 139 and name hd* ) 1.8 0 6.2 ! hcnh_noe_peaklist.1514
+assi (resi 138 and name hn )(resi 139 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1340
+assi (resi 138 and name hn )(resi 139 and name hd2# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1340
+assi (resi 139 and name hd1# )(resi 139 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1063
+assi (resi 139 and name hd2# )(resi 139 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1063
+assi (resi 135 and name hd* )(resi 140 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.708
+assi (resi 139 and name hd1# )(resi 140 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.705
+assi (resi 139 and name hd2# )(resi 140 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.705
+assi (resi 139 and name hd1# )(resi 141 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.926
+assi (resi 139 and name hd2# )(resi 141 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.926
+assi (resi 139 and name hd1# )(resi 145 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.2355
+assi (resi 139 and name hd2# )(resi 145 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.2355
+assi (resi 135 and name hd* )(resi 146 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.849
+assi (resi 139 and name hd1# )(resi 146 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.842
+assi (resi 139 and name hd2# )(resi 146 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.842
+assi (resi 132 and name hd1# )(resi 147 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1590
+assi (resi 139 and name hd* )(resi 147 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1559
+assi (resi 147 and name hd1# )(resi 147 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1569
+assi (resi 147 and name hd2# )(resi 147 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1569
+assi (resi 147 and name hd1# )(resi 148 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.987
+assi (resi 147 and name hd2# )(resi 148 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.987
+assi (resi 147 and name hd* )(resi 149 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1206
+assi (resi 149 and name hn )(resi 151 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1184
+assi (resi 149 and name hn )(resi 151 and name hd2# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1184
+assi (resi 151 and name hd1# )(resi 151 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.841
+assi (resi 151 and name hd2# )(resi 151 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.841
+assi (resi 151 and name hd* )(resi 152 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1961
+assi (resi 151 and name hd* )(resi 153 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1872
+assi (resi 160 and name hd* )(resi 160 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.2094
+assi (resi 158 and name hn )(resi 161 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.728
+assi (resi 160 and name hn )(resi 161 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.2107
+assi (resi 160 and name hd* )(resi 161 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1282
+assi (resi 161 and name hd1# )(resi 161 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1312
+assi (resi 178 and name hd1# )(resi 178 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1589
+assi (resi 178 and name hd1# )(resi 179 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1702
+assi (resi 178 and name hd1# )(resi 180 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.828
+assi (resi 167 and name hn )(resi 181 and name hg* ) 1.8 0 6.2 ! hcnh_noe_peaklist.1722
+assi (resi 169 and name hn )(resi 181 and name hg1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.2789
+assi (resi 169 and name hn )(resi 181 and name hg2# ) 1.8 0 6.2 ! hcnh_noe_peaklist.2789
+assi (resi 170 and name hn )(resi 181 and name hg1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.599
+assi (resi 170 and name hn )(resi 181 and name hg2# ) 1.8 0 6.2 ! hcnh_noe_peaklist.599
+assi (resi 179 and name hn )(resi 181 and name hg* ) 1.8 0 6.2 ! hcnh_noe_peaklist.1681
+assi (resi 180 and name hn )(resi 181 and name hg* ) 1.8 0 6.2 ! hcnh_noe_peaklist.815
+assi (resi 181 and name hg1# )(resi 181 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.872
+assi (resi 181 and name hg2# )(resi 181 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.872
+assi (resi 181 and name hg1# )(resi 182 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1130
+assi (resi 181 and name hg2# )(resi 182 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1130
+assi (resi 167 and name hn )(resi 183 and name hg* ) 1.8 0 6.2 ! hcnh_noe_peaklist.1719
+assi (resi 181 and name hn )(resi 183 and name hg* ) 1.8 0 6.2 ! hcnh_noe_peaklist.863
+assi (resi 181 and name hg1# )(resi 183 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1880
+assi (resi 181 and name hg2# )(resi 183 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1880
+assi (resi 182 and name hn )(resi 183 and name hg* ) 1.8 0 6.2 ! hcnh_noe_peaklist.1123
+assi (resi 183 and name hg* )(resi 183 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1875
+assi (resi 181 and name hg1# )(resi 184 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1793
+assi (resi 181 and name hg2# )(resi 184 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1793
+assi (resi 183 and name hg* )(resi 184 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1788
+assi (resi 181 and name hg* )(resi 185 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1645
+assi (resi 183 and name hg* )(resi 185 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1642
+assi (resi 161 and name hd1# )(resi 192 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1102
+assi (resi 192 and name hd1# )(resi 192 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1071
+assi (resi 192 and name hd2# )(resi 192 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1071
+assi (resi 192 and name hd* )(resi 193 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1635
+assi (resi 160 and name hd* )(resi 194 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.929
+assi (resi 192 and name hd* )(resi 194 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.932
+assi (resi 160 and name hn )(resi 195 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.2095
+assi (resi 160 and name hn )(resi 195 and name hd2# ) 1.8 0 6.2 ! hcnh_noe_peaklist.2095
+assi (resi 160 and name hd* )(resi 195 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1280
+assi (resi 161 and name hn )(resi 195 and name hd* ) 1.8 0 6.2 ! hcnh_noe_peaklist.1291
+assi (resi 192 and name hd* )(resi 195 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1284
+assi (resi 193 and name hn )(resi 195 and name hd* ) 1.8 0 6.2 ! hcnh_noe_peaklist.1601
+assi (resi 195 and name hd* )(resi 195 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1290
+assi (resi 192 and name hd1# )(resi 196 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1478
+assi (resi 192 and name hd2# )(resi 196 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1478
+assi (resi 193 and name hn )(resi 196 and name hg* ) 1.8 0 6.2 ! hcnh_noe_peaklist.1638
+assi (resi 194 and name hn )(resi 196 and name hg* ) 1.8 0 6.2 ! hcnh_noe_peaklist.936
+assi (resi 195 and name hn )(resi 196 and name hg1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1252
+assi (resi 195 and name hn )(resi 196 and name hg2# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1252
+assi (resi 195 and name hd* )(resi 196 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1476
+assi (resi 196 and name hg1# )(resi 196 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1486
+assi (resi 196 and name hg2# )(resi 196 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1486
+assi (resi 192 and name hd* )(resi 197 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.850
+assi (resi 195 and name hd* )(resi 197 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.845
+assi (resi 196 and name hg1# )(resi 197 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.870
+assi (resi 196 and name hg2# )(resi 197 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.870
+assi (resi 196 and name hg* )(resi 198 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1209
+assi (resi 197 and name hn )(resi 198 and name hd* ) 1.8 0 6.2 ! hcnh_noe_peaklist.807
+assi (resi 198 and name hd1# )(resi 198 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1191
+assi (resi 198 and name hd2# )(resi 198 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1191
+assi (resi 195 and name hn )(resi 199 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1311
+assi (resi 195 and name hd* )(resi 199 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1200
+assi (resi 196 and name hn )(resi 199 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1497
+assi (resi 196 and name hg* )(resi 199 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1210
+assi (resi 197 and name hn )(resi 199 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.888
+assi (resi 198 and name hn )(resi 199 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1221
+assi (resi 198 and name hd1# )(resi 199 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1192
+assi (resi 198 and name hd2# )(resi 199 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1192
+assi (resi 199 and name hd1# )(resi 199 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1222
+assi (resi 196 and name hg1# )(resi 200 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.687
+assi (resi 196 and name hg2# )(resi 200 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.687
+assi (resi 198 and name hd* )(resi 200 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.683
+assi (resi 199 and name hd1# )(resi 200 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.701
+assi (resi 196 and name hg* )(resi 201 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1878
+assi (resi 198 and name hd* )(resi 201 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1874
+assi (resi 199 and name hd1# )(resi 201 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1892
+assi (resi 198 and name hd* )(resi 203 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1639
+assi (resi 198 and name hd* )(resi 204 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1848
+assi (resi 199 and name hd1# )(resi 204 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1855
+assi (resi 151 and name hd* )(resi 207 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1951
+assi (resi 199 and name hd1# )(resi 207 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1972
+assi (resi 151 and name hd1# )(resi 208 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1597
+assi (resi 151 and name hd2# )(resi 208 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1597
+assi (resi 199 and name hd1# )(resi 208 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1656
+assi (resi 207 and name hn )(resi 212 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1975
+assi (resi 208 and name hn )(resi 212 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1620
+assi (resi 210 and name hn )(resi 212 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1545
+assi (resi 211 and name hn )(resi 212 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1839
+assi (resi 212 and name hd1# )(resi 212 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.703
+assi (resi 212 and name hd1# )(resi 213 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1145
+assi (resi 121 and name hd1# )(resi 222 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.2267
+assi (resi 121 and name hd2# )(resi 222 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.2267
+assi (resi 121 and name hd1# )(resi 223 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.421
+assi (resi 121 and name hd2# )(resi 223 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.421
+assi (resi 135 and name hd* )(resi 223 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.422
+assi (resi 139 and name hd1# )(resi 223 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.418
+assi (resi 139 and name hd2# )(resi 223 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.418
+assi (resi 121 and name hd* )(resi 224 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1846
+assi (resi 122 and name hd* )(resi 224 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1844
+assi (resi 135 and name hd* )(resi 224 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1847
+assi (resi 139 and name hd1# )(resi 224 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1845
+assi (resi 139 and name hd2# )(resi 224 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1845
+assi (resi 147 and name hd* )(resi 224 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1850
+assi (resi 115 and name hd1# )(resi 225 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1929
+assi (resi 115 and name hd2# )(resi 225 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1929
+assi (resi 147 and name hd* )(resi 225 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1924
+assi (resi 113 and name hd* )(resi 226 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.902
+assi (resi 115 and name hn )(resi 226 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.959
+assi (resi 116 and name hn )(resi 226 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.76
+assi (resi 147 and name hd* )(resi 226 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.904
+assi (resi 148 and name hn )(resi 226 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1013
+assi (resi 225 and name hn )(resi 226 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1942
+assi (resi 226 and name hd1# )(resi 226 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.914
+assi (resi 113 and name hd* )(resi 227 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.980
+assi (resi 115 and name hd* )(resi 227 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.986
+assi (resi 116 and name hd1# )(resi 227 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1006
+assi (resi 226 and name hd1# )(resi 227 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1012
+assi (resi 113 and name hd* )(resi 228 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.2199
+assi (resi 114 and name hn )(resi 244 and name hg* ) 1.8 0 6.2 ! hcnh_noe_peaklist.2786
+assi (resi 115 and name hn )(resi 244 and name hg1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.941
+assi (resi 115 and name hn )(resi 244 and name hg2# ) 1.8 0 6.2 ! hcnh_noe_peaklist.941
+assi (resi 116 and name hn )(resi 244 and name hg* ) 1.8 0 6.2 ! hcnh_noe_peaklist.55
+assi (resi 117 and name hn )(resi 244 and name hg1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.989
+assi (resi 117 and name hn )(resi 244 and name hg2# ) 1.8 0 6.2 ! hcnh_noe_peaklist.989
+assi (resi 244 and name hg1# )(resi 244 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1126
+assi (resi 244 and name hg2# )(resi 244 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1126
+assi (resi 115 and name hd1# )(resi 245 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1243
+assi (resi 115 and name hd2# )(resi 245 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1243
+assi (resi 244 and name hg1# )(resi 245 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1247
+assi (resi 244 and name hg2# )(resi 245 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1247
+assi (resi 115 and name hn )(resi 246 and name hg1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.948
+assi (resi 115 and name hn )(resi 246 and name hg2# ) 1.8 0 6.2 ! hcnh_noe_peaklist.948
+assi (resi 115 and name hd* )(resi 246 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.768
+assi (resi 245 and name hn )(resi 246 and name hg1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1254
+assi (resi 245 and name hn )(resi 246 and name hg2# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1254
+assi (resi 246 and name hg1# )(resi 246 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.782
+assi (resi 246 and name hg2# )(resi 246 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.782
+assi (resi 113 and name hn )(resi 247 and name hd* ) 1.8 0 6.2 ! hcnh_noe_peaklist.843
+assi (resi 114 and name hn )(resi 247 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.2776
+assi (resi 114 and name hn )(resi 247 and name hd2# ) 1.8 0 6.2 ! hcnh_noe_peaklist.2776
+assi (resi 115 and name hn )(resi 247 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.925
+assi (resi 115 and name hn )(resi 247 and name hd2# ) 1.8 0 6.2 ! hcnh_noe_peaklist.925
+assi (resi 116 and name hn )(resi 247 and name hd* ) 1.8 0 6.2 ! hcnh_noe_peaklist.47
+assi (resi 227 and name hn )(resi 247 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.973
+assi (resi 227 and name hn )(resi 247 and name hd2# ) 1.8 0 6.2 ! hcnh_noe_peaklist.973
+assi (resi 246 and name hg1# )(resi 247 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.605
+assi (resi 246 and name hg2# )(resi 247 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.605
+assi (resi 247 and name hd1# )(resi 247 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.586
+assi (resi 247 and name hd2# )(resi 247 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.586
+assi (resi 246 and name hg* )(resi 249 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.2099
+assi (resi 246 and name hg1# )(resi 255 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1454
+assi (resi 246 and name hg2# )(resi 255 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1454
+assi (resi 247 and name hd1# )(resi 255 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1439
+assi (resi 247 and name hd2# )(resi 255 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1439
+assi (resi 247 and name hd* )(resi 256 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.766
+assi (resi 111 and name hn )(resi 259 and name hg1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.777
+assi (resi 111 and name hn )(resi 259 and name hg2# ) 1.8 0 6.2 ! hcnh_noe_peaklist.777
+assi (resi 112 and name hn )(resi 259 and name hg* ) 1.8 0 6.2 ! hcnh_noe_peaklist.1533
+assi (resi 259 and name hg1# )(resi 259 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.990
+assi (resi 259 and name hg2# )(resi 259 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.990
+assi (resi 110 and name hg* )(resi 260 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1693
+assi (resi 259 and name hg1# )(resi 260 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1687
+assi (resi 259 and name hg2# )(resi 260 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1687
+assi (resi 64 and name hn )(resi 261 and name hg1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1650
+assi (resi 64 and name hn )(resi 261 and name hg2# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1650
+assi (resi 96 and name hn )(resi 261 and name hg1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1368
+assi (resi 96 and name hn )(resi 261 and name hg2# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1368
+assi (resi 108 and name hn )(resi 261 and name hg1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1754
+assi (resi 108 and name hn )(resi 261 and name hg2# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1754
+assi (resi 109 and name hn )(resi 261 and name hg1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1415
+assi (resi 109 and name hn )(resi 261 and name hg2# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1415
+assi (resi 111 and name hn )(resi 261 and name hg* ) 1.8 0 6.2 ! hcnh_noe_peaklist.780
+assi (resi 259 and name hg* )(resi 261 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.191
+assi (resi 260 and name hn )(resi 261 and name hg* ) 1.8 0 6.2 ! hcnh_noe_peaklist.1694
+assi (resi 261 and name hg1# )(resi 261 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.194
+assi (resi 261 and name hg2# )(resi 261 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.194
+assi (resi 61 and name hn )(resi 262 and name hd* ) 1.8 0 6.2 ! hcnh_noe_peaklist.573
+assi (resi 62 and name hn )(resi 262 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1030
+assi (resi 62 and name hn )(resi 262 and name hd2# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1030
+assi (resi 63 and name hn )(resi 262 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.540
+assi (resi 63 and name hn )(resi 262 and name hd2# ) 1.8 0 6.2 ! hcnh_noe_peaklist.540
+assi (resi 108 and name hn )(resi 262 and name hd* ) 1.8 0 6.2 ! hcnh_noe_peaklist.1713
+assi (resi 109 and name hn )(resi 262 and name hd* ) 1.8 0 6.2 ! hcnh_noe_peaklist.1395
+assi (resi 97 and name hg* )(resi 263 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.498
+assi (resi 261 and name hg* )(resi 263 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.499
+assi (resi 262 and name hd1# )(resi 263 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.497
+assi (resi 262 and name hd2# )(resi 263 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.497
+assi (resi 79 and name hd1# )(resi 264 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.791
+assi (resi 97 and name hg* )(resi 264 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.774
+assi (resi 60 and name hd1# )(resi 265 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.2212
+assi (resi 76 and name hd* )(resi 265 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.2203
+assi (resi 76 and name hd* )(resi 266 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.776
+assi (resi 79 and name hd1# )(resi 266 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.760
+assi (resi 266 and name hd1# )(resi 266 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.790
+assi (resi 59 and name hd1# )(resi 267 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.613
+assi (resi 76 and name hd* )(resi 267 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.601
+assi (resi 266 and name hd1# )(resi 267 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.612
+assi (resi 266 and name hg* )(resi 267 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.609
+assi (resi 75 and name hd* )(resi 269 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1453
+assi (resi 7 and name hd* )(resi 272 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1239
+assi (resi 5 and name hn )(resi 275 and name hd* ) 1.8 0 6.2 ! hcnh_noe_peaklist.2266
+assi (resi 6 and name hn )(resi 275 and name hd* ) 1.8 0 6.2 ! hcnh_noe_peaklist.1279
+assi (resi 7 and name hn )(resi 275 and name hd* ) 1.8 0 6.2 ! hcnh_noe_peaklist.0
+assi (resi 7 and name hd1# )(resi 275 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1117
+assi (resi 7 and name hd2# )(resi 275 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1117
+assi (resi 33 and name hn )(resi 275 and name hd* ) 1.8 0 6.2 ! hcnh_noe_peaklist.712
+assi (resi 34 and name hn )(resi 275 and name hd* ) 1.8 0 6.2 ! hcnh_noe_peaklist.680
+assi (resi 266 and name hd1# )(resi 275 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1142
+assi (resi 273 and name hn )(resi 275 and name hd* ) 1.8 0 6.2 ! hcnh_noe_peaklist.1276
+assi (resi 274 and name hn )(resi 275 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1394
+assi (resi 274 and name hn )(resi 275 and name hd2# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1394
+assi (resi 275 and name hd1# )(resi 275 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1116
+assi (resi 275 and name hd2# )(resi 275 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1116
+assi (resi 7 and name hd1# )(resi 276 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1159
+assi (resi 7 and name hd2# )(resi 276 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1159
+assi (resi 266 and name hd1# )(resi 276 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1178
+assi (resi 275 and name hd1# )(resi 276 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1158
+assi (resi 275 and name hd2# )(resi 276 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1158
+assi (resi 7 and name hd1# )(resi 277 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1397
+assi (resi 7 and name hd2# )(resi 277 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1397
+assi (resi 59 and name hd1# )(resi 277 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1426
+assi (resi 266 and name hd1# )(resi 277 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1427
+assi (resi 275 and name hd* )(resi 277 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1446
+assi (resi 7 and name hd1# )(resi 278 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1345
+assi (resi 7 and name hd2# )(resi 278 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1345
+assi (resi 266 and name hd1# )(resi 278 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1376
+assi (resi 275 and name hd1# )(resi 278 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1342
+assi (resi 275 and name hd2# )(resi 278 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1342
+assi (resi 59 and name hd1# )(resi 279 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1425
+assi (resi 266 and name hd1# )(resi 279 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1424
+assi (resi 275 and name hd1# )(resi 279 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1341
+assi (resi 275 and name hd2# )(resi 279 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1341
+assi (resi 59 and name hd1# )(resi 280 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1223
+assi (resi 106 and name hn )(resi 280 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1866
+assi (resi 106 and name hn )(resi 280 and name hd2# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1866
+assi (resi 264 and name hn )(resi 280 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.735
+assi (resi 264 and name hn )(resi 280 and name hd2# ) 1.8 0 6.2 ! hcnh_noe_peaklist.735
+assi (resi 265 and name hn )(resi 280 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.2194
+assi (resi 265 and name hn )(resi 280 and name hd2# ) 1.8 0 6.2 ! hcnh_noe_peaklist.2194
+assi (resi 277 and name hn )(resi 280 and name hd* ) 1.8 0 6.2 ! hcnh_noe_peaklist.1393
+assi (resi 279 and name hn )(resi 280 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1392
+assi (resi 279 and name hn )(resi 280 and name hd2# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1392
+assi (resi 280 and name hd1# )(resi 280 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1189
+assi (resi 280 and name hd2# )(resi 280 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1189
+assi (resi 59 and name hd1# )(resi 281 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1974
+assi (resi 280 and name hd1# )(resi 281 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1952
+assi (resi 280 and name hd2# )(resi 281 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1952
+assi (resi 23 and name hg* )(resi 283 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1644
+assi (resi 20 and name hn )(resi 284 and name hd* ) 1.8 0 6.2 ! hcnh_noe_peaklist.978
+assi (resi 23 and name hn )(resi 284 and name hd* ) 1.8 0 6.2 ! hcnh_noe_peaklist.809
+assi (resi 280 and name hd* )(resi 284 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1076
+assi (resi 23 and name hg* )(resi 285 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1297
+assi (resi 280 and name hd* )(resi 285 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1292
+assi (resi 281 and name hn )(resi 285 and name hd* ) 1.8 0 6.2 ! hcnh_noe_peaklist.1954
+assi (resi 284 and name hn )(resi 285 and name hd* ) 1.8 0 6.2 ! hcnh_noe_peaklist.1065
+assi (resi 284 and name hd1# )(resi 285 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1287
+assi (resi 284 and name hd2# )(resi 285 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1287
+assi (resi 285 and name hd1# )(resi 285 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1275
+assi (resi 285 and name hd2# )(resi 285 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1275
+assi (resi 285 and name hd* )(resi 286 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.2474
+assi (resi 284 and name hd* )(resi 289 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1960
+assi (resi 284 and name hd* )(resi 290 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1286
+assi (resi 286 and name hn )(resi 290 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.2469
+assi (resi 286 and name hn )(resi 290 and name hd2# ) 1.8 0 6.2 ! hcnh_noe_peaklist.2469
+assi (resi 289 and name hn )(resi 290 and name hd* ) 1.8 0 6.2 ! hcnh_noe_peaklist.1965
+assi (resi 290 and name hd1# )(resi 290 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1267
+assi (resi 290 and name hd2# )(resi 290 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1267
+assi (resi 23 and name hg* )(resi 291 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1077
+assi (resi 284 and name hd* )(resi 291 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1119
+assi (resi 290 and name hd1# )(resi 291 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1110
+assi (resi 290 and name hd2# )(resi 291 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1110
+assi (resi 23 and name hg* )(resi 292 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1241
+assi (resi 284 and name hd* )(resi 292 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1240
+assi (resi 16 and name hn )(resi 293 and name hg1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.2788
+assi (resi 16 and name hn )(resi 293 and name hg2# ) 1.8 0 6.2 ! hcnh_noe_peaklist.2788
+assi (resi 17 and name hn )(resi 293 and name hg* ) 1.8 0 6.2 ! hcnh_noe_peaklist.1171
+assi (resi 19 and name hn )(resi 293 and name hg1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.2097
+assi (resi 19 and name hn )(resi 293 and name hg2# ) 1.8 0 6.2 ! hcnh_noe_peaklist.2097
+assi (resi 20 and name hn )(resi 293 and name hg1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.994
+assi (resi 20 and name hn )(resi 293 and name hg2# ) 1.8 0 6.2 ! hcnh_noe_peaklist.994
+assi (resi 21 and name hn )(resi 293 and name hg* ) 1.8 0 6.2 ! hcnh_noe_peaklist.1085
+assi (resi 22 and name hn )(resi 293 and name hg* ) 1.8 0 6.2 ! hcnh_noe_peaklist.1167
+assi (resi 23 and name hn )(resi 293 and name hg* ) 1.8 0 6.2 ! hcnh_noe_peaklist.816
+assi (resi 23 and name hg* )(resi 293 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1677
+assi (resi 284 and name hd* )(resi 293 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1675
+assi (resi 290 and name hn )(resi 293 and name hg* ) 1.8 0 6.2 ! hcnh_noe_peaklist.1300
+assi (resi 290 and name hd* )(resi 293 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1685
+assi (resi 292 and name hn )(resi 293 and name hg1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1211
+assi (resi 292 and name hn )(resi 293 and name hg2# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1211
+assi (resi 293 and name hg1# )(resi 293 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1692
+assi (resi 293 and name hg2# )(resi 293 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1692
+assi (resi 23 and name hg* )(resi 294 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1524
+assi (resi 290 and name hd* )(resi 294 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1530
+assi (resi 293 and name hg1# )(resi 294 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1534
+assi (resi 293 and name hg2# )(resi 294 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1534
+assi (resi 293 and name hg* )(resi 295 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1690
+assi (resi 293 and name hg1# )(resi 296 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1362
+assi (resi 293 and name hg2# )(resi 296 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1362
+assi (resi 293 and name hg* )(resi 297 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1691
+assi (resi 16 and name hn )(resi 299 and name hd* ) 1.8 0 6.2 ! hcnh_noe_peaklist.2780
+assi (resi 294 and name hn )(resi 299 and name hd* ) 1.8 0 6.2 ! hcnh_noe_peaklist.1508
+assi (resi 295 and name hn )(resi 299 and name hd* ) 1.8 0 6.2 ! hcnh_noe_peaklist.1668
+assi (resi 299 and name hd1# )(resi 299 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.895
+assi (resi 299 and name hd2# )(resi 299 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.895
+assi (resi 110 and name hg1# )(resi 301 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.749
+assi (resi 110 and name hg2# )(resi 301 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.749
+assi (resi 110 and name hg* )(resi 302 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.2279
+assi (resi 290 and name hd* )(resi 302 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.2261
+assi (resi 299 and name hn )(resi 302 and name hg* ) 1.8 0 6.2 ! hcnh_noe_peaklist.905
+assi (resi 301 and name hn )(resi 302 and name hg1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.747
+assi (resi 301 and name hn )(resi 302 and name hg2# ) 1.8 0 6.2 ! hcnh_noe_peaklist.747
+assi (resi 302 and name hg1# )(resi 302 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.2275
+assi (resi 302 and name hg2# )(resi 302 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.2275
+assi (resi 89 and name hd1# )(resi 303 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1556
+assi (resi 89 and name hd2# )(resi 303 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1556
+assi (resi 110 and name hg* )(resi 303 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1535
+assi (resi 285 and name hd* )(resi 303 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1564
+assi (resi 290 and name hd1# )(resi 303 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1506
+assi (resi 290 and name hd2# )(resi 303 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1506
+assi (resi 302 and name hg1# )(resi 303 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1572
+assi (resi 302 and name hg2# )(resi 303 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1572
+assi (resi 88 and name hn )(resi 304 and name hd* ) 1.8 0 6.2 ! hcnh_noe_peaklist.1520
+assi (resi 89 and name hn )(resi 304 and name hd* ) 1.8 0 6.2 ! hcnh_noe_peaklist.1196
+assi (resi 89 and name hd1# )(resi 304 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1782
+assi (resi 89 and name hd2# )(resi 304 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1782
+assi (resi 90 and name hn )(resi 304 and name hd* ) 1.8 0 6.2 ! hcnh_noe_peaklist.1563
+assi (resi 285 and name hd* )(resi 304 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1786
+assi (resi 286 and name hn )(resi 304 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.2475
+assi (resi 286 and name hn )(resi 304 and name hd2# ) 1.8 0 6.2 ! hcnh_noe_peaklist.2475
+assi (resi 287 and name hn )(resi 304 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.931
+assi (resi 287 and name hn )(resi 304 and name hd2# ) 1.8 0 6.2 ! hcnh_noe_peaklist.931
+assi (resi 288 and name hn )(resi 304 and name hd* ) 1.8 0 6.2 ! hcnh_noe_peaklist.1711
+assi (resi 290 and name hd1# )(resi 304 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1779
+assi (resi 290 and name hd2# )(resi 304 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1779
+assi (resi 302 and name hg1# )(resi 304 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1790
+assi (resi 302 and name hg2# )(resi 304 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1790
+assi (resi 304 and name hd* )(resi 304 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1785
+assi (resi 89 and name hd1# )(resi 305 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.142
+assi (resi 89 and name hd2# )(resi 305 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.142
+assi (resi 304 and name hd1# )(resi 305 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.149
+assi (resi 304 and name hd2# )(resi 305 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.149
+assi (resi 89 and name hd1# )(resi 306 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.2015
+assi (resi 89 and name hd2# )(resi 306 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.2015
+assi (resi 304 and name hd1# )(resi 306 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.2022
+assi (resi 304 and name hd2# )(resi 306 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.2022
+assi (resi 290 and name hd* )(resi 307 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.917
+assi (resi 302 and name hg* )(resi 307 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.950
+assi (resi 304 and name hd1# )(resi 307 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.933
+assi (resi 304 and name hd2# )(resi 307 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.933
+assi (resi 302 and name hg* )(resi 308 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1048
+assi (resi 302 and name hg* )(resi 309 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1729
+assi (resi 301 and name hn )(resi 311 and name hd* ) 1.8 0 6.2 ! hcnh_noe_peaklist.746
+assi (resi 302 and name hn )(resi 311 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.2264
+assi (resi 302 and name hn )(resi 311 and name hd2# ) 1.8 0 6.2 ! hcnh_noe_peaklist.2264
+assi (resi 302 and name hg* )(resi 311 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1097
+assi (resi 304 and name hn )(resi 311 and name hd* ) 1.8 0 6.2 ! hcnh_noe_peaklist.1781
+assi (resi 308 and name hn )(resi 311 and name hd* ) 1.8 0 6.2 ! hcnh_noe_peaklist.1016
+assi (resi 310 and name hn )(resi 311 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1474
+assi (resi 310 and name hn )(resi 311 and name hd2# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1474
+assi (resi 311 and name hd1# )(resi 311 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1062
+assi (resi 311 and name hd2# )(resi 311 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1062
+assi (resi 311 and name hd1# )(resi 312 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1438
+assi (resi 311 and name hd2# )(resi 312 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1438
+assi (resi 299 and name hn )(resi 317 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.912
+assi (resi 301 and name hn )(resi 317 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.762
+assi (resi 312 and name hn )(resi 317 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1464
+assi (resi 313 and name hn )(resi 317 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1549
+assi (resi 314 and name hn )(resi 317 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1105
+assi (resi 316 and name hn )(resi 317 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1591
+assi (resi 317 and name hd1# )(resi 317 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.892
+assi (resi 317 and name hd1# )(resi 318 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.913
+assi (resi 244 and name hg* )(resi 319 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1359
+assi (resi 317 and name hd1# )(resi 319 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1380
+assi (resi 244 and name hg* )(resi 320 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1791
+assi (resi 246 and name hg1# )(resi 322 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1042
+assi (resi 246 and name hg2# )(resi 322 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1042
+assi (resi 246 and name hg1# )(resi 323 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1753
+assi (resi 246 and name hg2# )(resi 323 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1753
+assi (resi 110 and name hg* )(resi 324 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1253
+assi (resi 246 and name hg* )(resi 324 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1255
+assi (resi 259 and name hg1# )(resi 324 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1251
+assi (resi 259 and name hg2# )(resi 324 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1251
+assi (resi 259 and name hg* )(resi 325 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1640
+assi (resi 259 and name hg* )(resi 326 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1483
+assi (resi 259 and name hg1# )(resi 328 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.991
+assi (resi 259 and name hg2# )(resi 328 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.991
+assi (resi 94 and name hn )(resi 329 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1227
+assi (resi 95 and name hn )(resi 329 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1736
+assi (resi 96 and name hn )(resi 329 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1383
+assi (resi 259 and name hn )(resi 329 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1010
+assi (resi 259 and name hg* )(resi 329 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.330
+assi (resi 260 and name hn )(resi 329 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1706
+assi (resi 328 and name hn )(resi 329 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1011
+assi (resi 329 and name hg* )(resi 329 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.344
+assi (resi 259 and name hg1# )(resi 330 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.653
+assi (resi 259 and name hg2# )(resi 330 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.653
+assi (resi 261 and name hg* )(resi 330 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.654
+assi (resi 329 and name hd1# )(resi 330 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.638
+assi (resi 169 and name hn )(resi 333 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.2799
+assi (resi 170 and name hn )(resi 333 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.615
+assi (resi 176 and name hn )(resi 333 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1228
+assi (resi 177 and name hn )(resi 333 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.763
+assi (resi 178 and name hn )(resi 333 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1592
+assi (resi 332 and name hn )(resi 333 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1466
+assi (resi 333 and name hd1# )(resi 333 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.2612
+assi (resi 333 and name hd1# )(resi 335 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1621
+assi (resi 333 and name hd1# )(resi 336 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1431
+assi (resi 183 and name hg* )(resi 343 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1408
+assi (resi 341 and name hn )(resi 343 and name hg* ) 1.8 0 6.2 ! hcnh_noe_peaklist.1825
+assi (resi 342 and name hn )(resi 343 and name hg1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.995
+assi (resi 342 and name hn )(resi 343 and name hg2# ) 1.8 0 6.2 ! hcnh_noe_peaklist.995
+assi (resi 343 and name hg1# )(resi 343 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1410
+assi (resi 343 and name hg2# )(resi 343 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1410
+assi (resi 343 and name hg1# )(resi 344 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1132
+assi (resi 343 and name hg2# )(resi 344 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1132
+assi (resi 343 and name hg1# )(resi 345 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1907
+assi (resi 343 and name hg2# )(resi 345 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1907
+assi (resi 343 and name hg1# )(resi 346 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.873
+assi (resi 343 and name hg2# )(resi 346 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.873
+assi (resi 158 and name hn )(resi 347 and name hg1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.718
+assi (resi 158 and name hn )(resi 347 and name hg2# ) 1.8 0 6.2 ! hcnh_noe_peaklist.718
+assi (resi 161 and name hd1# )(resi 347 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1703
+assi (resi 192 and name hd* )(resi 347 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1674
+assi (resi 196 and name hn )(resi 347 and name hg* ) 1.8 0 6.2 ! hcnh_noe_peaklist.1491
+assi (resi 343 and name hg* )(resi 347 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1695
+assi (resi 345 and name hn )(resi 347 and name hg* ) 1.8 0 6.2 ! hcnh_noe_peaklist.1905
+assi (resi 346 and name hn )(resi 347 and name hg1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.877
+assi (resi 346 and name hn )(resi 347 and name hg2# ) 1.8 0 6.2 ! hcnh_noe_peaklist.877
+assi (resi 347 and name hg1# )(resi 347 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1697
+assi (resi 347 and name hg2# )(resi 347 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1697
+assi (resi 192 and name hd* )(resi 348 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1398
+assi (resi 347 and name hg1# )(resi 348 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1414
+assi (resi 347 and name hg2# )(resi 348 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1414
+assi (resi 348 and name hd1# )(resi 348 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1428
+assi (resi 347 and name hg1# )(resi 349 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1094
+assi (resi 347 and name hg2# )(resi 349 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1094
+assi (resi 348 and name hd1# )(resi 349 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1103
+assi (resi 192 and name hd1# )(resi 350 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.851
+assi (resi 192 and name hd2# )(resi 350 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.851
+assi (resi 196 and name hg1# )(resi 350 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.871
+assi (resi 196 and name hg2# )(resi 350 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.871
+assi (resi 347 and name hg1# )(resi 350 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.875
+assi (resi 347 and name hg2# )(resi 350 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.875
+assi (resi 192 and name hd* )(resi 351 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1070
+assi (resi 196 and name hg1# )(resi 351 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1088
+assi (resi 196 and name hg2# )(resi 351 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1088
+assi (resi 199 and name hd1# )(resi 351 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1101
+assi (resi 347 and name hg* )(resi 351 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1093
+assi (resi 190 and name hn )(resi 357 and name hg* ) 1.8 0 6.2 ! hcnh_noe_peaklist.689
+assi (resi 193 and name hn )(resi 357 and name hg1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1646
+assi (resi 193 and name hn )(resi 357 and name hg2# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1646
+assi (resi 194 and name hn )(resi 357 and name hg1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.944
+assi (resi 194 and name hn )(resi 357 and name hg2# ) 1.8 0 6.2 ! hcnh_noe_peaklist.944
+assi (resi 196 and name hn )(resi 357 and name hg* ) 1.8 0 6.2 ! hcnh_noe_peaklist.1479
+assi (resi 196 and name hg* )(resi 357 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1027
+assi (resi 197 and name hn )(resi 357 and name hg* ) 1.8 0 6.2 ! hcnh_noe_peaklist.855
+assi (resi 350 and name hn )(resi 357 and name hg* ) 1.8 0 6.2 ! hcnh_noe_peaklist.858
+assi (resi 356 and name hn )(resi 357 and name hg* ) 1.8 0 6.2 ! hcnh_noe_peaklist.2046
+assi (resi 357 and name hg* )(resi 357 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1028
+assi (resi 357 and name hg1# )(resi 358 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1750
+assi (resi 357 and name hg2# )(resi 358 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1750
+assi (resi 357 and name hg1# )(resi 359 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1361
+assi (resi 357 and name hg2# )(resi 359 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1361
+assi (resi 183 and name hg* )(resi 361 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1641
+assi (resi 184 and name hn )(resi 361 and name hd* ) 1.8 0 6.2 ! hcnh_noe_peaklist.1795
+assi (resi 185 and name hn )(resi 361 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1632
+assi (resi 185 and name hn )(resi 361 and name hd2# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1632
+assi (resi 188 and name hn )(resi 361 and name hd* ) 1.8 0 6.2 ! hcnh_noe_peaklist.372
+assi (resi 189 and name hn )(resi 361 and name hd* ) 1.8 0 6.2 ! hcnh_noe_peaklist.1756
+assi (resi 190 and name hn )(resi 361 and name hd* ) 1.8 0 6.2 ! hcnh_noe_peaklist.681
+assi (resi 347 and name hn )(resi 361 and name hd* ) 1.8 0 6.2 ! hcnh_noe_peaklist.1699
+assi (resi 357 and name hg1# )(resi 361 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1647
+assi (resi 357 and name hg2# )(resi 361 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1647
+assi (resi 361 and name hd1# )(resi 361 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1631
+assi (resi 361 and name hd2# )(resi 361 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1631
+assi (resi 183 and name hg* )(resi 362 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1032
+assi (resi 361 and name hd1# )(resi 362 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1020
+assi (resi 361 and name hd2# )(resi 362 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1020
+assi (resi 183 and name hg* )(resi 363 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1207
+assi (resi 183 and name hg* )(resi 364 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1031
+assi (resi 361 and name hd* )(resi 364 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1044
+assi (resi 183 and name hg* )(resi 365 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1447
+assi (resi 361 and name hd* )(resi 365 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1417
+assi (resi 183 and name hg* )(resi 366 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1747
+assi (resi 181 and name hg* )(resi 368 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1531
+assi (resi 183 and name hn )(resi 368 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1889
+assi (resi 183 and name hg* )(resi 368 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1527
+assi (resi 342 and name hn )(resi 368 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1004
+assi (resi 343 and name hn )(resi 368 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1421
+assi (resi 365 and name hn )(resi 368 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1422
+assi (resi 367 and name hn )(resi 368 and name hd1# ) 1.8 0 6.2 ! hcnh_noe_peaklist.1218
+assi (resi 368 and name hd1# )(resi 368 and name hn ) 1.8 0 6.2 ! hcnh_noe_peaklist.1541
+assi (resid 290 and name HD1# )(resid 299 and name HD1# ) 1.8 0 6.7 ! peak     0
+assi (resid 284 and name HD2# )(resid  23 and name HG1# ) 1.8 0 6.7 ! peak     1
+assi (resid 198 and name HD1# )(resid 195 and name HD1# ) 1.8 0 6.7 ! peak     2
+assi (resid 195 and name HD2# )(resid 196 and name HG1# ) 1.8 0 6.7 ! peak     3
+assi (resid 361 and name HD1# )(resid 357 and name HG1# ) 1.8 0 6.7 ! peak     4
+assi (resid 115 and name HD2# )(resid 244 and name HG2# ) 1.8 0 6.7 ! peak     5
+assi (resid   7 and name HD2# )(resid 280 and name HD1# ) 1.8 0 6.7 ! peak     6
+assi (resid 290 and name HD1# )(resid 284 and name HD2# ) 1.8 0 6.7 ! peak   269
+assi (resid 290 and name HD1# )(resid 293 and name HG1# ) 1.8 0 6.7 ! peak   270
+assi (resid 290 and name HD1# )(resid 304 and name HD2# ) 1.8 0 6.7 ! peak   315
+assi (resid 290 and name HD1# )(resid 304 and name HD1# ) 1.8 0 6.7 ! peak   317
+assi (resid 290 and name HD1# )(resid 284 and name HD1# ) 1.8 0 6.7 ! peak   318
+assi (resid 290 and name HD1# )(resid 302 and name HG1# ) 1.8 0 6.7 ! peak   320
+assi (resid 290 and name HD1# )(resid 302 and name HG2# ) 1.8 0 6.7 ! peak   323
+assi (resid 290 and name HD1# )(resid 299 and name HD2# ) 1.8 0 6.7 ! peak   325
+assi (resid 147 and name HD2# )(resid 115 and name HD1# ) 1.8 0 6.7 ! peak   370
+assi (resid 147 and name HD2# )(resid 198 and name HD2# ) 1.8 0 6.7 ! peak   371
+assi (resid 147 and name HD2# )(resid 226 and name HD1# ) 1.8 0 6.7 ! peak   374
+assi (resid 147 and name HD2# )(resid 115 and name HD2# ) 1.8 0 6.7 ! peak   419
+assi (resid 147 and name HD2# )(resid 132 and name HD1# ) 1.8 0 6.7 ! peak   424
+assi (resid 284 and name HD2# )(resid 280 and name HD1# ) 1.8 0 6.7 ! peak   468
+assi (resid 284 and name HD2# )(resid   9 and name HD1# ) 1.8 0 6.7 ! peak   469
+assi (resid 284 and name HD2# )(resid  20 and name HD2# ) 1.8 0 6.7 ! peak   470
+assi (resid 284 and name HD2# )(resid 108 and name HG1# ) 1.8 0 6.7 ! peak   472
+assi (resid 284 and name HD2# )(resid  20 and name HD1# ) 1.8 0 6.7 ! peak   473
+assi (resid 284 and name HD2# )(resid 280 and name HD2# ) 1.8 0 6.7 ! peak   475
+assi (resid 284 and name HD2# )(resid 293 and name HG2# ) 1.8 0 6.7 ! peak   476
+assi (resid 284 and name HD2# )(resid 293 and name HG1# ) 1.8 0 6.7 ! peak   477
+assi (resid 284 and name HD2# )(resid  59 and name HD1# ) 1.8 0 6.7 ! peak   478
+assi (resid 284 and name HD2# )(resid  11 and name HD1# ) 1.8 0 6.7 ! peak   519
+assi (resid  76 and name HD1# )(resid 104 and name HD1# ) 1.8 0 6.7 ! peak   531
+assi (resid  76 and name HD1# )(resid  79 and name HD1# ) 1.8 0 6.7 ! peak   532
+assi (resid  76 and name HD1# )(resid  79 and name HG2# ) 1.8 0 6.7 ! peak   565
+assi (resid  76 and name HD1# )(resid 266 and name HD1# ) 1.8 0 6.7 ! peak   566
+assi (resid  20 and name HD2# )(resid  59 and name HD1# ) 1.8 0 6.7 ! peak   624
+assi (resid  20 and name HD2# )(resid 293 and name HG2# ) 1.8 0 6.7 ! peak   625
+assi (resid  20 and name HD2# )(resid 293 and name HG1# ) 1.8 0 6.7 ! peak   627
+assi (resid 122 and name HD2# )(resid 139 and name HD1# ) 1.8 0 6.7 ! peak   659
+assi (resid 122 and name HD2# )(resid 115 and name HD2# ) 1.8 0 6.7 ! peak   662
+assi (resid 122 and name HD2# )(resid 135 and name HD1# ) 1.8 0 6.7 ! peak   664
+assi (resid 299 and name HD1# )(resid 293 and name HG1# ) 1.8 0 6.7 ! peak   670
+assi (resid  20 and name HD2# )(resid  35 and name HG2# ) 1.8 0 6.7 ! peak   682
+assi (resid  20 and name HD2# )(resid 284 and name HD1# ) 1.8 0 6.7 ! peak   686
+assi (resid  20 and name HD2# )(resid 280 and name HD2# ) 1.8 0 6.7 ! peak   687
+assi (resid  20 and name HD2# )(resid  37 and name HG1# ) 1.8 0 6.7 ! peak   688
+assi (resid  20 and name HD2# )(resid  35 and name HG1# ) 1.8 0 6.7 ! peak   689
+assi (resid  20 and name HD2# )(resid   9 and name HD1# ) 1.8 0 6.7 ! peak   690
+assi (resid  20 and name HD2# )(resid  11 and name HD1# ) 1.8 0 6.7 ! peak   691
+assi (resid  43 and name HD1# )(resid  60 and name HD1# ) 1.8 0 6.7 ! peak   716
+assi (resid 299 and name HD1# )(resid 290 and name HD2# ) 1.8 0 6.7 ! peak   726
+assi (resid 304 and name HD2# )(resid 290 and name HD2# ) 1.8 0 6.7 ! peak   735
+assi (resid 304 and name HD2# )(resid  89 and name HD2# ) 1.8 0 6.7 ! peak   790
+assi (resid 311 and name HD1# )(resid 302 and name HG1# ) 1.8 0 6.7 ! peak   828
+assi (resid 311 and name HD1# )(resid 302 and name HG2# ) 1.8 0 6.7 ! peak   830
+assi (resid 311 and name HD1# )(resid 317 and name HD1# ) 1.8 0 6.7 ! peak   832
+assi (resid 151 and name HD1# )(resid 198 and name HD1# ) 1.8 0 6.7 ! peak   839
+assi (resid 151 and name HD1# )(resid 195 and name HD2# ) 1.8 0 6.7 ! peak   840
+assi (resid 151 and name HD1# )(resid 195 and name HD1# ) 1.8 0 6.7 ! peak   841
+assi (resid 151 and name HD1# )(resid 347 and name HG1# ) 1.8 0 6.7 ! peak   843
+assi (resid 151 and name HD1# )(resid 199 and name HD1# ) 1.8 0 6.7 ! peak   844
+assi (resid 304 and name HD2# )(resid 302 and name HG2# ) 1.8 0 6.7 ! peak   846
+assi (resid  89 and name HD1# )(resid 304 and name HD2# ) 1.8 0 6.7 ! peak   899
+assi (resid  89 and name HD1# )(resid 285 and name HD1# ) 1.8 0 6.7 ! peak   902
+assi (resid  89 and name HD1# )(resid 103 and name HD2# ) 1.8 0 6.7 ! peak   904
+assi (resid  89 and name HD1# )(resid 285 and name HD2# ) 1.8 0 6.7 ! peak   905
+assi (resid 139 and name HD1# )(resid 135 and name HD2# ) 1.8 0 6.7 ! peak   940
+assi (resid 139 and name HD1# )(resid 135 and name HD1# ) 1.8 0 6.7 ! peak   941
+assi (resid 139 and name HD1# )(resid 132 and name HD1# ) 1.8 0 6.7 ! peak   998
+assi (resid 280 and name HD1# )(resid   9 and name HD1# ) 1.8 0 6.7 ! peak  1004
+assi (resid 280 and name HD1# )(resid  59 and name HD1# ) 1.8 0 6.7 ! peak  1005
+assi (resid 247 and name HD1# )(resid 115 and name HD2# ) 1.8 0 6.7 ! peak  1008
+assi (resid 247 and name HD1# )(resid 115 and name HD1# ) 1.8 0 6.7 ! peak  1011
+assi (resid 247 and name HD1# )(resid 246 and name HG2# ) 1.8 0 6.7 ! peak  1012
+assi (resid 247 and name HD1# )(resid 226 and name HD1# ) 1.8 0 6.7 ! peak  1014
+assi (resid 285 and name HD1# )(resid 304 and name HD2# ) 1.8 0 6.7 ! peak  1047
+assi (resid 285 and name HD1# )(resid  89 and name HD2# ) 1.8 0 6.7 ! peak  1055
+assi (resid 285 and name HD1# )(resid 290 and name HD2# ) 1.8 0 6.7 ! peak  1057
+assi (resid 198 and name HD1# )(resid 160 and name HD1# ) 1.8 0 6.7 ! peak  1058
+assi (resid 198 and name HD1# )(resid 160 and name HD2# ) 1.8 0 6.7 ! peak  1064
+assi (resid 275 and name HD1# )(resid   7 and name HD2# ) 1.8 0 6.7 ! peak  1070
+assi (resid 122 and name HD1# )(resid 135 and name HD1# ) 1.8 0 6.7 ! peak  1071
+assi (resid 280 and name HD1# )(resid  79 and name HD1# ) 1.8 0 6.7 ! peak  1074
+assi (resid  75 and name HD1# )(resid  76 and name HD2# ) 1.8 0 6.7 ! peak  1076
+assi (resid 247 and name HD1# )(resid 246 and name HG1# ) 1.8 0 6.7 ! peak  1078
+assi (resid 285 and name HD1# )(resid 284 and name HD2# ) 1.8 0 6.7 ! peak  1108
+assi (resid 198 and name HD1# )(resid 151 and name HD2# ) 1.8 0 6.7 ! peak  1109
+assi (resid 198 and name HD1# )(resid 132 and name HD1# ) 1.8 0 6.7 ! peak  1112
+assi (resid 198 and name HD1# )(resid 199 and name HD1# ) 1.8 0 6.7 ! peak  1115
+assi (resid 122 and name HD1# )(resid 121 and name HD2# ) 1.8 0 6.7 ! peak  1117
+assi (resid 122 and name HD1# )(resid 121 and name HD1# ) 1.8 0 6.7 ! peak  1118
+assi (resid 122 and name HD1# )(resid 139 and name HD2# ) 1.8 0 6.7 ! peak  1120
+assi (resid 122 and name HD1# )(resid 115 and name HD2# ) 1.8 0 6.7 ! peak  1162
+assi (resid 192 and name HD2# )(resid 357 and name HG2# ) 1.8 0 6.7 ! peak  1165
+assi (resid 192 and name HD2# )(resid 196 and name HG1# ) 1.8 0 6.7 ! peak  1166
+assi (resid 195 and name HD2# )(resid 160 and name HD1# ) 1.8 0 6.7 ! peak  1169
+assi (resid 192 and name HD2# )(resid 343 and name HG1# ) 1.8 0 6.7 ! peak  1218
+assi (resid 192 and name HD2# )(resid 361 and name HD2# ) 1.8 0 6.7 ! peak  1219
+assi (resid 195 and name HD2# )(resid 151 and name HD2# ) 1.8 0 6.7 ! peak  1228
+assi (resid 195 and name HD2# )(resid 347 and name HG1# ) 1.8 0 6.7 ! peak  1229
+assi (resid 195 and name HD2# )(resid 199 and name HD1# ) 1.8 0 6.7 ! peak  1230
+assi (resid 195 and name HD2# )(resid 161 and name HD1# ) 1.8 0 6.7 ! peak  1231
+assi (resid  89 and name HD2# )(resid 285 and name HD2# ) 1.8 0 6.7 ! peak  1242
+assi (resid  89 and name HD2# )(resid 302 and name HG2# ) 1.8 0 6.7 ! peak  1243
+assi (resid 160 and name HD2# )(resid 198 and name HD2# ) 1.8 0 6.7 ! peak  1247
+assi (resid 160 and name HD2# )(resid 132 and name HD1# ) 1.8 0 6.7 ! peak  1248
+assi (resid   7 and name HD1# )(resid 280 and name HD1# ) 1.8 0 6.7 ! peak  1285
+assi (resid   7 and name HD1# )(resid 275 and name HD1# ) 1.8 0 6.7 ! peak  1287
+assi (resid   7 and name HD1# )(resid  35 and name HG2# ) 1.8 0 6.7 ! peak  1292
+assi (resid   7 and name HD1# )(resid  35 and name HG1# ) 1.8 0 6.7 ! peak  1293
+assi (resid   7 and name HD1# )(resid   9 and name HD1# ) 1.8 0 6.7 ! peak  1294
+assi (resid   7 and name HD1# )(resid  59 and name HD1# ) 1.8 0 6.7 ! peak  1295
+assi (resid 160 and name HD2# )(resid 195 and name HD2# ) 1.8 0 6.7 ! peak  1306
+assi (resid 160 and name HD2# )(resid 195 and name HD1# ) 1.8 0 6.7 ! peak  1309
+assi (resid  20 and name HD1# )(resid  11 and name HD1# ) 1.8 0 6.7 ! peak  1335
+assi (resid 103 and name HD1# )(resid  79 and name HD1# ) 1.8 0 6.7 ! peak  1346
+assi (resid   7 and name HD1# )(resid 280 and name HD2# ) 1.8 0 6.7 ! peak  1350
+assi (resid  20 and name HD1# )(resid  37 and name HG1# ) 1.8 0 6.7 ! peak  1369
+assi (resid  20 and name HD1# )(resid 293 and name HG2# ) 1.8 0 6.7 ! peak  1370
+assi (resid  20 and name HD1# )(resid 290 and name HD2# ) 1.8 0 6.7 ! peak  1371
+assi (resid  20 and name HD1# )(resid  37 and name HG2# ) 1.8 0 6.7 ! peak  1372
+assi (resid  20 and name HD1# )(resid   9 and name HD1# ) 1.8 0 6.7 ! peak  1373
+assi (resid  20 and name HD1# )(resid  59 and name HD1# ) 1.8 0 6.7 ! peak  1374
+assi (resid 121 and name HD1# )(resid 139 and name HD1# ) 1.8 0 6.7 ! peak  1382
+assi (resid 115 and name HD2# )(resid 244 and name HG1# ) 1.8 0 6.7 ! peak  1393
+assi (resid 103 and name HD1# )(resid 104 and name HG2# ) 1.8 0 6.7 ! peak  1394
+assi (resid 115 and name HD2# )(resid 247 and name HD2# ) 1.8 0 6.7 ! peak  1436
+assi (resid 115 and name HD2# )(resid 147 and name HD1# ) 1.8 0 6.7 ! peak  1438
+assi (resid 115 and name HD2# )(resid 246 and name HG2# ) 1.8 0 6.7 ! peak  1439
+assi (resid 115 and name HD2# )(resid 246 and name HG1# ) 1.8 0 6.7 ! peak  1440
+assi (resid 115 and name HD2# )(resid 132 and name HD1# ) 1.8 0 6.7 ! peak  1442
+assi (resid 115 and name HD2# )(resid 226 and name HD1# ) 1.8 0 6.7 ! peak  1443
+assi (resid 192 and name HD1# )(resid 361 and name HD1# ) 1.8 0 6.7 ! peak  1520
+assi (resid 192 and name HD1# )(resid 195 and name HD1# ) 1.8 0 6.7 ! peak  1522
+assi (resid 192 and name HD1# )(resid 196 and name HG2# ) 1.8 0 6.7 ! peak  1523
+assi (resid 192 and name HD1# )(resid 347 and name HG2# ) 1.8 0 6.7 ! peak  1525
+assi (resid 192 and name HD1# )(resid 343 and name HG1# ) 1.8 0 6.7 ! peak  1526
+assi (resid 192 and name HD1# )(resid 347 and name HG1# ) 1.8 0 6.7 ! peak  1527
+assi (resid 192 and name HD1# )(resid 361 and name HD2# ) 1.8 0 6.7 ! peak  1528
+assi (resid 192 and name HD1# )(resid 199 and name HD1# ) 1.8 0 6.7 ! peak  1529
+assi (resid 192 and name HD1# )(resid 161 and name HD1# ) 1.8 0 6.7 ! peak  1530
+assi (resid 103 and name HD2# )(resid  97 and name HG1# ) 1.8 0 6.7 ! peak  1535
+assi (resid 103 and name HD2# )(resid  97 and name HG2# ) 1.8 0 6.7 ! peak  1536
+assi (resid 103 and name HD2# )(resid 104 and name HD1# ) 1.8 0 6.7 ! peak  1537
+assi (resid 103 and name HD2# )(resid  79 and name HD1# ) 1.8 0 6.7 ! peak  1538
+assi (resid 304 and name HD1# )(resid  89 and name HD1# ) 1.8 0 6.7 ! peak  1545
+assi (resid 304 and name HD1# )(resid  89 and name HD2# ) 1.8 0 6.7 ! peak  1546
+assi (resid 304 and name HD1# )(resid 302 and name HG2# ) 1.8 0 6.7 ! peak  1547
+assi (resid   7 and name HD2# )(resid 275 and name HD2# ) 1.8 0 6.7 ! peak  1561
+assi (resid   7 and name HD2# )(resid  35 and name HG2# ) 1.8 0 6.7 ! peak  1562
+assi (resid   7 and name HD2# )(resid  35 and name HG1# ) 1.8 0 6.7 ! peak  1563
+assi (resid   7 and name HD2# )(resid   9 and name HD1# ) 1.8 0 6.7 ! peak  1564
+assi (resid   7 and name HD2# )(resid 266 and name HD1# ) 1.8 0 6.7 ! peak  1565
+assi (resid 285 and name HD2# )(resid 290 and name HD2# ) 1.8 0 6.7 ! peak  1590
+assi (resid 135 and name HD2# )(resid 147 and name HD1# ) 1.8 0 6.7 ! peak  1602
+assi (resid 135 and name HD1# )(resid 132 and name HD1# ) 1.8 0 6.7 ! peak  1607
+assi (resid 284 and name HD1# )(resid  59 and name HD1# ) 1.8 0 6.7 ! peak  1609
+assi (resid 135 and name HD1# )(resid 139 and name HD2# ) 1.8 0 6.7 ! peak  1651
+assi (resid 284 and name HD1# )(resid   9 and name HG2# ) 1.8 0 6.7 ! peak  1652
+assi (resid 284 and name HD1# )(resid 293 and name HG2# ) 1.8 0 6.7 ! peak  1654
+assi (resid 284 and name HD1# )(resid 290 and name HD2# ) 1.8 0 6.7 ! peak  1655
+assi (resid 284 and name HD1# )(resid  20 and name HD1# ) 1.8 0 6.7 ! peak  1658
+assi (resid 284 and name HD1# )(resid   9 and name HD1# ) 1.8 0 6.7 ! peak  1660
+assi (resid 247 and name HD2# )(resid 147 and name HD1# ) 1.8 0 6.7 ! peak  1673
+assi (resid 247 and name HD2# )(resid 246 and name HG2# ) 1.8 0 6.7 ! peak  1674
+assi (resid 247 and name HD2# )(resid 246 and name HG1# ) 1.8 0 6.7 ! peak  1675
+assi (resid 247 and name HD2# )(resid 226 and name HD1# ) 1.8 0 6.7 ! peak  1676
+assi (resid 113 and name HD2# )(resid 247 and name HD2# ) 1.8 0 6.7 ! peak  1708
+assi (resid 195 and name HD1# )(resid 347 and name HG1# ) 1.8 0 6.7 ! peak  1710
+assi (resid 195 and name HD1# )(resid 160 and name HD1# ) 1.8 0 6.7 ! peak  1711
+assi (resid 195 and name HD1# )(resid 199 and name HD1# ) 1.8 0 6.7 ! peak  1712
+assi (resid 195 and name HD1# )(resid 161 and name HD1# ) 1.8 0 6.7 ! peak  1713
+assi (resid 247 and name HD2# )(resid 132 and name HD1# ) 1.8 0 6.7 ! peak  1721
+assi (resid 247 and name HD2# )(resid 113 and name HD1# ) 1.8 0 6.7 ! peak  1722
+assi (resid 247 and name HD2# )(resid 115 and name HD1# ) 1.8 0 6.7 ! peak  1725
+assi (resid 247 and name HD2# )(resid 160 and name HD1# ) 1.8 0 6.7 ! peak  1726
+assi (resid 151 and name HD2# )(resid 226 and name HD1# ) 1.8 0 6.7 ! peak  1778
+assi (resid 151 and name HD2# )(resid 347 and name HG1# ) 1.8 0 6.7 ! peak  1782
+assi (resid 151 and name HD2# )(resid 199 and name HD1# ) 1.8 0 6.7 ! peak  1784
+assi (resid  23 and name HG2# )(resid  20 and name HD2# ) 1.8 0 6.7 ! peak  1806
+assi (resid  23 and name HG2# )(resid  20 and name HD1# ) 1.8 0 6.7 ! peak  1812
+assi (resid  23 and name HG2# )(resid 284 and name HD1# ) 1.8 0 6.7 ! peak  1813
+assi (resid  23 and name HG2# )(resid 293 and name HG2# ) 1.8 0 6.7 ! peak  1816
+assi (resid  23 and name HG2# )(resid 293 and name HG1# ) 1.8 0 6.7 ! peak  1817
+assi (resid  23 and name HG2# )(resid  35 and name HG1# ) 1.8 0 6.7 ! peak  1818
+assi (resid 357 and name HG2# )(resid 196 and name HG1# ) 1.8 0 6.7 ! peak  1823
+assi (resid 113 and name HD2# )(resid 116 and name HD1# ) 1.8 0 6.7 ! peak  1835
+assi (resid 198 and name HD2# )(resid 199 and name HD1# ) 1.8 0 6.7 ! peak  1837
+assi (resid 280 and name HD2# )(resid  20 and name HD1# ) 1.8 0 6.7 ! peak  1841
+assi (resid 280 and name HD2# )(resid   9 and name HD1# ) 1.8 0 6.7 ! peak  1844
+assi (resid 280 and name HD2# )(resid  59 and name HD1# ) 1.8 0 6.7 ! peak  1846
+assi (resid  23 and name HG2# )(resid   9 and name HD1# ) 1.8 0 6.7 ! peak  1883
+assi (resid 357 and name HG2# )(resid 347 and name HG2# ) 1.8 0 6.7 ! peak  1892
+assi (resid 357 and name HG2# )(resid 192 and name HD1# ) 1.8 0 6.7 ! peak  1894
+assi (resid 357 and name HG2# )(resid 196 and name HG2# ) 1.8 0 6.7 ! peak  1895
+assi (resid 357 and name HG2# )(resid 361 and name HD2# ) 1.8 0 6.7 ! peak  1898
+assi (resid 196 and name HG2# )(resid 357 and name HG1# ) 1.8 0 6.7 ! peak  1908
+assi (resid 196 and name HG2# )(resid 347 and name HG2# ) 1.8 0 6.7 ! peak  1911
+assi (resid 198 and name HD2# )(resid 160 and name HD1# ) 1.8 0 6.7 ! peak  1914
+assi (resid 198 and name HD2# )(resid 132 and name HD1# ) 1.8 0 6.7 ! peak  1916
+assi (resid 280 and name HD2# )(resid  23 and name HG1# ) 1.8 0 6.7 ! peak  1925
+assi (resid 343 and name HG2# )(resid 183 and name HG1# ) 1.8 0 6.7 ! peak  1947
+assi (resid 343 and name HG2# )(resid 361 and name HD2# ) 1.8 0 6.7 ! peak  1951
+assi (resid 343 and name HG2# )(resid 368 and name HD1# ) 1.8 0 6.7 ! peak  1953
+assi (resid 343 and name HG2# )(resid 161 and name HD1# ) 1.8 0 6.7 ! peak  2000
+assi (resid 139 and name HD2# )(resid 121 and name HD1# ) 1.8 0 6.7 ! peak  2031
+assi (resid 299 and name HD2# )(resid 293 and name HG1# ) 1.8 0 6.7 ! peak  2037
+assi (resid 259 and name HG2# )(resid 261 and name HG2# ) 1.8 0 6.7 ! peak  2074
+assi (resid  37 and name HG1# )(resid  35 and name HG1# ) 1.8 0 6.7 ! peak  2078
+assi (resid  37 and name HG1# )(resid   9 and name HD1# ) 1.8 0 6.7 ! peak  2079
+assi (resid  37 and name HG1# )(resid  11 and name HD1# ) 1.8 0 6.7 ! peak  2083
+assi (resid  37 and name HG1# )(resid   8 and name HG2# ) 1.8 0 6.7 ! peak  2084
+assi (resid 121 and name HD2# )(resid 139 and name HD1# ) 1.8 0 6.7 ! peak  2092
+assi (resid 115 and name HD1# )(resid 246 and name HG1# ) 1.8 0 6.7 ! peak  2101
+assi (resid 259 and name HG2# )(resid 329 and name HD1# ) 1.8 0 6.7 ! peak  2131
+assi (resid 275 and name HD2# )(resid   7 and name HD1# ) 1.8 0 6.7 ! peak  2135
+assi (resid 262 and name HD1# )(resid  11 and name HD1# ) 1.8 0 6.7 ! peak  2146
+assi (resid 262 and name HD1# )(resid 261 and name HG1# ) 1.8 0 6.7 ! peak  2149
+assi (resid 311 and name HD2# )(resid 302 and name HG2# ) 1.8 0 6.7 ! peak  2151
+assi (resid 311 and name HD2# )(resid 317 and name HD1# ) 1.8 0 6.7 ! peak  2152
+assi (resid 302 and name HG1# )(resid 311 and name HD2# ) 1.8 0 6.7 ! peak  2182
+assi (resid 183 and name HG1# )(resid 361 and name HD1# ) 1.8 0 6.7 ! peak  2194
+assi (resid 262 and name HD1# )(resid 108 and name HG2# ) 1.8 0 6.7 ! peak  2207
+assi (resid  35 and name HG2# )(resid   9 and name HD1# ) 1.8 0 6.7 ! peak  2208
+assi (resid 262 and name HD1# )(resid  11 and name HG2# ) 1.8 0 6.7 ! peak  2209
+assi (resid  35 and name HG2# )(resid  59 and name HD1# ) 1.8 0 6.7 ! peak  2210
+assi (resid 181 and name HG2# )(resid 368 and name HG2# ) 1.8 0 6.7 ! peak  2217
+assi (resid 181 and name HG2# )(resid 368 and name HD1# ) 1.8 0 6.7 ! peak  2218
+assi (resid 181 and name HG2# )(resid 178 and name HD1# ) 1.8 0 6.7 ! peak  2219
+assi (resid 181 and name HG2# )(resid 333 and name HD1# ) 1.8 0 6.7 ! peak  2222
+assi (resid 147 and name HD1# )(resid 226 and name HD1# ) 1.8 0 6.7 ! peak  2224
+assi (resid 302 and name HG1# )(resid 304 and name HD2# ) 1.8 0 6.7 ! peak  2260
+assi (resid 302 and name HG1# )(resid 317 and name HD1# ) 1.8 0 6.7 ! peak  2263
+assi (resid 347 and name HG2# )(resid 192 and name HD2# ) 1.8 0 6.7 ! peak  2267
+assi (resid 347 and name HG2# )(resid 195 and name HD1# ) 1.8 0 6.7 ! peak  2269
+assi (resid 347 and name HG2# )(resid 343 and name HG1# ) 1.8 0 6.7 ! peak  2270
+assi (resid 347 and name HG2# )(resid 348 and name HD1# ) 1.8 0 6.7 ! peak  2274
+assi (resid 183 and name HG1# )(resid 361 and name HD2# ) 1.8 0 6.7 ! peak  2285
+assi (resid 183 and name HG1# )(resid 368 and name HG2# ) 1.8 0 6.7 ! peak  2286
+assi (resid 183 and name HG2# )(resid 181 and name HG1# ) 1.8 0 6.7 ! peak  2292
+assi (resid 183 and name HG2# )(resid 368 and name HD1# ) 1.8 0 6.7 ! peak  2293
+assi (resid  35 and name HG2# )(resid  37 and name HG2# ) 1.8 0 6.7 ! peak  2298
+assi (resid 293 and name HG2# )(resid  11 and name HD1# ) 1.8 0 6.7 ! peak  2359
+assi (resid  97 and name HG1# )(resid 261 and name HG1# ) 1.8 0 6.7 ! peak  2371
+assi (resid  97 and name HG1# )(resid 104 and name HD1# ) 1.8 0 6.7 ! peak  2374
+assi (resid  97 and name HG1# )(resid  79 and name HD1# ) 1.8 0 6.7 ! peak  2375
+assi (resid  97 and name HG1# )(resid 261 and name HG2# ) 1.8 0 6.7 ! peak  2415
+assi (resid 244 and name HG1# )(resid 246 and name HG2# ) 1.8 0 6.7 ! peak  2449
+assi (resid 244 and name HG1# )(resid 116 and name HD1# ) 1.8 0 6.7 ! peak  2450
+assi (resid 290 and name HD2# )(resid 302 and name HG2# ) 1.8 0 6.7 ! peak  2461
+assi (resid 259 and name HG1# )(resid 329 and name HD1# ) 1.8 0 6.7 ! peak  2517
+assi (resid 290 and name HD2# )(resid 304 and name HD1# ) 1.8 0 6.7 ! peak  2519
+assi (resid 290 and name HD2# )(resid 299 and name HD2# ) 1.8 0 6.7 ! peak  2520
+assi (resid  76 and name HD2# )(resid  75 and name HD2# ) 1.8 0 6.7 ! peak  2541
+assi (resid  76 and name HD2# )(resid 104 and name HD1# ) 1.8 0 6.7 ! peak  2543
+assi (resid 259 and name HG1# )(resid 261 and name HG1# ) 1.8 0 6.7 ! peak  2569
+assi (resid 196 and name HG1# )(resid 199 and name HD1# ) 1.8 0 6.7 ! peak  2572
+assi (resid 181 and name HG1# )(resid 368 and name HD1# ) 1.8 0 6.7 ! peak  2579
+assi (resid 357 and name HG1# )(resid 192 and name HD1# ) 1.8 0 6.7 ! peak  2626
+assi (resid 244 and name HG2# )(resid 116 and name HD1# ) 1.8 0 6.7 ! peak  2638
+assi (resid 293 and name HG1# )(resid  11 and name HD1# ) 1.8 0 6.7 ! peak  2674
+assi (resid 357 and name HG1# )(resid 192 and name HD2# ) 1.8 0 6.7 ! peak  2675
+assi (resid   8 and name HG2# )(resid  59 and name HG2# ) 1.8 0 6.7 ! peak  2679
+assi (resid 343 and name HG1# )(resid 161 and name HD1# ) 1.8 0 6.7 ! peak  2690
+assi (resid 343 and name HG1# )(resid 361 and name HD2# ) 1.8 0 6.7 ! peak  2691
+assi (resid 110 and name HG1# )(resid 261 and name HG1# ) 1.8 0 6.7 ! peak  2692
+assi (resid 357 and name HG1# )(resid 361 and name HD2# ) 1.8 0 6.7 ! peak  2726
+assi (resid   8 and name HG2# )(resid   9 and name HD1# ) 1.8 0 6.7 ! peak  2728
+assi (resid 110 and name HG1# )(resid 259 and name HG1# ) 1.8 0 6.7 ! peak  2737
+assi (resid 110 and name HG1# )(resid 329 and name HD1# ) 1.8 0 6.7 ! peak  2739
+assi (resid 261 and name HG2# )(resid 259 and name HG1# ) 1.8 0 6.7 ! peak  2743
+assi (resid 261 and name HG2# )(resid  97 and name HG2# ) 1.8 0 6.7 ! peak  2746
+assi (resid 261 and name HG2# )(resid 329 and name HD1# ) 1.8 0 6.7 ! peak  2748
+assi (resid 110 and name HG1# )(resid 259 and name HG2# ) 1.8 0 6.7 ! peak  2779
+assi (resid   8 and name HG1# )(resid   9 and name HD1# ) 1.8 0 6.7 ! peak  2824
+assi (resid   8 and name HG1# )(resid  50 and name HG2# ) 1.8 0 6.7 ! peak  2826
+assi (resid  35 and name HG1# )(resid   9 and name HD1# ) 1.8 0 6.7 ! peak  2846
+assi (resid  35 and name HG1# )(resid  59 and name HD1# ) 1.8 0 6.7 ! peak  2847
+assi (resid   8 and name HG1# )(resid  37 and name HG1# ) 1.8 0 6.7 ! peak  2879
+assi (resid  37 and name HG2# )(resid  20 and name HD2# ) 1.8 0 6.7 ! peak  2881
+assi (resid  37 and name HG2# )(resid   9 and name HD1# ) 1.8 0 6.7 ! peak  2888
+assi (resid 110 and name HG2# )(resid 261 and name HG2# ) 1.8 0 6.7 ! peak  2903
+assi (resid 110 and name HG2# )(resid 261 and name HG1# ) 1.8 0 6.7 ! peak  2905
+assi (resid 110 and name HG2# )(resid 302 and name HG2# ) 1.8 0 6.7 ! peak  2906
+assi (resid 110 and name HG2# )(resid 329 and name HD1# ) 1.8 0 6.7 ! peak  2908
+assi (resid 246 and name HG1# )(resid 244 and name HG1# ) 1.8 0 6.7 ! peak  2948
+assi (resid 347 and name HG1# )(resid 196 and name HG1# ) 1.8 0 6.7 ! peak  2949
+assi (resid 347 and name HG1# )(resid 196 and name HG2# ) 1.8 0 6.7 ! peak  2958
+assi (resid 347 and name HG1# )(resid 199 and name HD1# ) 1.8 0 6.7 ! peak  2961
+assi (resid 347 and name HG1# )(resid 348 and name HD1# ) 1.8 0 6.7 ! peak  2962
+assi (resid  37 and name HG2# )(resid  11 and name HD1# ) 1.8 0 6.7 ! peak  2975
+assi (resid 261 and name HG1# )(resid  97 and name HG2# ) 1.8 0 6.7 ! peak  3030
+assi (resid 261 and name HG1# )(resid 329 and name HD1# ) 1.8 0 6.7 ! peak  3068
+assi (resid  97 and name HG2# )(resid 103 and name HD1# ) 1.8 0 6.7 ! peak  3220
+assi (resid 104 and name HG2# )(resid  79 and name HD1# ) 1.8 0 6.7 ! peak  3232
+assi (resid 361 and name HD2# )(resid 368 and name HG2# ) 1.8 0 6.7 ! peak  3246
+assi (resid 361 and name HD2# )(resid 368 and name HD1# ) 1.8 0 6.7 ! peak  3247
+assi (resid 361 and name HD2# )(resid 161 and name HD1# ) 1.8 0 6.7 ! peak  3248
+assi (resid  97 and name HG2# )(resid 104 and name HD1# ) 1.8 0 6.7 ! peak  3298
+assi (resid  97 and name HG2# )(resid 329 and name HD1# ) 1.8 0 6.7 ! peak  3299
+assi (resid 160 and name HD1# )(resid 132 and name HD1# ) 1.8 0 6.7 ! peak  3332
+assi (resid 368 and name HG2# )(resid 181 and name HG1# ) 1.8 0 6.7 ! peak  3343
+assi (resid 302 and name HG2# )(resid 317 and name HG2# ) 1.8 0 6.7 ! peak  3413
+assi (resid 302 and name HG2# )(resid 317 and name HD1# ) 1.8 0 6.7 ! peak  3423
+assi (resid   9 and name HG2# )(resid  20 and name HD2# ) 1.8 0 6.7 ! peak  3639
+assi (resid  59 and name HG2# )(resid 266 and name HD1# ) 1.8 0 6.7 ! peak  3649
+assi (resid   9 and name HG2# )(resid  37 and name HG2# ) 1.8 0 6.7 ! peak  3677
+assi (resid 226 and name HG2# )(resid 113 and name HD1# ) 1.8 0 6.7 ! peak  3801
+assi (resid 178 and name HG2# )(resid 333 and name HD1# ) 1.8 0 6.7 ! peak  3808
+assi (resid 329 and name HG2# )(resid 259 and name HG2# ) 1.8 0 6.7 ! peak  4031
+assi (resid 266 and name HG2# )(resid  79 and name HD1# ) 1.8 0 6.7 ! peak  4275
+assi (resid 368 and name HD1# )(resid 343 and name HG1# ) 1.8 0 6.7 ! peak  4392
+assi (resid 104 and name HD1# )(resid  79 and name HD1# ) 1.8 0 6.7 ! peak  4536
+assi (resid  60 and name HD1# )(resid  76 and name HD1# ) 1.8 0 6.7 ! peak  4578
+assi (resid  60 and name HD1# )(resid  76 and name HD2# ) 1.8 0 6.7 ! peak  4581
+assi (resid   9 and name HD1# )(resid  59 and name HD1# ) 1.8 0 6.7 ! peak  4631
+assi (resid   9 and name HD1# )(resid  11 and name HD1# ) 1.8 0 6.7 ! peak  4633
+assi (resid 199 and name HD1# )(resid 347 and name HG2# ) 1.8 0 6.7 ! peak  4675
+assi (resid 178 and name HD1# )(resid 333 and name HD1# ) 1.8 0 6.7 ! peak  4726
+assi (resid 199 and name HD1# )(resid 161 and name HD1# ) 1.8 0 6.7 ! peak  4729
+assi (resid 266 and name HD1# )(resid 280 and name HD1# ) 1.8 0 6.7 ! peak  4803
+assi (resid 266 and name HD1# )(resid 280 and name HD2# ) 1.8 0 6.7 ! peak  4804
+assi (resid 266 and name HD1# )(resid  79 and name HD1# ) 1.8 0 6.7 ! peak  4807
+assi (resid  59 and name HD1# )(resid   7 and name HD2# ) 1.8 0 6.7 ! peak  4823
+assi (resid 266 and name HD1# )(resid  76 and name HD2# ) 1.8 0 6.7 ! peak  4860
+assi (resid  60 and name HG2# )(resid  76 and name HD2# ) 1.8 0 6.7 ! peak  4985
+assi (resid 161 and name HD1# )(resid 347 and name HG2# ) 1.8 0 6.7 ! peak  5022
+assi (resid 161 and name HD1# )(resid 347 and name HG1# ) 1.8 0 6.7 ! peak  5025
+assi (resid  11 and name HD1# )(resid 262 and name HD2# ) 1.8 0 6.7 ! peak  5035
+assi (resid  11 and name HD1# )(resid 284 and name HD1# ) 1.8 0 6.7 ! peak  5037
+assi (resid 132 and name HD1# )(resid 122 and name HD2# ) 1.8 0 6.7 ! peak  5277
+assi (resid 132 and name HD1# )(resid 135 and name HD2# ) 1.8 0 6.7 ! peak  5282
+assi (resid 132 and name HD1# )(resid 115 and name HD1# ) 1.8 0 6.7 ! peak  5286
+assi (resid 132 and name HD1# )(resid 147 and name HD1# ) 1.8 0 6.7 ! peak  5287
+assi (resid 132 and name HD1# )(resid 226 and name HD1# ) 1.8 0 6.7 ! peak  5291
+assi (resid 226 and name HD1# )(resid 115 and name HD1# ) 1.8 0 6.7 ! peak  5503
+assi (resid  33 and name HD1# )(resid 275 and name HD1# ) 1.8 0 6.7 ! peak  5883
+assi (resid  33 and name HD1# )(resid   7 and name HD2# ) 1.8 0 6.7 ! peak  5885
+assi (resid  33 and name HD1# )(resid 275 and name HD2# ) 1.8 0 6.7 ! peak  5887
+assi (resid  33 and name HD1# )(resid  35 and name HG2# ) 1.8 0 6.7 ! peak  5888
+assi (resid 108 and name HD1# )(resid 285 and name HD1# ) 1.8 0 6.7 ! peak  5928
+assi (resid 108 and name HD1# )(resid 262 and name HD2# ) 1.8 0 6.7 ! peak  5929
+assi (resid 108 and name HD1# )(resid 284 and name HD1# ) 1.8 0 6.7 ! peak  5932
+assi (resid 108 and name HD1# )(resid 280 and name HD2# ) 1.8 0 6.7 ! peak  5933
+assi (resid 108 and name HD1# )(resid 262 and name HD1# ) 1.8 0 6.7 ! peak  5934
+assi (resid 108 and name HD1# )(resid 293 and name HG2# ) 1.8 0 6.7 ! peak  5935
+assi (resid 108 and name HD1# )(resid 290 and name HD2# ) 1.8 0 6.7 ! peak  5936
+assi (resid  33 and name HD1# )(resid  35 and name HG1# ) 1.8 0 6.7 ! peak  5940
+assi (resid 108 and name HD1# )(resid  89 and name HD1# ) 1.8 0 6.7 ! peak  5978
+assi (resi 232 and name he1 )(resi 116 and name hd1# ) 1.8 0 6.2 
+assi (resi 232 and name he1 )(resi 244 and name hg1# ) 1.8 0 6.2 
+assi (resi 232 and name he1 )(resi 244 and name hg2# ) 1.8 0 6.2 
+assi (resi  94 and name he1 )(resi  89 and name hd1# ) 1.8 0 6.2 
+assi (resi  94 and name he1 )(resi  89 and name hd2# ) 1.8 0 6.2 
+assi (resi  94 and name he1 )(resi  93 and name hn   ) 1.8 0 5.2 
+assi (resi  94 and name he1 )(resi  88 and name hn   ) 1.8 0 5.2 
+assi (resi 158 and name he1 )(resi 168 and name hn   ) 1.8 0 5.2 
+assi (resi 129 and name he1 )(resi 160 and name hd1# ) 1.8 0 6.2 
+assi (resi 129 and name he1 )(resi 226 and name hd1# ) 1.8 0 6.2 
+assi (resi 129 and name he1 )(resi 247 and name hd1# ) 1.8 0 6.2 
+assi (resi 129 and name he1 )(resi 247 and name hd2# ) 1.8 0 6.2 
+assi (resi 129 and name he1 )(resi 246 and name hg*  ) 1.8 0 6.2 
+assi (resi 129 and name he1 )(resi 250 and name hn   ) 1.8 0 5.2 
