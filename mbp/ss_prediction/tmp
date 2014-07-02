@@ -1,0 +1,182 @@
+####################### PHAISTOS HELP ######################
+#                                                          #
+#      All possible phaistos command line options are      #
+#                     displayed below.                     #
+#                                                          #
+#   Note that in some situations, some of these options    #
+#      might occur multiple times, using a suffix to       #
+#                   distinguish them.                      #
+#                                                          #
+#    Example:                                              #
+#       --move sidechain-rotamer[debug:10]                 #
+#              sidechain-rotamer[debug:0]                  #
+#                                                          #
+#    Will be expanded to:                                  #
+#       --move-sidechain-rotamer 2                         #
+#       --move-sidechain-rotamer-debug 10                  #
+#       --move-sidechain-rotamer-2-debug 0                 #
+#                                                          #
+############################################################
+
+######################
+#### MAIN OPTIONS ####
+######################
+
+Command-line-only options:
+  -h [ --help ]         help message
+  --config-file arg     configuration file
+
+General options:
+  --verbose [=arg(=1)] (=0)       Output information during run
+  --debug [=arg(=1)] (=0)         Debug information level
+  --data-dir arg (=../data)       Path to Phaistos data directory
+  --seed arg (=1404287550)        Seed for random number generator. The default value is the current time. Remove this line from config file to use 
+                                  random seed.
+  --start-index arg (=0)          At which sequence position to start
+  --end-index arg (=-1)           At which sequence position to end
+  --iterations arg (=10)          Number of iterations
+  --sample-aa [=arg(=1)] (=0)     Whether to samples amino acid sequences
+  --sample-ss [=arg(=1)] (=0)     Whether to samples secondary structure sequences
+  --sample-angles [=arg(=1)] (=0) Whether to samples phi,psi angle sequences
+  --output-all [=arg(=1)] (=0)    Output all emission node values
+
+
+############################
+#### SHORTHANDS OPTIONS ####
+############################
+
+Shorthand for specification of BackboneDBN model (torus|fb5|torus-cs):
+  --backbone-dbn [=arg(=1)] shorthand: backbone-dbn
+
+
+##############################
+#### BACKBONE-DBN OPTIONS ####
+##############################
+
+TorusDbn options:
+  --backbone-dbn-torus [=arg(= )]                                Activate backbone-dbn-torus [number of occurrences]
+  --backbone-dbn-torus-debug arg (=0)                            Debug level
+  --backbone-dbn-torus-log-space arg (=0)                        Whether DBN calculations should be done in log space.
+  --backbone-dbn-torus-dbn-start-distribution arg (=normal)      N-terminus probability: normal|uniform|stationary
+  --backbone-dbn-torus-dbn-transition-distribution arg (=normal) Transition distribution: normal|uniform|stationary
+  --backbone-dbn-torus-parameter-file arg                        parameter file name
+  --backbone-dbn-torus-sequence-length arg (=-1)                 Set sequence length in model (only necessary when no input sequence is given)
+  --backbone-dbn-torus-initial-pdb-file arg                      Input from PDB file
+  --backbone-dbn-torus-initial-aa-sequence arg                   Input from amino acid sequence
+  --backbone-dbn-torus-initial-aa-file arg                       Input from amino acid sequence file
+  --backbone-dbn-torus-initial-ss-sequence arg                   Input from secondary structure sequence
+  --backbone-dbn-torus-initial-ss-file arg                       Input from secondary structure file
+  --backbone-dbn-torus-initial-cis-sequence arg                  Cis sequence
+  --backbone-dbn-torus-initial-cis-file arg                      Cis filename
+
+TorusOmegaDbn options:
+  --backbone-dbn-torus-omega [=arg(= )]                                Activate backbone-dbn-torus-omega [number of occurrences]
+  --backbone-dbn-torus-omega-debug arg (=0)                            Debug level
+  --backbone-dbn-torus-omega-log-space arg (=0)                        Whether DBN calculations should be done in log space.
+  --backbone-dbn-torus-omega-dbn-start-distribution arg (=normal)      N-terminus probability: normal|uniform|stationary
+  --backbone-dbn-torus-omega-dbn-transition-distribution arg (=normal) Transition distribution: normal|uniform|stationary
+  --backbone-dbn-torus-omega-parameter-file arg                        parameter file name
+  --backbone-dbn-torus-omega-sequence-length arg (=-1)                 Set sequence length in model (only necessary when no input sequence is given)
+  --backbone-dbn-torus-omega-initial-pdb-file arg                      Input from PDB file
+  --backbone-dbn-torus-omega-initial-aa-sequence arg                   Input from amino acid sequence
+  --backbone-dbn-torus-omega-initial-aa-file arg                       Input from amino acid sequence file
+  --backbone-dbn-torus-omega-initial-ss-sequence arg                   Input from secondary structure sequence
+  --backbone-dbn-torus-omega-initial-ss-file arg                       Input from secondary structure file
+  --backbone-dbn-torus-omega-initial-cis-sequence arg                  Cis sequence
+  --backbone-dbn-torus-omega-initial-cis-file arg                      Cis filename
+  --backbone-dbn-torus-omega-initial-omega-sequence arg                Omega sequence
+  --backbone-dbn-torus-omega-initial-omega-file arg                    Omega filename
+
+Fb5Dbn options:
+  --backbone-dbn-fb5 [=arg(= )]                                Activate backbone-dbn-fb5 [number of occurrences]
+  --backbone-dbn-fb5-debug arg (=0)                            Debug level
+  --backbone-dbn-fb5-log-space arg (=0)                        Whether DBN calculations should be done in log space.
+  --backbone-dbn-fb5-dbn-start-distribution arg (=normal)      N-terminus probability: normal|uniform|stationary
+  --backbone-dbn-fb5-dbn-transition-distribution arg (=normal) Transition distribution: normal|uniform|stationary
+  --backbone-dbn-fb5-parameter-file arg                        parameter file name
+  --backbone-dbn-fb5-sequence-length arg (=-1)                 Set sequence length in model (only necessary when no input sequence is given)
+  --backbone-dbn-fb5-initial-pdb-file arg                      Input from PDB file
+  --backbone-dbn-fb5-initial-aa-sequence arg                   Input from amino acid sequence
+  --backbone-dbn-fb5-initial-aa-file arg                       Input from amino acid sequence file
+  --backbone-dbn-fb5-initial-ss-sequence arg                   Input from secondary structure sequence
+  --backbone-dbn-fb5-initial-ss-file arg                       Input from secondary structure file
+
+TorusDbnCs options:
+  --backbone-dbn-torus-cs [=arg(= )]                                Activate backbone-dbn-torus-cs [number of occurrences]
+  --backbone-dbn-torus-cs-debug arg (=0)                            Debug level
+  --backbone-dbn-torus-cs-log-space arg (=0)                        Whether DBN calculations should be done in log space.
+  --backbone-dbn-torus-cs-dbn-start-distribution arg (=normal)      N-terminus probability: normal|uniform|stationary
+  --backbone-dbn-torus-cs-dbn-transition-distribution arg (=normal) Transition distribution: normal|uniform|stationary
+  --backbone-dbn-torus-cs-parameter-file arg                        parameter file name
+  --backbone-dbn-torus-cs-sequence-length arg (=-1)                 Set sequence length in model (only necessary when no input sequence is given)
+  --backbone-dbn-torus-cs-initial-pdb-file arg                      Input from PDB file
+  --backbone-dbn-torus-cs-initial-aa-sequence arg                   Input from amino acid sequence
+  --backbone-dbn-torus-cs-initial-aa-file arg                       Input from amino acid sequence file
+  --backbone-dbn-torus-cs-initial-ss-sequence arg                   Input from secondary structure sequence
+  --backbone-dbn-torus-cs-initial-ss-file arg                       Input from secondary structure file
+  --backbone-dbn-torus-cs-initial-cis-sequence arg                  Cis sequence
+  --backbone-dbn-torus-cs-initial-cis-file arg                      Cis filename
+  --backbone-dbn-torus-cs-initial-cs-ca-sequence arg                Chemical shift CA sequence
+  --backbone-dbn-torus-cs-initial-cs-ca-file arg                    Chemical shift CA file
+  --backbone-dbn-torus-cs-initial-cs-cb-sequence arg                Chemical shift CB sequence
+  --backbone-dbn-torus-cs-initial-cs-cb-file arg                    Chemical shift CB file
+  --backbone-dbn-torus-cs-initial-cs-c-sequence arg                 Chemical shift C sequence
+  --backbone-dbn-torus-cs-initial-cs-c-file arg                     Chemical shift C file
+  --backbone-dbn-torus-cs-initial-cs-n-sequence arg                 Chemical shift N sequence
+  --backbone-dbn-torus-cs-initial-cs-n-file arg                     Chemical shift N file
+  --backbone-dbn-torus-cs-initial-cs-ha-sequence arg                Chemical shift HA sequence
+  --backbone-dbn-torus-cs-initial-cs-ha-file arg                    Chemical shift HA file
+  --backbone-dbn-torus-cs-initial-cs-h-sequence arg                 Chemical shift H sequence
+  --backbone-dbn-torus-cs-initial-cs-h-file arg                     Chemical shift H file
+  --backbone-dbn-torus-cs-initial-cs-sequence arg                   Chemical shift sequence - all in one. Order: CA,CB,C,N,HA,H
+  --backbone-dbn-torus-cs-initial-cs-file arg                       Chemical shift file - all in one. Order: CA,CB,C,N,HA,H 
+  --backbone-dbn-torus-cs-initial-cs-nmr-star-file arg              Chemical shift file - all in one, using CS-section of nmr-star format (BMRB)
+  --backbone-dbn-torus-cs-initial-cs-ca-offset arg (=0)             CA chemical shift offset (for re-referencing)
+  --backbone-dbn-torus-cs-initial-cs-cb-offset arg (=0)             CB chemical shift offset (for re-referencing)
+  --backbone-dbn-torus-cs-initial-cs-c-offset arg (=0)              C chemical shift offset (for re-referencing)
+  --backbone-dbn-torus-cs-initial-cs-n-offset arg (=0)              N chemical shift offset (for re-referencing)
+  --backbone-dbn-torus-cs-initial-cs-ha-offset arg (=0)             HA chemical shift offset (for re-referencing)
+  --backbone-dbn-torus-cs-initial-cs-h-offset arg (=0)              H chemical shift offset (for re-referencing)
+
+TorusCsOmegaDbn options:
+  --backbone-dbn-torus-cs-omega [=arg(= )]                                Activate backbone-dbn-torus-cs-omega [number of occurrences]
+  --backbone-dbn-torus-cs-omega-debug arg (=0)                            Debug level
+  --backbone-dbn-torus-cs-omega-log-space arg (=0)                        Whether DBN calculations should be done in log space.
+  --backbone-dbn-torus-cs-omega-dbn-start-distribution arg (=normal)      N-terminus probability: normal|uniform|stationary
+  --backbone-dbn-torus-cs-omega-dbn-transition-distribution arg (=normal) Transition distribution: normal|uniform|stationary
+  --backbone-dbn-torus-cs-omega-parameter-file arg                        parameter file name
+  --backbone-dbn-torus-cs-omega-sequence-length arg (=-1)                 Set sequence length in model (only necessary when no input sequence is 
+                                                                          given)
+  --backbone-dbn-torus-cs-omega-initial-pdb-file arg                      Input from PDB file
+  --backbone-dbn-torus-cs-omega-initial-aa-sequence arg                   Input from amino acid sequence
+  --backbone-dbn-torus-cs-omega-initial-aa-file arg                       Input from amino acid sequence file
+  --backbone-dbn-torus-cs-omega-initial-ss-sequence arg                   Input from secondary structure sequence
+  --backbone-dbn-torus-cs-omega-initial-ss-file arg                       Input from secondary structure file
+  --backbone-dbn-torus-cs-omega-initial-cis-sequence arg                  Cis sequence
+  --backbone-dbn-torus-cs-omega-initial-cis-file arg                      Cis filename
+  --backbone-dbn-torus-cs-omega-initial-omega-sequence arg                Omega sequence
+  --backbone-dbn-torus-cs-omega-initial-omega-file arg                    Omega filename
+  --backbone-dbn-torus-cs-omega-initial-cs-ca-sequence arg                Chemical shift CA sequence
+  --backbone-dbn-torus-cs-omega-initial-cs-ca-file arg                    Chemical shift CA file
+  --backbone-dbn-torus-cs-omega-initial-cs-cb-sequence arg                Chemical shift CB sequence
+  --backbone-dbn-torus-cs-omega-initial-cs-cb-file arg                    Chemical shift CB file
+  --backbone-dbn-torus-cs-omega-initial-cs-c-sequence arg                 Chemical shift C sequence
+  --backbone-dbn-torus-cs-omega-initial-cs-c-file arg                     Chemical shift C file
+  --backbone-dbn-torus-cs-omega-initial-cs-n-sequence arg                 Chemical shift N sequence
+  --backbone-dbn-torus-cs-omega-initial-cs-n-file arg                     Chemical shift N file
+  --backbone-dbn-torus-cs-omega-initial-cs-ha-sequence arg                Chemical shift HA sequence
+  --backbone-dbn-torus-cs-omega-initial-cs-ha-file arg                    Chemical shift HA file
+  --backbone-dbn-torus-cs-omega-initial-cs-h-sequence arg                 Chemical shift H sequence
+  --backbone-dbn-torus-cs-omega-initial-cs-h-file arg                     Chemical shift H file
+  --backbone-dbn-torus-cs-omega-initial-cs-sequence arg                   Chemical shift sequence - all in one. Order: CA,CB,C,N,HA,H
+  --backbone-dbn-torus-cs-omega-initial-cs-file arg                       Chemical shift file - all in one. Order: CA,CB,C,N,HA,H 
+  --backbone-dbn-torus-cs-omega-initial-cs-nmr-star-file arg              Chemical shift file - all in one, using CS-section of nmr-star format 
+                                                                          (BMRB)
+  --backbone-dbn-torus-cs-omega-initial-cs-ca-offset arg (=0)             CA chemical shift offset (for re-referencing)
+  --backbone-dbn-torus-cs-omega-initial-cs-cb-offset arg (=0)             CB chemical shift offset (for re-referencing)
+  --backbone-dbn-torus-cs-omega-initial-cs-c-offset arg (=0)              C chemical shift offset (for re-referencing)
+  --backbone-dbn-torus-cs-omega-initial-cs-n-offset arg (=0)              N chemical shift offset (for re-referencing)
+  --backbone-dbn-torus-cs-omega-initial-cs-ha-offset arg (=0)             HA chemical shift offset (for re-referencing)
+  --backbone-dbn-torus-cs-omega-initial-cs-h-offset arg (=0)              H chemical shift offset (for re-referencing)
+
+
