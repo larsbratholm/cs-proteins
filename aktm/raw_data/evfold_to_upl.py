@@ -6,7 +6,7 @@ import names
 # Cell. 2012 Jun 22;149(7):1607-21. doi: 10.1016/j.cell.2012.04.012. Epub 2012 May 10.
 
 
-sc = ["CB", "SG", "OD1", "OE1", "CZ", "CA", "CE1", "CE1", "NZ", "CD1", "CE", 
+sc = ["CB", "SG", "OD1", "OE1", "CZ", "CA", "CE1", "CD1", "NZ", "CD1", "CE", 
       "OD1", "CG", "OE1", "NH1", "OG", "OG1", "CG1", "CH2", "OH"]
 
 

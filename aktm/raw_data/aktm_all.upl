@@ -3,34 +3,34 @@
   57    GLY      CA      37    CYS      SG   4.000
   54    LYS      CA      31    ILE      CA   7.000
   54    LYS      CB      31    ILE      CB   7.000
-  54    LYS      NZ      31    ILE     CE1   4.000
+  54    LYS      NZ      31    ILE     CD1   4.000
   57    GLY      CA      43    ILE      CA   7.000
   57    GLY      CA      43    ILE      CB   7.000
-  57    GLY      CA      43    ILE     CE1   4.000
+  57    GLY      CA      43    ILE     CD1   4.000
   82    SER      CA      54    LYS      CA   7.000
   82    SER      CB      54    LYS      CB   7.000
   82    SER      OG      54    LYS      NZ   4.000
   56    VAL      CA      31    ILE      CA   7.000
   56    VAL      CB      31    ILE      CB   7.000
-  56    VAL     CG1      31    ILE     CE1   4.000
+  56    VAL     CG1      31    ILE     CD1   4.000
   84    VAL      CA      56    VAL      CA   7.000
   84    VAL      CB      56    VAL      CB   7.000
   84    VAL     CG1      56    VAL     CG1   4.000
   65    ILE      CA      59    GLU      CA   7.000
   65    ILE      CB      59    GLU      CB   7.000
-  65    ILE     CE1      59    GLU     OE1   4.000
+  65    ILE     CD1      59    GLU     OE1   4.000
   85    LYS      CA      65    ILE      CA   7.000
   85    LYS      CB      65    ILE      CB   7.000
-  85    LYS      NZ      65    ILE     CE1   4.000
+  85    LYS      NZ      65    ILE     CD1   4.000
   83    ILE      CA      65    ILE      CA   7.000
   83    ILE      CB      65    ILE      CB   7.000
-  83    ILE     CE1      65    ILE     CE1   4.000
+  83    ILE     CD1      65    ILE     CD1   4.000
   85    LYS      CA      62    ASP      CA   7.000
   85    LYS      CB      62    ASP      CB   7.000
   85    LYS      NZ      62    ASP     OD1   4.000
   83    ILE      CA      68    ALA      CA   7.000
   83    ILE      CB      68    ALA      CB   7.000
-  83    ILE     CE1      68    ALA      CB   4.000
+  83    ILE     CD1      68    ALA      CB   4.000
  125    VAL      CA     115    LEU      CA   7.000
  125    VAL      CB     115    LEU      CB   7.000
  125    VAL     CG1     115    LEU     CD1   4.000
@@ -39,13 +39,13 @@
   98    VAL     CG1      56    VAL     CG1   4.000
   55    ALA      CA      43    ILE      CA   7.000
   55    ALA      CB      43    ILE      CB   7.000
-  55    ALA      CB      43    ILE     CE1   4.000
+  55    ALA      CB      43    ILE     CD1   4.000
   68    ALA      CA      37    CYS      CA   7.000
   68    ALA      CB      37    CYS      CB   7.000
   68    ALA      CB      37    CYS      SG   4.000
   87    ASN      CA      60    ILE      CA   7.000
   87    ASN      CB      60    ILE      CB   7.000
-  87    ASN     OD1      60    ILE     CE1   4.000
+  87    ASN     OD1      60    ILE     CD1   4.000
  125    VAL      CA     119    LEU      CA   7.000
  125    VAL      CB     119    LEU      CB   7.000
  125    VAL     CG1     119    LEU     CD1   4.000
@@ -54,13 +54,13 @@
   80    ARG     NH1      47    ALA      CB   4.000
   71    ASN      CA      44    ILE      CA   7.000
   71    ASN      CB      44    ILE      CB   7.000
-  71    ASN     OD1      44    ILE     CE1   4.000
+  71    ASN     OD1      44    ILE     CD1   4.000
   98    VAL      CA      33    TYR      CA   7.000
   98    VAL      CB      33    TYR      CB   7.000
   98    VAL     CG1      33    TYR      OH   4.000
   83    ILE      CA      72    ILE      CA   7.000
   83    ILE      CB      72    ILE      CB   7.000
-  83    ILE     CE1      72    ILE     CE1   4.000
+  83    ILE     CD1      72    ILE     CD1   4.000
   82    SER      CA      56    VAL      CA   7.000
   82    SER      CB      56    VAL      CB   7.000
   82    SER      OG      56    VAL     CG1   4.000
@@ -72,7 +72,7 @@
   86    GLY      CA      58    VAL     CG1   4.000
   72    ILE      CA      44    ILE      CA   7.000
   72    ILE      CB      44    ILE      CB   7.000
-  72    ILE     CE1      44    ILE     CE1   4.000
+  72    ILE     CD1      44    ILE     CD1   4.000
   81    ALA      CA      47    ALA      CA   7.000
   81    ALA      CB      47    ALA      CB   7.000
   81    ALA      CB      47    ALA      CB   4.000
@@ -81,10 +81,10 @@
   46    ALA      CB      32    VAL     CG1   4.000
   81    ALA      CA      72    ILE      CA   7.000
   81    ALA      CB      72    ILE      CB   7.000
-  81    ALA      CB      72    ILE     CE1   4.000
+  81    ALA      CB      72    ILE     CD1   4.000
   43    ILE      CA      37    CYS      CA   7.000
   43    ILE      CB      37    CYS      CB   7.000
-  43    ILE     CE1      37    CYS      SG   4.000
+  43    ILE     CD1      37    CYS      SG   4.000
   84    VAL      CA      58    VAL      CA   7.000
   84    VAL      CB      58    VAL      CB   7.000
   84    VAL     CG1      58    VAL     CG1   4.000
@@ -93,7 +93,7 @@
   57    GLY      CA      34    ASP     OD1   4.000
   98    VAL      CA      31    ILE      CA   7.000
   98    VAL      CB      31    ILE      CB   7.000
-  98    VAL     CG1      31    ILE     CE1   4.000
+  98    VAL     CG1      31    ILE     CD1   4.000
  117    LYS      CA      95    GLU      CA   7.000
  117    LYS      CB      95    GLU      CB   7.000
  117    LYS      NZ      95    GLU     OE1   4.000
@@ -117,13 +117,13 @@
   68    ALA      CB      57    GLY      CA   4.000
   83    ILE      CA      57    GLY      CA   7.000
   83    ILE      CB      57    GLY      CA   7.000
-  83    ILE     CE1      57    GLY      CA   4.000
+  83    ILE     CD1      57    GLY      CA   4.000
  114    LYS      CA      92    ASP      CA   7.000
  114    LYS      CB      92    ASP      CB   7.000
  114    LYS      NZ      92    ASP     OD1   4.000
  120    LYS      CA      31    ILE      CA   7.000
  120    LYS      CB      31    ILE      CB   7.000
- 120    LYS      NZ      31    ILE     CE1   4.000
+ 120    LYS      NZ      31    ILE     CD1   4.000
   58    VAL      CA      33    TYR      CA   7.000
   58    VAL      CB      33    TYR      CB   7.000
   58    VAL     CG1      33    TYR      OH   4.000
@@ -159,7 +159,7 @@
   55    ALA      CB      32    VAL     CG1   4.000
   77    VAL      CA      44    ILE      CA   7.000
   77    VAL      CB      44    ILE      CB   7.000
-  77    VAL     CG1      44    ILE     CE1   4.000
+  77    VAL     CG1      44    ILE     CD1   4.000
  100    THR      CA      32    VAL      CA   7.000
  100    THR      CB      32    VAL      CB   7.000
  100    THR     OG1      32    VAL     CG1   4.000
@@ -177,7 +177,7 @@
   49    ASP     OD1      22    GLU     OE1   4.000
   75    ASN      CA      44    ILE      CA   7.000
   75    ASN      CB      44    ILE      CB   7.000
-  75    ASN     OD1      44    ILE     CE1   4.000
+  75    ASN     OD1      44    ILE     CD1   4.000
   68    ALA      CA      40    GLY      CA   7.000
   68    ALA      CB      40    GLY      CA   7.000
   68    ALA      CB      40    GLY      CA   4.000
@@ -186,13 +186,13 @@
   55    ALA      CB      34    ASP     OD1   4.000
   81    ALA      CA      43    ILE      CA   7.000
   81    ALA      CB      43    ILE      CB   7.000
-  81    ALA      CB      43    ILE     CE1   4.000
+  81    ALA      CB      43    ILE     CD1   4.000
  127    SER      CA     112    LYS      CA   7.000
  127    SER      CB     112    LYS      CB   7.000
  127    SER      OG     112    LYS      NZ   4.000
   97    THR      CA      31    ILE      CA   7.000
   97    THR      CB      31    ILE      CB   7.000
-  97    THR     OG1      31    ILE     CE1   4.000
+  97    THR     OG1      31    ILE     CD1   4.000
   52    VAL      CA      29    ASP      CA   7.000
   52    VAL      CB      29    ASP      CB   7.000
   52    VAL     CG1      29    ASP     OD1   4.000
@@ -210,13 +210,13 @@
  110    MET      CE      89    PHE      CZ   4.000
   42    ILE      CA      36    GLY      CA   7.000
   42    ILE      CB      36    GLY      CA   7.000
-  42    ILE     CE1      36    GLY      CA   4.000
+  42    ILE     CD1      36    GLY      CA   4.000
  118    GLU      CA      95    GLU      CA   7.000
  118    GLU      CB      95    GLU      CB   7.000
  118    GLU     OE1      95    GLU     OE1   4.000
   43    ILE      CA      34    ASP      CA   7.000
   43    ILE      CB      34    ASP      CB   7.000
-  43    ILE     CE1      34    ASP     OD1   4.000
+  43    ILE     CD1      34    ASP     OD1   4.000
   77    VAL      CA      47    ALA      CA   7.000
   77    VAL      CB      47    ALA      CB   7.000
   77    VAL     CG1      47    ALA      CB   4.000
@@ -225,16 +225,16 @@
  114    LYS      NZ      91    VAL     CG1   4.000
   99    VAL      CA      31    ILE      CA   7.000
   99    VAL      CB      31    ILE      CB   7.000
-  99    VAL     CG1      31    ILE     CE1   4.000
+  99    VAL     CG1      31    ILE     CD1   4.000
   83    ILE      CA      59    GLU      CA   7.000
   83    ILE      CB      59    GLU      CB   7.000
-  83    ILE     CE1      59    GLU     OE1   4.000
+  83    ILE     CD1      59    GLU     OE1   4.000
   79    GLY      CA      73    GLU      CA   7.000
   79    GLY      CA      73    GLU      CB   7.000
   79    GLY      CA      73    GLU     OE1   4.000
   83    ILE      CA      43    ILE      CA   7.000
   83    ILE      CB      43    ILE      CB   7.000
-  83    ILE     CE1      43    ILE     CE1   4.000
+  83    ILE     CD1      43    ILE     CD1   4.000
   67    GLU      CA      39    ASP      CA   7.000
   67    GLU      CB      39    ASP      CB   7.000
   67    GLU     OE1      39    ASP     OD1   4.000
@@ -246,16 +246,16 @@
  118    GLU     OE1      91    VAL     CG1   4.000
   42    ILE      CA      34    ASP      CA   7.000
   42    ILE      CB      34    ASP      CB   7.000
-  42    ILE     CE1      34    ASP     OD1   4.000
+  42    ILE     CD1      34    ASP     OD1   4.000
   91    VAL      CA      84    VAL      CA   7.000
   91    VAL      CB      84    VAL      CB   7.000
   91    VAL     CG1      84    VAL     CG1   4.000
  102    PHE      CA      42    ILE      CA   7.000
  102    PHE      CB      42    ILE      CB   7.000
- 102    PHE      CZ      42    ILE     CE1   4.000
+ 102    PHE      CZ      42    ILE     CD1   4.000
   96    ALA      CA      31    ILE      CA   7.000
   96    ALA      CB      31    ILE      CB   7.000
-  96    ALA      CB      31    ILE     CE1   4.000
+  96    ALA      CB      31    ILE     CD1   4.000
  114    LYS      CA      95    GLU      CA   7.000
  114    LYS      CB      95    GLU      CB   7.000
  114    LYS      NZ      95    GLU     OE1   4.000
@@ -273,7 +273,7 @@
  118    GLU     OE1      97    THR     OG1   4.000
   85    LYS      CA      60    ILE      CA   7.000
   85    LYS      CB      60    ILE      CB   7.000
-  85    LYS      NZ      60    ILE     CE1   4.000
+  85    LYS      NZ      60    ILE     CD1   4.000
   80    ARG      CA      51    ASN      CA   7.000
   80    ARG      CB      51    ASN      CB   7.000
   80    ARG     NH1      51    ASN     OD1   4.000
@@ -297,13 +297,13 @@
   82    SER      OG      69    LEU     CD1   4.000
   65    ILE      CA      37    CYS      CA   7.000
   65    ILE      CB      37    CYS      CB   7.000
-  65    ILE     CE1      37    CYS      SG   4.000
+  65    ILE     CD1      37    CYS      SG   4.000
   81    ALA      CA      55    ALA      CA   7.000
   81    ALA      CB      55    ALA      CB   7.000
   81    ALA      CB      55    ALA      CB   4.000
   93    ILE      CA      84    VAL      CA   7.000
   93    ILE      CB      84    VAL      CB   7.000
-  93    ILE     CE1      84    VAL     CG1   4.000
+  93    ILE     CD1      84    VAL     CG1   4.000
  119    LEU      CA      99    VAL      CA   7.000
  119    LEU      CB      99    VAL      CB   7.000
  119    LEU     CD1      99    VAL     CG1   4.000
@@ -318,7 +318,7 @@
   88    PHE      CZ      58    VAL     CG1   4.000
   78    THR      CA      72    ILE      CA   7.000
   78    THR      CB      72    ILE      CB   7.000
-  78    THR     OG1      72    ILE     CE1   4.000
+  78    THR     OG1      72    ILE     CD1   4.000
  105    THR      CA      64    ARG      CA   7.000
  105    THR      CB      64    ARG      CB   7.000
  105    THR     OG1      64    ARG     NH1   4.000
@@ -327,13 +327,13 @@
   64    ARG     NH1      41    ARG     NH1   4.000
   53    LYS      CA      31    ILE      CA   7.000
   53    LYS      CB      31    ILE      CB   7.000
-  53    LYS      NZ      31    ILE     CE1   4.000
+  53    LYS      NZ      31    ILE     CD1   4.000
  118    GLU      CA      33    TYR      CA   7.000
  118    GLU      CB      33    TYR      CB   7.000
  118    GLU     OE1      33    TYR      OH   4.000
   83    ILE      CA      69    LEU      CA   7.000
   83    ILE      CB      69    LEU      CB   7.000
-  83    ILE     CE1      69    LEU     CD1   4.000
+  83    ILE     CD1      69    LEU     CD1   4.000
  125    VAL      CA     116    GLU      CA   7.000
  125    VAL      CB     116    GLU      CB   7.000
  125    VAL     CG1     116    GLU     OE1   4.000
@@ -342,7 +342,7 @@
  129    GLU     OE1     105    THR     OG1   4.000
  118    GLU      CA      93    ILE      CA   7.000
  118    GLU      CB      93    ILE      CB   7.000
- 118    GLU     OE1      93    ILE     CE1   4.000
+ 118    GLU     OE1      93    ILE     CD1   4.000
  126    VAL      CA     100    THR      CA   7.000
  126    VAL      CB     100    THR      CB   7.000
  126    VAL     CG1     100    THR     OG1   4.000
@@ -357,7 +357,7 @@
   55    ALA      CB      46    ALA      CB   4.000
   79    GLY      CA      72    ILE      CA   7.000
   79    GLY      CA      72    ILE      CB   7.000
-  79    GLY      CA      72    ILE     CE1   4.000
+  79    GLY      CA      72    ILE     CD1   4.000
   45    THR      CA      18    ARG      CA   7.000
   45    THR      CB      18    ARG      CB   7.000
   45    THR     OG1      18    ARG     NH1   4.000
@@ -390,7 +390,7 @@
   45    THR     OG1      17    VAL     CG1   4.000
   60    ILE      CA      35    LEU      CA   7.000
   60    ILE      CB      35    LEU      CB   7.000
-  60    ILE     CE1      35    LEU     CD1   4.000
+  60    ILE     CD1      35    LEU     CD1   4.000
  101    MET      CA      33    TYR      CA   7.000
  101    MET      CB      33    TYR      CB   7.000
  101    MET      CE      33    TYR      OH   4.000
@@ -411,7 +411,7 @@
   56    VAL     CG1      33    TYR      OH   4.000
   83    ILE      CA      37    CYS      CA   7.000
   83    ILE      CB      37    CYS      CB   7.000
-  83    ILE     CE1      37    CYS      SG   4.000
+  83    ILE     CD1      37    CYS      SG   4.000
  114    LYS      CA      88    PHE      CA   7.000
  114    LYS      CB      88    PHE      CB   7.000
  114    LYS      NZ      88    PHE      CZ   4.000
@@ -420,10 +420,10 @@
  118    GLU     OE1      92    ASP     OD1   4.000
   93    ILE      CA      56    VAL      CA   7.000
   93    ILE      CB      56    VAL      CB   7.000
-  93    ILE     CE1      56    VAL     CG1   4.000
+  93    ILE     CD1      56    VAL     CG1   4.000
  104    LEU      CA      42    ILE      CA   7.000
  104    LEU      CB      42    ILE      CB   7.000
- 104    LEU     CD1      42    ILE     CE1   4.000
+ 104    LEU     CD1      42    ILE     CD1   4.000
   50    PHE      CA      29    ASP      CA   7.000
   50    PHE      CB      29    ASP      CB   7.000
   50    PHE      CZ      29    ASP     OD1   4.000
@@ -432,13 +432,13 @@
  128    HIS     CE1     104    LEU     CD1   4.000
   89    PHE      CA      60    ILE      CA   7.000
   89    PHE      CB      60    ILE      CB   7.000
-  89    PHE      CZ      60    ILE     CE1   4.000
+  89    PHE      CZ      60    ILE     CD1   4.000
   58    VAL      CA      36    GLY      CA   7.000
   58    VAL      CB      36    GLY      CA   7.000
   58    VAL     CG1      36    GLY      CA   4.000
   43    ILE      CA      35    LEU      CA   7.000
   43    ILE      CB      35    LEU      CB   7.000
-  43    ILE     CE1      35    LEU     CD1   4.000
+  43    ILE     CD1      35    LEU     CD1   4.000
   49    ASP      CA      21    LEU      CA   7.000
   49    ASP      CB      21    LEU      CB   7.000
   49    ASP     OD1      21    LEU     CD1   4.000
@@ -450,7 +450,7 @@
  130    PHE      CZ     105    THR     OG1   4.000
   64    ARG      CA      42    ILE      CA   7.000
   64    ARG      CB      42    ILE      CB   7.000
-  64    ARG     NH1      42    ILE     CE1   4.000
+  64    ARG     NH1      42    ILE     CD1   4.000
   57    GLY      CA      47    ALA      CA   7.000
   57    GLY      CA      47    ALA      CB   7.000
   57    GLY      CA      47    ALA      CB   4.000
@@ -492,13 +492,13 @@
  117    LYS      NZ      92    ASP     OD1   4.000
   72    ILE      CA      47    ALA      CA   7.000
   72    ILE      CB      47    ALA      CB   7.000
-  72    ILE     CE1      47    ALA      CB   4.000
+  72    ILE     CD1      47    ALA      CB   4.000
  128    HIS      CA      39    ASP      CA   7.000
  128    HIS      CB      39    ASP      CB   7.000
  128    HIS     CE1      39    ASP     OD1   4.000
  114    LYS      CA      93    ILE      CA   7.000
  114    LYS      CB      93    ILE      CB   7.000
- 114    LYS      NZ      93    ILE     CE1   4.000
+ 114    LYS      NZ      93    ILE     CD1   4.000
  128    HIS      CA     108    ASN      CA   7.000
  128    HIS      CB     108    ASN      CB   7.000
  128    HIS     CE1     108    ASN     OD1   4.000
@@ -528,13 +528,13 @@
   71    ASN     OD1      41    ARG     NH1   4.000
   76    GLY      CA      44    ILE      CA   7.000
   76    GLY      CA      44    ILE      CB   7.000
-  76    GLY      CA      44    ILE     CE1   4.000
+  76    GLY      CA      44    ILE     CD1   4.000
   80    ARG      CA      72    ILE      CA   7.000
   80    ARG      CB      72    ILE      CB   7.000
-  80    ARG     NH1      72    ILE     CE1   4.000
+  80    ARG     NH1      72    ILE     CD1   4.000
  128    HIS      CA      42    ILE      CA   7.000
  128    HIS      CB      42    ILE      CB   7.000
- 128    HIS     CE1      42    ILE     CE1   4.000
+ 128    HIS     CE1      42    ILE     CD1   4.000
   45    THR      CA      21    LEU      CA   7.000
   45    THR      CB      21    LEU      CB   7.000
   45    THR     OG1      21    LEU     CD1   4.000
@@ -546,7 +546,7 @@
  130    PHE      CZ      41    ARG     NH1   4.000
   88    PHE      CA      60    ILE      CA   7.000
   88    PHE      CB      60    ILE      CB   7.000
-  88    PHE      CZ      60    ILE     CE1   4.000
+  88    PHE      CZ      60    ILE     CD1   4.000
   46    ALA      CA      21    LEU      CA   7.000
   46    ALA      CB      21    LEU      CB   7.000
   46    ALA      CB      21    LEU     CD1   4.000
@@ -579,7 +579,7 @@
   53    LYS      NZ      28    GLN     OE1   4.000
   72    ILE      CA      57    GLY      CA   7.000
   72    ILE      CB      57    GLY      CA   7.000
-  72    ILE     CE1      57    GLY      CA   4.000
+  72    ILE     CD1      57    GLY      CA   4.000
   51    ASN      CA      28    GLN      CA   7.000
   51    ASN      CB      28    GLN      CB   7.000
   51    ASN     OD1      28    GLN     OE1   4.000
@@ -603,7 +603,7 @@
   53    LYS      NZ      30    ASP     OD1   4.000
  107    VAL      CA      42    ILE      CA   7.000
  107    VAL      CB      42    ILE      CB   7.000
- 107    VAL     CG1      42    ILE     CE1   4.000
+ 107    VAL     CG1      42    ILE     CD1   4.000
   80    ARG      CA      74    LYS      CA   7.000
   80    ARG      CB      74    LYS      CB   7.000
   80    ARG     NH1      74    LYS      NZ   4.000
@@ -615,16 +615,16 @@
  102    PHE      CZ      32    VAL     CG1   4.000
  126    VAL      CA      23    ILE      CA   7.000
  126    VAL      CB      23    ILE      CB   7.000
- 126    VAL     CG1      23    ILE     CE1   4.000
+ 126    VAL     CG1      23    ILE     CD1   4.000
  103    LEU      CA      42    ILE      CA   7.000
  103    LEU      CB      42    ILE      CB   7.000
- 103    LEU     CD1      42    ILE     CE1   4.000
+ 103    LEU     CD1      42    ILE     CD1   4.000
   45    THR      CA      38    GLY      CA   7.000
   45    THR      CB      38    GLY      CA   7.000
   45    THR     OG1      38    GLY      CA   4.000
   78    THR      CA      44    ILE      CA   7.000
   78    THR      CB      44    ILE      CB   7.000
-  78    THR     OG1      44    ILE     CE1   4.000
+  78    THR     OG1      44    ILE     CD1   4.000
   40    GLY      CA      33    TYR      CA   7.000
   40    GLY      CA      33    TYR      CB   7.000
   40    GLY      CA      33    TYR      OH   4.000
@@ -693,10 +693,10 @@
  120    LYS      NZ      30    ASP     OD1   4.000
  129    GLU      CA      42    ILE      CA   7.000
  129    GLU      CB      42    ILE      CB   7.000
- 129    GLU     OE1      42    ILE     CE1   4.000
+ 129    GLU     OE1      42    ILE     CD1   4.000
   73    GLU      CA      44    ILE      CA   7.000
   73    GLU      CB      44    ILE      CB   7.000
-  73    GLU     OE1      44    ILE     CE1   4.000
+  73    GLU     OE1      44    ILE     CD1   4.000
   90    GLU      CA      84    VAL      CA   7.000
   90    GLU      CB      84    VAL      CB   7.000
   90    GLU     OE1      84    VAL     CG1   4.000
@@ -714,7 +714,7 @@
  118    GLU     OE1      86    GLY      CA   4.000
   60    ILE      CA      39    ASP      CA   7.000
   60    ILE      CB      39    ASP      CB   7.000
-  60    ILE     CE1      39    ASP     OD1   4.000
+  60    ILE     CD1      39    ASP     OD1   4.000
   85    LYS      CA      58    VAL      CA   7.000
   85    LYS      CB      58    VAL      CB   7.000
   85    LYS      NZ      58    VAL     CG1   4.000
@@ -729,7 +729,7 @@
   85    LYS      NZ      66    ARG     NH1   4.000
   83    ILE      CA      40    GLY      CA   7.000
   83    ILE      CB      40    GLY      CA   7.000
-  83    ILE     CE1      40    GLY      CA   4.000
+  83    ILE     CD1      40    GLY      CA   4.000
  131    GLU      CA     108    ASN      CA   7.000
  131    GLU      CB     108    ASN      CB   7.000
  131    GLU     OE1     108    ASN     OD1   4.000
@@ -738,10 +738,10 @@
   54    LYS      NZ      29    ASP     OD1   4.000
   65    ILE      CA      57    GLY      CA   7.000
   65    ILE      CB      57    GLY      CA   7.000
-  65    ILE     CE1      57    GLY      CA   4.000
+  65    ILE     CD1      57    GLY      CA   4.000
  100    THR      CA      93    ILE      CA   7.000
  100    THR      CB      93    ILE      CB   7.000
- 100    THR     OG1      93    ILE     CE1   4.000
+ 100    THR     OG1      93    ILE     CD1   4.000
   48    LYS      CA      18    ARG      CA   7.000
   48    LYS      CB      18    ARG      CB   7.000
   48    LYS      NZ      18    ARG     NH1   4.000
@@ -750,7 +750,7 @@
   40    GLY      CA      32    VAL     CG1   4.000
   65    ILE      CA      58    VAL      CA   7.000
   65    ILE      CB      58    VAL      CB   7.000
-  65    ILE     CE1      58    VAL     CG1   4.000
+  65    ILE     CD1      58    VAL     CG1   4.000
   54    LYS      CA      30    ASP      CA   7.000
   54    LYS      CB      30    ASP      CB   7.000
   54    LYS      NZ      30    ASP     OD1   4.000
@@ -777,7 +777,7 @@
  111    LEU     CD1     105    THR     OG1   4.000
   44    ILE      CA      38    GLY      CA   7.000
   44    ILE      CB      38    GLY      CA   7.000
-  44    ILE     CE1      38    GLY      CA   4.000
+  44    ILE     CD1      38    GLY      CA   4.000
  123    THR      CA     101    MET      CA   7.000
  123    THR      CB     101    MET      CB   7.000
  123    THR     OG1     101    MET      CE   4.000
@@ -789,13 +789,13 @@
  111    LEU     CD1      39    ASP     OD1   4.000
   93    ILE      CA      86    GLY      CA   7.000
   93    ILE      CB      86    GLY      CA   7.000
-  93    ILE     CE1      86    GLY      CA   4.000
+  93    ILE     CD1      86    GLY      CA   4.000
   59    GLU      CA      40    GLY      CA   7.000
   59    GLU      CB      40    GLY      CA   7.000
   59    GLU     OE1      40    GLY      CA   4.000
   74    LYS      CA      44    ILE      CA   7.000
   74    LYS      CB      44    ILE      CB   7.000
-  74    LYS      NZ      44    ILE     CE1   4.000
+  74    LYS      NZ      44    ILE     CD1   4.000
   47    ALA      CA      37    CYS      CA   7.000
   47    ALA      CB      37    CYS      CB   7.000
   47    ALA      CB      37    CYS      SG   4.000
@@ -831,7 +831,7 @@
  103    LEU     CD1      88    PHE      CZ   4.000
   60    ILE      CA      36    GLY      CA   7.000
   60    ILE      CB      36    GLY      CA   7.000
-  60    ILE     CE1      36    GLY      CA   4.000
+  60    ILE     CD1      36    GLY      CA   4.000
   86    GLY      CA      59    GLU      CA   7.000
   86    GLY      CA      59    GLU      CB   7.000
   86    GLY      CA      59    GLU     OE1   4.000
@@ -849,7 +849,7 @@
   92    ASP     OD1      84    VAL     CG1   4.000
  117    LYS      CA      93    ILE      CA   7.000
  117    LYS      CB      93    ILE      CB   7.000
- 117    LYS      NZ      93    ILE     CE1   4.000
+ 117    LYS      NZ      93    ILE     CD1   4.000
  128    HIS      CA      61    ASN      CA   7.000
  128    HIS      CB      61    ASN      CB   7.000
  128    HIS     CE1      61    ASN     OD1   4.000
@@ -858,7 +858,7 @@
  108    ASN     OD1     102    PHE      CZ   4.000
  131    GLU      CA      42    ILE      CA   7.000
  131    GLU      CB      42    ILE      CB   7.000
- 131    GLU     OE1      42    ILE     CE1   4.000
+ 131    GLU     OE1      42    ILE     CD1   4.000
  104    LEU      CA      41    ARG      CA   7.000
  104    LEU      CB      41    ARG      CB   7.000
  104    LEU     CD1      41    ARG     NH1   4.000
@@ -888,7 +888,7 @@
  105    THR     OG1      39    ASP     OD1   4.000
   72    ILE      CA      55    ALA      CA   7.000
   72    ILE      CB      55    ALA      CB   7.000
-  72    ILE     CE1      55    ALA      CB   4.000
+  72    ILE     CD1      55    ALA      CB   4.000
  111    LEU      CA      88    PHE      CA   7.000
  111    LEU      CB      88    PHE      CB   7.000
  111    LEU     CD1      88    PHE      CZ   4.000
@@ -924,10 +924,10 @@
  104    LEU     CD1      38    GLY      CA   4.000
  130    PHE      CA      42    ILE      CA   7.000
  130    PHE      CB      42    ILE      CB   7.000
- 130    PHE      CZ      42    ILE     CE1   4.000
+ 130    PHE      CZ      42    ILE     CD1   4.000
   94    SER      CA      31    ILE      CA   7.000
   94    SER      CB      31    ILE      CB   7.000
-  94    SER      OG      31    ILE     CE1   4.000
+  94    SER      OG      31    ILE     CD1   4.000
  112    LYS      CA      64    ARG      CA   7.000
  112    LYS      CB      64    ARG      CB   7.000
  112    LYS      NZ      64    ARG     NH1   4.000
@@ -942,7 +942,7 @@
  128    HIS     CE1     112    LYS      NZ   4.000
   83    ILE      CA      44    ILE      CA   7.000
   83    ILE      CB      44    ILE      CB   7.000
-  83    ILE     CE1      44    ILE     CE1   4.000
+  83    ILE     CD1      44    ILE     CD1   4.000
   71    ASN      CA      37    CYS      CA   7.000
   71    ASN      CB      37    CYS      CB   7.000
   71    ASN     OD1      37    CYS      SG   4.000
@@ -951,10 +951,10 @@
   53    LYS      NZ      47    ALA      CB   4.000
   44    ILE      CA      37    CYS      CA   7.000
   44    ILE      CB      37    CYS      CB   7.000
-  44    ILE     CE1      37    CYS      SG   4.000
+  44    ILE     CD1      37    CYS      SG   4.000
   95    GLU      CA      31    ILE      CA   7.000
   95    GLU      CB      31    ILE      CB   7.000
-  95    GLU     OE1      31    ILE     CE1   4.000
+  95    GLU     OE1      31    ILE     CD1   4.000
  114    LYS      CA      97    THR      CA   7.000
  114    LYS      CB      97    THR      CB   7.000
  114    LYS      NZ      97    THR     OG1   4.000
@@ -1002,7 +1002,7 @@
   59    GLU     OE1      36    GLY      CA   4.000
   68    ALA      CA      44    ILE      CA   7.000
   68    ALA      CB      44    ILE      CB   7.000
-  68    ALA      CB      44    ILE     CE1   4.000
+  68    ALA      CB      44    ILE     CD1   4.000
  108    ASN      CA      41    ARG      CA   7.000
  108    ASN      CB      41    ARG      CB   7.000
  108    ASN     OD1      41    ARG     NH1   4.000
@@ -1038,7 +1038,7 @@
   41    ARG     NH1      34    ASP     OD1   4.000
   42    ILE      CA      32    VAL      CA   7.000
   42    ILE      CB      32    VAL      CB   7.000
-  42    ILE     CE1      32    VAL     CG1   4.000
+  42    ILE     CD1      32    VAL     CG1   4.000
  111    LEU      CA      38    GLY      CA   7.000
  111    LEU      CB      38    GLY      CA   7.000
  111    LEU     CD1      38    GLY      CA   4.000
@@ -1050,7 +1050,7 @@
  123    THR     OG1     116    GLU     OE1   4.000
  105    THR      CA      42    ILE      CA   7.000
  105    THR      CB      42    ILE      CB   7.000
- 105    THR     OG1      42    ILE     CE1   4.000
+ 105    THR     OG1      42    ILE     CD1   4.000
  102    PHE      CA      38    GLY      CA   7.000
  102    PHE      CB      38    GLY      CA   7.000
  102    PHE      CZ      38    GLY      CA   4.000
@@ -1089,16 +1089,16 @@
  128    HIS     CE1     109    GLU     OE1   4.000
   30    ASP      CA      23    ILE      CA   7.000
   30    ASP      CB      23    ILE      CB   7.000
-  30    ASP     OD1      23    ILE     CE1   4.000
+  30    ASP     OD1      23    ILE     CD1   4.000
   90    GLU      CA      60    ILE      CA   7.000
   90    GLU      CB      60    ILE      CB   7.000
-  90    GLU     OE1      60    ILE     CE1   4.000
+  90    GLU     OE1      60    ILE     CD1   4.000
  128    HIS      CA      38    GLY      CA   7.000
  128    HIS      CB      38    GLY      CA   7.000
  128    HIS     CE1      38    GLY      CA   4.000
   60    ILE      CA      46    ALA      CA   7.000
   60    ILE      CB      46    ALA      CB   7.000
-  60    ILE     CE1      46    ALA      CB   4.000
+  60    ILE     CD1      46    ALA      CB   4.000
   64    ARG      CA      57    GLY      CA   7.000
   64    ARG      CB      57    GLY      CA   7.000
   64    ARG     NH1      57    GLY      CA   4.000
@@ -1113,10 +1113,10 @@
   92    ASP     OD1      58    VAL     CG1   4.000
   71    ASN      CA      42    ILE      CA   7.000
   71    ASN      CB      42    ILE      CB   7.000
-  71    ASN     OD1      42    ILE     CE1   4.000
+  71    ASN     OD1      42    ILE     CD1   4.000
   52    VAL      CA      42    ILE      CA   7.000
   52    VAL      CB      42    ILE      CB   7.000
-  52    VAL     CG1      42    ILE     CE1   4.000
+  52    VAL     CG1      42    ILE     CD1   4.000
   63    GLU      CA      39    ASP      CA   7.000
   63    GLU      CB      39    ASP      CB   7.000
   63    GLU     OE1      39    ASP     OD1   4.000
@@ -1179,7 +1179,7 @@
   80    ARG     NH1      50    PHE      CZ   4.000
   55    ALA      CA      42    ILE      CA   7.000
   55    ALA      CB      42    ILE      CB   7.000
-  55    ALA      CB      42    ILE     CE1   4.000
+  55    ALA      CB      42    ILE     CD1   4.000
   90    GLU      CA      69    LEU      CA   7.000
   90    GLU      CB      69    LEU      CB   7.000
   90    GLU     OE1      69    LEU     CD1   4.000
@@ -1194,10 +1194,10 @@
   92    ASP     OD1      82    SER      OG   4.000
   82    SER      CA      31    ILE      CA   7.000
   82    SER      CB      31    ILE      CB   7.000
-  82    SER      OG      31    ILE     CE1   4.000
+  82    SER      OG      31    ILE     CD1   4.000
   81    ALA      CA      44    ILE      CA   7.000
   81    ALA      CB      44    ILE      CB   7.000
-  81    ALA      CB      44    ILE     CE1   4.000
+  81    ALA      CB      44    ILE     CD1   4.000
   49    ASP      CA      17    VAL      CA   7.000
   49    ASP      CB      17    VAL      CB   7.000
   49    ASP     OD1      17    VAL     CG1   4.000
@@ -1206,16 +1206,16 @@
  130    PHE      CZ      38    GLY      CA   4.000
   67    GLU      CA      42    ILE      CA   7.000
   67    GLU      CB      42    ILE      CB   7.000
-  67    GLU     OE1      42    ILE     CE1   4.000
+  67    GLU     OE1      42    ILE     CD1   4.000
   72    ILE      CA      37    CYS      CA   7.000
   72    ILE      CB      37    CYS      CB   7.000
-  72    ILE     CE1      37    CYS      SG   4.000
+  72    ILE     CD1      37    CYS      SG   4.000
   99    VAL      CA      33    TYR      CA   7.000
   99    VAL      CB      33    TYR      CB   7.000
   99    VAL     CG1      33    TYR      OH   4.000
  128    HIS      CA      60    ILE      CA   7.000
  128    HIS      CB      60    ILE      CB   7.000
- 128    HIS     CE1      60    ILE     CE1   4.000
+ 128    HIS     CE1      60    ILE     CD1   4.000
  126    VAL      CA     104    LEU      CA   7.000
  126    VAL      CB     104    LEU      CB   7.000
  126    VAL     CG1     104    LEU     CD1   4.000
@@ -1260,7 +1260,7 @@
  107    VAL     CG1     101    MET      CE   4.000
   67    GLU      CA      23    ILE      CA   7.000
   67    GLU      CB      23    ILE      CB   7.000
-  67    GLU     OE1      23    ILE     CE1   4.000
+  67    GLU     OE1      23    ILE     CD1   4.000
   81    ALA      CA      37    CYS      CA   7.000
   81    ALA      CB      37    CYS      CB   7.000
   81    ALA      CB      37    CYS      SG   4.000
@@ -1293,7 +1293,7 @@
  105    THR     OG1      35    LEU     CD1   4.000
   61    ASN      CA      42    ILE      CA   7.000
   61    ASN      CB      42    ILE      CB   7.000
-  61    ASN     OD1      42    ILE     CE1   4.000
+  61    ASN     OD1      42    ILE     CD1   4.000
  106    ASN      CA     100    THR      CA   7.000
  106    ASN      CB     100    THR      CB   7.000
  106    ASN     OD1     100    THR     OG1   4.000
@@ -1302,7 +1302,7 @@
  109    GLU     OE1      61    ASN     OD1   4.000
   60    ILE      CA      41    ARG      CA   7.000
   60    ILE      CB      41    ARG      CB   7.000
-  60    ILE     CE1      41    ARG     NH1   4.000
+  60    ILE     CD1      41    ARG     NH1   4.000
   26    VAL      CA      20    MET      CA   7.000
   26    VAL      CB      20    MET      CB   7.000
   26    VAL     CG1      20    MET      CE   4.000
@@ -1311,7 +1311,7 @@
   52    VAL     CG1      25    LYS      NZ   4.000
  131    GLU      CA      60    ILE      CA   7.000
  131    GLU      CB      60    ILE      CB   7.000
- 131    GLU     OE1      60    ILE     CE1   4.000
+ 131    GLU     OE1      60    ILE     CD1   4.000
   30    ASP      CA      24    ALA      CA   7.000
   30    ASP      CB      24    ALA      CB   7.000
   30    ASP     OD1      24    ALA      CB   4.000
@@ -1323,10 +1323,10 @@
  115    LEU     CD1     104    LEU     CD1   4.000
   99    VAL      CA      93    ILE      CA   7.000
   99    VAL      CB      93    ILE      CB   7.000
-  99    VAL     CG1      93    ILE     CE1   4.000
+  99    VAL     CG1      93    ILE     CD1   4.000
   63    GLU      CA      23    ILE      CA   7.000
   63    GLU      CB      23    ILE      CB   7.000
-  63    GLU     OE1      23    ILE     CE1   4.000
+  63    GLU     OE1      23    ILE     CD1   4.000
   68    ALA      CA      34    ASP      CA   7.000
   68    ALA      CB      34    ASP      CB   7.000
   68    ALA      CB      34    ASP     OD1   4.000
@@ -1356,7 +1356,7 @@
   50    PHE      CZ      27    SER      OG   4.000
   67    GLU      CA      44    ILE      CA   7.000
   67    GLU      CB      44    ILE      CB   7.000
-  67    GLU     OE1      44    ILE     CE1   4.000
+  67    GLU     OE1      44    ILE     CD1   4.000
  131    GLU      CA      39    ASP      CA   7.000
  131    GLU      CB      39    ASP      CB   7.000
  131    GLU     OE1      39    ASP     OD1   4.000
@@ -1383,7 +1383,7 @@
  128    HIS     CE1     115    LEU     CD1   4.000
  106    ASN      CA      60    ILE      CA   7.000
  106    ASN      CB      60    ILE      CB   7.000
- 106    ASN     OD1      60    ILE     CE1   4.000
+ 106    ASN     OD1      60    ILE     CD1   4.000
   94    SER      CA      86    GLY      CA   7.000
   94    SER      CB      86    GLY      CA   7.000
   94    SER      OG      86    GLY      CA   4.000
@@ -1413,10 +1413,10 @@
   78    THR     OG1      66    ARG     NH1   4.000
   83    ILE      CA      61    ASN      CA   7.000
   83    ILE      CB      61    ASN      CB   7.000
-  83    ILE     CE1      61    ASN     OD1   4.000
+  83    ILE     CD1      61    ASN     OD1   4.000
  105    THR      CA      44    ILE      CA   7.000
  105    THR      CB      44    ILE      CB   7.000
- 105    THR     OG1      44    ILE     CE1   4.000
+ 105    THR     OG1      44    ILE     CD1   4.000
  114    LYS      CA      86    GLY      CA   7.000
  114    LYS      CB      86    GLY      CA   7.000
  114    LYS      NZ      86    GLY      CA   4.000
@@ -1428,7 +1428,7 @@
  121    PRO      CG     114    LYS      NZ   4.000
   42    ILE      CA      21    LEU      CA   7.000
   42    ILE      CB      21    LEU      CB   7.000
-  42    ILE     CE1      21    LEU     CD1   4.000
+  42    ILE     CD1      21    LEU     CD1   4.000
  119    LEU      CA      40    GLY      CA   7.000
  119    LEU      CB      40    GLY      CA   7.000
  119    LEU     CD1      40    GLY      CA   4.000
@@ -1446,7 +1446,7 @@
   71    ASN     OD1      34    ASP     OD1   4.000
   64    ARG      CA      44    ILE      CA   7.000
   64    ARG      CB      44    ILE      CB   7.000
-  64    ARG     NH1      44    ILE     CE1   4.000
+  64    ARG     NH1      44    ILE     CD1   4.000
  131    GLU      CA     106    ASN      CA   7.000
  131    GLU      CB     106    ASN      CB   7.000
  131    GLU     OE1     106    ASN     OD1   4.000
@@ -1467,13 +1467,13 @@
  126    VAL     CG1     120    LYS      NZ   4.000
   42    ILE      CA      20    MET      CA   7.000
   42    ILE      CB      20    MET      CB   7.000
-  42    ILE     CE1      20    MET      CE   4.000
+  42    ILE     CD1      20    MET      CE   4.000
  114    LYS      CA      96    ALA      CA   7.000
  114    LYS      CB      96    ALA      CB   7.000
  114    LYS      NZ      96    ALA      CB   4.000
  111    LEU      CA      42    ILE      CA   7.000
  111    LEU      CB      42    ILE      CB   7.000
- 111    LEU     CD1      42    ILE     CE1   4.000
+ 111    LEU     CD1      42    ILE     CD1   4.000
   54    LYS      CA      48    LYS      CA   7.000
   54    LYS      CB      48    LYS      CB   7.000
   54    LYS      NZ      48    LYS      NZ   4.000
