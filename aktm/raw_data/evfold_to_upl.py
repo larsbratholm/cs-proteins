@@ -2,8 +2,8 @@ import string
 import sys
 import names
 
-CUTOFF = 0.26
-
+# See supplementary information in reference:
+# Cell. 2012 Jun 22;149(7):1607-21. doi: 10.1016/j.cell.2012.04.012. Epub 2012 May 10.
 
 
 sc = ["CB", "SG", "OD1", "OE1", "CZ", "CA", "CE1", "CE1", "NZ", "CD1", "CE", 
