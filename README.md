@@ -20,12 +20,12 @@ Contents
 | ubiquitin               | 76      | 1ubi             | RefDB 17769 | ?          | 1-70       | yes    |
 | apo\_lfabp              | 129     | 1lfo             | RefDB 15429 | Synthetic  | All        | almost :S |
 | prolactin               | 199     | 1rws             | BMRB 5599   | Synthetic  | 6-183      | N/A    |
-| top7                    | 120     | 2mbl             | BMRB 19404  | Synthetic  | 5-104      | N/A    |
-| msrb                    | 151     | 3e0o / 2kzn      | BMRB 17008  | Synthetic  | 36-105     | N/A    |
+| top7                    | 120     | 2mbl             | BMRB 19404  | Synthetic  | 5-104      | yes    |
+| msrb                    | 151     | 3e0o / 2kzn      | BMRB 17008  | Synthetic  | 36-105     | yes    |
 | wr73                    | 183     | 2loy             | BMRB 16833  | Langer PNAS| 1-36,66-181| N/A    |
-| hr4660b                 | 174     | 2lmd             | BMRB 1870   | BMRB 1870  | 16-162     | N/A    |
-| rhodopsin               | 219 (no tail) | 2ksy       | BMRB 16678  | Synthetic  | all        | N/A    |
-| savinase                | 269     | 1svn             | ?           | Homology   | all        | N/A    |
+| hr4660b                 | 174     | 2lmd             | BMRB 1870   | BMRB 1870  | 16-162     | yes    |
+| rhodopsin               | 219 (no tail) | 2ksy       | BMRB 16678  | Synthetic  | all        | yes    |
+| savinase                | 269     | 1svn             | ?           | Homology   | all        | yes    |
 | mbp                     | 376     | 1ez9             | BMRB 6807   | Synthetic ILV // Mueller et al. * | See note. \*\*| N/A |
 
 \*  Mueller et al. J. Mol. Biol. (2000) 300, 197:212, doi:10.1006/jmbi.2000.384 
@@ -69,6 +69,10 @@ Visualize NOE restraints on a PDB cartoon:
 | CI2 (refinement)               | 32      | ~8.5M        | 2.2M (kemi2)      | 2.0      | 2.5 (2.4 +basilisk+mumu+torus rescore)  | 16           | 32                   | MH (300 K)               | 0.01 none / 0.4 crisp-dbn-eh / 0.5 sidechain-basilisk                     | camshift (sample cauchy) + OPLS + pp + hbond-dssp + muco + hse           | Torus (default)         |
 | CI2 (refinement)               | 64      | ~4.5M        | 2.2M (kemi2)      | 2.1      | 2.6 (2.5 +basilisk+mumu+torus rescore)  | 32           | 64                   | Muninn (beta 0.5-1.1)    | 0.01 none / 0.4 crisp-dbn-eh / 0.5 sidechain-basilisk                     | camshift (sample cauchy) + OPLS + pp + hbond-dssp + muco + hse           | Torus (default)         |
 | CI2 (refinement)               | 64      | ~4M          | 3.5M (kemi2)      | 2.6      | 4.4 (4.4 +basilisk+mumu+torus rescore)  | 31           | 23                   | Muninn (beta 0.5-1.05)   | 0.4 crisp-dbn-eh / 0.05 backbone-dbn / 0.5 sidechain-basilisk             | profasi + pp + mumu                                                      | Torus-CS (default)      |
+| Protein G (native)             | 4       | ~50M         | 90M (kemi2)       | 1.8      | 3.6 (2.8 +torus rescore)                | 4            | 4                    | MH (300K)                | 0.4 crisp-eh / 0.1 pivot-local / 0.5 sidechain-uniform                    | profasi                                                                  | NONE                    |
+| Protein G (native)             | 4       | ~50M         | 85M (kemi2)       | 0.8      | 1.2 (1.1 +torus rescore)                | 4            | 4                    | MH (300K)                | 0.4 crisp-dbn-eh / 0.1 backbone-dbn / 0.5 sidechain-uniform               | profasi                                                                  | Torus (default)         |
+| Protein G (unfolded)           | 8       | ~50M         | 120M (kemi2)      | 8.6      | 13.4 (18.1 +torus rescore)              | 0            | 0                    | Muninn (beta 0.66-1.05)  | 0.4 crisp-eh / 0.1 pivot-local / 0.5 sidechain-uniform                    | profasi                                                                  | NONE                    |
+| Protein G (unfolded)           | 8       | ~50M         | 120M (kemi2)      | 14.1     | 23.6 (23.6 +torus+bas+mumu+cam rescore) | 0            | 0                    | Muninn (beta 0.54-1.05)  | 0.4 crisp-dbn-eh / 0.1 backbone-dbn / 0.5 sidechain-uniform               | profasi                                                                  | NONE                    |
 
 
 License and citation

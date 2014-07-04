@@ -1,54 +1,34 @@
 import glob
 import sys
 import string
+
 import Bio.PDB
-
-
-
 
 
 def parse_noe(filename):
 
     f = open(filename, 'r')
-
+    lines = f.readlines()
+    f.close()
     noe_pairs = []
 
-    for line in f.readlines():
-            res_a = int(string.split(line)[2])
-            res_b = int(string.split(line)[7])
-            noe_pair = [res_a, res_b]
-            if noe_pair not in noe_pairs:
-                noe_pairs.append(noe_pair)
-    f.close()
+    for line in lines:
 
-    print len(noe_pairs), "CA lines"
+            if string.split(line)[0] == "#":
+                continue
+
+            res_a = int(string.split(line)[0])
+            res_b = int(string.split(line)[3])
+
+            noe_pair = [res_a, res_b]
+
+            if [res_a, res_b] not in noe_pairs and \
+               [res_b, res_a] not in noe_pairs:
+                noe_pairs.append(noe_pair)
+
+    f.close()
 
     return noe_pairs
-
-
-def count_restraints(filename):
-
-    f = open(filename, 'r')
-    noe_pairs = []
-
-    for line in f.readlines():
-            # print line
-            res_a = int(string.split(line)[2])
-            res_b = int(string.split(line)[7])
-
-            name_a = string.split(line)[5].rstrip(")")[:-1]
-            name_b = string.split(line)[10].rstrip(")")[:-1]
-
-            noe_pair = [res_a, res_b, name_a, name_b]
-            if [res_a, res_b, name_a, name_b] not in noe_pairs and \
-               [res_b, res_a, name_b, name_a] not in noe_pairs:
-                noe_pairs.append(noe_pair)
-    f.close()
-
-    print len(noe_pairs), "NOE contacts"
-
-    return len(noe_pairs)
-
 
 
 native_pdb = sys.argv[1]
