@@ -1,0 +1,757 @@
+    1      1  LEU   C         171.525 
+    2      1  LEU   CA         54.963 
+    3      1  LEU   HA          4.139 
+    4      1  LEU   CB         33.162 
+    5      1  LEU   HB2         2.145 
+    6      1  LEU   CG         30.542 
+    7      1  LEU   HG          2.546 
+    8      2  LYS   C         175.289 
+    9      2  LYS   H           8.750 
+   10      2  LYS   N         127.601 
+   11      2  LYS   CA         56.536 
+   12      2  LYS   HA          4.225 
+   13      2  LYS   CB         33.909 
+   14      2  LYS   HB2         1.424 
+   15      2  LYS   HB3         1.513 
+   16      2  LYS   CG         25.110 
+   17      2  LYS   HG2         0.648 
+   18      2  LYS   HG3         0.958 
+   19      2  LYS   CD         29.837 
+   20      2  LYS   HD2         1.345 
+   21      2  LYS   HD3         1.444 
+   22      2  LYS   CE         41.922 
+   23      2  LYS   HE2         2.336 
+   24      2  LYS   HE3         2.475 
+   25      2  LYS   HZ         7.706 
+   26      3  THR   C         173.010 
+   27      3  THR   H           8.420 
+   28      3  THR   N         112.746 
+   29      3  THR   CA         60.940 
+   30      3  THR   HA          4.279 
+   31      3  THR   CB         70.469 
+   32      3  THR   HB          4.518 
+   33      3  THR   CG2        21.788 
+   34      3  THR   HG2        1.076 
+   35      4  GLU   C         174.794 
+   36      4  GLU   H           6.673 
+   37      4  GLU   N         117.087 
+   38      4  GLU   CA         55.083 
+   39      4  GLU   HA          5.306 
+   40      4  GLU   CB         33.009 
+   41      4  GLU   HB2         1.766 
+   42      4  GLU   HB3         2.086 
+   43      4  GLU   CG         34.539 
+   44      4  GLU   HG2         2.202 
+   45      4  GLU   HG3         2.202 
+   46      5  TRP   C         174.345 
+   47      5  TRP   H           8.237 
+   48      5  TRP   N         119.125 
+   49      5  TRP   CA         56.483 
+   50      5  TRP   HA          5.124 
+   51      5  TRP   CB         32.098 
+   52      5  TRP   HB2         2.871 
+   53      5  TRP   HB3         3.038 
+   54      5  TRP   HD1         7.080 
+   55      5  TRP   HE1        11.457 
+   56      5  TRP   HE3         7.271 
+   57      5  TRP   NE1       131.982 
+   58      5  TRP   HZ2         7.130 
+   59      5  TRP   HZ3         7.828 
+   60      5  TRP   HH2         7.553 
+   61      6  PRO   HA          4.304 
+   62      6  PRO   HB2         2.305 
+   63      6  PRO   HG2         2.074 
+   64      6  PRO   HD2         3.233 
+   65      6  PRO   HD3         3.845 
+   66      7  GLU   C         176.842 
+   67      7  GLU   H          10.687 
+   68      7  GLU   N         120.525 
+   69      7  GLU   CA         57.790 
+   70      7  GLU   HA          4.359 
+   71      7  GLU   CB         27.964 
+   72      7  GLU   HB2         2.115 
+   73      7  GLU   HB3         2.115 
+   74      7  GLU   CG         35.184 
+   75      7  GLU   HG2         2.514 
+   76      7  GLU   HG3         2.514 
+   77      8  LEU   C         176.977 
+   78      8  LEU   H           7.844 
+   79      8  LEU   N         119.217 
+   80      8  LEU   CA         54.351 
+   81      8  LEU   HA          4.376 
+   82      8  LEU   CB         42.508 
+   83      8  LEU   HB2         1.536 
+   84      8  LEU   HB3         1.889 
+   85      8  LEU   CG         27.375 
+   86      8  LEU   HG          1.509 
+   87      8  LEU   CD1        25.851 
+   88      8  LEU   CD2        22.414 
+   89      9  VAL   C         177.124 
+   90      9  VAL   H           7.116 
+   91      9  VAL   N         119.840 
+   92      9  VAL   CA         66.329 
+   93      9  VAL   HA          3.260 
+   94      9  VAL   CB         30.827 
+   95      9  VAL   HB          1.971 
+   96      9  VAL   CG1        21.109 
+   97      9  VAL   CG2        23.796 
+   98      9  VAL   HG11        0.847 
+   99      9  VAL   HG12        0.847 
+  100      9  VAL   HG13        0.847 
+  101      9  VAL   HG21        0.961 
+  102      9  VAL   HG22        0.961 
+  103      9  VAL   HG23        0.961 
+  104      10  GLY   C     C   173.817
+  105      10  GLY   H     H     9.075
+  106      10  GLY   N     N   116.800
+  107      10  GLY   CA    C    45.011
+  108      10  GLY   HA2   H     3.637
+  109      10  GLY   HA3   H     4.352
+  110      11  LYS   C     C   175.225
+  111      11  LYS   H     H     7.762
+  112      11  LYS   N     N   119.375
+  113      11  LYS   CA    C    54.103
+  114      11  LYS   HA    H     4.535
+  115      11  LYS   CB    C    32.690
+  116      11  LYS   HB2   H     1.878
+  117      11  LYS   HB3   H     2.036
+  118      11  LYS   CG    C    25.798
+  119      11  LYS   HG2   H     1.311
+  120      11  LYS   HG3   H     1.414
+  121      11  LYS   CD    C    28.468
+  122      11  LYS   HD2   H     1.596
+  123      11  LYS   HD3   H     1.596
+  124      11  LYS   CE    C    42.635
+  125      11  LYS   HE2   H     2.995
+  126      11  LYS   HE3   H     2.995
+  127      12  SER   C     C   176.047
+  128      12  SER   H     H     8.517
+  129      12  SER   N     N   115.953
+  130      12  SER   CA    C    58.071
+  131      12  SER   HA    H     4.931
+  132      12  SER   CB    C    65.290
+  133      12  SER   HB2   H     4.054
+  134      12  SER   HB3   H     4.410
+  135      13  VAL   C     C   176.747
+  136      13  VAL   H     H     8.314
+  137      13  VAL   N     N   121.788
+  138      13  VAL   CA    C    66.366
+  139      13  VAL   HA    H     3.563
+  140      13  VAL   CB    C    31.737
+  141      13  VAL   HB    H     1.983
+  142      13  VAL   CG1   C    21.122
+  143      13  VAL   CG2   C    24.335
+  144      14  GLU   C     C   179.388
+  145      14  GLU   H     H     8.266
+  146      14  GLU   N     N   119.108
+  147      14  GLU   CA    C    59.715
+  148      14  GLU   HA    H     3.902
+  149      14  GLU   CB    C    28.772
+  150      14  GLU   HB2   H     1.986
+  151      14  GLU   HB3   H     1.986
+  152      14  GLU   CG    C    35.849
+  153      14  GLU   HG2   H     2.330
+  154      14  GLU   HG3   H     2.330
+  155      15  GLU   C     C   178.269
+  156      15  GLU   H     H     7.624
+  157      15  GLU   N     N   120.860
+  158      15  GLU   CA    C    58.795
+  159      15  GLU   HA    H     3.973
+  160      15  GLU   CB    C    29.506
+  161      15  GLU   HB2   H     1.976
+  162      15  GLU   HB3   H     2.150
+  163      15  GLU   CG    C    35.680
+  164      15  GLU   HG2   H     2.201
+  165      15  GLU   HG3   H     2.284
+  166      16  ALA   C     C   178.732
+  167      16  ALA   H     H     8.381
+  168      16  ALA   N     N   120.692
+  169      16  ALA   CA    C    54.616
+  170      16  ALA   HA    H     4.003
+  171      16  ALA   CB    C    19.388
+  172      16  ALA   HB   H     1.339
+  173      17  LYS   C     C   176.889
+  174      17  LYS   H     H     8.470
+  175      17  LYS   N     N   116.508
+  176      17  LYS   CA    C    60.721
+  177      17  LYS   HA    H     3.418
+  178      17  LYS   CB    C    32.713
+  179      17  LYS   HB2   H     1.575
+  180      17  LYS   HB3   H     1.677
+  181      17  LYS   CG    C    26.506
+  182      17  LYS   HG2   H     1.082
+  183      17  LYS   HG3   H     1.082
+  184      17  LYS   CD    C    29.868
+  185      17  LYS   HD2   H     1.522
+  186      17  LYS   HD3   H     1.522
+  187      17  LYS   CE    C    41.292
+  188      17  LYS   HE2   H     2.609
+  189      17  LYS   HE3   H     2.686
+  190      18  LYS   C     C   179.222
+  191      18  LYS   H     H     6.923
+  192      18  LYS   N     N   116.031
+  193      18  LYS   CA    C    59.372
+  194      18  LYS   HA    H     3.806
+  195      18  LYS   CB    C    32.435
+  196      18  LYS   HB2   H     1.849
+  197      18  LYS   HB3   H     1.849
+  198      18  LYS   CG    C    25.130
+  199      18  LYS   HG2   H     1.303
+  200      18  LYS   HG3   H     1.536
+  201      18  LYS   CD    C    29.556
+  202      18  LYS   HD2   H     1.635
+  203      18  LYS   HD3   H     1.635
+  204      18  LYS   CE    C    41.923
+  205      18  LYS   HE2   H     2.910
+  206      18  LYS   HE3   H     2.910
+  207      19  VAL   C     C   178.040
+  208      19  VAL   H     H     7.388
+  209      19  VAL   N     N   119.867
+  210      19  VAL   CA    C    66.166
+  211      19  VAL   HA    H     3.549
+  212      19  VAL   CB    C    32.368
+  213      19  VAL   HB    H     1.931
+  214      19  VAL   CG1   C    22.455
+  215      19  VAL   CG2   C    22.455
+  216      19  VAL   HG11  H     0.999
+  217      19  VAL   HG12  H     0.999
+  218      19  VAL   HG13  H     0.999
+  219      19  VAL   HG21  H     1.032
+  220      19  VAL   HG22  H     1.032
+  221      19  VAL   HG23  H     1.032
+  222      20  ILE   C     C   177.403
+  223      20  ILE   H     H     8.080
+  224      20  ILE   N     N   120.109
+  225      20  ILE   CA    C    65.353
+  226      20  ILE   HA    H     2.912
+  227      20  ILE   CB    C    37.045
+  228      20  ILE   HB    H     1.158
+  229      20  ILE   CG1   C    27.830
+  230      20  ILE   CG2   C    16.918
+  231      20  ILE   HG12  H    -1.124
+  232      20  ILE   HG13  H     0.636
+  233      20  ILE   HG2  H     0.053
+  234      20  ILE   CD1   C    14.373
+  235      20  ILE   HD1  H    -0.132
+  236      21  LEU   C     C   179.475
+  237      21  LEU   H     H     7.878
+  238      21  LEU   N     N   116.524
+  239      21  LEU   CA    C    56.717
+  240      21  LEU   HA    H     4.045
+  241      21  LEU   CB    C    41.208
+  242      21  LEU   HB2   H     1.331
+  243      21  LEU   HB3   H     1.712
+  244      21  LEU   CG    C    27.627
+  245      21  LEU   HG    H     1.605
+  246      21  LEU   CD1   C    25.324
+  247      21  LEU   CD2   C    23.417
+  248      21  LEU   HD11  H     0.874
+  249      21  LEU   HD12  H     0.874
+  250      21  LEU   HD13  H     0.874
+  251      21  LEU   HD21  H     0.773
+  252      21  LEU   HD22  H     0.773
+  253      21  LEU   HD23  H     0.773
+  254      22  GLN   C     C   177.657
+  255      22  GLN   H     H     7.261
+  256      22  GLN   N     N   118.388
+  257      22  GLN   CA    C    58.262
+  258      22  GLN   HA    H     4.066
+  259      22  GLN   CB    C    28.515
+  260      22  GLN   HB2   H     2.185
+  261      22  GLN   HB3   H     2.254
+  262      22  GLN   CG    C    34.149
+  263      22  GLN   HG2   H     2.407
+  264      22  GLN   HG3   H     2.490
+  265      22  GLN   CD    C   180.662
+  266      22  GLN   HE21  H     7.512
+  267      22  GLN   HE22  H     6.793
+  268      22  GLN   NE2   N   112.312
+  269      23  ASP   C     C   176.728
+  270      23  ASP   H     H     7.565
+  271      23  ASP   N     N   118.878
+  272      23  ASP   CA    C    56.324
+  273      23  ASP   HA    H     4.650
+  274      23  ASP   CB    C    42.918
+  275      23  ASP   HB2   H     2.950
+  276      23  ASP   HB3   H     3.025
+  277      24  LYS   C     C   171.667
+  278      24  LYS   H     H     9.096
+  279      24  LYS   N     N   124.627
+  280      24  LYS   CA    C    53.872
+  281      24  LYS   HA    H     4.691
+  282      24  LYS   CB    C    33.949
+  283      24  LYS   HB2   H     1.565
+  284      24  LYS   HB3   H     2.048
+  285      24  LYS   CG    C    26.638
+  286      24  LYS   HG2   H     0.983
+  287      24  LYS   HG3   H     1.646
+  288      24  LYS   CD    C    30.361
+  289      24  LYS   HD2   H     1.323
+  290      24  LYS   HD3   H     1.961
+  291      24  LYS   CE    C    43.055
+  292      24  LYS   HE2   H     3.118
+  293      24  LYS   HE3   H     2.610
+  294      25  PRO   HA    H     4.657
+  295      25  PRO   HB2   H     2.425
+  296      25  PRO   HG2   H     1.911
+  297      25  PRO   HG3   H     2.038
+  298      25  PRO   HD2   H     3.396
+  299      25  PRO   HD3   H     3.707
+  300      26  GLU   C     C   175.902
+  301      26  GLU   H     H     9.431
+  302      26  GLU   N     N   118.398
+  303      26  GLU   CA    C    55.558
+  304      26  GLU   HA    H     4.407
+  305      26  GLU   CB    C    28.006
+  306      26  GLU   HB2   H     2.042
+  307      26  GLU   HB3   H     2.042
+  308      26  GLU   CG    C    35.864
+  309      26  GLU   HG2   H     2.409
+  310      26  GLU   HG3   H     2.409
+  311      27  ALA   C     C   177.080
+  312      27  ALA   H     H     7.971
+  313      27  ALA   N     N   123.765
+  314      27  ALA   CA    C    52.919
+  315      27  ALA   HA    H     4.137
+  316      27  ALA   CB    C    19.007
+  317      27  ALA   HB   H     1.099
+  318      28  GLN   C     C   174.521
+  319      28  GLN   H     H     8.923
+  320      28  GLN   N     N   123.984
+  321      28  GLN   CA    C    54.101
+  322      28  GLN   HA    H     4.334
+  323      28  GLN   CB    C    28.276
+  324      28  GLN   HB2   H     1.772
+  325      28  GLN   HB3   H     1.877
+  326      28  GLN   CG    C    33.198
+  327      28  GLN   HG2   H     2.137
+  328      28  GLN   HG3   H     2.273
+  329      28  GLN   CD    C   180.274
+  330      28  GLN   HE21  H     7.313
+  331      28  GLN   HE22  H     6.688
+  332      28  GLN   NE2   N   113.510
+  333      29  ILE   C     C   175.958
+  334      29  ILE   H     H     8.285
+  335      29  ILE   N     N   126.811
+  336      29  ILE   CA    C    60.288
+  337      29  ILE   HA    H     4.694
+  338      29  ILE   CB    C    37.879
+  339      29  ILE   HB    H     1.628
+  340      29  ILE   CG1   C    28.400
+  341      29  ILE   CG2   C    17.333
+  342      29  ILE   HG12  H     0.755
+  343      29  ILE   HG13  H     1.357
+  344      29  ILE   HG2  H     0.609
+  345      29  ILE   CD1   C    13.432
+  346      29  ILE   HD1  H     0.602
+  347      30  ILE   C     C   173.302
+  348      30  ILE   H     H     7.859
+  349      30  ILE   N     N   129.977
+  350      30  ILE   CA    C    58.699
+  351      30  ILE   HA    H     4.376
+  352      30  ILE   CB    C    40.915
+  353      30  ILE   HB    H     1.509
+  354      30  ILE   CG1   C    27.132
+  355      30  ILE   CG2   C    16.732
+  356      30  ILE   HG12  H     1.054
+  357      30  ILE   HG13  H     1.273
+  358      30  ILE   HG2  H     0.774
+  359      30  ILE   CD1   C    12.387
+  360      30  ILE   HD1  H     0.707
+  361      31  VAL   C     C   175.490
+  362      31  VAL   H     H     8.448
+  363      31  VAL   N     N   129.088
+  364      31  VAL   CA    C    61.695
+  365      31  VAL   HA    H     4.638
+  366      31  VAL   CB    C    32.503
+  367      31  VAL   HB    H     1.856
+  368      31  VAL   CG1   C    22.395
+  369      32  LEU   H     H     9.081
+  370      32  LEU   N     N   130.156
+  371      32  LEU   CA    C    51.807
+  372      32  LEU   HA    H     4.956
+  373      32  LEU   CB    C    45.486
+  374      32  LEU   HB2   H     1.179
+  375      32  LEU   HB3   H     1.292
+  376      32  LEU   CG    C    23.788
+  377      32  LEU   HG    H     0.726
+  378      32  LEU   CD1   C    26.558
+  379      32  LEU   CD2   C    26.558
+  380      32  LEU   HD11  H     1.216
+  381      32  LEU   HD12  H     1.216
+  382      32  LEU   HD13  H     1.216
+  383      32  LEU   HD21  H     0.506
+  384      32  LEU   HD22  H     0.506
+  385      32  LEU   HD23  H     0.506
+  386      33  PRO   HB2   H     2.474
+  387      33  PRO   HB3   H     1.761
+  388      33  PRO   HG2   H     1.977
+  389      33  PRO   HG3   H     2.068
+  390      33  PRO   HD2   H     3.607
+  391      33  PRO   HD3   H     3.848
+  392      34  VAL   C     C   174.714
+  393      34  VAL   H     H     8.913
+  394      34  VAL   N     N   126.315
+  395      34  VAL   CA    C    64.149
+  396      34  VAL   HA    H     3.997
+  397      34  VAL   CB    C    32.107
+  398      34  VAL   HB    H     1.731
+  399      34  VAL   CG1   C    19.758
+  400      34  VAL   CG2   C    21.803
+  401      35  GLY   C     C   174.654
+  402      35  GLY   H     H     8.925
+  403      35  GLY   N     N   116.564
+  404      35  GLY   CA    C    44.518
+  405      35  GLY   HA2   H     3.494
+  406      35  GLY   HA3   H     4.313
+  407      36  THR   C     C   173.264
+  408      36  THR   H     H     7.575
+  409      36  THR   N     N   118.596
+  410      36  THR   CA    C    64.752
+  411      36  THR   HA    H     4.002
+  412      36  THR   CB    C    69.706
+  413      36  THR   HB    H     4.059
+  414      36  THR   CG2   C    21.790
+  415      36  THR   HG2  H     1.295
+  416      37  ILE   C     C   176.099
+  417      37  ILE   H     H     8.545
+  418      37  ILE   N     N   129.707
+  419      37  ILE   CA    C    61.437
+  420      37  ILE   HA    H     4.031
+  421      37  ILE   CB    C    37.298
+  422      37  ILE   HB    H     1.811
+  423      37  ILE   CG1   C    27.818
+  424      37  ILE   CG2   C    17.064
+  425      37  ILE   HG12  H     1.272
+  426      37  ILE   HG13  H     1.596
+  427      37  ILE   HG2  H     0.859
+  428      37  ILE   CD1   C    11.963
+  429      37  ILE   HD1  H     0.840
+  430      38  VAL   C     C   176.284
+  431      38  VAL   H     H     8.037
+  432      38  VAL   N     N   121.112
+  433      38  VAL   CA    C    58.905
+  434      38  VAL   HA    H     4.779
+  435      38  VAL   CB    C    34.952
+  436      38  VAL   HB    H     2.313
+  437      38  VAL   CG1   C    18.376
+  438      38  VAL   CG2   C    22.438
+  439      39  THR   C     C   176.112
+  440      39  THR   H     H     7.935
+  441      39  THR   N     N   112.898
+  442      39  THR   CA    C    61.693
+  443      39  THR   HA    H     4.395
+  444      39  THR   CB    C    68.903
+  445      39  THR   HB    H     4.571
+  446      39  THR   CG2   C    22.180
+  447      39  THR   HG2  H     1.255
+  448      40  MET   C     C   176.530
+  449      40  MET   H     H     8.495
+  450      40  MET   N     N   118.412
+  451      40  MET   CA    C    55.717
+  452      40  MET   HA    H     4.565
+  453      40  MET   CB    C    32.378
+  454      40  MET   HB2   H     1.948
+  455      40  MET   HB3   H     2.284
+  456      40  MET   CG    C    30.492
+  457      40  MET   HG2   H     2.517
+  458      40  MET   HG3   H     2.684
+  459      41  GLU   C     C   174.199
+  460      41  GLU   H     H     8.519
+  461      41  GLU   N     N   124.786
+  462      41  GLU   CA    C    57.023
+  463      41  GLU   HA    H     4.261
+  464      41  GLU   CB    C    28.962
+  465      41  GLU   HB2   H     1.967
+  466      41  GLU   HB3   H     2.112
+  467      41  GLU   CG    C    35.869
+  468      41  GLU   HG2   H     2.367
+  469      41  GLU   HG3   H     2.367
+  470      42  TYR   C     C   175.678
+  471      42  TYR   H     H     8.600
+  472      42  TYR   N     N   126.134
+  473      42  TYR   CA    C    57.631
+  474      42  TYR   HA    H     4.834
+  475      42  TYR   CB    C    39.909
+  476      42  TYR   HB2   H     2.899
+  477      42  TYR   HB3   H     2.983
+  478      42  TYR   HD1   H     7.276
+  479      42  TYR   HD2   H     7.127
+  480      42  TYR   HE1   H     6.639
+  481      42  TYR   HE2   H     6.555
+  482      43  ARG   C     C   175.261
+  483      43  ARG   H     H     8.791
+  484      43  ARG   N     N   132.043
+  485      43  ARG   CA    C    54.136
+  486      43  ARG   HA    H     4.460
+  487      43  ARG   CB    C    32.153
+  488      43  ARG   HB2   H     1.413
+  489      43  ARG   HB3   H     1.707
+  490      43  ARG   CG    C    27.135
+  491      43  ARG   HG2   H     1.498
+  492      43  ARG   HG3   H     1.498
+  493      43  ARG   CD    C    43.227
+  494      43  ARG   HD2   H     3.051
+  495      43  ARG   HD3   H     3.101
+  496      43  ARG   HE    H     7.834
+  497      43  ARG   NE    N    85.943
+  498      44  ILE   C     C   174.213
+  499      44  ILE   H     H     8.000
+  500      44  ILE   N     N   122.476
+  501      44  ILE   CA    C    62.746
+  502      44  ILE   HA    H     3.631
+  503      44  ILE   CB    C    39.157
+  504      44  ILE   HB    H     1.839
+  505      44  ILE   CG1   C    28.701
+  506      44  ILE   CG2   C    16.386
+  507      44  ILE   HG12  H     1.311
+  508      44  ILE   HG13  H     1.557
+  509      44  ILE   HG2  H     0.903
+  510      44  ILE   CD1   C    14.384
+  511      44  ILE   HD1  H     0.955
+  512      45  ASP   C     C   173.962
+  513      45  ASP   H     H     8.284
+  514      45  ASP   N     N   116.494
+  515      45  ASP   CA    C    53.187
+  516      45  ASP   HA    H     4.326
+  517      45  ASP   CB    C    40.398
+  518      45  ASP   HB2   H     2.629
+  519      45  ASP   HB3   H     2.753
+  520      46  ARG   C     C   174.377
+  521      46  ARG   H     H     7.242
+  522      46  ARG   N     N   123.709
+  523      46  ARG   CA    C    55.337
+  524      46  ARG   HA    H     4.915
+  525      46  ARG   CB    C    34.173
+  526      46  ARG   HB2   H     1.200
+  527      46  ARG   HB3   H     2.200
+  528      46  ARG   CG    C    25.806
+  529      46  ARG   HG2   H     1.437
+  530      46  ARG   HG3   H     1.614
+  531      46  ARG   CD    C    44.564
+  532      46  ARG   HD2   H     2.969
+  533      46  ARG   HD3   H     2.969
+  534      46  ARG   HE    H     9.213
+  535      46  ARG   NE    N    83.984
+  536      47  VAL   C     C   174.911
+  537      47  VAL   H     H     8.071
+  538      47  VAL   N     N   123.164
+  539      47  VAL   CA    C    62.026
+  540      47  VAL   HA    H     4.348
+  541      47  VAL   CB    C    35.207
+  542      47  VAL   HB    H     1.587
+  543      47  VAL   CG1   C    21.749
+  544      47  VAL   HG11  H     0.521
+  545      47  VAL   HG12  H     0.521
+  546      47  VAL   HG13  H     0.521
+  547      47  VAL   HG21  H     0.660
+  548      47  VAL   HG22  H     0.660
+  549      47  VAL   HG23  H     0.660
+  550      48  ARG   C     C   175.457
+  551      48  ARG   H     H     8.966
+  552      48  ARG   N     N   126.552
+  553      48  ARG   CA    C    55.564
+  554      48  ARG   HA    H     4.616
+  555      48  ARG   CB    C    31.082
+  556      48  ARG   HB2   H     0.815
+  557      48  ARG   HB3   H     1.779
+  558      48  ARG   CG    C    29.184
+  559      48  ARG   HG2   H     1.177
+  560      48  ARG   HG3   H     1.572
+  561      48  ARG   CD    C    43.929
+  562      48  ARG   HD2   H     2.870
+  563      48  ARG   HD3   H     3.267
+  564      48  ARG   HE    H     7.631
+  565      48  ARG   NE    N    83.438
+  566      49  LEU   C     C   174.054
+  567      49  LEU   H     H     9.016
+  568      49  LEU   N     N   124.208
+  569      49  LEU   CA    C    52.236
+  570      49  LEU   HA    H     4.749
+  571      49  LEU   CB    C    42.199
+  572      49  LEU   HB2   H     0.922
+  573      49  LEU   HB3   H     1.710
+  574      49  LEU   CG    C    23.305
+  575      49  LEU   HG    H     0.589
+  576      49  LEU   CD1   C    26.490
+  577      49  LEU   HD11  H     1.424
+  578      49  LEU   HD12  H     1.424
+  579      49  LEU   HD13  H     1.424
+  580      49  LEU   HD21  H     0.573
+  581      49  LEU   HD22  H     0.573
+  582      49  LEU   HD23  H     0.573
+  583      50  PHE   C     C   177.269
+  584      50  PHE   H     H     9.043
+  585      50  PHE   N     N   123.524
+  586      50  PHE   CA    C    56.369
+  587      50  PHE   HA    H     5.651
+  588      50  PHE   CB    C    40.410
+  589      50  PHE   HB2   H     2.555
+  590      50  PHE   HB3   H     2.824
+  591      50  PHE   HD1   H     7.193
+  592      51  VAL   C     C   176.943
+  593      51  VAL   H     H     8.696
+  594      51  VAL   N     N   115.505
+  595      51  VAL   CA    C    58.591
+  596      51  VAL   HA    H     5.309
+  597      51  VAL   CB    C    35.987
+  598      51  VAL   HB    H     2.022
+  599      51  VAL   CG1   C    17.738
+  600      51  VAL   CG2   C    21.807
+  601      51  VAL   HG11  H     0.574
+  602      51  VAL   HG12  H     0.574
+  603      51  VAL   HG13  H     0.574
+  604      51  VAL   HG21  H     0.781
+  605      51  VAL   HG22  H     0.781
+  606      51  VAL   HG23  H     0.781
+  607      52  ASP   C     C   178.294
+  608      52  ASP   H     H     8.770
+  609      52  ASP   N     N   124.248
+  610      52  ASP   CA    C    52.249
+  611      52  ASP   HA    H     4.698
+  612      52  ASP   CB    C    41.649
+  613      52  ASP   HB2   H     2.602
+  614      52  ASP   HB3   H     3.409
+  615      53  LYS   C     C   176.970
+  616      53  LYS   H     H     8.193
+  617      53  LYS   N     N   116.797
+  618      53  LYS   CA    C    58.270
+  619      53  LYS   HA    H     4.135
+  620      53  LYS   CB    C    32.015
+  621      53  LYS   HB2   H     1.877
+  622      53  LYS   HB3   H     1.877
+  623      53  LYS   CG    C    25.088
+  624      53  LYS   HG2   H     1.486
+  625      53  LYS   HG3   H     1.486
+  626      53  LYS   CD    C    29.177
+  627      53  LYS   HD2   H     1.692
+  628      53  LYS   HD3   H     1.692
+  629      53  LYS   CE    C    41.975
+  630      53  LYS   HE2   H     2.980
+  631      53  LYS   HZ   H     7.520
+  632      53  LYS   NZ    N    33.324
+  633      54  LEU   C     C   176.152
+  634      54  LEU   H     H     7.987
+  635      54  LEU   N     N   121.712
+  636      54  LEU   CA    C    54.270
+  637      54  LEU   HA    H     4.378
+  638      54  LEU   CB    C    41.265
+  639      54  LEU   HB2   H     1.673
+  640      54  LEU   HB3   H     1.771
+  641      54  LEU   CG    C    27.396
+  642      54  LEU   HG    H     1.497
+  643      54  LEU   CD1   C    25.202
+  644      54  LEU   CD2   C    23.111
+  645      54  LEU   HD11  H     0.871
+  646      54  LEU   HD12  H     0.871
+  647      54  LEU   HD13  H     0.871
+  648      54  LEU   HD21  H     0.798
+  649      54  LEU   HD22  H     0.798
+  650      54  LEU   HD23  H     0.798
+  651      55  ASP   C     C   173.255
+  652      55  ASP   H     H     8.233
+  653      55  ASP   N     N   115.553
+  654      55  ASP   CA    C    55.230
+  655      55  ASP   HA    H     4.148
+  656      55  ASP   CB    C    37.971
+  657      55  ASP   HB2   H     2.871
+  658      55  ASP   HB3   H     3.271
+  659      56  ASN   C     C   176.288
+  660      56  ASN   H     H     8.177
+  661      56  ASN   N     N   115.294
+  662      56  ASN   CA    C    51.258
+  663      56  ASN   HA    H     5.359
+  664      56  ASN   CB    C    39.888
+  665      56  ASN   HB2   H     1.965
+  666      56  ASN   HB3   H     2.955
+  667      56  ASN   CG    C   175.786
+  668      56  ASN   HD21  H     7.982
+  669      56  ASN   HD22  H     6.630
+  670      56  ASN   ND2   N   114.840
+  671      57  ILE   C     C   178.616
+  672      57  ILE   H     H     9.089
+  673      57  ILE   N     N   120.432
+  674      57  ILE   CA    C    60.626
+  675      57  ILE   HA    H     3.943
+  676      57  ILE   CB    C    34.706
+  677      57  ILE   HB    H     2.538
+  678      57  ILE   CG1   C    27.874
+  679      57  ILE   CG2   C    20.446
+  680      57  ILE   HG12  H     1.131
+  681      57  ILE   HG13  H     1.704
+  682      57  ILE   HG2  H     1.020
+  683      57  ILE   CD1   C    12.139
+  684      57  ILE   HD1  H     0.659
+  685      58  ALA   C     C   176.258
+  686      58  ALA   H     H     9.523
+  687      58  ALA   N     N   132.557
+  688      58  ALA   CA    C    52.562
+  689      58  ALA   HA    H     4.619
+  690      58  ALA   CB    C    21.778
+  691      58  ALA   HB   H     1.385
+  692      59  GLN   C     C   175.328
+  693      59  GLN   H     H     7.256
+  694      59  GLN   N     N   115.000
+  695      59  GLN   CA    C    53.512
+  696      59  GLN   HA    H     4.709
+  697      59  GLN   CB    C    33.549
+  698      59  GLN   HB2   H     1.931
+  699      59  GLN   HB3   H     2.068
+  700      59  GLN   CG    C    31.779
+  701      59  GLN   HG2   H     2.131
+  702      59  GLN   HG3   H     2.260
+  703      59  GLN   CD    C   179.088
+  704      59  GLN   HE21  H     7.358
+  705      59  GLN   HE22  H     6.440
+  706      59  GLN   NE2   N   113.117
+  707      60  VAL   C     C   174.630
+  708      60  VAL   H     H     8.895
+  709      60  VAL   N     N   126.410
+  710      60  VAL   CA    C    62.562
+  711      60  VAL   HA    H     3.558
+  712      60  VAL   CB    C    32.892
+  713      60  VAL   HB    H     2.066
+  714      60  VAL   CG1   C    20.210
+  715      60  VAL   CG2   C    22.346
+  716      60  VAL   HG11  H     0.825
+  717      60  VAL   HG12  H     0.825
+  718      60  VAL   HG13  H     0.825
+  719      60  VAL   HG21  H     1.132
+  720      60  VAL   HG22  H     1.132
+  721      60  VAL   HG23  H     1.132
+  722      62  ARG   C     C   175.431
+  723      62  ARG   H     H     9.296
+  724      62  ARG   N     N   123.861
+  725      62  ARG   CA    C    54.763
+  726      62  ARG   HA    H     5.686
+  727      62  ARG   CB    C    34.716
+  728      62  ARG   HB2   H     1.956
+  729      62  ARG   HB3   H     2.033
+  730      62  ARG   CG    C    27.150
+  731      62  ARG   HG2   H     1.797
+  732      62  ARG   HG3   H     1.797
+  733      62  ARG   CD    C    43.924
+  734      62  ARG   HD2   H     3.301
+  735      62  ARG   HD3   H     3.301
+  736      62  ARG   HE    H     7.299
+  737      62  ARG   NE    N    86.279
+  738      63  VAL   C     C   176.178
+  739      63  VAL   H     H     8.471
+  740      63  VAL   N     N   123.007
+  741      63  VAL   CA    C    62.843
+  742      63  VAL   HA    H     4.620
+  743      63  VAL   CB    C    33.131
+  744      63  VAL   HB    H     2.173
+  745      63  VAL   CG1   C    23.071
+  746      63  VAL   HG11  H     1.120
+  747      63  VAL   HG12  H     1.120
+  748      63  VAL   HG13  H     1.120
+  749      63  VAL   HG21  H     1.263
+  750      63  VAL   HG22  H     1.263
+  751      63  VAL   HG23  H     1.263
+  752      64  GLY   C     C   180.523
+  753      64  GLY   H     H     8.738
+  754      64  GLY   N     N   122.817
+  755      64  GLY   CA    C    47.239
+  756      64  GLY   HA2   H     3.007
+  757      64  GLY   HA3   H     4.225
