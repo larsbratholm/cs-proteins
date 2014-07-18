@@ -15,6 +15,7 @@ for line in pdb:
 
 # assuming that the atom index starts at 1
 for line in data:
+    print line
     line_ = line.split()
     out.write(line_[2] + "\t" + residue_list[int(line_[2])-1] + "\t"+ line_[5] + "\t"+ line_[7] + "\t"+ residue_list[int(line_[7])-1] + "\t"+ line_[10][:-1] + "\t"+ line_[-1].split("=")[1]+ "\n")
 out.close()
