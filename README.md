@@ -13,17 +13,17 @@ Contents
 | Protein name            | Length  | PDB source       | CS source   | NOE source | RMSD range        | Folds to | Refines to |
 | ------------------------|--------:|------------------|-------------|------------|------------------:|:--------:|:----------:|
 | protein\_g              | 56      | 2oed             | RefDB 2575  | ?          | All               | 0.77 Å   | ?          |
-| smn\_tudor\_domain      | 59      | 1mhn             | RefDB 4899  | ?          | 5-54              | 1.3 Å    | ?          |
+| smn\_tudor\_domain      | 59      | 1mhn             | RefDB 4899  | ?          | 5-54              | 1.2 Å    | ?          |
 | enhd                    | 61      | 1enh             | RefDB 15536 | ?          | 8-53              | 0.78 Å   | ?          |
-| ci2                     | 63      | 1ypa / 3ci2      | Kaare       | ?          | 4-63 or 4-34,43-63| 3.8 Å (3.7 Å w. EV. restraints) | 1.1 Å      |
-| ff\_domain              | 71      | 1uzc             | RefDB 5537  | ?          | 11-67             | 2.8 Å    | 1.3 Å      |
+| ci2                     | 63      | 1ypa / 3ci2      | Kaare       | ?          | 4-63 or 4-34,43-63| 3.8 Å (3.7 Å w. EV. restraints) | 1.1 Å (0.94 Å w. noes)   |
+| ff\_domain              | 71      | 1uzc             | RefDB 5537  | ?          | 11-67             | 2.8 Å    | 1.0 Å      |
 | ubiquitin               | 76      | 1ubi             | RefDB 17769 | ?          | 1-70              | 4.2 Å    | ?          |
 | apo\_lfabp              | 129     | 1lfo             | RefDB 15429 | Synthetic  | All               | N/A      |            |
 | prolactin               | 199     | 1rws             | BMRB 5599   | Synthetic  | 6-183             | yes      |            |
 | top7                    | 120     | 2mbl             | BMRB 19404  | Synthetic  | 5-104             | yes      |            |
 | msrb                    | 151     | 3e0o / 2kzn      | BMRB 17008  | Synthetic  | 36-105            | 4.2 Å    | 3.8 Å      |
 | wr73                    | 183     | 2loy             | BMRB 16833  | Langer PNAS| 1-36,66-181       | 4.5 Å    | ?          |
-| hr4660b                 | 174     | 2lmd             | BMRB 1870   | BMRB 1870  | 16-162            | 4.2 Å    | 4.0 Å      |
+| hr4660b                 | 174     | 2lmd             | BMRB 1870   | BMRB 1870  | 16-162            | 4.2 Å    | 4.1 Å      |
 | rhodopsin               | 219 (no tail) | 2ksy       | BMRB 16678  | Synthetic  | all               | 2.7 Å    | 1.9 Å      |
 | savinase                | 269     | 1svn             | ?           | Homology   | all               | 5.1 Å    | ?          |
 | mbp                     | 376     | 1ez9             | BMRB 6807   | Synthetic ILV // Mueller et al. * | See note. \*\*| N/A |   |
