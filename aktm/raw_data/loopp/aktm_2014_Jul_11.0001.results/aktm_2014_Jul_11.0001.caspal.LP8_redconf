@@ -1,0 +1,737 @@
+PFRMAT AL
+TARGET aktm_2014_Jul_11.0001
+AUTHOR LOOPP_Austin
+REMARK LOOPP v3.20 Junior with LOOPP driver v7.0
+REMARK (compiled Nov 2010)
+REMARK prediction finished on Fri Jul 11 14:09:26 2014
+REMARK All files are at
+REMARK file:////share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/aktm_2014_Jul_11.0001.out.htm
+METHOD Automated LOOPP protein structure prediction server.
+METHOD http://cbsuapps.tc.cornell.edu/loopp.aspx
+METHOD LOOPP is a fold recognition program based on the collection
+METHOD of numerous signals, merging them into a single score, and 
+METHOD generating atomic coordinates based on an alignment into a 
+METHOD homologue template structure. The signals we are using include
+METHOD straightforward sequence alignment, sequence profile, threading,
+METHOD secondary structure and exposed surface area prediction. 
+METHOD (Secondary structure and exposed surface prediction program
+METHOD (sable) was developed in the group of our collaborator Professor
+METHOD Jaroslaw Meller). These individual signals are combined locally
+METHOD to create mixed models and globally to provide overall scores. 
+METHOD Computations of scores to those that can be done quickly are 
+METHOD performed for all proteins in our database and expensive scores
+METHOD (such as Z score calculations) are computed only for those that
+METHOD score highly with the 'cheap' score. Atomic models are then
+METHOD generated using an alignment produced by the scoring scheme and
+METHOD the Modeller program of Andrej Sali. The final atomic structure
+METHOD is evaluated by additional energy scores. The energies used, and
+METHOD the combination of individual scores are determined by a
+METHOD Mathematical Programming algorithm.
+MODEL 1
+PARENT 1IM8_B
+V  10    V  17  
+P  11    P  18  
+T  12    G  19  
+P  13    Y  20  
+E  14    S  21  
+K  15    N  22  
+V  16    I  23  
+V  17    I  24  
+R  18    T  25  
+R  19    A  26  
+M  20    I  27  
+L  21    G  28  
+E  22    M  29  
+I  23    L  30  
+A  24    A  31  
+K  25    E  32  
+V  26    V  35  
+S  27    T  36  
+Q  28    A  37  
+D  29    D  38  
+D  30    S  39  
+I  31    N  40  
+V  32    V  41  
+Y  33    Y  42  
+D  34    D  43  
+L  35    L  44  
+G  36    G  45  
+C  37    C  46  
+G  38    S  47  
+D  39    R  48  
+G  40    G  49  
+R  41    A  50  
+I  42    A  51  
+I  43    T  52  
+I  44    L  53  
+T  45    S  54  
+A  46    A  55  
+A  47    R  56  
+K  48    R  57  
+D  49    N  58  
+F  50    I  59  
+N  51    N  60  
+V  52    Q  61  
+K  53    P  62  
+K  54    K  65  
+A  55    I  66  
+V  56    I  67  
+G  57    G  68  
+V  58    I  69  
+E  59    D  70  
+I  60    N  71  
+N  61    S  72  
+D  62    Q  73  
+E  63    P  74  
+R  64    M  75  
+I  65    V  76  
+R  66    E  77  
+E  67    R  78  
+A  68    C  79  
+L  69    R  80  
+A  70    Q  81  
+N  71    H  82  
+I  72    I  83  
+E  73    A  84  
+K  74    A  85  
+N  75    Y  86  
+G  76    H  87  
+V  77    S  88  
+T  78    E  89  
+G  79    I  90  
+R  80    P  91  
+A  81    V  92  
+S  82    E  93  
+I  83    I  94  
+V  84    L  95  
+K  85    C  96  
+G  86    N  97  
+N  87    D  98  
+F  88    I  99  
+F  89    R  100 
+E  90    H  101 
+V  91    V  102 
+D  92    E  103 
+I  93    I  104 
+S  94    K  105 
+E  95    N  106 
+A  96    A  107 
+T  97    S  108 
+V  98    M  109 
+V  99    V  110 
+T  100   I  111 
+M  101   L  112 
+F  102   N  113 
+L  103   F  114 
+L  104   T  115 
+T  105   L  116 
+N  106   E  122 
+V  107   D  123 
+N  108   R  124 
+E  109   I  125 
+M  110   A  126 
+L  111   L  127 
+K  112   L  128 
+P  113   T  129 
+K  114   K  130 
+L  115   I  131 
+E  116   Y  132 
+K  117   E  133 
+E  118   G  134 
+L  119   L  135 
+K  120   N  136 
+P  121   P  137 
+G  122   G  139 
+T  123   V  140 
+R  124   L  141 
+V  125   V  142 
+V  126   L  143 
+S  127   S  144 
+H  128   E  145 
+E  129   K  146 
+F  130   F  147 
+E  131   R  148 
+I  132   F  149 
+R  133   E  150 
+G  134   D  151 
+W  135   T  152 
+N  136   K  153 
+P  137   I  154 
+K  138   N  155 
+E  139   H  156 
+V  140   L  157 
+I  141   L  158 
+K  142   I  159 
+TER
+END
+PFRMAT AL
+TARGET aktm_2014_Jul_11.0001
+AUTHOR LOOPP_Austin
+REMARK LOOPP v3.20 Junior with LOOPP driver v7.0
+REMARK (compiled Nov 2010)
+REMARK prediction finished on Fri Jul 11 14:09:26 2014
+REMARK All files are at
+REMARK file:////share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/aktm_2014_Jul_11.0001.out.htm
+METHOD Automated LOOPP protein structure prediction server.
+METHOD http://cbsuapps.tc.cornell.edu/loopp.aspx
+METHOD LOOPP is a fold recognition program based on the collection
+METHOD of numerous signals, merging them into a single score, and 
+METHOD generating atomic coordinates based on an alignment into a 
+METHOD homologue template structure. The signals we are using include
+METHOD straightforward sequence alignment, sequence profile, threading,
+METHOD secondary structure and exposed surface area prediction. 
+METHOD (Secondary structure and exposed surface prediction program
+METHOD (sable) was developed in the group of our collaborator Professor
+METHOD Jaroslaw Meller). These individual signals are combined locally
+METHOD to create mixed models and globally to provide overall scores. 
+METHOD Computations of scores to those that can be done quickly are 
+METHOD performed for all proteins in our database and expensive scores
+METHOD (such as Z score calculations) are computed only for those that
+METHOD score highly with the 'cheap' score. Atomic models are then
+METHOD generated using an alignment produced by the scoring scheme and
+METHOD the Modeller program of Andrej Sali. The final atomic structure
+METHOD is evaluated by additional energy scores. The energies used, and
+METHOD the combination of individual scores are determined by a
+METHOD Mathematical Programming algorithm.
+MODEL 2
+PARENT 3H5I_A
+P  5     K  1   
+H  6     K  2   
+V  7     I  3   
+P  8     L  4   
+Y  9     I  5   
+V  10    V  6   
+P  11    E  7   
+T  12    D  8   
+P  13    S  9   
+E  14    K  10  
+K  15    F  11  
+V  16    Q  12  
+V  17    A  13  
+R  18    K  14  
+R  19    T  15  
+M  20    I  16  
+L  21    A  17  
+E  22    N  18  
+I  23    I  19  
+A  24    L  20  
+K  25    N  21  
+V  26    K  22  
+S  27    Y  23  
+Q  28    G  24  
+D  29    Y  25  
+D  30    T  26  
+I  31    V  27  
+V  32    E  28  
+Y  33    I  29  
+D  34    A  30  
+L  35    L  31  
+G  36    T  32  
+G  40    G  33  
+R  41    E  34  
+I  42    A  35  
+I  43    A  36  
+I  44    V  37  
+T  45    E  38  
+A  46    K  39  
+A  47    V  40  
+K  48    S  41  
+D  49    G  42  
+F  50    G  43  
+N  51    W  44  
+V  52    Y  45  
+K  53    P  46  
+K  54    D  47  
+A  55    L  48  
+V  56    I  49  
+G  57    L  50  
+V  58    M  51  
+E  59    D  52  
+I  60    I  53  
+N  61    E  54  
+D  62    L  55  
+E  63    D  60  
+R  64    G  61  
+I  65    V  62  
+R  66    Q  63  
+E  67    T  64  
+A  68    A  65  
+L  69    L  66  
+A  70    A  67  
+N  71    I  68  
+I  72    Q  69  
+E  73    Q  70  
+K  74    I  71  
+N  75    S  72  
+G  76    E  73  
+V  77    L  74  
+R  80    P  75  
+A  81    V  76  
+S  82    V  77  
+I  83    F  78  
+V  84    L  79  
+K  85    T  80  
+G  86    A  81  
+N  87    H  82  
+F  88    P  85  
+F  89    A  86  
+E  90    V  87  
+V  91    V  88  
+D  92    E  89  
+I  93    I  91  
+S  94    R  92  
+E  95    S  93  
+A  96    V  94  
+T  97    T  95  
+V  98    A  96  
+V  99    Y  97  
+T  100   G  98  
+M  101   Y  99  
+F  102   V  100 
+L  103   M  101 
+L  104   K  102 
+T  105   S  103 
+N  106   A  104 
+V  107   T  105 
+N  108   E  106 
+E  109   Q  107 
+M  110   V  108 
+L  111   L  109 
+K  112   I  110 
+P  113   T  111 
+K  114   I  112 
+L  115   V  113 
+E  116   E  114 
+K  117   M  115 
+E  118   A  116 
+L  119   L  117 
+K  120   R  118 
+TER
+END
+PFRMAT AL
+TARGET aktm_2014_Jul_11.0001
+AUTHOR LOOPP_Austin
+REMARK LOOPP v3.20 Junior with LOOPP driver v7.0
+REMARK (compiled Nov 2010)
+REMARK prediction finished on Fri Jul 11 14:09:26 2014
+REMARK All files are at
+REMARK file:////share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/aktm_2014_Jul_11.0001.out.htm
+METHOD Automated LOOPP protein structure prediction server.
+METHOD http://cbsuapps.tc.cornell.edu/loopp.aspx
+METHOD LOOPP is a fold recognition program based on the collection
+METHOD of numerous signals, merging them into a single score, and 
+METHOD generating atomic coordinates based on an alignment into a 
+METHOD homologue template structure. The signals we are using include
+METHOD straightforward sequence alignment, sequence profile, threading,
+METHOD secondary structure and exposed surface area prediction. 
+METHOD (Secondary structure and exposed surface prediction program
+METHOD (sable) was developed in the group of our collaborator Professor
+METHOD Jaroslaw Meller). These individual signals are combined locally
+METHOD to create mixed models and globally to provide overall scores. 
+METHOD Computations of scores to those that can be done quickly are 
+METHOD performed for all proteins in our database and expensive scores
+METHOD (such as Z score calculations) are computed only for those that
+METHOD score highly with the 'cheap' score. Atomic models are then
+METHOD generated using an alignment produced by the scoring scheme and
+METHOD the Modeller program of Andrej Sali. The final atomic structure
+METHOD is evaluated by additional energy scores. The energies used, and
+METHOD the combination of individual scores are determined by a
+METHOD Mathematical Programming algorithm.
+MODEL 3
+PARENT 3HAX_D
+V  4     K  1   
+P  5     P  2   
+H  6     S  3   
+V  7     Y  4   
+P  8     V  5   
+Y  9     K  6   
+V  10    F  7   
+P  11    E  8   
+T  12    V  9   
+P  13    P  10  
+E  14    K  11  
+K  15    E  12  
+V  16    L  13  
+V  17    A  14  
+R  18    E  15  
+R  19    K  16  
+M  20    A  17  
+L  21    L  18  
+E  22    Q  19  
+I  23    A  20  
+A  24    V  21  
+K  25    E  22  
+V  26    I  23  
+S  27    A  24  
+Q  28    R  25  
+D  29    D  26  
+D  30    T  27  
+I  31    G  28  
+V  32    K  29  
+Y  33    I  30  
+D  34    R  31  
+L  35    K  32  
+G  36    G  33  
+G  40    T  34  
+R  41    N  35  
+I  42    E  36  
+I  43    T  37  
+I  44    T  38  
+T  45    K  39  
+A  46    A  40  
+A  47    V  41  
+K  48    E  42  
+D  49    R  43  
+F  50    G  44  
+N  51    Q  45  
+V  52    A  46  
+K  53    K  47  
+K  54    L  48  
+A  55    V  49  
+V  56    I  50  
+G  57    I  51  
+V  58    A  52  
+E  59    E  53  
+I  60    D  54  
+N  61    V  55  
+D  62    D  56  
+E  63    E  59  
+R  64    I  60  
+I  65    V  61  
+R  66    A  62  
+E  67    H  63  
+A  68    L  64  
+L  69    P  65  
+A  70    P  66  
+N  71    L  67  
+I  72    C  68  
+E  73    E  69  
+K  74    E  70  
+N  75    K  71  
+G  76    E  72  
+V  77    I  73  
+T  78    P  74  
+A  81    Y  75  
+S  82    I  76  
+I  83    Y  77  
+V  84    V  78  
+K  85    P  79  
+G  86    S  80  
+N  87    K  81  
+F  88    A  87  
+F  89    A  88  
+E  90    G  89  
+V  91    I  90  
+D  92    E  91  
+I  93    V  92  
+E  95    A  93  
+A  96    A  94  
+T  97    A  95  
+V  98    S  96  
+V  99    V  97  
+T  100   A  98  
+M  101   I  99  
+F  102   I  100 
+L  103   E  101 
+L  104   P  102 
+T  105   G  103 
+N  106   D  107 
+V  107   L  108 
+N  108   V  109 
+E  109   E  110 
+M  110   E  111 
+L  111   I  112 
+K  112   A  113 
+P  113   M  114 
+K  114   K  115 
+L  115   V  116 
+E  116   K  117 
+K  117   E  118 
+E  118   L  119 
+L  119   M  120 
+K  120   K  121 
+TER
+END
+PFRMAT AL
+TARGET aktm_2014_Jul_11.0001
+AUTHOR LOOPP_Austin
+REMARK LOOPP v3.20 Junior with LOOPP driver v7.0
+REMARK (compiled Nov 2010)
+REMARK prediction finished on Fri Jul 11 14:09:26 2014
+REMARK All files are at
+REMARK file:////share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/aktm_2014_Jul_11.0001.out.htm
+METHOD Automated LOOPP protein structure prediction server.
+METHOD http://cbsuapps.tc.cornell.edu/loopp.aspx
+METHOD LOOPP is a fold recognition program based on the collection
+METHOD of numerous signals, merging them into a single score, and 
+METHOD generating atomic coordinates based on an alignment into a 
+METHOD homologue template structure. The signals we are using include
+METHOD straightforward sequence alignment, sequence profile, threading,
+METHOD secondary structure and exposed surface area prediction. 
+METHOD (Secondary structure and exposed surface prediction program
+METHOD (sable) was developed in the group of our collaborator Professor
+METHOD Jaroslaw Meller). These individual signals are combined locally
+METHOD to create mixed models and globally to provide overall scores. 
+METHOD Computations of scores to those that can be done quickly are 
+METHOD performed for all proteins in our database and expensive scores
+METHOD (such as Z score calculations) are computed only for those that
+METHOD score highly with the 'cheap' score. Atomic models are then
+METHOD generated using an alignment produced by the scoring scheme and
+METHOD the Modeller program of Andrej Sali. The final atomic structure
+METHOD is evaluated by additional energy scores. The energies used, and
+METHOD the combination of individual scores are determined by a
+METHOD Mathematical Programming algorithm.
+MODEL 4
+PARENT 1PXW_B
+P  5     P  1   
+H  6     S  2   
+V  7     Y  3   
+P  8     V  4   
+Y  9     K  5   
+V  10    F  6   
+P  11    E  7   
+T  12    V  8   
+P  13    P  9   
+E  14    K  10  
+K  15    E  11  
+V  16    L  12  
+V  17    A  13  
+R  18    E  14  
+R  19    K  15  
+M  20    A  16  
+L  21    L  17  
+E  22    Q  18  
+I  23    A  19  
+A  24    V  20  
+K  25    E  21  
+V  26    I  22  
+S  27    A  23  
+Q  28    R  24  
+D  29    D  25  
+D  30    T  26  
+I  31    G  27  
+V  32    K  28  
+Y  33    I  29  
+D  34    R  30  
+L  35    K  31  
+G  36    G  32  
+G  40    T  33  
+R  41    N  34  
+I  42    E  35  
+I  43    T  36  
+I  44    T  37  
+T  45    K  38  
+A  46    A  39  
+A  47    V  40  
+K  48    E  41  
+D  49    R  42  
+F  50    G  43  
+N  51    Q  44  
+V  52    A  45  
+K  53    K  46  
+K  54    L  47  
+A  55    V  48  
+V  56    I  49  
+G  57    I  50  
+V  58    A  51  
+E  59    E  52  
+I  60    D  53  
+N  61    V  54  
+D  62    D  55  
+E  63    E  58  
+R  64    I  59  
+I  65    V  60  
+R  66    A  61  
+E  67    H  62  
+A  68    L  63  
+L  69    P  64  
+A  70    P  65  
+N  71    L  66  
+I  72    C  67  
+E  73    E  68  
+K  74    E  69  
+N  75    K  70  
+G  76    E  71  
+V  77    I  72  
+T  78    P  73  
+S  82    Y  74  
+I  83    I  75  
+V  84    Y  76  
+K  85    V  77  
+G  86    P  78  
+N  87    S  79  
+F  88    K  80  
+F  89    A  87  
+E  90    G  88  
+V  91    I  89  
+D  92    E  90  
+I  93    V  91  
+E  95    A  92  
+A  96    A  93  
+T  97    A  94  
+V  98    S  95  
+V  99    V  96  
+T  100   A  97  
+M  101   I  98  
+F  102   I  99  
+L  103   E  100 
+L  104   P  101 
+T  105   G  102 
+N  106   D  106 
+V  107   L  107 
+N  108   V  108 
+E  109   E  109 
+M  110   E  110 
+L  111   I  111 
+K  112   A  112 
+P  113   M  113 
+K  114   K  114 
+L  115   V  115 
+E  116   R  116 
+K  117   E  117 
+E  118   L  118 
+L  119   M  119 
+K  120   K  120 
+TER
+END
+PFRMAT AL
+TARGET aktm_2014_Jul_11.0001
+AUTHOR LOOPP_Austin
+REMARK LOOPP v3.20 Junior with LOOPP driver v7.0
+REMARK (compiled Nov 2010)
+REMARK prediction finished on Fri Jul 11 14:09:26 2014
+REMARK All files are at
+REMARK file:////share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/aktm_2014_Jul_11.0001.out.htm
+METHOD Automated LOOPP protein structure prediction server.
+METHOD http://cbsuapps.tc.cornell.edu/loopp.aspx
+METHOD LOOPP is a fold recognition program based on the collection
+METHOD of numerous signals, merging them into a single score, and 
+METHOD generating atomic coordinates based on an alignment into a 
+METHOD homologue template structure. The signals we are using include
+METHOD straightforward sequence alignment, sequence profile, threading,
+METHOD secondary structure and exposed surface area prediction. 
+METHOD (Secondary structure and exposed surface prediction program
+METHOD (sable) was developed in the group of our collaborator Professor
+METHOD Jaroslaw Meller). These individual signals are combined locally
+METHOD to create mixed models and globally to provide overall scores. 
+METHOD Computations of scores to those that can be done quickly are 
+METHOD performed for all proteins in our database and expensive scores
+METHOD (such as Z score calculations) are computed only for those that
+METHOD score highly with the 'cheap' score. Atomic models are then
+METHOD generated using an alignment produced by the scoring scheme and
+METHOD the Modeller program of Andrej Sali. The final atomic structure
+METHOD is evaluated by additional energy scores. The energies used, and
+METHOD the combination of individual scores are determined by a
+METHOD Mathematical Programming algorithm.
+MODEL 5
+PARENT 2V74_F
+E  14    T  24  
+K  15    G  25  
+V  16    T  26  
+V  17    Y  27  
+R  18    Q  28  
+R  19    R  29  
+M  20    A  30  
+L  21    I  31  
+E  22    L  32  
+I  23    Q  33  
+A  24    N  34  
+K  25    H  35  
+V  26    T  36  
+S  27    D  37  
+Q  28    K  39  
+D  29    D  40  
+D  30    K  41  
+I  31    I  42  
+V  32    V  43  
+Y  33    L  44  
+D  34    D  45  
+L  35    V  46  
+G  36    G  47  
+C  37    C  48  
+G  38    G  49  
+D  39    S  50  
+G  40    G  51  
+R  41    I  52  
+I  42    L  53  
+I  43    S  54  
+I  44    F  55  
+T  45    F  56  
+A  46    A  57  
+A  47    A  58  
+K  48    Q  59  
+D  49    A  60  
+F  50    G  61  
+V  52    A  62  
+K  53    R  63  
+K  54    K  64  
+A  55    I  65  
+V  56    Y  66  
+G  57    A  67  
+V  58    V  68  
+E  59    E  69  
+I  60    A  70  
+N  61    S  71  
+E  63    T  72  
+R  64    M  73  
+I  65    A  74  
+R  66    Q  75  
+E  67    H  76  
+A  68    A  77  
+L  69    E  78  
+A  70    V  79  
+N  71    L  80  
+I  72    V  81  
+E  73    K  82  
+K  74    S  83  
+N  75    N  84  
+G  76    N  85  
+V  77    L  86  
+T  78    T  87  
+G  79    D  88  
+R  80    R  89  
+A  81    I  90  
+S  82    V  91  
+I  83    V  92  
+V  84    I  93  
+K  85    P  94  
+G  86    G  95  
+N  87    K  96  
+F  88    V  97  
+F  89    E  98  
+E  90    E  99  
+V  91    V  100 
+D  92    S  101 
+I  93    L  102 
+S  94    P  103 
+E  95    E  104 
+T  97    Q  105 
+V  98    V  106 
+V  99    D  107 
+T  100   I  108 
+M  101   I  109 
+F  102   I  110 
+L  103   S  111 
+L  104   E  112 
+T  105   P  113 
+N  106   M  123 
+V  107   L  124 
+N  108   E  125 
+E  109   S  126 
+M  110   Y  127 
+L  111   L  128 
+K  112   H  129 
+P  113   A  130 
+K  114   K  131 
+K  117   K  132 
+E  118   Y  133 
+L  119   L  134 
+K  120   K  135 
+P  121   P  136 
+G  122   S  137 
+T  123   G  138 
+R  124   N  139 
+V  125   M  140 
+V  126   F  141 
+TER
+END

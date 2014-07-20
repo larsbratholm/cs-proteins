@@ -1,0 +1,2671 @@
+Log /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank006.log opened for host compute-0-21 (rank 6 of 16)
+Processor 6 at node compute-0-21 sending hostname to master...
+Receive from master: Processor 6 at node compute-0-21 primaryCore: 0
+looppdrv.options was opened successfully.
+DEBUG INFO: outlevel is 0
+Current working directory is: /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp
+Options have been read; begin master/worker division...I am a worker.
+worker 6: begin work for query aktm_2014_Jul_11.0001, length 163
+Worker is preparing folders...
+Current working directory is now: /state/partition1/lp1668645/worker.006.top
+worker 6: runloopp with args 0 1 6 aktm_2014_Jul_11.0001 zs=0 lc=1
+  pdblist -> /state/partition1/looppLocal//LOOPP/DB2010/chains.list
+cwd is /state/partition1/lp1668645/worker.006.top
+initializing worker 6
+worker 6: initial command from master: cmd=0
+Getting files from master
+file 1
+file 2
+file 3
+file 4
+file 5
+file 6
+Getting dynamic database pdb ids from master
+We will receive 5 dynamic database pdb ids...
+id 3CJT_A
+id 1KXZ_A
+id 3MGG_A
+id 2BH2_A
+id 1UWV_A
+ [3CJT_A 1KXZ_A 3MGG_A 2BH2_A 1UWV_A ] done
+Running LOOPP engine
+ homolog 0 feature 0 (OPTM) part 5  running ...
+ worker 6: runloopp with args 1 0 6 aktm_2014_Jul_11.0001 zs=0 lc=1
+  pdblist -> /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/FEAT.tmpl.005
+cwd is /state/partition1/lp1668645/worker.006.top
+setparname... 'OPTM' feat_only=0
+
+( parfile )>>>  special.OPT special.OPT OPTM 3.2
+
+/share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.2 special.OPT.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+1080 0
+Fri Jul 11 11:20:25 2014 EST
+Fri Jul 11 11:27:53 2014 EST
+ [done] (7.57 minutes)
+ homolog 0 feature 1 (TSSL) part 5  running ...
+ worker 6: runloopp with args 1 1 6 aktm_2014_Jul_11.0001 zs=0 lc=1
+  pdblist -> /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/FEAT.tmpl.005
+cwd is /state/partition1/lp1668645/worker.006.top
+setparname... 'TSSL' feat_only=0
+
+( parfile )>>>  local0.TSS local.TSS TSSL 3.2
+
+/share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.2 local0.TSS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+765 0
+Fri Jul 11 11:33:46 2014 EST
+Fri Jul 11 11:44:36 2014 EST
+ [done] (10.86 minutes)
+ homolog 0 feature 2 (TSSG) part 11  running ...
+ worker 6: runloopp with args 1 2 6 aktm_2014_Jul_11.0001 zs=0 lc=1
+  pdblist -> /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/FEAT.tmpl.011
+cwd is /state/partition1/lp1668645/worker.006.top
+setparname... 'TSSG' feat_only=0
+
+( parfile )>>>  global0.TSS global.TSS TSSG 3.2
+
+/share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.2 global0.TSS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+765 0
+Fri Jul 11 11:44:38 2014 EST
+Fri Jul 11 11:54:58 2014 EST
+ [done] (10.36 minutes)
+ homolog 0 feature 3 (TRSL) part 6  running ...
+ worker 6: runloopp with args 1 3 6 aktm_2014_Jul_11.0001 zs=0 lc=1
+  pdblist -> /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/FEAT.tmpl.006
+cwd is /state/partition1/lp1668645/worker.006.top
+setparname... 'TRSL' feat_only=0
+
+( parfile )>>>  local0.TRS local.TRS TRSL 3.2
+
+/share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.2 local0.TRS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+765 0
+Fri Jul 11 11:54:59 2014 EST
+Fri Jul 11 11:59:31 2014 EST
+ [done] (4.53 minutes)
+ homolog 0 feature 4 (TRSG) part 3  running ...
+ worker 6: runloopp with args 1 4 6 aktm_2014_Jul_11.0001 zs=0 lc=1
+  pdblist -> /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/FEAT.tmpl.003
+cwd is /state/partition1/lp1668645/worker.006.top
+setparname... 'TRSG' feat_only=0
+
+( parfile )>>>  global0.TRS global.TRS TRSG 3.2
+
+/share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.2 global0.TRS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+765 0
+Fri Jul 11 11:59:31 2014 EST
+Fri Jul 11 12:04:14 2014 EST
+ [done] (4.72 minutes)
+ homolog 0 feature 5 (PSML) part 4  running ...
+ worker 6: runloopp with args 1 5 6 aktm_2014_Jul_11.0001 zs=0 lc=1
+  pdblist -> /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/FEAT.tmpl.004
+cwd is /state/partition1/lp1668645/worker.006.top
+setparname... 'PSML' feat_only=0
+
+( parfile )>>>  local0.PSM local.PSM PSML 3.2
+
+/share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.2 local0.PSM.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+765 0
+Fri Jul 11 12:04:15 2014 EST
+Fri Jul 11 12:08:56 2014 EST
+ [done] (4.69 minutes)
+ homolog 0 feature 6 (PSMG) part 5  running ...
+ worker 6: runloopp with args 1 6 6 aktm_2014_Jul_11.0001 zs=0 lc=1
+  pdblist -> /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/FEAT.tmpl.005
+cwd is /state/partition1/lp1668645/worker.006.top
+setparname... 'PSMG' feat_only=0
+
+( parfile )>>>  global0.PSM global.PSM PSMG 3.2
+
+/share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.2 global0.PSM.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+765 0
+Fri Jul 11 12:08:57 2014 EST
+Fri Jul 11 12:13:39 2014 EST
+ [done] (4.72 minutes)
+ homolog 0 feature 7 (SEQL) part 9  running ...
+ worker 6: runloopp with args 1 7 6 aktm_2014_Jul_11.0001 zs=0 lc=1
+  pdblist -> /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/FEAT.tmpl.009
+cwd is /state/partition1/lp1668645/worker.006.top
+setparname... 'SEQL' feat_only=0
+
+( parfile )>>>  local0.SEQ local.SEQ SEQL 2.2
+
+/share/apps/loopp/data/H_common//LOOPP/looppeng.exe 2.2 local0.SEQ.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+765 0
+Fri Jul 11 12:13:41 2014 EST
+Fri Jul 11 12:18:13 2014 EST
+ [done] (4.54 minutes)
+ homolog 0 feature 8 (SRFL) part 6  running ...
+ worker 6: runloopp with args 1 8 6 aktm_2014_Jul_11.0001 zs=0 lc=1
+  pdblist -> /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/FEAT.tmpl.006
+cwd is /state/partition1/lp1668645/worker.006.top
+setparname... 'SRFL' feat_only=0
+
+( parfile )>>>  local0.SRF local.SRF SRFL 3.2
+
+/share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.2 local0.SRF.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+765 0
+Fri Jul 11 12:18:14 2014 EST
+Fri Jul 11 12:22:43 2014 EST
+ [done] (4.49 minutes)
+ homolog 0 feature 9 (TSCL) part 3  running ...
+ worker 6: runloopp with args 1 9 6 aktm_2014_Jul_11.0001 zs=0 lc=1
+  pdblist -> /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/FEAT.tmpl.003
+cwd is /state/partition1/lp1668645/worker.006.top
+setparname... 'TSCL' feat_only=0
+
+( parfile )>>>  local0.TSC local.TSC TSCL 3.2
+
+/share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.2 local0.TSC.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+765 0
+Fri Jul 11 12:22:44 2014 EST
+Fri Jul 11 12:33:25 2014 EST
+ [done] (10.69 minutes)
+ homolog 0 feature 10 (SEQG) part 9  running ...
+ worker 6: runloopp with args 1 10 6 aktm_2014_Jul_11.0001 zs=0 lc=1
+  pdblist -> /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/FEAT.tmpl.009
+cwd is /state/partition1/lp1668645/worker.006.top
+setparname... 'SEQG' feat_only=0
+
+( parfile )>>>  global0.SEQ global.SEQ SEQG 2.2
+
+/share/apps/loopp/data/H_common//LOOPP/looppeng.exe 2.2 global0.SEQ.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+765 0
+Fri Jul 11 12:33:26 2014 EST
+Fri Jul 11 12:38:03 2014 EST
+ [done] (4.63 minutes)
+ homolog 0 feature 11 (TRDL) part 8  running ...
+ worker 6: runloopp with args 1 11 6 aktm_2014_Jul_11.0001 zs=0 lc=1
+  pdblist -> /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/FEAT.tmpl.008
+cwd is /state/partition1/lp1668645/worker.006.top
+setparname... 'TRDL' feat_only=0
+
+( parfile )>>>  local0.TRD local.TRD TRDL 3.2
+
+/share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.2 local0.TRD.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+765 0
+Fri Jul 11 12:38:04 2014 EST
+Fri Jul 11 12:42:41 2014 EST
+ [done] (4.63 minutes)
+ homolog 0 feature 12 (SRFG) part 9  running ...
+ worker 6: runloopp with args 1 12 6 aktm_2014_Jul_11.0001 zs=0 lc=1
+  pdblist -> /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/FEAT.tmpl.009
+cwd is /state/partition1/lp1668645/worker.006.top
+setparname... 'SRFG' feat_only=0
+
+( parfile )>>>  global0.SRF global.SRF SRFG 3.2
+
+/share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.2 global0.SRF.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+765 0
+Fri Jul 11 12:42:42 2014 EST
+Fri Jul 11 12:47:14 2014 EST
+ [done] (4.54 minutes)
+ homolog 0 feature 13 (TSCG) part 5  running ...
+ worker 6: runloopp with args 1 13 6 aktm_2014_Jul_11.0001 zs=0 lc=1
+  pdblist -> /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/FEAT.tmpl.005
+cwd is /state/partition1/lp1668645/worker.006.top
+setparname... 'TSCG' feat_only=0
+
+( parfile )>>>  global0.TSC global.TSC TSCG 3.2
+
+/share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.2 global0.TSC.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+765 0
+Fri Jul 11 12:47:15 2014 EST
+Fri Jul 11 12:57:55 2014 EST
+ [done] (10.68 minutes)
+ homolog 0 feature 14 (TRDG) part 8  running ...
+ worker 6: runloopp with args 1 14 6 aktm_2014_Jul_11.0001 zs=0 lc=1
+  pdblist -> /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/FEAT.tmpl.008
+cwd is /state/partition1/lp1668645/worker.006.top
+setparname... 'TRDG' feat_only=0
+
+( parfile )>>>  global0.TRD global.TRD TRDG 3.2
+
+/share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.2 global0.TRD.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+765 0
+Fri Jul 11 12:57:56 2014 EST
+Fri Jul 11 13:02:31 2014 EST
+ [done] (4.59 minutes)
+>>>[Timing Section: $$$ Copying dyndb entries: (we could NOT do this and blast against shared dyndb)
+ ]
+   [$$$ Copying dyndb entries: (we could NOT do this and blast against shared dyndb)
+: 0.60 secs (0.01 mins)]
+
+ supplement 0 6 running ... makealignment(): pname='2P8J_A', iprot=1, i1=0, feature=6, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'PSMG' feat_only=0
+
+( parfile )>>>  global0.PSM global.PSM PSMG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.PSM.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 2 2 running ... makealignment(): pname='2ERC_B', iprot=1, i1=2, feature=2, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TSSG' feat_only=0
+
+( parfile )>>>  global0.TSS global.TSS TSSG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TSS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 4 4 running ... makealignment(): pname='1Y8C_A', iprot=1, i1=4, feature=4, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRSG' feat_only=0
+
+( parfile )>>>  global0.TRS global.TRS TRSG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TRS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 5 5 running ... makealignment(): pname='1R18_A', iprot=1, i1=5, feature=5, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'PSML' feat_only=0
+
+( parfile )>>>  local0.PSM local.PSM PSML 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.PSM.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 6 6 running ... makealignment(): pname='3EEY_J', iprot=1, i1=6, feature=6, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'PSMG' feat_only=0
+
+( parfile )>>>  global0.PSM global.PSM PSMG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.PSM.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 7 7 running ... makealignment(): pname='1TW2_B', iprot=1, i1=7, feature=7, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SEQL' feat_only=0
+
+( parfile )>>>  local0.SEQ local.SEQ SEQL 2.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 2.3 local0.SEQ.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 8 8 running ... makealignment(): pname='2YXE_B', iprot=1, i1=8, feature=8, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SRFL' feat_only=0
+
+( parfile )>>>  local0.SRF local.SRF SRFL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.SRF.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 9 7 running ... makealignment(): pname='3JWH_A', iprot=1, i1=9, feature=7, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SEQL' feat_only=0
+
+( parfile )>>>  local0.SEQ local.SEQ SEQL 2.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 2.3 local0.SEQ.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 10 7 running ... makealignment(): pname='1KPG_B', iprot=1, i1=10, feature=7, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SEQL' feat_only=0
+
+( parfile )>>>  local0.SEQ local.SEQ SEQL 2.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 2.3 local0.SEQ.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 11 7 running ... makealignment(): pname='2B25_A', iprot=1, i1=11, feature=7, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SEQL' feat_only=0
+
+( parfile )>>>  local0.SEQ local.SEQ SEQL 2.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 2.3 local0.SEQ.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 12 10 running ... makealignment(): pname='2I6G_B', iprot=1, i1=12, feature=10, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SEQG' feat_only=0
+
+( parfile )>>>  global0.SEQ global.SEQ SEQG 2.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 2.3 global0.SEQ.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 13 10 running ... makealignment(): pname='3BT7_A', iprot=1, i1=13, feature=10, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SEQG' feat_only=0
+
+( parfile )>>>  global0.SEQ global.SEQ SEQG 2.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 2.3 global0.SEQ.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 14 12 running ... makealignment(): pname='3DTN_B', iprot=1, i1=14, feature=12, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SRFG' feat_only=0
+
+( parfile )>>>  global0.SRF global.SRF SRFG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.SRF.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 15 14 running ... makealignment(): pname='3JWG_A', iprot=1, i1=15, feature=14, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRDG' feat_only=0
+
+( parfile )>>>  global0.TRD global.TRD TRDG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TRD.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 17 1 running ... makealignment(): pname='2YQZ_A', iprot=1, i1=17, feature=1, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TSSL' feat_only=0
+
+( parfile )>>>  local0.TSS local.TSS TSSL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TSS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 19 2 running ... makealignment(): pname='2PWY_A', iprot=1, i1=19, feature=2, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TSSG' feat_only=0
+
+( parfile )>>>  global0.TSS global.TSS TSSG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TSS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 20 10 running ... makealignment(): pname='3E05_D', iprot=1, i1=20, feature=10, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SEQG' feat_only=0
+
+( parfile )>>>  global0.SEQ global.SEQ SEQG 2.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 2.3 global0.SEQ.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 21 11 running ... makealignment(): pname='1KPI_A', iprot=1, i1=21, feature=11, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRDL' feat_only=0
+
+( parfile )>>>  local0.TRD local.TRD TRDL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TRD.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 22 12 running ... makealignment(): pname='1M6Y_A', iprot=1, i1=22, feature=12, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SRFG' feat_only=0
+
+( parfile )>>>  global0.SRF global.SRF SRFG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.SRF.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 23 14 running ... makealignment(): pname='3CGG_A', iprot=1, i1=23, feature=14, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRDG' feat_only=0
+
+( parfile )>>>  global0.TRD global.TRD TRDG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TRD.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 25 3 running ... makealignment(): pname='3HTX_D', iprot=1, i1=25, feature=3, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRSL' feat_only=0
+
+( parfile )>>>  local0.TRS local.TRS TRSL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TRS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 26 5 running ... makealignment(): pname='3LDU_A', iprot=1, i1=26, feature=5, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'PSML' feat_only=0
+
+( parfile )>>>  local0.PSM local.PSM PSML 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.PSM.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 27 6 running ... makealignment(): pname='1WY7_C', iprot=1, i1=27, feature=6, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'PSMG' feat_only=0
+
+( parfile )>>>  global0.PSM global.PSM PSMG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.PSM.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 28 5 running ... makealignment(): pname='2IBS_A', iprot=1, i1=28, feature=5, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'PSML' feat_only=0
+
+( parfile )>>>  local0.PSM local.PSM PSML 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.PSM.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 29 4 running ... makealignment(): pname='3BKW_A', iprot=1, i1=29, feature=4, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRSG' feat_only=0
+
+( parfile )>>>  global0.TRS global.TRS TRSG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TRS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 30 2 running ... makealignment(): pname='3HA5_A', iprot=1, i1=30, feature=2, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TSSG' feat_only=0
+
+( parfile )>>>  global0.TSS global.TSS TSSG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TSS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 32 8 running ... makealignment(): pname='1P91_A', iprot=1, i1=32, feature=8, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SRFL' feat_only=0
+
+( parfile )>>>  local0.SRF local.SRF SRFL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.SRF.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 33 10 running ... makealignment(): pname='2GH1_A', iprot=1, i1=33, feature=10, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SEQG' feat_only=0
+
+( parfile )>>>  global0.SEQ global.SEQ SEQG 2.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 2.3 global0.SEQ.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 34 11 running ... makealignment(): pname='3A27_A', iprot=1, i1=34, feature=11, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRDL' feat_only=0
+
+( parfile )>>>  local0.TRD local.TRD TRDL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TRD.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 35 12 running ... makealignment(): pname='3L8D_A', iprot=1, i1=35, feature=12, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SRFG' feat_only=0
+
+( parfile )>>>  global0.SRF global.SRF SRFG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.SRF.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 36 14 running ... makealignment(): pname='1JG2_A', iprot=1, i1=36, feature=14, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRDG' feat_only=0
+
+( parfile )>>>  global0.TRD global.TRD TRDG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TRD.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 37 14 running ... makealignment(): pname='3E8S_A', iprot=1, i1=37, feature=14, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRDG' feat_only=0
+
+( parfile )>>>  global0.TRD global.TRD TRDG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TRD.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 39 1 running ... makealignment(): pname='3A25_A', iprot=1, i1=39, feature=1, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TSSL' feat_only=0
+
+( parfile )>>>  local0.TSS local.TSS TSSL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TSS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 41 2 running ... makealignment(): pname='1WS6_A', iprot=1, i1=41, feature=2, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TSSG' feat_only=0
+
+( parfile )>>>  global0.TSS global.TSS TSSG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TSS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 42 14 running ... makealignment(): pname='3G5L_A', iprot=1, i1=42, feature=14, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRDG' feat_only=0
+
+( parfile )>>>  global0.TRD global.TRD TRDG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TRD.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 44 1 running ... makealignment(): pname='2FHP_B', iprot=1, i1=44, feature=1, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TSSL' feat_only=0
+
+( parfile )>>>  local0.TSS local.TSS TSSL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TSS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 45 7 running ... makealignment(): pname='2VS1_A', iprot=1, i1=45, feature=7, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SEQL' feat_only=0
+
+( parfile )>>>  local0.SEQ local.SEQ SEQL 2.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 2.3 local0.SEQ.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 46 10 running ... makealignment(): pname='1XXL_B', iprot=1, i1=46, feature=10, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SEQG' feat_only=0
+
+( parfile )>>>  global0.SEQ global.SEQ SEQG 2.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 2.3 global0.SEQ.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 47 11 running ... makealignment(): pname='3CCF_B', iprot=1, i1=47, feature=11, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRDL' feat_only=0
+
+( parfile )>>>  local0.TRD local.TRD TRDL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TRD.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 48 12 running ... makealignment(): pname='3DLC_A', iprot=1, i1=48, feature=12, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SRFG' feat_only=0
+
+( parfile )>>>  global0.SRF global.SRF SRFG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.SRF.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 49 14 running ... makealignment(): pname='2R3S_B', iprot=1, i1=49, feature=14, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRDG' feat_only=0
+
+( parfile )>>>  global0.TRD global.TRD TRDG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TRD.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 50 14 running ... makealignment(): pname='1I1N_A', iprot=1, i1=50, feature=14, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRDG' feat_only=0
+
+( parfile )>>>  global0.TRD global.TRD TRDG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TRD.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 51 14 running ... makealignment(): pname='3F4K_A', iprot=1, i1=51, feature=14, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRDG' feat_only=0
+
+( parfile )>>>  global0.TRD global.TRD TRDG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TRD.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 53 1 running ... makealignment(): pname='2V74_F', iprot=1, i1=53, feature=1, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TSSL' feat_only=0
+
+( parfile )>>>  local0.TSS local.TSS TSSL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TSS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 55 3 running ... makealignment(): pname='1X1C_A', iprot=1, i1=55, feature=3, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRSL' feat_only=0
+
+( parfile )>>>  local0.TRS local.TRS TRSL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TRS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 56 4 running ... makealignment(): pname='2B3T_A', iprot=1, i1=56, feature=4, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRSG' feat_only=0
+
+( parfile )>>>  global0.TRS global.TRS TRSG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TRS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 57 5 running ... makealignment(): pname='2YXD_A', iprot=1, i1=57, feature=5, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'PSML' feat_only=0
+
+( parfile )>>>  local0.PSM local.PSM PSML 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.PSM.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 58 5 running ... makealignment(): pname='3HM2_A', iprot=1, i1=58, feature=5, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'PSML' feat_only=0
+
+( parfile )>>>  local0.PSM local.PSM PSML 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.PSM.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 59 6 running ... makealignment(): pname='3E7P_A', iprot=1, i1=59, feature=6, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'PSMG' feat_only=0
+
+( parfile )>>>  global0.PSM global.PSM PSMG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.PSM.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 60 7 running ... makealignment(): pname='1ORI_A', iprot=1, i1=60, feature=7, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SEQL' feat_only=0
+
+( parfile )>>>  local0.SEQ local.SEQ SEQL 2.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 2.3 local0.SEQ.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 61 8 running ... makealignment(): pname='1YUB_A', iprot=1, i1=61, feature=8, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SRFL' feat_only=0
+
+( parfile )>>>  local0.SRF local.SRF SRFL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.SRF.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 62 8 running ... makealignment(): pname='3D2L_C', iprot=1, i1=62, feature=8, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SRFL' feat_only=0
+
+( parfile )>>>  local0.SRF local.SRF SRFL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.SRF.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 63 10 running ... makealignment(): pname='1F3L_A', iprot=1, i1=63, feature=10, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SEQG' feat_only=0
+
+( parfile )>>>  global0.SEQ global.SEQ SEQG 2.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 2.3 global0.SEQ.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 64 11 running ... makealignment(): pname='1IM8_B', iprot=1, i1=64, feature=11, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRDL' feat_only=0
+
+( parfile )>>>  local0.TRD local.TRD TRDL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TRD.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 65 14 running ... makealignment(): pname='1RI4_A', iprot=1, i1=65, feature=14, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRDG' feat_only=0
+
+( parfile )>>>  global0.TRD global.TRD TRDG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TRD.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 66 14 running ... makealignment(): pname='2H1R_A', iprot=1, i1=66, feature=14, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRDG' feat_only=0
+
+( parfile )>>>  global0.TRD global.TRD TRDG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TRD.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 68 1 running ... makealignment(): pname='2AS0_B', iprot=1, i1=68, feature=1, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TSSL' feat_only=0
+
+( parfile )>>>  local0.TSS local.TSS TSSL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TSS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 71 3 running ... makealignment(): pname='3FYC_A', iprot=1, i1=71, feature=3, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRSL' feat_only=0
+
+( parfile )>>>  local0.TRS local.TRS TRSL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TRS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 72 4 running ... makealignment(): pname='1ZQ9_B', iprot=1, i1=72, feature=4, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRSG' feat_only=0
+
+( parfile )>>>  global0.TRS global.TRS TRSG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TRS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 73 4 running ... makealignment(): pname='1G6Q_1', iprot=1, i1=73, feature=4, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRSG' feat_only=0
+
+( parfile )>>>  global0.TRS global.TRS TRSG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TRS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 74 5 running ... makealignment(): pname='3GDH_A', iprot=1, i1=74, feature=5, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'PSML' feat_only=0
+
+( parfile )>>>  local0.PSM local.PSM PSML 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.PSM.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 75 3 running ... makealignment(): pname='1NKV_C', iprot=1, i1=75, feature=3, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRSL' feat_only=0
+
+( parfile )>>>  local0.TRS local.TRS TRSL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TRS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 76 4 running ... makealignment(): pname='3EGI_D', iprot=1, i1=76, feature=4, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRSG' feat_only=0
+
+( parfile )>>>  global0.TRS global.TRS TRSG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TRS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 77 5 running ... makealignment(): pname='2BH2_B', iprot=1, i1=77, feature=5, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'PSML' feat_only=0
+
+( parfile )>>>  local0.PSM local.PSM PSML 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.PSM.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 78 6 running ... makealignment(): pname='1WZN_A', iprot=1, i1=78, feature=6, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'PSMG' feat_only=0
+
+( parfile )>>>  global0.PSM global.PSM PSMG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.PSM.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 79 7 running ... makealignment(): pname='1NW3_A', iprot=1, i1=79, feature=7, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SEQL' feat_only=0
+
+( parfile )>>>  local0.SEQ local.SEQ SEQL 2.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 2.3 local0.SEQ.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 80 7 running ... makealignment(): pname='1KXZ_C', iprot=1, i1=80, feature=7, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SEQL' feat_only=0
+
+( parfile )>>>  local0.SEQ local.SEQ SEQL 2.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 2.3 local0.SEQ.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 81 8 running ... makealignment(): pname='1UFK_A', iprot=1, i1=81, feature=8, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SRFL' feat_only=0
+
+( parfile )>>>  local0.SRF local.SRF SRFL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.SRF.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 82 10 running ... makealignment(): pname='3BUS_A', iprot=1, i1=82, feature=10, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SEQG' feat_only=0
+
+( parfile )>>>  global0.SEQ global.SEQ SEQG 2.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 2.3 global0.SEQ.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 83 11 running ... makealignment(): pname='3KR9_A', iprot=1, i1=83, feature=11, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRDL' feat_only=0
+
+( parfile )>>>  local0.TRD local.TRD TRDL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TRD.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 84 14 running ... makealignment(): pname='2YVL_D', iprot=1, i1=84, feature=14, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRDG' feat_only=0
+
+( parfile )>>>  global0.TRD global.TRD TRDG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TRD.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 85 14 running ... makealignment(): pname='2O57_D', iprot=1, i1=85, feature=14, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRDG' feat_only=0
+
+( parfile )>>>  global0.TRD global.TRD TRDG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TRD.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 87 1 running ... makealignment(): pname='2GPY_B', iprot=1, i1=87, feature=1, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TSSL' feat_only=0
+
+( parfile )>>>  local0.TSS local.TSS TSSL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TSS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 89 3 running ... makealignment(): pname='1YZH_A', iprot=1, i1=89, feature=3, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRSL' feat_only=0
+
+( parfile )>>>  local0.TRS local.TRS TRSL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TRS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 90 4 running ... makealignment(): pname='1S3N_A', iprot=1, i1=90, feature=4, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRSG' feat_only=0
+
+( parfile )>>>  global0.TRS global.TRS TRSG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TRS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 91 4 running ... makealignment(): pname='3I9F_B', iprot=1, i1=91, feature=4, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRSG' feat_only=0
+
+( parfile )>>>  global0.TRS global.TRS TRSG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TRS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 92 5 running ... makealignment(): pname='2ESR_A', iprot=1, i1=92, feature=5, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'PSML' feat_only=0
+
+( parfile )>>>  local0.PSM local.PSM PSML 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.PSM.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 93 6 running ... makealignment(): pname='3HNR_A', iprot=1, i1=93, feature=6, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'PSMG' feat_only=0
+
+( parfile )>>>  global0.PSM global.PSM PSMG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.PSM.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 94 7 running ... makealignment(): pname='2CL5_B', iprot=1, i1=94, feature=7, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SEQL' feat_only=0
+
+( parfile )>>>  local0.SEQ local.SEQ SEQL 2.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 2.3 local0.SEQ.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 95 8 running ... makealignment(): pname='3LEC_A', iprot=1, i1=95, feature=8, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SRFL' feat_only=0
+
+( parfile )>>>  local0.SRF local.SRF SRFL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.SRF.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 96 10 running ... makealignment(): pname='2ZWV_A', iprot=1, i1=96, feature=10, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SEQG' feat_only=0
+
+( parfile )>>>  global0.SEQ global.SEQ SEQG 2.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 2.3 global0.SEQ.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 97 14 running ... makealignment(): pname='2PJD_A', iprot=1, i1=97, feature=14, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRDG' feat_only=0
+
+( parfile )>>>  global0.TRD global.TRD TRDG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TRD.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 99 1 running ... makealignment(): pname='3GNL_B', iprot=1, i1=99, feature=1, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TSSL' feat_only=0
+
+( parfile )>>>  local0.TSS local.TSS TSSL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TSS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 100 6 running ... makealignment(): pname='3DUL_B', iprot=1, i1=100, feature=6, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'PSMG' feat_only=0
+
+( parfile )>>>  global0.PSM global.PSM PSMG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.PSM.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 101 10 running ... makealignment(): pname='2IP2_B', iprot=1, i1=101, feature=10, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SEQG' feat_only=0
+
+( parfile )>>>  global0.SEQ global.SEQ SEQG 2.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 2.3 global0.SEQ.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 102 14 running ... makealignment(): pname='1NT2_A', iprot=1, i1=102, feature=14, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRDG' feat_only=0
+
+( parfile )>>>  global0.TRD global.TRD TRDG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TRD.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 103 12 running ... makealignment(): pname='2PXX_A', iprot=1, i1=103, feature=12, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SRFG' feat_only=0
+
+( parfile )>>>  global0.SRF global.SRF SRFG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.SRF.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 105 1 running ... makealignment(): pname='1VBF_C', iprot=1, i1=105, feature=1, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TSSL' feat_only=0
+
+( parfile )>>>  local0.TSS local.TSS TSSL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TSS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 107 2 running ... makealignment(): pname='3ADN_A', iprot=1, i1=107, feature=2, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TSSG' feat_only=0
+
+( parfile )>>>  global0.TSS global.TSS TSSG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TSS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 109 3 running ... makealignment(): pname='3CIV_A', iprot=1, i1=109, feature=3, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRSL' feat_only=0
+
+( parfile )>>>  local0.TRS local.TRS TRSL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TRS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 110 3 running ... makealignment(): pname='2AVD_B', iprot=1, i1=110, feature=3, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRSL' feat_only=0
+
+( parfile )>>>  local0.TRS local.TRS TRSL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TRS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 111 2 running ... makealignment(): pname='1EG5_A', iprot=1, i1=111, feature=2, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TSSG' feat_only=0
+
+( parfile )>>>  global0.TSS global.TSS TSSG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TSS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 114 3 running ... makealignment(): pname='2Q41_B', iprot=1, i1=114, feature=3, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRSL' feat_only=0
+
+( parfile )>>>  local0.TRS local.TRS TRSL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TRS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 114 5 running ... makealignment(): pname='2Q41_B', iprot=1, i1=114, feature=5, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'PSML' feat_only=0
+
+( parfile )>>>  local0.PSM local.PSM PSML 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.PSM.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 115 4 running ... makealignment(): pname='3C3Y_A', iprot=1, i1=115, feature=4, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRSG' feat_only=0
+
+( parfile )>>>  global0.TRS global.TRS TRSG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TRS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 116 5 running ... makealignment(): pname='3DR5_A', iprot=1, i1=116, feature=5, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'PSML' feat_only=0
+
+( parfile )>>>  local0.PSM local.PSM PSML 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.PSM.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 117 6 running ... makealignment(): pname='3C0K_A', iprot=1, i1=117, feature=6, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'PSMG' feat_only=0
+
+( parfile )>>>  global0.PSM global.PSM PSMG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.PSM.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 118 7 running ... makealignment(): pname='1EGZ_B', iprot=1, i1=118, feature=7, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SEQL' feat_only=0
+
+( parfile )>>>  local0.SEQ local.SEQ SEQL 2.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 2.3 local0.SEQ.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 119 6 running ... makealignment(): pname='3G8B_B', iprot=1, i1=119, feature=6, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'PSMG' feat_only=0
+
+( parfile )>>>  global0.PSM global.PSM PSMG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.PSM.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 120 7 running ... makealignment(): pname='3BKX_B', iprot=1, i1=120, feature=7, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SEQL' feat_only=0
+
+( parfile )>>>  local0.SEQ local.SEQ SEQL 2.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 2.3 local0.SEQ.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 121 8 running ... makealignment(): pname='3I45_A', iprot=1, i1=121, feature=8, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SRFL' feat_only=0
+
+( parfile )>>>  local0.SRF local.SRF SRFL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.SRF.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 122 10 running ... makealignment(): pname='3BG9_A', iprot=1, i1=122, feature=10, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SEQG' feat_only=0
+
+( parfile )>>>  global0.SEQ global.SEQ SEQG 2.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 2.3 global0.SEQ.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 123 14 running ... makealignment(): pname='1XCL_A', iprot=1, i1=123, feature=14, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRDG' feat_only=0
+
+( parfile )>>>  global0.TRD global.TRD TRDG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TRD.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 125 1 running ... makealignment(): pname='1L8X_B', iprot=1, i1=125, feature=1, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TSSL' feat_only=0
+
+( parfile )>>>  local0.TSS local.TSS TSSL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TSS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 127 1 running ... makealignment(): pname='1U08_A', iprot=1, i1=127, feature=1, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TSSL' feat_only=0
+
+( parfile )>>>  local0.TSS local.TSS TSSL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TSS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 129 2 running ... makealignment(): pname='3F0H_A', iprot=1, i1=129, feature=2, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TSSG' feat_only=0
+
+( parfile )>>>  global0.TSS global.TSS TSSG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TSS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 132 2 running ... makealignment(): pname='3CKK_A', iprot=1, i1=132, feature=2, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TSSG' feat_only=0
+
+( parfile )>>>  global0.TSS global.TSS TSSG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TSS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 133 14 running ... makealignment(): pname='2KBE_A', iprot=1, i1=133, feature=14, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRDG' feat_only=0
+
+( parfile )>>>  global0.TRD global.TRD TRDG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TRD.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 135 1 running ... makealignment(): pname='1KOL_A', iprot=1, i1=135, feature=1, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TSSL' feat_only=0
+
+( parfile )>>>  local0.TSS local.TSS TSSL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TSS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 137 8 running ... makealignment(): pname='3FKD_B', iprot=1, i1=137, feature=8, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SRFL' feat_only=0
+
+( parfile )>>>  local0.SRF local.SRF SRFL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.SRF.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 138 10 running ... makealignment(): pname='3I58_A', iprot=1, i1=138, feature=10, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SEQG' feat_only=0
+
+( parfile )>>>  global0.SEQ global.SEQ SEQG 2.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 2.3 global0.SEQ.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 139 12 running ... makealignment(): pname='2CKD_A', iprot=1, i1=139, feature=12, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SRFG' feat_only=0
+
+( parfile )>>>  global0.SRF global.SRF SRFG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.SRF.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 140 14 running ... makealignment(): pname='1WG8_A', iprot=1, i1=140, feature=14, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRDG' feat_only=0
+
+( parfile )>>>  global0.TRD global.TRD TRDG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TRD.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 142 1 running ... makealignment(): pname='2YRI_B', iprot=1, i1=142, feature=1, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TSSL' feat_only=0
+
+( parfile )>>>  local0.TSS local.TSS TSSL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TSS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 143 7 running ... makealignment(): pname='2AVN_B', iprot=1, i1=143, feature=7, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SEQL' feat_only=0
+
+( parfile )>>>  local0.SEQ local.SEQ SEQL 2.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 2.3 local0.SEQ.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 144 8 running ... makealignment(): pname='2PT6_B', iprot=1, i1=144, feature=8, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SRFL' feat_only=0
+
+( parfile )>>>  local0.SRF local.SRF SRFL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.SRF.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 145 10 running ... makealignment(): pname='3CBG_A', iprot=1, i1=145, feature=10, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SEQG' feat_only=0
+
+( parfile )>>>  global0.SEQ global.SEQ SEQG 2.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 2.3 global0.SEQ.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 146 11 running ... makealignment(): pname='3GJY_A', iprot=1, i1=146, feature=11, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRDL' feat_only=0
+
+( parfile )>>>  local0.TRD local.TRD TRDL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TRD.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 147 12 running ... makealignment(): pname='2GXQ_A', iprot=1, i1=147, feature=12, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SRFG' feat_only=0
+
+( parfile )>>>  global0.SRF global.SRF SRFG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.SRF.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 148 14 running ... makealignment(): pname='3LST_A', iprot=1, i1=148, feature=14, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRDG' feat_only=0
+
+( parfile )>>>  global0.TRD global.TRD TRDG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TRD.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 150 1 running ... makealignment(): pname='3M33_A', iprot=1, i1=150, feature=1, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TSSL' feat_only=0
+
+( parfile )>>>  local0.TSS local.TSS TSSL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TSS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 151 6 running ... makealignment(): pname='2GQN_B', iprot=1, i1=151, feature=6, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'PSMG' feat_only=0
+
+( parfile )>>>  global0.PSM global.PSM PSMG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.PSM.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 152 7 running ... makealignment(): pname='1WST_A', iprot=1, i1=152, feature=7, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SEQL' feat_only=0
+
+( parfile )>>>  local0.SEQ local.SEQ SEQL 2.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 2.3 local0.SEQ.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 153 7 running ... makealignment(): pname='1P3W_A', iprot=1, i1=153, feature=7, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SEQL' feat_only=0
+
+( parfile )>>>  local0.SEQ local.SEQ SEQL 2.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 2.3 local0.SEQ.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 154 10 running ... makealignment(): pname='1ZCJ_A', iprot=1, i1=154, feature=10, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SEQG' feat_only=0
+
+( parfile )>>>  global0.SEQ global.SEQ SEQG 2.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 2.3 global0.SEQ.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 155 11 running ... makealignment(): pname='1NBH_B', iprot=1, i1=155, feature=11, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRDL' feat_only=0
+
+( parfile )>>>  local0.TRD local.TRD TRDL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TRD.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 156 12 running ... makealignment(): pname='3H2B_B', iprot=1, i1=156, feature=12, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SRFG' feat_only=0
+
+( parfile )>>>  global0.SRF global.SRF SRFG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.SRF.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 158 2 running ... makealignment(): pname='1VME_B', iprot=1, i1=158, feature=2, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TSSG' feat_only=0
+
+( parfile )>>>  global0.TSS global.TSS TSSG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TSS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 160 1 running ... makealignment(): pname='2WNW_A', iprot=1, i1=160, feature=1, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TSSL' feat_only=0
+
+( parfile )>>>  local0.TSS local.TSS TSSL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TSS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 163 1 running ... makealignment(): pname='3DP7_A', iprot=1, i1=163, feature=1, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TSSL' feat_only=0
+
+( parfile )>>>  local0.TSS local.TSS TSSL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TSS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 165 3 running ... makealignment(): pname='3FTB_A', iprot=1, i1=165, feature=3, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRSL' feat_only=0
+
+( parfile )>>>  local0.TRS local.TRS TRSL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TRS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 166 3 running ... makealignment(): pname='3FTD_A', iprot=1, i1=166, feature=3, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRSL' feat_only=0
+
+( parfile )>>>  local0.TRS local.TRS TRSL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TRS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 167 3 running ... makealignment(): pname='1NVM_A', iprot=1, i1=167, feature=3, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRSL' feat_only=0
+
+( parfile )>>>  local0.TRS local.TRS TRSL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TRS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 168 4 running ... makealignment(): pname='1RQE_A', iprot=1, i1=168, feature=4, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRSG' feat_only=0
+
+( parfile )>>>  global0.TRS global.TRS TRSG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TRS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 169 5 running ... makealignment(): pname='1VEC_B', iprot=1, i1=169, feature=5, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'PSML' feat_only=0
+
+( parfile )>>>  local0.PSM local.PSM PSML 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.PSM.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 170 5 running ... makealignment(): pname='2O0R_B', iprot=1, i1=170, feature=5, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'PSML' feat_only=0
+
+( parfile )>>>  local0.PSM local.PSM PSML 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.PSM.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 171 6 running ... makealignment(): pname='3H6H_B', iprot=1, i1=171, feature=6, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'PSMG' feat_only=0
+
+( parfile )>>>  global0.PSM global.PSM PSMG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.PSM.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 172 5 running ... makealignment(): pname='1T9G_S', iprot=1, i1=172, feature=5, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'PSML' feat_only=0
+
+( parfile )>>>  local0.PSM local.PSM PSML 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.PSM.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 173 8 running ... makealignment(): pname='3BER_A', iprot=1, i1=173, feature=8, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SRFL' feat_only=0
+
+( parfile )>>>  local0.SRF local.SRF SRFL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.SRF.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 174 10 running ... makealignment(): pname='1O4S_A', iprot=1, i1=174, feature=10, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SEQG' feat_only=0
+
+( parfile )>>>  global0.SEQ global.SEQ SEQG 2.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 2.3 global0.SEQ.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 175 11 running ... makealignment(): pname='1VB5_B', iprot=1, i1=175, feature=11, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRDL' feat_only=0
+
+( parfile )>>>  local0.TRD local.TRD TRDL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TRD.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 176 14 running ... makealignment(): pname='3CS3_A', iprot=1, i1=176, feature=14, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRDG' feat_only=0
+
+( parfile )>>>  global0.TRD global.TRD TRDG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TRD.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 178 1 running ... makealignment(): pname='2HRE_A', iprot=1, i1=178, feature=1, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TSSL' feat_only=0
+
+( parfile )>>>  local0.TSS local.TSS TSSL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TSS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 180 2 running ... makealignment(): pname='1FBN_A', iprot=1, i1=180, feature=2, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TSSG' feat_only=0
+
+( parfile )>>>  global0.TSS global.TSS TSSG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TSS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 181 10 running ... makealignment(): pname='1HJU_B', iprot=1, i1=181, feature=10, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SEQG' feat_only=0
+
+( parfile )>>>  global0.SEQ global.SEQ SEQG 2.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 2.3 global0.SEQ.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 182 12 running ... makealignment(): pname='2NNW_B', iprot=1, i1=182, feature=12, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SRFG' feat_only=0
+
+( parfile )>>>  global0.SRF global.SRF SRFG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.SRF.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 183 11 running ... makealignment(): pname='1PYM_B', iprot=1, i1=183, feature=11, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRDL' feat_only=0
+
+( parfile )>>>  local0.TRD local.TRD TRDL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TRD.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 184 12 running ... makealignment(): pname='2H4L_X', iprot=1, i1=184, feature=12, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SRFG' feat_only=0
+
+( parfile )>>>  global0.SRF global.SRF SRFG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.SRF.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 185 14 running ... makealignment(): pname='1E5E_A', iprot=1, i1=185, feature=14, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRDG' feat_only=0
+
+( parfile )>>>  global0.TRD global.TRD TRDG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TRD.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 186 14 running ... makealignment(): pname='1OC7_A', iprot=1, i1=186, feature=14, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRDG' feat_only=0
+
+( parfile )>>>  global0.TRD global.TRD TRDG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TRD.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 188 1 running ... makealignment(): pname='3IV6_A', iprot=1, i1=188, feature=1, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TSSL' feat_only=0
+
+( parfile )>>>  local0.TSS local.TSS TSSL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TSS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 190 2 running ... makealignment(): pname='1IVZ_A', iprot=1, i1=190, feature=2, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TSSG' feat_only=0
+
+( parfile )>>>  global0.TSS global.TSS TSSG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TSS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 190 6 running ... makealignment(): pname='1IVZ_A', iprot=1, i1=190, feature=6, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'PSMG' feat_only=0
+
+( parfile )>>>  global0.PSM global.PSM PSMG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.PSM.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 190 10 running ... makealignment(): pname='1IVZ_A', iprot=1, i1=190, feature=10, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SEQG' feat_only=0
+
+( parfile )>>>  global0.SEQ global.SEQ SEQG 2.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 2.3 global0.SEQ.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 190 14 running ... makealignment(): pname='1IVZ_A', iprot=1, i1=190, feature=14, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRDG' feat_only=0
+
+( parfile )>>>  global0.TRD global.TRD TRDG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TRD.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 191 4 running ... makealignment(): pname='2CG4_B', iprot=1, i1=191, feature=4, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRSG' feat_only=0
+
+( parfile )>>>  global0.TRS global.TRS TRSG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TRS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 191 12 running ... makealignment(): pname='2CG4_B', iprot=1, i1=191, feature=12, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SRFG' feat_only=0
+
+( parfile )>>>  global0.SRF global.SRF SRFG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.SRF.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 192 12 running ... makealignment(): pname='2FCA_A', iprot=1, i1=192, feature=12, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SRFG' feat_only=0
+
+( parfile )>>>  global0.SRF global.SRF SRFG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.SRF.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 193 11 running ... makealignment(): pname='1I1G_B', iprot=1, i1=193, feature=11, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRDL' feat_only=0
+
+( parfile )>>>  local0.TRD local.TRD TRDL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TRD.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 194 7 running ... makealignment(): pname='1OFU_X', iprot=1, i1=194, feature=7, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SEQL' feat_only=0
+
+( parfile )>>>  local0.SEQ local.SEQ SEQL 2.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 2.3 local0.SEQ.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 195 6 running ... makealignment(): pname='1UWZ_B', iprot=1, i1=195, feature=6, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'PSMG' feat_only=0
+
+( parfile )>>>  global0.PSM global.PSM PSMG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.PSM.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 196 5 running ... makealignment(): pname='1XKP_B', iprot=1, i1=196, feature=5, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'PSML' feat_only=0
+
+( parfile )>>>  local0.PSM local.PSM PSML 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.PSM.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 197 4 running ... makealignment(): pname='2EYQ_B', iprot=1, i1=197, feature=4, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRSG' feat_only=0
+
+( parfile )>>>  global0.TRS global.TRS TRSG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TRS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 199 11 running ... makealignment(): pname='3GFK_A', iprot=1, i1=199, feature=11, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRDL' feat_only=0
+
+( parfile )>>>  local0.TRD local.TRD TRDL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TRD.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 200 11 running ... makealignment(): pname='3LTE_D', iprot=1, i1=200, feature=11, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRDL' feat_only=0
+
+( parfile )>>>  local0.TRD local.TRD TRDL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TRD.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 201 10 running ... makealignment(): pname='1BYS_A', iprot=1, i1=201, feature=10, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SEQG' feat_only=0
+
+( parfile )>>>  global0.SEQ global.SEQ SEQG 2.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 2.3 global0.SEQ.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 202 11 running ... makealignment(): pname='1CB7_A', iprot=1, i1=202, feature=11, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRDL' feat_only=0
+
+( parfile )>>>  local0.TRD local.TRD TRDL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TRD.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 203 8 running ... makealignment(): pname='1CNU_A', iprot=1, i1=203, feature=8, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SRFL' feat_only=0
+
+( parfile )>>>  local0.SRF local.SRF SRFL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.SRF.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 204 7 running ... makealignment(): pname='1E7K_B', iprot=1, i1=204, feature=7, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SEQL' feat_only=0
+
+( parfile )>>>  local0.SEQ local.SEQ SEQL 2.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 2.3 local0.SEQ.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 205 6 running ... makealignment(): pname='1F4K_B', iprot=1, i1=205, feature=6, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'PSMG' feat_only=0
+
+( parfile )>>>  global0.PSM global.PSM PSMG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.PSM.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 206 6 running ... makealignment(): pname='1HKQ_A', iprot=1, i1=206, feature=6, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'PSMG' feat_only=0
+
+( parfile )>>>  global0.PSM global.PSM PSMG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.PSM.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 207 5 running ... makealignment(): pname='1HQZ_8', iprot=1, i1=207, feature=5, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'PSML' feat_only=0
+
+( parfile )>>>  local0.PSM local.PSM PSML 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.PSM.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 208 4 running ... makealignment(): pname='1J3M_B', iprot=1, i1=208, feature=4, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRSG' feat_only=0
+
+( parfile )>>>  global0.TRS global.TRS TRSG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TRS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 209 4 running ... makealignment(): pname='1KJN_B', iprot=1, i1=209, feature=4, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRSG' feat_only=0
+
+( parfile )>>>  global0.TRS global.TRS TRSG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TRS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 210 6 running ... makealignment(): pname='1MDM_A', iprot=1, i1=210, feature=6, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'PSMG' feat_only=0
+
+( parfile )>>>  global0.PSM global.PSM PSMG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.PSM.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 211 5 running ... makealignment(): pname='1NF3_C', iprot=1, i1=211, feature=5, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'PSML' feat_only=0
+
+( parfile )>>>  local0.PSM local.PSM PSML 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.PSM.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 212 8 running ... makealignment(): pname='1ON0_D', iprot=1, i1=212, feature=8, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SRFL' feat_only=0
+
+( parfile )>>>  local0.SRF local.SRF SRFL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.SRF.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 213 12 running ... makealignment(): pname='1PJZ_A', iprot=1, i1=213, feature=12, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SRFG' feat_only=0
+
+( parfile )>>>  global0.SRF global.SRF SRFG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.SRF.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 214 14 running ... makealignment(): pname='1PXW_B', iprot=1, i1=214, feature=14, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRDG' feat_only=0
+
+( parfile )>>>  global0.TRD global.TRD TRDG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TRD.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 216 1 running ... makealignment(): pname='1Q77_B', iprot=1, i1=216, feature=1, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TSSL' feat_only=0
+
+( parfile )>>>  local0.TSS local.TSS TSSL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TSS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 218 3 running ... makealignment(): pname='1QPV_A', iprot=1, i1=218, feature=3, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRSL' feat_only=0
+
+( parfile )>>>  local0.TRS local.TRS TRSL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TRS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 219 2 running ... makealignment(): pname='1RCO_M', iprot=1, i1=219, feature=2, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TSSG' feat_only=0
+
+( parfile )>>>  global0.TSS global.TSS TSSG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TSS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 221 4 running ... makealignment(): pname='1SKO_A', iprot=1, i1=221, feature=4, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRSG' feat_only=0
+
+( parfile )>>>  global0.TRS global.TRS TRSG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TRS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 222 4 running ... makealignment(): pname='1U5T_B', iprot=1, i1=222, feature=4, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRSG' feat_only=0
+
+( parfile )>>>  global0.TRS global.TRS TRSG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TRS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 223 5 running ... makealignment(): pname='1U6M_C', iprot=1, i1=223, feature=5, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'PSML' feat_only=0
+
+( parfile )>>>  local0.PSM local.PSM PSML 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.PSM.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 224 6 running ... makealignment(): pname='1UF1_A', iprot=1, i1=224, feature=6, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'PSMG' feat_only=0
+
+( parfile )>>>  global0.PSM global.PSM PSMG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.PSM.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 225 7 running ... makealignment(): pname='1UIT_A', iprot=1, i1=225, feature=7, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SEQL' feat_only=0
+
+( parfile )>>>  local0.SEQ local.SEQ SEQL 2.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 2.3 local0.SEQ.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 226 8 running ... makealignment(): pname='1WEL_A', iprot=1, i1=226, feature=8, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SRFL' feat_only=0
+
+( parfile )>>>  local0.SRF local.SRF SRFL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.SRF.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 227 10 running ... makealignment(): pname='1WLM_A', iprot=1, i1=227, feature=10, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SEQG' feat_only=0
+
+( parfile )>>>  global0.SEQ global.SEQ SEQG 2.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 2.3 global0.SEQ.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 228 12 running ... makealignment(): pname='1X67_A', iprot=1, i1=228, feature=12, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SRFG' feat_only=0
+
+( parfile )>>>  global0.SRF global.SRF SRFG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.SRF.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 230 1 running ... makealignment(): pname='1XHE_A', iprot=1, i1=230, feature=1, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TSSL' feat_only=0
+
+( parfile )>>>  local0.TSS local.TSS TSSL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TSS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 232 1 running ... makealignment(): pname='1Y80_A', iprot=1, i1=232, feature=1, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TSSL' feat_only=0
+
+( parfile )>>>  local0.TSS local.TSS TSSL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TSS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 234 3 running ... makealignment(): pname='1YLK_D', iprot=1, i1=234, feature=3, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRSL' feat_only=0
+
+( parfile )>>>  local0.TRS local.TRS TRSL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TRS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 235 4 running ... makealignment(): pname='2ALE_A', iprot=1, i1=235, feature=4, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRSG' feat_only=0
+
+( parfile )>>>  global0.TRS global.TRS TRSG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TRS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 236 3 running ... makealignment(): pname='2BR3_D', iprot=1, i1=236, feature=3, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRSL' feat_only=0
+
+( parfile )>>>  local0.TRS local.TRS TRSL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TRS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 237 5 running ... makealignment(): pname='2D30_B', iprot=1, i1=237, feature=5, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'PSML' feat_only=0
+
+( parfile )>>>  local0.PSM local.PSM PSML 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.PSM.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 238 10 running ... makealignment(): pname='2D4O_A', iprot=1, i1=238, feature=10, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SEQG' feat_only=0
+
+( parfile )>>>  global0.SEQ global.SEQ SEQG 2.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 2.3 global0.SEQ.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 239 12 running ... makealignment(): pname='2D5A_A', iprot=1, i1=239, feature=12, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SRFG' feat_only=0
+
+( parfile )>>>  global0.SRF global.SRF SRFG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.SRF.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 240 14 running ... makealignment(): pname='2DB5_A', iprot=1, i1=240, feature=14, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRDG' feat_only=0
+
+( parfile )>>>  global0.TRD global.TRD TRDG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TRD.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 241 12 running ... makealignment(): pname='2DBB_B', iprot=1, i1=241, feature=12, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SRFG' feat_only=0
+
+( parfile )>>>  global0.SRF global.SRF SRFG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.SRF.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 243 1 running ... makealignment(): pname='2DMZ_A', iprot=1, i1=243, feature=1, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TSSL' feat_only=0
+
+( parfile )>>>  local0.TSS local.TSS TSSL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TSS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 245 3 running ... makealignment(): pname='2E7P_C', iprot=1, i1=245, feature=3, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRSL' feat_only=0
+
+( parfile )>>>  local0.TRS local.TRS TRSL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TRS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 246 4 running ... makealignment(): pname='2ETH_A', iprot=1, i1=246, feature=4, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRSG' feat_only=0
+
+( parfile )>>>  global0.TRS global.TRS TRSG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TRS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 247 5 running ... makealignment(): pname='2F06_A', iprot=1, i1=247, feature=5, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'PSML' feat_only=0
+
+( parfile )>>>  local0.PSM local.PSM PSML 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.PSM.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 248 4 running ... makealignment(): pname='2FL4_A', iprot=1, i1=248, feature=4, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRSG' feat_only=0
+
+( parfile )>>>  global0.TRS global.TRS TRSG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TRS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 249 6 running ... makealignment(): pname='2G1U_A', iprot=1, i1=249, feature=6, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'PSMG' feat_only=0
+
+( parfile )>>>  global0.PSM global.PSM PSMG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.PSM.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 250 11 running ... makealignment(): pname='2H00_B', iprot=1, i1=250, feature=11, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRDL' feat_only=0
+
+( parfile )>>>  local0.TRD local.TRD TRDL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TRD.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 251 11 running ... makealignment(): pname='2HJV_B', iprot=1, i1=251, feature=11, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRDL' feat_only=0
+
+( parfile )>>>  local0.TRD local.TRD TRDL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TRD.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 252 14 running ... makealignment(): pname='2I7R_B', iprot=1, i1=252, feature=14, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRDG' feat_only=0
+
+( parfile )>>>  global0.TRD global.TRD TRDG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TRD.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 254 1 running ... makealignment(): pname='2ID1_B', iprot=1, i1=254, feature=1, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TSSL' feat_only=0
+
+( parfile )>>>  local0.TSS local.TSS TSSL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TSS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 255 11 running ... makealignment(): pname='2IOJ_B', iprot=1, i1=255, feature=11, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRDL' feat_only=0
+
+( parfile )>>>  local0.TRD local.TRD TRDL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TRD.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 256 12 running ... makealignment(): pname='2J48_A', iprot=1, i1=256, feature=12, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SRFG' feat_only=0
+
+( parfile )>>>  global0.SRF global.SRF SRFG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.SRF.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 257 14 running ... makealignment(): pname='2JU5_A', iprot=1, i1=257, feature=14, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRDG' feat_only=0
+
+( parfile )>>>  global0.TRD global.TRD TRDG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TRD.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 259 1 running ... makealignment(): pname='2K5T_A', iprot=1, i1=259, feature=1, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TSSL' feat_only=0
+
+( parfile )>>>  local0.TSS local.TSS TSSL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TSS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 261 2 running ... makealignment(): pname='2KG4_A', iprot=1, i1=261, feature=2, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TSSG' feat_only=0
+
+( parfile )>>>  global0.TSS global.TSS TSSG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TSS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 263 3 running ... makealignment(): pname='2P8I_B', iprot=1, i1=263, feature=3, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRSL' feat_only=0
+
+( parfile )>>>  local0.TRS local.TRS TRSL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TRS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 264 3 running ... makealignment(): pname='2QA4_G', iprot=1, i1=264, feature=3, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRSL' feat_only=0
+
+( parfile )>>>  local0.TRS local.TRS TRSL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TRS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 265 4 running ... makealignment(): pname='2R47_A', iprot=1, i1=265, feature=4, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRSG' feat_only=0
+
+( parfile )>>>  global0.TRS global.TRS TRSG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TRS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 266 5 running ... makealignment(): pname='2RDM_C', iprot=1, i1=266, feature=5, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'PSML' feat_only=0
+
+( parfile )>>>  local0.PSM local.PSM PSML 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.PSM.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 267 4 running ... makealignment(): pname='2RJN_A', iprot=1, i1=267, feature=4, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRSG' feat_only=0
+
+( parfile )>>>  global0.TRS global.TRS TRSG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TRS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 268 5 running ... makealignment(): pname='2VLI_B', iprot=1, i1=268, feature=5, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'PSML' feat_only=0
+
+( parfile )>>>  local0.PSM local.PSM PSML 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.PSM.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 269 6 running ... makealignment(): pname='2VUH_B', iprot=1, i1=269, feature=6, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'PSMG' feat_only=0
+
+( parfile )>>>  global0.PSM global.PSM PSMG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.PSM.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 270 5 running ... makealignment(): pname='2W57_B', iprot=1, i1=270, feature=5, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'PSML' feat_only=0
+
+( parfile )>>>  local0.PSM local.PSM PSML 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.PSM.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 271 6 running ... makealignment(): pname='3BJ6_B', iprot=1, i1=271, feature=6, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'PSMG' feat_only=0
+
+( parfile )>>>  global0.PSM global.PSM PSMG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.PSM.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 272 7 running ... makealignment(): pname='3BY6_A', iprot=1, i1=272, feature=7, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SEQL' feat_only=0
+
+( parfile )>>>  local0.SEQ local.SEQ SEQL 2.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 2.3 local0.SEQ.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 273 8 running ... makealignment(): pname='3C3M_A', iprot=1, i1=273, feature=8, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SRFL' feat_only=0
+
+( parfile )>>>  local0.SRF local.SRF SRFL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.SRF.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 274 10 running ... makealignment(): pname='3C85_B', iprot=1, i1=274, feature=10, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SEQG' feat_only=0
+
+( parfile )>>>  global0.SEQ global.SEQ SEQG 2.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 2.3 global0.SEQ.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 275 11 running ... makealignment(): pname='3CC8_A', iprot=1, i1=275, feature=11, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRDL' feat_only=0
+
+( parfile )>>>  local0.TRD local.TRD TRDL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TRD.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 276 12 running ... makealignment(): pname='3CFY_A', iprot=1, i1=276, feature=12, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SRFG' feat_only=0
+
+( parfile )>>>  global0.SRF global.SRF SRFG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.SRF.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 277 12 running ... makealignment(): pname='3CVO_B', iprot=1, i1=277, feature=12, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SRFG' feat_only=0
+
+( parfile )>>>  global0.SRF global.SRF SRFG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.SRF.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 278 14 running ... makealignment(): pname='3D7A_A', iprot=1, i1=278, feature=14, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRDG' feat_only=0
+
+( parfile )>>>  global0.TRD global.TRD TRDG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TRD.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 280 2 running ... makealignment(): pname='3DMO_D', iprot=1, i1=280, feature=2, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TSSG' feat_only=0
+
+( parfile )>>>  global0.TSS global.TSS TSSG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TSS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 281 7 running ... makealignment(): pname='3DXZ_A', iprot=1, i1=281, feature=7, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SEQL' feat_only=0
+
+( parfile )>>>  local0.SEQ local.SEQ SEQL 2.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 2.3 local0.SEQ.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 282 8 running ... makealignment(): pname='3E23_A', iprot=1, i1=282, feature=8, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SRFL' feat_only=0
+
+( parfile )>>>  local0.SRF local.SRF SRFL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.SRF.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 283 10 running ... makealignment(): pname='3E6Q_C', iprot=1, i1=283, feature=10, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SEQG' feat_only=0
+
+( parfile )>>>  global0.SEQ global.SEQ SEQG 2.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 2.3 global0.SEQ.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 284 14 running ... makealignment(): pname='3EAS_B', iprot=1, i1=284, feature=14, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRDG' feat_only=0
+
+( parfile )>>>  global0.TRD global.TRD TRDG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TRD.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 286 2 running ... makealignment(): pname='3EWO_A', iprot=1, i1=286, feature=2, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TSSG' feat_only=0
+
+( parfile )>>>  global0.TSS global.TSS TSSG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TSS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 288 4 running ... makealignment(): pname='3FQ6_B', iprot=1, i1=288, feature=4, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRSG' feat_only=0
+
+( parfile )>>>  global0.TRS global.TRS TRSG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TRS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 289 5 running ... makealignment(): pname='3FWZ_B', iprot=1, i1=289, feature=5, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'PSML' feat_only=0
+
+( parfile )>>>  local0.PSM local.PSM PSML 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.PSM.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 290 6 running ... makealignment(): pname='3FZG_A', iprot=1, i1=290, feature=6, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'PSMG' feat_only=0
+
+( parfile )>>>  global0.PSM global.PSM PSMG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.PSM.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 291 7 running ... makealignment(): pname='3G6E_F', iprot=1, i1=291, feature=7, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SEQL' feat_only=0
+
+( parfile )>>>  local0.SEQ local.SEQ SEQL 2.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 2.3 local0.SEQ.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 292 6 running ... makealignment(): pname='3GTZ_C', iprot=1, i1=292, feature=6, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'PSMG' feat_only=0
+
+( parfile )>>>  global0.PSM global.PSM PSMG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.PSM.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 293 7 running ... makealignment(): pname='3H5I_A', iprot=1, i1=293, feature=7, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SEQL' feat_only=0
+
+( parfile )>>>  local0.SEQ local.SEQ SEQL 2.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 2.3 local0.SEQ.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 294 8 running ... makealignment(): pname='3HAX_D', iprot=1, i1=294, feature=8, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SRFL' feat_only=0
+
+( parfile )>>>  local0.SRF local.SRF SRFL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.SRF.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 295 10 running ... makealignment(): pname='3HK4_A', iprot=1, i1=295, feature=10, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'SEQG' feat_only=0
+
+( parfile )>>>  global0.SEQ global.SEQ SEQG 2.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 2.3 global0.SEQ.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 296 11 running ... makealignment(): pname='3HOF_A', iprot=1, i1=296, feature=11, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRDL' feat_only=0
+
+( parfile )>>>  local0.TRD local.TRD TRDL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TRD.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 297 11 running ... makealignment(): pname='3HP7_A', iprot=1, i1=297, feature=11, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRDL' feat_only=0
+
+( parfile )>>>  local0.TRD local.TRD TRDL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TRD.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 299 1 running ... makealignment(): pname='3IC5_A', iprot=1, i1=299, feature=1, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TSSL' feat_only=0
+
+( parfile )>>>  local0.TSS local.TSS TSSL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TSS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 301 1 running ... makealignment(): pname='3KRM_A', iprot=1, i1=301, feature=1, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TSSL' feat_only=0
+
+( parfile )>>>  local0.TSS local.TSS TSSL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TSS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 303 3 running ... makealignment(): pname='3LUA_A', iprot=1, i1=303, feature=3, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRSL' feat_only=0
+
+( parfile )>>>  local0.TRS local.TRS TRSL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TRS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 304 4 running ... makealignment(): pname='3TMY_A', iprot=1, i1=304, feature=4, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRSG' feat_only=0
+
+( parfile )>>>  global0.TRS global.TRS TRSG 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 global0.TRS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 305 3 running ... makealignment(): pname='3CJT_A', iprot=1, i1=305, feature=3, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRSL' feat_only=0
+
+( parfile )>>>  local0.TRS local.TRS TRSL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TRS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 306 0 running ... makealignment(): pname='1KXZ_A', iprot=1, i1=306, feature=0, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'OPTM' feat_only=0
+
+( parfile )>>>  special.OPT special.OPT OPTM 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 special.OPT.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 306 3 running ... makealignment(): pname='1KXZ_A', iprot=1, i1=306, feature=3, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TRSL' feat_only=0
+
+( parfile )>>>  local0.TRS local.TRS TRSL 3.2
+ Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TRS.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+read aaa* done (waiting)
+ supplement 306 15 running ... makealignment(): pname='1KXZ_A', iprot=1, i1=306, feature=15, rank=6, queryname=aktm_2014_Jul_11.0001
+setparname... 'TBLS' feat_only=0
+
+( parfile )>>>  special.TBL special.TBL TBLS 
+makealignment() in /state/partition1/lp1668645/worker.006: pname='1KXZ_A', iprot=1, i1=306, feature=15, rank=6, queryname=aktm_2014_Jul_11.0001
+ Computing TBLS feature with 1KXZ_A
+>>>[Timing Section: Phase2 blast-score on DD template                  ]
+runtblast(5)
+Looking for 1KXZ_A in blastHits (9446 hits read) hitIndex = 4
+runtblast(7)
+Looking for 1KXZ_A in blastHitsReverse (8126 hits read)hitIndexReverse = -1
+   [Phase2 blast-score on DD template: 365.28 secs (6.09 mins)]
+
+read aaa* done (waiting)
+ supplement runs finished
+ - modeller job for 1R18_A received (isource=0 OPTM) 
+makealignment_mod() with pname=1R18_A, rank=6, queryname=aktm_2014_Jul_11.0001, isource=0, iprot=1
+setparname... 'OPTM' feat_only=0
+
+( parfile )>>>  special.OPT special.OPT OPTM 3.2
+  Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 special.OPT.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+Alignment complete.
+Read the alignment, length is 186:
+salign1: MSYVPHVPYVP-----------TPEKVVRRMLEIAK--VSQDDIVYDLGCGD---GRIIITAAKDFNVK---KAVGVEINDERIREALANIEKNGV----TGRASIVKGNFFEVDISEATVVTMFLLTNVNEMLKPKLEKELKPGTRVVSHEFEIRGWNPKEVIKVEDGNMNHTVYLYVIGEHKLE
+salign2: KHYSPRNPYMDAPQPIGGGVTISAPHMHAFALEYLRDHLKPGARILDVGSGSGYLTACFYRYIKAKGVDADTRIVGIEHQAELVRRSKANLNTDDRSMLDSGQLLIVEGDGRKGYPPNAPYNAIHVGAAAPD-TPTELINQLASGGRLIVPVGP-------------DGGSQYMQQYDKDANGKVE
+struct2: KHYSPRNPYMDAPQPIGGGVTISAPHMHAFALEYLRDHLKPGARILDVGSGSGYLTACFYRYIKAKGVDADTRIVGIEHQAELVRRSKANLNTDDRSMLDSGQLLIVEGDGRKGYPPNAPYNAIHVGAAAPDTPTELINQLASGGRLIVPVGPDGGSQYMQQYDKDANGKVEMTRLMGVMYVPL
+offset=39, qoffset=0
+
+read the aaa
+align2modeler...
+ - seq. ident= 19.018405 - align translated Modeller is being run with query aktm_2014_Jul_11.0001, struc 1R18_A, nModels=1
+Modeller cmd: /state/partition1/looppLocal//mod9v6/bin/mod9v6_custom model.top 1> aktm_2014_Jul_11.0001.1R18_A.modeller.log 2> aktm_2014_Jul_11.0001.1R18_A.modeller.err
+atomEnergy: computing score for model.0.pdb using potential /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot...
+atomEenergy computation with: /share/apps/loopp/data/H_common//LOOPP/atom_energy.exe model.0.pdb /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot 1> atom_energy.out 2> atom_energy.err
+atom_energy: done, score = -558.901
+ - (1)scored (-558.901306)
+atomEnergy: computing score for model.0.pdb using potential /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot...
+atomEenergy computation with: /share/apps/loopp/data/H_common//LOOPP/atom_energy.exe model.0.pdb /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot 1> atom_energy.out 2> atom_energy.err
+atom_energy: done, score = -558.901
+
+perl GetCGenergy.pl ../model.0.pdb.save - OUTPUT 1> OUTPUT.ENE 2> ERR
+getscore_cge() returned 0.596
+
+Running SIFT: /state/partition1/looppLocal//LOOPP/scoring/SIFT2/sift_distr/runSiftLOOPP model.seq model.2nd.graph 20110524 /state/partition1/lp1668645/worker.006.top/sift /state/partition1/looppLocal//LOOPP/scoring/SIFT2/sift_distr /state/partition1/looppLocal//sable_distr /state/partition1/looppLocal//blastdb/  1> run_sift.out 2> run_sift.err
+Result.RES was found.  SIFT completed successfully.
+getscore_sift() returned 0.406
+
+/state/partition1/looppLocal//LOOPP/scoring/runtmaligndrv.exe 1R18 A model - /state/partition1/looppLocal//LOOPP/DB2010/pdb_clean.NEW /state/partition1/looppLocal//LOOPP/DB2010/PDB_CHAIN.NEW /state/partition1/looppLocal//LOOPP/scoring 1> runtmaligndrv.out 2> runtmaligndrv.err
+f1,f2 = 0.878140 0.648020
+getscore_tmalign() returned 0.648, 0.878
+Run dssp: /share/apps/loopp/data/H_common//LOOPP/dbgen/dsspcmbi.exe ../model.0.pdb.save model.0.pdb.save.dssp 2> model.0.pdb.save.dssp.err
+Found exposed surface area: 11151
+getscore_dssp() returned 11151.000, 3611.000 7540.000
+setparname... 'OPTM' feat_only=0
+
+( parfile )>>>  special.OPT special.OPT OPTM 3.2
+>>/share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.6 special.OPT.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+te13 energy with isource00=0 yielded -298.64
+ - (2) te13 score (-298.640000)
+ - done
+ - modeller job for 2IBS_A received (isource=0 OPTM) 
+makealignment_mod() with pname=2IBS_A, rank=6, queryname=aktm_2014_Jul_11.0001, isource=0, iprot=1
+setparname... 'OPTM' feat_only=0
+
+( parfile )>>>  special.OPT special.OPT OPTM 3.2
+  Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 special.OPT.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+Alignment complete.
+Read the alignment, length is 190:
+salign1: VPTPEKVVRRMLEIAKVSQDDIVYDLGCGDGRIIITAAKDFN-VKKAVGVEINDERIREALANIEKNGVTGRASIVKGNFFEVDISEATVVTMFLLT------------NVNEMLKPKLEKEL---------------------KPGTRVVSHEFE--IRGWNPKEVIKVEDGNMNHTVYLYVIGEHKLE
+salign2: VETPPEVVDFMVSLAEAPRGGRVLEPACAHGPFLRAFREAHGTAYRFVGVEIDPK----------ALDLPPWAEGILADFLLWEPGEAFDLILGNPPYGIVGEASKYPIHVFKAVKDLYKKAFSTWKGKYNLYGAFLEKAVRLLKPGGVLVFVVPATWLVLEDFALLREFLAREG--KTSVYYLGEVFPQ
+struct2: VETPPEVVDFMVSLAEAPRGGRVLEPACAHGPFLRAFREAHGTAYRFVGVEIDPKALDLPPWAEGILADFLLWEPGEAFDLILGNPPYGIVGEASKYPIHVFKAVKDLYKKAFSTWKGKYNLYGAFLEKAVRLLKPGGVLVFVVPATWLVLEDFALLREFLAREGKTSVYYLGEVFPQKKVSAVVIRFQKSGKGLSLWDTQESESGFTPILWAEYPHWEGEIIRFETEETRKLEISGMPLGDLFHIRFAARSPEFKKHPAVRKEPGPGLVPVLTGRNLKPGWVDYEKNHSGLWMPKERAKELRDFYATPHLVVAHTKGTRVVAAWDERAYPWREEFHLLPKEGVRLDPSSLVQWLNSEAMQKHVRTLYRDFVPHLTLRMLERLPVRREYGFHT
+offset=0, qoffset=9
+
+read the aaa
+align2modeler...
+ - seq. ident= 18.831169 - align translated Modeller is being run with query aktm_2014_Jul_11.0001, struc 2IBS_A, nModels=1
+Modeller cmd: /state/partition1/looppLocal//mod9v6/bin/mod9v6_custom model.top 1> aktm_2014_Jul_11.0001.2IBS_A.modeller.log 2> aktm_2014_Jul_11.0001.2IBS_A.modeller.err
+atomEnergy: computing score for model.0.pdb using potential /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot...
+atomEenergy computation with: /share/apps/loopp/data/H_common//LOOPP/atom_energy.exe model.0.pdb /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot 1> atom_energy.out 2> atom_energy.err
+atom_energy: done, score = -279.779
+ - (1)scored (-279.779297)
+atomEnergy: computing score for model.0.pdb using potential /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot...
+atomEenergy computation with: /share/apps/loopp/data/H_common//LOOPP/atom_energy.exe model.0.pdb /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot 1> atom_energy.out 2> atom_energy.err
+atom_energy: done, score = -279.779
+
+perl GetCGenergy.pl ../model.0.pdb.save - OUTPUT 1> OUTPUT.ENE 2> ERR
+getscore_cge() returned 0.543
+
+Running SIFT: /state/partition1/looppLocal//LOOPP/scoring/SIFT2/sift_distr/runSiftLOOPP model.seq model.2nd.graph 20110524 /state/partition1/lp1668645/worker.006.top/sift /state/partition1/looppLocal//LOOPP/scoring/SIFT2/sift_distr /state/partition1/looppLocal//sable_distr /state/partition1/looppLocal//blastdb/  1> run_sift.out 2> run_sift.err
+Result.RES was found.  SIFT completed successfully.
+getscore_sift() returned 0.321
+
+/state/partition1/looppLocal//LOOPP/scoring/runtmaligndrv.exe 2IBS A model - /state/partition1/looppLocal//LOOPP/DB2010/pdb_clean.NEW /state/partition1/looppLocal//LOOPP/DB2010/PDB_CHAIN.NEW /state/partition1/looppLocal//LOOPP/scoring 1> runtmaligndrv.out 2> runtmaligndrv.err
+f1,f2 = 0.809380 0.336780
+getscore_tmalign() returned 0.337, 0.809
+Run dssp: /share/apps/loopp/data/H_common//LOOPP/dbgen/dsspcmbi.exe ../model.0.pdb.save model.0.pdb.save.dssp 2> model.0.pdb.save.dssp.err
+Found exposed surface area: 11681
+getscore_dssp() returned 11681.000, 3718.000 7963.000
+setparname... 'OPTM' feat_only=0
+
+( parfile )>>>  special.OPT special.OPT OPTM 3.2
+>>/share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.6 special.OPT.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+te13 energy with isource00=0 yielded -213.5
+ - (2) te13 score (-213.500000)
+ - done
+ - modeller job for 1NV8_A received (isource=0 OPTM) 
+makealignment_mod() with pname=1NV8_A, rank=6, queryname=aktm_2014_Jul_11.0001, isource=0, iprot=1
+setparname... 'OPTM' feat_only=0
+
+( parfile )>>>  special.OPT special.OPT OPTM 3.2
+  Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 special.OPT.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+Alignment complete.
+Read the alignment, length is 192:
+salign1: YVPHVPYVPTP--EKVVRRMLEIAKVSQDDIVYDLGCGDGRIIITAAKDFNVKKAVGVEINDERIREALANIEKNGVTGRASIVKGNF---FEVDISEATVVTMFLLT----------------------NVNEMLKPKLEKELKPGTRVVSHEFEIRGWNPKEVIKVED------GNMNHTVYLYVIGEHK
+salign2: LVEEGVFVPRPETEELVELALELIRKYGIKTVADIGTGSGAIGVSVAKFSDA-IVFATDVSSKAVEIARKNAERHGVSDRFFVRKGEFLEPFKEKFASIEMILSNPPYVKSSAHLPKDVLFEPPEALFGGEDGLDFYREFFGRYDTSGKIVLMEIGED--QVEELKKIVSDTVFLKDSAGKYRFLLLNRRSS
+struct2: LVEEGVFVPRPETEELVELALELIRKYGIKTVADIGTGSGAIGVSVAKFSDAIVFATDVSSKAVEIARKNAERHGVSDRFFVRKGEFLEPFKEKFASIEMILSNPPYVKSSAHLPKDVLFEPPEALFGGEDGLDFYREFFGRYDTSGKIVLMEIGEDQVEELKKIVSDTVFLKDSAGKYRFLLLNRRSS
+offset=82, qoffset=2
+
+read the aaa
+align2modeler...
+ - seq. ident= 19.496855 - align translated Modeller is being run with query aktm_2014_Jul_11.0001, struc 1NV8_A, nModels=1
+Modeller cmd: /state/partition1/looppLocal//mod9v6/bin/mod9v6_custom model.top 1> aktm_2014_Jul_11.0001.1NV8_A.modeller.log 2> aktm_2014_Jul_11.0001.1NV8_A.modeller.err
+atomEnergy: computing score for model.0.pdb using potential /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot...
+atomEenergy computation with: /share/apps/loopp/data/H_common//LOOPP/atom_energy.exe model.0.pdb /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot 1> atom_energy.out 2> atom_energy.err
+atom_energy: done, score = -534.834
+ - (1)scored (-534.833740)
+atomEnergy: computing score for model.0.pdb using potential /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot...
+atomEenergy computation with: /share/apps/loopp/data/H_common//LOOPP/atom_energy.exe model.0.pdb /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot 1> atom_energy.out 2> atom_energy.err
+atom_energy: done, score = -534.834
+
+perl GetCGenergy.pl ../model.0.pdb.save - OUTPUT 1> OUTPUT.ENE 2> ERR
+getscore_cge() returned 0.631
+
+Running SIFT: /state/partition1/looppLocal//LOOPP/scoring/SIFT2/sift_distr/runSiftLOOPP model.seq model.2nd.graph 20110524 /state/partition1/lp1668645/worker.006.top/sift /state/partition1/looppLocal//LOOPP/scoring/SIFT2/sift_distr /state/partition1/looppLocal//sable_distr /state/partition1/looppLocal//blastdb/  1> run_sift.out 2> run_sift.err
+Result.RES was found.  SIFT completed successfully.
+getscore_sift() returned 0.618
+
+/state/partition1/looppLocal//LOOPP/scoring/runtmaligndrv.exe 1NV8 A model - /state/partition1/looppLocal//LOOPP/DB2010/pdb_clean.NEW /state/partition1/looppLocal//LOOPP/DB2010/PDB_CHAIN.NEW /state/partition1/looppLocal//LOOPP/scoring 1> runtmaligndrv.out 2> runtmaligndrv.err
+f1,f2 = 0.938480 0.558940
+getscore_tmalign() returned 0.559, 0.938
+Run dssp: /share/apps/loopp/data/H_common//LOOPP/dbgen/dsspcmbi.exe ../model.0.pdb.save model.0.pdb.save.dssp 2> model.0.pdb.save.dssp.err
+Found exposed surface area: 9388
+getscore_dssp() returned 9388.000, 2876.000 6512.000
+setparname... 'OPTM' feat_only=0
+
+( parfile )>>>  special.OPT special.OPT OPTM 3.2
+>>/share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.6 special.OPT.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+te13 energy with isource00=0 yielded -302.79
+ - (2) te13 score (-302.790000)
+ - done
+ - modeller job for 3E7P_A received (isource=0 OPTM) 
+makealignment_mod() with pname=3E7P_A, rank=6, queryname=aktm_2014_Jul_11.0001, isource=0, iprot=1
+setparname... 'OPTM' feat_only=0
+
+( parfile )>>>  special.OPT special.OPT OPTM 3.2
+  Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 special.OPT.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+Alignment complete.
+Read the alignment, length is 180:
+salign1: VPHVPYVPTPEKVVRRMLEIA-KVSQDDIVYDLGCGDGRIIITAAKDFNVKKAVGVEINDERIREALANIEKNGVTGRASIVKGNFFEVDISEATVVTMFLLTNV----NEMLKPKLEKELKPGT-RVVSHEFEIRGWNPKEVIKVEDGNMN-----------------HTVYLYVIGEH
+salign2: LNTERQGPGSPEVTLKALSFIDNLTNKSLIADLGCGTGGQTMILAQHVPG-KITGIDFFPGFIERFNKNAEKLNLQNRVKGIVGSMDDLSFEKDSLDLIWSEGAIYNIGFERGLKEWRNYLKPGGYLAVSESVWFTDQRPAEIHDFWMSAYTEIDTVPNKVAQIQKAGYIPVATFILPEN
+struct2: LNTERQGPGSPEVTLKALSFIDNLTNKSLIADLGCGTGGQTMILAQHVPGKITGIDFFPGFIERFNKNAEKLNLQNRVKGIVGSMDDLSFEKDSLDLIWSEGAIYNIGFERGLKEWRNYLKPGGYLAVSESVWFTDQRPAEIHDFWMSAYTEIDTVPNKVAQIQKAGYIPVATFILPENCWIEHYFAPQAKAEEIFRRKHAGSRIVEELITSNHHEAELYSKYKAYYGYAFFICKKGF
+offset=15, qoffset=3
+
+read the aaa
+align2modeler...
+ - seq. ident= 18.471338 - align translated Modeller is being run with query aktm_2014_Jul_11.0001, struc 3E7P_A, nModels=1
+Modeller cmd: /state/partition1/looppLocal//mod9v6/bin/mod9v6_custom model.top 1> aktm_2014_Jul_11.0001.3E7P_A.modeller.log 2> aktm_2014_Jul_11.0001.3E7P_A.modeller.err
+atomEnergy: computing score for model.0.pdb using potential /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot...
+atomEenergy computation with: /share/apps/loopp/data/H_common//LOOPP/atom_energy.exe model.0.pdb /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot 1> atom_energy.out 2> atom_energy.err
+atom_energy: done, score = -423.407
+ - (1)scored (-423.407257)
+atomEnergy: computing score for model.0.pdb using potential /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot...
+atomEenergy computation with: /share/apps/loopp/data/H_common//LOOPP/atom_energy.exe model.0.pdb /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot 1> atom_energy.out 2> atom_energy.err
+atom_energy: done, score = -423.407
+
+perl GetCGenergy.pl ../model.0.pdb.save - OUTPUT 1> OUTPUT.ENE 2> ERR
+getscore_cge() returned 0.587
+
+Running SIFT: /state/partition1/looppLocal//LOOPP/scoring/SIFT2/sift_distr/runSiftLOOPP model.seq model.2nd.graph 20110524 /state/partition1/lp1668645/worker.006.top/sift /state/partition1/looppLocal//LOOPP/scoring/SIFT2/sift_distr /state/partition1/looppLocal//sable_distr /state/partition1/looppLocal//blastdb/  1> run_sift.out 2> run_sift.err
+Result.RES was found.  SIFT completed successfully.
+getscore_sift() returned 0.580
+
+/state/partition1/looppLocal//LOOPP/scoring/runtmaligndrv.exe 3E7P A model - /state/partition1/looppLocal//LOOPP/DB2010/pdb_clean.NEW /state/partition1/looppLocal//LOOPP/DB2010/PDB_CHAIN.NEW /state/partition1/looppLocal//LOOPP/scoring 1> runtmaligndrv.out 2> runtmaligndrv.err
+f1,f2 = 0.905320 0.571760
+getscore_tmalign() returned 0.572, 0.905
+Run dssp: /share/apps/loopp/data/H_common//LOOPP/dbgen/dsspcmbi.exe ../model.0.pdb.save model.0.pdb.save.dssp 2> model.0.pdb.save.dssp.err
+Found exposed surface area: 10172
+getscore_dssp() returned 10172.000, 2978.000 7194.000
+setparname... 'OPTM' feat_only=0
+
+( parfile )>>>  special.OPT special.OPT OPTM 3.2
+>>/share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.6 special.OPT.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+te13 energy with isource00=0 yielded -242.75
+ - (2) te13 score (-242.750000)
+ - done
+ - modeller job for 3GDH_A received (isource=0 OPTM) 
+makealignment_mod() with pname=3GDH_A, rank=6, queryname=aktm_2014_Jul_11.0001, isource=0, iprot=1
+setparname... 'OPTM' feat_only=0
+
+( parfile )>>>  special.OPT special.OPT OPTM 3.2
+  Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 special.OPT.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+Alignment complete.
+Read the alignment, length is 186:
+salign1: MSYVPHVPYV------PTPEKVVRRMLEIAKVS-QDDIVYDLGCGDGRIIITAAKDFNVKKAVGVEINDERIREALANIEKNGVTGRASIVKGNFF-EVDISEATVVTMFLLT------------------NVNEMLKPKLEKELKPGTRVVSHEFEIRGWNPKEVIKVEDGNMNHTVYLYVIGEH
+salign2: SRFDDGIKLDREGWFSVTPEKIAEHIAGRVSQSFKCDVVVDAFCGVGGNTIQFALTG--MRVIAIDIDPVKIALARNNAEVYGIADKIEFICGDFLLLASFLKADVVFLSPPWGGPDYATAETFDIRTMMSPDGFEIFRLSKKITNN---IVYFLPRN--ADIDQVASLAGPGGQVEIEQNFLNNK
+struct2: SRFDDGIKLDREGWFSVTPEKIAEHIAGRVSQSFKCDVVVDAFCGVGGNTIQFALTGMRVIAIDIDPVKIALARNNAEVYGIADKIEFICGDFLLLASFLKADVVFLSPPWGGPDYATAETFDIRTMMSPDGFEIFRLSKKITNNIVYFLPRNADIDQVASLAGPGGQVEIEQNFLNNKLKTITAYFGD
+offset=22, qoffset=0
+
+read the aaa
+align2modeler...
+ - seq. ident= 16.875000 - align translated Modeller is being run with query aktm_2014_Jul_11.0001, struc 3GDH_A, nModels=1
+Modeller cmd: /state/partition1/looppLocal//mod9v6/bin/mod9v6_custom model.top 1> aktm_2014_Jul_11.0001.3GDH_A.modeller.log 2> aktm_2014_Jul_11.0001.3GDH_A.modeller.err
+atomEnergy: computing score for model.0.pdb using potential /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot...
+atomEenergy computation with: /share/apps/loopp/data/H_common//LOOPP/atom_energy.exe model.0.pdb /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot 1> atom_energy.out 2> atom_energy.err
+atom_energy: done, score = -373.462
+ - (1)scored (-373.462097)
+atomEnergy: computing score for model.0.pdb using potential /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot...
+atomEenergy computation with: /share/apps/loopp/data/H_common//LOOPP/atom_energy.exe model.0.pdb /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot 1> atom_energy.out 2> atom_energy.err
+atom_energy: done, score = -373.462
+
+perl GetCGenergy.pl ../model.0.pdb.save - OUTPUT 1> OUTPUT.ENE 2> ERR
+getscore_cge() returned 0.529
+
+Running SIFT: /state/partition1/looppLocal//LOOPP/scoring/SIFT2/sift_distr/runSiftLOOPP model.seq model.2nd.graph 20110524 /state/partition1/lp1668645/worker.006.top/sift /state/partition1/looppLocal//LOOPP/scoring/SIFT2/sift_distr /state/partition1/looppLocal//sable_distr /state/partition1/looppLocal//blastdb/  1> run_sift.out 2> run_sift.err
+Result.RES was found.  SIFT completed successfully.
+getscore_sift() returned 0.493
+
+/state/partition1/looppLocal//LOOPP/scoring/runtmaligndrv.exe 3GDH A model - /state/partition1/looppLocal//LOOPP/DB2010/pdb_clean.NEW /state/partition1/looppLocal//LOOPP/DB2010/PDB_CHAIN.NEW /state/partition1/looppLocal//LOOPP/scoring 1> runtmaligndrv.out 2> runtmaligndrv.err
+f1,f2 = 0.934160 0.712010
+getscore_tmalign() returned 0.712, 0.934
+Run dssp: /share/apps/loopp/data/H_common//LOOPP/dbgen/dsspcmbi.exe ../model.0.pdb.save model.0.pdb.save.dssp 2> model.0.pdb.save.dssp.err
+Found exposed surface area: 9238
+getscore_dssp() returned 9238.000, 2986.000 6252.000
+setparname... 'OPTM' feat_only=0
+
+( parfile )>>>  special.OPT special.OPT OPTM 3.2
+>>/share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.6 special.OPT.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+te13 energy with isource00=0 yielded -328.64
+ - (2) te13 score (-328.640000)
+ - done
+ - modeller job for 1YZH_A received (isource=0 OPTM) 
+makealignment_mod() with pname=1YZH_A, rank=6, queryname=aktm_2014_Jul_11.0001, isource=0, iprot=1
+setparname... 'OPTM' feat_only=0
+
+( parfile )>>>  special.OPT special.OPT OPTM 3.2
+  Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 special.OPT.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+Alignment complete.
+Read the alignment, length is 177:
+salign1: VPHVPYVPTPEKVVRRMLEIAKVSQDDIVYDLGCGDGRIIITAAKDFNVKKAVGVEINDERIREALANIEKNGVTGRASIVKGN------FFEVDISEATVVTMFLLT-----------NVNEMLKPKLEKELKPGTRVVSHEFEIRGWNPKEVIKVEDGNMNHTVYLYVIGEHKLE
+salign2: ANPQYVVLNPLEAKAKWRDLFG-NDNPIHVEVGSGKGAFVSGMAKQNPDINYIGIDIQKSVLSYALDKVLEVGV-PNIKLLWVDGSDLTDYFED--GEIDRLYLNFSDPWPKKRHEKRRLTYKTFLDTFKRILPENGEIHFKTDN-RGLFEYSLVSFSQYGMKLNGVWLDLHASDFE
+struct2: ANPQYVVLNPLEAKAKWRDLFGNDNPIHVEVGSGKGAFVSGMAKQNPDINYIGIDIQKSVLSYALDKVLEVGVPNIKLLWVDGSDLTDYFEDGEIDRLYLNFSDPWPKKRHEKRRLTYKTFLDTFKRILPENGEIHFKTDNRGLFEYSLVSFSQYGMKLNGVWLDLHASDFEGNVMTEYEQKFSNKGQVIYRVEAEF
+offset=7, qoffset=3
+
+read the aaa
+align2modeler...
+ - seq. ident= 13.750000 - align translated Modeller is being run with query aktm_2014_Jul_11.0001, struc 1YZH_A, nModels=1
+Modeller cmd: /state/partition1/looppLocal//mod9v6/bin/mod9v6_custom model.top 1> aktm_2014_Jul_11.0001.1YZH_A.modeller.log 2> aktm_2014_Jul_11.0001.1YZH_A.modeller.err
+atomEnergy: computing score for model.0.pdb using potential /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot...
+atomEenergy computation with: /share/apps/loopp/data/H_common//LOOPP/atom_energy.exe model.0.pdb /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot 1> atom_energy.out 2> atom_energy.err
+atom_energy: done, score = -387.535
+ - (1)scored (-387.534729)
+atomEnergy: computing score for model.0.pdb using potential /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot...
+atomEenergy computation with: /share/apps/loopp/data/H_common//LOOPP/atom_energy.exe model.0.pdb /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot 1> atom_energy.out 2> atom_energy.err
+atom_energy: done, score = -387.535
+
+perl GetCGenergy.pl ../model.0.pdb.save - OUTPUT 1> OUTPUT.ENE 2> ERR
+getscore_cge() returned 0.579
+
+Running SIFT: /state/partition1/looppLocal//LOOPP/scoring/SIFT2/sift_distr/runSiftLOOPP model.seq model.2nd.graph 20110524 /state/partition1/lp1668645/worker.006.top/sift /state/partition1/looppLocal//LOOPP/scoring/SIFT2/sift_distr /state/partition1/looppLocal//sable_distr /state/partition1/looppLocal//blastdb/  1> run_sift.out 2> run_sift.err
+Result.RES was found.  SIFT completed successfully.
+getscore_sift() returned 0.421
+
+/state/partition1/looppLocal//LOOPP/scoring/runtmaligndrv.exe 1YZH A model - /state/partition1/looppLocal//LOOPP/DB2010/pdb_clean.NEW /state/partition1/looppLocal//LOOPP/DB2010/PDB_CHAIN.NEW /state/partition1/looppLocal//LOOPP/scoring 1> runtmaligndrv.out 2> runtmaligndrv.err
+f1,f2 = 0.940280 0.741630
+getscore_tmalign() returned 0.742, 0.940
+Run dssp: /share/apps/loopp/data/H_common//LOOPP/dbgen/dsspcmbi.exe ../model.0.pdb.save model.0.pdb.save.dssp 2> model.0.pdb.save.dssp.err
+Found exposed surface area: 10828
+getscore_dssp() returned 10828.000, 3400.000 7428.000
+setparname... 'OPTM' feat_only=0
+
+( parfile )>>>  special.OPT special.OPT OPTM 3.2
+>>/share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.6 special.OPT.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+te13 energy with isource00=0 yielded -296.58
+ - (2) te13 score (-296.580000)
+ - done
+ - modeller job for 3FPJ_B received (isource=0 OPTM) 
+makealignment_mod() with pname=3FPJ_B, rank=6, queryname=aktm_2014_Jul_11.0001, isource=0, iprot=1
+setparname... 'OPTM' feat_only=0
+
+( parfile )>>>  special.OPT special.OPT OPTM 3.2
+  Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 special.OPT.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+Alignment complete.
+Read the alignment, length is 168:
+salign1: HVPYVPTPEKVVRRMLEIAKVSQDDIVYDLGCGDGRIIITAAKDFNVKKAVGVEINDERIREALANIEKNGVTGRASIVKGNFFEVDISEATVVTMFLLTNVNEMLKPKLEKELKPGTRVVSHEFE------IRGWNPKEVIKVED-------GNMNHTVYLYVIGEH
+salign2: SFYFYPRYLELLKNEAALGRFRRGERAVFIGGGPLPLTGILLSHVYGMRVNVVEIEPDIAELSRKVIEGLGVDG-VNVITGDETVIDGLEFDVLMVAALAEPKRRVFRNIHRYVDTETRIIYRTYTGMRAILYAPVSDDDITGFRRAGVVLPSGKVNNTSVLVFKCPD
+struct2: SFYFYPRYLELLKNEAALGRFRRGERAVFIGGGPLPLTGILLSHVYGMRVNVVEIEPDIAELSRKVIEGLGVDGVNVITGDETVIDGLEFDVLMVAALAEPKRRVFRNIHRYVDTETRIIYRTYTGMRAILYAPVSDDDITGFRRAGVVLPSGKVNNTSVLVFKCPD
+offset=98, qoffset=5
+
+read the aaa
+align2modeler...
+ - seq. ident= 14.193548 - align translated Modeller is being run with query aktm_2014_Jul_11.0001, struc 3FPJ_B, nModels=1
+Modeller cmd: /state/partition1/looppLocal//mod9v6/bin/mod9v6_custom model.top 1> aktm_2014_Jul_11.0001.3FPJ_B.modeller.log 2> aktm_2014_Jul_11.0001.3FPJ_B.modeller.err
+atomEnergy: computing score for model.0.pdb using potential /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot...
+atomEenergy computation with: /share/apps/loopp/data/H_common//LOOPP/atom_energy.exe model.0.pdb /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot 1> atom_energy.out 2> atom_energy.err
+atom_energy: done, score = -460.839
+ - (1)scored (-460.838623)
+atomEnergy: computing score for model.0.pdb using potential /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot...
+atomEenergy computation with: /share/apps/loopp/data/H_common//LOOPP/atom_energy.exe model.0.pdb /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot 1> atom_energy.out 2> atom_energy.err
+atom_energy: done, score = -460.839
+
+perl GetCGenergy.pl ../model.0.pdb.save - OUTPUT 1> OUTPUT.ENE 2> ERR
+getscore_cge() returned 0.649
+
+Running SIFT: /state/partition1/looppLocal//LOOPP/scoring/SIFT2/sift_distr/runSiftLOOPP model.seq model.2nd.graph 20110524 /state/partition1/lp1668645/worker.006.top/sift /state/partition1/looppLocal//LOOPP/scoring/SIFT2/sift_distr /state/partition1/looppLocal//sable_distr /state/partition1/looppLocal//blastdb/  1> run_sift.out 2> run_sift.err
+Result.RES was found.  SIFT completed successfully.
+getscore_sift() returned 0.511
+
+/state/partition1/looppLocal//LOOPP/scoring/runtmaligndrv.exe 3FPJ B model - /state/partition1/looppLocal//LOOPP/DB2010/pdb_clean.NEW /state/partition1/looppLocal//LOOPP/DB2010/PDB_CHAIN.NEW /state/partition1/looppLocal//LOOPP/scoring 1> runtmaligndrv.out 2> runtmaligndrv.err
+f1,f2 = 0.955380 0.566490
+getscore_tmalign() returned 0.566, 0.955
+Run dssp: /share/apps/loopp/data/H_common//LOOPP/dbgen/dsspcmbi.exe ../model.0.pdb.save model.0.pdb.save.dssp 2> model.0.pdb.save.dssp.err
+Found exposed surface area: 9142
+getscore_dssp() returned 9142.000, 2534.000 6608.000
+setparname... 'OPTM' feat_only=0
+
+( parfile )>>>  special.OPT special.OPT OPTM 3.2
+>>/share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.6 special.OPT.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+te13 energy with isource00=0 yielded -429.47
+ - (2) te13 score (-429.470000)
+ - done
+ - modeller job for 3BKX_B received (isource=0 OPTM) 
+makealignment_mod() with pname=3BKX_B, rank=6, queryname=aktm_2014_Jul_11.0001, isource=0, iprot=1
+setparname... 'OPTM' feat_only=0
+
+( parfile )>>>  special.OPT special.OPT OPTM 3.2
+  Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 special.OPT.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+Alignment complete.
+Read the alignment, length is 147:
+salign1: EKVVRRMLEIAKVSQDDIVYDLGCGDGRIIITAAKDFNV-KKAVGVEIND------ERIREALANIEKNGVTGRASIVKGNFFEVDISEA------TVVTMFLLT-----NVNEMLKPKLEKELKPGTRVVSHEFEIRGWNPKEVIK
+salign2: TAHRLAIAEAWQVKPGEKILEIGCGQGDLSAVLADQVGSSGHVTGIDIASPDYGAPLTLGQAWNHLLAGPLGDRLTVHFNTNLSDDLGPIADQHFDRVVLAHSLWYFASANALALLFKNMAAVC-DHVDVAEWSMQPTALDQIGHLQ
+struct2: TAHRLAIAEAWQVKPGEKILEIGCGQGDLSAVLADQVGSSGHVTGIDIASPDYGAPLTLGQAWNHLLAGPLGDRLTVHFNTNLSDDLGPIADQHFDRVVLAHSLWYFASANALALLFKNMAAVCDHVDVAEWSMQPTALDQIGHLQAAMIQGLLYAIAPSDVANIRTLITPDTLAQIAHDNTWTYTAGTIVEDPTLDDAHWEIATTNALLTELKLSTDLRDRVKPLLEAMSHNGTASLATFTGRITF
+offset=27, qoffset=13
+
+read the aaa
+align2modeler...
+ - seq. ident= 13.953488 - align translated Modeller is being run with query aktm_2014_Jul_11.0001, struc 3BKX_B, nModels=1
+Modeller cmd: /state/partition1/looppLocal//mod9v6/bin/mod9v6_custom model.top 1> aktm_2014_Jul_11.0001.3BKX_B.modeller.log 2> aktm_2014_Jul_11.0001.3BKX_B.modeller.err
+atomEnergy: computing score for model.0.pdb using potential /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot...
+atomEenergy computation with: /share/apps/loopp/data/H_common//LOOPP/atom_energy.exe model.0.pdb /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot 1> atom_energy.out 2> atom_energy.err
+atom_energy: done, score = -450.566
+ - (1)scored (-450.565857)
+atomEnergy: computing score for model.0.pdb using potential /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot...
+atomEenergy computation with: /share/apps/loopp/data/H_common//LOOPP/atom_energy.exe model.0.pdb /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot 1> atom_energy.out 2> atom_energy.err
+atom_energy: done, score = -450.566
+
+perl GetCGenergy.pl ../model.0.pdb.save - OUTPUT 1> OUTPUT.ENE 2> ERR
+getscore_cge() returned 0.547
+
+Running SIFT: /state/partition1/looppLocal//LOOPP/scoring/SIFT2/sift_distr/runSiftLOOPP model.seq model.2nd.graph 20110524 /state/partition1/lp1668645/worker.006.top/sift /state/partition1/looppLocal//LOOPP/scoring/SIFT2/sift_distr /state/partition1/looppLocal//sable_distr /state/partition1/looppLocal//blastdb/  1> run_sift.out 2> run_sift.err
+Result.RES was found.  SIFT completed successfully.
+getscore_sift() returned 0.464
+
+/state/partition1/looppLocal//LOOPP/scoring/runtmaligndrv.exe 3BKX B model - /state/partition1/looppLocal//LOOPP/DB2010/pdb_clean.NEW /state/partition1/looppLocal//LOOPP/DB2010/PDB_CHAIN.NEW /state/partition1/looppLocal//LOOPP/scoring 1> runtmaligndrv.out 2> runtmaligndrv.err
+f1,f2 = 0.850270 0.422630
+getscore_tmalign() returned 0.423, 0.850
+Run dssp: /share/apps/loopp/data/H_common//LOOPP/dbgen/dsspcmbi.exe ../model.0.pdb.save model.0.pdb.save.dssp 2> model.0.pdb.save.dssp.err
+Found exposed surface area: 8739
+getscore_dssp() returned 8739.000, 2153.000 6586.000
+setparname... 'OPTM' feat_only=0
+
+( parfile )>>>  special.OPT special.OPT OPTM 3.2
+>>/share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.6 special.OPT.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+te13 energy with isource00=0 yielded -239.86
+ - (2) te13 score (-239.860000)
+ - done
+ - modeller job for 1KOL_A received (isource=0 OPTM) 
+makealignment_mod() with pname=1KOL_A, rank=6, queryname=aktm_2014_Jul_11.0001, isource=0, iprot=1
+setparname... 'OPTM' feat_only=0
+
+( parfile )>>>  special.OPT special.OPT OPTM 3.2
+  Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 special.OPT.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+Alignment complete.
+Read the alignment, length is 172:
+salign1: PYVPTPEKVVRRMLEIAKVSQDDIVYDLGCGD-GRIIITAAKDFNVKKAVGVEINDERIREALANIEKNGVTGRASIVKGNFFEVDISEATVVTMFLLTNVNEMLKPKLEKEL-KPGTRVVSHE--FEIRGWN------------PKEVIKVEDGNMNHTVYLYVIGEHKLE
+salign2: TCLSDILPTGYHGAVTAGVGPGSTVYVAGAGPVGLAAAASARLLGAAVVIVGDLN----PARLAHAKAQGF----EIADLS---LDTP----------------LHEQIAALLGEPEVDCAVDAVGFEARGHGHEGAKHEAPATVLNSLMQVTRV----AGKIGIPGLYVTE
+struct2: TCLSDILPTGYHGAVTAGVGPGSTVYVAGAGPVGLAAAASARLLGAAVVIVGDLNPARLAHAKAQGFEIADLSLDTPLHEQIAALLGEPEVDCAVDAVGFEARGHGHEGAKHEAPATVLNSLMQVTRVAGKIGIPGLYVTEDPGAVDAAAKIGSLSIRFGLGWAKSHSFHTGQTPVMKYNRALMQAIMWDRINIAEVVGVQVISLDDAPRGYGEFDAGVPKKFVIDPHKTFSA
+offset=163, qoffset=7
+
+read the aaa
+align2modeler...
+ - seq. ident= 15.384615 - align translated Modeller is being run with query aktm_2014_Jul_11.0001, struc 1KOL_A, nModels=1
+Modeller cmd: /state/partition1/looppLocal//mod9v6/bin/mod9v6_custom model.top 1> aktm_2014_Jul_11.0001.1KOL_A.modeller.log 2> aktm_2014_Jul_11.0001.1KOL_A.modeller.err
+atomEnergy: computing score for model.0.pdb using potential /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot...
+atomEenergy computation with: /share/apps/loopp/data/H_common//LOOPP/atom_energy.exe model.0.pdb /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot 1> atom_energy.out 2> atom_energy.err
+atom_energy: done, score = -397.627
+ - (1)scored (-397.627075)
+atomEnergy: computing score for model.0.pdb using potential /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot...
+atomEenergy computation with: /share/apps/loopp/data/H_common//LOOPP/atom_energy.exe model.0.pdb /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot 1> atom_energy.out 2> atom_energy.err
+atom_energy: done, score = -397.627
+
+perl GetCGenergy.pl ../model.0.pdb.save - OUTPUT 1> OUTPUT.ENE 2> ERR
+getscore_cge() returned 0.409
+
+Running SIFT: /state/partition1/looppLocal//LOOPP/scoring/SIFT2/sift_distr/runSiftLOOPP model.seq model.2nd.graph 20110524 /state/partition1/lp1668645/worker.006.top/sift /state/partition1/looppLocal//LOOPP/scoring/SIFT2/sift_distr /state/partition1/looppLocal//sable_distr /state/partition1/looppLocal//blastdb/  1> run_sift.out 2> run_sift.err
+Result.RES was found.  SIFT completed successfully.
+getscore_sift() returned 0.471
+
+/state/partition1/looppLocal//LOOPP/scoring/runtmaligndrv.exe 1KOL A model - /state/partition1/looppLocal//LOOPP/DB2010/pdb_clean.NEW /state/partition1/looppLocal//LOOPP/DB2010/PDB_CHAIN.NEW /state/partition1/looppLocal//LOOPP/scoring 1> runtmaligndrv.out 2> runtmaligndrv.err
+f1,f2 = 0.744920 0.304140
+getscore_tmalign() returned 0.304, 0.745
+Run dssp: /share/apps/loopp/data/H_common//LOOPP/dbgen/dsspcmbi.exe ../model.0.pdb.save model.0.pdb.save.dssp 2> model.0.pdb.save.dssp.err
+Found exposed surface area: 9277
+getscore_dssp() returned 9277.000, 2677.000 6600.000
+setparname... 'OPTM' feat_only=0
+
+( parfile )>>>  special.OPT special.OPT OPTM 3.2
+>>/share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.6 special.OPT.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+te13 energy with isource00=0 yielded -383.52
+ - (2) te13 score (-383.520000)
+ - done
+ - modeller job for 2GQN_B received (isource=0 OPTM) 
+makealignment_mod() with pname=2GQN_B, rank=6, queryname=aktm_2014_Jul_11.0001, isource=0, iprot=1
+setparname... 'OPTM' feat_only=0
+
+( parfile )>>>  special.OPT special.OPT OPTM 3.2
+  Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 special.OPT.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+Alignment complete.
+Read the alignment, length is 184:
+salign1: MSYVPHVPYVPTP----EKVVRRMLEIAKVSQDDIVYDLGCGDGRIIITAAKDFNVKKAVGVEIN--DERIREALANIEKNGVTGRASIVKGNFFEVDI-----SEATVVTMFLLTN------VNEMLKPKLEKELKPGTRVVSHEFEIRGWNPKEVIKVEDGNMNHTVYLYVIGE----HKLE
+salign2: NRANGELFYGRRGTLTHFSLQQAMCELEGGA---GCVLFPCGAAAVANSILAFIEQGDHVLMTNTAYEPSQDFCSKILSKLGV---TTSWFDPLIGADIVKHLQPNTKIVFLESPGSITMEVHDVPAIVAAVRSVVPDAIIMIDNTWAAGVL-------FKALDFGIDVSIQAATKYLVGHSDA
+struct2: NRANGELFYGRRGTLTHFSLQQAMCELEGGAGCVLFPCGAAAVANSILAFIEQGDHVLMTNTAYEPSQDFCSKILSKLGVTTSWFDPLIGADIVKHLQPNTKIVFLESPGSITMEVHDVPAIVAAVRSVVPDAIIMIDNTWAAGVLFKALDFGIDVSIQAATKYLVGHSDAMIGTAVCNARCWEQLRENAYLMGQMVDADTAYITSRGLRTLGVRLRQHHESSLKVAEWLAEHPQVARVNHPALPGSKGHEFWKRDFTGSSGLFSFVLKKKLNNEELANYLDNFSLFSMAYSWGGYESLILANQPEHIAAIRPQGEIDFSGTLIRLHIGLEDVDDLIADLDAGFARIV
+offset=44, qoffset=0
+
+read the aaa
+align2modeler...
+ - seq. ident= 8.588957 - align translated Modeller is being run with query aktm_2014_Jul_11.0001, struc 2GQN_B, nModels=1
+Modeller cmd: /state/partition1/looppLocal//mod9v6/bin/mod9v6_custom model.top 1> aktm_2014_Jul_11.0001.2GQN_B.modeller.log 2> aktm_2014_Jul_11.0001.2GQN_B.modeller.err
+atomEnergy: computing score for model.0.pdb using potential /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot...
+atomEenergy computation with: /share/apps/loopp/data/H_common//LOOPP/atom_energy.exe model.0.pdb /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot 1> atom_energy.out 2> atom_energy.err
+atom_energy: done, score = -317.212
+ - (1)scored (-317.212311)
+atomEnergy: computing score for model.0.pdb using potential /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot...
+atomEenergy computation with: /share/apps/loopp/data/H_common//LOOPP/atom_energy.exe model.0.pdb /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot 1> atom_energy.out 2> atom_energy.err
+atom_energy: done, score = -317.212
+
+perl GetCGenergy.pl ../model.0.pdb.save - OUTPUT 1> OUTPUT.ENE 2> ERR
+getscore_cge() returned 0.492
+
+Running SIFT: /state/partition1/looppLocal//LOOPP/scoring/SIFT2/sift_distr/runSiftLOOPP model.seq model.2nd.graph 20110524 /state/partition1/lp1668645/worker.006.top/sift /state/partition1/looppLocal//LOOPP/scoring/SIFT2/sift_distr /state/partition1/looppLocal//sable_distr /state/partition1/looppLocal//blastdb/  1> run_sift.out 2> run_sift.err
+Result.RES was found.  SIFT completed successfully.
+getscore_sift() returned 0.237
+
+/state/partition1/looppLocal//LOOPP/scoring/runtmaligndrv.exe 2GQN B model - /state/partition1/looppLocal//LOOPP/DB2010/pdb_clean.NEW /state/partition1/looppLocal//LOOPP/DB2010/PDB_CHAIN.NEW /state/partition1/looppLocal//LOOPP/scoring 1> runtmaligndrv.out 2> runtmaligndrv.err
+f1,f2 = 0.849930 0.366090
+getscore_tmalign() returned 0.366, 0.850
+Run dssp: /share/apps/loopp/data/H_common//LOOPP/dbgen/dsspcmbi.exe ../model.0.pdb.save model.0.pdb.save.dssp 2> model.0.pdb.save.dssp.err
+Found exposed surface area: 10701
+getscore_dssp() returned 10701.000, 3750.000 6951.000
+setparname... 'OPTM' feat_only=0
+
+( parfile )>>>  special.OPT special.OPT OPTM 3.2
+>>/share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.6 special.OPT.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+te13 energy with isource00=0 yielded -166.95
+ - (2) te13 score (-166.950000)
+ - done
+ - modeller job for 2O0R_B received (isource=0 OPTM) 
+makealignment_mod() with pname=2O0R_B, rank=6, queryname=aktm_2014_Jul_11.0001, isource=0, iprot=1
+setparname... 'OPTM' feat_only=0
+
+( parfile )>>>  special.OPT special.OPT OPTM 3.2
+  Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 special.OPT.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+Alignment complete.
+Read the alignment, length is 184:
+salign1: SYVPHVPYVPTPEKVVRRMLEIA----KVSQD---DIVYDLGCGDGRIIITAAKDFNVKKAVGVEINDERIREALANIEKNGVTGRASIVKGN-FFEVD--------ISEATVVTMFLLT---------NVNEMLKPKLEKELKPGTRVVSHEFE----IRGWNPKEVIKVEDGNMNHTVYLYV
+salign2: GGVNQYPPGPGSAPLRRAIAAQRRRHFGVDYDPETEVLVTVGATEAIAAAVLGLVEPGSEVLLIEPFYDSYSPVVAMA--GAHRVTVPLVPDGRGFALDADALRRAVTPRTRALIINSPHNPTGAVLSATELAAIAEIAVAAN---LVVITDEVYEHLVFDHARHLPLAGF-DGMAERTITISS
+struct2: GGVNQYPPGPGSAPLRRAIAAQRRRHFGVDYDPETEVLVTVGATEAIAAAVLGLVEPGSEVLLIEPFYDSYSPVVAMAGAHRVTVPLVPDGRGFALDADALRRAVTPRTRALIINSPHNPTGAVLSATELAAIAEIAVAANLVVITDEVYEHLVFDHARHLPLAGFDGMAERTITISSAAKMFNCTGWKIGWACGPAELIAGVRAAKQYLSYVGGAPFQPAVALALDTEDAWVAALRNSLRARRDRLAAGLTEIGFAVHDSYGTYFLCADPRPLGYDDSTEFCAALPEKVGVAAIPMSAFCDP--------ADVWNHLVRFTFCKRDDTLDEAIRRLSVLA
+offset=51, qoffset=1
+
+read the aaa
+align2modeler...
+ - seq. ident= 10.967742 - align translated Modeller is being run with query aktm_2014_Jul_11.0001, struc 2O0R_B, nModels=1
+Modeller cmd: /state/partition1/looppLocal//mod9v6/bin/mod9v6_custom model.top 1> aktm_2014_Jul_11.0001.2O0R_B.modeller.log 2> aktm_2014_Jul_11.0001.2O0R_B.modeller.err
+atomEnergy: computing score for model.0.pdb using potential /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot...
+atomEenergy computation with: /share/apps/loopp/data/H_common//LOOPP/atom_energy.exe model.0.pdb /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot 1> atom_energy.out 2> atom_energy.err
+atom_energy: done, score = -279.309
+ - (1)scored (-279.308746)
+atomEnergy: computing score for model.0.pdb using potential /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot...
+atomEenergy computation with: /share/apps/loopp/data/H_common//LOOPP/atom_energy.exe model.0.pdb /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot 1> atom_energy.out 2> atom_energy.err
+atom_energy: done, score = -279.309
+
+perl GetCGenergy.pl ../model.0.pdb.save - OUTPUT 1> OUTPUT.ENE 2> ERR
+getscore_cge() returned 0.579
+
+Running SIFT: /state/partition1/looppLocal//LOOPP/scoring/SIFT2/sift_distr/runSiftLOOPP model.seq model.2nd.graph 20110524 /state/partition1/lp1668645/worker.006.top/sift /state/partition1/looppLocal//LOOPP/scoring/SIFT2/sift_distr /state/partition1/looppLocal//sable_distr /state/partition1/looppLocal//blastdb/  1> run_sift.out 2> run_sift.err
+Result.RES was found.  SIFT completed successfully.
+getscore_sift() returned 0.221
+
+/state/partition1/looppLocal//LOOPP/scoring/runtmaligndrv.exe 2O0R B model - /state/partition1/looppLocal//LOOPP/DB2010/pdb_clean.NEW /state/partition1/looppLocal//LOOPP/DB2010/PDB_CHAIN.NEW /state/partition1/looppLocal//LOOPP/scoring 1> runtmaligndrv.out 2> runtmaligndrv.err
+f1,f2 = 0.850740 0.358070
+getscore_tmalign() returned 0.358, 0.851
+Run dssp: /share/apps/loopp/data/H_common//LOOPP/dbgen/dsspcmbi.exe ../model.0.pdb.save model.0.pdb.save.dssp 2> model.0.pdb.save.dssp.err
+Found exposed surface area: 10545
+getscore_dssp() returned 10545.000, 3738.000 6807.000
+setparname... 'OPTM' feat_only=0
+
+( parfile )>>>  special.OPT special.OPT OPTM 3.2
+>>/share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.6 special.OPT.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+te13 energy with isource00=0 yielded -243.8
+ - (2) te13 score (-243.800000)
+ - done
+ - modeller job for 1E5E_A received (isource=0 OPTM) 
+makealignment_mod() with pname=1E5E_A, rank=6, queryname=aktm_2014_Jul_11.0001, isource=0, iprot=1
+setparname... 'OPTM' feat_only=0
+
+( parfile )>>>  special.OPT special.OPT OPTM 3.2
+  Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 special.OPT.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+Alignment complete.
+Read the alignment, length is 161:
+salign1: MSYVPHVPYVPTPEKVVRRMLEIAKVSQDDIVYDLGCGDGRIIITAAKDFN-VKKAVGVEIN-DERIREALANIEKNGVTGRASIVKGNFFEVDISEATVVTMFLLTNVNEMLKPKLEKELKPGTRVVSHEF----EIRGWNPKEVIKVEDGNMNHTVYLY
+salign2: SGYIYTRLGNPTVSNLEGKIAFLEKT---EACVATSSGMGAIAATVLTILKAGDHLISDECLYGCTHALFEHALTKFGI-------QVDFINTAIP------------------GEVKKHMKPNTKIVYFETPANPTLKIIDMERVCKDAHSQEGVLVIAD
+struct2: SGYIYTRLGNPTVSNLEGKIAFLEKTEACVATSSGMGAIAATVLTILKAGDHLISDECLYGCTHALFEHALTKFGIQVDFINTAIPGEVKKHMKPNTKIVYFETPANPTLKIIDMERVCKDAHSQEGVLVIADNTFCSPMITNPVDFGVDVVVHSATKYINGHTDVVAGLICGKADLLQQIRMVGIKDITGSVISPHDAWLITRGLSTLNIRMKAESENAMKVAEYLKSHPAVEKVYYPGFEDHEGHDIAKKQMRMYGSMITFILKSGFEGAKKLLDNLKLITLAVSLGGCESLIQHPASMTHAVVPKEEREAAGITDGMIRLSVGIEDADELIADFKQGLDALLR
+offset=48, qoffset=0
+
+read the aaa
+align2modeler...
+ - seq. ident= 14.193548 - align translated Modeller is being run with query aktm_2014_Jul_11.0001, struc 1E5E_A, nModels=1
+Modeller cmd: /state/partition1/looppLocal//mod9v6/bin/mod9v6_custom model.top 1> aktm_2014_Jul_11.0001.1E5E_A.modeller.log 2> aktm_2014_Jul_11.0001.1E5E_A.modeller.err
+atomEnergy: computing score for model.0.pdb using potential /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot...
+atomEenergy computation with: /share/apps/loopp/data/H_common//LOOPP/atom_energy.exe model.0.pdb /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot 1> atom_energy.out 2> atom_energy.err
+atom_energy: done, score = -305.988
+ - (1)scored (-305.987976)
+atomEnergy: computing score for model.0.pdb using potential /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot...
+atomEenergy computation with: /share/apps/loopp/data/H_common//LOOPP/atom_energy.exe model.0.pdb /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot 1> atom_energy.out 2> atom_energy.err
+atom_energy: done, score = -305.988
+
+perl GetCGenergy.pl ../model.0.pdb.save - OUTPUT 1> OUTPUT.ENE 2> ERR
+getscore_cge() returned 0.443
+
+Running SIFT: /state/partition1/looppLocal//LOOPP/scoring/SIFT2/sift_distr/runSiftLOOPP model.seq model.2nd.graph 20110524 /state/partition1/lp1668645/worker.006.top/sift /state/partition1/looppLocal//LOOPP/scoring/SIFT2/sift_distr /state/partition1/looppLocal//sable_distr /state/partition1/looppLocal//blastdb/  1> run_sift.out 2> run_sift.err
+Result.RES was found.  SIFT completed successfully.
+getscore_sift() returned 0.342
+
+/state/partition1/looppLocal//LOOPP/scoring/runtmaligndrv.exe 1E5E A model - /state/partition1/looppLocal//LOOPP/DB2010/pdb_clean.NEW /state/partition1/looppLocal//LOOPP/DB2010/PDB_CHAIN.NEW /state/partition1/looppLocal//LOOPP/scoring 1> runtmaligndrv.out 2> runtmaligndrv.err
+f1,f2 = 0.775380 0.314380
+getscore_tmalign() returned 0.314, 0.775
+Run dssp: /share/apps/loopp/data/H_common//LOOPP/dbgen/dsspcmbi.exe ../model.0.pdb.save model.0.pdb.save.dssp 2> model.0.pdb.save.dssp.err
+Found exposed surface area: 11834
+getscore_dssp() returned 11834.000, 4411.000 7423.000
+setparname... 'OPTM' feat_only=0
+
+( parfile )>>>  special.OPT special.OPT OPTM 3.2
+>>/share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.6 special.OPT.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+te13 energy with isource00=0 yielded -268.03
+ - (2) te13 score (-268.030000)
+ - done
+ - modeller job for 1BYS_A received (isource=0 OPTM) 
+makealignment_mod() with pname=1BYS_A, rank=6, queryname=aktm_2014_Jul_11.0001, isource=0, iprot=1
+setparname... 'OPTM' feat_only=0
+
+( parfile )>>>  special.OPT special.OPT OPTM 3.2
+  Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 special.OPT.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+Alignment complete.
+Read the alignment, length is 149:
+salign1: SYVPHVPYVPTP--EKVVRRMLEIAKVSQDDIVYDLGCGDGRIIITAAKDFNVKKAVGVEIN---DERIREALANIEKNGV----------TGRASIVKGN----FFEVDI-------SEATVVTMFLLTNVNEMLKPKLEKELKPGTR
+salign2: EPSVQVGYSPEGSARVLVLSAIDSAKTSIRMMAYSFTAPDIMKALVAAKKRGVDVKIVIDERGNTGRASIAAMNYIANSGIPLRTDSNFPIQHDKVIIVDNVTVETGSFNFTKAAETKNSENAVVIWNMPKLAESFLEHWQDRWNQGRD
+struct2: EPSVQVGYSPEGSARVLVLSAIDSAKTSIRMMAYSFTAPDIMKALVAAKKRGVDVKIVIDERGNTGRASIAAMNYIANSGIPLRTDSNFPIQHDKVIIVDNVTVETGSFNFTKAAETKNSENAVVIWNMPKLAESFLEHWQDRWNQGRDYRS
+offset=0, qoffset=1
+
+read the aaa
+align2modeler...
+ - seq. ident= 17.073171 - align translated Modeller is being run with query aktm_2014_Jul_11.0001, struc 1BYS_A, nModels=1
+Modeller cmd: /state/partition1/looppLocal//mod9v6/bin/mod9v6_custom model.top 1> aktm_2014_Jul_11.0001.1BYS_A.modeller.log 2> aktm_2014_Jul_11.0001.1BYS_A.modeller.err
+atomEnergy: computing score for model.0.pdb using potential /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot...
+atomEenergy computation with: /share/apps/loopp/data/H_common//LOOPP/atom_energy.exe model.0.pdb /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot 1> atom_energy.out 2> atom_energy.err
+atom_energy: done, score = -334.691
+ - (1)scored (-334.691406)
+atomEnergy: computing score for model.0.pdb using potential /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot...
+atomEenergy computation with: /share/apps/loopp/data/H_common//LOOPP/atom_energy.exe model.0.pdb /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot 1> atom_energy.out 2> atom_energy.err
+atom_energy: done, score = -334.691
+
+perl GetCGenergy.pl ../model.0.pdb.save - OUTPUT 1> OUTPUT.ENE 2> ERR
+getscore_cge() returned 0.469
+
+Running SIFT: /state/partition1/looppLocal//LOOPP/scoring/SIFT2/sift_distr/runSiftLOOPP model.seq model.2nd.graph 20110524 /state/partition1/lp1668645/worker.006.top/sift /state/partition1/looppLocal//LOOPP/scoring/SIFT2/sift_distr /state/partition1/looppLocal//sable_distr /state/partition1/looppLocal//blastdb/  1> run_sift.out 2> run_sift.err
+Result.RES was found.  SIFT completed successfully.
+getscore_sift() returned 0.401
+
+/state/partition1/looppLocal//LOOPP/scoring/runtmaligndrv.exe 1BYS A model - /state/partition1/looppLocal//LOOPP/DB2010/pdb_clean.NEW /state/partition1/looppLocal//LOOPP/DB2010/PDB_CHAIN.NEW /state/partition1/looppLocal//LOOPP/scoring 1> runtmaligndrv.out 2> runtmaligndrv.err
+f1,f2 = 0.923960 0.756980
+getscore_tmalign() returned 0.757, 0.924
+Run dssp: /share/apps/loopp/data/H_common//LOOPP/dbgen/dsspcmbi.exe ../model.0.pdb.save model.0.pdb.save.dssp 2> model.0.pdb.save.dssp.err
+Found exposed surface area: 7676
+getscore_dssp() returned 7676.000, 2321.000 5355.000
+setparname... 'OPTM' feat_only=0
+
+( parfile )>>>  special.OPT special.OPT OPTM 3.2
+>>/share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.6 special.OPT.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+te13 energy with isource00=0 yielded -198.16
+ - (2) te13 score (-198.160000)
+ - done
+ - modeller job for 1Q5F_A received (isource=0 OPTM) 
+makealignment_mod() with pname=1Q5F_A, rank=6, queryname=aktm_2014_Jul_11.0001, isource=0, iprot=1
+setparname... 'OPTM' feat_only=0
+
+( parfile )>>>  special.OPT special.OPT OPTM 3.2
+  Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 special.OPT.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+Alignment complete.
+Read the alignment, length is 166:
+salign1: MSYVPHV-PY-VPTPEKVVRRMLEIAKVSQDDIVYDLGCGDGRIIITAAKDFNVKKAVGVEINDERIREALANIEKNGVTGRASIVKGNFFEVDISEATVVTMFLLTN-VNEMLKPKLEKELKP-GTRVVSHEFEIRGWNPKEVIKVEDGNMN----HTVYLYVIG
+salign2: IGMMKGVDGYAFTSGAKMTDTLIQAGAAKGMTVSGD----------------PASGSATLWNS---------------WGGQIVVAPDTAGGTGFNNGFTITTNKVPQSACVSISTGMSRSGGTSGIKINGNNHTDAKVTAEIASSECTADNGRTGTNTLVFNYNG
+struct2: IGMMKGVDGYAFTSGAKMTDTLIQAGAAKGMTVSGDPASGSATLWNSWGGQIVVAPDTAGGTGFNNGFTITTNKVPQSACVSISTGMSRSGGTSGIKINGNNHTDAKVTAEIASSECTADNGRTGTNTLVFNYNG
+offset=21, qoffset=0
+
+read the aaa
+align2modeler...
+ - seq. ident= 5.696203 - align translated Modeller is being run with query aktm_2014_Jul_11.0001, struc 1Q5F_A, nModels=1
+Modeller cmd: /state/partition1/looppLocal//mod9v6/bin/mod9v6_custom model.top 1> aktm_2014_Jul_11.0001.1Q5F_A.modeller.log 2> aktm_2014_Jul_11.0001.1Q5F_A.modeller.err
+atomEnergy: computing score for model.0.pdb using potential /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot...
+atomEenergy computation with: /share/apps/loopp/data/H_common//LOOPP/atom_energy.exe model.0.pdb /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot 1> atom_energy.out 2> atom_energy.err
+atom_energy: done, score = -302.266
+ - (1)scored (-302.266296)
+atomEnergy: computing score for model.0.pdb using potential /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot...
+atomEenergy computation with: /share/apps/loopp/data/H_common//LOOPP/atom_energy.exe model.0.pdb /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot 1> atom_energy.out 2> atom_energy.err
+atom_energy: done, score = -302.266
+
+perl GetCGenergy.pl ../model.0.pdb.save - OUTPUT 1> OUTPUT.ENE 2> ERR
+getscore_cge() returned 0.506
+
+Running SIFT: /state/partition1/looppLocal//LOOPP/scoring/SIFT2/sift_distr/runSiftLOOPP model.seq model.2nd.graph 20110524 /state/partition1/lp1668645/worker.006.top/sift /state/partition1/looppLocal//LOOPP/scoring/SIFT2/sift_distr /state/partition1/looppLocal//sable_distr /state/partition1/looppLocal//blastdb/  1> run_sift.out 2> run_sift.err
+Result.RES was found.  SIFT completed successfully.
+getscore_sift() returned 0.290
+
+/state/partition1/looppLocal//LOOPP/scoring/runtmaligndrv.exe 1Q5F A model - /state/partition1/looppLocal//LOOPP/DB2010/pdb_clean.NEW /state/partition1/looppLocal//LOOPP/DB2010/PDB_CHAIN.NEW /state/partition1/looppLocal//LOOPP/scoring 1> runtmaligndrv.out 2> runtmaligndrv.err
+f1,f2 = 0.684770 0.692420
+getscore_tmalign() returned 0.685, 0.692
+Run dssp: /share/apps/loopp/data/H_common//LOOPP/dbgen/dsspcmbi.exe ../model.0.pdb.save model.0.pdb.save.dssp 2> model.0.pdb.save.dssp.err
+Found exposed surface area: 12385
+getscore_dssp() returned 12385.000, 4628.000 7757.000
+setparname... 'OPTM' feat_only=0
+
+( parfile )>>>  special.OPT special.OPT OPTM 3.2
+>>/share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.6 special.OPT.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+te13 energy with isource00=0 yielded -233.41
+ - (2) te13 score (-233.410000)
+ - done
+ - modeller job for 1XHE_A received (isource=0 OPTM) 
+makealignment_mod() with pname=1XHE_A, rank=6, queryname=aktm_2014_Jul_11.0001, isource=0, iprot=1
+setparname... 'OPTM' feat_only=0
+
+( parfile )>>>  special.OPT special.OPT OPTM 3.2
+  Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 special.OPT.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+Alignment complete.
+Read the alignment, length is 142:
+salign1: VPHVPYVPTPEKVVRRMLEIAKVSQDDIVYDLGCGDGRIIITAAKDFNVKKAVGVEIN---DERIREALANIEKNGVTGRASIVKGNFFEVDISEATVVTMFLLTNVNEMLKPKLEKELKPGTRVVSHEFEIRGWNPKEVIK
+salign2: TPHILIVEDELVTRNTLKSIFEAE-GYDVFEAT--DGAEMHQILSEYDIN-LVIMDINLPGKNGLLLARELREQANV---------------------ALMFLTGRDNEVDKILGLEIGAD--DYITK-----PFNPRELTI
+struct2: TPHILIVEDELVTRNTLKSIFEAEGYDVFEATDGAEMHQILSEYDINLVIMDINLPGKNGLLLARELREQANVALMFLTGRDNEVDKILGLEIGADDYITKPFNPRELTIRARNLLSRTM
+offset=1, qoffset=3
+
+read the aaa
+align2modeler...
+ - seq. ident= 15.827338 - align translated Modeller is being run with query aktm_2014_Jul_11.0001, struc 1XHE_A, nModels=1
+Modeller cmd: /state/partition1/looppLocal//mod9v6/bin/mod9v6_custom model.top 1> aktm_2014_Jul_11.0001.1XHE_A.modeller.log 2> aktm_2014_Jul_11.0001.1XHE_A.modeller.err
+atomEnergy: computing score for model.0.pdb using potential /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot...
+atomEenergy computation with: /share/apps/loopp/data/H_common//LOOPP/atom_energy.exe model.0.pdb /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot 1> atom_energy.out 2> atom_energy.err
+atom_energy: done, score = -346.67
+ - (1)scored (-346.670166)
+atomEnergy: computing score for model.0.pdb using potential /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot...
+atomEenergy computation with: /share/apps/loopp/data/H_common//LOOPP/atom_energy.exe model.0.pdb /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot 1> atom_energy.out 2> atom_energy.err
+atom_energy: done, score = -346.67
+
+perl GetCGenergy.pl ../model.0.pdb.save - OUTPUT 1> OUTPUT.ENE 2> ERR
+getscore_cge() returned 0.527
+
+Running SIFT: /state/partition1/looppLocal//LOOPP/scoring/SIFT2/sift_distr/runSiftLOOPP model.seq model.2nd.graph 20110524 /state/partition1/lp1668645/worker.006.top/sift /state/partition1/looppLocal//LOOPP/scoring/SIFT2/sift_distr /state/partition1/looppLocal//sable_distr /state/partition1/looppLocal//blastdb/  1> run_sift.out 2> run_sift.err
+Result.RES was found.  SIFT completed successfully.
+getscore_sift() returned 0.287
+
+/state/partition1/looppLocal//LOOPP/scoring/runtmaligndrv.exe 1XHE A model - /state/partition1/looppLocal//LOOPP/DB2010/pdb_clean.NEW /state/partition1/looppLocal//LOOPP/DB2010/PDB_CHAIN.NEW /state/partition1/looppLocal//LOOPP/scoring 1> runtmaligndrv.out 2> runtmaligndrv.err
+f1,f2 = 0.740230 0.846010
+getscore_tmalign() returned 0.740, 0.846
+Run dssp: /share/apps/loopp/data/H_common//LOOPP/dbgen/dsspcmbi.exe ../model.0.pdb.save model.0.pdb.save.dssp 2> model.0.pdb.save.dssp.err
+Found exposed surface area: 10233
+getscore_dssp() returned 10233.000, 3293.000 6940.000
+setparname... 'OPTM' feat_only=0
+
+( parfile )>>>  special.OPT special.OPT OPTM 3.2
+>>/share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.6 special.OPT.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+te13 energy with isource00=0 yielded -135
+ - (2) te13 score (-135.000000)
+ - done
+ - modeller job for 2E7P_C received (isource=9 TSCL) 
+makealignment_mod() with pname=2E7P_C, rank=6, queryname=aktm_2014_Jul_11.0001, isource=9, iprot=1
+setparname... 'TSCL' feat_only=0
+
+( parfile )>>>  local0.TSC local.TSC TSCL 3.2
+  Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 local0.TSC.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+Alignment complete.
+Read the alignment, length is 116:
+salign1: EKVVRRMLEIAKVSQDDIVYDLG--CGDGRIIITAAKDFNVKKAVGVEIN----DERIREALANIEKNGVTGRASIVKGNFFEVDISEATVVTMFLLTNVNEM-----LKPKLEKE
+salign2: DAALKKAKELASSAP--VVVFSKTYCGYCNRVKQLLTQVG-ASYKVVELDELSDGSQLQSALAHWTGRG-TVPNVFIGGK------------QIGGCDTVVEKHQRNELLPLLQDA
+struct2: DAALKKAKELASSAPVVVFSKTYCGYCNRVKQLLTQVGASYKVVELDELSDGSQLQSALAHWTGRGTVPNVFIGGKQIGGCDTVVEKHQRNELLPLLQDAAATAKTSAQL
+offset=5, qoffset=13
+
+read the aaa
+align2modeler...
+ - seq. ident= 17.142857 - align translated Modeller is being run with query aktm_2014_Jul_11.0001, struc 2E7P_C, nModels=1
+Modeller cmd: /state/partition1/looppLocal//mod9v6/bin/mod9v6_custom model.top 1> aktm_2014_Jul_11.0001.2E7P_C.modeller.log 2> aktm_2014_Jul_11.0001.2E7P_C.modeller.err
+atomEnergy: computing score for model.0.pdb using potential /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot...
+atomEenergy computation with: /share/apps/loopp/data/H_common//LOOPP/atom_energy.exe model.0.pdb /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot 1> atom_energy.out 2> atom_energy.err
+atom_energy: done, score = -288.5
+ - (1)scored (-288.500031)
+atomEnergy: computing score for model.0.pdb using potential /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot...
+atomEenergy computation with: /share/apps/loopp/data/H_common//LOOPP/atom_energy.exe model.0.pdb /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot 1> atom_energy.out 2> atom_energy.err
+atom_energy: done, score = -288.5
+
+perl GetCGenergy.pl ../model.0.pdb.save - OUTPUT 1> OUTPUT.ENE 2> ERR
+getscore_cge() returned 0.475
+
+Running SIFT: /state/partition1/looppLocal//LOOPP/scoring/SIFT2/sift_distr/runSiftLOOPP model.seq model.2nd.graph 20110524 /state/partition1/lp1668645/worker.006.top/sift /state/partition1/looppLocal//LOOPP/scoring/SIFT2/sift_distr /state/partition1/looppLocal//sable_distr /state/partition1/looppLocal//blastdb/  1> run_sift.out 2> run_sift.err
+Result.RES was found.  SIFT completed successfully.
+getscore_sift() returned 0.286
+
+/state/partition1/looppLocal//LOOPP/scoring/runtmaligndrv.exe 2E7P C model - /state/partition1/looppLocal//LOOPP/DB2010/pdb_clean.NEW /state/partition1/looppLocal//LOOPP/DB2010/PDB_CHAIN.NEW /state/partition1/looppLocal//LOOPP/scoring 1> runtmaligndrv.out 2> runtmaligndrv.err
+f1,f2 = 0.794090 0.729070
+getscore_tmalign() returned 0.729, 0.794
+Run dssp: /share/apps/loopp/data/H_common//LOOPP/dbgen/dsspcmbi.exe ../model.0.pdb.save model.0.pdb.save.dssp 2> model.0.pdb.save.dssp.err
+Found exposed surface area: 7227
+getscore_dssp() returned 7227.000, 2273.000 4954.000
+setparname... 'TSCL' feat_only=0
+
+( parfile )>>>  local0.TSC local.TSC TSCL 3.2
+>>/share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.6 local0.TSC.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+te13 energy with isource00=0 yielded -140.57
+ - (2) te13 score (-140.570000)
+ - done
+ - modeller job for 2KD5_A received (isource=0 OPTM) 
+makealignment_mod() with pname=2KD5_A, rank=6, queryname=aktm_2014_Jul_11.0001, isource=0, iprot=1
+setparname... 'OPTM' feat_only=0
+
+( parfile )>>>  special.OPT special.OPT OPTM 3.2
+  Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 special.OPT.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+Alignment complete.
+Read the alignment, length is 150:
+salign1: SYVPHVPYVPTPEKVVRRMLEIAKVSQDDIVYDLGCGDGRIIITAAKDFNVKKAVGVEINDERIREALANIEKNGVTGR--ASIVKGNFFEVDISEATVVTMFLLT----NVNEMLKPKLEKELK---PGTRVVSHEFEIRGWNPKEVIK
+salign2: MAISGV----TLEESVRGAIDDLRMKKSRYVMMCIGADG------------KKIEVTEVGERSVN--YTDLKEKFSTEKPCYVAFDFEYNDAGSKREKLILIQWIPDTARPREKMMYSASRDALSSVSEGYLPIQANDE-SGLDAEEIIR
+struct2: MAISGVTLEESVRGAIDDLRMKKSRYVMMCIGADGKKIEVTEVGERSVNYTDLKEKFSTEKPCYVAFDFEYNDAGSKREKLILIQWIPDTARPREKMMYSASRDALSSVSEGYLPIQANDESGLDAEEIIRKVRLHRSVAAALE
+offset=0, qoffset=1
+
+read the aaa
+align2modeler...
+ - seq. ident= 13.475177 - align translated Modeller is being run with query aktm_2014_Jul_11.0001, struc 2KD5_A, nModels=1
+Modeller cmd: /state/partition1/looppLocal//mod9v6/bin/mod9v6_custom model.top 1> aktm_2014_Jul_11.0001.2KD5_A.modeller.log 2> aktm_2014_Jul_11.0001.2KD5_A.modeller.err
+atomEnergy: computing score for model.0.pdb using potential /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot...
+atomEenergy computation with: /share/apps/loopp/data/H_common//LOOPP/atom_energy.exe model.0.pdb /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot 1> atom_energy.out 2> atom_energy.err
+atom_energy: done, score = -223.959
+ - (1)scored (-223.959442)
+atomEnergy: computing score for model.0.pdb using potential /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot...
+atomEenergy computation with: /share/apps/loopp/data/H_common//LOOPP/atom_energy.exe model.0.pdb /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot 1> atom_energy.out 2> atom_energy.err
+atom_energy: done, score = -223.959
+
+perl GetCGenergy.pl ../model.0.pdb.save - OUTPUT 1> OUTPUT.ENE 2> ERR
+getscore_cge() returned 0.398
+
+Running SIFT: /state/partition1/looppLocal//LOOPP/scoring/SIFT2/sift_distr/runSiftLOOPP model.seq model.2nd.graph 20110524 /state/partition1/lp1668645/worker.006.top/sift /state/partition1/looppLocal//LOOPP/scoring/SIFT2/sift_distr /state/partition1/looppLocal//sable_distr /state/partition1/looppLocal//blastdb/  1> run_sift.out 2> run_sift.err
+Result.RES was found.  SIFT completed successfully.
+getscore_sift() returned 0.189
+
+/state/partition1/looppLocal//LOOPP/scoring/runtmaligndrv.exe 2KD5 A model - /state/partition1/looppLocal//LOOPP/DB2010/pdb_clean.NEW /state/partition1/looppLocal//LOOPP/DB2010/PDB_CHAIN.NEW /state/partition1/looppLocal//LOOPP/scoring 1> runtmaligndrv.out 2> runtmaligndrv.err
+f1,f2 = 0.782790 0.767530
+getscore_tmalign() returned 0.768, 0.783
+Run dssp: /share/apps/loopp/data/H_common//LOOPP/dbgen/dsspcmbi.exe ../model.0.pdb.save model.0.pdb.save.dssp 2> model.0.pdb.save.dssp.err
+Found exposed surface area: 8690
+getscore_dssp() returned 8690.000, 3205.000 5485.000
+setparname... 'OPTM' feat_only=0
+
+( parfile )>>>  special.OPT special.OPT OPTM 3.2
+>>/share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.6 special.OPT.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+te13 energy with isource00=0 yielded -193.28
+ - (2) te13 score (-193.280000)
+ - done
+ - modeller job for 3C85_B received (isource=0 OPTM) 
+makealignment_mod() with pname=3C85_B, rank=6, queryname=aktm_2014_Jul_11.0001, isource=0, iprot=1
+setparname... 'OPTM' feat_only=0
+
+( parfile )>>>  special.OPT special.OPT OPTM 3.2
+  Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 special.OPT.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+Alignment complete.
+Read the alignment, length is 125:
+salign1: SQDDIVYDLGCGD-GRIIITAAKDFNVKKAVGVEINDERIREALANIEKNGVTGRASIVKGNFFE-------VDISEATVVTMFLLT-NVNEMLKPKLEKELKPGTRVVSHEFEIRGWNPKEVIK
+salign2: PGHAQVLILGMGRIGTGAYDELRARYGKISLGIEIR----EEAAQQHRSEGRN----VISGDATDPDFWERILDTGHVKLVLLAMPHHQGNQTALEQLQRRNYKGQIAAIAEY---PDQLEGLLE
+struct2: PGHAQVLILGMGRIGTGAYDELRARYGKISLGIEIREEAAQQHRSEGRNVISGDATDPDFWERILDTGHVKLVLLAMPHHQGNQTALEQLQRRNYKGQIAAIAEYPDQLEGLLESGVDAAFNIYSEAGSGFARHVCKQLEP
+offset=3, qoffset=26
+
+read the aaa
+align2modeler...
+ - seq. ident= 16.379310 - align translated Modeller is being run with query aktm_2014_Jul_11.0001, struc 3C85_B, nModels=1
+Modeller cmd: /state/partition1/looppLocal//mod9v6/bin/mod9v6_custom model.top 1> aktm_2014_Jul_11.0001.3C85_B.modeller.log 2> aktm_2014_Jul_11.0001.3C85_B.modeller.err
+atomEnergy: computing score for model.0.pdb using potential /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot...
+atomEenergy computation with: /share/apps/loopp/data/H_common//LOOPP/atom_energy.exe model.0.pdb /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot 1> atom_energy.out 2> atom_energy.err
+atom_energy: done, score = -301.474
+ - (1)scored (-301.474152)
+atomEnergy: computing score for model.0.pdb using potential /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot...
+atomEenergy computation with: /share/apps/loopp/data/H_common//LOOPP/atom_energy.exe model.0.pdb /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot 1> atom_energy.out 2> atom_energy.err
+atom_energy: done, score = -301.474
+
+perl GetCGenergy.pl ../model.0.pdb.save - OUTPUT 1> OUTPUT.ENE 2> ERR
+getscore_cge() returned 0.518
+
+Running SIFT: /state/partition1/looppLocal//LOOPP/scoring/SIFT2/sift_distr/runSiftLOOPP model.seq model.2nd.graph 20110524 /state/partition1/lp1668645/worker.006.top/sift /state/partition1/looppLocal//LOOPP/scoring/SIFT2/sift_distr /state/partition1/looppLocal//sable_distr /state/partition1/looppLocal//blastdb/  1> run_sift.out 2> run_sift.err
+Result.RES was found.  SIFT completed successfully.
+getscore_sift() returned 0.333
+
+/state/partition1/looppLocal//LOOPP/scoring/runtmaligndrv.exe 3C85 B model - /state/partition1/looppLocal//LOOPP/DB2010/pdb_clean.NEW /state/partition1/looppLocal//LOOPP/DB2010/PDB_CHAIN.NEW /state/partition1/looppLocal//LOOPP/scoring 1> runtmaligndrv.out 2> runtmaligndrv.err
+f1,f2 = 0.826240 0.675960
+getscore_tmalign() returned 0.676, 0.826
+Run dssp: /share/apps/loopp/data/H_common//LOOPP/dbgen/dsspcmbi.exe ../model.0.pdb.save model.0.pdb.save.dssp 2> model.0.pdb.save.dssp.err
+Found exposed surface area: 7979
+getscore_dssp() returned 7979.000, 2305.000 5674.000
+setparname... 'OPTM' feat_only=0
+
+( parfile )>>>  special.OPT special.OPT OPTM 3.2
+>>/share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.6 special.OPT.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+te13 energy with isource00=0 yielded -134.45
+ - (2) te13 score (-134.450000)
+ - done
+ - modeller job for 3EXN_A received (isource=0 OPTM) 
+makealignment_mod() with pname=3EXN_A, rank=6, queryname=aktm_2014_Jul_11.0001, isource=0, iprot=1
+setparname... 'OPTM' feat_only=0
+
+( parfile )>>>  special.OPT special.OPT OPTM 3.2
+  Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 special.OPT.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+Alignment complete.
+Read the alignment, length is 177:
+salign1: MSYVPHVPYVPTPEKVVRRMLEIAKVSQDDIVYDLGCGDGRIIITAAKDFNVKKAVGVEINDERIREALANIEKNGVTGRASIVKGN--------FFEVDISEATVVTMFLLTN------VNEMLKPKLEKELKPGTRVVSHEFEIRGWNPKEVIK------VEDGNMNHTVYLYVI
+salign2: VLTLDLAPVTPKDAPLLHRVFHLS-------------------PSYFALIGME-----LPTLEDVVRDLQTLEVDPRRRAFLLFLGQEPVGYLDAKLGYPEAEDATLSLLLIREDHQGRGLGRQALERFAAGLDGVRRLYAVVYG-HNPKAKAFFQAQGFRYVKDGGPTLTWYVRPL
+struct2: VLTLDLAPVTPKDAPLLHRVFHLSPSYFALIGMELPTLEDVVRDLQTLEVDPRRRAFLLFLGQEPVGYLDAKLGYPEAEDATLSLLLIREDHQGRGLGRQALERFAAGLDGVRRLYAVVYGHNPKAKAFFQAQGFRYVKDGGPTLTWYVRPL
+offset=2, qoffset=0
+
+read the aaa
+align2modeler...
+ - seq. ident= 10.828025 - align translated Modeller is being run with query aktm_2014_Jul_11.0001, struc 3EXN_A, nModels=1
+Modeller cmd: /state/partition1/looppLocal//mod9v6/bin/mod9v6_custom model.top 1> aktm_2014_Jul_11.0001.3EXN_A.modeller.log 2> aktm_2014_Jul_11.0001.3EXN_A.modeller.err
+atomEnergy: computing score for model.0.pdb using potential /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot...
+atomEenergy computation with: /share/apps/loopp/data/H_common//LOOPP/atom_energy.exe model.0.pdb /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot 1> atom_energy.out 2> atom_energy.err
+atom_energy: done, score = -298.238
+ - (1)scored (-298.237640)
+atomEnergy: computing score for model.0.pdb using potential /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot...
+atomEenergy computation with: /share/apps/loopp/data/H_common//LOOPP/atom_energy.exe model.0.pdb /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot 1> atom_energy.out 2> atom_energy.err
+atom_energy: done, score = -298.238
+
+perl GetCGenergy.pl ../model.0.pdb.save - OUTPUT 1> OUTPUT.ENE 2> ERR
+getscore_cge() returned 0.497
+
+Running SIFT: /state/partition1/looppLocal//LOOPP/scoring/SIFT2/sift_distr/runSiftLOOPP model.seq model.2nd.graph 20110524 /state/partition1/lp1668645/worker.006.top/sift /state/partition1/looppLocal//LOOPP/scoring/SIFT2/sift_distr /state/partition1/looppLocal//sable_distr /state/partition1/looppLocal//blastdb/  1> run_sift.out 2> run_sift.err
+Result.RES was found.  SIFT completed successfully.
+getscore_sift() returned 0.282
+
+/state/partition1/looppLocal//LOOPP/scoring/runtmaligndrv.exe 3EXN A model - /state/partition1/looppLocal//LOOPP/DB2010/pdb_clean.NEW /state/partition1/looppLocal//LOOPP/DB2010/PDB_CHAIN.NEW /state/partition1/looppLocal//LOOPP/scoring 1> runtmaligndrv.out 2> runtmaligndrv.err
+f1,f2 = 0.768920 0.782820
+getscore_tmalign() returned 0.769, 0.783
+Run dssp: /share/apps/loopp/data/H_common//LOOPP/dbgen/dsspcmbi.exe ../model.0.pdb.save model.0.pdb.save.dssp 2> model.0.pdb.save.dssp.err
+Found exposed surface area: 10894
+getscore_dssp() returned 10894.000, 3691.000 7203.000
+setparname... 'OPTM' feat_only=0
+
+( parfile )>>>  special.OPT special.OPT OPTM 3.2
+>>/share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.6 special.OPT.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+te13 energy with isource00=0 yielded -205.53
+ - (2) te13 score (-205.530000)
+ - done
+ - modeller job for 3CJT_A received (isource=0 OPTM) 
+makealignment_mod() with pname=3CJT_A, rank=6, queryname=aktm_2014_Jul_11.0001, isource=0, iprot=1
+setparname... 'OPTM' feat_only=0
+
+( parfile )>>>  special.OPT special.OPT OPTM 3.2
+  Call loopp engine: /share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.3 special.OPT.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+Alignment complete.
+Read the alignment, length is 160:
+salign1: YVPHVPYVPTPEKVVRRMLEIAK--VSQDDIVYDLGCGDGRIIITAAKDFNVKKAVGVEINDERIREALANIEKNGVTGRASIVKGNFFEV-DISEATVVTMFLLTNVNEMLKPKLEKELKPGTRVVSHEFEIRGWNPKEVIKVEDGNMNHTVYLYVIGE
+salign2: IEPGMAFGTGHAETTRLALKALARHLRPGDKVLDLGTGSG-VLAIAAEKLGG-KALGVDIDPMVLPQAEANAKRNGV--RPRFLEGSLEAALPFGPFDLLVANLYAELHAALAPRYREALVPGGRALLTGILKD--RAPLVREAMAGAGFRPLEEAAEGE
+struct2: IEPGMAFGTGHAETTRLALKALARHLRPGDKVLDLGTGSGVLAIAAEKLGGKALGVDIDPMVLPQAEANAKRNGVRPRFLEGSLEAALPFGPFDLLVANLYAELHAALAPRYREALVPGGRALLTGILKDRAPLVREAMAGAGFRPLEEAAEGEWVLLAYGR
+offset=92, qoffset=2
+
+read the aaa
+align2modeler...
+ - seq. ident= 22.929936 - align translated Modeller is being run with query aktm_2014_Jul_11.0001, struc 3CJT_A, nModels=1
+Modeller cmd: /state/partition1/looppLocal//mod9v6/bin/mod9v6_custom model.top 1> aktm_2014_Jul_11.0001.3CJT_A.modeller.log 2> aktm_2014_Jul_11.0001.3CJT_A.modeller.err
+atomEnergy: computing score for model.0.pdb using potential /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot...
+atomEenergy computation with: /share/apps/loopp/data/H_common//LOOPP/atom_energy.exe model.0.pdb /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot 1> atom_energy.out 2> atom_energy.err
+atom_energy: done, score = -452.02
+ - (1)scored (-452.020142)
+atomEnergy: computing score for model.0.pdb using potential /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot...
+atomEenergy computation with: /share/apps/loopp/data/H_common//LOOPP/atom_energy.exe model.0.pdb /share/apps/loopp/data/H_common//LOOPP/POTN/T32S3.pot 1> atom_energy.out 2> atom_energy.err
+atom_energy: done, score = -452.02
+
+perl GetCGenergy.pl ../model.0.pdb.save - OUTPUT 1> OUTPUT.ENE 2> ERR
+getscore_cge() returned 0.604
+
+Running SIFT: /state/partition1/looppLocal//LOOPP/scoring/SIFT2/sift_distr/runSiftLOOPP model.seq model.2nd.graph 20110524 /state/partition1/lp1668645/worker.006.top/sift /state/partition1/looppLocal//LOOPP/scoring/SIFT2/sift_distr /state/partition1/looppLocal//sable_distr /state/partition1/looppLocal//blastdb/  1> run_sift.out 2> run_sift.err
+Result.RES was found.  SIFT completed successfully.
+getscore_sift() returned 0.593
+
+/state/partition1/looppLocal//LOOPP/scoring/runtmaligndrv.exe 3CJT A model - /state/partition1/lp1668645/tmpdb6/ /state/partition1/lp1668645/tmpdb6/ /state/partition1/looppLocal//LOOPP/scoring 1> runtmaligndrv.out 2> runtmaligndrv.err
+f1,f2 = 0.948470 0.589150
+getscore_tmalign() returned 0.589, 0.948
+Run dssp: /share/apps/loopp/data/H_common//LOOPP/dbgen/dsspcmbi.exe ../model.0.pdb.save model.0.pdb.save.dssp 2> model.0.pdb.save.dssp.err
+Found exposed surface area: 8970
+getscore_dssp() returned 8970.000, 2785.000 6185.000
+setparname... 'OPTM' feat_only=0
+
+( parfile )>>>  special.OPT special.OPT OPTM 3.2
+>>/share/apps/loopp/data/H_common//LOOPP/looppeng.exe 3.6 special.OPT.par /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/_rank06.engine.log 1>> log 2>> err
+te13 energy with isource00=0 yielded -306.83
+ - (2) te13 score (-306.830000)
+ - done
+ MODELLER runs finished

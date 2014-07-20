@@ -1,0 +1,130 @@
+
+Query: aktm_2014_Jul_11.0001
+SECTION_SS
+Secondary structure prediction
+
+Output format is the following:
+1st line -> query sequence
+2nd line -> predicted secondary structure (H -> helix, E -> beta strand, C -> coil)
+3rd line -> confidence level (scale from 3 to 9, corresponding to p=0.3 or low confidence and p=0.9 or high confidence, respectively)
+
+>   1                                                              60
+     MSYVPHVPYVPTPEKVVRRMLEIAKVSQDDIVYDLGCGDGRIIITAAKDFNVKKAVGVEI
+     CCCCCCCCCCCCCHHHHHHHHHHCCCCCCCEEEEECCCCHHHHHHHHHHCCCCEEEEEEC
+     667887888889899999999985999888699957886899999998779988999868
+
+>  61                                                             120
+     NDERIREALANIEKNGVTGRASIVKGNFFEVDISEATVVTMFLLTNVNEMLKPKLEKELK
+     CHHHHHHHHHHHHHCCCCCCEEEEECCCCCCCCCCCEEEEEEECCHHHHHHHHHHHHHCC
+     889999999999976999867898467545888887599998587789999999999858
+
+> 121                                                             163
+     PGTRVVSHEFEIRGWNPKEVIKVEDGNMNHTVYLYVIGEHKLE
+     CCCEEEEECCCCCCCCHHHHHHECCCCCCCEEEEEEECCCCCC
+     8978999856789999789988568888757999995887546
+END_SECTION
+
+SECTION_SS_PROBABILITIES
+Secondary structure prediction
+
+Output format is the following:
+1st line -> query sequence
+2nd line -> probability for helix
+3rd line -> probability for beta strand
+4rd line -> probability for coil
+
+>   1                                                                                                    25
+     M   S   Y   V   P   H   V   P   Y   V   P   T   P   E   K   V   V   R   R   M   L   E   I   A   K   
+H->  9   9   11  8   8   17  6   3   4   5   5   4   13  92  96  98  98  98  98  98  97  95  85  39  7   
+E->  24  21  14  7   7   11  12  12  13  11  7   3   2   0   0   0   0   0   0   0   0   0   1   1   2   
+C->  66  68  74  83  84  70  81  83  82  83  87  91  83  7   3   1   1   1   1   1   2   4   13  58  90  
+
+>  26                                                                                                    50
+     V   S   Q   D   D   I   V   Y   D   L   G   C   G   D   G   R   I   I   I   T   A   A   K   D   F   
+H->  3   3   10  8   4   1   0   0   1   1   1   4   10  33  81  92  96  98  98  98  97  95  89  74  25  
+E->  2   1   1   2   12  65  92  94  90  56  22  8   3   1   1   1   1   0   0   0   0   0   0   1   1   
+C->  93  94  88  88  83  32  7   4   7   41  75  87  85  64  17  5   2   1   1   1   1   3   10  23  73  
+
+>  51                                                                                                    75
+     N   V   K   K   A   V   G   V   E   I   N   D   E   R   I   R   E   A   L   A   N   I   E   K   N   
+H->  3   1   1   0   2   0   1   2   3   5   12  85  91  95  97  98  98  98  98  98  97  96  91  76  33  
+E->  1   3   17  81  90  93  91  83  62  12  4   0   0   0   0   0   0   0   0   0   0   0   0   1   1   
+C->  95  95  81  17  7   5   6   13  34  82  83  13  7   3   2   1   1   1   1   1   1   3   7   21  65  
+
+>  76                                                                                                   100
+     G   V   T   G   R   A   S   I   V   K   G   N   F   F   E   V   D   I   S   E   A   T   V   V   T   
+H->  7   4   5   7   5   3   1   2   3   6   12  18  37  37  29  10  3   6   10  8   4   1   1   0   0   
+E->  2   2   3   6   33  70  87  90  80  48  18  11  12  14  12  9   8   6   4   7   20  53  90  96  97  
+C->  90  92  91  85  60  26  10  7   15  45  68  70  50  47  57  80  87  87  85  84  74  45  8   3   1   
+
+> 101                                                                                                   125
+     M   F   L   L   T   N   V   N   E   M   L   K   P   K   L   E   K   E   L   K   P   G   T   R   V   
+H->  0   1   2   3   21  71  80  91  95  96  96  97  98  98  97  95  91  81  42  12  8   4   1   0   0   
+E->  95  87  58  14  3   2   1   0   0   0   0   0   0   0   0   0   0   0   1   1   1   2   21  81  96  
+C->  3   11  38  81  75  26  18  7   3   3   3   2   1   1   2   3   8   17  56  86  89  92  76  18  2   
+
+> 126                                                                                                   150
+     V   S   H   E   F   E   I   R   G   W   N   P   K   E   V   I   K   V   E   D   G   N   M   N   H   
+H->  0   0   0   1   3   3   5   5   4   3   3   77  88  91  91  88  80  8   5   5   4   3   3   3   3   
+E->  97  93  85  41  27  19  8   4   3   5   5   1   1   2   3   4   5   58  32  12  7   8   11  20  44  
+C->  2   6   13  57  68  77  85  90  91  91  90  21  9   6   4   7   13  33  61  81  87  87  85  75  52  
+
+> 151                                                                                                   163
+     T   V   Y   L   Y   V   I   G   E   H   K   L   E   
+H->  2   0   0   0   0   0   0   0   9   10  21  32  23  
+E->  78  94  97  97  96  90  55  15  8   12  19  17  14  
+C->  19  4   2   2   3   9   43  83  81  77  59  49  61  
+
+END_SECTION
+SECTION_SA
+
+Relative solvent accessibility prediction
+0 -> fully Buried
+9 -> fully Exposed
+3rd line -> confidence level (scale from 0 to 9, corresponding to p=0.0 or low confidence and p=0.9 or high confidence, respectively)
+
+>   1                                                              60
+     MSYVPHVPYVPTPEKVVRRMLEIAKVSQDDIVYDLGCGDGRIIITAAKDFNVKKAVGVEI
+     441222000111133002200510515652100000001010000003414012000010
+     336552977847654995699679557645899898787878997994572647989887
+>  61                                                             120
+     NDERIREALANIEKNGVTGRASIVKGNFFEVDISEATVVTMFLLTNVNEMLKPKLEKELK
+     032003101310232314430401222015151540100000001200330153036204
+     854996797479444375369796425775746558699999997599459757977596
+> 121                                                             163
+     PGTRVVSHEFEIRGWNPKEVIKVEDGNMNHTVYLYVIGEHKLE
+     6301000010213514143014035442311000011445444
+     5477999768475264745765643443467999768355444
+END_SECTION
+
+SECTION_ENTROPY
+
+>   1                                                                                                      25
+          M   S   Y   V   P   H   V   P   Y   V   P   T   P   E   K   V   V   R   R   M   L   E   I   A   K   
+ENTROPY-> 0.7 0.7 0.6 0.8 0.6 0.7 0.6 0.4 0.6 0.8 0.6 0.6 0.7 0.9 0.9 0.8 0.7 0.8 0.9 0.6 0.7 0.7 0.8 0.6 0.8 
+
+>  26                                                                                                      50
+          V   S   Q   D   D   I   V   Y   D   L   G   C   G   D   G   R   I   I   I   T   A   A   K   D   F   
+ENTROPY-> 0.7 0.8 0.8 0.6 0.8 0.7 0.5 0.5 0.2 0.5 0.1 0.3 0.1 0.8 0.1 0.8 0.7 0.7 0.7 0.9 0.5 0.4 0.7 0.9 0.8 
+
+>  51                                                                                                      75
+          N   V   K   K   A   V   G   V   E   I   N   D   E   R   I   R   E   A   L   A   N   I   E   K   N   
+ENTROPY-> 0.7 0.8 0.9 0.8 0.6 0.7 0.2 0.5 0.4 0.6 0.6 0.7 0.9 0.7 0.7 0.9 0.9 0.5 0.9 1.0 0.7 0.7 0.8 0.8 0.8 
+
+>  76                                                                                                     100
+          G   V   T   G   R   A   S   I   V   K   G   N   F   F   E   V   D   I   S   E   A   T   V   V   T   
+ENTROPY-> 0.7 0.7 0.9 0.8 0.8 0.7 0.8 0.6 0.8 0.9 0.7 0.5 0.7 0.8 0.8 0.8 0.7 0.8 0.8 0.8 0.7 0.6 0.7 0.5 0.7 
+
+> 101                                                                                                     125
+          M   F   L   L   T   N   V   N   E   M   L   K   P   K   L   E   K   E   L   K   P   G   T   R   V   
+ENTROPY-> 0.7 0.6 0.7 0.8 0.7 0.9 0.8 0.8 0.8 0.9 0.5 0.9 0.8 0.8 0.6 0.9 0.7 0.8 0.4 0.6 0.6 0.4 0.6 0.7 0.6 
+
+> 126                                                                                                     150
+          V   S   H   E   F   E   I   R   G   W   N   P   K   E   V   I   K   V   E   D   G   N   M   N   H   
+ENTROPY-> 0.5 0.6 0.8 0.8 0.5 0.8 0.8 0.6 0.7 0.8 0.9 0.5 0.9 0.8 0.7 0.8 0.9 0.8 0.9 0.8 0.8 0.9 0.8 0.9 0.9 
+
+> 151                                                                                                     163
+          T   V   Y   L   Y   V   I   G   E   H   K   L   E   
+ENTROPY-> 0.8 0.6 0.5 0.7 0.5 0.7 0.6 0.6 0.7 0.8 0.6 0.8 0.5 
+
+END_SECTION

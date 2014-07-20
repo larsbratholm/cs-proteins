@@ -1,0 +1,110 @@
+
+
+ALIGNMENTS
+
+--> hit 1
+
+
+  secondary structure: 35.62% helical, 23.12% extended, 41.25% loops/other (query: 31.90% 22.09% 46.01%)
+  Template PDB/Molecule                                          score homolog  hits  length   seq.   align    ENE             TE13        old           CGenergy      SIFT2        tma1         tma2     |-------OPTM------| |-------SEQ  (global)-------| |-------SEQ   (local)-------| |-------TRD  (global)-------| |-------TRD   (local)-------| |-------TRS  (global)-------| |-------TRS   (local)-------| |-------TSS  (global)-------| |-------TSS   (local)-------| |-------TSC  (global)-------| |-------TSC   (local)-------| |-------PSM  (global)-------| |-------PSM   (local)-------| |-------SRF  (global)-------| |-------SRF   (local)-------| |-------TBLS------| |-------SBLS------| |-------TBSS------|  sec. str.
+                                                                                       (%)    ident.  src.    all-atom      all-atom      score         all-atom     all-atom     all-atom     all-atom   r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy  r-energy    energy  r-energy    energy  r-energy    energy    pos. comp.   tbls_len_ratio
+1IM8_B YECO;                                                     -41.752     0       0  81.60%  22.56% OPTM     -492.361     -388.850        2.625        0.673        0.655        0.573        0.946     22.330     -47.4     5.270   119.500     -25.5     6.500    84.000    -155.0     1.370     2.080     251.4    -0.570     0.570     -33.2     3.630    20.470     248.1     2.040    10.080     -27.3     8.100    28.100     115.2    12.530     6.080     -56.7    -1.000     8.000     -77.0    -1.000    -4.000    -109.0     4.930    76.500      66.0    11.300    78.000    -125.0     3.200    20.000     -18.0     8.510    39.000    -121.0    10.100      -8.1     2.390      -0.4    10.100      -8.1   -0.10  0.90  0.75
+
+alignment source: OPTM
+            ----HHHHHHHHHH--  -----EEEEE----HHHHHHHHHH----  EEEEEE--HHHHHHHHHHHHH------EEEEE
+Query:   10 VPTPEKVVRRMLEIAK--VSQDDIVYDLGCGDGRIIITAAKDFNVK--KAVGVEINDERIREALANIEKNGVTGRASIVK   85
+Sbjct:   17 VPGYSNIITAIGMLAERFVTADSNVYDLGCSRGAATLSARRNINQPNVKIIGIDNSQPMVERCRQHIAAYHSEIPVEILC   96
+            --HHHHHHHHHHHHHHH----EEEEEE-----HHHHHHH-------EEEEEEE--HHHHHHHHHHHH-------EEEEE-
+
+            -----------EEEEEEE--     HHHHHHHHHHHHH--- --EEEEE--------HHHHHH
+Query:   86 GNFFEVDISEATVVTMFLLT-----NVNEMLKPKLEKELKP-GTRVVSHEFEIRGWNPKEVIK  142
+Sbjct:   97 NDIRHVEIKNASMVILNFTLQFLPPEDRIALLTKIYEGLNPNGVLVLSEKFRFEDTKINHLLI  159
+            ---------EEEEEEE-------HHHHHHHHHHHHHHEEEEEEEEEEEE-----HHHHHHHHH
+
+133 residues (81.60%) of query sequence aligned
+
+--> hit 2
+
+
+  secondary structure: 39.50% helical, 21.85% extended, 38.66% loops/other (query: 31.90% 22.09% 46.01%)
+  Template PDB/Molecule                                          score homolog  hits  length   seq.   align    ENE             TE13        old           CGenergy      SIFT2        tma1         tma2     |-------OPTM------| |-------SEQ  (global)-------| |-------SEQ   (local)-------| |-------TRD  (global)-------| |-------TRD   (local)-------| |-------TRS  (global)-------| |-------TRS   (local)-------| |-------TSS  (global)-------| |-------TSS   (local)-------| |-------TSC  (global)-------| |-------TSC   (local)-------| |-------PSM  (global)-------| |-------PSM   (local)-------| |-------SRF  (global)-------| |-------SRF   (local)-------| |-------TBLS------| |-------SBLS------| |-------TBSS------|  sec. str.
+                                                                                       (%)    ident.  src.    all-atom      all-atom      score         all-atom     all-atom     all-atom     all-atom   r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy  r-energy    energy  r-energy    energy  r-energy    energy    pos. comp.   tbls_len_ratio
+3H5I_A RESPONSE REGULATOR/SENSORY BOX PROTEIN/GGDEF              -41.821     0       0  71.17%  12.07% OPTM     -375.968     -166.400        0.826        0.639        0.438        0.865        0.930      3.290     -23.1     0.170     9.500      16.5    -0.570    -1.000     -65.0    -1.670     0.640      23.3    -1.520    -5.850     -28.0    -1.230     2.540      42.4     0.450     0.340     -25.1     3.540    10.300       8.3     9.350     9.430     -46.6    -1.000    -6.000     -52.0    -1.000     3.000     -85.0     0.920    -1.000      38.0    -0.180    -7.000     -40.0     0.960    15.000      12.0     0.860     0.000     -56.0     0.000       2.0     0.000       2.0     0.000       2.0    0.39  0.84  0.00
+
+alignment source: OPTM
+            ---------HHHHHHHHHH-------EEEEE----HHHHHHHHHH----EEEEEE--H    HHHHHHHHHHHH------
+Query:    5 PHVPYVPTPEKVVRRMLEIAKVSQDDIVYDLGCGDGRIIITAAKDFNVKKAVGVEIND----ERIREALANIEKNGVTGR   80
+Sbjct:    1 KKILIVEDSKFQAKTIANILNKYGYTVEIALT---GEAAVEKVSGGWYPDLILMDIELGEGMDGVQTALAIQQISEL--P   75
+            -EEEEE---HHHHHHHHHHHHH---EEEEE--   HHHHHHHHH------EEEEE--------HHHHHHHHHHH---  -
+
+            EEEEE--  ----- ----EEEEEEE--HHHHHHHHHHHHH--
+Query:   81 ASIVKGN--FFEVD-ISEATVVTMFLLTNVNEMLKPKLEKELK  120
+Sbjct:   76 VVFLTAHTEPAVVEKIRSVTAYGYVMKSATEQVLITIVEMALR  118
+            EEEEE---------------EEEEEE----HHHHHHHHHHHHH
+
+116 residues (71.17%) of query sequence aligned
+
+--> hit 3
+
+
+  secondary structure: 46.67% helical, 15.83% extended, 37.50% loops/other (query: 31.90% 22.09% 46.01%)
+  Template PDB/Molecule                                          score homolog  hits  length   seq.   align    ENE             TE13        old           CGenergy      SIFT2        tma1         tma2     |-------OPTM------| |-------SEQ  (global)-------| |-------SEQ   (local)-------| |-------TRD  (global)-------| |-------TRD   (local)-------| |-------TRS  (global)-------| |-------TRS   (local)-------| |-------TSS  (global)-------| |-------TSS   (local)-------| |-------TSC  (global)-------| |-------TSC   (local)-------| |-------PSM  (global)-------| |-------PSM   (local)-------| |-------SRF  (global)-------| |-------SRF   (local)-------| |-------TBLS------| |-------SBLS------| |-------TBSS------|  sec. str.
+                                                                                       (%)    ident.  src.    all-atom      all-atom      score         all-atom     all-atom     all-atom     all-atom   r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy  r-energy    energy  r-energy    energy  r-energy    energy    pos. comp.   tbls_len_ratio
+3HAX_D 50S RIBOSOMAL PROTEIN L7AE;                               -41.829     0       0  71.78%  14.53% OPTM     -428.191     -228.970        0.897        0.645        0.519        0.890        0.919      2.720     -24.0    -0.080   -13.000      37.5     0.010   -13.000     -67.0     0.840    10.110      23.8    -0.590     0.790     -29.4     1.520    10.810      42.4     1.470     4.310     -27.9     3.080    14.880      21.7     9.410     2.850     -43.0    -1.000    -5.000     -47.0    -1.000    -1.000     -79.0     0.630    25.000      57.0     0.180     8.000     -41.0     0.150     6.000      20.0     1.390     5.000     -59.0     0.000       2.0     0.000       2.0     0.000       2.0    0.48  0.58  0.00
+
+alignment source: OPTM
+ +++ there is a problem with all-atom model, see file models_LP8_redconf/model_all003.pdb.log for details
+            ----------HHHHHHHHHH-------EEEEE----HHHHHHHHHH----EEEEEE--H  HHHHHHHHHHHH------E
+Query:    4 VPHVPYVPTPEKVVRRMLEIAKVSQDDIVYDLGCGDGRIIITAAKDFNVKKAVGVEIND--ERIREALANIEKNGVTGRA   81
+Sbjct:    1 KPSYVKFEVPKELAEKALQAVEIARDTGKIRKG---TNETTKAVERGQAKLVIIAEDVDPEEIVAHLPPLCEEKEIP--Y   75
+            ----------HHHHHHHHHHHHHHHHH-EEEE-   HHHHHHHHH-----EEEEE-----------HHHHHHHH---  E
+
+            EEEE--     ---------EEEEEEE--   HHHHHHHHHHHHH--
+Query:   82 SIVKGN-----FFEVDISEATVVTMFLLT---NVNEMLKPKLEKELK  120
+Sbjct:   76 IYVPSKKELGAAAGIEV-AAASVAIIEPGKARDLVEEIAMKVKELMK  121
+            EEE--HHHHHHH----- ---EEEEEE----HHHHHHHHHHHHHHH-
+
+117 residues (71.78%) of query sequence aligned
+
+--> hit 4
+
+
+  secondary structure: 45.38% helical, 15.97% extended, 38.66% loops/other (query: 31.90% 22.09% 46.01%)
+  Template PDB/Molecule                                          score homolog  hits  length   seq.   align    ENE             TE13        old           CGenergy      SIFT2        tma1         tma2     |-------OPTM------| |-------SEQ  (global)-------| |-------SEQ   (local)-------| |-------TRD  (global)-------| |-------TRD   (local)-------| |-------TRS  (global)-------| |-------TRS   (local)-------| |-------TSS  (global)-------| |-------TSS   (local)-------| |-------TSC  (global)-------| |-------TSC   (local)-------| |-------PSM  (global)-------| |-------PSM   (local)-------| |-------SRF  (global)-------| |-------SRF   (local)-------| |-------TBLS------| |-------SBLS------| |-------TBSS------|  sec. str.
+                                                                                       (%)    ident.  src.    all-atom      all-atom      score         all-atom     all-atom     all-atom     all-atom   r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy  r-energy    energy  r-energy    energy  r-energy    energy    pos. comp.   tbls_len_ratio
+1PXW_B LSU RIBOSOMAL PROTEIN L7AE;                               -41.855     0       0  71.17%  14.66% OPTM     -368.040     -291.700        0.808        0.586        0.508        0.872        0.900      3.100     -23.5    -0.440   -12.000      45.0     0.070   -13.000     -67.5     0.830    10.760      23.6    -0.920    -0.250     -27.4     0.450    10.910      46.8     0.660     1.710     -24.9     1.840    14.710      25.3     8.910     1.520     -42.5    -1.000    -4.000     -47.0    -1.000     1.000     -80.0     0.210    17.000      59.0     0.800    12.000     -46.0    -0.070    10.000      21.0     1.760     2.000     -63.0     0.000       2.0     0.000       2.0     0.000       2.0    0.38  0.61  0.00
+
+alignment source: OPTM
+ +++ there is a problem with all-atom model, see file models_LP8_redconf/model_all004.pdb.log for details
+            ---------HHHHHHHHHH-------EEEEE----HHHHHHHHHH----EEEEEE--H  HHHHHHHHHHHH------EE
+Query:    5 PHVPYVPTPEKVVRRMLEIAKVSQDDIVYDLGCGDGRIIITAAKDFNVKKAVGVEIND--ERIREALANIEKNGVTGRAS   82
+Sbjct:    1 PSYVKFEVPKELAEKALQAVEIARDTGKIRKG---TNETTKAVERGQAKLVIIAEDVDPEEIVAHLPPLCEEKEIP---Y   74
+            ---------HHHHHHHHHHHHHHHHH-EEEE-   HHHHHHHHH-----EEEEE-----------HHHHHHH----   E
+
+            EEE---      --------EEEEEEE--   HHHHHHHHHHHHH--
+Query:   83 IVKGNF------FEVDISEATVVTMFLLT---NVNEMLKPKLEKELK  120
+Sbjct:   75 IYVPSKKELGAAAGIEV-AAASVAIIEPGKARDLVEEIAMKVRELMK  120
+            EEE--HHHHHHH----- ---EEEEEE----HHHHHHHHHHHHHH--
+
+116 residues (71.17%) of query sequence aligned
+
+--> hit 5
+
+
+  secondary structure: 23.94% helical, 21.13% extended, 54.93% loops/other (query: 31.90% 22.09% 46.01%)
+  Template PDB/Molecule                                          score homolog  hits  length   seq.   align    ENE             TE13        old           CGenergy      SIFT2        tma1         tma2     |-------OPTM------| |-------SEQ  (global)-------| |-------SEQ   (local)-------| |-------TRD  (global)-------| |-------TRD   (local)-------| |-------TRS  (global)-------| |-------TRS   (local)-------| |-------TSS  (global)-------| |-------TSS   (local)-------| |-------TSC  (global)-------| |-------TSC   (local)-------| |-------PSM  (global)-------| |-------PSM   (local)-------| |-------SRF  (global)-------| |-------SRF   (local)-------| |-------TBLS------| |-------SBLS------| |-------TBSS------|  sec. str.
+                                                                                       (%)    ident.  src.    all-atom      all-atom      score         all-atom     all-atom     all-atom     all-atom   r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy    zscore  r-energy    energy  r-energy    energy  r-energy    energy  r-energy    energy    pos. comp.   tbls_len_ratio
+2V74_F HISTONE-ARGININE METHYLTRANSFERASE CARM1;                 -41.887     0       0  69.33%  25.66% OPTM     -393.352     -218.580        1.323        0.651        0.378        0.322        0.930     19.480     -38.5     1.660    60.000     501.0     6.530    86.500    -152.5    -0.910     1.440    1169.9    -1.160    -4.310     -40.8    -1.070    -5.320    1188.5    -0.870    -8.010     -27.4     0.730     5.310     660.7     9.280    10.010     -52.5    -1.000    15.000      27.0    -1.000    -4.000    -110.0     0.180    25.000     598.0    11.080    60.000    -106.0     0.730    -5.000     252.0     5.110    27.000    -117.0     8.520      -6.5     3.250      -1.2     8.400      -6.4   -0.10  0.82  0.68
+
+alignment source: OPTM
+            HHHHHHHHHH---- ---EEEEE----HHHHHHHHHH----EEEEEE--HHHHHHHHHHHHH------EEEEE-------
+Query:   14 EKVVRRMLEIAKVS-QDDIVYDLGCGDGRIIITAAKDFNVKKAVGVEINDERIREALANIEKNGVTGRASIVKGNFFEVD   92
+Sbjct:   24 TGTYQRAILQNHTDFKDKIVLDVGCGSGILSFFAAQAG-ARKIYAVEAS-TMAQHAEVLVKSNNLTDRIVVIPGKVEEVS  101
+            HHHHHHHHH--------EEEEE-----HHHHHHHH--- -EEEEEE--- -HHHHHHHHHH------EEEEE--------
+
+            ----EEEEEEE--         HHHHHHHHHHHHH-----EEE
+Query:   93 ISEATVVTMFLLT---------NVNEMLKPKLEKELKPGTRVV  126
+Sbjct:  102 LPE-QVDIIISEPMGYMLFNERMLESYLHAK--KYLKPSGNMF  141
+            --- EEEEEE-----------HHHHHHH---  -EEEEEEEE-
+
+113 residues (69.33%) of query sequence aligned

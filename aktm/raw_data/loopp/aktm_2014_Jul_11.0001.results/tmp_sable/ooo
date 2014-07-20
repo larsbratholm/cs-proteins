@@ -1,0 +1,4 @@
+BLAST data version 20110524
+aktm_2014_Jul_11.0001
+We will use blastpgp found here: /state/partition1/looppLocal//blastdb/linux/blast-2.2.18//blastpgp
+** /state/partition1/looppLocal//blastdb/linux/blast-2.2.18//blastpgp -i query -j 3 -d /state/partition1/looppLocal//blastdb/20110524/nr -o align.out  -Q mat

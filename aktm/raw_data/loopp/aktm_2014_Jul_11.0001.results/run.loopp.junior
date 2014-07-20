@@ -1,0 +1,27 @@
+#!/bin/bash
+
+export LOOPP_DIR="/share/apps/loopp";      #  LOOPP installation directory
+export LOOPP_LOCAL="/state/partition1/looppLocal";    #  location on compute nodes where loopp data copied/found
+export LOOPPEXE="lp9Cdrv.exe";
+
+echo "#$ -N $1$2" > loopp.qsub
+echo '#$ -cwd' >> loopp.qsub
+echo '#$ -V' >> loopp.qsub
+echo '#$ -o loopp.out' >> loopp.qsub
+echo '#$ -e loopp.err' >> loopp.qsub
+echo '#$ -l h_rt=72:00:00' >> loopp.qsub
+echo '#$ -q loopp.q' >> loopp.qsub
+
+echo '#$ -pe mpich 16' >> loopp.qsub 
+	# the number of cores that loopp should use per query; due to the architecture of
+	# the current loopp driver, performance gains may not be seen for values > 20 or
+	# so, but this needs to be verified.
+ 
+echo 'module load intel' >> loopp.qsub
+echo 'module load openmpi' >> loopp.qsub
+
+echo "mpirun -np 16 perl $LOOPP_DIR/looppmpi.pl $LOOPP_DIR $2 $PWD $LOOPP_LOCAL JOB_ID $3 $4 $5 $6 $7 $8" >> loopp.qsub
+	# Here the $NSLOTS means we want to use however many cores were requestd in the
+	# -pe mpi line (see above) submitted to qsub. 
+
+/opt/gridengine/bin/lx26-amd64/qsub loopp.qsub

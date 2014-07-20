@@ -1,0 +1,51 @@
+Query= rmsproc_tmp1
+         (116 letters)
+
+
+
+>rmsproc_tmp2
+          Length = 113
+
+ Score =  207 bits (526), Expect = 4e-59
+ Identities = 107/107 (100%), Positives = 107/107 (100%)
+
+Query: 10  EKVVRRMLEIAKVSQDDIVYDLGCGDGRIIITAAKDFNVKKAVGVEINDERIREALANIE 69
+           EKVVRRMLEIAKVSQDDIVYDLGCGDGRIIITAAKDFNVKKAVGVEINDERIREALANIE
+Sbjct: 1   EKVVRRMLEIAKVSQDDIVYDLGCGDGRIIITAAKDFNVKKAVGVEINDERIREALANIE 60
+
+Query: 70  KNGVTGRASIVKGNFFEVDISEATVVTMFLLTNVNEMLKPKLEKELK 116
+           KNGVTGRASIVKGNFFEVDISEATVVTMFLLTNVNEMLKPKLEKELK
+Sbjct: 61  KNGVTGRASIVKGNFFEVDISEATVVTMFLLTNVNEMLKPKLEKELK 107
+
+
+Lambda     K      H
+   0.317    0.137    0.377 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 1
+Number of Hits to DB: 113
+Number of extensions: 1
+Number of successful extensions: 1
+Number of sequences better than 10.0: 1
+Number of HSP's gapped: 1
+Number of HSP's successfully gapped: 1
+Length of query: 116
+Length of database: 113
+Length adjustment: 13
+Effective length of query: 103
+Effective length of database: 100
+Effective search space:    10300
+Effective search space used:    10300
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 15 ( 6.9 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 15 ( 9.7 bits)
+S2: 15 (10.4 bits)

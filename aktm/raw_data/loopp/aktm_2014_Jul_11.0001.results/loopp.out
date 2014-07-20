@@ -1,0 +1,179 @@
+-catch_rsh /opt/gridengine/default/spool/compute-0-21/active_jobs/1668645.1/pe_hostfile
+compute-0-21
+compute-0-21
+compute-0-21
+compute-0-21
+compute-0-21
+compute-0-21
+compute-0-21
+compute-0-21
+compute-0-22
+compute-0-22
+compute-0-22
+compute-0-22
+compute-0-22
+compute-0-22
+compute-0-22
+compute-0-22
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+tmpDir for compute nodes is /state/partition1/lp1668645: the id was taken from the env var JOB_ID
+Email for results: larsbratholm@gmail.com
+compute-0-21.local: looppmpi.pl is executing.
+tmpDir for compute nodes is /state/partition1/lp1668645: the id was taken from the env var JOB_ID
+Email for results: larsbratholm@gmail.com
+compute-0-21.local: looppmpi.pl is executing.
+looppLocation is /share/apps/loopp
+looppQuery is aktm_2014_Jul_11.0001
+looppWork is /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp
+looppLocal is /state/partition1/looppLocal
+Results aktm_2014_Jul_11.0001.results.tgz will be unpacked at /www/sites/clsb/loopp/results/loopp1 and emailed to larsbratholm@gmail.com
+compute-0-21.local: Using LOOPPEXE found in environment: lp9Cdrv.exe
+compute-0-21.local: executing LOOPP as: /share/apps/loopp/data/H_common/LOOPP/lp9Cdrv.exe  aktm_2014_Jul_11.0001 /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp file:////share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/aktm_2014_Jul_11.0001.out.htm /state/partition1/looppLocal/ /share/apps/loopp/data/H_common/ /state/partition1/lp1668645 /share/apps/loopp/data/T_local/ no_rsync no_casp /www/sites/clsb/loopp/results/loopp1
+looppLocation is /share/apps/loopp
+looppQuery is aktm_2014_Jul_11.0001
+looppWork is /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp
+looppLocal is /state/partition1/looppLocal
+Results aktm_2014_Jul_11.0001.results.tgz will be unpacked at /www/sites/clsb/loopp/results/loopp1 and emailed to larsbratholm@gmail.com
+compute-0-21.local: Using LOOPPEXE found in environment: lp9Cdrv.exe
+compute-0-21.local: executing LOOPP as: /share/apps/loopp/data/H_common/LOOPP/lp9Cdrv.exe  aktm_2014_Jul_11.0001 /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp file:////share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/aktm_2014_Jul_11.0001.out.htm /state/partition1/looppLocal/ /share/apps/loopp/data/H_common/ /state/partition1/lp1668645 /share/apps/loopp/data/T_local/ no_rsync no_casp /www/sites/clsb/loopp/results/loopp1
+tmpDir for compute nodes is /state/partition1/lp1668645: the id was taken from the env var JOB_ID
+Email for results: larsbratholm@gmail.com
+compute-0-21.local: looppmpi.pl is executing.
+looppLocation is /share/apps/loopp
+looppQuery is aktm_2014_Jul_11.0001
+looppWork is /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp
+looppLocal is /state/partition1/looppLocal
+Results aktm_2014_Jul_11.0001.results.tgz will be unpacked at /www/sites/clsb/loopp/results/loopp1 and emailed to larsbratholm@gmail.com
+compute-0-21.local: Using LOOPPEXE found in environment: lp9Cdrv.exe
+compute-0-21.local: executing LOOPP as: /share/apps/loopp/data/H_common/LOOPP/lp9Cdrv.exe  aktm_2014_Jul_11.0001 /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp file:////share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/aktm_2014_Jul_11.0001.out.htm /state/partition1/looppLocal/ /share/apps/loopp/data/H_common/ /state/partition1/lp1668645 /share/apps/loopp/data/T_local/ no_rsync no_casp /www/sites/clsb/loopp/results/loopp1
+tmpDir for compute nodes is /state/partition1/lp1668645: the id was taken from the env var JOB_ID
+Email for results: larsbratholm@gmail.com
+compute-0-21.local: looppmpi.pl is executing.
+looppLocation is /share/apps/loopp
+looppQuery is aktm_2014_Jul_11.0001
+looppWork is /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp
+looppLocal is /state/partition1/looppLocal
+Results aktm_2014_Jul_11.0001.results.tgz will be unpacked at /www/sites/clsb/loopp/results/loopp1 and emailed to larsbratholm@gmail.com
+compute-0-21.local: Using LOOPPEXE found in environment: lp9Cdrv.exe
+compute-0-21.local: executing LOOPP as: /share/apps/loopp/data/H_common/LOOPP/lp9Cdrv.exe  aktm_2014_Jul_11.0001 /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp file:////share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/aktm_2014_Jul_11.0001.out.htm /state/partition1/looppLocal/ /share/apps/loopp/data/H_common/ /state/partition1/lp1668645 /share/apps/loopp/data/T_local/ no_rsync no_casp /www/sites/clsb/loopp/results/loopp1
+tmpDir for compute nodes is /state/partition1/lp1668645: the id was taken from the env var JOB_ID
+Email for results: larsbratholm@gmail.com
+compute-0-21.local: looppmpi.pl is executing.
+looppLocation is /share/apps/loopp
+looppQuery is aktm_2014_Jul_11.0001
+looppWork is /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp
+looppLocal is /state/partition1/looppLocal
+Results aktm_2014_Jul_11.0001.results.tgz will be unpacked at /www/sites/clsb/loopp/results/loopp1 and emailed to larsbratholm@gmail.com
+compute-0-21.local: Using LOOPPEXE found in environment: lp9Cdrv.exe
+compute-0-21.local: executing LOOPP as: /share/apps/loopp/data/H_common/LOOPP/lp9Cdrv.exe  aktm_2014_Jul_11.0001 /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp file:////share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/aktm_2014_Jul_11.0001.out.htm /state/partition1/looppLocal/ /share/apps/loopp/data/H_common/ /state/partition1/lp1668645 /share/apps/loopp/data/T_local/ no_rsync no_casp /www/sites/clsb/loopp/results/loopp1
+tmpDir for compute nodes is /state/partition1/lp1668645: the id was taken from the env var JOB_ID
+Email for results: larsbratholm@gmail.com
+compute-0-22.local: looppmpi.pl is executing.
+looppLocation is /share/apps/loopp
+looppQuery is aktm_2014_Jul_11.0001
+looppWork is /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp
+looppLocal is /state/partition1/looppLocal
+Results aktm_2014_Jul_11.0001.results.tgz will be unpacked at /www/sites/clsb/loopp/results/loopp1 and emailed to larsbratholm@gmail.com
+compute-0-22.local: Using LOOPPEXE found in environment: lp9Cdrv.exe
+compute-0-22.local: executing LOOPP as: /share/apps/loopp/data/H_common/LOOPP/lp9Cdrv.exe  aktm_2014_Jul_11.0001 /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp file:////share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/aktm_2014_Jul_11.0001.out.htm /state/partition1/looppLocal/ /share/apps/loopp/data/H_common/ /state/partition1/lp1668645 /share/apps/loopp/data/T_local/ no_rsync no_casp /www/sites/clsb/loopp/results/loopp1
+tmpDir for compute nodes is /state/partition1/lp1668645: the id was taken from the env var JOB_ID
+Email for results: larsbratholm@gmail.com
+compute-0-22.local: looppmpi.pl is executing.
+looppLocation is /share/apps/loopp
+looppQuery is aktm_2014_Jul_11.0001
+looppWork is /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp
+looppLocal is /state/partition1/looppLocal
+Results aktm_2014_Jul_11.0001.results.tgz will be unpacked at /www/sites/clsb/loopp/results/loopp1 and emailed to larsbratholm@gmail.com
+compute-0-22.local: Using LOOPPEXE found in environment: lp9Cdrv.exe
+compute-0-22.local: executing LOOPP as: /share/apps/loopp/data/H_common/LOOPP/lp9Cdrv.exe  aktm_2014_Jul_11.0001 /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp file:////share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/aktm_2014_Jul_11.0001.out.htm /state/partition1/looppLocal/ /share/apps/loopp/data/H_common/ /state/partition1/lp1668645 /share/apps/loopp/data/T_local/ no_rsync no_casp /www/sites/clsb/loopp/results/loopp1
+tmpDir for compute nodes is /state/partition1/lp1668645: the id was taken from the env var JOB_ID
+Email for results: larsbratholm@gmail.com
+compute-0-21.local: looppmpi.pl is executing.
+looppLocation is /share/apps/loopp
+looppQuery is aktm_2014_Jul_11.0001
+looppWork is /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp
+looppLocal is /state/partition1/looppLocal
+Results aktm_2014_Jul_11.0001.results.tgz will be unpacked at /www/sites/clsb/loopp/results/loopp1 and emailed to larsbratholm@gmail.com
+compute-0-21.local: Using LOOPPEXE found in environment: lp9Cdrv.exe
+compute-0-21.local: executing LOOPP as: /share/apps/loopp/data/H_common/LOOPP/lp9Cdrv.exe  aktm_2014_Jul_11.0001 /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp file:////share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/aktm_2014_Jul_11.0001.out.htm /state/partition1/looppLocal/ /share/apps/loopp/data/H_common/ /state/partition1/lp1668645 /share/apps/loopp/data/T_local/ no_rsync no_casp /www/sites/clsb/loopp/results/loopp1
+tmpDir for compute nodes is /state/partition1/lp1668645: the id was taken from the env var JOB_ID
+Email for results: larsbratholm@gmail.com
+compute-0-22.local: looppmpi.pl is executing.
+looppLocation is /share/apps/loopp
+looppQuery is aktm_2014_Jul_11.0001
+looppWork is /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp
+looppLocal is /state/partition1/looppLocal
+Results aktm_2014_Jul_11.0001.results.tgz will be unpacked at /www/sites/clsb/loopp/results/loopp1 and emailed to larsbratholm@gmail.com
+compute-0-22.local: Using LOOPPEXE found in environment: lp9Cdrv.exe
+tmpDir for compute nodes is /state/partition1/lp1668645: the id was taken from the env var JOB_ID
+Email for results: larsbratholm@gmail.com
+compute-0-21.local: looppmpi.pl is executing.
+looppLocation is /share/apps/loopp
+compute-0-22.local: executing LOOPP as: /share/apps/loopp/data/H_common/LOOPP/lp9Cdrv.exe  aktm_2014_Jul_11.0001 /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp file:////share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/aktm_2014_Jul_11.0001.out.htm /state/partition1/looppLocal/ /share/apps/loopp/data/H_common/ /state/partition1/lp1668645 /share/apps/loopp/data/T_local/ no_rsync no_casp /www/sites/clsb/loopp/results/loopp1
+looppQuery is aktm_2014_Jul_11.0001
+looppWork is /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp
+looppLocal is /state/partition1/looppLocal
+Results aktm_2014_Jul_11.0001.results.tgz will be unpacked at /www/sites/clsb/loopp/results/loopp1 and emailed to larsbratholm@gmail.com
+compute-0-21.local: Using LOOPPEXE found in environment: lp9Cdrv.exe
+compute-0-21.local: executing LOOPP as: /share/apps/loopp/data/H_common/LOOPP/lp9Cdrv.exe  aktm_2014_Jul_11.0001 /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp file:////share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/aktm_2014_Jul_11.0001.out.htm /state/partition1/looppLocal/ /share/apps/loopp/data/H_common/ /state/partition1/lp1668645 /share/apps/loopp/data/T_local/ no_rsync no_casp /www/sites/clsb/loopp/results/loopp1
+tmpDir for compute nodes is /state/partition1/lp1668645: the id was taken from the env var JOB_ID
+Email for results: larsbratholm@gmail.com
+compute-0-22.local: looppmpi.pl is executing.
+looppLocation is /share/apps/loopp
+looppQuery is aktm_2014_Jul_11.0001
+looppWork is /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp
+looppLocal is /state/partition1/looppLocal
+Results aktm_2014_Jul_11.0001.results.tgz will be unpacked at /www/sites/clsb/loopp/results/loopp1 and emailed to larsbratholm@gmail.com
+compute-0-22.local: Using LOOPPEXE found in environment: lp9Cdrv.exe
+compute-0-22.local: executing LOOPP as: /share/apps/loopp/data/H_common/LOOPP/lp9Cdrv.exe  aktm_2014_Jul_11.0001 /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp file:////share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/aktm_2014_Jul_11.0001.out.htm /state/partition1/looppLocal/ /share/apps/loopp/data/H_common/ /state/partition1/lp1668645 /share/apps/loopp/data/T_local/ no_rsync no_casp /www/sites/clsb/loopp/results/loopp1
+tmpDir for compute nodes is /state/partition1/lp1668645: the id was taken from the env var JOB_ID
+Email for results: larsbratholm@gmail.com
+compute-0-22.local: looppmpi.pl is executing.
+looppLocation is /share/apps/loopp
+looppQuery is aktm_2014_Jul_11.0001
+looppWork is /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp
+looppLocal is /state/partition1/looppLocal
+Results aktm_2014_Jul_11.0001.results.tgz will be unpacked at /www/sites/clsb/loopp/results/loopp1 and emailed to larsbratholm@gmail.com
+compute-0-22.local: Using LOOPPEXE found in environment: lp9Cdrv.exe
+compute-0-22.local: executing LOOPP as: /share/apps/loopp/data/H_common/LOOPP/lp9Cdrv.exe  aktm_2014_Jul_11.0001 /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp file:////share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/aktm_2014_Jul_11.0001.out.htm /state/partition1/looppLocal/ /share/apps/loopp/data/H_common/ /state/partition1/lp1668645 /share/apps/loopp/data/T_local/ no_rsync no_casp /www/sites/clsb/loopp/results/loopp1
+tmpDir for compute nodes is /state/partition1/lp1668645: the id was taken from the env var JOB_ID
+Email for results: larsbratholm@gmail.com
+compute-0-22.local: looppmpi.pl is executing.
+looppLocation is /share/apps/loopp
+looppQuery is aktm_2014_Jul_11.0001
+looppWork is /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp
+looppLocal is /state/partition1/looppLocal
+Results aktm_2014_Jul_11.0001.results.tgz will be unpacked at /www/sites/clsb/loopp/results/loopp1 and emailed to larsbratholm@gmail.com
+compute-0-22.local: Using LOOPPEXE found in environment: lp9Cdrv.exe
+compute-0-22.local: executing LOOPP as: /share/apps/loopp/data/H_common/LOOPP/lp9Cdrv.exe  aktm_2014_Jul_11.0001 /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp file:////share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/aktm_2014_Jul_11.0001.out.htm /state/partition1/looppLocal/ /share/apps/loopp/data/H_common/ /state/partition1/lp1668645 /share/apps/loopp/data/T_local/ no_rsync no_casp /www/sites/clsb/loopp/results/loopp1
+tmpDir for compute nodes is /state/partition1/lp1668645: the id was taken from the env var JOB_ID
+Email for results: larsbratholm@gmail.com
+compute-0-21.local: looppmpi.pl is executing.
+looppLocation is /share/apps/loopp
+looppQuery is aktm_2014_Jul_11.0001
+looppWork is /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp
+looppLocal is /state/partition1/looppLocal
+Results aktm_2014_Jul_11.0001.results.tgz will be unpacked at /www/sites/clsb/loopp/results/loopp1 and emailed to larsbratholm@gmail.com
+compute-0-21.local: Using LOOPPEXE found in environment: lp9Cdrv.exe
+compute-0-21.local: executing LOOPP as: /share/apps/loopp/data/H_common/LOOPP/lp9Cdrv.exe  aktm_2014_Jul_11.0001 /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp file:////share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/aktm_2014_Jul_11.0001.out.htm /state/partition1/looppLocal/ /share/apps/loopp/data/H_common/ /state/partition1/lp1668645 /share/apps/loopp/data/T_local/ no_rsync no_casp /www/sites/clsb/loopp/results/loopp1
+tmpDir for compute nodes is /state/partition1/lp1668645: the id was taken from the env var JOB_ID
+Email for results: larsbratholm@gmail.com
+compute-0-22.local: looppmpi.pl is executing.
+looppLocation is /share/apps/loopp
+looppQuery is aktm_2014_Jul_11.0001
+looppWork is /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp
+looppLocal is /state/partition1/looppLocal
+Results aktm_2014_Jul_11.0001.results.tgz will be unpacked at /www/sites/clsb/loopp/results/loopp1 and emailed to larsbratholm@gmail.com
+compute-0-22.local: Using LOOPPEXE found in environment: lp9Cdrv.exe
+compute-0-22.local: executing LOOPP as: /share/apps/loopp/data/H_common/LOOPP/lp9Cdrv.exe  aktm_2014_Jul_11.0001 /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp file:////share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/aktm_2014_Jul_11.0001.out.htm /state/partition1/looppLocal/ /share/apps/loopp/data/H_common/ /state/partition1/lp1668645 /share/apps/loopp/data/T_local/ no_rsync no_casp /www/sites/clsb/loopp/results/loopp1
+tmpDir for compute nodes is /state/partition1/lp1668645: the id was taken from the env var JOB_ID
+Email for results: larsbratholm@gmail.com
+compute-0-22.local: looppmpi.pl is executing.
+looppLocation is /share/apps/loopp
+looppQuery is aktm_2014_Jul_11.0001
+looppWork is /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp
+looppLocal is /state/partition1/looppLocal
+Results aktm_2014_Jul_11.0001.results.tgz will be unpacked at /www/sites/clsb/loopp/results/loopp1 and emailed to larsbratholm@gmail.com
+compute-0-22.local: Using LOOPPEXE found in environment: lp9Cdrv.exe
+compute-0-22.local: executing LOOPP as: /share/apps/loopp/data/H_common/LOOPP/lp9Cdrv.exe  aktm_2014_Jul_11.0001 /share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp file:////share/work/loopp/emailed/jobs/aktm_2014_Jul_11.0001.loopp/aktm_2014_Jul_11.0001.out.htm /state/partition1/looppLocal/ /share/apps/loopp/data/H_common/ /state/partition1/lp1668645 /share/apps/loopp/data/T_local/ no_rsync no_casp /www/sites/clsb/loopp/results/loopp1
