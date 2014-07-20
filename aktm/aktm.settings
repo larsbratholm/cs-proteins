@@ -1,0 +1,8 @@
+PROTEIN=/kemi/lab/cs-proteins/aktm/aktm
+NOE=${PROTEIN}.upl
+SS=${PROTEIN}.ss
+NOE_ALL=/kemi/lab/cs-proteins/aktm/raw_data/aktm_all.upl
+AA=${PROTEIN}.aa
+STR=${PROTEIN}.str
+RMSD_RANGE='0,-1'
+RESTRAINTS=50

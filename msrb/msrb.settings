@@ -1,0 +1,8 @@
+PROTEIN=/kemi/lab/cs-proteins/msrb/msrb
+NOE=${PROTEIN}.upl
+RDC=${PROTEIN}.rdc
+NATIVE=${PROTEIN}.pdb
+AA=${PROTEIN}.aa
+STR=${PROTEIN}.str
+RMSD_RANGE='35,104'
+RESTRAINTS=50

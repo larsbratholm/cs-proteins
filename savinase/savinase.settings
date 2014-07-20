@@ -1,0 +1,7 @@
+PROTEIN=/kemi/lab/cs-proteins/savinase/savinase
+NOE=${PROTEIN}.upl
+NATIVE=${PROTEIN}.pdb
+AA=${PROTEIN}.aa
+STR=${PROTEIN}.str
+RMSD_RANGE='0,-1'
+RESTRAINTS=100

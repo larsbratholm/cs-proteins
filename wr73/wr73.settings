@@ -1,0 +1,9 @@
+PROTEIN=/kemi/lab/cs-proteins/wr73/wr73
+NOE=${PROTEIN}.upl
+NOE_ALL=/kemi/lab/cs-proteins/wr73/noe_rosetta_all_clean.upl
+RDC=${PROTEIN}.rdc
+NATIVE=${PROTEIN}.pdb
+AA=${PROTEIN}.aa
+STR=${PROTEIN}.str
+RMSD_RANGE='0/35,65/180'
+RESTRAINTS=50

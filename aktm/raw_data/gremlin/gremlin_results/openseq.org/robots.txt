@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /mk/
+Disallow: /tmp/
+Disallow: /fasta_2013/
+Disallow: /fasta_sub/
+Disallow: /fasta_ecoli/

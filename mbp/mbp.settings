@@ -1,0 +1,12 @@
+PROTEIN=/kemi/lab/cs-proteins/mbp/mbp
+NOE=${PROTEIN}.upl
+NOE_ALL=${PROTEIN}_all.upl
+NOE_SPARSE=${PROTEIN}_sparse.upl
+NOE_NON_REDUNDANT=${PROTEIN}_non_redundant.upl
+NATIVE=${PROTEIN}.pdb
+AA=${PROTEIN}.aa
+STR=${PROTEIN}.str
+RDC=${PROTEIN}.rdc
+RDC_ALL=${PROTEIN}_all.rdc
+RMSD_RANGE='0,369'
+RESTRAINTS=100

@@ -1,0 +1,253 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>OPENSEQ.org</title>
+<link href="menu_assets/styles.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+
+A{ color: #003366; }
+A:link{ color: #003366;}
+A:visited{ color: #003366;}
+A:hover{ color: #54622D;  }
+BODY
+{
+    margin:20px auto;
+    width:1000px;
+ font-family:verdana,geneva,arial,helvetica,sans-serif;
+font-size: 12px;
+}
+table{border-spacing: 3px;}
+.header
+{
+	font-size: 20px;
+	font-weight: bold;
+}
+.sub
+{
+	font-size: 10px;
+}
+hr
+{
+	border: 0;
+	background-color: #83A156;
+	height: 5px;
+}
+table.round td{
+  -moz-border-radius:3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+table.mono td{
+	font-family: Andale Mono, monospace;
+}
+</style>
+</head>
+<body>
+<table width="100%" border="0" cellpadding="0" cellspacing="10">
+  <tr>
+    <td width="50%" valign="middle">
+    <span class="header">OPENSEQ.org</span>    </td>
+    <td width="50%" align="right" valign="bottom">
+        </td>
+  </tr>
+</table>
+<div id='cssmenu'>
+  <ul>
+   <li class='active'><a href='index.php'><span>Home</span></a></li>
+   <li ><a href='pfam.php'><span>PFAM</span></a>
+      <ul>
+      	 <li><a href='pfam.php'><span>Introduction</span></a></li>
+         <li><a href='pfam.php?mode=full'><span>Full_list</span></a></li>
+         <li><a href='pfam.php?mode=preds'><span>Predictions (All)</span></a></li>
+         <li class='last'><a href='pfam.php?mode=nostruct'><span>Predictions (No Structure)</span></a></li>
+      </ul>
+   </li>
+
+	<li ><a href='ecoli.php'><span>ECOLI</span></a></li>
+
+   <li ><a href='submit.php'><span>GREMLIN</span></a>
+   		<ul>
+         <li><a href='gremlin_faq.php'><span>FAQ</span></a></li>
+      	 <li><a href='submit.php'><span>Submit Sequence</span></a></li>
+         <li><a href='sub.php'><span>Submissions</span></a></li>
+         <li><a href='sub.php?sort=name&amp;order=DESC&amp;uid=1398960977'><span>Submissions - CASP11</span></a></li>
+         <li><a href='gremlin.php'><span>Downloads</span></a></li>
+      </ul>
+   </li>
+
+	    <li ><a href='complexes.php'><span>Complexes</span></a>
+        <ul>
+		<li><a href='complexes.php'><span>Introduction</span></a></li>
+        <li><a href='cplx_faq.php'><span>FAQ</span></a></li>
+      	 <li><a href='cplx_submit.php'><span>Submit Sequences</span></a></li>
+         <li><a href='cplx_sub.php'><span>Submissions</span></a></li>
+      </ul>
+      </li>
+
+   <li ><a href='contactus.php'><span>Contact Us</span></a></li>
+</ul>
+</div><table width="100%" border="0" cellpadding="3" cellspacing="5" class="round">
+  <tr>
+    <td colspan="2" valign="top" bgcolor="#E6E6E6"><span class="header">INTRODUCTION</span><br /></td>
+  </tr>
+  <tr>
+    <td valign="top" bgcolor="#FFFFFF"><img src="http://openseq.org/menu_assets/ND1.gif" width="100" height="152" /></td>
+    <td width="100%" valign="top" bgcolor="#FFFFFF"><strong>OPENSEQ</strong> (short for open sequence) was created with the intent of providing an open platform to share sequence based analysis to the public.
+      <ul>
+      <li>Our first project includes constructing a maximum entropy statistical model to describe each protein familiy in the Pfam database. The model captures both conservation and co-evolution patterns in the family. The strength of measured co-evolution is strongly predictive of residue-residue contacts in the 3D structure of the protein. This means that we can use this information to better understand contacts in known structures and make prediction of contacts for protein families that have no structure.<span class="sub"> (Image on the left shows the <a href="http://openseq.org/pfam.php?id=PF00146&amp;year=2013">ND1 protein of the electron transport chain</a> with predicted contacts in yellow).</span> </li>
+      <li>The work done here is the result of students and computing power of <a href="http://www.bakerlab.org">Prof. David Baker's Lab</a>, though we would also like to thank the developers of <a href="http://www.soeding.genzentrum.lmu.de/">HHsuite</a>, <a href="http://hmmer.janelia.org/">HMMER</a> and folks that maintain the <a href="http://pfam.sanger.ac.uk/">Pfam</a>, <a href="http://www.pdb.org">PDB</a> and <a href="http://www.uniprot.org/">UniProt</a> databases.</li>
+    </ul></td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top" bgcolor="#E6E6E6"><span class="header">NEWS</span></td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top" bgcolor="#CCCCCC"><strong>May 11, 2014</strong></td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top"><strong>Update on Complexes</strong>
+      <ul>
+        <li>We've added support for <a href="http://hmmer.janelia.org/">Jackhmmer</a> on our complexes web-server. You can see the technical details of how exactly we implemented it to do paired-alignment generation in the <a href="cplx_faq.php">techincail details of our FAQ</a>. The advantages/disadvantages of using Jackhmmer are described April 04, 2014 (below).<br />
+          <br />
+        </li>
+        <li>Since our publication: a similar, independent and very cool study has recently been posted to bioRxiv by Hopt et al (folks at <a href="http://evfold.org">evfold.org</a>)
+          <ul>
+            <li>Sequence co-evolution gives 3D contacts and structures of protein complexes [<a href="http://biorxiv.org/content/biorxiv/early/2014/05/06/004762">LINK</a>] [<a href="http://biorxiv.org/content/early/2014/05/06/004762.full.pdf">PDF</a>]<br />
+              <br />
+            </li>
+          </ul>
+        </li>
+        <li>We are working on making all the scripts we used in our recent study human_friendly. All scripts involved in alignment generation + GREMLIN analysis have already been posted in the <a href="cplx_faq.php"> FAQ section</a>.</li>
+      </ul></td>
+</tr>
+  <tr>
+    <td colspan="2" valign="top" bgcolor="#CCCCCC"><strong>May 01, 2014</strong></td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top"><strong>Complex Prediction!</strong>
+      <ul>
+        <li>Early version of our paper is out showing we can predict protein-protein (residue-residue) interactions using co-evolution data. [<a href="http://elifesciences.org/content/early/2014/05/01/eLife.02030">LINK</a>][<a href="http://openseq.org/complexes/Draft_01May2014.pdf">PDF</a>]</li>
+        <li>We've <a href="complexes.php">uploaded</a> all of our results and alignments online for your viewing pleasure. =]</li>
+        <li>We also have a beta <a href="cplx_submit.php">webserver</a> that will generate paired alignments for a given protein pair and run the GREMLIN analysis. If you encounter any error or have suggestions, please use our <a href="http://openseq.org/contact.php">contact form</a>!</li>
+      </ul>
+      <p><strong>CASP11 starts TODAY!!</strong></p>
+      <ul>
+        <li><a href="http://www.predictioncenter.org/casp11/index.cgi">CASP11</a> is going to be the era of &quot;contact prediction&quot; every group has some kind of contact predictor in their pipeline. To make things easier for folks interested in using GREMLIN results in CASP, casp sequences submitted will automatically be organized in our <a href="sub.php?sort=name&amp;order=DESC&amp;uid=1398960977">CASP11 page</a>. Good luck!!</li>
+      </ul></td>
+</tr>
+       <tr>
+  <tr>
+    <td colspan="2" valign="top" bgcolor="#CCCCCC"><strong>April 04, 2014</strong></td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
+	Some updates to the submission page:
+	<ul>
+      <li>We've added support for Jackhmmer (from <a href="http://hmmer.janelia.org/">HMMER</a>) for multiple sequence alignment generation.
+        <ul>
+          <li>Disadvantge: It is slower than HHblit, since Jackhmmer does not use the pre-clustered uniprot database.</li>
+          <li>Advantage: Since Jackhmmer does not require a pre-clustered uniprot DB (which is updated once a year), it can use the latest uniprot release (which is updated once a month).</li>
+          <li>If your favorite gene does not have enough homologous sequences to perform co-evolution analysis, you can try resubmitting the gene every month until it does! =P</li>
+        </ul>
+      </li>
+      <li>For those of you interested in using co-evolution based contacts in <a href="https://www.rosettacommons.org/">Rosetta modeling software</a>, restraint files are now provided for each submission. We also provide a realignment and renumbering tool, for those using the restraints for a sequence longer or shorter than the original query.</li>
+	</ul></td>
+</tr>
+  <tr>
+    <td colspan="2" valign="top" bgcolor="#CCCCCC"><strong>February 16, 2014</strong></td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
+	Some exciting new features have been added to the submissions output page! All previous submissions have been updated.
+	  <ul>
+      <li>We've been working on adding homooligomer support. When you submit a job, contacts coming from other chains will now be highlighted in shades of red. The max hhsearch contact will now be shown instead of the average (being either an intra, inter chain contact, or coming from a different pdb hit.)</li>
+	<li>Each PDB hit now has its own contact map, that you can click on.</li>  
+	<li>We ran GREMLIN on all <i>E. coli</i> genes that have at least 1L sequences. I am working on creating a pretty intro page, but in the meantime you can see a sneak preview here: <a href='ecoli.php'><b>ECOLI</b></a></li>
+    </ul></td>
+</tr>
+       <tr>
+    <td colspan="2" valign="top" bgcolor="#CCCCCC"><strong>September 14, 2013</strong></td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top"><ul>
+      <li>It's very exciting to see folks submitting jobs to the server (We apologize to those that submitted sequences that are ~1000 amino acids, those can take up to 24 hours to complete...). We've been fixing little bugs as they come up, if you encounter any errors or the output of the results page does not make sense, please write to us!</li>
+      <li>We now include a sequence conservation graphic as depicted by <a href="http://weblogo.threeplusone.com/">WebLogo</a>, for all our submissions. These can be useful because:
+        <ol>
+        <li>  A mutation to a functionally important residue will not be selected for, if it cannot be easily compensated by a co-mutation, and thus will not be observed in a multiple sequence alignment, hence not be captured by a co-evolution analysis.</li>
+              <li>What may appear to be an highly variable/un-conserved position, (based on a WebLogo representation), may actually be highly conserved and co-evolving with another position [as would be captured in the GREMLIN output].</li>
+            </ol>
+        </li>
+    </ul></td>
+</tr>
+     <tr>
+    <td colspan="2" valign="top" bgcolor="#CCCCCC"><strong>September 3, 2013</strong></td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top"><ul>
+      <li>We are excited to announce that the paper describing our latest work has been released in PNAS! [<a href="http://www.pnas.org/content/early/2013/09/04/1314045110">LINK</a>][<a href="http://www.pnas.org/content/early/2013/09/04/1314045110.full.pdf">PDF</a>]</li>
+      <li>A simplified version of the webpage is now available at <em>gremlin.bakerlab.org</em> that will only include the pfam analysis and gremlin submission form. This is to prevent information overload for folks accessing the resource for the first time, as we continue to add other resources to <em>openseq.org</em>.</li>
+    </ul></td>
+</tr>
+   <tr>
+    <td colspan="2" valign="top" bgcolor="#CCCCCC"><strong>August 23, 2013</strong></td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top"><ul>
+      <li>The <a href="submit.php">online server</a> has been updated to include more options, and to make resubmission process much easier. Options include:
+        <ul>
+          <li> The ability to submit either a single sequence or a starting alignment.</li>
+          <li>Control diversity of the alignment, by adjusting number of iterations and e-value.</li>
+          <li>Focus on region of interest, by adjusting the coverage and gap removal filters.</li>
+          <li>We are working on adding the ability to select priors! Right now only the &quot;Vanilla&quot; option works.</li>
+          </ul>
+      </li>
+      <li>The <a href="gremlin_faq.php">FAQ page</a> is now live! Its hard to judge what is common knowledge and what is new to our users. Please help improve this page by submitting questions using our  <a href="contactus.php">contact form</a>! (Even if its a question to which you already know the answer to, but you feel others might benefit.)</li>
+    </ul></td>
+</tr>
+      <tr>
+    <td colspan="2" valign="top" bgcolor="#CCCCCC"><strong>August 5, 2013</strong></td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top"><ul>
+      <li>We are working on setting up an online server for GREMLIN co-evolution analysis. The server is in BETA mode, any suggestions are welcome as we prep for public release!</li>
+    </ul></td>
+  </tr>
+    <tr>
+    <td colspan="2" valign="top" bgcolor="#CCCCCC"><strong>July 30, 2013</strong></td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top"><ul>
+      <li>Predictions for 2013 should be done. We are keeping the 2012 predictions for archive purposes.</li>
+      <!--<li>There are cases where more sequences actually caused a decrease in number of contact predictions... (example PF00004: <a href="http://openseq.org/pfam.php?id=PF00004&amp;year=2012">2012</a> vs <a href="http://openseq.org/pfam.php?id=PF00004&amp;year=2013">2013</a>) Since these covariance measurements are for the &quot;whole&quot; protein family, we'd expect to only see high covariance between residues that all members of the familiy share. As the family grows we'd expect biases as caused by a over-representation of a particular gene in a family, to disappear. For a particular gene it might be of benefit to actually take a sub-alignment of sequences closer to your gene, as they might include residue pair covariance  that others in the family might not have, and run gremlin on that.</li> -->
+      <li>We are in the process of uploading alignments used in our calculations. Note: for gremlin runs we removed sites that had &gt; 75% gaps, provided alignment includes these sites.</li>
+    </ul></td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top" bgcolor="#CCCCCC"><strong>July 24, 2013</strong></td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top"><ul>
+      <li>We are updating our predictions to reflect new sequences that have been released since 2012. When you click on any of the pfams, you'll see a &quot;2013&quot; tab. The calculations are running and will be uploaded as they come in. Eventually the lists will be replaced with these new calculations. </li>
+      <li>We welcome any suggestions as we prep this webpage for public release.</li>
+    </ul></td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top" bgcolor="#E6E6E6" class="header">PUBLICATIONS</td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top"><ul>
+      <li>&quot;<strong>Robust and accurate prediction of residue-residue interactions across protein interfaces using evolutionary information</strong>.&quot;<br />
+        Sergey Ovchinnikov, Hetunandan Kamisetty, and David Baker. <br />
+  <em>Elife</em> (2014). [<a href="http://elifesciences.org/content/early/2014/05/01/eLife.02030">LINK</a>][<a href="http://openseq.org/complexes/Draft_01May2014.pdf">PDF</a>]</li>
+      <li>&quot;<strong>Assessing the utility of coevolution-based residue&ndash;residue contact predictions in a sequence-and structure-rich era</strong>.&quot;&nbsp;<br />
+        Hetunandan Kamisetty, Sergey Ovchinnikov, and David Baker. <br />
+  <em>Proceedings of the National Academy of Sciences</em>&nbsp;110, no. 39 (2013): 15674-15679. [<a href="http://www.pnas.org/content/110/39/15674.full">LINK</a>][<a href="http://www.pnas.org/content/110/39/15674.full.pdf">PDF</a>]<br />
+      </li>
+      <li>&quot;<strong>Learning generative models for protein fold families</strong>.&quot;<br />
+        Sivaraman Balakrishnan, Hetunandan Kamisetty, Jaime G. Carbonell, Su-In Lee, and Christopher James Langmead. <br />
+  <em>Proteins: Structure, Function, and Bioinformatics</em>&nbsp;79, no. 4 (2011): 1061-1078. [<a href="http://onlinelibrary.wiley.com/doi/10.1002/prot.22934/abstract">LINK</a>][<a href="http://www.cs.cmu.edu/~hetu/pubs/gremlin.pdf">PDF</a>]</li>
+    </ul></td>
+  </tr>
+</table><hr />
+</body>
+</head>

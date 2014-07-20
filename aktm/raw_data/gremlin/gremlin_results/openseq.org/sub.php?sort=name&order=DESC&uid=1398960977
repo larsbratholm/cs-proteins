@@ -1,0 +1,1695 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>OPENSEQ.org - GREMLIN Submission</title>
+<script>
+  function showhide(id)
+	{
+		if(document.getElementById)
+		{
+			obj = document.getElementById(id); 
+			if(obj.style.display == "none"){obj.style.display = "";}
+			else{obj.style.display = "none";}
+		}
+	}
+</script>
+<link href="menu_assets/styles.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+
+A{ color: #003366; font-weight: bold;}
+A:link{ color: #003366;}
+A:visited{ color: #003366;}
+A:hover{ color: #54622D;  }
+BODY
+{
+    margin:20px auto;
+    width:1024px;
+font-family:verdana,geneva,arial,helvetica,sans-serif;
+font-size: 12px;
+	
+}
+.border {
+border-style:solid;
+border-width:1px;
+}
+.header
+{
+	font-size: 20px;
+	font-weight: bold;
+}
+.subheader
+{
+	font-size: 16px;
+	font-weight: bold;
+}
+.sub
+{
+	font-size: 10px;
+}
+.n0{color: #33CC33; font-weight: bold;}
+.n1{color: #CCCC00; font-weight: bold;}
+.n2{color: #FF9900; font-weight: bold;}
+.n3{color: #FF6600; font-weight: bold;}
+.n4{color: #FF0000; font-weight: bold;}
+.seq
+{
+	font-family:Andale Mono, monospace;
+}
+.act
+{
+	background-color:#FFFFFF;
+	padding:2px 2px 2px 2px;
+	-moz-border-radius:3px;
+  	-webkit-border-radius: 3px;
+  	border-radius: 3px;
+}
+hr
+{
+	border: 0;
+	background-color: #83A156;
+	height: 5px;
+}
+table.round td{
+  -moz-border-radius:3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+.scrollBox {
+
+line-height: 12px;
+
+border-style:solid;
+border-width:1px;
+
+height: 200px;
+
+width: 500px;
+overflow: auto;
+}
+.weblogo {
+
+line-height: 12px;
+border-width:0px;
+
+height: 120px;
+
+width: 1000px;
+overflow: auto;
+}
+.sub_bar {
+
+line-height: 12px;
+border-width:0px;
+
+height: 230px;
+
+width: 1000px;
+overflow: auto;
+}
+.act1 {	background-color:#FFFFFF;
+	padding:2px 2px 2px 2px;
+	-moz-border-radius:3px;
+  	-webkit-border-radius: 3px;
+  	border-radius: 3px;
+}
+.light
+{
+	background-color:#F3F3F3;
+}
+</style>
+</head>
+<body>
+<table width="100%" border="0" cellpadding="0" cellspacing="10">
+  <tr>
+    <td width="50%" valign="middle">
+    <span class="header">OPENSEQ.org</span>    </td>
+    <td width="50%" align="right" valign="bottom">
+        </td>
+  </tr>
+</table>
+<div id='cssmenu'>
+  <ul>
+   <li ><a href='index.php'><span>Home</span></a></li>
+   <li ><a href='pfam.php'><span>PFAM</span></a>
+      <ul>
+      	 <li><a href='pfam.php'><span>Introduction</span></a></li>
+         <li><a href='pfam.php?mode=full'><span>Full_list</span></a></li>
+         <li><a href='pfam.php?mode=preds'><span>Predictions (All)</span></a></li>
+         <li class='last'><a href='pfam.php?mode=nostruct'><span>Predictions (No Structure)</span></a></li>
+      </ul>
+   </li>
+
+	<li ><a href='ecoli.php'><span>ECOLI</span></a></li>
+
+   <li class='active'><a href='submit.php'><span>GREMLIN</span></a>
+   		<ul>
+         <li><a href='gremlin_faq.php'><span>FAQ</span></a></li>
+      	 <li><a href='submit.php'><span>Submit Sequence</span></a></li>
+         <li><a href='sub.php'><span>Submissions</span></a></li>
+         <li><a href='sub.php?sort=name&amp;order=DESC&amp;uid=1398960977'><span>Submissions - CASP11</span></a></li>
+         <li><a href='gremlin.php'><span>Downloads</span></a></li>
+      </ul>
+   </li>
+
+	    <li ><a href='complexes.php'><span>Complexes</span></a>
+        <ul>
+		<li><a href='complexes.php'><span>Introduction</span></a></li>
+        <li><a href='cplx_faq.php'><span>FAQ</span></a></li>
+      	 <li><a href='cplx_submit.php'><span>Submit Sequences</span></a></li>
+         <li><a href='cplx_sub.php'><span>Submissions</span></a></li>
+      </ul>
+      </li>
+
+   <li ><a href='contactus.php'><span>Contact Us</span></a></li>
+</ul>
+</div><table width="100%" border="0" cellpadding="5" cellspacing="0">
+<tr>
+<td width="50%" align="left" bgcolor="#B2D7E8"><b>Welcome:</b> casp11@openseq.org</td>
+<td width="50%" align="right" bgcolor="#B2D7E8"><a href="http://openseq.org/sub.php?uid=1398960977" class="act" >My Submissions</a></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="3" cellspacing="5" class="round">
+	<tr>
+	  <td bgcolor="#E6E6E6"><strong><a href="http://openseq.org/sub.php?sort=id&amp;order=ASC&amp;uid=1398960977">ID</a></strong></td>
+	  <td bgcolor="#E6E6E6"><strong><a href="http://openseq.org/sub.php?sort=length&amp;order=ASC&amp;uid=1398960977">Length</a></strong></td>
+	  <td bgcolor="#E6E6E6"><strong><a href="http://openseq.org/sub.php?sort=seq&amp;order=ASC&amp;uid=1398960977">Sequences</a></strong></td>
+	  <td bgcolor="#E6E6E6"><strong><a href="http://openseq.org/sub.php?sort=seq_len&amp;order=ASC&amp;uid=1398960977">Seq/Len</a></strong></td>
+	  <td bgcolor="#E6E6E6"><strong><a href="http://openseq.org/sub.php?sort=name&amp;order=ASC&amp;uid=1398960977">Name</a></strong></td>
+      <td bgcolor="#E6E6E6"><strong>Options</strong></td>
+	</tr>
+				<tr class="light">
+            	<td><a href="http://openseq.org/sub.php?id=1400694995&amp;uid=1398960977">1400694995</a></td>
+                <td>481</td>
+                <td>6129</td>
+				<td><span class=n1>13.04</span></td>
+                <td>
+                T0788 GP120</td>
+                <td><span class="sub">
+                -e <span class="n1">1E-10</span>
+            	-iter 4            	-cov 75                -gap 75                -msa HHblits</span>
+                
+                </td>
+            	
+            </tr>
+				<tr >
+            	<td><a href="http://openseq.org/sub.php?id=1400696430&amp;uid=1398960977">1400696430</a></td>
+                <td>481</td>
+                <td>6139</td>
+				<td><span class=n1>13.06</span></td>
+                <td>
+                T0788 GP120</td>
+                <td><span class="sub">
+                -e <span class="n0">1E-20</span>
+            	-iter 8            	-cov 75                -gap 75                -msa HHblits</span>
+                
+                </td>
+            	
+            </tr>
+				<tr class="light">
+            	<td><a href="http://openseq.org/sub.php?id=1400696354&amp;uid=1398960977">1400696354</a></td>
+                <td>634</td>
+                <td>4694</td>
+				<td><span class=n2>7.56</span></td>
+                <td>
+                T0788 - T0787 GP120 - GP41</td>
+                <td><span class="sub">
+                -e <span class="n0">1E-20</span>
+            	-iter 8            	-cov 90                -gap 75                -msa HHblits</span>
+                
+                </td>
+            	
+            </tr>
+				<tr >
+            	<td><a href="http://openseq.org/sub.php?id=1400696379&amp;uid=1398960977">1400696379</a></td>
+                <td>634</td>
+                <td>5400</td>
+				<td><span class=n2>8.59</span></td>
+                <td>
+                T0788 - T0787 GP120 - GP41</td>
+                <td><span class="sub">
+                -e <span class="n0">1E-20</span>
+            	-iter 8            	-cov 90                -gap 75                -msa Jackhmmer</span>
+                
+                </td>
+            	
+            </tr>
+				<tr class="light">
+            	<td><a href="http://openseq.org/sub.php?id=1400694958&amp;uid=1398960977">1400694958</a></td>
+                <td>153</td>
+                <td>1960</td>
+				<td><span class=n1>12.81</span></td>
+                <td>
+                T0787 GP41</td>
+                <td><span class="sub">
+                -e <span class="n1">1E-10</span>
+            	-iter 4            	-cov 75                -gap 75                -msa HHblits</span>
+                
+                </td>
+            	
+            </tr>
+				<tr >
+            	<td><a href="http://openseq.org/sub.php?id=1400696314&amp;uid=1398960977">1400696314</a></td>
+                <td>153</td>
+                <td>1959</td>
+				<td><span class=n1>12.80</span></td>
+                <td>
+                T0787 GP41</td>
+                <td><span class="sub">
+                -e <span class="n0">1E-20</span>
+            	-iter 8            	-cov 75                -gap 75                -msa HHblits</span>
+                
+                </td>
+            	
+            </tr>
+				<tr class="light">
+            	<td><a href="http://openseq.org/sub.php?id=1400603410&amp;uid=1398960977">1400603410</a></td>
+                <td>264</td>
+                <td>662</td>
+				<td><span class=n3>2.90</span></td>
+                <td>
+                T0786</td>
+                <td><span class="sub">
+                -e <span class="n1">1E-10</span>
+            	-iter 4            	-cov 75                -gap 75                -msa HHblits</span>
+                
+                </td>
+            	
+            </tr>
+				<tr >
+            	<td><a href="http://openseq.org/sub.php?id=1400604104&amp;uid=1398960977">1400604104</a></td>
+                <td>264</td>
+                <td>119</td>
+				<td><span class=n4>0.47</span></td>
+                <td>
+                T0786</td>
+                <td><span class="sub">
+                -e <span class="n0">1E-20</span>
+            	-iter 4            	-cov 75                -gap 75                -msa Jackhmmer</span>
+                
+                </td>
+            	
+            </tr>
+				<tr class="light">
+            	<td><a href="http://openseq.org/sub.php?id=1400605154&amp;uid=1398960977">1400605154</a></td>
+                <td>264</td>
+                <td>907</td>
+				<td><span class=n3>3.76</span></td>
+                <td>
+                T0786</td>
+                <td><span class="sub">
+                -e <span class="n1">1E-10</span>
+            	-iter 4            	-cov 75                -gap 75                -msa Jackhmmer</span>
+                
+                </td>
+            	
+            </tr>
+				<tr >
+            	<td><a href="http://openseq.org/sub.php?id=1400603381&amp;uid=1398960977">1400603381</a></td>
+                <td>115</td>
+                <td>1</td>
+				<td><span class=n4>0.01</span></td>
+                <td>
+                T0785</td>
+                <td><span class="sub">
+                -e <span class="n1">1E-10</span>
+            	-iter 4            	-cov 75                -gap 75                -msa HHblits</span>
+                
+                </td>
+            	
+            </tr>
+				<tr class="light">
+            	<td><a href="http://openseq.org/sub.php?id=1400604064&amp;uid=1398960977">1400604064</a></td>
+                <td>115</td>
+                <td>1</td>
+				<td><span class=n4>0.01</span></td>
+                <td>
+                T0785</td>
+                <td><span class="sub">
+                -e <span class="n3">1E-04</span>
+            	-iter 4            	-cov 75                -gap 75                -msa HHblits</span>
+                
+                </td>
+            	
+            </tr>
+				<tr >
+            	<td><a href="http://openseq.org/sub.php?id=1400607617&amp;uid=1398960977">1400607617</a></td>
+                <td>115</td>
+                <td>1</td>
+				<td><span class=n4>0.01</span></td>
+                <td>
+                T0785</td>
+                <td><span class="sub">
+                -e <span class="n3">1E-04</span>
+            	-iter 8            	-cov 75                -gap 75                -msa Jackhmmer</span>
+                
+                </td>
+            	
+            </tr>
+				<tr class="light">
+            	<td><a href="http://openseq.org/sub.php?id=1400525332&amp;uid=1398960977">1400525332</a></td>
+                <td>91</td>
+                <td>4</td>
+				<td><span class=n4>0.04</span></td>
+                <td>
+                T0784 35-125</td>
+                <td><span class="sub">
+                -e <span class="n2">1E-06</span>
+            	-iter 8            	-cov 75                -gap 75                -msa Jackhmmer</span>
+                
+                </td>
+            	
+            </tr>
+				<tr >
+            	<td><a href="http://openseq.org/sub.php?id=1400525885&amp;uid=1398960977">1400525885</a></td>
+                <td>91</td>
+                <td>4</td>
+				<td><span class=n4>0.04</span></td>
+                <td>
+                T0784 35-125</td>
+                <td><span class="sub">
+                -e <span class="n3">1E-04</span>
+            	-iter 8            	-cov 75                -gap 75                -msa Jackhmmer</span>
+                
+                </td>
+            	
+            </tr>
+				<tr class="light">
+            	<td><a href="http://openseq.org/sub.php?id=1400521444&amp;uid=1398960977">1400521444</a></td>
+                <td>155</td>
+                <td>5</td>
+				<td><span class=n4>0.03</span></td>
+                <td>
+                T0784</td>
+                <td><span class="sub">
+                -e <span class="n1">1E-10</span>
+            	-iter 4            	-cov 75                -gap 75                -msa HHblits</span>
+                
+                </td>
+            	
+            </tr>
+				<tr >
+            	<td><a href="http://openseq.org/sub.php?id=1400521877&amp;uid=1398960977">1400521877</a></td>
+                <td>155</td>
+                <td>5</td>
+				<td><span class=n4>0.03</span></td>
+                <td>
+                T0784</td>
+                <td><span class="sub">
+                -e <span class="n3">1E-04</span>
+            	-iter 4            	-cov 75                -gap 75                -msa HHblits</span>
+                
+                </td>
+            	
+            </tr>
+				<tr class="light">
+            	<td><a href="http://openseq.org/sub.php?id=1400522764&amp;uid=1398960977">1400522764</a></td>
+                <td>155</td>
+                <td>17</td>
+				<td><span class=n4>0.11</span></td>
+                <td>
+                T0784</td>
+                <td><span class="sub">
+                -e <span class="n3">1E-04</span>
+            	-iter 8            	-cov 75                -gap 75                -msa Jackhmmer</span>
+                
+                </td>
+            	
+            </tr>
+				<tr >
+            	<td><a href="http://openseq.org/sub.php?id=1400526599&amp;uid=1398960977">1400526599</a></td>
+                <td>155</td>
+                <td>1066</td>
+				<td><span class=n1>12.39</span></td>
+                <td>
+                T0784</td>
+                <td><span class="sub">
+                -e <span class="n3">1E-04</span>
+            	-iter 8            	-cov 50                -gap 75                -msa Jackhmmer</span>
+                
+                </td>
+            	
+            </tr>
+				<tr class="light">
+            	<td><a href="http://openseq.org/sub.php?id=1400649167&amp;uid=1398960977">1400649167</a></td>
+                <td>172</td>
+                <td>59</td>
+				<td><span class=n4>0.34</span></td>
+                <td>
+                T0783 240-411</td>
+                <td><span class="sub">
+                -e <span class="n1">1E-10</span>
+            	-iter 4            	-cov 75                -gap 75                -msa Jackhmmer</span>
+                
+                </td>
+            	
+            </tr>
+				<tr >
+            	<td><a href="http://openseq.org/sub.php?id=1400649722&amp;uid=1398960977">1400649722</a></td>
+                <td>172</td>
+                <td>59</td>
+				<td><span class=n4>0.34</span></td>
+                <td>
+                T0783 240-411</td>
+                <td><span class="sub">
+                -e <span class="n3">1E-04</span>
+            	-iter 8            	-cov 75                -gap 75                -msa Jackhmmer</span>
+                
+                </td>
+            	
+            </tr>
+				<tr class="light">
+            	<td><a href="http://openseq.org/sub.php?id=1400650368&amp;uid=1398960977">1400650368</a></td>
+                <td>172</td>
+                <td>25</td>
+				<td><span class=n4>0.14</span></td>
+                <td>
+                T0783 240-411</td>
+                <td><span class="sub">
+                -e <span class="n3">1E-04</span>
+            	-iter 8            	-cov 75                -gap 75                -msa HHblits</span>
+                
+                </td>
+            	
+            </tr>
+				<tr >
+            	<td><a href="http://openseq.org/sub.php?id=1400522176&amp;uid=1398960977">1400522176</a></td>
+                <td>275</td>
+                <td>204</td>
+				<td><span class=n4>0.82</span></td>
+                <td>
+                T0783 1-275</td>
+                <td><span class="sub">
+                -e <span class="n1">1E-10</span>
+            	-iter 4            	-cov 90                -gap 75                -msa HHblits</span>
+                
+                </td>
+            	
+            </tr>
+				<tr class="light">
+            	<td><a href="http://openseq.org/sub.php?id=1400522811&amp;uid=1398960977">1400522811</a></td>
+                <td>275</td>
+                <td>47</td>
+				<td><span class=n4>0.17</span></td>
+                <td>
+                T0783 1-275</td>
+                <td><span class="sub">
+                -e <span class="n0">1E-20</span>
+            	-iter 4            	-cov 90                -gap 75                -msa Jackhmmer</span>
+                
+                </td>
+            	
+            </tr>
+				<tr >
+            	<td><a href="http://openseq.org/sub.php?id=1400522863&amp;uid=1398960977">1400522863</a></td>
+                <td>275</td>
+                <td>10590</td>
+				<td><span class=n0>45.65</span></td>
+                <td>
+                T0783 1-275</td>
+                <td><span class="sub">
+                -e <span class="n1">1E-10</span>
+            	-iter 4            	-cov 75                -gap 75                -msa HHblits</span>
+                
+                </td>
+            	
+            </tr>
+				<tr class="light">
+            	<td><a href="http://openseq.org/sub.php?id=1400524443&amp;uid=1398960977">1400524443</a></td>
+                <td>275</td>
+                <td>3175</td>
+				<td><span class=n1>13.51</span></td>
+                <td>
+                T0783 1-275</td>
+                <td><span class="sub">
+                -e <span class="n0">1E-20</span>
+            	-iter 4            	-cov 75                -gap 75                -msa Jackhmmer</span>
+                
+                </td>
+            	
+            </tr>
+				<tr >
+            	<td><a href="http://openseq.org/sub.php?id=1400521422&amp;uid=1398960977">1400521422</a></td>
+                <td>411</td>
+                <td>22</td>
+				<td><span class=n4>0.05</span></td>
+                <td>
+                T0783</td>
+                <td><span class="sub">
+                -e <span class="n1">1E-10</span>
+            	-iter 4            	-cov 75                -gap 75                -msa HHblits</span>
+                
+                </td>
+            	
+            </tr>
+				<tr class="light">
+            	<td><a href="http://openseq.org/sub.php?id=1400259472&amp;uid=1398960977">1400259472</a></td>
+                <td>135</td>
+                <td>54</td>
+				<td><span class=n4>0.41</span></td>
+                <td>
+                T0782</td>
+                <td><span class="sub">
+                -e <span class="n1">1E-10</span>
+            	-iter 4            	-cov 75                -gap 75                -msa HHblits</span>
+                
+                </td>
+            	
+            </tr>
+				<tr >
+            	<td><a href="http://openseq.org/sub.php?id=1400260158&amp;uid=1398960977">1400260158</a></td>
+                <td>135</td>
+                <td>334</td>
+				<td><span class=n3>2.55</span></td>
+                <td>
+                T0782</td>
+                <td><span class="sub">
+                -e <span class="n3">1E-04</span>
+            	-iter 4            	-cov 75                -gap 75                -msa HHblits</span>
+                
+                </td>
+            	
+            </tr>
+				<tr class="light">
+            	<td><a href="http://openseq.org/sub.php?id=1400259441&amp;uid=1398960977">1400259441</a></td>
+                <td>420</td>
+                <td>2</td>
+				<td><span class=n4>0.01</span></td>
+                <td>
+                T0781</td>
+                <td><span class="sub">
+                -e <span class="n1">1E-10</span>
+            	-iter 4            	-cov 75                -gap 75                -msa HHblits</span>
+                
+                </td>
+            	
+            </tr>
+				<tr >
+            	<td><a href="http://openseq.org/sub.php?id=1400259616&amp;uid=1398960977">1400259616</a></td>
+                <td>420</td>
+                <td>2</td>
+				<td><span class=n4>0.01</span></td>
+                <td>
+                T0781</td>
+                <td><span class="sub">
+                -e <span class="n3">1E-04</span>
+            	-iter 4            	-cov 75                -gap 75                -msa HHblits</span>
+                
+                </td>
+            	
+            </tr>
+				<tr class="light">
+            	<td><a href="http://openseq.org/sub.php?id=1400180885&amp;uid=1398960977">1400180885</a></td>
+                <td>259</td>
+                <td>538</td>
+				<td><span class=n3>2.35</span></td>
+                <td>
+                T0780</td>
+                <td><span class="sub">
+                -e <span class="n1">1E-10</span>
+            	-iter 4            	-cov 75                -gap 75                -msa HHblits</span>
+                
+                </td>
+            	
+            </tr>
+				<tr >
+            	<td><a href="http://openseq.org/sub.php?id=1400182026&amp;uid=1398960977">1400182026</a></td>
+                <td>259</td>
+                <td>1081</td>
+				<td><span class=n3>4.72</span></td>
+                <td>
+                T0780</td>
+                <td><span class="sub">
+                -e <span class="n1">1E-10</span>
+            	-iter 4            	-cov 75                -gap 75                -msa Jackhmmer</span>
+                
+                </td>
+            	
+            </tr>
+				<tr class="light">
+            	<td><a href="http://openseq.org/sub.php?id=1400180869&amp;uid=1398960977">1400180869</a></td>
+                <td>68</td>
+                <td>16</td>
+				<td><span class=n4>0.28</span></td>
+                <td>
+                T0779</td>
+                <td><span class="sub">
+                -e <span class="n1">1E-10</span>
+            	-iter 4            	-cov 75                -gap 75                -msa HHblits</span>
+                
+                </td>
+            	
+            </tr>
+				<tr >
+            	<td><a href="http://openseq.org/sub.php?id=1400182049&amp;uid=1398960977">1400182049</a></td>
+                <td>68</td>
+                <td>16</td>
+				<td><span class=n4>0.28</span></td>
+                <td>
+                T0779</td>
+                <td><span class="sub">
+                -e <span class="n3">1E-04</span>
+            	-iter 8            	-cov 75                -gap 75                -msa HHblits</span>
+                
+                </td>
+            	
+            </tr>
+				<tr class="light">
+            	<td><a href="http://openseq.org/sub.php?id=1400182345&amp;uid=1398960977">1400182345</a></td>
+                <td>68</td>
+                <td>30</td>
+				<td><span class=n4>0.46</span></td>
+                <td>
+                T0779</td>
+                <td><span class="sub">
+                -e <span class="n3">1E-04</span>
+            	-iter 8            	-cov 75                -gap 75                -msa Jackhmmer</span>
+                
+                </td>
+            	
+            </tr>
+				<tr >
+            	<td><a href="http://openseq.org/sub.php?id=1400093091&amp;uid=1398960977">1400093091</a></td>
+                <td>127</td>
+                <td>23024</td>
+				<td><span class=n0>203.75</span></td>
+                <td>
+                T0778</td>
+                <td><span class="sub">
+                -e <span class="n1">1E-10</span>
+            	-iter 4            	-cov 75                -gap 75                -msa HHblits</span>
+                
+                </td>
+            	
+            </tr>
+				<tr class="light">
+            	<td><a href="http://openseq.org/sub.php?id=1400094484&amp;uid=1398960977">1400094484</a></td>
+                <td>127</td>
+                <td>3251</td>
+				<td><span class=n0>26.87</span></td>
+                <td>
+                T0778</td>
+                <td><span class="sub">
+                -e <span class="n0">1E-40</span>
+            	-iter 4            	-cov 90                -gap 75                -msa Jackhmmer</span>
+                
+                </td>
+            	
+            </tr>
+				<tr >
+            	<td><a href="http://openseq.org/sub.php?id=1400096588&amp;uid=1398960977">1400096588</a></td>
+                <td>127</td>
+                <td>350</td>
+				<td><span class=n3>2.85</span></td>
+                <td>
+                T0778</td>
+                <td><span class="sub">
+                -e <span class="n0">1E-40</span>
+            	-iter 4            	-cov 95                -gap 75                -msa Jackhmmer</span>
+                
+                </td>
+            	
+            </tr>
+				<tr class="light">
+            	<td><a href="http://openseq.org/sub.php?id=1400096828&amp;uid=1398960977">1400096828</a></td>
+                <td>127</td>
+                <td>1</td>
+				<td><span class=n4>0.01</span></td>
+                <td>
+                T0778</td>
+                <td><span class="sub">
+                -e <span class="n0">1E-40</span>
+            	-iter 4            	-cov 95                -gap 75                -msa HHblits</span>
+                
+                </td>
+            	
+            </tr>
+				<tr >
+            	<td><a href="http://openseq.org/sub.php?id=1400098596&amp;uid=1398960977">1400098596</a></td>
+                <td>127</td>
+                <td>602</td>
+				<td><span class=n2>5.14</span></td>
+                <td>
+                T0778</td>
+                <td><span class="sub">
+                -e <span class="n0">1E-20</span>
+            	-iter 4            	-cov 90                -gap 75                -msa HHblits</span>
+                
+                </td>
+            	
+            </tr>
+				<tr class="light">
+            	<td><a href="http://openseq.org/sub.php?id=1400093069&amp;uid=1398960977">1400093069</a></td>
+                <td>366</td>
+                <td>42</td>
+				<td><span class=n4>0.13</span></td>
+                <td>
+                T0777</td>
+                <td><span class="sub">
+                -e <span class="n1">1E-10</span>
+            	-iter 4            	-cov 75                -gap 75                -msa HHblits</span>
+                
+                </td>
+            	
+            </tr>
+				<tr >
+            	<td><a href="http://openseq.org/sub.php?id=1400093558&amp;uid=1398960977">1400093558</a></td>
+                <td>366</td>
+                <td>96</td>
+				<td><span class=n4>0.28</span></td>
+                <td>
+                T0777</td>
+                <td><span class="sub">
+                -e <span class="n3">1E-04</span>
+            	-iter 4            	-cov 75                -gap 75                -msa Jackhmmer</span>
+                
+                </td>
+            	
+            </tr>
+				<tr class="light">
+            	<td><a href="http://openseq.org/sub.php?id=1400096900&amp;uid=1398960977">1400096900</a></td>
+                <td>366</td>
+                <td>98</td>
+				<td><span class=n4>0.28</span></td>
+                <td>
+                T0777</td>
+                <td><span class="sub">
+                -e <span class="n3">1E-04</span>
+            	-iter 8            	-cov 75                -gap 75                -msa Jackhmmer</span>
+                
+                </td>
+            	
+            </tr>
+				<tr >
+            	<td><a href="http://openseq.org/sub.php?id=1400003697&amp;uid=1398960977">1400003697</a></td>
+                <td>256</td>
+                <td>1099</td>
+				<td><span class=n2>5.14</span></td>
+                <td>
+                T0776</td>
+                <td><span class="sub">
+                -e <span class="n1">1E-10</span>
+            	-iter 4            	-cov 75                -gap 75                -msa HHblits</span>
+                
+                </td>
+            	
+            </tr>
+				<tr class="light">
+            	<td><a href="http://openseq.org/sub.php?id=1400004946&amp;uid=1398960977">1400004946</a></td>
+                <td>256</td>
+                <td>2495</td>
+				<td><span class=n1>10.99</span></td>
+                <td>
+                T0776</td>
+                <td><span class="sub">
+                -e <span class="n0">1E-20</span>
+            	-iter 4            	-cov 75                -gap 75                -msa Jackhmmer</span>
+                
+                </td>
+            	
+            </tr>
+				<tr >
+            	<td><a href="http://openseq.org/sub.php?id=1400003678&amp;uid=1398960977">1400003678</a></td>
+                <td>390</td>
+                <td>17</td>
+				<td><span class=n4>0.04</span></td>
+                <td>
+                T0775</td>
+                <td><span class="sub">
+                -e <span class="n1">1E-10</span>
+            	-iter 4            	-cov 75                -gap 75                -msa HHblits</span>
+                
+                </td>
+            	
+            </tr>
+				<tr class="light">
+            	<td><a href="http://openseq.org/sub.php?id=1400004900&amp;uid=1398960977">1400004900</a></td>
+                <td>390</td>
+                <td>17</td>
+				<td><span class=n4>0.04</span></td>
+                <td>
+                T0775</td>
+                <td><span class="sub">
+                -e <span class="n3">1E-04</span>
+            	-iter 4            	-cov 75                -gap 75                -msa HHblits</span>
+                
+                </td>
+            	
+            </tr>
+				<tr >
+            	<td><a href="http://openseq.org/sub.php?id=1400005209&amp;uid=1398960977">1400005209</a></td>
+                <td>390</td>
+                <td>13</td>
+				<td><span class=n4>0.03</span></td>
+                <td>
+                T0775</td>
+                <td><span class="sub">
+                -e <span class="n3">1E-04</span>
+            	-iter 4            	-cov 75                -gap 75                -msa Jackhmmer</span>
+                
+                </td>
+            	
+            </tr>
+				<tr class="light">
+            	<td><a href="http://openseq.org/sub.php?id=1399913328&amp;uid=1398960977">1399913328</a></td>
+                <td>379</td>
+                <td>167</td>
+				<td><span class=n4>0.48</span></td>
+                <td>
+                T0774</td>
+                <td><span class="sub">
+                -e <span class="n1">1E-10</span>
+            	-iter 4            	-cov 75                -gap 75                -msa HHblits</span>
+                
+                </td>
+            	
+            </tr>
+				<tr >
+            	<td><a href="http://openseq.org/sub.php?id=1399916785&amp;uid=1398960977">1399916785</a></td>
+                <td>379</td>
+                <td>630</td>
+				<td><span class=n3>1.71</span></td>
+                <td>
+                T0774</td>
+                <td><span class="sub">
+                -e <span class="n1">1E-10</span>
+            	-iter 4            	-cov 75                -gap 75                -msa Jackhmmer</span>
+                
+                </td>
+            	
+            </tr>
+				<tr class="light">
+            	<td><a href="http://openseq.org/sub.php?id=1399925937&amp;uid=1398960977">1399925937</a></td>
+                <td>379</td>
+                <td>745</td>
+				<td><span class=n3>2.08</span></td>
+                <td>
+                T0774</td>
+                <td><span class="sub">
+                -e <span class="n1">1E-10</span>
+            	-iter 8            	-cov 75                -gap 75                -msa Jackhmmer</span>
+                
+                </td>
+            	
+            </tr>
+				<tr >
+            	<td><a href="http://openseq.org/sub.php?id=1399913309&amp;uid=1398960977">1399913309</a></td>
+                <td>77</td>
+                <td>1</td>
+				<td><span class=n4>0.01</span></td>
+                <td>
+                T0773</td>
+                <td><span class="sub">
+                -e <span class="n1">1E-10</span>
+            	-iter 4            	-cov 75                -gap 75                -msa HHblits</span>
+                
+                </td>
+            	
+            </tr>
+				<tr class="light">
+            	<td><a href="http://openseq.org/sub.php?id=1399913639&amp;uid=1398960977">1399913639</a></td>
+                <td>77</td>
+                <td>1</td>
+				<td><span class=n4>0.01</span></td>
+                <td>
+                T0773</td>
+                <td><span class="sub">
+                -e <span class="n3">1E-04</span>
+            	-iter 8            	-cov 75                -gap 75                -msa HHblits</span>
+                
+                </td>
+            	
+            </tr>
+				<tr >
+            	<td><a href="http://openseq.org/sub.php?id=1399916812&amp;uid=1398960977">1399916812</a></td>
+                <td>77</td>
+                <td>1</td>
+				<td><span class=n4>0.01</span></td>
+                <td>
+                T0773</td>
+                <td><span class="sub">
+                -e <span class="n3">1E-04</span>
+            	-iter 8            	-cov 75                -gap 75                -msa Jackhmmer</span>
+                
+                </td>
+            	
+            </tr>
+				<tr class="light">
+            	<td><a href="http://openseq.org/sub.php?id=1399654118&amp;uid=1398960977">1399654118</a></td>
+                <td>206</td>
+                <td>906</td>
+				<td><span class=n3>4.74</span></td>
+                <td>
+                T0772 60-265</td>
+                <td><span class="sub">
+                -e <span class="n1">1E-10</span>
+            	-iter 4            	-cov 75                -gap 75                -msa HHblits</span>
+                
+                </td>
+            	
+            </tr>
+				<tr >
+            	<td><a href="http://openseq.org/sub.php?id=1399746164&amp;uid=1398960977">1399746164</a></td>
+                <td>206</td>
+                <td>1554</td>
+				<td><span class=n2>7.66</span></td>
+                <td>
+                T0772 60-265</td>
+                <td><span class="sub">
+                -e <span class="n0">1E-20</span>
+            	-iter 4            	-cov 75                -gap 75                -msa Jackhmmer</span>
+                
+                </td>
+            	
+            </tr>
+				<tr class="light">
+            	<td><a href="http://openseq.org/sub.php?id=1399653758&amp;uid=1398960977">1399653758</a></td>
+                <td>265</td>
+                <td>97</td>
+				<td><span class=n4>0.39</span></td>
+                <td>
+                T0772</td>
+                <td><span class="sub">
+                -e <span class="n1">1E-10</span>
+            	-iter 4            	-cov 75                -gap 75                -msa HHblits</span>
+                
+                </td>
+            	
+            </tr>
+				<tr >
+            	<td><a href="http://openseq.org/sub.php?id=1399570646&amp;uid=1398960977">1399570646</a></td>
+                <td>409</td>
+                <td>4125</td>
+				<td><span class=n1>10.44</span></td>
+                <td>
+                T0770 80-488</td>
+                <td><span class="sub">
+                -e <span class="n1">1E-10</span>
+            	-iter 4            	-cov 75                -gap 75                -msa HHblits</span>
+                
+                </td>
+            	
+            </tr>
+				<tr class="light">
+            	<td><a href="http://openseq.org/sub.php?id=1399568726&amp;uid=1398960977">1399568726</a></td>
+                <td>488</td>
+                <td>993</td>
+				<td><span class=n3>2.11</span></td>
+                <td>
+                T0770</td>
+                <td><span class="sub">
+                -e <span class="n1">1E-10</span>
+            	-iter 4            	-cov 75                -gap 75                -msa HHblits</span>
+                
+                </td>
+            	
+            </tr>
+				<tr >
+            	<td><a href="http://openseq.org/sub.php?id=1399570664&amp;uid=1398960977">1399570664</a></td>
+                <td>488</td>
+                <td>9707</td>
+				<td><span class=n0>20.61</span></td>
+                <td>
+                T0770</td>
+                <td><span class="sub">
+                -e <span class="n1">1E-10</span>
+            	-iter 4            	-cov 75                -gap 75                -msa Jackhmmer</span>
+                
+                </td>
+            	
+            </tr>
+				<tr class="light">
+            	<td><a href="http://openseq.org/sub.php?id=1399568698&amp;uid=1398960977">1399568698</a></td>
+                <td>112</td>
+                <td>1</td>
+				<td><span class=n4>0.01</span></td>
+                <td>
+                T0769</td>
+                <td><span class="sub">
+                -e <span class="n1">1E-10</span>
+            	-iter 4            	-cov 75                -gap 75                -msa HHblits</span>
+                
+                </td>
+            	
+            </tr>
+				<tr >
+            	<td><a href="http://openseq.org/sub.php?id=1399570600&amp;uid=1398960977">1399570600</a></td>
+                <td>112</td>
+                <td>1</td>
+				<td><span class=n4>0.01</span></td>
+                <td>
+                T0769</td>
+                <td><span class="sub">
+                -e <span class="n3">1E-04</span>
+            	-iter 4            	-cov 75                -gap 75                -msa HHblits</span>
+                
+                </td>
+            	
+            </tr>
+				<tr class="light">
+            	<td><a href="http://openseq.org/sub.php?id=1399575842&amp;uid=1398960977">1399575842</a></td>
+                <td>112</td>
+                <td>1</td>
+				<td><span class=n4>0.01</span></td>
+                <td>
+                T0769</td>
+                <td><span class="sub">
+                -e <span class="n3">1E-04</span>
+            	-iter 8            	-cov 75                -gap 75                -msa Jackhmmer</span>
+                
+                </td>
+            	
+            </tr>
+				<tr >
+            	<td><a href="http://openseq.org/sub.php?id=1399481183&amp;uid=1398960977">1399481183</a></td>
+                <td>101</td>
+                <td>3963</td>
+				<td><span class=n0>40.86</span></td>
+                <td>
+                T0768 70-170</td>
+                <td><span class="sub">
+                -e <span class="n1">1E-10</span>
+            	-iter 4            	-cov 75                -gap 75                -msa HHblits</span>
+                
+                </td>
+            	
+            </tr>
+				<tr class="light">
+            	<td><a href="http://openseq.org/sub.php?id=1399480489&amp;uid=1398960977">1399480489</a></td>
+                <td>170</td>
+                <td>324</td>
+				<td><span class=n3>1.96</span></td>
+                <td>
+                T0768</td>
+                <td><span class="sub">
+                -e <span class="n1">1E-10</span>
+            	-iter 4            	-cov 75                -gap 75                -msa HHblits</span>
+                
+                </td>
+            	
+            </tr>
+				<tr >
+            	<td><a href="http://openseq.org/sub.php?id=1399482620&amp;uid=1398960977">1399482620</a></td>
+                <td>170</td>
+                <td>3085</td>
+				<td><span class=n0>18.58</span></td>
+                <td>
+                T0768</td>
+                <td><span class="sub">
+                -e <span class="n1">1E-10</span>
+            	-iter 4            	-cov 75                -gap 75                -msa Jackhmmer</span>
+                
+                </td>
+            	
+            </tr>
+				<tr class="light">
+            	<td><a href="http://openseq.org/sub.php?id=1399485109&amp;uid=1398960977">1399485109</a></td>
+                <td>170</td>
+                <td>1066</td>
+				<td><span class=n2>6.38</span></td>
+                <td>
+                T0768</td>
+                <td><span class="sub">
+                -e <span class="n1">1E-10</span>
+            	-iter 4            	-cov 90                -gap 75                -msa Jackhmmer</span>
+                
+                </td>
+            	
+            </tr>
+				<tr >
+            	<td><a href="http://openseq.org/sub.php?id=1399486638&amp;uid=1398960977">1399486638</a></td>
+                <td>170</td>
+                <td>171</td>
+				<td><span class=n3>1.02</span></td>
+                <td>
+                T0768</td>
+                <td><span class="sub">
+                -e <span class="n1">1E-10</span>
+            	-iter 4            	-cov 95                -gap 75                -msa Jackhmmer</span>
+                
+                </td>
+            	
+            </tr>
+				<tr class="light">
+            	<td><a href="http://openseq.org/sub.php?id=1399480450&amp;uid=1398960977">1399480450</a></td>
+                <td>318</td>
+                <td>23</td>
+				<td><span class=n4>0.07</span></td>
+                <td>
+                T0767</td>
+                <td><span class="sub">
+                -e <span class="n1">1E-10</span>
+            	-iter 4            	-cov 75                -gap 75                -msa HHblits</span>
+                
+                </td>
+            	
+            </tr>
+				<tr >
+            	<td><a href="http://openseq.org/sub.php?id=1399481083&amp;uid=1398960977">1399481083</a></td>
+                <td>318</td>
+                <td>24</td>
+				<td><span class=n4>0.08</span></td>
+                <td>
+                T0767</td>
+                <td><span class="sub">
+                -e <span class="n3">1E-04</span>
+            	-iter 4            	-cov 75                -gap 75                -msa HHblits</span>
+                
+                </td>
+            	
+            </tr>
+				<tr class="light">
+            	<td><a href="http://openseq.org/sub.php?id=1399481327&amp;uid=1398960977">1399481327</a></td>
+                <td>318</td>
+                <td>68</td>
+				<td><span class=n4>0.22</span></td>
+                <td>
+                T0767</td>
+                <td><span class="sub">
+                -e <span class="n3">1E-04</span>
+            	-iter 8            	-cov 75                -gap 75                -msa Jackhmmer</span>
+                
+                </td>
+            	
+            </tr>
+				<tr >
+            	<td><a href="http://openseq.org/sub.php?id=1399396021&amp;uid=1398960977">1399396021</a></td>
+                <td>130</td>
+                <td>101</td>
+				<td><span class=n4>1.00</span></td>
+                <td>
+                T0766 (over_ride: real seq/len: 0.795)</td>
+                <td><span class="sub">
+                -e <span class="n1">1E-10</span>
+            	-iter 8            	-cov 75                -gap 75                -msa Jackhmmer</span>
+                
+                </td>
+            	
+            </tr>
+				<tr class="light">
+            	<td><a href="http://openseq.org/sub.php?id=1399393937&amp;uid=1398960977">1399393937</a></td>
+                <td>130</td>
+                <td>50</td>
+				<td><span class=n4>0.39</span></td>
+                <td>
+                T0766</td>
+                <td><span class="sub">
+                -e <span class="n1">1E-10</span>
+            	-iter 4            	-cov 75                -gap 75                -msa HHblits</span>
+                
+                </td>
+            	
+            </tr>
+				<tr >
+            	<td><a href="http://openseq.org/sub.php?id=1399395253&amp;uid=1398960977">1399395253</a></td>
+                <td>130</td>
+                <td>100</td>
+				<td><span class=n4>0.79</span></td>
+                <td>
+                T0766</td>
+                <td><span class="sub">
+                -e <span class="n1">1E-10</span>
+            	-iter 4            	-cov 75                -gap 75                -msa Jackhmmer</span>
+                
+                </td>
+            	
+            </tr>
+				<tr class="light">
+            	<td><a href="http://openseq.org/sub.php?id=1399394134&amp;uid=1398960977">1399394134</a></td>
+                <td>128</td>
+                <td>628</td>
+				<td><span class=n2>5.37</span></td>
+                <td>
+                T0765 - R0046</td>
+                <td><span class="sub">
+                -e <span class="n1">1E-10</span>
+            	-iter 4            	-cov 75                -gap 75                -msa Jackhmmer</span>
+                
+                </td>
+            	
+            </tr>
+				<tr >
+            	<td><a href="http://openseq.org/sub.php?id=1399400767&amp;uid=1398960977">1399400767</a></td>
+                <td>128</td>
+                <td>69</td>
+				<td><span class=n4>0.54</span></td>
+                <td>
+                T0765 - R0046</td>
+                <td><span class="sub">
+                -e <span class="n0">1E-20</span>
+            	-iter 8            	-cov 75                -gap 75                -msa Jackhmmer</span>
+                
+                </td>
+            	
+            </tr>
+				<tr class="light">
+            	<td><a href="http://openseq.org/sub.php?id=1399401415&amp;uid=1398960977">1399401415</a></td>
+                <td>128</td>
+                <td>625</td>
+				<td><span class=n2>5.17</span></td>
+                <td>
+                T0765 - R0046</td>
+                <td><span class="sub">
+                -e <span class="n1">1E-10</span>
+            	-iter 8            	-cov 75                -gap 75                -msa Jackhmmer</span>
+                
+                </td>
+            	
+            </tr>
+				<tr >
+            	<td><a href="http://openseq.org/sub.php?id=1399313744&amp;uid=1398960977">1399313744</a></td>
+                <td>302</td>
+                <td>298</td>
+				<td><span class=n3>1.00</span></td>
+                <td>
+                T0764 40-341</td>
+                <td><span class="sub">
+                -e <span class="n0">1E-20</span>
+            	-iter 4            	-cov 50                -gap 50                -msa HHblits</span>
+                
+                </td>
+            	
+            </tr>
+				<tr class="light">
+            	<td><a href="http://openseq.org/sub.php?id=1399312048&amp;uid=1398960977">1399312048</a></td>
+                <td>341</td>
+                <td>280</td>
+				<td><span class=n4>0.87</span></td>
+                <td>
+                T0764</td>
+                <td><span class="sub">
+                -e <span class="n1">1E-10</span>
+            	-iter 4            	-cov 75                -gap 75                -msa HHblits</span>
+                
+                </td>
+            	
+            </tr>
+				<tr >
+            	<td><a href="http://openseq.org/sub.php?id=1399313104&amp;uid=1398960977">1399313104</a></td>
+                <td>341</td>
+                <td>379</td>
+				<td><span class=n3>1.13</span></td>
+                <td>
+                T0764</td>
+                <td><span class="sub">
+                -e <span class="n1">1E-10</span>
+            	-iter 4            	-cov 75                -gap 75                -msa Jackhmmer</span>
+                
+                </td>
+            	
+            </tr>
+				<tr class="light">
+            	<td><a href="http://openseq.org/sub.php?id=1399322900&amp;uid=1398960977">1399322900</a></td>
+                <td>341</td>
+                <td>24463</td>
+				<td><span class=n0>110.19</span></td>
+                <td>
+                T0764</td>
+                <td><span class="sub">
+                -e <span class="n1">1E-10</span>
+            	-iter 4            	-cov 50                -gap 50                -msa HHblits</span>
+                
+                </td>
+            	
+            </tr>
+				<tr >
+            	<td><a href="http://openseq.org/sub.php?id=1400706461&amp;uid=1398960977">1400706461</a></td>
+                <td>341</td>
+                <td>379</td>
+				<td><span class=n3>1.13</span></td>
+                <td>
+                T0764</td>
+                <td><span class="sub">
+                -e <span class="n0">1E-20</span>
+            	-iter 8            	-cov 75                -gap 75                -msa Jackhmmer</span>
+                
+                </td>
+            	
+            </tr>
+				<tr class="light">
+            	<td><a href="http://openseq.org/sub.php?id=1399312010&amp;uid=1398960977">1399312010</a></td>
+                <td>163</td>
+                <td>2</td>
+				<td><span class=n4>0.01</span></td>
+                <td>
+                T0763</td>
+                <td><span class="sub">
+                -e <span class="n1">1E-10</span>
+            	-iter 4            	-cov 75                -gap 75                -msa HHblits</span>
+                
+                </td>
+            	
+            </tr>
+				<tr >
+            	<td><a href="http://openseq.org/sub.php?id=1399313780&amp;uid=1398960977">1399313780</a></td>
+                <td>163</td>
+                <td>2</td>
+				<td><span class=n4>0.01</span></td>
+                <td>
+                T0763</td>
+                <td><span class="sub">
+                -e <span class="n3">1E-04</span>
+            	-iter 4            	-cov 75                -gap 75                -msa Jackhmmer</span>
+                
+                </td>
+            	
+            </tr>
+				<tr class="light">
+            	<td><a href="http://openseq.org/sub.php?id=1399049700&amp;uid=1398960977">1399049700</a></td>
+                <td>280</td>
+                <td>7022</td>
+				<td><span class=n0>25.91</span></td>
+                <td>
+                T0762</td>
+                <td><span class="sub">
+                -e <span class="n1">1E-10</span>
+            	-iter 4            	-cov 75                -gap 75                -msa HHblits</span>
+                
+                </td>
+            	
+            </tr>
+				<tr >
+            	<td><a href="http://openseq.org/sub.php?id=1399051304&amp;uid=1398960977">1399051304</a></td>
+                <td>280</td>
+                <td>652</td>
+				<td><span class=n3>2.47</span></td>
+                <td>
+                T0762</td>
+                <td><span class="sub">
+                -e <span class="n1">1E-10</span>
+            	-iter 4            	-cov 90                -gap 75                -msa HHblits</span>
+                
+                </td>
+            	
+            </tr>
+				<tr class="light">
+            	<td><a href="http://openseq.org/sub.php?id=1399049570&amp;uid=1398960977">1399049570</a></td>
+                <td>285</td>
+                <td>1</td>
+				<td><span class=n4>0.00</span></td>
+                <td>
+                T0761</td>
+                <td><span class="sub">
+                -e <span class="n1">1E-10</span>
+            	-iter 4            	-cov 75                -gap 75                -msa HHblits</span>
+                
+                </td>
+            	
+            </tr>
+				<tr >
+            	<td><a href="http://openseq.org/sub.php?id=1399049812&amp;uid=1398960977">1399049812</a></td>
+                <td>285</td>
+                <td>1</td>
+				<td><span class=n4>0.00</span></td>
+                <td>
+                T0761</td>
+                <td><span class="sub">
+                -e <span class="n3">1E-04</span>
+            	-iter 4            	-cov 75                -gap 75                -msa HHblits</span>
+                
+                </td>
+            	
+            </tr>
+				<tr class="light">
+            	<td><a href="http://openseq.org/sub.php?id=1400107596&amp;uid=1398960977">1400107596</a></td>
+                <td>109</td>
+                <td>129</td>
+				<td><span class=n3>1.33</span></td>
+                <td>
+                T0759 sub_alignment</td>
+                <td><span class="sub">
+                -e <span class="n1">1E-10</span>
+            	-iter 0            	-cov 75                -gap 75                -msa Jackhmmer</span>
+                
+                </td>
+            	
+            </tr>
+				<tr >
+            	<td><a href="http://openseq.org/sub.php?id=1400259857&amp;uid=1398960977">1400259857</a></td>
+                <td>98</td>
+                <td>9</td>
+				<td><span class=n4>0.09</span></td>
+                <td>
+                T0759</td>
+                <td><span class="sub">
+                -e <span class="n0">1E-40</span>
+            	-iter 1            	-cov 95                -gap 75                -msa Jackhmmer</span>
+                
+                </td>
+            	
+            </tr>
+				<tr class="light">
+            	<td><a href="http://openseq.org/sub.php?id=1400259869&amp;uid=1398960977">1400259869</a></td>
+                <td>98</td>
+                <td>18</td>
+				<td><span class=n4>0.18</span></td>
+                <td>
+                T0759</td>
+                <td><span class="sub">
+                -e <span class="n0">1E-40</span>
+            	-iter 2            	-cov 95                -gap 75                -msa Jackhmmer</span>
+                
+                </td>
+            	
+            </tr>
+				<tr >
+            	<td><a href="http://openseq.org/sub.php?id=1400262197&amp;uid=1398960977">1400262197</a></td>
+                <td>98</td>
+                <td>81</td>
+				<td><span class=n4>0.83</span></td>
+                <td>
+                T0759</td>
+                <td><span class="sub">
+                -e <span class="n0">1E-40</span>
+            	-iter 4            	-cov 95                -gap 75                -msa Jackhmmer</span>
+                
+                </td>
+            	
+            </tr>
+				<tr class="light">
+            	<td><a href="http://openseq.org/sub.php?id=1400262787&amp;uid=1398960977">1400262787</a></td>
+                <td>98</td>
+                <td>122</td>
+				<td><span class=n3>1.26</span></td>
+                <td>
+                T0759</td>
+                <td><span class="sub">
+                -e <span class="n0">1E-40</span>
+            	-iter 4            	-cov 90                -gap 75                -msa Jackhmmer</span>
+                
+                </td>
+            	
+            </tr>
+				<tr >
+            	<td><a href="http://openseq.org/sub.php?id=1398961032&amp;uid=1398960977">1398961032</a></td>
+                <td>242</td>
+                <td>155</td>
+				<td><span class=n4>0.66</span></td>
+                <td>
+                CASP11 - T0760</td>
+                <td><span class="sub">
+                -e <span class="n1">1E-10</span>
+            	-iter 4            	-cov 75                -gap 75                -msa HHblits</span>
+                
+                </td>
+            	
+            </tr>
+				<tr class="light">
+            	<td><a href="http://openseq.org/sub.php?id=1398961466&amp;uid=1398960977">1398961466</a></td>
+                <td>242</td>
+                <td>313</td>
+				<td><span class=n3>1.35</span></td>
+                <td>
+                CASP11 - T0760</td>
+                <td><span class="sub">
+                -e <span class="n1">1E-10</span>
+            	-iter 4            	-cov 75                -gap 75                -msa Jackhmmer</span>
+                
+                </td>
+            	
+            </tr>
+				<tr >
+            	<td><a href="http://openseq.org/sub.php?id=1398961633&amp;uid=1398960977">1398961633</a></td>
+                <td>242</td>
+                <td>166</td>
+				<td><span class=n4>0.72</span></td>
+                <td>
+                CASP11 - T0760</td>
+                <td><span class="sub">
+                -e <span class="n3">1E-04</span>
+            	-iter 4            	-cov 75                -gap 75                -msa HHblits</span>
+                
+                </td>
+            	
+            </tr>
+				<tr class="light">
+            	<td><a href="http://openseq.org/sub.php?id=1398962858&amp;uid=1398960977">1398962858</a></td>
+                <td>242</td>
+                <td>364</td>
+				<td><span class=n3>1.56</span></td>
+                <td>
+                CASP11 - T0760</td>
+                <td><span class="sub">
+                -e <span class="n3">1E-04</span>
+            	-iter 4            	-cov 75                -gap 75                -msa Jackhmmer</span>
+                
+                </td>
+            	
+            </tr>
+				<tr >
+            	<td><a href="http://openseq.org/sub.php?id=1398971294&amp;uid=1398960977">1398971294</a></td>
+                <td>242</td>
+                <td>287</td>
+				<td><span class=n3>1.24</span></td>
+                <td>
+                CASP11 - T0760</td>
+                <td><span class="sub">
+                -e <span class="n0">1E-20</span>
+            	-iter 8            	-cov 75                -gap 75                -msa Jackhmmer</span>
+                
+                </td>
+            	
+            </tr>
+				<tr class="light">
+            	<td><a href="http://openseq.org/sub.php?id=1398960977&amp;uid=1398960977">1398960977</a></td>
+                <td>109</td>
+                <td>58</td>
+				<td><span class=n4>0.60</span></td>
+                <td>
+                CASP11 - T0759</td>
+                <td><span class="sub">
+                -e <span class="n1">1E-10</span>
+            	-iter 4            	-cov 75                -gap 75                -msa HHblits</span>
+                
+                </td>
+            	
+            </tr>
+				<tr >
+            	<td><a href="http://openseq.org/sub.php?id=1398961255&amp;uid=1398960977">1398961255</a></td>
+                <td>109</td>
+                <td>1302</td>
+				<td><span class=n1>12.89</span></td>
+                <td>
+                CASP11 - T0759</td>
+                <td><span class="sub">
+                -e <span class="n1">1E-10</span>
+            	-iter 4            	-cov 75                -gap 75                -msa Jackhmmer</span>
+                
+                </td>
+            	
+            </tr>
+				<tr class="light">
+            	<td><a href="http://openseq.org/sub.php?id=1398961416&amp;uid=1398960977">1398961416</a></td>
+                <td>109</td>
+                <td>60</td>
+				<td><span class=n4>0.62</span></td>
+                <td>
+                CASP11 - T0759</td>
+                <td><span class="sub">
+                -e <span class="n3">1E-04</span>
+            	-iter 4            	-cov 75                -gap 75                -msa HHblits</span>
+                
+                </td>
+            	
+            </tr>
+				<tr >
+            	<td><a href="http://openseq.org/sub.php?id=1398962232&amp;uid=1398960977">1398962232</a></td>
+                <td>109</td>
+                <td>1278</td>
+				<td><span class=n1>12.91</span></td>
+                <td>
+                CASP11 - T0759</td>
+                <td><span class="sub">
+                -e <span class="n3">1E-04</span>
+            	-iter 4            	-cov 75                -gap 75                -msa Jackhmmer</span>
+                
+                </td>
+            	
+            </tr>
+				<tr class="light">
+            	<td><a href="http://openseq.org/sub.php?id=1398962297&amp;uid=1398960977">1398962297</a></td>
+                <td>109</td>
+                <td>1821</td>
+				<td><span class=n0>17.34</span></td>
+                <td>
+                CASP11 - T0759</td>
+                <td><span class="sub">
+                -e <span class="n0">1E-20</span>
+            	-iter 8            	-cov 75                -gap 75                -msa Jackhmmer</span>
+                
+                </td>
+            	
+            </tr>
+				<tr >
+            	<td><a href="http://openseq.org/sub.php?id=1398963037&amp;uid=1398960977">1398963037</a></td>
+                <td>109</td>
+                <td>181</td>
+				<td><span class=n3>1.71</span></td>
+                <td>
+                CASP11 - T0759</td>
+                <td><span class="sub">
+                -e <span class="n1">1E-10</span>
+            	-iter 4            	-cov 90                -gap 75                -msa Jackhmmer</span>
+                
+                </td>
+            	
+            </tr>
+				<tr class="light">
+            	<td><a href="http://openseq.org/sub.php?id=1398964403&amp;uid=1398960977">1398964403</a></td>
+                <td>109</td>
+                <td>173</td>
+				<td><span class=n3>1.63</span></td>
+                <td>
+                CASP11 - T0759</td>
+                <td><span class="sub">
+                -e <span class="n3">1E-04</span>
+            	-iter 4            	-cov 90                -gap 75                -msa Jackhmmer</span>
+                
+                </td>
+            	
+            </tr>
+				<tr >
+            	<td><a href="http://openseq.org/sub.php?id=1399943269&amp;uid=1398960977">1399943269</a></td>
+                <td>109</td>
+                <td>20</td>
+				<td><span class=n4>0.19</span></td>
+                <td>
+                CASP11 - T0759</td>
+                <td><span class="sub">
+                -e <span class="n0">1E-40</span>
+            	-iter 2            	-cov 75                -gap 75                -msa Jackhmmer</span>
+                
+                </td>
+            	
+            </tr>
+				<tr class="light">
+            	<td><a href="http://openseq.org/sub.php?id=1399946362&amp;uid=1398960977">1399946362</a></td>
+                <td>109</td>
+                <td>465</td>
+				<td><span class=n3>4.56</span></td>
+                <td>
+                CASP11 - T0759</td>
+                <td><span class="sub">
+                -e <span class="n0">1E-40</span>
+            	-iter 4            	-cov 75                -gap 75                -msa Jackhmmer</span>
+                
+                </td>
+            	
+            </tr>
+				<tr >
+            	<td><a href="http://openseq.org/sub.php?id=1400006212&amp;uid=1398960977">1400006212</a></td>
+                <td>109</td>
+                <td>347</td>
+				<td><span class=n3>3.34</span></td>
+                <td>
+                CASP11 - T0759</td>
+                <td><span class="sub">
+                -e <span class="n0">1E-40</span>
+            	-iter 8            	-cov 90                -gap 75                -msa Jackhmmer</span>
+                
+                </td>
+            	
+            </tr>
+		</table>
+	<hr /><span class="sub">
+Page generated in 0.1498 seconds.</span>
+</body>

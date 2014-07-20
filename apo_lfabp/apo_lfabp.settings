@@ -1,0 +1,6 @@
+PROTEIN=/kemi/lab/cs-proteins/apo_lfabp/apo_lfabp
+AA=${PROTEIN}.aa
+STR=${PROTEIN}.str
+SS=${PROTEIN}.dssp2
+NATIVE=${PROTEIN}.pdb
+RMSD_RANGE='0,-1'

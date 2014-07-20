@@ -1,0 +1,8 @@
+PROTEIN=/kemi/lab/cs-proteins/hr4660b/hr4660b
+NOE=${PROTEIN}.upl
+NATIVE=${PROTEIN}.pdb
+AA=${PROTEIN}.aa
+STR=${PROTEIN}.str
+RDC=${PROTEIN}.rdc
+RMSD_RANGE='15,161'
+RESTRAINTS=150

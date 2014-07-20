@@ -1,0 +1,7 @@
+e_value,member_count,Meff,aligned_domain_width,total_match_state_count,total_non_match_state_count,total_match_state_pct,first_match_state_column,last_match_state_column,length_covered,covered_match_state_count,covered_non_match_state_count,covered_match_state_pct,Meff*covered_match_state_pct
+-10,487,338.0,64,63,1,98.4,2,64,63,63,0,100.0,338.0
+-20,362,235.3,64,63,1,98.4,2,64,63,63,0,100.0,235.3
+-3,531,367.8,64,63,1,98.4,2,64,63,63,0,100.0,367.8
+-30,82,30.7,64,60,4,93.8,2,64,63,60,3,95.2,29.2
+-5,523,361.0,64,63,1,98.4,2,64,63,63,0,100.0,361.0
+-50,1,1.0,64,64,0,100.0,1,64,64,64,0,100.0,1.0

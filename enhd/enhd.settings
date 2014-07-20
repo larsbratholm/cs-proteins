@@ -1,0 +1,5 @@
+PROTEIN=/kemi/lab/cs-proteins/enhd/enhd
+AA=${PROTEIN}.aa
+STR=${PROTEIN}.str
+NATIVE=${PROTEIN}.pdb
+RMSD_RANGE='7,52'
