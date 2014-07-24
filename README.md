@@ -15,10 +15,10 @@ Contents
 | protein\_g              | 56      | 2oed             | RefDB 2575  | ?          | All               | 0.77 Å   | ?          |
 | smn\_tudor\_domain      | 59      | 1mhn             | RefDB 4899  | ?          | 5-54              | 1.2 Å    | ?          |
 | enhd                    | 61      | 1enh             | RefDB 15536 | ?          | 8-53              | 0.78 Å   | ?          |
-| ci2                     | 63      | 1ypa / 3ci2      | Kaare       | ?          | 4-63 or 4-34,43-63| 3.8 Å (1.7 Å w. EV. restraints, 4.1 Å w. EV and no CS) | 0.57 Å (0.70 Å w. noes)   |
+| ci2                     | 63      | 1ypa / 3ci2      | Kaare       | ?          | 4-63 or 4-34,43-63| 3.8 Å (1.7 Å w. EV. restraints, 4.1 Å w. EV and no CS) | 0.65 Å (0.64 Å w. noes)   |
 | ff\_domain              | 71      | 1uzc             | RefDB 5537  | ?          | 11-67             | 2.8 Å    | 1.2 Å (0.92 Å w. noes 2.0 Å with EV)     |
 | ubiquitin               | 76      | 1ubi             | RefDB 17769 | ?          | 1-70              | 4.2 Å    | 2.4 Å         |
-| apo\_lfabp              | 129     | 1lfo             | RefDB 15429 | Synthetic  | All               | 6.3 Å w. EV      |            |
+| apo\_lfabp              | 129     | 1lfo             | RefDB 15429 | Synthetic  | All               | 6.9 Å w. EV      |            |
 | prolactin               | 199     | 1rws             | BMRB 5599   | Synthetic  | 6-183             | yes      |            |
 | top7                    | 120     | 2mbl             | BMRB 19404  | Synthetic  | 5-104             | yes      |            |
 | msrb                    | 151     | 3e0o / 2kzn      | BMRB 17008  | Synthetic  | 36-105            | 4.2 Å    | 3.8 Å      |
@@ -26,7 +26,7 @@ Contents
 | hr4660b                 | 174     | 2lmd             | BMRB 1870   | BMRB 1870  | 16-162            | 4.2 Å    | 4.1 Å      |
 | rhodopsin               | 219 (no tail) | 2ksy       | BMRB 16678  | Synthetic  | all               | 2.7 Å    | 1.9 Å      |
 | savinase                | 269     | 1svn             | ?           | Homology   | all               | 5.1 Å (6.0 Å no cs)  | ?          |
-| mbp                     | 376     | 1ez9             | BMRB 6807   | Synthetic ILV // Mueller et al. * | See note. \*\*| N/A |   |
+| mbp                     | 376     | 1ez9             | BMRB 6807   | Synthetic ILV // Mueller et al. * | See note. \*\*| ~10 Å | 9.4 Å |
 
 \*  Mueller et al. J. Mol. Biol. (2000) 300, 197:212, doi:10.1006/jmbi.2000.384 
 
