@@ -3,5 +3,5 @@ AA=${PROTEIN}.aa
 STR=${PROTEIN}.str
 NATIVE=${PROTEIN}.pdb
 RDC=${PROTEIN}.rdc
-RDC=${PROTEIN}_all.rdc
+RDC_ALL=${PROTEIN}_all.rdc
 RMSD_RANGE='0,69'
