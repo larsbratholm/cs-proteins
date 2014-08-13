@@ -21,10 +21,10 @@ Contents
 | apo\_lfabp              | 129     | 1lfo             | RefDB 15429 | Synthetic  | All               |
 | prolactin               | 199     | 1rws             | BMRB 5599   | Synthetic  | 6-183             |
 | top7                    | 120     | 2mbl             | BMRB 19404  | Synthetic  | 5-104             |
-| msrb                    | 151     | 3e0o / 2kzn      | BMRB 17008  | Synthetic  | 36-105            |
-| wr73                    | 183     | 2loy             | BMRB 16833  | Langer PNAS| 1-36,66-181       |
-| hr4660b                 | 174     | 2lmd             | BMRB 1870   | BMRB 1870  | 16-162            |
-| rhodopsin               | 219 (no tail) | 2ksy       | BMRB 16678  | Synthetic  | all               |
+| msrb                    | 141     | 3e0o / 2kzn      | BMRB 17008  | Lange PNAS | 13-25,36-105,111-141 |
+| wr73                    | 183     | 2loy             | BMRB 16833  | Lange PNAS | 1-37,66-180       |
+| hr4660b                 | 165    | 2lmd             | BMRB 1870   | BMRB 1870  | 36-162            |
+| rhodopsin               | 219 (no tail) | 2ksy       | BMRB 16678  | Lange      | 4-210             |
 | savinase                | 269     | 1svn             | ?           | Homology   | all               |
 | mbp                     | 376     | 1ez9             | BMRB 6807   | Synthetic ILV // Mueller et al. * | See note. \*\*| ~10 Å | 7.7 Å |
 
@@ -34,29 +34,30 @@ Contents
 
 ### Results
 
-| Protein name            | Datatype | Folds to | Refines to |
-| ------------------------|----------|---------:|:----------:|
-| protein\_g              | CS       | 0.77 Å   | ?          |
-| smn\_tudor\_domain      | CS       | 1.2 Å    | ?          |
-| enhd                    | CS       | 0.78 Å   | ?          |
-| ci2                     | CS       | 3.8 Å    | 0.65 Å     |
-| ci2                     | EV       | 3.7 Å    | ?          |
-| ci2                     | EV+CS    | 1.7 Å    |            |
-| ci2                     | CS+NOE   | ?        | 0.59 Å     |
-| ff\_domain              | CS       | 2.8 Å    | 1.2 Å      |
-| ff\_domain              | CS+EV    | ?        | 2.0 Å      |
-| ff\_domain              | CS+NOE   | ?        | 0.92 Å     |
-| ubiquitin               | CS       | 4.2 Å    | 2.2 Å      |
-| apo\_lfabp              | CS+EV    | 6.9 Å    | ?          |
-| prolactin               |          | ?        | ?          |
-| top7                    |          | ?        | ?          |
-| msrb                    | CS+ILV   | 4.2 Å    | 3.8 Å      |
-| wr73                    | CS+ILV   | 4.5 Å    | ?          |
-| hr4660b                 | CS+ILV   | 4.2 Å    | 4.1 Å      |
-| rhodopsin               | CS+ILV   | 2.7 Å    | 1.9 Å      |
-| savinase                | CS+EV    | 5.1 Å    | 5.2 Å      |
-| savinase                | EV       | 6.0 Å    |  ?         |
-| mbp                     | CS+ILV   | ~10 Å    | 7.7 Å      |
+| Protein name            | Datatype | Folds to | Settings   | CPU      | Refines to | Settings   | CPU      |
+| ------------------------|----------|---------:|------------|----------|:----------:|------------|----------|
+| protein\_g              | CS       | 0.77 Å   |            |          | ?          |            |          |
+| smn\_tudor\_domain      | CS       | 1.2 Å    |            |          | ?          |            |          |
+| enhd                    | CS       | 0.78 Å   |            |          | ?          |            |          |
+| ci2                     | CS       | 3.8 Å    |            |          | 0.65 Å     |            |          |
+|                         | EV       | 3.7 Å    |            |          | ?          |            |          |
+|                         | EV+CS    | 1.7 Å    |            |          |            |            |          |
+|                         | CS+NOE   | ?        |            |          | 0.59 Å     |            |          |
+| ff\_domain              | CS       | 2.8 Å    |            |          | 1.2 Å      |            |          |
+|                         | CS+EV    | ?        |            |          | 2.0 Å      |            |          |
+|                         | CS+NOE   | ?        |            |          | 0.92 Å     |            |          |
+| ubiquitin               | CS       | 4.2 Å    |            |          | 2.1 Å      |            |          |
+| ubiquitin               | CS+RDC(many)| ?     |            |          | 0.7 Å      |            |          |
+| apo\_lfabp              | CS+EV    | 6.9 Å    |            |          | ?          |            |          |
+| prolactin               |          | ?        |            |          | ?          |            |          |
+| top7                    |          | ?        |            |          | ?          |            |          |
+| msrb                    | CS+ILV   | 2.3 Å    |            |          | 2.2 Å      |            |          |
+| wr73                    | CS+ILV   | 4.5 Å    |            |          |            |            |          |
+| hr4660b                 | CS+ILV   | 4.2 Å    |            |          | 4.0 Å      |            |          |
+| rhodopsin               | CS+ILV   | 2.7 Å    |            |          | 1.9 Å      |            |          |
+| savinase                | CS+EV    | 5.1 Å    |            |          | 3.2 Å (pymol ? Å) |            |          |
+|                         | EV       | 6.0 Å    |            |          |  ?         |            |          |
+| mbp                     | CS+ILV   | ~10 Å    |            |          | 5.6 Å      |            |          |
 
 
 
