@@ -1,8 +1,10 @@
-PROTEIN=/kemi/lab/cs-proteins/msrb/msrb
-NOE=${PROTEIN}.upl
+PROTEIN=$HOME/cs-proteins/msrb/msrb
+NOE_SHORT=${PROTEIN}_short_upper.upl
+NOE_LONG=${PROTEIN}_long_upper.upl
+NOE_ALL=${PROTEIN}_all_upper.upl
 RDC=${PROTEIN}.rdc
 NATIVE=${PROTEIN}.pdb
 AA=${PROTEIN}.aa
 STR=${PROTEIN}.str
-RMSD_RANGE='12-24/35,104/110,140'
+RMSD_RANGE='12-25/35,105/110,141'
 RESTRAINTS=50
