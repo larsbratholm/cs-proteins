@@ -1,0 +1,2574 @@
+#
+# VASCO chemical shift information, corrected and validated using coordinate data.
+#
+# DATE              Generated on 2013-01-25, original BMRB deposition date 2010-01-14.
+# BMRB ORIGIN       bmr16678
+# PDB ORIGIN        2ksy
+# PDB EXPTYPE       NMR
+#
+# CORRECTION    C (aliphatic)                   0.142 +/- 0.059   ORIGINAL CORRECT
+# CORRECTION    C (high ppm, proton attached)   0.279 +/- 0.103   ORIGINAL CORRECT
+# CORRECTION    C (high ppm, no proton)        -0.212 +/- 0.098   ORIGINAL CORRECT
+# CORRECTION    N                               1.575 +/- 0.196   APPLIED
+# CORRECTION    H                              -0.161 +/- 0.010   APPLIED
+#
+# SEQUENCE PDB   A  MVGLTTLFWLGAIGMLVGTLAFAWAGRDAGSGERRYYVTLVGISGIAAVAYAVMALGVGWVPVAERTVFVPRYIDWILTTPLIVYFLGLLAGLDSREFGIVITLNTVVMLAGFAGAMVPGIERYALFGMGAVAFIGLVYYLVGPMTESASQRSSGIKSLYVRLRNLTVVLWAIYPFIWLLGPPGVALLTPTVDVALIVYLDLVTKVGFGFIALDAAATLRAEHGESLAGVDTDTPAVADLEHHHHHH
+# BMRB MATCH        ============================================================================================================================================================================================================X==========================================
+#
+#
+# Notes:
+#
+#  - The PDB sequence is used for information below
+#
+#  - The columns hold the following values:
+#
+#      1  Line_ID
+#      2  Chain_code
+#      3  Residue_code
+#      4  Residue_label
+#      5  Residue_stride_secondary_structure
+#      6  Atom_name
+#      7  Atom_accessible_surface_area     (for protons the heavy atom value is used)
+#      8  Atom_type
+#      9  Chemical_shift_value
+#      10 Chemical_shift_Z_score           (missing values mean not enough statistical data available)
+#      11 Chemical_shift_ambiguity_code    (1 for unambiguous/stereospecific, 2 for not stereospecifically assigned)
+#      12 Comment
+#
+
+    1  A     1  MET  C   C        6.627  C   176.363    0.339  1  
+    2  A     1  MET  C   CA      12.150  C    54.489   -1.212  1  
+    3  A     1  MET  C   CB       3.314  C    32.712   -0.375  1  
+    4  A     1  MET  C   CE       9.941  C    17.030   -0.133  1  
+    5  A     1  MET  C   HE*      9.941  H     2.115    0.800  1  
+    6  A     2  VAL  C   C        0.552  C   176.325    0.590  1  
+    7  A     2  VAL  C   H        4.146  H     7.929   -0.655  1  
+    8  A     2  VAL  C   N        4.146  N   120.896   -0.252  1  
+    9  A     2  VAL  C   CA       3.314  C    62.716    0.529  1  
+   10  A     2  VAL  C   HA       3.314  H     4.173    0.163  1  
+   11  A     2  VAL  C   CB      12.702  C    32.449   -0.382  1  
+   12  A     2  VAL  C   HB      12.702  H     2.119    1.017  1  
+   13  A     2  VAL  C   CG1     49.705  C    21.276    0.807  2  
+   14  A     2  VAL  C   CG2     57.989  C    21.258    0.876  2  
+   15  A     2  VAL  C   HG11    49.705  H     0.994     .     2  Z score missing (not enough data for atom)
+   16  A     2  VAL  C   HG12    49.705  H     0.994     .     2  Z score missing (not enough data for atom)
+   17  A     2  VAL  C   HG13    49.705  H     0.994     .     2  Z score missing (not enough data for atom)
+   18  A     2  VAL  C   HG21    57.989  H     1.011     .     2  Z score missing (not enough data for atom)
+   19  A     2  VAL  C   HG22    57.989  H     1.011     .     2  Z score missing (not enough data for atom)
+   20  A     2  VAL  C   HG23    57.989  H     1.011     .     2  Z score missing (not enough data for atom)
+   21  A     3  GLY  H   C        3.866  C   174.725   -0.682  1  
+   22  A     3  GLY  H   H        2.591  H     8.455    0.419  1  
+   23  A     3  GLY  H   N        2.591  N   112.921    1.996  1  
+   24  A     3  GLY  H   CA      26.509  C    45.485   -1.310  1  
+   25  A     3  GLY  H   HA2     26.509  H     3.973    0.567  2  
+   26  A     3  GLY  H   HA3     26.509  H     4.153    1.929  2  
+   27  A     4  LEU  H   C        0.000  C   178.435    0.038  1  
+   28  A     4  LEU  H   H        0.000  H     7.995   -0.176  1  
+   29  A     4  LEU  H   N        0.000  N   121.068    0.501  1  
+   30  A     4  LEU  H   CA       0.000  C    58.493    0.670  1  
+   31  A     4  LEU  H   HA       0.000  H     3.645   -1.312  1  
+   32  A     4  LEU  H   CB       0.000  C    42.043    0.320  1  
+   33  A     4  LEU  H   HB2      0.000  H     1.216   -1.467  2  
+   34  A     4  LEU  H   HB3      0.000  H     1.880    0.761  2  
+   35  A     4  LEU  H   CG       0.000  C    26.864    0.094  1  
+   36  A     4  LEU  H   HG       0.000  H     1.630    0.061  1  
+   37  A     4  LEU  H   CD1      0.552  C    24.324   -0.387  2  
+   38  A     4  LEU  H   CD2     12.702  C    25.788    1.285  2  
+   39  A     4  LEU  H   HD1*     0.552  H     0.516   -1.228  2  
+   40  A     4  LEU  H   HD21    12.702  H     0.747     .     2  Z score missing (not enough data for atom)
+   41  A     4  LEU  H   HD22    12.702  H     0.747     .     2  Z score missing (not enough data for atom)
+   42  A     4  LEU  H   HD23    12.702  H     0.747     .     2  Z score missing (not enough data for atom)
+   43  A     5  THR  H   C        0.000  C   176.352    0.293  1  
+   44  A     5  THR  H   H        0.000  H     8.297    0.565  1  
+   45  A     5  THR  H   N        0.000  N   109.062   -1.389  1  
+   46  A     5  THR  H   CA       0.000  C    66.925    0.227  1  
+   47  A     5  THR  H   HA       0.000  H     4.167    0.834  1  
+   48  A     5  THR  H   CB       0.000  C    68.376   -0.015  1  
+   49  A     5  THR  H   HB       0.000  H     4.684    1.829  1  
+   50  A     5  THR  H   CG2     11.598  C    23.277    1.475  1  
+   51  A     5  THR  H   HG2*    11.598  H     1.747    3.284  1  Shift outlier
+   52  A     6  THR  H   C        0.000  C   175.979   -0.017  1  
+   53  A     6  THR  H   H        0.000  H     7.522   -1.121  1  
+   54  A     6  THR  H   N        0.000  N   118.269    0.655  1  
+   55  A     6  THR  H   CA       1.105  C    67.142    0.461  1  
+   56  A     6  THR  H   HA       1.105  H     4.126    0.759  1  
+   57  A     6  THR  H   CB      12.702  C    68.281   -0.524  1  
+   58  A     6  THR  H   HB      12.702  H     4.304    0.399  1  
+   59  A     6  THR  H   CG2     39.764  C    22.325    0.697  1  
+   60  A     6  THR  H   HG2*    39.764  H     1.264    0.272  1  
+   61  A     7  LEU  H   C        0.000  C   178.919    0.425  1  
+   62  A     7  LEU  H   H        0.000  H     7.367   -1.382  1  
+   63  A     7  LEU  H   N        0.000  N   120.887    0.430  1  
+   64  A     7  LEU  H   CA       0.000  C    58.011    0.213  1  
+   65  A     7  LEU  H   HA       0.000  H     3.925   -0.217  1  
+   66  A     7  LEU  H   CB       0.000  C    41.881    0.184  1  
+   67  A     7  LEU  H   HB2      0.000  H     1.731   -0.013  2  
+   68  A     7  LEU  H   HB3      0.000  H     1.003   -1.724  2  
+   69  A     7  LEU  H   CG       0.000  C    26.506   -0.430  1  
+   70  A     7  LEU  H   HG       0.000  H     1.694    0.261  1  
+   71  A     7  LEU  H   CD1     15.464  C    26.596    0.981  2  
+   72  A     7  LEU  H   CD2      7.732  C    22.834   -0.581  2  
+   73  A     7  LEU  H   HD1*    15.464  H     0.752   -0.520  2  
+   74  A     7  LEU  H   HD21     7.732  H     0.715     .     2  Z score missing (not enough data for atom)
+   75  A     7  LEU  H   HD22     7.732  H     0.715     .     2  Z score missing (not enough data for atom)
+   76  A     7  LEU  H   HD23     7.732  H     0.715     .     2  Z score missing (not enough data for atom)
+   77  A     8  PHE  H   C        0.000  C   179.305    1.673  1  
+   78  A     8  PHE  H   H        0.000  H     8.042   -0.246  1  
+   79  A     8  PHE  H   N        0.000  N   117.882   -0.455  1  
+   80  A     8  PHE  H   CA       0.000  C    59.771   -0.738  1  
+   81  A     8  PHE  H   HA       0.000  H     4.751    1.530  1  
+   82  A     8  PHE  H   CB       0.000  C    36.927   -1.652  1  
+   83  A     8  PHE  H   CD1      0.000  C   129.226   -2.171  1  
+   84  A     8  PHE  H   CD2      0.000  C   129.226   -2.289  1  
+   85  A     8  PHE  H   HD1      0.000  H     6.976   -0.264  1  
+   86  A     8  PHE  H   HD2      0.000  H     6.976   -0.286  1  
+   87  A     8  PHE  H   CE1      0.552  C   131.411    0.788  1  
+   88  A     8  PHE  H   CE2      0.000  C   131.411    0.675  1  
+   89  A     8  PHE  H   HE1      0.552  H     6.551   -1.780  1  
+   90  A     8  PHE  H   HE2      0.000  H     6.551   -1.636  1  
+   91  A     9  TRP  H   C        0.000  C   179.204    0.905  1  
+   92  A     9  TRP  H   H        0.000  H     8.629    0.649  1  
+   93  A     9  TRP  H   N        0.000  N   120.736    0.027  1  
+   94  A     9  TRP  H   CA       0.000  C    59.958   -0.025  1  
+   95  A     9  TRP  H   HA       0.000  H     4.773    1.317  1  
+   96  A     9  TRP  H   CB      14.359  C    30.114    0.944  1  
+   97  A     9  TRP  H   HB2     14.359  H     3.204   -0.638  2  
+   98  A     9  TRP  H   HB3     14.359  H     3.516    1.042  2  
+   99  A     9  TRP  H   CD1      9.941  C   127.768    0.624  1  
+  100  A     9  TRP  H   HD1      9.941  H     7.162   -0.217  1  
+  101  A     9  TRP  H   CE3     12.702  C   120.065   -0.339  1  
+  102  A     9  TRP  H   HE1     15.031  H    10.158   -0.119  1  
+  103  A     9  TRP  H   HE3     12.702  H     7.548    0.391  1  
+  104  A     9  TRP  H   NE1     15.031  N   129.078   -0.283  1  
+  105  A     9  TRP  H   CZ2     13.255  C   114.506    0.182  1  
+  106  A     9  TRP  H   CZ3     21.539  C   120.042   -1.134  1  
+  107  A     9  TRP  H   HZ2     13.255  H     7.312   -0.695  1  
+  108  A     9  TRP  H   HZ3     21.539  H     6.787   -1.330  1  
+  109  A     9  TRP  H   CH2     22.091  C   123.097   -1.180  1  
+  110  A     9  TRP  H   HH2     22.091  H     6.931   -0.824  1  
+  111  A    10  LEU  H   C        1.105  C   179.275    0.591  1  
+  112  A    10  LEU  H   H        0.000  H     8.206    0.230  1  
+  113  A    10  LEU  H   N        0.000  N   120.987    0.469  1  
+  114  A    10  LEU  H   CA       0.000  C    58.557    0.730  1  
+  115  A    10  LEU  H   HA       0.000  H     4.012    0.123  1  
+  116  A    10  LEU  H   CB      12.702  C    41.207   -0.340  1  
+  117  A    10  LEU  H   HB2     12.702  H     1.733    0.039  2  
+  118  A    10  LEU  H   HB3     12.702  H     1.903    1.198  2  
+  119  A    10  LEU  H   CG       1.657  C    26.837   -0.098  1  
+  120  A    10  LEU  H   HG       1.657  H     1.805    0.482  1  
+  121  A    10  LEU  H   CD1     40.316  C    24.422   -0.211  1  
+  122  A    10  LEU  H   HD1*    40.316  H     0.822   -0.704  1  
+  123  A    11  GLY  H   C        0.000  C   174.553   -0.494  1  
+  124  A    11  GLY  H   H        2.073  H     7.995   -0.342  1  
+  125  A    11  GLY  H   N        2.073  N   106.161   -0.510  1  
+  126  A    11  GLY  H   CA       1.657  C    47.115    0.084  1  
+  127  A    11  GLY  H   HA2      1.657  H     3.196   -1.698  1  
+  128  A    11  GLY  H   HA3      1.657  H     3.196   -1.618  1  
+  129  A    12  ALA  H   C        2.209  C   179.818   -0.007  1  
+  130  A    12  ALA  H   H        0.000  H     8.393    0.520  1  
+  131  A    12  ALA  H   N        0.000  N   124.173    1.067  1  
+  132  A    12  ALA  H   CA       0.000  C    56.130    1.051  1  
+  133  A    12  ALA  H   HA       0.000  H     4.069    0.484  1  
+  134  A    12  ALA  H   CB       9.941  C    18.036   -0.155  1  
+  135  A    12  ALA  H   HB*      9.941  H     1.651    1.144  1  
+  136  A    13  ILE  H   C        0.000  C   178.339    0.670  1  
+  137  A    13  ILE  H   H        0.000  H     8.851    1.605  1  
+  138  A    13  ILE  H   N        0.000  N   117.340   -1.078  1  
+  139  A    13  ILE  H   CA       2.761  C    64.614    0.175  1  
+  140  A    13  ILE  H   HA       2.761  H     3.686   -0.364  1  
+  141  A    13  ILE  H   CB       1.657  C    37.432   -0.354  1  
+  142  A    13  ILE  H   HB       1.657  H     1.982    0.354  1  
+  143  A    13  ILE  H   CG1     16.016  C    29.478    0.727  1  
+  144  A    13  ILE  H   CG2     41.973  C    17.241    0.129  1  
+  145  A    13  ILE  H   HG12    16.016  H     1.221   -0.234  2  
+  146  A    13  ILE  H   HG13    16.016  H     1.908    1.619  2  
+  147  A    13  ILE  H   HG2*    41.973  H     0.831   -0.366  1  
+  148  A    13  ILE  H   CD1     39.764  C    12.636   -0.633  1  
+  149  A    13  ILE  H   HD1*    39.764  H     0.813   -0.262  1  
+  150  A    14  GLY  H   C        0.000  C   175.146   -0.056  1  
+  151  A    14  GLY  H   H        2.073  H     8.688    1.428  1  
+  152  A    14  GLY  H   N        2.073  N   108.600    0.542  1  
+  153  A    14  GLY  H   CA      14.911  C    47.659    0.791  1  
+  154  A    14  GLY  H   HA2     14.911  H     3.551   -2.181  1  
+  155  A    14  GLY  H   HA3     14.911  H     3.551   -1.300  1  
+  156  A    15  MET  H   C        0.000  C   181.077    2.545  1  
+  157  A    15  MET  H   H        0.000  H     8.355    0.447  1  
+  158  A    15  MET  H   N        0.000  N   118.662    0.117  1  
+  159  A    15  MET  H   CA       0.000  C    57.121   -0.524  1  
+  160  A    15  MET  H   HA       0.000  H     4.299    0.512  1  
+  161  A    15  MET  H   CB       0.000  C    30.113   -1.303  1  
+  162  A    15  MET  H   CE       0.000  C    19.690    2.204  1  
+  163  A    15  MET  H   HE*      0.000  H     2.036    0.550  1  
+  164  A    16  LEU  H   C        0.000  C   178.165   -0.178  1  
+  165  A    16  LEU  H   H        0.000  H     8.833    1.777  1  
+  166  A    16  LEU  H   N        0.000  N   125.868    2.398  1  
+  167  A    16  LEU  H   CA       0.000  C    58.440    0.619  1  
+  168  A    16  LEU  H   HA       0.000  H     3.949   -0.123  1  
+  169  A    16  LEU  H   CB       8.836  C    41.911    0.297  1  
+  170  A    16  LEU  H   HB2      8.836  H     1.811    0.182  2  
+  171  A    16  LEU  H   HB3      8.836  H     1.956    1.346  2  
+  172  A    16  LEU  H   CD1     21.539  C    24.989    0.035  2  
+  173  A    16  LEU  H   CD2     46.943  C    23.406   -0.191  2  
+  174  A    16  LEU  H   HD1*    21.539  H     0.832   -0.367  2  
+  175  A    16  LEU  H   HD21    46.943  H     0.833     .     2  Z score missing (not enough data for atom)
+  176  A    16  LEU  H   HD22    46.943  H     0.833     .     2  Z score missing (not enough data for atom)
+  177  A    16  LEU  H   HD23    46.943  H     0.833     .     2  Z score missing (not enough data for atom)
+  178  A    17  VAL  H   C        0.000  C   177.932    0.337  1  
+  179  A    17  VAL  H   H        0.518  H     8.507    0.948  1  
+  180  A    17  VAL  H   N        0.518  N   119.813    0.178  1  
+  181  A    17  VAL  H   CA       4.971  C    67.286    1.077  1  
+  182  A    17  VAL  H   HA       4.971  H     3.440   -1.224  1  
+  183  A    17  VAL  H   CB       1.105  C    30.810   -0.961  1  
+  184  A    17  VAL  H   HB       1.105  H     2.238    0.496  1  
+  185  A    17  VAL  H   CG1     32.584  C    21.486    0.024  2  
+  186  A    17  VAL  H   CG2     34.793  C    22.997    1.079  2  
+  187  A    17  VAL  H   HG11    32.584  H     0.838     .     2  Z score missing (not enough data for atom)
+  188  A    17  VAL  H   HG12    32.584  H     0.838     .     2  Z score missing (not enough data for atom)
+  189  A    17  VAL  H   HG13    32.584  H     0.838     .     2  Z score missing (not enough data for atom)
+  190  A    17  VAL  H   HG21    34.793  H     1.001     .     2  Z score missing (not enough data for atom)
+  191  A    17  VAL  H   HG22    34.793  H     1.001     .     2  Z score missing (not enough data for atom)
+  192  A    17  VAL  H   HG23    34.793  H     1.001     .     2  Z score missing (not enough data for atom)
+  193  A    18  GLY  H   C        0.000  C   172.171   -2.253  1  
+  194  A    18  GLY  H   H        0.000  H     7.810   -0.743  1  
+  195  A    18  GLY  H   N        0.000  N   105.176   -0.745  1  
+  196  A    18  GLY  H   CA       0.000  C    47.686    0.435  1  
+  197  A    18  GLY  H   HA2      0.000  H     3.397   -1.113  1  
+  198  A    18  GLY  H   HA3      0.000  H     3.397   -0.978  1  
+  199  A    19  THR  H   H        0.000  H     8.257    0.478  1  
+  200  A    19  THR  H   N        0.000  N   117.897    0.573  1  
+  201  A    19  THR  H   CA       0.000  C    68.240    0.866  1  
+  202  A    19  THR  H   HA       0.000  H     4.681    2.506  1  
+  203  A    19  THR  H   HB       0.552  H     4.447    0.989  1  
+  204  A    19  THR  H   CG2     30.375  C    21.363   -0.274  1  
+  205  A    19  THR  H   HG2*    30.375  H     1.268    0.468  1  
+  206  A    20  LEU  H   C        1.657  C   178.200   -0.123  1  
+  207  A    20  LEU  H   H        0.000  H     8.071   -0.030  1  
+  208  A    20  LEU  H   N        0.000  N   119.647   -0.060  1  
+  209  A    20  LEU  H   CA       0.000  C    57.970    0.174  1  
+  210  A    20  LEU  H   HA       0.000  H     3.966   -0.057  1  
+  211  A    20  LEU  H   CB      13.255  C    41.484   -0.006  1  
+  212  A    20  LEU  H   HB2     13.255  H     1.370   -1.841  2  
+  213  A    20  LEU  H   HB3     13.255  H     1.900    1.183  2  
+  214  A    20  LEU  H   CG       0.000  C    26.764   -0.053  1  
+  215  A    20  LEU  H   HG       0.000  H     1.908    0.931  1  
+  216  A    20  LEU  H   CD1     44.182  C    22.765   -1.470  2  
+  217  A    20  LEU  H   CD2     45.839  C    25.235    1.120  2  
+  218  A    20  LEU  H   HD1*    44.182  H     0.800   -1.006  2  
+  219  A    20  LEU  H   HD21    45.839  H     0.802     .     2  Z score missing (not enough data for atom)
+  220  A    20  LEU  H   HD22    45.839  H     0.802     .     2  Z score missing (not enough data for atom)
+  221  A    20  LEU  H   HD23    45.839  H     0.802     .     2  Z score missing (not enough data for atom)
+  222  A    21  ALA  H   C        0.000  C   180.160    0.777  1  
+  223  A    21  ALA  H   H        1.555  H     8.021    0.140  1  
+  224  A    21  ALA  H   N        1.555  N   122.124    0.342  1  
+  225  A    21  ALA  H   CA       9.389  C    55.509    0.835  1  
+  226  A    21  ALA  H   HA       9.389  H     4.086   -0.793  1  
+  227  A    21  ALA  H   CB      12.150  C    17.868   -0.388  1  
+  228  A    21  ALA  H   HB*     12.150  H     1.359   -0.717  1  
+  229  A    22  PHE  H   C        0.000  C   178.064    0.800  1  
+  230  A    22  PHE  H   H        0.000  H     8.590    0.662  1  
+  231  A    22  PHE  H   N        0.000  N   118.906   -0.148  1  
+  232  A    22  PHE  H   CA       0.000  C    58.324   -1.520  1  
+  233  A    22  PHE  H   HA       0.000  H     4.719    1.454  1  
+  234  A    22  PHE  H   CB       0.000  C    37.253   -1.405  1  
+  235  A    22  PHE  H   HB2      0.000  H     3.202    0.269  2  
+  236  A    22  PHE  H   HB3      0.000  H     3.372    0.900  2  
+  237  A    22  PHE  H   CD1      0.000  C   131.971    0.358  1  
+  238  A    22  PHE  H   CD2      0.000  C   131.971    0.392  1  
+  239  A    22  PHE  H   HD1      0.000  H     7.043   -0.077  1  
+  240  A    22  PHE  H   HD2      0.000  H     7.043   -0.083  1  
+  241  A    22  PHE  H   CE1      0.000  C   131.815    1.134  1  
+  242  A    22  PHE  H   CE2      0.000  C   131.815    1.115  1  
+  243  A    22  PHE  H   HE1      0.000  H     6.981   -0.275  1  
+  244  A    22  PHE  H   HE2      0.000  H     6.981   -0.271  1  
+  245  A    23  ALA  H   C        0.552  C   179.392    0.033  1  
+  246  A    23  ALA  H   H        0.000  H     8.433    0.593  1  
+  247  A    23  ALA  H   N        0.000  N   122.141    0.197  1  
+  248  A    23  ALA  H   CA       4.971  C    54.809   -0.070  1  
+  249  A    23  ALA  H   HA       4.971  H     4.060   -0.379  1  
+  250  A    23  ALA  H   CB      24.852  C    17.980   -0.241  1  
+  251  A    23  ALA  H   HB*     24.852  H     1.540    0.505  1  
+  252  A    24  TRP  H   C        0.000  C   179.822    1.326  1  
+  253  A    24  TRP  H   H        2.591  H     8.633    0.777  1  
+  254  A    24  TRP  H   N        2.591  N   119.455   -0.500  1  
+  255  A    24  TRP  H   CA       3.866  C    60.535   -0.156  1  
+  256  A    24  TRP  H   HA       3.866  H     4.186   -0.283  1  
+  257  A    24  TRP  H   CB      17.673  C    29.317    0.363  1  
+  258  A    24  TRP  H   HB2     17.673  H     3.368    0.129  2  
+  259  A    24  TRP  H   HB3     17.673  H     3.479    0.857  2  
+  260  A    24  TRP  H   CD1     20.986  C   125.995   -0.954  1  
+  261  A    24  TRP  H   HD1     20.986  H     7.110   -1.056  1  
+  262  A    24  TRP  H   CE3     17.673  C   119.704   -0.685  1  
+  263  A    24  TRP  H   HE1     28.506  H    10.199    0.218  1  
+  264  A    24  TRP  H   HE3     17.673  H     7.468   -0.015  1  
+  265  A    24  TRP  H   NE1     28.506  N   130.494    0.824  1  
+  266  A    24  TRP  H   CZ2     31.480  C   114.586    0.067  1  
+  267  A    24  TRP  H   CZ3     30.927  C   121.319   -0.068  1  
+  268  A    24  TRP  H   HZ2     31.480  H     7.463    0.333  1  
+  269  A    24  TRP  H   HZ3     30.927  H     7.006   -0.265  1  
+  270  A    24  TRP  H   CH2     29.823  C   124.344   -0.051  1  
+  271  A    24  TRP  H   HH2     29.823  H     7.162    0.188  1  
+  272  A    25  ALA  H   C        0.000  C   179.088   -0.032  1  
+  273  A    25  ALA  H   H        0.000  H     8.598    0.897  1  
+  274  A    25  ALA  H   N        0.000  N   121.761    0.035  1  
+  275  A    25  ALA  H   CA       2.761  C    54.553   -0.472  1  
+  276  A    25  ALA  H   HA       2.761  H     3.913   -1.136  1  
+  277  A    25  ALA  H   CB      12.150  C    18.886    0.595  1  
+  278  A    25  ALA  H   HB*     12.150  H     1.730    1.692  1  
+  279  A    26  GLY  H   C        5.523  C   175.440   -0.107  1  
+  280  A    26  GLY  H   H        0.000  H     7.657   -1.023  1  
+  281  A    26  GLY  H   N        0.000  N   104.552   -0.981  1  
+  282  A    26  GLY  H   CA       1.657  C    44.734   -2.027  1  
+  283  A    26  GLY  H   HA2      1.657  H     2.871   -2.645  2  
+  284  A    26  GLY  H   HA3      1.657  H     3.000   -2.242  2  
+  285  A    27  ARG  H   C        1.105  C   176.151   -1.520  1  
+  286  A    27  ARG  H   H        1.037  H     7.205   -1.826  1  
+  287  A    27  ARG  H   N        1.037  N   121.577    0.886  1  
+  288  A    27  ARG  H   CA       7.179  C    59.003    0.360  1  
+  289  A    27  ARG  H   HA       7.179  H     3.878   -1.261  1  
+  290  A    27  ARG  H   CB      14.911  C    29.169   -0.962  1  
+  291  A    27  ARG  H   HB2     14.911  H     1.607   -2.349  2  
+  292  A    27  ARG  H   HB3     14.911  H     1.739   -1.321  2  
+  293  A    27  ARG  H   HG2     18.225  H     1.313   -2.636  2  
+  294  A    27  ARG  H   HG3     18.225  H     1.483   -1.200  2  
+  295  A    27  ARG  H   HD2     16.568  H     2.896   -2.972  2  
+  296  A    27  ARG  H   HD3     16.568  H     3.004   -1.983  2  
+  297  A    28  ASP  C   C        1.657  C   175.963    0.045  1  
+  298  A    28  ASP  C   H        0.518  H     7.762   -0.966  1  
+  299  A    28  ASP  C   N        0.518  N   118.750   -0.762  1  
+  300  A    28  ASP  C   CA       7.732  C    53.081   -0.790  1  
+  301  A    28  ASP  C   HA       7.732  H     4.787    1.221  1  
+  302  A    28  ASP  C   CB       2.209  C    40.852   -0.568  1  
+  303  A    28  ASP  C   HB2      2.209  H     2.371   -1.136  2  
+  304  A    28  ASP  C   HB3      2.209  H     2.669    0.108  2  
+  305  A    29  ALA  C   C        0.000  C   178.642    1.198  1  
+  306  A    29  ALA  C   H        0.000  H     7.163   -1.458  1  
+  307  A    29  ALA  C   N        0.000  N   123.938   -0.028  1  
+  308  A    29  ALA  C   CA       0.000  C    52.461    0.421  1  
+  309  A    29  ALA  C   HA       0.000  H     4.175   -0.445  1  
+  310  A    29  ALA  C   CB       0.000  C    19.811   -0.007  1  
+  311  A    29  ALA  C   HB*      0.000  H     1.315    0.325  1  
+  312  A    30  GLY  T   C        1.105  C   175.076    0.717  1  
+  313  A    30  GLY  T   H        3.110  H     8.713    0.477  1  
+  314  A    30  GLY  T   N        3.110  N   110.311    0.154  1  
+  315  A    30  GLY  T   CA      13.255  C    44.344   -0.819  1  
+  316  A    30  GLY  T   HA2     13.255  H     3.984    0.014  2  
+  317  A    30  GLY  T   HA3     13.255  H     3.986    0.233  2  
+  318  A    31  SER  T   H        6.220  H     8.592    0.417  1  
+  319  A    31  SER  T   N        6.220  N   116.294   -0.104  1  
+  320  A    31  SER  T   HA       0.000  H     4.549    0.236  1  
+  321  A    32  GLY  T   C        6.075  C   175.442    0.962  1  
+  322  A    32  GLY  T   H        5.183  H     8.941    0.890  1  
+  323  A    32  GLY  T   N        5.183  N   111.557    0.600  1  
+  324  A    32  GLY  T   CA      29.823  C    46.267    1.053  1  
+  325  A    33  GLU  H   C        0.000  C   178.491   -0.119  1  
+  326  A    33  GLU  H   H        0.518  H     8.040   -0.108  1  
+  327  A    33  GLU  H   N        0.518  N   119.840    0.200  1  
+  328  A    33  GLU  H   CA       0.000  C    57.258   -1.710  1  
+  329  A    33  GLU  H   CB       0.552  C    30.730    1.012  1  
+  330  A    33  GLU  H   HB2      0.552  H     1.750   -1.812  2  
+  331  A    33  GLU  H   HB3      0.552  H     1.927   -0.927  2  
+  332  A    33  GLU  H   HG2     22.643  H     2.341    0.124  1  
+  333  A    33  GLU  H   HG3     22.643  H     2.341    0.294  1  
+  334  A    34  ARG  H   C        2.209  C   177.833   -0.418  1  
+  335  A    34  ARG  H   H        0.000  H     8.192    0.299  1  
+  336  A    34  ARG  H   N        0.000  N   121.850    1.199  1  
+  337  A    34  ARG  H   CA       0.552  C    60.689    1.162  1  
+  338  A    34  ARG  H   HA       0.552  H     4.612    2.806  1  
+  339  A    34  ARG  H   CB      17.120  C    29.625   -0.416  1  
+  340  A    35  ARG  H   C        0.000  C   178.510    0.265  1  
+  341  A    35  ARG  H   H        0.000  H     8.332    0.575  1  
+  342  A    35  ARG  H   N        0.000  N   116.661   -0.968  1  
+  343  A    35  ARG  H   CA       0.000  C    58.841   -0.449  1  
+  344  A    35  ARG  H   HA       0.000  H     4.084    0.556  1  
+  345  A    35  ARG  H   CB       5.523  C    29.053   -1.061  1  
+  346  A    36  TYR  H   C        1.657  C   177.695    0.429  1  
+  347  A    36  TYR  H   H        0.000  H     7.564   -0.861  1  
+  348  A    36  TYR  H   N        0.000  N   119.724    0.091  1  
+  349  A    36  TYR  H   CA       0.000  C    62.066    0.432  1  
+  350  A    36  TYR  H   HA       0.000  H     3.938   -0.428  1  
+  351  A    36  TYR  H   CB      11.598  C    37.465   -0.411  1  
+  352  A    36  TYR  H   HB2     11.598  H     2.745   -2.100  2  
+  353  A    36  TYR  H   HB3     11.598  H     2.829   -1.380  2  
+  354  A    36  TYR  H   CD1      1.657  C   132.033   -1.002  1  
+  355  A    36  TYR  H   CD2      4.418  C   132.033   -0.686  1  
+  356  A    36  TYR  H   HD1      1.657  H     6.530   -1.469  1  
+  357  A    36  TYR  H   HD2      4.418  H     6.530   -2.134  1  
+  358  A    36  TYR  H   CE1      0.000  C   118.349    0.699  1  
+  359  A    36  TYR  H   CE2     21.539  C   118.349    0.626  1  
+  360  A    36  TYR  H   HE1      0.000  H     6.466   -0.959  1  
+  361  A    36  TYR  H   HE2     21.539  H     6.466   -2.902  1  
+  362  A    37  TYR  H   C        0.552  C   178.356    0.827  1  
+  363  A    37  TYR  H   H        0.000  H     7.222   -1.416  1  
+  364  A    37  TYR  H   N        0.000  N   117.733   -0.550  1  
+  365  A    37  TYR  H   CA       0.000  C    62.678    0.775  1  
+  366  A    37  TYR  H   HA       0.000  H     4.135    0.125  1  
+  367  A    37  TYR  H   CB       6.075  C    38.422    0.157  1  
+  368  A    37  TYR  H   HB2      6.075  H     2.997   -0.651  2  
+  369  A    37  TYR  H   HB3      6.075  H     3.113    0.243  2  
+  370  A    37  TYR  H   CD1      2.761  C   132.452   -0.455  1  
+  371  A    37  TYR  H   CD2      0.000  C   132.452   -0.218  1  
+  372  A    37  TYR  H   HD1      2.761  H     7.200    0.450  1  
+  373  A    37  TYR  H   HD2      0.000  H     7.200    0.750  1  
+  374  A    37  TYR  H   CE1      3.314  C   118.261    0.219  1  
+  375  A    37  TYR  H   CE2      2.209  C   118.261    0.448  1  
+  376  A    37  TYR  H   HE1      3.314  H     6.710   -0.045  1  
+  377  A    37  TYR  H   HE2      2.209  H     6.710    0.013  1  
+  378  A    38  VAL  H   C        1.105  C   177.535    0.023  1  
+  379  A    38  VAL  H   H        1.555  H     8.635    1.241  1  
+  380  A    38  VAL  H   N        1.555  N   118.632   -0.485  1  
+  381  A    38  VAL  H   CA       4.418  C    66.739    0.856  1  
+  382  A    38  VAL  H   HA       4.418  H     3.617   -0.568  1  
+  383  A    38  VAL  H   CB       9.389  C    31.340   -0.466  1  
+  384  A    38  VAL  H   HB       9.389  H     2.144    0.138  1  
+  385  A    38  VAL  H   CG1     16.568  C    21.748    0.166  2  
+  386  A    38  VAL  H   CG2     56.884  C    23.239    1.939  2  
+  387  A    38  VAL  H   HG11    16.568  H     1.010     .     2  Z score missing (not enough data for atom)
+  388  A    38  VAL  H   HG12    16.568  H     1.010     .     2  Z score missing (not enough data for atom)
+  389  A    38  VAL  H   HG13    16.568  H     1.010     .     2  Z score missing (not enough data for atom)
+  390  A    38  VAL  H   HG21    56.884  H     1.131     .     2  Z score missing (not enough data for atom)
+  391  A    38  VAL  H   HG22    56.884  H     1.131     .     2  Z score missing (not enough data for atom)
+  392  A    38  VAL  H   HG23    56.884  H     1.131     .     2  Z score missing (not enough data for atom)
+  393  A    39  THR  H   C        0.000  C   175.958   -0.035  1  
+  394  A    39  THR  H   H        0.000  H     7.567   -1.023  1  
+  395  A    39  THR  H   N        0.000  N   117.088    0.393  1  
+  396  A    39  THR  H   CA       6.075  C    68.889    1.672  1  
+  397  A    39  THR  H   HA       6.075  H     3.880   -0.932  1  
+  398  A    39  THR  H   CB       0.000  C    67.835   -0.519  1  
+  399  A    39  THR  H   HB       0.000  H     4.586    1.459  1  
+  400  A    39  THR  H   CG2      0.552  C    23.941    1.354  1  
+  401  A    39  THR  H   HG2*     0.552  H     1.590    1.829  1  
+  402  A    40  LEU  H   C        0.000  C   178.734    0.277  1  
+  403  A    40  LEU  H   H        0.000  H     7.370   -1.376  1  
+  404  A    40  LEU  H   N        0.000  N   119.947    0.058  1  
+  405  A    40  LEU  H   CA       0.000  C    58.361    0.545  1  
+  406  A    40  LEU  H   HA       0.000  H     3.991    0.041  1  
+  407  A    40  LEU  H   CB       0.000  C    40.533   -0.941  1  
+  408  A    40  LEU  H   HB2      0.000  H     0.847   -2.509  2  
+  409  A    40  LEU  H   HB3      0.000  H     1.912    0.851  2  
+  410  A    40  LEU  H   CG       0.000  C    25.772   -1.503  1  
+  411  A    40  LEU  H   HG       0.000  H     1.917    0.960  1  
+  412  A    40  LEU  H   CD1      0.000  C    21.852   -1.900  2  
+  413  A    40  LEU  H   CD2      3.314  C    25.294    0.780  2  
+  414  A    40  LEU  H   HD1*     0.000  H     0.251   -1.961  2  
+  415  A    40  LEU  H   HD21     3.314  H     0.354     .     2  Z score missing (not enough data for atom)
+  416  A    40  LEU  H   HD22     3.314  H     0.354     .     2  Z score missing (not enough data for atom)
+  417  A    40  LEU  H   HD23     3.314  H     0.354     .     2  Z score missing (not enough data for atom)
+  418  A    41  VAL  H   C        0.552  C   178.300    0.505  1  
+  419  A    41  VAL  H   H        0.000  H     8.157    0.223  1  
+  420  A    41  VAL  H   N        0.000  N   119.105   -0.220  1  
+  421  A    41  VAL  H   CA       0.000  C    66.756    0.226  1  
+  422  A    41  VAL  H   HA       0.000  H     3.917    1.338  1  
+  423  A    41  VAL  H   CB       1.105  C    31.229   -0.438  1  
+  424  A    41  VAL  H   HB       1.105  H     2.426    1.360  1  
+  425  A    41  VAL  H   CG1     29.270  C    21.593    0.127  2  
+  426  A    41  VAL  H   CG2      4.971  C    23.923    1.199  2  
+  427  A    41  VAL  H   HG11    29.270  H     1.002     .     2  Z score missing (not enough data for atom)
+  428  A    41  VAL  H   HG12    29.270  H     1.002     .     2  Z score missing (not enough data for atom)
+  429  A    41  VAL  H   HG13    29.270  H     1.002     .     2  Z score missing (not enough data for atom)
+  430  A    41  VAL  H   HG21     4.971  H     1.299     .     2  Z score missing (not enough data for atom)
+  431  A    41  VAL  H   HG22     4.971  H     1.299     .     2  Z score missing (not enough data for atom)
+  432  A    41  VAL  H   HG23     4.971  H     1.299     .     2  Z score missing (not enough data for atom)
+  433  A    42  GLY  H   C        1.657  C   173.915   -1.120  1  
+  434  A    42  GLY  H   H        0.518  H     8.406    0.691  1  
+  435  A    42  GLY  H   N        0.518  N   107.459    0.299  1  
+  436  A    42  GLY  H   CA      28.166  C    47.601    0.770  1  
+  437  A    42  GLY  H   HA2     28.166  H     3.521   -2.969  2  
+  438  A    42  GLY  H   HA3     28.166  H     3.715   -1.553  2  
+  439  A    43  ILE  H   C        0.000  C   176.163   -1.075  1  
+  440  A    43  ILE  H   H        0.000  H     8.138    0.191  1  
+  441  A    43  ILE  H   N        0.000  N   121.241    0.596  1  
+  442  A    43  ILE  H   CA       0.000  C    65.973    0.587  1  
+  443  A    43  ILE  H   HA       0.000  H     3.509   -0.349  1  
+  444  A    43  ILE  H   CB       0.000  C    37.980    0.209  1  
+  445  A    43  ILE  H   HB       0.000  H     1.892    0.019  1  
+  446  A    43  ILE  H   CG2      0.000  C    16.759   -0.832  1  
+  447  A    43  ILE  H   HG2*     0.000  H     0.841    0.140  1  
+  448  A    43  ILE  H   CD1      0.552  C    14.574    0.395  1  
+  449  A    43  ILE  H   HD1*     0.552  H     0.694   -0.024  1  
+  450  A    44  SER  H   C        0.000  C   177.002    0.596  1  
+  451  A    44  SER  H   H        0.000  H     7.843   -0.565  1  
+  452  A    44  SER  H   N        0.000  N   110.652   -1.661  1  
+  453  A    44  SER  H   CA       0.000  C    61.356   -0.149  1  
+  454  A    44  SER  H   HA       0.000  H     4.472    1.310  1  
+  455  A    44  SER  H   CB       0.000  C    63.573    0.517  1  
+  456  A    45  GLY  H   C        5.523  C   175.923    0.215  1  
+  457  A    45  GLY  H   H        0.000  H     8.910    1.272  1  
+  458  A    45  GLY  H   N        0.000  N   115.481    3.146  1  Shift outlier
+  459  A    45  GLY  H   CA      16.568  C    47.485    0.611  1  
+  460  A    45  GLY  H   HA2     16.568  H     3.639   -1.639  2  
+  461  A    45  GLY  H   HA3     16.568  H     3.863    0.028  2  
+  462  A    46  ILE  H   C        0.000  C   177.626    0.098  1  
+  463  A    46  ILE  H   H        1.037  H     8.068    0.199  1  
+  464  A    46  ILE  H   N        1.037  N   121.443    0.474  1  
+  465  A    46  ILE  H   CA       1.105  C    65.784    0.729  1  
+  466  A    46  ILE  H   HA       1.105  H     3.471   -0.987  1  
+  467  A    46  ILE  H   CB       3.314  C    36.491   -1.058  1  
+  468  A    46  ILE  H   HB       3.314  H     1.860   -0.475  1  
+  469  A    46  ILE  H   CG1      0.000  C    30.650    1.036  1  
+  470  A    46  ILE  H   CG2     43.077  C    17.465    0.657  1  
+  471  A    46  ILE  H   HG12     0.000  H     1.568    0.548  2  
+  472  A    46  ILE  H   HG13     0.000  H     1.898    1.331  2  
+  473  A    46  ILE  H   HG2*    43.077  H     0.780   -0.692  1  
+  474  A    46  ILE  H   CD1      3.866  C    12.780   -0.975  1  
+  475  A    46  ILE  H   HD1*     3.866  H     0.732   -0.039  1  
+  476  A    47  ALA  H   C        0.000  C   180.263    0.855  1  
+  477  A    47  ALA  H   H        0.000  H     6.738   -2.525  1  
+  478  A    47  ALA  H   N        0.000  N   121.732    0.022  1  
+  479  A    47  ALA  H   CA       0.000  C    55.184    0.057  1  
+  480  A    47  ALA  H   HA       0.000  H     4.469    1.989  1  
+  481  A    47  ALA  H   CB       0.000  C    18.717    0.328  1  
+  482  A    47  ALA  H   HB*      0.000  H     1.824    1.729  1  
+  483  A    48  ALA  H   C        2.209  C   179.464   -0.235  1  
+  484  A    48  ALA  H   H        0.000  H     8.484    0.687  1  
+  485  A    48  ALA  H   N        0.000  N   120.891   -0.338  1  
+  486  A    48  ALA  H   CA       0.000  C    56.067    0.985  1  
+  487  A    48  ALA  H   HA       0.000  H     4.079    0.521  1  
+  488  A    48  ALA  H   CB      13.807  C    17.568   -0.666  1  
+  489  A    48  ALA  H   HB*     13.807  H     1.526    0.619  1  
+  490  A    49  VAL  H   C        0.000  C   177.270   -0.186  1  
+  491  A    49  VAL  H   H        0.000  H     7.527   -0.923  1  
+  492  A    49  VAL  H   N        0.000  N   116.421   -1.303  1  
+  493  A    49  VAL  H   CA       1.657  C    66.757    0.690  1  
+  494  A    49  VAL  H   HA       1.657  H     3.447   -0.936  1  
+  495  A    49  VAL  H   CB       9.941  C    31.159   -0.761  1  
+  496  A    49  VAL  H   HB       9.941  H     2.271    0.915  1  
+  497  A    49  VAL  H   CG1     50.809  C    21.721    0.322  2  
+  498  A    49  VAL  H   CG2     29.823  C    22.806    0.934  2  
+  499  A    49  VAL  H   HG11    50.809  H     0.826     .     2  Z score missing (not enough data for atom)
+  500  A    49  VAL  H   HG12    50.809  H     0.826     .     2  Z score missing (not enough data for atom)
+  501  A    49  VAL  H   HG13    50.809  H     0.826     .     2  Z score missing (not enough data for atom)
+  502  A    49  VAL  H   HG21    29.823  H     1.045     .     2  Z score missing (not enough data for atom)
+  503  A    49  VAL  H   HG22    29.823  H     1.045     .     2  Z score missing (not enough data for atom)
+  504  A    49  VAL  H   HG23    29.823  H     1.045     .     2  Z score missing (not enough data for atom)
+  505  A    50  ALA  H   C        0.000  C   179.666    0.404  1  
+  506  A    50  ALA  H   H        0.000  H     8.392    0.518  1  
+  507  A    50  ALA  H   N        0.000  N   123.282    0.686  1  
+  508  A    50  ALA  H   CA       3.314  C    56.107    1.392  1  
+  509  A    50  ALA  H   HA       3.314  H     3.640   -3.972  1  Shift outlier
+  510  A    50  ALA  H   CB       5.523  C    18.888    0.567  1  
+  511  A    50  ALA  H   HB*      5.523  H     1.286   -0.784  1  
+  512  A    51  TYR  H   C        0.000  C   178.102    0.675  1  
+  513  A    51  TYR  H   H        0.000  H     8.804    1.151  1  
+  514  A    51  TYR  H   N        0.000  N   116.281   -1.018  1  
+  515  A    51  TYR  H   CA       0.000  C    64.787    1.955  1  
+  516  A    51  TYR  H   HA       0.000  H     3.723   -1.031  1  
+  517  A    51  TYR  H   CB       0.000  C    36.816   -1.095  1  
+  518  A    51  TYR  H   HB2      0.000  H     2.791   -0.781  2  
+  519  A    51  TYR  H   HB3      0.000  H     3.326    1.056  2  
+  520  A    51  TYR  H   CD1      0.000  C   132.492   -0.106  1  
+  521  A    51  TYR  H   CD2      0.000  C   132.492   -0.177  1  
+  522  A    51  TYR  H   HD1      0.000  H     7.429    1.522  1  
+  523  A    51  TYR  H   HD2      0.000  H     7.429    1.466  1  
+  524  A    51  TYR  H   CE1      2.761  C   118.122    0.023  1  
+  525  A    51  TYR  H   CE2      0.000  C   118.122    0.231  1  
+  526  A    51  TYR  H   HE1      2.761  H     6.988    1.164  1  
+  527  A    51  TYR  H   HE2      0.000  H     6.988    1.253  1  
+  528  A    52  ALA  H   C        0.552  C   178.624   -0.488  1  
+  529  A    52  ALA  H   H        0.000  H     8.157    0.086  1  
+  530  A    52  ALA  H   N        0.000  N   122.424    0.318  1  
+  531  A    52  ALA  H   CA       0.000  C    54.905   -0.236  1  
+  532  A    52  ALA  H   HA       0.000  H     3.446   -1.861  1  
+  533  A    52  ALA  H   CB      35.898  C    17.900   -0.156  1  
+  534  A    52  ALA  H   HB*     35.898  H     1.441   -0.264  1  
+  535  A    53  VAL  H   C        0.000  C   178.694    0.940  1  
+  536  A    53  VAL  H   H        0.000  H     8.259    0.409  1  
+  537  A    53  VAL  H   N        0.000  N   114.408   -2.115  1  
+  538  A    53  VAL  H   CA       0.000  C    66.619    0.105  1  
+  539  A    53  VAL  H   HA       0.000  H     3.516   -0.005  1  
+  540  A    53  VAL  H   CB       1.657  C    30.907   -0.869  1  
+  541  A    53  VAL  H   HB       1.657  H     2.145   -0.030  1  
+  542  A    53  VAL  H   CG1     46.943  C    22.461    1.069  2  
+  543  A    53  VAL  H   CG2      9.389  C    22.808    0.449  2  
+  544  A    53  VAL  H   HG11    46.943  H     0.827     .     2  Z score missing (not enough data for atom)
+  545  A    53  VAL  H   HG12    46.943  H     0.827     .     2  Z score missing (not enough data for atom)
+  546  A    53  VAL  H   HG13    46.943  H     0.827     .     2  Z score missing (not enough data for atom)
+  547  A    53  VAL  H   HG21     9.389  H     0.969     .     2  Z score missing (not enough data for atom)
+  548  A    53  VAL  H   HG22     9.389  H     0.969     .     2  Z score missing (not enough data for atom)
+  549  A    53  VAL  H   HG23     9.389  H     0.969     .     2  Z score missing (not enough data for atom)
+  550  A    54  MET  H   C        0.000  C   180.603    2.165  1  
+  551  A    54  MET  H   H        0.000  H     7.521   -1.299  1  
+  552  A    54  MET  H   N        0.000  N   119.607    0.494  1  
+  553  A    54  MET  H   CA       0.000  C    60.502    1.266  1  
+  554  A    54  MET  H   HA       0.000  H     4.225    0.300  1  
+  555  A    54  MET  H   CB       0.000  C    29.973   -1.379  1  
+  556  A    54  MET  H   CE       0.552  C    15.343   -1.381  1  
+  557  A    54  MET  H   HE*      0.552  H     1.110   -3.005  1  Shift outlier
+  558  A    55  ALA  H   C        0.000  C   178.577   -0.417  1  
+  559  A    55  ALA  H   H        0.000  H     8.272    0.297  1  
+  560  A    55  ALA  H   N        0.000  N   125.457    1.617  1  
+  561  A    55  ALA  H   CA       0.000  C    55.314    0.193  1  
+  562  A    55  ALA  H   HA       0.000  H     3.921   -0.073  1  
+  563  A    55  ALA  H   CB       0.000  C    14.925   -2.803  1  
+  564  A    55  ALA  H   HB*      0.000  H     0.037   -5.567  1  Shift outlier
+  565  A    56  LEU  H   C        1.657  C   177.381   -0.657  1  
+  566  A    56  LEU  H   H        0.000  H     7.258   -1.591  1  
+  567  A    56  LEU  H   N        0.000  N   116.689   -1.229  1  
+  568  A    56  LEU  H   CA       2.209  C    54.774   -1.878  1  
+  569  A    56  LEU  H   HA       2.209  H     4.236    0.574  1  
+  570  A    56  LEU  H   CB       4.418  C    41.826    0.270  1  
+  571  A    56  LEU  H   HB2      4.418  H     1.687   -0.291  2  
+  572  A    56  LEU  H   HB3      4.418  H     1.910    1.039  2  
+  573  A    56  LEU  H   CG       0.000  C    26.321   -0.700  1  
+  574  A    56  LEU  H   HG       0.000  H     1.999    1.216  1  
+  575  A    56  LEU  H   CD1     50.257  C    25.772    1.164  2  
+  576  A    56  LEU  H   CD2     38.107  C    23.334   -0.096  2  
+  577  A    56  LEU  H   HD1*    50.257  H     0.898   -0.027  2  
+  578  A    56  LEU  H   HD21    38.107  H     1.134     .     2  Z score missing (not enough data for atom)
+  579  A    56  LEU  H   HD22    38.107  H     1.134     .     2  Z score missing (not enough data for atom)
+  580  A    56  LEU  H   HD23    38.107  H     1.134     .     2  Z score missing (not enough data for atom)
+  581  A    57  GLY  T   C        4.418  C   174.034   -0.149  1  
+  582  A    57  GLY  T   H        0.000  H     8.018   -0.392  1  
+  583  A    57  GLY  T   N        0.000  N   107.892   -0.422  1  
+  584  A    57  GLY  T   CA       9.941  C    44.324   -1.107  1  
+  585  A    57  GLY  T   HA2      9.941  H     3.606   -1.215  1  
+  586  A    57  GLY  T   HA3      9.941  H     3.606   -0.861  1  
+  587  A    58  VAL  T   C        0.000  C   175.724    0.003  1  
+  588  A    58  VAL  T   H        0.000  H     7.619   -0.412  1  
+  589  A    58  VAL  T   N        0.000  N   123.533    0.717  1  
+  590  A    58  VAL  T   CA       6.075  C    62.338   -0.016  1  
+  591  A    58  VAL  T   HA       6.075  H     3.829   -1.129  1  
+  592  A    58  VAL  T   CB      11.046  C    31.471   -0.496  1  
+  593  A    58  VAL  T   HB      11.046  H     1.900   -0.846  1  
+  594  A    58  VAL  T   CG1     45.286  C    21.186    0.187  2  
+  595  A    58  VAL  T   CG2     17.120  C    21.564    0.460  2  
+  596  A    58  VAL  T   HG11    45.286  H     0.754     .     2  Z score missing (not enough data for atom)
+  597  A    58  VAL  T   HG12    45.286  H     0.754     .     2  Z score missing (not enough data for atom)
+  598  A    58  VAL  T   HG13    45.286  H     0.754     .     2  Z score missing (not enough data for atom)
+  599  A    58  VAL  T   HG21    17.120  H     0.788     .     2  Z score missing (not enough data for atom)
+  600  A    58  VAL  T   HG22    17.120  H     0.788     .     2  Z score missing (not enough data for atom)
+  601  A    58  VAL  T   HG23    17.120  H     0.788     .     2  Z score missing (not enough data for atom)
+  602  A    59  GLY  T   C        3.314  C   173.840   -0.193  1  
+  603  A    59  GLY  T   H       15.549  H     8.766    0.193  1  
+  604  A    59  GLY  T   N       15.549  N   112.835    0.344  1  
+  605  A    59  GLY  T   CA      19.330  C    45.898    0.520  1  
+  606  A    59  GLY  T   HA2     19.330  H     3.536   -1.319  1  
+  607  A    59  GLY  T   HA3     19.330  H     3.536   -1.322  1  
+  608  A    60  TRP  E   C        1.657  C   176.051    0.366  1  
+  609  A    60  TRP  E   H        0.518  H     8.355   -0.227  1  
+  610  A    60  TRP  E   N        0.518  N   123.473    0.418  1  
+  611  A    60  TRP  E   CA       0.000  C    54.906   -0.797  1  
+  612  A    60  TRP  E   HA       0.000  H     5.012   -0.343  1  
+  613  A    60  TRP  E   CB       7.732  C    26.951   -2.966  1  
+  614  A    60  TRP  E   HB2      7.732  H     2.882   -0.652  2  
+  615  A    60  TRP  E   HB3      7.732  H     3.495    1.591  2  
+  616  A    60  TRP  E   CD1      0.000  C   123.002   -1.516  1  
+  617  A    60  TRP  E   HD1      0.000  H     6.989   -0.101  1  
+  618  A    60  TRP  E   CE3     16.568  C   120.939    0.694  1  
+  619  A    60  TRP  E   HE1      0.000  H    10.124    0.113  1  
+  620  A    60  TRP  E   HE3     16.568  H     7.699    1.185  1  
+  621  A    60  TRP  E   NE1      0.000  N   128.369   -0.383  1  
+  622  A    60  TRP  E   CZ2      0.000  C   113.696   -0.512  1  
+  623  A    60  TRP  E   CZ3      8.836  C   122.023    0.461  1  
+  624  A    60  TRP  E   HZ2      0.000  H     7.577    1.003  1  
+  625  A    60  TRP  E   HZ3      8.836  H     7.335    1.597  1  
+  626  A    60  TRP  E   CH2      0.552  C   125.070    1.369  1  
+  627  A    60  TRP  E   HH2      0.552  H     7.370    1.263  1  
+  628  A    61  VAL  E   C        0.000  C   173.658   -0.678  1  
+  629  A    61  VAL  E   H        0.000  H     9.010    0.302  1  
+  630  A    61  VAL  E   N        0.000  N   127.598    1.012  1  
+  631  A    61  VAL  E   CA       1.657  C    59.797   -0.593  1  
+  632  A    61  VAL  E   HA       1.657  H     4.617    0.484  1  
+  633  A    61  VAL  E   CB       6.075  C    34.497    0.340  1  
+  634  A    61  VAL  E   HB       6.075  H     2.040    0.390  1  
+  635  A    61  VAL  E   CG1      0.000  C    20.850   -0.676  2  
+  636  A    61  VAL  E   CG2     37.002  C    22.072    1.473  2  
+  637  A    61  VAL  E   HG11     0.000  H     0.878     .     2  Z score missing (not enough data for atom)
+  638  A    61  VAL  E   HG12     0.000  H     0.878     .     2  Z score missing (not enough data for atom)
+  639  A    61  VAL  E   HG13     0.000  H     0.878     .     2  Z score missing (not enough data for atom)
+  640  A    61  VAL  E   HG21    37.002  H     0.940     .     2  Z score missing (not enough data for atom)
+  641  A    61  VAL  E   HG22    37.002  H     0.940     .     2  Z score missing (not enough data for atom)
+  642  A    61  VAL  E   HG23    37.002  H     0.940     .     2  Z score missing (not enough data for atom)
+  643  A    62  PRO  E   C        1.105  C   177.126    0.728  1  
+  644  A    62  PRO  E   CA       0.000  C    62.159   -0.323  1  
+  645  A    62  PRO  E   HA       0.000  H     4.966    0.758  1  
+  646  A    62  PRO  E   CB      35.346  C    31.313   -0.947  1  
+  647  A    62  PRO  E   HB2     35.346  H     1.978   -0.055  2  
+  648  A    62  PRO  E   HB3     35.346  H     2.202    0.745  2  
+  649  A    63  VAL  E   C        0.000  C   174.817    0.152  1  
+  650  A    63  VAL  E   H        1.037  H     8.474   -0.276  1  
+  651  A    63  VAL  E   N        1.037  N   127.096    1.192  1  
+  652  A    63  VAL  E   CA       2.761  C    62.123    1.156  1  
+  653  A    63  VAL  E   HA       2.761  H     3.908   -1.789  1  
+  654  A    63  VAL  E   CB       0.000  C    34.389    0.246  1  
+  655  A    63  VAL  E   HB       0.000  H     1.722   -0.649  1  
+  656  A    63  VAL  E   CG1     11.598  C    20.504   -0.824  2  
+  657  A    63  VAL  E   CG2      6.627  C    21.318    0.184  2  
+  658  A    63  VAL  E   HG11    11.598  H     0.666     .     2  Z score missing (not enough data for atom)
+  659  A    63  VAL  E   HG12    11.598  H     0.666     .     2  Z score missing (not enough data for atom)
+  660  A    63  VAL  E   HG13    11.598  H     0.666     .     2  Z score missing (not enough data for atom)
+  661  A    63  VAL  E   HG21     6.627  H     0.872     .     2  Z score missing (not enough data for atom)
+  662  A    63  VAL  E   HG22     6.627  H     0.872     .     2  Z score missing (not enough data for atom)
+  663  A    63  VAL  E   HG23     6.627  H     0.872     .     2  Z score missing (not enough data for atom)
+  664  A    64  ALA  T   C        4.971  C   177.236   -0.185  1  
+  665  A    64  ALA  T   H       17.622  H     8.756    0.847  1  
+  666  A    64  ALA  T   N       17.622  N   129.159    1.415  1  
+  667  A    64  ALA  T   CA      14.911  C    54.191    1.147  1  
+  668  A    64  ALA  T   HA      14.911  H     3.863   -1.462  1  
+  669  A    64  ALA  T   CB      40.316  C    17.261   -1.262  1  
+  670  A    64  ALA  T   HB*     40.316  H     1.488    0.563  1  
+  671  A    65  GLU  T   C        2.761  C   176.034   -0.453  1  
+  672  A    65  GLU  T   H        0.000  H     8.435    0.168  1  
+  673  A    65  GLU  T   N        0.000  N   121.091    0.237  1  
+  674  A    65  GLU  T   CA       6.627  C    56.960    0.002  1  
+  675  A    65  GLU  T   HA       6.627  H     4.393    0.789  1  
+  676  A    65  GLU  T   CB      24.852  C    28.188   -1.514  1  
+  677  A    65  GLU  T   HB2     24.852  H     2.256    2.216  1  
+  678  A    65  GLU  T   HB3     24.852  H     2.256    1.728  1  
+  679  A    65  GLU  T   HG2     10.493  H     2.055   -1.139  1  
+  680  A    65  GLU  T   HG3     10.493  H     2.055   -1.510  1  
+  681  A    66  ARG  E   C        0.000  C   175.175    0.274  1  
+  682  A    66  ARG  E   H        0.000  H     8.529   -0.372  1  
+  683  A    66  ARG  E   N        0.000  N   122.149   -0.108  1  
+  684  A    66  ARG  E   CA       6.627  C    54.372   -0.461  1  
+  685  A    66  ARG  E   HA       6.627  H     4.810    0.962  1  
+  686  A    66  ARG  E   CB      18.777  C    31.892   -0.364  1  
+  687  A    66  ARG  E   HD2      6.627  H     3.000   -0.694  2  
+  688  A    66  ARG  E   HD3      6.627  H     3.034   -0.485  2  
+  689  A    67  THR  E   C        0.000  C   173.399   -0.001  1  
+  690  A    67  THR  E   H        6.738  H     7.965   -1.640  1  
+  691  A    67  THR  E   N        6.738  N   118.972    0.040  1  
+  692  A    67  THR  E   CA       0.000  C    62.502    0.808  1  
+  693  A    67  THR  E   HA       0.000  H     4.367   -1.610  1  
+  694  A    67  THR  E   CB      11.046  C    69.772   -0.495  1  
+  695  A    67  THR  E   HB      11.046  H     3.402   -2.362  1  
+  696  A    67  THR  E   CG2      8.284  C    21.746    0.037  1  
+  697  A    67  THR  E   HG2*     8.284  H     0.448   -2.686  1  
+  698  A    68  VAL  E   C        0.000  C   174.589   -0.011  1  
+  699  A    68  VAL  E   H        0.000  H     9.141    0.538  1  
+  700  A    68  VAL  E   N        0.000  N   129.207    1.351  1  
+  701  A    68  VAL  E   CA       0.000  C    60.878    0.046  1  
+  702  A    68  VAL  E   HA       0.000  H     3.890   -1.767  1  
+  703  A    68  VAL  E   CB       0.000  C    32.737   -0.741  1  
+  704  A    68  VAL  E   HB       0.000  H     2.016    0.400  1  
+  705  A    68  VAL  E   CG1      0.000  C    21.339   -0.287  2  
+  706  A    68  VAL  E   CG2      0.000  C    21.758    0.232  2  
+  707  A    68  VAL  E   HG11     0.000  H     0.879     .     2  Z score missing (not enough data for atom)
+  708  A    68  VAL  E   HG12     0.000  H     0.879     .     2  Z score missing (not enough data for atom)
+  709  A    68  VAL  E   HG13     0.000  H     0.879     .     2  Z score missing (not enough data for atom)
+  710  A    68  VAL  E   HG21     0.000  H     0.855     .     2  Z score missing (not enough data for atom)
+  711  A    68  VAL  E   HG22     0.000  H     0.855     .     2  Z score missing (not enough data for atom)
+  712  A    68  VAL  E   HG23     0.000  H     0.855     .     2  Z score missing (not enough data for atom)
+  713  A    69  PHE  E   C        0.000  C   175.117    0.406  1  
+  714  A    69  PHE  E   H        0.000  H     7.964   -1.555  1  
+  715  A    69  PHE  E   N        0.000  N   127.577    1.313  1  
+  716  A    69  PHE  E   CA       0.000  C    55.418   -0.638  1  
+  717  A    69  PHE  E   HA       0.000  H     4.941   -0.579  1  
+  718  A    69  PHE  E   CB       0.000  C    38.208   -1.920  1  
+  719  A    69  PHE  E   HB2      0.000  H     2.606   -0.794  2  
+  720  A    69  PHE  E   HB3      0.000  H     3.054    0.571  2  
+  721  A    69  PHE  E   CD1      0.000  C   131.132   -0.973  1  
+  722  A    69  PHE  E   CD2      0.000  C   131.132   -1.004  1  
+  723  A    69  PHE  E   HD1      0.000  H     6.566   -1.725  1  
+  724  A    69  PHE  E   HD2      0.000  H     6.566   -1.725  1  
+  725  A    69  PHE  E   CE1      0.000  C   130.726    0.143  1  
+  726  A    69  PHE  E   CE2      8.284  C   130.726   -0.380  1  
+  727  A    69  PHE  E   HE1      0.000  H     6.169   -2.741  1  
+  728  A    69  PHE  E   HE2      8.284  H     6.169   -4.865  1  Shift outlier
+  729  A    69  PHE  E   CZ       5.523  C   128.371   -1.272  1  
+  730  A    69  PHE  E   HZ       5.523  H     6.526   -1.291  1  
+  731  A    70  VAL  H   H        0.000  H     8.598    1.025  1  
+  732  A    70  VAL  H   N        0.000  N   124.511    1.962  1  
+  733  A    70  VAL  H   CA       0.000  C    68.504    1.769  1  
+  734  A    70  VAL  H   HA       0.000  H     3.789    0.910  1  
+  735  A    70  VAL  H   CB       3.314  C    30.260   -2.826  1  
+  736  A    70  VAL  H   HB       3.314  H     2.387    1.538  1  
+  737  A    70  VAL  H   CG1     33.689  C    21.791    0.293  2  
+  738  A    70  VAL  H   CG2     17.673  C    24.294    1.916  2  
+  739  A    70  VAL  H   HG11    33.689  H     1.000     .     2  Z score missing (not enough data for atom)
+  740  A    70  VAL  H   HG12    33.689  H     1.000     .     2  Z score missing (not enough data for atom)
+  741  A    70  VAL  H   HG13    33.689  H     1.000     .     2  Z score missing (not enough data for atom)
+  742  A    70  VAL  H   HG21    17.673  H     1.250     .     2  Z score missing (not enough data for atom)
+  743  A    70  VAL  H   HG22    17.673  H     1.250     .     2  Z score missing (not enough data for atom)
+  744  A    70  VAL  H   HG23    17.673  H     1.250     .     2  Z score missing (not enough data for atom)
+  745  A    71  PRO  H   C        0.000  C   174.873   -2.562  1  
+  746  A    71  PRO  H   CA       2.761  C    65.883    0.322  1  
+  747  A    72  ARG  H   C        0.000  C   174.792   -2.714  1  
+  748  A    72  ARG  H   H        0.000  H     6.386   -3.264  1  Shift outlier
+  749  A    72  ARG  H   N        0.000  N   117.476   -0.628  1  
+  750  A    72  ARG  H   CA       1.105  C    57.371   -1.400  1  
+  751  A    72  ARG  H   HA       1.105  H     3.612   -2.252  1  
+  752  A    72  ARG  H   CB       0.000  C    29.420   -0.442  1  
+  753  A    72  ARG  H   HG2      4.418  H     1.649    0.051  1  
+  754  A    72  ARG  H   HG3      4.418  H     1.649   -0.009  1  
+  755  A    73  TYR  H   C        0.000  C   177.663    0.364  1  
+  756  A    73  TYR  H   H        0.000  H     6.203   -3.069  1  Shift outlier
+  757  A    73  TYR  H   N        0.000  N   113.539   -1.902  1  
+  758  A    73  TYR  H   CA       0.000  C    60.680   -0.343  1  
+  759  A    73  TYR  H   HA       0.000  H     3.802   -0.809  1  
+  760  A    73  TYR  H   CB       0.000  C    37.493   -0.567  1  
+  761  A    73  TYR  H   HB2      0.000  H     2.319   -2.260  2  
+  762  A    73  TYR  H   HB3      0.000  H     3.374    1.204  2  
+  763  A    73  TYR  H   CD1      0.000  C   132.612    0.011  1  
+  764  A    73  TYR  H   CD2      0.000  C   132.612   -0.054  1  
+  765  A    73  TYR  H   HD1      0.000  H     6.896   -0.219  1  
+  766  A    73  TYR  H   HD2      0.000  H     6.896   -0.202  1  
+  767  A    73  TYR  H   CE1      0.000  C   117.762   -0.269  1  
+  768  A    73  TYR  H   CE2      0.000  C   117.762   -0.342  1  
+  769  A    73  TYR  H   HE1      0.000  H     6.664   -0.074  1  
+  770  A    73  TYR  H   HE2      0.000  H     6.664   -0.116  1  
+  771  A    74  ILE  H   C        0.000  C   175.979   -1.223  1  
+  772  A    74  ILE  H   H        0.000  H     7.043   -1.980  1  
+  773  A    74  ILE  H   N        0.000  N   118.710   -0.490  1  
+  774  A    74  ILE  H   CA       0.000  C    64.130   -0.421  1  
+  775  A    74  ILE  H   HA       0.000  H     3.356   -0.871  1  
+  776  A    74  ILE  H   CB       0.552  C    36.017   -1.727  1  
+  777  A    74  ILE  H   HB       0.552  H     1.658   -1.291  1  
+  778  A    74  ILE  H   CG1     23.195  C    27.868   -0.970  1  
+  779  A    74  ILE  H   CG2     21.539  C    17.281   -0.067  1  
+  780  A    74  ILE  H   HG12    23.195  H     1.047   -1.107  2  
+  781  A    74  ILE  H   HG13    23.195  H     1.273   -0.093  2  
+  782  A    74  ILE  H   HG2*    21.539  H     0.714   -1.343  1  
+  783  A    74  ILE  H   CD1     20.434  C    11.421   -1.359  1  
+  784  A    74  ILE  H   HD1*    20.434  H     0.543   -1.906  1  
+  785  A    75  ASP  H   C        0.000  C   177.988   -0.263  1  
+  786  A    75  ASP  H   H        0.000  H     7.589   -1.056  1  
+  787  A    75  ASP  H   N        0.000  N   118.266   -0.650  1  
+  788  A    75  ASP  H   CA       0.552  C    57.073   -0.117  1  
+  789  A    75  ASP  H   HA       0.552  H     3.800   -3.540  1  Shift outlier
+  790  A    75  ASP  H   CB       1.105  C    39.700   -0.642  1  
+  791  A    75  ASP  H   HB2      1.105  H     2.333   -2.283  2  
+  792  A    75  ASP  H   HB3      1.105  H     3.048    1.887  2  
+  793  A    76  TRP  H   C        0.000  C   180.725    1.941  1  
+  794  A    76  TRP  H   H        0.000  H     7.969   -0.400  1  
+  795  A    76  TRP  H   N        0.000  N   116.222   -1.702  1  
+  796  A    76  TRP  H   CA       0.000  C    58.568   -0.747  1  
+  797  A    76  TRP  H   HA       0.000  H     4.246   -0.053  1  
+  798  A    76  TRP  H   CB       0.000  C    28.622   -0.436  1  
+  799  A    76  TRP  H   HD1      0.000  H     6.898   -0.580  1  
+  800  A    76  TRP  H   HE1      2.591  H     9.641   -1.384  1  
+  801  A    76  TRP  H   NE1      2.591  N   128.491   -0.481  1  
+  802  A    76  TRP  H   CZ2      0.000  C   114.574    0.430  1  
+  803  A    76  TRP  H   HZ2      0.000  H     7.616    1.310  1  
+  804  A    76  TRP  H   CH2      2.761  C   122.600   -1.297  1  
+  805  A    76  TRP  H   HH2      2.761  H     7.257    0.691  1  
+  806  A    77  ILE  H   C        0.000  C   174.111   -2.721  1  
+  807  A    77  ILE  H   H        0.000  H     8.309    0.530  1  
+  808  A    77  ILE  H   N        0.000  N   120.988    0.488  1  
+  809  A    77  ILE  H   CA       0.552  C    65.767    0.618  1  
+  810  A    77  ILE  H   HA       0.552  H     3.501   -0.745  1  
+  811  A    77  ILE  H   CB       0.000  C    37.911    0.152  1  
+  812  A    77  ILE  H   HB       0.000  H     1.886   -0.006  1  
+  813  A    77  ILE  H   CG1      0.552  C    31.700    1.818  1  
+  814  A    77  ILE  H   CG2     27.614  C    16.640   -0.742  1  
+  815  A    77  ILE  H   HG12     0.552  H     0.938   -0.840  2  
+  816  A    77  ILE  H   HG13     0.552  H     1.887    1.205  2  
+  817  A    77  ILE  H   HG2*    27.614  H     0.830   -0.433  1  
+  818  A    77  ILE  H   CD1     15.464  C    14.428    0.735  1  
+  819  A    77  ILE  H   HD1*    15.464  H     0.708   -0.389  1  
+  820  A    78  LEU  H   C        0.000  C   177.864   -0.419  1  
+  821  A    78  LEU  H   H        0.000  H     7.540   -1.050  1  
+  822  A    78  LEU  H   N        0.000  N   116.686   -1.230  1  
+  823  A    78  LEU  H   CA       2.761  C    56.204   -0.726  1  
+  824  A    78  LEU  H   HA       2.761  H     4.360    1.163  1  
+  825  A    78  LEU  H   CB       3.866  C    43.740    1.867  1  
+  826  A    78  LEU  H   HB2      3.866  H     1.319   -1.979  2  
+  827  A    78  LEU  H   HB3      3.866  H     2.144    1.908  2  
+  828  A    78  LEU  H   CG       0.000  C    25.772   -1.503  1  
+  829  A    78  LEU  H   HG       0.000  H     1.979    1.154  1  
+  830  A    78  LEU  H   CD1     37.002  C    25.817    0.788  2  
+  831  A    78  LEU  H   CD2     41.420  C    22.310   -0.787  2  
+  832  A    78  LEU  H   HD1*    37.002  H     0.717   -1.563  2  
+  833  A    78  LEU  H   HD21    41.420  H     0.723     .     2  Z score missing (not enough data for atom)
+  834  A    78  LEU  H   HD22    41.420  H     0.723     .     2  Z score missing (not enough data for atom)
+  835  A    78  LEU  H   HD23    41.420  H     0.723     .     2  Z score missing (not enough data for atom)
+  836  A    79  THR  H   C        0.000  C   179.128    2.602  1  
+  837  A    79  THR  H   H        0.000  H     9.794    3.821  1  Shift outlier
+  838  A    79  THR  H   N        0.000  N   108.390   -1.539  1  
+  839  A    79  THR  H   CA       0.000  C    65.268   -0.579  1  
+  840  A    79  THR  H   HA       0.000  H     4.209    0.971  1  
+  841  A    79  THR  H   CB       0.000  C    70.322    1.800  1  
+  842  A    79  THR  H   HB       0.000  H     4.038   -0.615  1  
+  843  A    79  THR  H   CG2      0.000  C    23.844    1.453  1  
+  844  A    79  THR  H   HG2*     0.000  H     1.553    1.509  1  
+  845  A    80  THR  H   H        0.000  H     8.165    0.277  1  
+  846  A    80  THR  H   N        0.000  N   118.299    0.662  1  
+  847  A    80  THR  H   CA       0.000  C    67.982    0.741  1  
+  848  A    80  THR  H   HA       0.000  H     4.217    0.997  1  
+  849  A    80  THR  H   CG2      1.105  C    20.806   -0.933  1  
+  850  A    80  THR  H   HG2*     1.105  H     0.290   -3.928  1  Shift outlier
+  851  A    81  PRO  H   C        0.552  C   178.802    0.030  1  
+  852  A    81  PRO  H   CA       0.000  C    66.063    0.494  1  
+  853  A    81  PRO  H   HA       0.000  H     4.319    0.583  1  
+  854  A    81  PRO  H   CB       6.075  C    30.237   -1.536  1  
+  855  A    81  PRO  H   HD2      0.000  H     3.540   -0.886  1  
+  856  A    81  PRO  H   HD3      0.000  H     3.540   -0.539  1  
+  857  A    82  LEU  H   C        0.000  C   179.194    0.645  1  
+  858  A    82  LEU  H   H        0.000  H     6.763   -2.542  1  
+  859  A    82  LEU  H   N        0.000  N   118.432   -0.540  1  
+  860  A    82  LEU  H   CA       0.000  C    57.540   -0.233  1  
+  861  A    82  LEU  H   HA       0.000  H     4.282    1.179  1  
+  862  A    82  LEU  H   CB       0.000  C    41.036   -0.521  1  
+  863  A    82  LEU  H   CG       1.105  C    26.725   -0.054  1  
+  864  A    82  LEU  H   HG       1.105  H     2.135    1.622  1  
+  865  A    82  LEU  H   CD1      5.523  C    22.885   -1.505  2  
+  866  A    82  LEU  H   CD2     45.286  C    25.524    1.328  2  
+  867  A    82  LEU  H   HD1*     5.523  H     0.856    0.262  2  
+  868  A    82  LEU  H   HD21    45.286  H     0.912     .     2  Z score missing (not enough data for atom)
+  869  A    82  LEU  H   HD22    45.286  H     0.912     .     2  Z score missing (not enough data for atom)
+  870  A    82  LEU  H   HD23    45.286  H     0.912     .     2  Z score missing (not enough data for atom)
+  871  A    83  ILE  H   C        0.000  C   178.374    0.698  1  
+  872  A    83  ILE  H   H        0.000  H     7.793   -0.493  1  
+  873  A    83  ILE  H   N        0.000  N   123.383    1.516  1  
+  874  A    83  ILE  H   CA       0.552  C    66.111    0.848  1  
+  875  A    83  ILE  H   HA       0.552  H     4.214    2.066  1  
+  876  A    83  ILE  H   CB       0.000  C    37.275   -0.370  1  
+  877  A    83  ILE  H   CG1      0.000  C    29.893    0.547  1  
+  878  A    83  ILE  H   CG2      0.552  C    17.482   -0.128  1  
+  879  A    83  ILE  H   HG2*     0.552  H     0.702   -0.592  1  
+  880  A    83  ILE  H   CD1      0.000  C    14.392    0.319  1  
+  881  A    83  ILE  H   HD1*     0.000  H     0.966    1.105  1  
+  882  A    84  VAL  H   C        0.000  C   178.277    0.610  1  
+  883  A    84  VAL  H   H        0.000  H     8.124    0.163  1  
+  884  A    84  VAL  H   N        0.000  N   119.076   -0.231  1  
+  885  A    84  VAL  H   CA       0.552  C    67.314    0.991  1  
+  886  A    84  VAL  H   HA       0.552  H     3.615   -0.173  1  
+  887  A    84  VAL  H   CB       1.105  C    31.030   -0.686  1  
+  888  A    84  VAL  H   HB       1.105  H     2.189    0.271  1  
+  889  A    84  VAL  H   CG1      0.552  C    23.208    0.850  2  
+  890  A    84  VAL  H   CG2      0.000  C    23.356    0.530  2  
+  891  A    84  VAL  H   HG11     0.552  H     0.909     .     2  Z score missing (not enough data for atom)
+  892  A    84  VAL  H   HG12     0.552  H     0.909     .     2  Z score missing (not enough data for atom)
+  893  A    84  VAL  H   HG13     0.552  H     0.909     .     2  Z score missing (not enough data for atom)
+  894  A    84  VAL  H   HG21     0.000  H     1.126     .     2  Z score missing (not enough data for atom)
+  895  A    84  VAL  H   HG22     0.000  H     1.126     .     2  Z score missing (not enough data for atom)
+  896  A    84  VAL  H   HG23     0.000  H     1.126     .     2  Z score missing (not enough data for atom)
+  897  A    85  TYR  H   C        0.000  C   176.282   -0.616  1  
+  898  A    85  TYR  H   H        0.000  H     8.986    1.447  1  
+  899  A    85  TYR  H   N        0.000  N   123.247    1.227  1  
+  900  A    85  TYR  H   CA       0.000  C    60.851   -0.248  1  
+  901  A    85  TYR  H   HA       0.000  H     4.504    1.160  1  
+  902  A    85  TYR  H   CB       0.552  C    38.154   -0.057  1  
+  903  A    85  TYR  H   HB2      0.552  H     3.208    0.408  2  
+  904  A    85  TYR  H   HB3      0.552  H     3.422    1.224  2  
+  905  A    85  TYR  H   CD1      6.627  C   132.610   -0.212  1  
+  906  A    85  TYR  H   CD2      1.105  C   132.610   -0.051  1  
+  907  A    85  TYR  H   HD1      6.627  H     6.739   -1.000  1  
+  908  A    85  TYR  H   HD2      1.105  H     6.739   -0.794  1  
+  909  A    85  TYR  H   CE1     20.434  C   117.734   -0.671  1  
+  910  A    85  TYR  H   CE2     13.255  C   117.734   -0.706  1  
+  911  A    85  TYR  H   HE1     20.434  H     6.303   -3.189  1  Shift outlier
+  912  A    85  TYR  H   HE2     13.255  H     6.303   -2.017  1  
+  913  A    86  PHE  H   C        0.000  C   178.488    1.098  1  
+  914  A    86  PHE  H   H        0.000  H     8.539    0.578  1  
+  915  A    86  PHE  H   N        0.000  N   122.353    0.885  1  
+  916  A    86  PHE  H   CA       0.000  C    62.211    0.579  1  
+  917  A    86  PHE  H   HA       0.000  H     3.771   -0.811  1  
+  918  A    86  PHE  H   CB       0.000  C    39.576    0.354  1  
+  919  A    86  PHE  H   HB2      0.000  H     2.302   -2.375  2  
+  920  A    86  PHE  H   HB3      0.000  H     3.344    0.819  2  
+  921  A    86  PHE  H   CD1      0.000  C   131.302   -0.258  1  
+  922  A    86  PHE  H   CD2      0.552  C   131.302   -0.375  1  
+  923  A    86  PHE  H   HD1      0.000  H     7.202    0.368  1  
+  924  A    86  PHE  H   HD2      0.552  H     7.202    0.190  1  
+  925  A    86  PHE  H   CE1      1.105  C   128.330   -2.278  1  
+  926  A    86  PHE  H   CE2      0.000  C   128.330   -2.680  1  
+  927  A    86  PHE  H   HE1      1.105  H     6.839   -0.795  1  
+  928  A    86  PHE  H   HE2      0.000  H     6.839   -0.722  1  
+  929  A    86  PHE  H   CZ       4.971  C   130.966    1.358  1  
+  930  A    86  PHE  H   HZ       4.971  H     6.513   -2.296  1  
+  931  A    87  LEU  H   C        0.000  C   179.253    0.693  1  
+  932  A    87  LEU  H   H        0.000  H     8.455    0.708  1  
+  933  A    87  LEU  H   N        0.000  N   117.402   -0.947  1  
+  934  A    87  LEU  H   CA       0.000  C    58.628    0.798  1  
+  935  A    87  LEU  H   HA       0.000  H     4.256    1.078  1  
+  936  A    87  LEU  H   CB       0.000  C    41.253   -0.340  1  
+  937  A    87  LEU  H   CD1      0.000  C    26.225    0.674  2  
+  938  A    87  LEU  H   CD2      1.657  C    23.638    0.016  2  
+  939  A    87  LEU  H   HD1*     0.000  H     0.850    0.305  2  
+  940  A    87  LEU  H   HD21     1.657  H     0.893     .     2  Z score missing (not enough data for atom)
+  941  A    87  LEU  H   HD22     1.657  H     0.893     .     2  Z score missing (not enough data for atom)
+  942  A    87  LEU  H   HD23     1.657  H     0.893     .     2  Z score missing (not enough data for atom)
+  943  A    88  GLY  H   C        0.000  C   176.197    0.720  1  
+  944  A    88  GLY  H   H        0.000  H     9.331    2.043  1  
+  945  A    88  GLY  H   N        0.000  N   108.902    0.662  1  
+  946  A    88  GLY  H   CA       1.657  C    47.339    0.283  1  
+  947  A    88  GLY  H   HA2      1.657  H     3.602   -0.517  1  
+  948  A    88  GLY  H   HA3      1.657  H     3.602   -0.326  1  
+  949  A    89  LEU  H   C        0.000  C   181.242    2.284  1  
+  950  A    89  LEU  H   H        0.000  H     8.873    1.511  1  
+  951  A    89  LEU  H   N        0.000  N   126.667    2.714  1  
+  952  A    89  LEU  H   CA       2.761  C    57.439    0.144  1  
+  953  A    89  LEU  H   HA       2.761  H     4.096   -0.189  1  
+  954  A    89  LEU  H   CB       0.552  C    41.638    0.163  1  
+  955  A    89  LEU  H   HB2      0.552  H     1.239   -1.720  2  
+  956  A    89  LEU  H   HB3      0.552  H     1.738    0.216  2  
+  957  A    89  LEU  H   CG       0.000  C    25.583   -1.779  1  
+  958  A    89  LEU  H   HG       0.000  H     1.102   -1.592  1  
+  959  A    89  LEU  H   CD1      1.657  C    22.309   -1.513  2  
+  960  A    89  LEU  H   CD2     27.061  C    24.492    0.495  2  
+  961  A    89  LEU  H   HD1*     1.657  H     0.470   -1.734  2  
+  962  A    89  LEU  H   HD21    27.061  H     0.048     .     2  Z score missing (not enough data for atom)
+  963  A    89  LEU  H   HD22    27.061  H     0.048     .     2  Z score missing (not enough data for atom)
+  964  A    89  LEU  H   HD23    27.061  H     0.048     .     2  Z score missing (not enough data for atom)
+  965  A    90  LEU  H   C        0.000  C   178.393    0.004  1  
+  966  A    90  LEU  H   H        0.000  H     7.680   -0.781  1  
+  967  A    90  LEU  H   N        0.000  N   120.656    0.338  1  
+  968  A    90  LEU  H   CA       0.000  C    57.384   -0.381  1  
+  969  A    90  LEU  H   HA       0.000  H     3.991    0.041  1  
+  970  A    90  LEU  H   CB       0.000  C    42.687    0.857  1  
+  971  A    90  LEU  H   HB2      0.000  H     1.519   -0.611  2  
+  972  A    90  LEU  H   HB3      0.000  H     2.305    1.965  2  
+  973  A    90  LEU  H   CG       0.000  C    26.224   -0.842  1  
+  974  A    90  LEU  H   HG       0.000  H     1.949    1.060  1  
+  975  A    90  LEU  H   CD1      0.000  C    23.789   -0.760  2  
+  976  A    90  LEU  H   CD2      1.657  C    27.119    2.030  2  
+  977  A    90  LEU  H   HD1*     0.000  H     0.778    0.032  2  
+  978  A    90  LEU  H   HD21     1.657  H     0.941     .     2  Z score missing (not enough data for atom)
+  979  A    90  LEU  H   HD22     1.657  H     0.941     .     2  Z score missing (not enough data for atom)
+  980  A    90  LEU  H   HD23     1.657  H     0.941     .     2  Z score missing (not enough data for atom)
+  981  A    91  ALA  H   C        0.000  C   177.047   -1.571  1  
+  982  A    91  ALA  H   H        0.000  H     8.083   -0.051  1  
+  983  A    91  ALA  H   N        0.000  N   117.715   -1.697  1  
+  984  A    91  ALA  H   CA       0.000  C    52.935   -2.307  1  
+  985  A    91  ALA  H   HA       0.000  H     3.484   -1.718  1  
+  986  A    91  ALA  H   CB       0.000  C    18.867    0.452  1  
+  987  A    91  ALA  H   HB*      0.000  H     1.056   -1.406  1  
+  988  A    92  GLY  C   C        0.552  C   175.342    1.090  1  
+  989  A    92  GLY  C   H        0.000  H     7.589   -0.749  1  
+  990  A    92  GLY  C   N        0.000  N   106.459   -0.629  1  
+  991  A    92  GLY  C   CA      19.330  C    45.807    0.871  1  
+  992  A    92  GLY  C   HA2     19.330  H     3.751   -0.910  1  
+  993  A    92  GLY  C   HA3     19.330  H     3.751   -0.714  1  
+  994  A    93  LEU  C   C        2.761  C   176.715    0.124  1  
+  995  A    93  LEU  C   H        0.000  H     7.276   -1.079  1  
+  996  A    93  LEU  C   N        0.000  N   119.184   -0.681  1  
+  997  A    93  LEU  C   CA       4.971  C    55.147   -0.040  1  
+  998  A    93  LEU  C   HA       4.971  H     4.009   -1.527  1  
+  999  A    93  LEU  C   CB       0.000  C    41.829   -0.455  1  
+ 1000  A    93  LEU  C   HB2      0.000  H     0.628   -3.015  2  Shift outlier
+ 1001  A    93  LEU  C   HB3      0.000  H     1.222   -0.846  2  
+ 1002  A    93  LEU  C   CG       7.179  C    26.252   -1.967  1  
+ 1003  A    93  LEU  C   HG       7.179  H     1.652    0.408  1  
+ 1004  A    93  LEU  C   CD1      0.000  C    24.719   -0.273  2  
+ 1005  A    93  LEU  C   CD2      9.941  C    22.504   -0.728  2  
+ 1006  A    93  LEU  C   HD1*     0.000  H     0.604   -0.388  2  
+ 1007  A    93  LEU  C   HD21     9.941  H     0.613     .     2  Z score missing (not enough data for atom)
+ 1008  A    93  LEU  C   HD22     9.941  H     0.613     .     2  Z score missing (not enough data for atom)
+ 1009  A    93  LEU  C   HD23     9.941  H     0.613     .     2  Z score missing (not enough data for atom)
+ 1010  A    94  ASP  C   C        3.314  C   177.348    1.211  1  
+ 1011  A    94  ASP  C   H        2.591  H     8.307   -0.184  1  
+ 1012  A    94  ASP  C   N        2.591  N   121.756    0.008  1  
+ 1013  A    94  ASP  C   CA       2.761  C    52.732   -0.704  1  
+ 1014  A    94  ASP  C   HA       2.761  H     4.773    0.549  1  
+ 1015  A    94  ASP  C   CB       8.284  C    42.032    0.487  1  
+ 1016  A    94  ASP  C   HB2      8.284  H     2.793    0.411  2  
+ 1017  A    94  ASP  C   HB3      8.284  H     3.040    1.288  2  
+ 1018  A    95  SER  H   C        2.209  C   176.667    0.259  1  
+ 1019  A    95  SER  H   H        4.146  H     8.537    0.118  1  
+ 1020  A    95  SER  H   N        4.146  N   116.217    0.384  1  
+ 1021  A    95  SER  H   CA       9.389  C    62.763    1.349  1  
+ 1022  A    95  SER  H   HA       9.389  H     4.248   -0.341  1  
+ 1023  A    95  SER  H   HB2     43.077  H     3.975    0.245  1  
+ 1024  A    95  SER  H   HB3     43.077  H     3.975    0.284  1  
+ 1025  A    96  ARG  H   C        0.000  C   178.955    0.621  1  
+ 1026  A    96  ARG  H   H        0.000  H     8.254    0.421  1  
+ 1027  A    96  ARG  H   N        0.000  N   123.759    1.996  1  
+ 1028  A    96  ARG  H   CA       7.179  C    59.211    0.496  1  
+ 1029  A    96  ARG  H   HA       7.179  H     4.090   -0.135  1  
+ 1030  A    96  ARG  H   CB       4.418  C    29.399   -0.609  1  
+ 1031  A    96  ARG  H   HB2      4.418  H     1.572   -2.289  2  
+ 1032  A    96  ARG  H   HB3      4.418  H     1.710   -1.508  2  
+ 1033  A    96  ARG  H   HD2     26.509  H     3.260    0.618  1  
+ 1034  A    96  ARG  H   HD3     26.509  H     3.260    0.815  1  
+ 1035  A    97  GLU  H   C        0.000  C   179.252    0.502  1  
+ 1036  A    97  GLU  H   H        0.000  H     8.190    0.106  1  
+ 1037  A    97  GLU  H   N        0.000  N   119.987    0.327  1  
+ 1038  A    97  GLU  H   CA       1.105  C    59.248    0.163  1  
+ 1039  A    97  GLU  H   HA       1.105  H     4.081    0.259  1  
+ 1040  A    97  GLU  H   CB       0.552  C    29.543   -0.049  1  
+ 1041  A    97  GLU  H   HG2     27.614  H     2.363    0.145  2  
+ 1042  A    97  GLU  H   HG3     27.614  H     2.530    1.404  2  
+ 1043  A    98  PHE  H   C        1.105  C   178.466    0.919  1  
+ 1044  A    98  PHE  H   H        0.000  H     8.482    0.483  1  
+ 1045  A    98  PHE  H   N        0.000  N   119.040   -0.108  1  
+ 1046  A    98  PHE  H   CA       0.000  C    61.635    0.268  1  
+ 1047  A    98  PHE  H   HA       0.000  H     4.251    0.336  1  
+ 1048  A    98  PHE  H   CB      12.702  C    39.155    0.310  1  
+ 1049  A    98  PHE  H   HB2     12.702  H     3.026   -0.527  2  
+ 1050  A    98  PHE  H   HB3     12.702  H     3.208    0.318  2  
+ 1051  A    98  PHE  H   CD1      2.209  C   131.081   -0.406  1  
+ 1052  A    98  PHE  H   CD2      7.179  C   131.081   -0.728  1  
+ 1053  A    98  PHE  H   HD1      2.209  H     7.155    0.115  1  
+ 1054  A    98  PHE  H   HD2      7.179  H     7.155   -0.046  1  
+ 1055  A    98  PHE  H   CE1      0.000  C   131.400    0.696  1  
+ 1056  A    98  PHE  H   CE2     12.150  C   131.400    0.312  1  
+ 1057  A    98  PHE  H   HE1      0.000  H     7.375    1.009  1  
+ 1058  A    98  PHE  H   HE2     12.150  H     7.375    0.772  1  
+ 1059  A    98  PHE  H   CZ       4.418  C   129.615    0.162  1  
+ 1060  A    98  PHE  H   HZ       4.418  H     7.106   -0.055  1  
+ 1061  A    99  GLY  H   C        4.971  C   176.479    0.586  1  
+ 1062  A    99  GLY  H   H        1.555  H     8.170   -0.023  1  
+ 1063  A    99  GLY  H   N        1.555  N   105.787   -0.464  1  
+ 1064  A    99  GLY  H   CA      28.718  C    47.662    0.878  1  
+ 1065  A    99  GLY  H   HA2     28.718  H     3.630   -2.129  2  
+ 1066  A    99  GLY  H   HA3     28.718  H     3.945    0.293  2  
+ 1067  A   100  ILE  H   C        0.000  C   177.586    0.066  1  
+ 1068  A   100  ILE  H   H        0.000  H     7.724   -0.629  1  
+ 1069  A   100  ILE  H   N        0.000  N   124.134    1.838  1  
+ 1070  A   100  ILE  H   CA       0.000  C    65.919    0.558  1  
+ 1071  A   100  ILE  H   HA       0.000  H     3.598   -0.046  1  
+ 1072  A   100  ILE  H   CB       1.105  C    37.908    0.216  1  
+ 1073  A   100  ILE  H   HB       1.105  H     1.832   -0.406  1  
+ 1074  A   100  ILE  H   CG1     17.673  C    29.077    0.297  1  
+ 1075  A   100  ILE  H   CG2     14.911  C    16.512   -1.084  1  
+ 1076  A   100  ILE  H   HG12    17.673  H     0.982   -1.319  2  
+ 1077  A   100  ILE  H   HG13    17.673  H     1.813    1.728  2  
+ 1078  A   100  ILE  H   HG2*    14.911  H     0.556   -1.983  1  
+ 1079  A   100  ILE  H   CD1     39.211  C    13.303    0.128  1  
+ 1080  A   100  ILE  H   HD1*    39.211  H     0.918    0.740  1  
+ 1081  A   101  VAL  H   C        0.000  C   178.066    0.443  1  
+ 1082  A   101  VAL  H   H        0.000  H     7.633   -0.730  1  
+ 1083  A   101  VAL  H   N        0.000  N   117.199   -0.989  1  
+ 1084  A   101  VAL  H   CA       0.000  C    66.126   -0.330  1  
+ 1085  A   101  VAL  H   HA       0.000  H     3.637    0.400  1  
+ 1086  A   101  VAL  H   CB       0.000  C    31.370   -0.130  1  
+ 1087  A   101  VAL  H   HB       0.000  H     1.896   -0.937  1  
+ 1088  A   101  VAL  H   CG1      2.209  C    21.991    0.026  2  
+ 1089  A   101  VAL  H   CG2      1.657  C    21.619   -0.591  2  
+ 1090  A   101  VAL  H   HG11     2.209  H     0.898     .     2  Z score missing (not enough data for atom)
+ 1091  A   101  VAL  H   HG12     2.209  H     0.898     .     2  Z score missing (not enough data for atom)
+ 1092  A   101  VAL  H   HG13     2.209  H     0.898     .     2  Z score missing (not enough data for atom)
+ 1093  A   101  VAL  H   HG21     1.657  H     0.915     .     2  Z score missing (not enough data for atom)
+ 1094  A   101  VAL  H   HG22     1.657  H     0.915     .     2  Z score missing (not enough data for atom)
+ 1095  A   101  VAL  H   HG23     1.657  H     0.915     .     2  Z score missing (not enough data for atom)
+ 1096  A   102  ILE  H   C        0.000  C   179.802    1.843  1  
+ 1097  A   102  ILE  H   H        0.000  H     8.489    0.887  1  
+ 1098  A   102  ILE  H   N        0.000  N   121.086    0.530  1  
+ 1099  A   102  ILE  H   CA       0.000  C    63.810   -0.597  1  
+ 1100  A   102  ILE  H   HA       0.000  H     3.843    0.789  1  
+ 1101  A   102  ILE  H   CB       3.866  C    36.182   -1.322  1  
+ 1102  A   102  ILE  H   HB       3.866  H     2.004    0.375  1  
+ 1103  A   102  ILE  H   CG1      9.941  C    29.485    0.662  1  
+ 1104  A   102  ILE  H   CG2     34.241  C    17.614    0.695  1  
+ 1105  A   102  ILE  H   HG12     9.941  H     1.454    0.423  2  
+ 1106  A   102  ILE  H   HG13     9.941  H     1.615    0.778  2  
+ 1107  A   102  ILE  H   HG2*    34.241  H     0.866   -0.231  1  
+ 1108  A   102  ILE  H   CD1      4.418  C    12.077   -1.170  1  
+ 1109  A   102  ILE  H   HD1*     4.418  H     0.872    0.700  1  
+ 1110  A   103  THR  H   C        0.000  C   176.187    0.156  1  
+ 1111  A   103  THR  H   H        1.555  H     7.956   -0.153  1  
+ 1112  A   103  THR  H   N        1.555  N   123.326    2.223  1  
+ 1113  A   103  THR  H   CA       4.418  C    69.031    1.429  1  
+ 1114  A   103  THR  H   HA       4.418  H     3.749   -1.232  1  
+ 1115  A   103  THR  H   CB      12.150  C    66.817   -1.874  1  
+ 1116  A   103  THR  H   HB      12.150  H     4.335    0.562  1  
+ 1117  A   103  THR  H   CG2     23.748  C    21.344   -0.536  1  
+ 1118  A   103  THR  H   HG2*    23.748  H     1.065   -0.938  1  
+ 1119  A   104  LEU  H   C        0.000  C   178.246   -0.113  1  
+ 1120  A   104  LEU  H   H        0.000  H     8.226    0.268  1  
+ 1121  A   104  LEU  H   N        0.000  N   121.643    0.728  1  
+ 1122  A   104  LEU  H   CA       1.657  C    58.740    0.817  1  
+ 1123  A   104  LEU  H   HA       1.657  H     3.843   -1.092  1  
+ 1124  A   104  LEU  H   CB       3.314  C    42.164    0.582  1  
+ 1125  A   104  LEU  H   HB2      3.314  H     1.487   -0.932  1  
+ 1126  A   104  LEU  H   CD1     20.434  C    25.390    0.331  2  
+ 1127  A   104  LEU  H   CD2      2.761  C    22.676   -0.803  2  
+ 1128  A   104  LEU  H   HD1*    20.434  H     0.814   -0.504  2  
+ 1129  A   104  LEU  H   HD21     2.761  H     0.894     .     2  Z score missing (not enough data for atom)
+ 1130  A   104  LEU  H   HD22     2.761  H     0.894     .     2  Z score missing (not enough data for atom)
+ 1131  A   104  LEU  H   HD23     2.761  H     0.894     .     2  Z score missing (not enough data for atom)
+ 1132  A   105  ASN  H   C        1.105  C   176.677   -0.242  1  
+ 1133  A   105  ASN  H   H        0.000  H     8.059   -0.268  1  
+ 1134  A   105  ASN  H   N        0.000  N   116.157   -0.540  1  
+ 1135  A   105  ASN  H   CA       1.105  C    58.656    2.079  1  
+ 1136  A   105  ASN  H   HA       1.105  H     4.117   -1.976  1  
+ 1137  A   105  ASN  H   CB       0.000  C    41.352    1.715  1  
+ 1138  A   105  ASN  H   HB2      0.000  H     2.586   -0.816  2  
+ 1139  A   105  ASN  H   HB3      0.000  H     2.794    0.054  2  
+ 1140  A   105  ASN  H   HD21     0.000  H     5.757   -2.937  1  
+ 1141  A   105  ASN  H   HD22     0.000  H     7.444    0.393  1  
+ 1142  A   105  ASN  H   ND2      0.000  N   107.793   -1.119  1  
+ 1143  A   106  THR  H   C        0.000  C   176.272    0.226  1  
+ 1144  A   106  THR  H   H        0.518  H     8.098    0.247  1  
+ 1145  A   106  THR  H   N        0.518  N   115.471   -0.213  1  
+ 1146  A   106  THR  H   CA       2.209  C    66.814    0.331  1  
+ 1147  A   106  THR  H   HA       2.209  H     4.115    0.604  1  
+ 1148  A   106  THR  H   CB       2.761  C    68.011   -1.139  1  
+ 1149  A   106  THR  H   HB       2.761  H     4.339    0.515  1  
+ 1150  A   106  THR  H   CG2     50.257  C    20.883   -1.166  1  
+ 1151  A   106  THR  H   HG2*    50.257  H     1.159   -0.761  1  
+ 1152  A   107  VAL  H   C        0.000  C   176.856   -0.514  1  
+ 1153  A   107  VAL  H   H        0.000  H     8.183    0.270  1  
+ 1154  A   107  VAL  H   N        0.000  N   122.045    0.967  1  
+ 1155  A   107  VAL  H   CA       2.209  C    67.920    1.154  1  
+ 1156  A   107  VAL  H   HA       2.209  H     3.373   -1.447  1  
+ 1157  A   107  VAL  H   CB      12.150  C    30.428   -1.378  1  
+ 1158  A   107  VAL  H   HB      12.150  H     2.234    0.582  1  
+ 1159  A   107  VAL  H   CG1     13.255  C    21.693    0.030  2  
+ 1160  A   107  VAL  H   CG2     34.793  C    23.124    1.179  2  
+ 1161  A   107  VAL  H   HG11    13.255  H     0.773     .     2  Z score missing (not enough data for atom)
+ 1162  A   107  VAL  H   HG12    13.255  H     0.773     .     2  Z score missing (not enough data for atom)
+ 1163  A   107  VAL  H   HG13    13.255  H     0.773     .     2  Z score missing (not enough data for atom)
+ 1164  A   107  VAL  H   HG21    34.793  H     0.992     .     2  Z score missing (not enough data for atom)
+ 1165  A   107  VAL  H   HG22    34.793  H     0.992     .     2  Z score missing (not enough data for atom)
+ 1166  A   107  VAL  H   HG23    34.793  H     0.992     .     2  Z score missing (not enough data for atom)
+ 1167  A   108  VAL  H   C        0.000  C   177.530    0.019  1  
+ 1168  A   108  VAL  H   H        0.000  H     7.602   -0.787  1  
+ 1169  A   108  VAL  H   N        0.000  N   118.935   -0.288  1  
+ 1170  A   108  VAL  H   CA       0.000  C    67.708    1.066  1  
+ 1171  A   108  VAL  H   HA       0.000  H     3.289   -0.765  1  
+ 1172  A   108  VAL  H   CB       0.000  C    31.351   -0.157  1  
+ 1173  A   108  VAL  H   HB       0.000  H     2.536    1.688  1  
+ 1174  A   108  VAL  H   CG1      4.418  C    22.436    0.408  2  
+ 1175  A   108  VAL  H   CG2      0.552  C    22.273   -0.274  2  
+ 1176  A   108  VAL  H   HG11     4.418  H     0.580     .     2  Z score missing (not enough data for atom)
+ 1177  A   108  VAL  H   HG12     4.418  H     0.580     .     2  Z score missing (not enough data for atom)
+ 1178  A   108  VAL  H   HG13     4.418  H     0.580     .     2  Z score missing (not enough data for atom)
+ 1179  A   108  VAL  H   HG21     0.552  H     1.334     .     2  Z score missing (not enough data for atom)
+ 1180  A   108  VAL  H   HG22     0.552  H     1.334     .     2  Z score missing (not enough data for atom)
+ 1181  A   108  VAL  H   HG23     0.552  H     1.334     .     2  Z score missing (not enough data for atom)
+ 1182  A   109  MET  H   C        0.000  C   180.663    2.213  1  
+ 1183  A   109  MET  H   H        0.000  H     7.409   -1.534  1  
+ 1184  A   109  MET  H   N        0.000  N   113.540   -1.930  1  
+ 1185  A   109  MET  H   CA       0.000  C    56.124   -1.052  1  
+ 1186  A   109  MET  H   HA       0.000  H     4.409    0.827  1  
+ 1187  A   109  MET  H   CB       0.000  C    31.435   -0.580  1  
+ 1188  A   109  MET  H   CE       0.000  C    18.437    1.192  1  
+ 1189  A   109  MET  H   HE*      0.000  H     1.300   -1.769  1  
+ 1190  A   110  LEU  H   C        1.105  C   178.920    0.351  1  
+ 1191  A   110  LEU  H   H        0.518  H     8.833    1.777  1  
+ 1192  A   110  LEU  H   N        0.518  N   119.701   -0.185  1  
+ 1193  A   110  LEU  H   CA       0.552  C    57.792    0.055  1  
+ 1194  A   110  LEU  H   HA       0.552  H     4.141    0.259  1  
+ 1195  A   110  LEU  H   CB       1.657  C    42.229    0.464  1  
+ 1196  A   110  LEU  H   HB2      1.657  H     1.400   -1.303  2  
+ 1197  A   110  LEU  H   HB3      1.657  H     1.816    0.490  2  
+ 1198  A   110  LEU  H   CG       6.075  C    26.790   -0.209  1  
+ 1199  A   110  LEU  H   HG       6.075  H     1.867    1.153  1  
+ 1200  A   110  LEU  H   CD1     41.420  C    25.258    0.424  2  
+ 1201  A   110  LEU  H   CD2     55.780  C    23.442   -0.360  2  
+ 1202  A   110  LEU  H   HD1*    41.420  H     0.803   -0.900  2  
+ 1203  A   110  LEU  H   HD21    55.780  H     0.828     .     2  Z score missing (not enough data for atom)
+ 1204  A   110  LEU  H   HD22    55.780  H     0.828     .     2  Z score missing (not enough data for atom)
+ 1205  A   110  LEU  H   HD23    55.780  H     0.828     .     2  Z score missing (not enough data for atom)
+ 1206  A   111  ALA  H   C        0.000  C   180.517    1.046  1  
+ 1207  A   111  ALA  H   H        1.037  H     8.524    1.493  1  
+ 1208  A   111  ALA  H   N        1.037  N   122.179    0.348  1  
+ 1209  A   111  ALA  H   CA       7.732  C    55.852    0.962  1  
+ 1210  A   111  ALA  H   HA       7.732  H     3.829   -2.349  1  
+ 1211  A   111  ALA  H   CB       2.209  C    17.250   -0.818  1  
+ 1212  A   111  ALA  H   HB*      2.209  H     1.422   -0.247  1  
+ 1213  A   112  GLY  H   C        0.000  C   175.014   -0.154  1  
+ 1214  A   112  GLY  H   H        0.000  H     8.108   -0.197  1  
+ 1215  A   112  GLY  H   N        0.000  N   103.619   -1.333  1  
+ 1216  A   112  GLY  H   CA       0.000  C    47.595    0.350  1  
+ 1217  A   113  PHE  H   C        0.000  C   176.463   -0.327  1  
+ 1218  A   113  PHE  H   H        0.000  H     7.980   -0.349  1  
+ 1219  A   113  PHE  H   N        0.000  N   122.850    1.034  1  
+ 1220  A   113  PHE  H   CA       0.000  C    56.997   -2.236  1  
+ 1221  A   113  PHE  H   HA       0.000  H     3.616   -1.181  1  
+ 1222  A   113  PHE  H   CB       0.000  C    38.410   -0.529  1  
+ 1223  A   113  PHE  H   HB2      0.000  H     3.185    0.219  1  
+ 1224  A   113  PHE  H   HB3      0.000  H     3.185    0.360  1  
+ 1225  A   113  PHE  H   CD1      6.627  C   130.860   -1.454  1  
+ 1226  A   113  PHE  H   CD2      2.209  C   130.860   -0.924  1  
+ 1227  A   113  PHE  H   HD1      6.627  H     6.869   -1.167  1  
+ 1228  A   113  PHE  H   HD2      2.209  H     6.869   -0.765  1  
+ 1229  A   113  PHE  H   CE1     12.150  C   129.608   -1.944  1  
+ 1230  A   113  PHE  H   CE2      7.179  C   129.608   -1.532  1  
+ 1231  A   113  PHE  H   HE1     12.150  H     7.011   -0.840  1  
+ 1232  A   113  PHE  H   HE2      7.179  H     7.011   -0.638  1  
+ 1233  A   114  ALA  H   C        0.000  C   179.616    0.367  1  
+ 1234  A   114  ALA  H   H        0.518  H     8.724    1.644  1  
+ 1235  A   114  ALA  H   N        0.518  N   120.040   -0.645  1  
+ 1236  A   114  ALA  H   CA       1.105  C    55.084    0.172  1  
+ 1237  A   114  ALA  H   HA       1.105  H     3.452   -2.717  1  
+ 1238  A   114  ALA  H   CB      37.555  C    18.186    0.117  1  
+ 1239  A   114  ALA  H   HB*     37.555  H     1.261   -2.063  1  
+ 1240  A   115  GLY  H   C        0.000  C   174.387   -0.617  1  
+ 1241  A   115  GLY  H   H        0.000  H     8.530    0.576  1  
+ 1242  A   115  GLY  H   N        0.000  N   102.227   -1.859  1  
+ 1243  A   115  GLY  H   CA       0.000  C    48.025    0.752  1  
+ 1244  A   115  GLY  H   HA2      0.000  H     3.820    0.118  1  
+ 1245  A   115  GLY  H   HA3      0.000  H     3.820    0.368  1  
+ 1246  A   116  ALA  H   C        0.000  C   178.652   -0.361  1  
+ 1247  A   116  ALA  H   H        0.000  H     7.796   -0.578  1  
+ 1248  A   116  ALA  H   N        0.000  N   122.057    0.161  1  
+ 1249  A   116  ALA  H   CA       0.000  C    54.551   -0.608  1  
+ 1250  A   116  ALA  H   HA       0.000  H     3.959    0.070  1  
+ 1251  A   116  ALA  H   CB       0.000  C    17.624   -0.575  1  
+ 1252  A   116  ALA  H   HB*      0.000  H     1.450    0.202  1  
+ 1253  A   117  MET  H   C        1.105  C   175.347   -2.006  1  
+ 1254  A   117  MET  H   H        0.000  H     7.146   -2.084  1  
+ 1255  A   117  MET  H   N        0.000  N   113.662   -1.881  1  
+ 1256  A   117  MET  H   CA       0.000  C    54.081   -2.135  1  
+ 1257  A   117  MET  H   HA       0.000  H     4.499    1.085  1  
+ 1258  A   117  MET  H   CB      13.807  C    31.230   -0.668  1  
+ 1259  A   117  MET  H   CE       6.627  C    15.863   -1.185  1  
+ 1260  A   117  MET  H   HE*      6.627  H     1.766   -0.838  1  
+ 1261  A   118  VAL  T   C        0.000  C   175.718   -0.001  1  
+ 1262  A   118  VAL  T   H        0.000  H     7.210   -1.015  1  
+ 1263  A   118  VAL  T   N        0.000  N   121.541    0.311  1  
+ 1264  A   118  VAL  T   CA       1.105  C    59.478   -0.944  1  
+ 1265  A   118  VAL  T   HA       1.105  H     4.391    0.732  1  
+ 1266  A   118  VAL  T   CB       0.000  C    33.424    0.765  1  
+ 1267  A   118  VAL  T   HB       0.000  H     2.120    0.296  1  
+ 1268  A   118  VAL  T   CG1      4.971  C    22.378    1.101  2  
+ 1269  A   118  VAL  T   CG2      0.000  C    22.005    0.438  2  
+ 1270  A   118  VAL  T   HG11     4.971  H     0.968     .     2  Z score missing (not enough data for atom)
+ 1271  A   118  VAL  T   HG12     4.971  H     0.968     .     2  Z score missing (not enough data for atom)
+ 1272  A   118  VAL  T   HG13     4.971  H     0.968     .     2  Z score missing (not enough data for atom)
+ 1273  A   118  VAL  T   HG21     0.000  H     0.971     .     2  Z score missing (not enough data for atom)
+ 1274  A   118  VAL  T   HG22     0.000  H     0.971     .     2  Z score missing (not enough data for atom)
+ 1275  A   118  VAL  T   HG23     0.000  H     0.971     .     2  Z score missing (not enough data for atom)
+ 1276  A   119  PRO  T   C        5.523  C   178.876    1.584  1  
+ 1277  A   119  PRO  T   CA       4.418  C    64.402    0.689  1  
+ 1278  A   119  PRO  T   CB      37.002  C    32.013    0.073  1  
+ 1279  A   120  GLY  T   C        0.552  C   176.710    2.378  1  
+ 1280  A   120  GLY  T   H        1.037  H     7.811   -0.768  1  
+ 1281  A   120  GLY  T   N        1.037  N   106.385   -0.980  1  
+ 1282  A   120  GLY  T   CA      28.166  C    44.576   -0.750  1  
+ 1283  A   120  GLY  T   HA2     28.166  H     4.123    0.646  2  
+ 1284  A   120  GLY  T   HA3     28.166  H     4.390    1.645  2  
+ 1285  A   121  ILE  T   C        0.000  C   176.838    0.646  1  
+ 1286  A   121  ILE  T   H        2.591  H     8.524    0.695  1  
+ 1287  A   121  ILE  T   N        2.591  N   121.108    0.002  1  
+ 1288  A   121  ILE  T   CA       0.000  C    63.626    1.053  1  
+ 1289  A   121  ILE  T   HA       0.000  H     4.127    0.077  1  
+ 1290  A   121  ILE  T   CB       0.000  C    38.802    0.279  1  
+ 1291  A   121  ILE  T   HB       0.000  H     2.156    1.152  1  
+ 1292  A   121  ILE  T   CG1     17.673  C    28.087    0.745  1  
+ 1293  A   121  ILE  T   CG2     32.032  C    18.258    1.383  1  
+ 1294  A   121  ILE  T   HG12    17.673  H     1.543    1.010  2  
+ 1295  A   121  ILE  T   HG13    17.673  H     1.687    1.713  2  
+ 1296  A   121  ILE  T   HG2*    32.032  H     1.130    2.186  1  
+ 1297  A   121  ILE  T   CD1     57.989  C    14.399    1.965  1  
+ 1298  A   121  ILE  T   HD1*    57.989  H     1.052    2.735  1  
+ 1299  A   122  GLU  H   C        0.000  C   178.535   -0.083  1  
+ 1300  A   122  GLU  H   H        0.000  H    10.302    4.144  1  Shift outlier
+ 1301  A   122  GLU  H   N        0.000  N   123.428    1.758  1  
+ 1302  A   122  GLU  H   CA       7.179  C    59.784    0.627  1  
+ 1303  A   122  GLU  H   HA       7.179  H     4.078    0.019  1  
+ 1304  A   122  GLU  H   CB       7.179  C    27.439   -2.660  1  
+ 1305  A   122  GLU  H   HB2      7.179  H     2.002   -0.628  1  
+ 1306  A   122  GLU  H   HB3      7.179  H     2.002   -0.488  1  
+ 1307  A   122  GLU  H   HG2     21.539  H     2.299   -0.235  2  
+ 1308  A   122  GLU  H   HG3     21.539  H     2.425    0.919  2  
+ 1309  A   123  ARG  H   C        0.000  C   178.169   -0.008  1  
+ 1310  A   123  ARG  H   H        0.000  H     8.095    0.108  1  
+ 1311  A   123  ARG  H   N        0.000  N   121.287    0.963  1  
+ 1312  A   123  ARG  H   CA       0.000  C    58.417   -0.754  1  
+ 1313  A   123  ARG  H   HA       0.000  H     4.165    0.841  1  
+ 1314  A   123  ARG  H   CB       0.000  C    28.039   -1.701  1  
+ 1315  A   123  ARG  H   HD2      0.000  H     3.164    0.100  1  
+ 1316  A   123  ARG  H   HD3      0.000  H     3.164    0.171  1  
+ 1317  A   124  TYR  H   C        2.209  C   178.496    1.127  1  
+ 1318  A   124  TYR  H   H        0.000  H     8.061   -0.054  1  
+ 1319  A   124  TYR  H   N        0.000  N   120.002    0.181  1  
+ 1320  A   124  TYR  H   CA       1.105  C    61.876    0.597  1  
+ 1321  A   124  TYR  H   HA       1.105  H     4.014   -0.711  1  
+ 1322  A   124  TYR  H   CB      21.539  C    37.438   -0.562  1  
+ 1323  A   124  TYR  H   HB2     21.539  H     3.008   -0.511  2  
+ 1324  A   124  TYR  H   HB3     21.539  H     3.113    0.243  2  
+ 1325  A   124  TYR  H   CD1      8.836  C   131.981   -2.047  1  
+ 1326  A   124  TYR  H   CD2     12.150  C   131.981   -1.877  1  
+ 1327  A   124  TYR  H   HD1      8.836  H     7.245    0.990  1  
+ 1328  A   124  TYR  H   HD2     12.150  H     7.245    0.850  1  
+ 1329  A   124  TYR  H   CE1      7.732  C   117.763   -0.394  1  
+ 1330  A   124  TYR  H   CE2     12.702  C   117.763   -0.643  1  
+ 1331  A   124  TYR  H   HE1      7.732  H     6.721   -0.217  1  
+ 1332  A   124  TYR  H   HE2     12.702  H     6.721    0.102  1  
+ 1333  A   125  ALA  H   C        2.761  C   179.097   -0.423  1  
+ 1334  A   125  ALA  H   H        1.555  H     7.829   -0.316  1  
+ 1335  A   125  ALA  H   N        1.555  N   123.140    0.797  1  
+ 1336  A   125  ALA  H   CA       9.941  C    54.872    0.410  1  
+ 1337  A   125  ALA  H   HA       9.941  H     4.160   -0.110  1  
+ 1338  A   125  ALA  H   CB      52.466  C    17.990   -0.233  1  
+ 1339  A   125  ALA  H   HB*     52.466  H     1.546    0.864  1  
+ 1340  A   126  LEU  H   C        0.000  C   178.440    0.042  1  
+ 1341  A   126  LEU  H   H        0.518  H     7.064   -2.160  1  
+ 1342  A   126  LEU  H   N        0.518  N   119.279   -0.371  1  
+ 1343  A   126  LEU  H   CA       8.284  C    57.982    0.580  1  
+ 1344  A   126  LEU  H   HA       8.284  H     3.998   -1.032  1  
+ 1345  A   126  LEU  H   CB       0.000  C    39.665   -1.665  1  
+ 1346  A   126  LEU  H   HB2      0.000  H     2.028    0.826  1  
+ 1347  A   126  LEU  H   CG      11.046  C    27.385    1.017  1  
+ 1348  A   126  LEU  H   HG      11.046  H     2.007    1.837  1  
+ 1349  A   126  LEU  H   CD1     14.359  C    25.358    0.256  2  
+ 1350  A   126  LEU  H   CD2     14.911  C    23.337   -0.223  2  
+ 1351  A   126  LEU  H   HD1*    14.359  H     0.832   -0.367  2  
+ 1352  A   126  LEU  H   HD21    14.911  H     0.835     .     2  Z score missing (not enough data for atom)
+ 1353  A   126  LEU  H   HD22    14.911  H     0.835     .     2  Z score missing (not enough data for atom)
+ 1354  A   126  LEU  H   HD23    14.911  H     0.835     .     2  Z score missing (not enough data for atom)
+ 1355  A   127  PHE  H   C        0.000  C   176.884   -0.030  1  
+ 1356  A   127  PHE  H   H        0.000  H     7.903   -0.477  1  
+ 1357  A   127  PHE  H   N        0.000  N   119.706    0.092  1  
+ 1358  A   127  PHE  H   CA       0.000  C    61.820    0.368  1  
+ 1359  A   127  PHE  H   HA       0.000  H     3.376   -1.755  1  
+ 1360  A   127  PHE  H   CB       0.000  C    38.536   -0.434  1  
+ 1361  A   127  PHE  H   HB2      0.000  H     2.409   -2.061  2  
+ 1362  A   127  PHE  H   HB3      0.000  H     3.020   -0.117  2  
+ 1363  A   127  PHE  H   CD1      0.000  C   131.975    0.362  1  
+ 1364  A   127  PHE  H   CD2      5.523  C   131.975    0.472  1  
+ 1365  A   127  PHE  H   HD1      0.000  H     6.306   -2.140  1  
+ 1366  A   127  PHE  H   HD2      5.523  H     6.306   -2.640  1  
+ 1367  A   127  PHE  H   CE1      0.000  C   129.945   -0.839  1  
+ 1368  A   127  PHE  H   CE2     11.046  C   129.945   -1.280  1  
+ 1369  A   127  PHE  H   HE1      0.000  H     7.037   -0.093  1  
+ 1370  A   127  PHE  H   HE2     11.046  H     7.037   -0.799  1  
+ 1371  A   128  GLY  H   C        6.075  C   174.251   -1.017  1  
+ 1372  A   128  GLY  H   H        0.000  H     8.407    0.351  1  
+ 1373  A   128  GLY  H   N        0.000  N   106.442   -0.267  1  
+ 1374  A   128  GLY  H   CA      23.748  C    46.981    0.123  1  
+ 1375  A   128  GLY  H   HA2     23.748  H     3.390   -3.994  2  Shift outlier
+ 1376  A   128  GLY  H   HA3     23.748  H     3.554   -2.473  2  
+ 1377  A   129  MET  H   C        0.000  C   177.839   -0.049  1  
+ 1378  A   129  MET  H   H        3.110  H     7.887   -0.626  1  
+ 1379  A   129  MET  H   N        3.110  N   121.182    0.195  1  
+ 1380  A   129  MET  H   CA       4.971  C    59.120    0.722  1  
+ 1381  A   129  MET  H   HA       4.971  H     3.934   -1.416  1  
+ 1382  A   129  MET  H   CB      27.614  C    32.205    0.121  1  
+ 1383  A   129  MET  H   HG2     14.359  H     2.353   -1.043  2  
+ 1384  A   129  MET  H   HG3     14.359  H     2.487   -0.377  2  
+ 1385  A   129  MET  H   CE       0.552  C    17.268    0.222  1  
+ 1386  A   129  MET  H   HE*      0.552  H     1.911    0.192  1  
+ 1387  A   130  GLY  H   C        0.000  C   174.953   -0.199  1  
+ 1388  A   130  GLY  H   H        0.000  H     7.920   -0.541  1  
+ 1389  A   130  GLY  H   N        0.000  N   106.722   -0.161  1  
+ 1390  A   130  GLY  H   CA       0.000  C    47.475    0.238  1  
+ 1391  A   131  ALA  H   C        0.000  C   178.941   -0.143  1  
+ 1392  A   131  ALA  H   H        0.000  H     8.566    0.838  1  
+ 1393  A   131  ALA  H   N        0.000  N   124.982    1.413  1  
+ 1394  A   131  ALA  H   CA       1.105  C    55.234    0.313  1  
+ 1395  A   131  ALA  H   HA       1.105  H     3.852   -0.889  1  
+ 1396  A   131  ALA  H   CB      32.032  C    17.027   -1.451  1  
+ 1397  A   131  ALA  H   HB*     32.032  H     1.046   -3.396  1  Shift outlier
+ 1398  A   132  VAL  H   C        0.000  C   177.647    0.112  1  
+ 1399  A   132  VAL  H   H        0.518  H     7.920   -0.173  1  
+ 1400  A   132  VAL  H   N        0.518  N   117.739   -0.692  1  
+ 1401  A   132  VAL  H   CA       0.552  C    66.967    0.669  1  
+ 1402  A   132  VAL  H   HA       0.552  H     3.554   -0.441  1  
+ 1403  A   132  VAL  H   CB       2.761  C    31.151   -0.955  1  
+ 1404  A   132  VAL  H   HB       2.761  H     2.142    0.010  1  
+ 1405  A   132  VAL  H   CG1     55.780  C    21.517    0.129  2  
+ 1406  A   132  VAL  H   CG2     41.420  C    23.049    1.740  2  
+ 1407  A   132  VAL  H   HG11    55.780  H     0.849     .     2  Z score missing (not enough data for atom)
+ 1408  A   132  VAL  H   HG12    55.780  H     0.849     .     2  Z score missing (not enough data for atom)
+ 1409  A   132  VAL  H   HG13    55.780  H     0.849     .     2  Z score missing (not enough data for atom)
+ 1410  A   132  VAL  H   HG21    41.420  H     1.009     .     2  Z score missing (not enough data for atom)
+ 1411  A   132  VAL  H   HG22    41.420  H     1.009     .     2  Z score missing (not enough data for atom)
+ 1412  A   132  VAL  H   HG23    41.420  H     1.009     .     2  Z score missing (not enough data for atom)
+ 1413  A   133  ALA  H   C        0.000  C   178.637   -0.372  1  
+ 1414  A   133  ALA  H   H        2.591  H     7.797   -0.742  1  
+ 1415  A   133  ALA  H   N        2.591  N   121.935    0.046  1  
+ 1416  A   133  ALA  H   CA       8.284  C    55.358    0.565  1  
+ 1417  A   133  ALA  H   HA       8.284  H     3.905   -1.649  1  
+ 1418  A   133  ALA  H   CB       4.418  C    17.416   -0.810  1  
+ 1419  A   133  ALA  H   HB*      4.418  H     1.497    0.385  1  
+ 1420  A   134  PHE  H   C        0.000  C   176.613   -0.221  1  
+ 1421  A   134  PHE  H   H        0.000  H     8.379    0.313  1  
+ 1422  A   134  PHE  H   N        0.000  N   120.054    0.196  1  
+ 1423  A   134  PHE  H   CA       0.000  C    60.590   -0.296  1  
+ 1424  A   134  PHE  H   HA       0.000  H     4.221    0.264  1  
+ 1425  A   134  PHE  H   CB       0.000  C    39.232    0.094  1  
+ 1426  A   134  PHE  H   HB2      0.000  H     3.320    0.615  1  
+ 1427  A   134  PHE  H   HB3      0.000  H     3.320    0.750  1  
+ 1428  A   134  PHE  H   HD1      1.657  H     7.161    0.135  1  
+ 1429  A   134  PHE  H   HD2      6.627  H     7.161   -0.022  1  
+ 1430  A   134  PHE  H   CE1      0.000  C   130.692   -0.051  1  
+ 1431  A   134  PHE  H   CE2      7.732  C   130.692   -0.339  1  
+ 1432  A   134  PHE  H   HE1      0.000  H     7.324    0.843  1  
+ 1433  A   134  PHE  H   HE2      7.732  H     7.324    0.745  1  
+ 1434  A   134  PHE  H   CZ       0.000  C   129.125    0.065  1  
+ 1435  A   134  PHE  H   HZ       0.000  H     7.229    0.725  1  
+ 1436  A   135  ILE  H   C        0.552  C   178.166    0.444  1  
+ 1437  A   135  ILE  H   H        0.000  H     8.034   -0.015  1  
+ 1438  A   135  ILE  H   N        0.000  N   121.002    0.494  1  
+ 1439  A   135  ILE  H   CA       0.000  C    65.074    0.095  1  
+ 1440  A   135  ILE  H   HA       0.000  H     3.441   -0.581  1  
+ 1441  A   135  ILE  H   CB       1.657  C    36.313   -1.430  1  
+ 1442  A   135  ILE  H   HB       1.657  H     2.183    1.511  1  
+ 1443  A   135  ILE  H   CG1     11.046  C    28.886    0.061  1  
+ 1444  A   135  ILE  H   CG2     40.868  C    17.632    1.050  1  
+ 1445  A   135  ILE  H   HG12    11.046  H     1.318    0.075  2  
+ 1446  A   135  ILE  H   HG13    11.046  H     1.923    1.660  2  
+ 1447  A   135  ILE  H   HG2*    40.868  H     0.867   -0.274  1  
+ 1448  A   135  ILE  H   CD1     53.571  C    12.154   -0.981  1  
+ 1449  A   135  ILE  H   HD1*    53.571  H     0.848   -0.155  1  
+ 1450  A   136  GLY  H   C        0.000  C   174.145   -0.795  1  
+ 1451  A   136  GLY  H   H        1.037  H     7.822   -0.976  1  
+ 1452  A   136  GLY  H   N        1.037  N   106.589   -0.081  1  
+ 1453  A   136  GLY  H   CA      25.405  C    47.915    0.988  1  
+ 1454  A   136  GLY  H   HA2     25.405  H     3.526   -2.930  2  
+ 1455  A   136  GLY  H   HA3     25.405  H     3.804   -0.635  2  
+ 1456  A   137  LEU  H   C        0.000  C   178.226   -0.129  1  
+ 1457  A   137  LEU  H   H        0.000  H     8.348    0.502  1  
+ 1458  A   137  LEU  H   N        0.000  N   125.441    2.229  1  
+ 1459  A   137  LEU  H   CA       0.000  C    58.704    0.869  1  
+ 1460  A   137  LEU  H   HA       0.000  H     4.094    0.444  1  
+ 1461  A   137  LEU  H   CB       0.000  C    42.329    0.558  1  
+ 1462  A   137  LEU  H   HB2      0.000  H     1.403   -0.939  2  
+ 1463  A   137  LEU  H   HB3      0.000  H     2.246    1.797  2  
+ 1464  A   137  LEU  H   CG       0.000  C    26.405   -0.577  1  
+ 1465  A   137  LEU  H   HG       0.000  H     1.470   -0.440  1  
+ 1466  A   137  LEU  H   CD1      0.000  C    24.387   -0.408  2  
+ 1467  A   137  LEU  H   CD2      3.866  C    26.462    1.493  2  
+ 1468  A   137  LEU  H   HD1*     0.000  H     1.045    1.042  2  
+ 1469  A   137  LEU  H   HD21     3.866  H     1.104     .     2  Z score missing (not enough data for atom)
+ 1470  A   137  LEU  H   HD22     3.866  H     1.104     .     2  Z score missing (not enough data for atom)
+ 1471  A   137  LEU  H   HD23     3.866  H     1.104     .     2  Z score missing (not enough data for atom)
+ 1472  A   138  VAL  H   C        0.552  C   177.869    0.229  1  
+ 1473  A   138  VAL  H   H        0.000  H     8.571    0.976  1  
+ 1474  A   138  VAL  H   N        0.000  N   119.890    0.097  1  
+ 1475  A   138  VAL  H   CA       0.000  C    67.352    0.752  1  
+ 1476  A   138  VAL  H   HA       0.000  H     3.231   -0.960  1  
+ 1477  A   138  VAL  H   CB       1.105  C    31.103   -0.595  1  
+ 1478  A   138  VAL  H   HB       1.105  H     1.919   -0.970  1  
+ 1479  A   138  VAL  H   CG1      1.657  C    23.171    0.896  2  
+ 1480  A   138  VAL  H   CG2     22.643  C    22.131    0.270  2  
+ 1481  A   138  VAL  H   HG11     1.657  H     0.314     .     2  Z score missing (not enough data for atom)
+ 1482  A   138  VAL  H   HG12     1.657  H     0.314     .     2  Z score missing (not enough data for atom)
+ 1483  A   138  VAL  H   HG13     1.657  H     0.314     .     2  Z score missing (not enough data for atom)
+ 1484  A   138  VAL  H   HG21    22.643  H     0.766     .     2  Z score missing (not enough data for atom)
+ 1485  A   138  VAL  H   HG22    22.643  H     0.766     .     2  Z score missing (not enough data for atom)
+ 1486  A   138  VAL  H   HG23    22.643  H     0.766     .     2  Z score missing (not enough data for atom)
+ 1487  A   139  TYR  H   C        0.000  C   177.362    0.150  1  
+ 1488  A   139  TYR  H   H        0.000  H     8.425    0.536  1  
+ 1489  A   139  TYR  H   N        0.000  N   120.320    0.283  1  
+ 1490  A   139  TYR  H   CA       3.314  C    61.798    0.634  1  
+ 1491  A   139  TYR  H   HA       3.314  H     3.948   -1.165  1  
+ 1492  A   139  TYR  H   CB       6.075  C    37.071   -1.043  1  
+ 1493  A   139  TYR  H   HB2      6.075  H     2.960   -0.842  2  
+ 1494  A   139  TYR  H   HB3      6.075  H     3.452    2.180  2  
+ 1495  A   139  TYR  H   CD1     22.643  C   132.919   -0.164  1  
+ 1496  A   139  TYR  H   CD2      6.627  C   132.919    0.153  1  
+ 1497  A   139  TYR  H   HD1     22.643  H     6.818   -1.406  1  
+ 1498  A   139  TYR  H   HD2      6.627  H     6.818   -0.930  1  
+ 1499  A   139  TYR  H   CE1     31.480  C   117.371   -1.527  1  
+ 1500  A   139  TYR  H   CE2     14.911  C   117.371   -1.492  1  
+ 1501  A   139  TYR  H   HE1     31.480  H     6.524   -1.469  1  
+ 1502  A   139  TYR  H   HE2     14.911  H     6.524   -0.897  1  
+ 1503  A   140  TYR  H   C        0.000  C   178.439    0.914  1  
+ 1504  A   140  TYR  H   H        0.000  H     8.160    0.106  1  
+ 1505  A   140  TYR  H   N        0.000  N   121.356    0.617  1  
+ 1506  A   140  TYR  H   CA       0.000  C    64.243    1.650  1  
+ 1507  A   140  TYR  H   HA       0.000  H     3.483   -1.704  1  
+ 1508  A   140  TYR  H   CB       0.552  C    38.856    0.668  1  
+ 1509  A   140  TYR  H   HB2      0.552  H     2.806   -1.116  2  
+ 1510  A   140  TYR  H   HB3      0.552  H     3.172    0.372  2  
+ 1511  A   140  TYR  H   CD1      6.075  C   131.986   -0.907  1  
+ 1512  A   140  TYR  H   CD2      0.000  C   131.986   -0.695  1  
+ 1513  A   140  TYR  H   HD1      6.075  H     7.005   -0.132  1  
+ 1514  A   140  TYR  H   HD2      0.000  H     7.005    0.139  1  
+ 1515  A   140  TYR  H   CE1     19.882  C   117.964   -0.091  1  
+ 1516  A   140  TYR  H   CE2      2.209  C   117.964   -0.054  1  
+ 1517  A   140  TYR  H   HE1     19.882  H     6.724   -0.254  1  
+ 1518  A   140  TYR  H   HE2      2.209  H     6.724    0.083  1  
+ 1519  A   141  LEU  H   C        0.000  C   181.562    2.540  1  
+ 1520  A   141  LEU  H   H        0.000  H     8.298    0.406  1  
+ 1521  A   141  LEU  H   N        0.000  N   118.000   -0.711  1  
+ 1522  A   141  LEU  H   CA       0.000  C    58.112    0.309  1  
+ 1523  A   141  LEU  H   HA       0.000  H     4.383    1.574  1  
+ 1524  A   141  LEU  H   CB       0.000  C    42.907    1.041  1  
+ 1525  A   141  LEU  H   HB2      0.000  H     1.052   -1.930  2  
+ 1526  A   141  LEU  H   HB3      0.000  H     1.941    0.933  2  
+ 1527  A   141  LEU  H   CG       0.000  C    27.408    0.889  1  
+ 1528  A   141  LEU  H   HG       0.000  H     1.915    0.953  1  
+ 1529  A   141  LEU  H   CD1      0.000  C    25.295    0.127  2  
+ 1530  A   141  LEU  H   CD2      2.209  C    24.174    0.127  2  
+ 1531  A   141  LEU  H   HD1*     0.000  H     0.513   -0.970  2  
+ 1532  A   141  LEU  H   HD21     2.209  H     0.864     .     2  Z score missing (not enough data for atom)
+ 1533  A   141  LEU  H   HD22     2.209  H     0.864     .     2  Z score missing (not enough data for atom)
+ 1534  A   141  LEU  H   HD23     2.209  H     0.864     .     2  Z score missing (not enough data for atom)
+ 1535  A   142  VAL  H   C        0.000  C   174.358   -2.490  1  
+ 1536  A   142  VAL  H   H        0.000  H     8.493    0.834  1  
+ 1537  A   142  VAL  H   N        0.000  N   116.528   -1.260  1  
+ 1538  A   142  VAL  H   CA       0.000  C    63.638   -2.526  1  
+ 1539  A   142  VAL  H   HA       0.000  H     4.115    2.002  1  
+ 1540  A   142  VAL  H   CB       1.105  C    31.922    0.428  1  
+ 1541  A   142  VAL  H   HB       1.105  H     2.219    0.409  1  
+ 1542  A   142  VAL  H   CG1     33.136  C    21.463    0.004  2  
+ 1543  A   142  VAL  H   CG2     26.509  C    21.016   -0.582  2  
+ 1544  A   142  VAL  H   HG11    33.136  H     0.878     .     2  Z score missing (not enough data for atom)
+ 1545  A   142  VAL  H   HG12    33.136  H     0.878     .     2  Z score missing (not enough data for atom)
+ 1546  A   142  VAL  H   HG13    33.136  H     0.878     .     2  Z score missing (not enough data for atom)
+ 1547  A   142  VAL  H   HG21    26.509  H     0.904     .     2  Z score missing (not enough data for atom)
+ 1548  A   142  VAL  H   HG22    26.509  H     0.904     .     2  Z score missing (not enough data for atom)
+ 1549  A   142  VAL  H   HG23    26.509  H     0.904     .     2  Z score missing (not enough data for atom)
+ 1550  A   143  GLY  C   C        5.523  C   177.498    3.623  1  Shift outlier
+ 1551  A   143  GLY  C   H        0.000  H     8.130    0.190  1  
+ 1552  A   143  GLY  C   N        0.000  N   112.330    1.175  1  
+ 1553  A   143  GLY  C   CA       5.523  C    43.275   -1.487  1  
+ 1554  A   143  GLY  C   HA2      5.523  H     3.209   -1.812  2  
+ 1555  A   143  GLY  C   HA3      5.523  H     3.434   -1.514  2  
+ 1556  A   144  PRO  H   C        1.105  C   179.018    0.231  1  
+ 1557  A   144  PRO  H   CA       4.418  C    65.368   -0.157  1  
+ 1558  A   144  PRO  H   CB      35.346  C    32.119    0.845  1  
+ 1559  A   145  MET  H   C        0.000  C   178.649    0.600  1  
+ 1560  A   145  MET  H   H        1.037  H     8.641    1.666  1  
+ 1561  A   145  MET  H   N        1.037  N   115.312   -1.544  1  
+ 1562  A   145  MET  H   CA       0.552  C    60.555    1.318  1  
+ 1563  A   145  MET  H   HA       0.552  H     3.747   -1.545  1  
+ 1564  A   145  MET  H   CB       0.000  C    32.322   -0.094  1  
+ 1565  A   145  MET  H   HG2      1.657  H     2.357   -0.557  1  
+ 1566  A   145  MET  H   HG3      1.657  H     2.357   -0.417  1  
+ 1567  A   145  MET  H   CE       2.209  C    15.758   -1.215  1  
+ 1568  A   145  MET  H   HE*      2.209  H     1.981    0.113  1  
+ 1569  A   146  THR  H   C        2.209  C   176.710    0.702  1  
+ 1570  A   146  THR  H   H        0.000  H     6.950   -2.366  1  
+ 1571  A   146  THR  H   N        0.000  N   115.946    0.139  1  
+ 1572  A   146  THR  H   CA       0.552  C    67.122    0.405  1  
+ 1573  A   146  THR  H   HA       0.552  H     3.916   -0.060  1  
+ 1574  A   146  THR  H   CB      14.359  C    69.042   -0.008  1  
+ 1575  A   146  THR  H   HB      14.359  H     4.293    0.265  1  
+ 1576  A   146  THR  H   CG2      9.941  C    20.789   -0.873  1  
+ 1577  A   146  THR  H   HG2*     9.941  H     1.194    0.104  1  
+ 1578  A   147  GLU  H   C        1.657  C   180.027    0.939  1  
+ 1579  A   147  GLU  H   H        0.000  H     8.062   -0.139  1  
+ 1580  A   147  GLU  H   N        0.000  N   125.247    2.514  1  
+ 1581  A   147  GLU  H   CA       2.209  C    59.469    0.340  1  
+ 1582  A   147  GLU  H   HA       2.209  H     4.103    0.334  1  
+ 1583  A   147  GLU  H   CB       8.284  C    28.457   -0.800  1  
+ 1584  A   147  GLU  H   HB2      8.284  H     1.997   -0.480  1  
+ 1585  A   147  GLU  H   HB3      8.284  H     1.997   -0.631  1  
+ 1586  A   147  GLU  H   HG2     18.225  H     2.177   -1.127  1  
+ 1587  A   147  GLU  H   HG3     18.225  H     2.177   -1.440  1  
+ 1588  A   148  SER  H   C        0.000  C   178.067    1.360  1  
+ 1589  A   148  SER  H   H        1.555  H     7.921   -0.418  1  
+ 1590  A   148  SER  H   N        1.555  N   116.208    0.528  1  
+ 1591  A   148  SER  H   CA      10.493  C    62.269    1.192  1  
+ 1592  A   148  SER  H   HA      10.493  H     4.101   -1.167  1  
+ 1593  A   148  SER  H   CB      14.359  C    78.834   16.967  1  Shift outlier
+ 1594  A   149  ALA  H   C        0.000  C   179.170    0.030  1  
+ 1595  A   149  ALA  H   H        0.000  H     7.814   -0.545  1  
+ 1596  A   149  ALA  H   N        0.000  N   124.267    1.107  1  
+ 1597  A   149  ALA  H   CA       0.000  C    55.001   -0.136  1  
+ 1598  A   149  ALA  H   HA       0.000  H     3.835   -0.397  1  
+ 1599  A   149  ALA  H   CB       0.000  C    18.117   -0.168  1  
+ 1600  A   149  ALA  H   HB*      0.000  H     0.933   -1.909  1  
+ 1601  A   150  SER  H   C        0.000  C   174.760   -1.013  1  
+ 1602  A   150  SER  H   H        0.000  H     7.746   -0.780  1  
+ 1603  A   150  SER  H   N        0.000  N   111.059   -1.498  1  
+ 1604  A   150  SER  H   CA       0.552  C    60.973   -0.278  1  
+ 1605  A   150  SER  H   HA       0.552  H     4.101   -1.167  1  
+ 1606  A   150  SER  H   CB      17.673  C    62.726   -0.180  1  
+ 1607  A   151  GLN  T   C        3.314  C   176.779    0.844  1  
+ 1608  A   151  GLN  T   H        0.000  H     7.403   -1.165  1  
+ 1609  A   151  GLN  T   N        0.000  N   119.082    0.050  1  
+ 1610  A   151  GLN  T   CA       5.523  C    55.381   -0.612  1  
+ 1611  A   151  GLN  T   HA       5.523  H     4.398    0.495  1  
+ 1612  A   151  GLN  T   CB      13.255  C    28.354   -0.459  1  
+ 1613  A   151  GLN  T   HG2     15.464  H     2.401    0.612  2  
+ 1614  A   151  GLN  T   HG3     15.464  H     2.463    1.063  2  
+ 1615  A   151  GLN  T   HE21    30.061  H     6.704   -1.564  1  
+ 1616  A   151  GLN  T   HE22    30.061  H     7.261    0.868  1  
+ 1617  A   151  GLN  T   NE2     30.061  N   112.982    0.776  1  
+ 1618  A   152  ARG  T   C        1.657  C   175.301   -0.645  1  
+ 1619  A   152  ARG  T   H        0.000  H     7.407   -1.058  1  
+ 1620  A   152  ARG  T   N        0.000  N   119.635   -0.028  1  
+ 1621  A   152  ARG  T   CA       4.971  C    55.018   -0.673  1  
+ 1622  A   152  ARG  T   HA       4.971  H     4.475    0.797  1  
+ 1623  A   152  ARG  T   CB       0.000  C    30.027   -0.321  1  
+ 1624  A   152  ARG  T   HD2      2.209  H     3.067   -0.433  2  
+ 1625  A   152  ARG  T   HD3      2.209  H     3.184    0.193  2  
+ 1626  A   153  SER  T   C        5.523  C   175.281    0.607  1  
+ 1627  A   153  SER  T   H        0.000  H     7.845   -0.443  1  
+ 1628  A   153  SER  T   N        0.000  N   114.059   -0.380  1  
+ 1629  A   153  SER  T   CA       7.732  C    58.313   -0.161  1  
+ 1630  A   153  SER  T   CB       4.971  C    63.843    0.080  1  
+ 1631  A   154  SER  H   H        6.220  H     8.789    0.238  1  
+ 1632  A   154  SER  H   N        6.220  N   118.005    0.354  1  
+ 1633  A   155  GLY  H   C        0.552  C   176.343    0.692  1  
+ 1634  A   155  GLY  H   H        2.073  H     8.898    1.964  1  
+ 1635  A   155  GLY  H   N        2.073  N   111.352    1.729  1  
+ 1636  A   155  GLY  H   CA      11.046  C    46.897   -0.065  1  
+ 1637  A   156  ILE  H   C        0.000  C   177.620    0.093  1  
+ 1638  A   156  ILE  H   H        1.555  H     7.427   -1.272  1  
+ 1639  A   156  ILE  H   N        1.555  N   124.526    1.107  1  
+ 1640  A   156  ILE  H   CA       0.000  C    63.723   -0.644  1  
+ 1641  A   156  ILE  H   HA       0.000  H     3.710    0.336  1  
+ 1642  A   156  ILE  H   CB       0.000  C    36.324   -1.150  1  
+ 1643  A   156  ILE  H   HB       0.000  H     2.007    0.506  1  
+ 1644  A   156  ILE  H   CG1      1.105  C    28.981   -0.079  1  
+ 1645  A   156  ILE  H   CG2      0.000  C    18.259    0.431  1  
+ 1646  A   156  ILE  H   HG12     1.105  H     1.105   -0.447  2  
+ 1647  A   156  ILE  H   HG13     1.105  H     1.560    0.522  2  
+ 1648  A   156  ILE  H   HG2*     0.000  H     0.928    0.513  1  
+ 1649  A   156  ILE  H   CD1     10.493  C    11.764   -1.134  1  
+ 1650  A   156  ILE  H   HD1*    10.493  H     0.803    0.208  1  
+ 1651  A   157  LYS  H   C        2.209  C   178.474    0.166  1  
+ 1652  A   157  LYS  H   H        0.000  H     8.457    0.943  1  
+ 1653  A   157  LYS  H   N        0.000  N   122.118    1.199  1  
+ 1654  A   157  LYS  H   CA       1.105  C    60.406    0.824  1  
+ 1655  A   157  LYS  H   CB      12.150  C    30.956   -2.037  1  
+ 1656  A   158  SER  H   C        0.000  C   177.076    0.649  1  
+ 1657  A   158  SER  H   H        1.037  H     8.151    0.511  1  
+ 1658  A   158  SER  H   N        1.037  N   113.142   -0.835  1  
+ 1659  A   158  SER  H   CA       4.418  C    61.603    0.171  1  
+ 1660  A   158  SER  H   HA       4.418  H     4.120   -0.650  1  
+ 1661  A   158  SER  H   CB      25.957  C    62.837   -0.014  1  
+ 1662  A   158  SER  H   HB2     25.957  H     3.951   -0.182  2  
+ 1663  A   158  SER  H   HB3     25.957  H     3.985    0.215  2  
+ 1664  A   159  LEU  H   C        0.000  C   177.709   -0.543  1  
+ 1665  A   159  LEU  H   H        0.000  H     7.559   -1.013  1  
+ 1666  A   159  LEU  H   N        0.000  N   124.043    1.677  1  
+ 1667  A   159  LEU  H   CA       1.105  C    57.913    0.272  1  
+ 1668  A   159  LEU  H   HA       1.105  H     4.098    0.104  1  
+ 1669  A   159  LEU  H   CB       0.000  C    40.869   -0.660  1  
+ 1670  A   159  LEU  H   HB2      0.000  H     1.527   -0.589  2  
+ 1671  A   159  LEU  H   HB3      0.000  H     1.942    0.936  2  
+ 1672  A   159  LEU  H   CG       0.000  C    26.234   -0.827  1  
+ 1673  A   159  LEU  H   HG       0.000  H     1.504   -0.333  1  
+ 1674  A   159  LEU  H   CD1     14.911  C    23.368   -0.908  1  
+ 1675  A   159  LEU  H   HD1*    14.911  H     0.840   -0.036  1  
+ 1676  A   160  TYR  H   C        0.000  C   176.607   -0.385  1  
+ 1677  A   160  TYR  H   H        0.000  H     8.922    1.343  1  
+ 1678  A   160  TYR  H   N        0.000  N   119.390   -0.016  1  
+ 1679  A   160  TYR  H   CA       0.000  C    63.215    1.075  1  
+ 1680  A   160  TYR  H   HA       0.000  H     3.714   -1.056  1  
+ 1681  A   160  TYR  H   CB       0.000  C    37.528   -0.540  1  
+ 1682  A   160  TYR  H   HB2      0.000  H     2.870   -0.534  2  
+ 1683  A   160  TYR  H   HB3      0.000  H     3.109    0.389  2  
+ 1684  A   160  TYR  H   HD1      0.000  H     6.890   -0.238  1  
+ 1685  A   160  TYR  H   HD2      4.418  H     6.890   -0.629  1  
+ 1686  A   161  VAL  H   C        1.105  C   177.486   -0.009  1  
+ 1687  A   161  VAL  H   H        0.000  H     8.470    0.792  1  
+ 1688  A   161  VAL  H   N        0.000  N   118.790   -0.347  1  
+ 1689  A   161  VAL  H   CA       0.000  C    67.817    1.162  1  
+ 1690  A   161  VAL  H   HA       0.000  H     3.060   -1.532  1  
+ 1691  A   161  VAL  H   CB       8.284  C    31.493   -0.120  1  
+ 1692  A   161  VAL  H   HB       8.284  H     2.128    0.346  1  
+ 1693  A   161  VAL  H   CG1     40.868  C    21.501    0.188  2  
+ 1694  A   161  VAL  H   CG2     13.807  C    23.422    1.212  2  
+ 1695  A   161  VAL  H   HG11    40.868  H     0.916     .     2  Z score missing (not enough data for atom)
+ 1696  A   161  VAL  H   HG12    40.868  H     0.916     .     2  Z score missing (not enough data for atom)
+ 1697  A   161  VAL  H   HG13    40.868  H     0.916     .     2  Z score missing (not enough data for atom)
+ 1698  A   161  VAL  H   HG21    13.807  H     1.136     .     2  Z score missing (not enough data for atom)
+ 1699  A   161  VAL  H   HG22    13.807  H     1.136     .     2  Z score missing (not enough data for atom)
+ 1700  A   161  VAL  H   HG23    13.807  H     1.136     .     2  Z score missing (not enough data for atom)
+ 1701  A   162  ARG  H   C        0.000  C   179.292    0.891  1  
+ 1702  A   162  ARG  H   H        0.000  H     7.574   -0.920  1  
+ 1703  A   162  ARG  H   N        0.000  N   119.796    0.341  1  
+ 1704  A   162  ARG  H   CA       3.866  C    59.921    0.885  1  
+ 1705  A   162  ARG  H   HA       3.866  H     3.983   -0.800  1  
+ 1706  A   162  ARG  H   CB       0.552  C    30.543    0.437  1  
+ 1707  A   162  ARG  H   HB2      0.552  H     1.837   -0.365  2  
+ 1708  A   162  ARG  H   HB3      0.552  H     1.906    0.047  2  
+ 1709  A   163  LEU  H   C        0.000  C   180.386    1.599  1  
+ 1710  A   163  LEU  H   H        0.000  H     8.031   -0.107  1  
+ 1711  A   163  LEU  H   N        0.000  N   118.498   -0.514  1  
+ 1712  A   163  LEU  H   CA       0.000  C    56.998   -0.746  1  
+ 1713  A   163  LEU  H   HA       0.000  H     3.959   -0.084  1  
+ 1714  A   163  LEU  H   CB       0.000  C    41.238   -0.352  1  
+ 1715  A   163  LEU  H   HB2      0.000  H     1.156   -1.636  2  
+ 1716  A   163  LEU  H   HB3      0.000  H     1.519   -0.262  2  
+ 1717  A   163  LEU  H   CG       0.000  C    26.619   -0.265  1  
+ 1718  A   163  LEU  H   HG       0.000  H     1.526   -0.264  1  
+ 1719  A   163  LEU  H   CD1      0.000  C    21.817   -1.920  2  
+ 1720  A   163  LEU  H   CD2      0.000  C    25.815    0.945  2  
+ 1721  A   163  LEU  H   HD1*     0.000  H     0.115   -2.475  2  
+ 1722  A   163  LEU  H   HD21     0.000  H     0.361     .     2  Z score missing (not enough data for atom)
+ 1723  A   163  LEU  H   HD22     0.000  H     0.361     .     2  Z score missing (not enough data for atom)
+ 1724  A   163  LEU  H   HD23     0.000  H     0.361     .     2  Z score missing (not enough data for atom)
+ 1725  A   164  ARG  H   C        0.000  C   177.319   -0.689  1  
+ 1726  A   164  ARG  H   H        0.000  H     9.414    2.710  1  
+ 1727  A   164  ARG  H   N        0.000  N   125.483    2.716  1  
+ 1728  A   164  ARG  H   CA       0.000  C    59.116   -0.252  1  
+ 1729  A   164  ARG  H   CB       0.000  C    29.323   -0.530  1  
+ 1730  A   164  ARG  H   HD2      0.000  H     3.057   -0.375  2  
+ 1731  A   164  ARG  H   HD3      0.000  H     3.411    1.342  2  
+ 1732  A   165  ASN  H   C        0.552  C   176.388   -0.171  1  
+ 1733  A   165  ASN  H   H        0.000  H     8.528    0.620  1  
+ 1734  A   165  ASN  H   N        0.000  N   120.229    1.098  1  
+ 1735  A   165  ASN  H   CA       0.552  C    55.765   -0.080  1  
+ 1736  A   165  ASN  H   HA       0.552  H     4.240   -1.197  1  
+ 1737  A   165  ASN  H   CB      17.673  C    36.646   -1.456  1  
+ 1738  A   165  ASN  H   HB2     17.673  H     2.576   -1.889  2  
+ 1739  A   165  ASN  H   HB3     17.673  H     3.052    1.716  2  
+ 1740  A   165  ASN  H   HD21     1.037  H     7.028   -0.682  1  
+ 1741  A   165  ASN  H   HD22     1.037  H     7.463    0.620  1  
+ 1742  A   165  ASN  H   ND2      1.037  N   110.351   -0.763  1  
+ 1743  A   166  LEU  H   C        0.000  C   177.032   -1.085  1  
+ 1744  A   166  LEU  H   H        2.073  H     7.387   -1.022  1  
+ 1745  A   166  LEU  H   N        2.073  N   119.596   -0.564  1  
+ 1746  A   166  LEU  H   CA       7.732  C    58.947    1.295  1  
+ 1747  A   166  LEU  H   HA       7.732  H     3.886   -1.773  1  
+ 1748  A   166  LEU  H   CB       4.971  C    42.478    0.803  1  
+ 1749  A   166  LEU  H   HG       2.761  H     1.725    0.323  1  
+ 1750  A   166  LEU  H   CD1     29.823  C    25.762    0.887  2  
+ 1751  A   166  LEU  H   CD2      0.000  C    26.106    1.103  2  
+ 1752  A   166  LEU  H   HD1*    29.823  H     0.885    0.118  2  
+ 1753  A   166  LEU  H   HD21     0.000  H     1.038     .     2  Z score missing (not enough data for atom)
+ 1754  A   166  LEU  H   HD22     0.000  H     1.038     .     2  Z score missing (not enough data for atom)
+ 1755  A   166  LEU  H   HD23     0.000  H     1.038     .     2  Z score missing (not enough data for atom)
+ 1756  A   167  THR  H   C        0.000  C   174.624   -1.144  1  
+ 1757  A   167  THR  H   H        0.000  H     7.698   -0.738  1  
+ 1758  A   167  THR  H   N        0.000  N   115.107   -0.047  1  
+ 1759  A   167  THR  H   CA       0.000  C    66.913    0.221  1  
+ 1760  A   167  THR  H   HA       0.000  H     3.635   -0.896  1  
+ 1761  A   167  THR  H   CB       0.000  C    68.667    0.256  1  
+ 1762  A   167  THR  H   HB       0.000  H     3.965   -0.891  1  
+ 1763  A   167  THR  H   CG2      0.552  C    16.894   -3.786  1  Shift outlier
+ 1764  A   167  THR  H   HG2*     0.552  H    -0.314   -6.603  1  Shift outlier
+ 1765  A   168  VAL  H   C        0.000  C   176.300   -0.954  1  
+ 1766  A   168  VAL  H   H        0.000  H     8.653    1.125  1  
+ 1767  A   168  VAL  H   N        0.000  N   117.841   -0.730  1  
+ 1768  A   168  VAL  H   CA       0.000  C    67.998    1.322  1  
+ 1769  A   168  VAL  H   HA       0.000  H     3.279   -0.799  1  
+ 1770  A   168  VAL  H   CB       0.000  C    31.490    0.040  1  
+ 1771  A   168  VAL  H   HB       0.000  H     1.965   -0.654  1  
+ 1772  A   168  VAL  H   CG1     11.046  C    22.261    0.507  2  
+ 1773  A   168  VAL  H   CG2     16.016  C    23.500    1.237  2  
+ 1774  A   168  VAL  H   HG11    11.046  H     0.854     .     2  Z score missing (not enough data for atom)
+ 1775  A   168  VAL  H   HG12    11.046  H     0.854     .     2  Z score missing (not enough data for atom)
+ 1776  A   168  VAL  H   HG13    11.046  H     0.854     .     2  Z score missing (not enough data for atom)
+ 1777  A   168  VAL  H   HG21    16.016  H     0.897     .     2  Z score missing (not enough data for atom)
+ 1778  A   168  VAL  H   HG22    16.016  H     0.897     .     2  Z score missing (not enough data for atom)
+ 1779  A   168  VAL  H   HG23    16.016  H     0.897     .     2  Z score missing (not enough data for atom)
+ 1780  A   169  VAL  H   C        0.000  C   175.900   -1.270  1  
+ 1781  A   169  VAL  H   H        0.000  H     7.337   -1.269  1  
+ 1782  A   169  VAL  H   N        0.000  N   113.479   -2.490  1  
+ 1783  A   169  VAL  H   CA       4.418  C    66.701    0.828  1  
+ 1784  A   169  VAL  H   HA       4.418  H     3.640   -0.483  1  
+ 1785  A   169  VAL  H   CB       1.105  C    31.344   -0.294  1  
+ 1786  A   169  VAL  H   HB       1.105  H     2.074   -0.257  1  
+ 1787  A   169  VAL  H   CG1     47.495  C    21.535    0.146  2  
+ 1788  A   169  VAL  H   CG2     36.450  C    23.478    1.458  2  
+ 1789  A   169  VAL  H   HG11    47.495  H     0.919     .     2  Z score missing (not enough data for atom)
+ 1790  A   169  VAL  H   HG12    47.495  H     0.919     .     2  Z score missing (not enough data for atom)
+ 1791  A   169  VAL  H   HG13    47.495  H     0.919     .     2  Z score missing (not enough data for atom)
+ 1792  A   169  VAL  H   HG21    36.450  H     1.058     .     2  Z score missing (not enough data for atom)
+ 1793  A   169  VAL  H   HG22    36.450  H     1.058     .     2  Z score missing (not enough data for atom)
+ 1794  A   169  VAL  H   HG23    36.450  H     1.058     .     2  Z score missing (not enough data for atom)
+ 1795  A   170  LEU  H   C        0.000  C   181.420    2.426  1  
+ 1796  A   170  LEU  H   H        0.000  H     7.762   -0.623  1  
+ 1797  A   170  LEU  H   N        0.000  N   114.713   -2.010  1  
+ 1798  A   170  LEU  H   CA       2.209  C    56.806   -0.370  1  
+ 1799  A   170  LEU  H   HA       2.209  H     4.362    1.199  1  
+ 1800  A   170  LEU  H   CB       9.941  C    40.561   -1.189  1  
+ 1801  A   170  LEU  H   HB2      9.941  H     2.320    2.811  1  
+ 1802  A   170  LEU  H   CG       0.000  C    28.197    2.042  1  
+ 1803  A   170  LEU  H   HG       0.000  H     2.071    1.442  1  
+ 1804  A   170  LEU  H   CD1      0.000  C    22.803   -1.340  2  
+ 1805  A   170  LEU  H   CD2      7.179  C    26.770    1.835  2  
+ 1806  A   170  LEU  H   HD1*     0.000  H     0.908    0.524  2  
+ 1807  A   170  LEU  H   HD21     7.179  H     1.004     .     2  Z score missing (not enough data for atom)
+ 1808  A   170  LEU  H   HD22     7.179  H     1.004     .     2  Z score missing (not enough data for atom)
+ 1809  A   170  LEU  H   HD23     7.179  H     1.004     .     2  Z score missing (not enough data for atom)
+ 1810  A   171  TRP  H   C        0.000  C   178.214    0.230  1  
+ 1811  A   171  TRP  H   H        0.000  H     9.711    2.368  1  
+ 1812  A   171  TRP  H   N        0.000  N   120.139   -0.202  1  
+ 1813  A   171  TRP  H   CA       0.000  C    61.057    0.545  1  
+ 1814  A   171  TRP  H   CB       0.000  C    27.521   -1.329  1  
+ 1815  A   171  TRP  H   CD1      0.000  C   125.172   -0.759  1  
+ 1816  A   171  TRP  H   HD1      0.000  H     7.360    0.616  1  
+ 1817  A   171  TRP  H   CE3      0.000  C   119.540   -0.567  1  
+ 1818  A   171  TRP  H   HE1      0.000  H    10.044   -0.135  1  
+ 1819  A   171  TRP  H   HE3      0.000  H     7.324    0.088  1  
+ 1820  A   171  TRP  H   NE1      0.000  N   129.070    0.057  1  
+ 1821  A   171  TRP  H   HZ2      0.000  H     7.163   -0.185  1  
+ 1822  A   171  TRP  H   CH2      0.552  C   125.084    1.146  1  
+ 1823  A   171  TRP  H   HH2      0.552  H     7.329    0.875  1  
+ 1824  A   172  ALA  H   C        0.000  C   176.810   -1.750  1  
+ 1825  A   172  ALA  H   H        0.000  H     7.583   -0.970  1  
+ 1826  A   172  ALA  H   N        0.000  N   117.100   -1.960  1  
+ 1827  A   172  ALA  H   CA       0.000  C    54.267   -0.907  1  
+ 1828  A   172  ALA  H   HA       0.000  H     4.047    0.401  1  
+ 1829  A   172  ALA  H   CB      29.823  C    18.142   -0.090  1  
+ 1830  A   172  ALA  H   HB*     29.823  H     1.790    2.797  1  
+ 1831  A   173  ILE  H   C        0.000  C   179.572    1.659  1  
+ 1832  A   173  ILE  H   H        0.000  H     7.692   -0.693  1  
+ 1833  A   173  ILE  H   N        0.000  N   114.773   -2.180  1  
+ 1834  A   173  ILE  H   CA       0.000  C    63.684   -0.666  1  
+ 1835  A   173  ILE  H   HA       0.000  H     3.998    1.318  1  
+ 1836  A   173  ILE  H   CB       0.000  C    36.907   -0.672  1  
+ 1837  A   173  ILE  H   HB       0.000  H     2.126    1.010  1  
+ 1838  A   173  ILE  H   CG1      7.732  C    28.501   -0.171  1  
+ 1839  A   173  ILE  H   CG2     18.225  C    18.197    1.306  1  
+ 1840  A   173  ILE  H   HG12     7.732  H     1.215   -0.199  2  
+ 1841  A   173  ILE  H   HG13     7.732  H     2.125    2.069  2  
+ 1842  A   173  ILE  H   HG2*    18.225  H     0.840   -0.204  1  
+ 1843  A   173  ILE  H   CD1     36.450  C    12.518   -0.768  1  
+ 1844  A   173  ILE  H   HD1*    36.450  H     0.839   -0.014  1  
+ 1845  A   174  TYR  H   C        0.000  C   177.332    0.129  1  
+ 1846  A   174  TYR  H   H        0.000  H     7.389   -1.145  1  
+ 1847  A   174  TYR  H   N        0.000  N   119.690    0.080  1  
+ 1848  A   174  TYR  H   CA       0.000  C    64.899    2.017  1  
+ 1849  A   174  TYR  H   HA       0.000  H     3.840   -0.703  1  
+ 1850  A   174  TYR  H   CD1      0.000  C   129.797   -2.747  1  
+ 1851  A   174  TYR  H   CD2      0.000  C   129.797   -2.934  1  
+ 1852  A   174  TYR  H   HD1      0.000  H     6.951   -0.039  1  
+ 1853  A   174  TYR  H   HD2      0.000  H     6.951   -0.030  1  
+ 1854  A   174  TYR  H   HH       0.000  H     9.817     .     1  Z score missing (not enough data for atom)
+ 1855  A   175  PRO  H   C        1.105  C   178.120   -0.604  1  
+ 1856  A   175  PRO  H   CA       0.000  C    65.337   -0.189  1  
+ 1857  A   175  PRO  H   CB      13.807  C    29.323   -2.273  1  
+ 1858  A   176  PHE  H   C        0.000  C   177.366    0.309  1  
+ 1859  A   176  PHE  H   H        0.000  H     7.391   -1.325  1  
+ 1860  A   176  PHE  H   N        0.000  N   116.730   -0.800  1  
+ 1861  A   176  PHE  H   CA       1.105  C    62.491    0.913  1  
+ 1862  A   176  PHE  H   HA       1.105  H     4.241    0.002  1  
+ 1863  A   176  PHE  H   CB       6.075  C    38.658   -0.209  1  
+ 1864  A   176  PHE  H   HB2      6.075  H     2.961   -0.977  2  
+ 1865  A   176  PHE  H   HB3      6.075  H     3.346    0.894  2  
+ 1866  A   176  PHE  H   CD1     17.673  C   131.456   -0.295  1  
+ 1867  A   176  PHE  H   CD2      4.971  C   131.456   -0.090  1  
+ 1868  A   176  PHE  H   HD1     17.673  H     7.466    1.291  1  
+ 1869  A   176  PHE  H   HD2      4.971  H     7.466    1.222  1  
+ 1870  A   176  PHE  H   CE1     34.241  C   130.952   -0.239  1  
+ 1871  A   176  PHE  H   CE2     13.255  C   130.952   -0.178  1  
+ 1872  A   176  PHE  H   HE1     34.241  H     7.279    0.273  1  
+ 1873  A   176  PHE  H   HE2     13.255  H     7.279    0.325  1  
+ 1874  A   176  PHE  H   CZ      35.346  C   128.758   -1.191  1  
+ 1875  A   176  PHE  H   HZ      35.346  H     7.118   -0.958  1  
+ 1876  A   177  ILE  H   C        0.000  C   178.760    1.008  1  
+ 1877  A   177  ILE  H   H        0.000  H     7.731   -0.616  1  
+ 1878  A   177  ILE  H   N        0.000  N   120.822    0.416  1  
+ 1879  A   177  ILE  H   CA       0.552  C    63.893   -0.632  1  
+ 1880  A   177  ILE  H   HA       0.552  H     3.669   -0.083  1  
+ 1881  A   177  ILE  H   CB       0.000  C    36.675   -0.862  1  
+ 1882  A   177  ILE  H   HB       0.000  H     2.063    0.743  1  
+ 1883  A   177  ILE  H   CG1      0.000  C    28.479   -0.368  1  
+ 1884  A   177  ILE  H   CG2      0.000  C    18.143    0.334  1  
+ 1885  A   177  ILE  H   HG12     0.000  H     1.217   -0.185  2  
+ 1886  A   177  ILE  H   HG13     0.000  H     1.449    0.408  2  
+ 1887  A   177  ILE  H   HG2*     0.000  H     1.040    0.994  1  
+ 1888  A   177  ILE  H   CD1     13.807  C    12.684   -0.443  1  
+ 1889  A   177  ILE  H   HD1*    13.807  H     0.604   -0.988  1  
+ 1890  A   178  TRP  H   C        0.000  C   176.759   -0.762  1  
+ 1891  A   178  TRP  H   H        0.000  H     8.037   -0.291  1  
+ 1892  A   178  TRP  H   N        0.000  N   123.991    1.274  1  
+ 1893  A   178  TRP  H   CA       0.552  C    62.225    0.894  1  
+ 1894  A   178  TRP  H   CB       0.000  C    31.335    1.764  1  
+ 1895  A   178  TRP  H   HB2      0.000  H     3.358    0.219  1  
+ 1896  A   178  TRP  H   HB3      0.000  H     3.358    0.420  1  
+ 1897  A   178  TRP  H   CD1      1.105  C   127.591    0.577  1  
+ 1898  A   178  TRP  H   HD1      1.105  H     7.478    0.812  1  
+ 1899  A   178  TRP  H   CE3      0.000  C   122.815    2.248  1  
+ 1900  A   178  TRP  H   HE1      0.000  H     9.397   -1.354  1  
+ 1901  A   178  TRP  H   HE3      0.000  H     6.712   -1.322  1  
+ 1902  A   178  TRP  H   NE1      0.000  N   126.466   -1.366  1  
+ 1903  A   178  TRP  H   CZ2      0.000  C   112.349   -1.630  1  
+ 1904  A   178  TRP  H   CZ3      0.000  C   120.358   -0.663  1  
+ 1905  A   178  TRP  H   HZ2      0.000  H     7.095   -0.409  1  
+ 1906  A   178  TRP  H   HZ3      0.000  H     6.338   -0.933  1  
+ 1907  A   178  TRP  H   CH2      0.000  C   123.889    0.175  1  
+ 1908  A   178  TRP  H   HH2      0.000  H     6.447   -1.343  1  
+ 1909  A   179  LEU  H   C        0.000  C   178.257   -0.104  1  
+ 1910  A   179  LEU  H   H        0.000  H     7.983   -0.199  1  
+ 1911  A   179  LEU  H   N        0.000  N   114.522   -2.085  1  
+ 1912  A   179  LEU  H   CA       0.000  C    57.969    0.173  1  
+ 1913  A   179  LEU  H   HA       0.000  H     4.037    0.221  1  
+ 1914  A   179  LEU  H   CB       2.209  C    43.020    1.026  1  
+ 1915  A   179  LEU  H   HB2      2.209  H     1.630   -0.453  2  
+ 1916  A   179  LEU  H   HB3      2.209  H     1.794    0.411  2  
+ 1917  A   179  LEU  H   CG      11.046  C    26.480   -1.212  1  
+ 1918  A   179  LEU  H   HG      11.046  H     1.659   -0.249  1  
+ 1919  A   179  LEU  H   CD1     23.748  C    24.289   -0.284  2  
+ 1920  A   179  LEU  H   CD2      8.284  C    23.744   -0.096  2  
+ 1921  A   179  LEU  H   HD1*    23.748  H     0.716   -1.582  2  
+ 1922  A   179  LEU  H   HD21     8.284  H     0.639     .     2  Z score missing (not enough data for atom)
+ 1923  A   179  LEU  H   HD22     8.284  H     0.639     .     2  Z score missing (not enough data for atom)
+ 1924  A   179  LEU  H   HD23     8.284  H     0.639     .     2  Z score missing (not enough data for atom)
+ 1925  A   180  LEU  H   C        0.552  C   177.779   -0.402  1  
+ 1926  A   180  LEU  H   H        0.000  H     8.239    0.293  1  
+ 1927  A   180  LEU  H   N        0.000  N   114.386   -2.139  1  
+ 1928  A   180  LEU  H   CA       0.000  C    55.617   -2.054  1  
+ 1929  A   180  LEU  H   HA       0.000  H     4.456    1.860  1  
+ 1930  A   180  LEU  H   CB       6.075  C    41.882    0.248  1  
+ 1931  A   180  LEU  H   HB2      6.075  H     1.666   -0.382  2  
+ 1932  A   180  LEU  H   HB3      6.075  H     1.940    1.154  2  
+ 1933  A   180  LEU  H   CG       0.000  C    27.190    0.570  1  
+ 1934  A   180  LEU  H   HG       0.000  H     2.022    1.288  1  
+ 1935  A   180  LEU  H   CD1     42.525  C    25.410    0.539  2  
+ 1936  A   180  LEU  H   CD2     22.091  C    23.012   -0.620  2  
+ 1937  A   180  LEU  H   HD1*    42.525  H     0.859   -0.320  2  
+ 1938  A   180  LEU  H   HD21    22.091  H     0.868     .     2  Z score missing (not enough data for atom)
+ 1939  A   180  LEU  H   HD22    22.091  H     0.868     .     2  Z score missing (not enough data for atom)
+ 1940  A   180  LEU  H   HD23    22.091  H     0.868     .     2  Z score missing (not enough data for atom)
+ 1941  A   181  GLY  T   C        0.000  C   177.752    2.336  1  
+ 1942  A   181  GLY  T   H        0.518  H     7.910   -0.739  1  
+ 1943  A   181  GLY  T   N        0.518  N   111.345    0.432  1  
+ 1944  A   181  GLY  T   CA       1.105  C    43.907   -1.302  1  
+ 1945  A   181  GLY  T   HA2      1.105  H     4.054    0.250  1  
+ 1946  A   181  GLY  T   HA3      1.105  H     4.054    0.448  1  
+ 1947  A   183  PRO  T   C        0.000  C   174.454   -1.558  1  
+ 1948  A   183  PRO  T   CA       0.000  C    64.961    1.060  1  
+ 1949  A   183  PRO  T   CB       0.000  C    28.771   -2.273  1  
+ 1950  A   184  GLY  T   C        0.000  C   175.964    1.252  1  
+ 1951  A   184  GLY  T   H        0.000  H     7.020   -1.942  1  
+ 1952  A   184  GLY  T   N        0.000  N   106.697   -0.725  1  
+ 1953  A   184  GLY  T   CA       0.000  C    44.115   -0.877  1  
+ 1954  A   184  GLY  T   HA2      0.000  H     3.960   -0.025  2  
+ 1955  A   184  GLY  T   HA3      0.000  H     4.131    0.536  2  
+ 1956  A   185  VAL  T   C        2.761  C   175.961    0.249  1  
+ 1957  A   185  VAL  T   H        0.000  H     8.968    1.577  1  
+ 1958  A   185  VAL  T   N        0.000  N   121.283    0.259  1  
+ 1959  A   185  VAL  T   CA       3.314  C    61.980   -0.046  1  
+ 1960  A   185  VAL  T   HA       3.314  H     4.139    0.088  1  
+ 1961  A   185  VAL  T   CB       7.732  C    31.764   -0.403  1  
+ 1962  A   185  VAL  T   HB       7.732  H     2.403    2.031  1  
+ 1963  A   185  VAL  T   CG1     24.300  C    21.926    0.671  2  
+ 1964  A   185  VAL  T   CG2      6.627  C    20.263   -0.610  2  
+ 1965  A   185  VAL  T   HG11    24.300  H     1.081     .     2  Z score missing (not enough data for atom)
+ 1966  A   185  VAL  T   HG12    24.300  H     1.081     .     2  Z score missing (not enough data for atom)
+ 1967  A   185  VAL  T   HG13    24.300  H     1.081     .     2  Z score missing (not enough data for atom)
+ 1968  A   185  VAL  T   HG21     6.627  H     1.129     .     2  Z score missing (not enough data for atom)
+ 1969  A   185  VAL  T   HG22     6.627  H     1.129     .     2  Z score missing (not enough data for atom)
+ 1970  A   185  VAL  T   HG23     6.627  H     1.129     .     2  Z score missing (not enough data for atom)
+ 1971  A   186  ALA  T   C        0.000  C   176.494   -0.412  1  
+ 1972  A   186  ALA  T   H        0.000  H     7.875   -0.234  1  
+ 1973  A   186  ALA  T   N        0.000  N   121.169   -0.595  1  
+ 1974  A   186  ALA  T   CA       0.000  C    53.428    0.395  1  
+ 1975  A   186  ALA  T   HA       0.000  H     3.294   -2.413  1  
+ 1976  A   186  ALA  T   CB      34.793  C    16.359   -1.917  1  
+ 1977  A   186  ALA  T   HB*     34.793  H     1.341   -0.304  1  
+ 1978  A   187  LEU  C   C        0.552  C   178.294    1.063  1  
+ 1979  A   187  LEU  C   H        0.000  H     7.870   -0.231  1  
+ 1980  A   187  LEU  C   N        0.000  N   119.860   -0.511  1  
+ 1981  A   187  LEU  C   CA       2.761  C    56.793    1.696  1  
+ 1982  A   187  LEU  C   HA       2.761  H     4.309   -0.297  1  
+ 1983  A   187  LEU  C   CB      10.493  C    43.254    0.909  1  
+ 1984  A   187  LEU  C   HB2     10.493  H     1.636    0.240  2  
+ 1985  A   187  LEU  C   HB3     10.493  H     1.660    0.759  2  
+ 1986  A   187  LEU  C   CG       0.000  C    27.221    0.568  1  
+ 1987  A   187  LEU  C   HG       0.000  H     1.646    0.420  1  
+ 1988  A   187  LEU  C   CD1     32.032  C    24.587   -0.272  2  
+ 1989  A   187  LEU  C   CD2     29.823  C    25.066    1.279  2  
+ 1990  A   187  LEU  C   HD1*    32.032  H     0.920    0.658  2  
+ 1991  A   187  LEU  C   HD21    29.823  H     0.935     .     2  Z score missing (not enough data for atom)
+ 1992  A   187  LEU  C   HD22    29.823  H     0.935     .     2  Z score missing (not enough data for atom)
+ 1993  A   187  LEU  C   HD23    29.823  H     0.935     .     2  Z score missing (not enough data for atom)
+ 1994  A   188  LEU  C   C        4.418  C   177.408    0.501  1  
+ 1995  A   188  LEU  C   H        1.037  H     7.868   -0.489  1  
+ 1996  A   188  LEU  C   N        1.037  N   116.436   -2.055  1  
+ 1997  A   188  LEU  C   CA       3.314  C    53.055   -1.482  1  
+ 1998  A   188  LEU  C   HA       3.314  H     4.630    1.503  1  
+ 1999  A   188  LEU  C   CG       5.523  C    26.002   -2.375  1  
+ 2000  A   188  LEU  C   HG       5.523  H     1.924    2.232  1  
+ 2001  A   188  LEU  C   CD1     34.241  C    22.363   -2.007  2  
+ 2002  A   188  LEU  C   CD2     54.675  C    25.906    1.897  2  
+ 2003  A   188  LEU  C   HD1*    34.241  H     0.801   -0.829  2  
+ 2004  A   188  LEU  C   HD21    54.675  H     0.854     .     2  Z score missing (not enough data for atom)
+ 2005  A   188  LEU  C   HD22    54.675  H     0.854     .     2  Z score missing (not enough data for atom)
+ 2006  A   188  LEU  C   HD23    54.675  H     0.854     .     2  Z score missing (not enough data for atom)
+ 2007  A   189  THR  C   C        0.000  C   173.704   -0.471  1  
+ 2008  A   189  THR  C   H        1.555  H     7.648   -0.901  1  
+ 2009  A   189  THR  C   N        1.555  N   114.037   -0.156  1  
+ 2010  A   189  THR  C   CA       1.105  C    59.995   -0.261  1  
+ 2011  A   189  THR  C   HA       1.105  H     4.543    0.041  1  
+ 2012  A   189  THR  C   CB       0.552  C    68.073   -1.183  1  
+ 2013  A   189  THR  C   HB       0.552  H     4.753    1.558  1  
+ 2014  A   189  THR  C   CG2     29.823  C    22.676    1.563  1  
+ 2015  A   189  THR  C   HG2*    29.823  H     1.457    1.698  1  
+ 2016  A   190  PRO  H   C        0.552  C   177.746   -0.952  1  
+ 2017  A   190  PRO  H   CA       0.000  C    65.874    0.316  1  
+ 2018  A   190  PRO  H   CB      22.643  C    31.339   -0.329  1  
+ 2019  A   191  THR  H   C        1.657  C   175.270   -0.227  1  
+ 2020  A   191  THR  H   H        0.000  H     7.633   -0.880  1  
+ 2021  A   191  THR  H   N        0.000  N   109.860   -1.212  1  
+ 2022  A   191  THR  H   CA       0.000  C    66.517    0.028  1  
+ 2023  A   191  THR  H   HA       0.000  H     3.623   -0.935  1  
+ 2024  A   191  THR  H   CB      10.493  C    68.426   -0.314  1  
+ 2025  A   191  THR  H   HB      10.493  H     3.924   -1.453  1  
+ 2026  A   191  THR  H   CG2     18.225  C    22.382    0.760  1  
+ 2027  A   191  THR  H   HG2*    18.225  H     1.111   -0.620  1  
+ 2028  A   192  VAL  H   C        0.000  C   176.766   -0.585  1  
+ 2029  A   192  VAL  H   H        0.518  H     7.098   -1.742  1  
+ 2030  A   192  VAL  H   N        0.518  N   122.354    1.245  1  
+ 2031  A   192  VAL  H   CA       3.866  C    67.143    0.826  1  
+ 2032  A   192  VAL  H   HA       3.866  H     3.444   -1.327  1  
+ 2033  A   192  VAL  H   CB       0.000  C    30.966   -0.703  1  
+ 2034  A   192  VAL  H   HB       0.000  H     2.095   -0.121  1  
+ 2035  A   192  VAL  H   CG1     30.375  C    22.712    1.107  2  
+ 2036  A   192  VAL  H   CG2     36.450  C    24.026    1.890  2  
+ 2037  A   192  VAL  H   HG11    30.375  H     0.982     .     2  Z score missing (not enough data for atom)
+ 2038  A   192  VAL  H   HG12    30.375  H     0.982     .     2  Z score missing (not enough data for atom)
+ 2039  A   192  VAL  H   HG13    30.375  H     0.982     .     2  Z score missing (not enough data for atom)
+ 2040  A   192  VAL  H   HG21    36.450  H     0.993     .     2  Z score missing (not enough data for atom)
+ 2041  A   192  VAL  H   HG22    36.450  H     0.993     .     2  Z score missing (not enough data for atom)
+ 2042  A   192  VAL  H   HG23    36.450  H     0.993     .     2  Z score missing (not enough data for atom)
+ 2043  A   193  ASP  H   C        0.000  C   176.624   -1.413  1  
+ 2044  A   193  ASP  H   H        0.000  H     8.059   -0.224  1  
+ 2045  A   193  ASP  H   N        0.000  N   120.639    0.388  1  
+ 2046  A   193  ASP  H   CA       0.000  C    58.246    0.833  1  
+ 2047  A   193  ASP  H   CB       0.000  C    42.824    1.696  1  
+ 2048  A   194  VAL  H   C        0.000  C   178.415    0.719  1  
+ 2049  A   194  VAL  H   H        0.000  H     7.992   -0.077  1  
+ 2050  A   194  VAL  H   N        0.000  N   115.970   -1.485  1  
+ 2051  A   194  VAL  H   CA       0.000  C    67.100    0.530  1  
+ 2052  A   194  VAL  H   HA       0.000  H     3.165   -1.181  1  
+ 2053  A   194  VAL  H   CB       0.000  C    31.027   -0.616  1  
+ 2054  A   194  VAL  H   HB       0.000  H     1.726   -1.634  1  
+ 2055  A   194  VAL  H   CG1      0.552  C    22.059   -0.031  2  
+ 2056  A   194  VAL  H   CG2      8.284  C    25.203    2.279  2  
+ 2057  A   194  VAL  H   HG11     0.552  H     0.269     .     2  Z score missing (not enough data for atom)
+ 2058  A   194  VAL  H   HG12     0.552  H     0.269     .     2  Z score missing (not enough data for atom)
+ 2059  A   194  VAL  H   HG13     0.552  H     0.269     .     2  Z score missing (not enough data for atom)
+ 2060  A   194  VAL  H   HG21     8.284  H     0.646     .     2  Z score missing (not enough data for atom)
+ 2061  A   194  VAL  H   HG22     8.284  H     0.646     .     2  Z score missing (not enough data for atom)
+ 2062  A   194  VAL  H   HG23     8.284  H     0.646     .     2  Z score missing (not enough data for atom)
+ 2063  A   195  ALA  H   C        1.105  C   178.446   -0.753  1  
+ 2064  A   195  ALA  H   H        0.000  H     8.193    0.152  1  
+ 2065  A   195  ALA  H   N        0.000  N   121.941    0.112  1  
+ 2066  A   195  ALA  H   CA       0.000  C    55.635    0.531  1  
+ 2067  A   195  ALA  H   HA       0.000  H     3.819   -0.457  1  
+ 2068  A   195  ALA  H   CB      30.375  C    18.634    0.670  1  
+ 2069  A   195  ALA  H   HB*     30.375  H     1.382   -0.666  1  
+ 2070  A   196  LEU  H   C        0.000  C   178.725    0.270  1  
+ 2071  A   196  LEU  H   H        0.000  H     8.359    0.524  1  
+ 2072  A   196  LEU  H   N        0.000  N   115.427   -1.728  1  
+ 2073  A   196  LEU  H   CA       0.000  C    57.801    0.014  1  
+ 2074  A   196  LEU  H   HA       0.000  H     3.930   -0.197  1  
+ 2075  A   196  LEU  H   CB       1.657  C    41.876    0.154  1  
+ 2076  A   196  LEU  H   HB2      1.657  H     1.228   -1.939  2  
+ 2077  A   196  LEU  H   HB3      1.657  H     1.950    0.975  2  
+ 2078  A   196  LEU  H   CG       1.105  C    26.739   -0.037  1  
+ 2079  A   196  LEU  H   HG       1.105  H     1.919    0.883  1  
+ 2080  A   196  LEU  H   CD1     17.673  C    22.851   -1.077  2  
+ 2081  A   196  LEU  H   CD2     51.361  C    26.555    2.208  2  
+ 2082  A   196  LEU  H   HD1*    17.673  H     0.713   -1.154  2  
+ 2083  A   196  LEU  H   HD21    51.361  H     0.767     .     2  Z score missing (not enough data for atom)
+ 2084  A   196  LEU  H   HD22    51.361  H     0.767     .     2  Z score missing (not enough data for atom)
+ 2085  A   196  LEU  H   HD23    51.361  H     0.767     .     2  Z score missing (not enough data for atom)
+ 2086  A   197  ILE  H   C        0.000  C   177.569    0.053  1  
+ 2087  A   197  ILE  H   H        0.000  H     7.901   -0.278  1  
+ 2088  A   197  ILE  H   N        0.000  N   119.004   -0.364  1  
+ 2089  A   197  ILE  H   CA       0.000  C    63.692   -0.661  1  
+ 2090  A   197  ILE  H   HA       0.000  H     3.711    0.339  1  
+ 2091  A   197  ILE  H   CB       0.000  C    36.103   -1.332  1  
+ 2092  A   197  ILE  H   HB       0.000  H     2.176    1.222  1  
+ 2093  A   197  ILE  H   CG1      1.105  C    29.829    0.484  1  
+ 2094  A   197  ILE  H   HG12     1.105  H     1.435    0.331  2  
+ 2095  A   197  ILE  H   HG13     1.105  H     1.621    0.649  2  
+ 2096  A   197  ILE  H   CD1      2.209  C    11.943   -1.039  1  
+ 2097  A   197  ILE  H   HD1*     2.209  H     0.926    0.886  1  
+ 2098  A   198  VAL  H   C        0.552  C   177.593    0.053  1  
+ 2099  A   198  VAL  H   H        0.000  H     8.587    1.005  1  
+ 2100  A   198  VAL  H   N        0.000  N   122.979    1.344  1  
+ 2101  A   198  VAL  H   CA       0.000  C    66.978    0.422  1  
+ 2102  A   198  VAL  H   HA       0.000  H     4.017    1.673  1  
+ 2103  A   198  VAL  H   CB       0.000  C    30.875   -0.832  1  
+ 2104  A   198  VAL  H   HB       0.000  H     2.173    0.199  1  
+ 2105  A   198  VAL  H   CG1      3.866  C    21.409   -0.373  2  
+ 2106  A   198  VAL  H   CG2      8.284  C    24.203    1.515  2  
+ 2107  A   198  VAL  H   HG11     3.866  H     0.742     .     2  Z score missing (not enough data for atom)
+ 2108  A   198  VAL  H   HG12     3.866  H     0.742     .     2  Z score missing (not enough data for atom)
+ 2109  A   198  VAL  H   HG13     3.866  H     0.742     .     2  Z score missing (not enough data for atom)
+ 2110  A   198  VAL  H   HG21     8.284  H     0.980     .     2  Z score missing (not enough data for atom)
+ 2111  A   198  VAL  H   HG22     8.284  H     0.980     .     2  Z score missing (not enough data for atom)
+ 2112  A   198  VAL  H   HG23     8.284  H     0.980     .     2  Z score missing (not enough data for atom)
+ 2113  A   199  TYR  H   C        0.000  C   177.231    0.057  1  
+ 2114  A   199  TYR  H   H        0.000  H     7.361   -1.190  1  
+ 2115  A   199  TYR  H   N        0.000  N   119.300   -0.045  1  
+ 2116  A   199  TYR  H   CA       1.657  C    61.997    0.739  1  
+ 2117  A   199  TYR  H   HA       1.657  H     3.932   -1.215  1  
+ 2118  A   199  TYR  H   CB       7.732  C    38.492    0.331  1  
+ 2119  A   199  TYR  H   HB2      7.732  H     2.910   -1.102  2  
+ 2120  A   199  TYR  H   HB3      7.732  H     3.228    0.900  2  
+ 2121  A   199  TYR  H   CD1     16.016  C   131.883   -2.225  1  
+ 2122  A   199  TYR  H   CD2      3.314  C   131.883   -0.851  1  
+ 2123  A   199  TYR  H   HD1     16.016  H     6.838   -0.925  1  
+ 2124  A   199  TYR  H   HD2      3.314  H     6.838   -0.552  1  
+ 2125  A   199  TYR  H   CE1     28.718  C   117.357   -1.330  1  
+ 2126  A   199  TYR  H   CE2     24.852  C   117.357   -1.594  1  
+ 2127  A   199  TYR  H   HE1     28.718  H     6.529   -1.438  1  
+ 2128  A   199  TYR  H   HE2     24.852  H     6.529   -2.310  1  
+ 2129  A   200  LEU  H   C        0.000  C   179.564    0.941  1  
+ 2130  A   200  LEU  H   H        0.000  H     8.400    0.602  1  
+ 2131  A   200  LEU  H   N        0.000  N   118.872   -0.367  1  
+ 2132  A   200  LEU  H   CA       0.000  C    58.537    0.711  1  
+ 2133  A   200  LEU  H   HA       0.000  H     3.706   -1.073  1  
+ 2134  A   200  LEU  H   CB       0.000  C    41.807    0.123  1  
+ 2135  A   200  LEU  H   HB2      0.000  H     1.340   -1.117  2  
+ 2136  A   200  LEU  H   HB3      0.000  H     1.449   -0.460  2  
+ 2137  A   200  LEU  H   CG       0.552  C    26.523   -0.491  1  
+ 2138  A   200  LEU  H   HG       0.552  H     1.690    0.277  1  
+ 2139  A   200  LEU  H   CD1      0.000  C    24.726   -0.208  2  
+ 2140  A   200  LEU  H   CD2      6.075  C    23.214   -0.519  2  
+ 2141  A   200  LEU  H   HD1*     0.000  H     0.118   -2.464  2  
+ 2142  A   200  LEU  H   HD21     6.075  H     0.652     .     2  Z score missing (not enough data for atom)
+ 2143  A   200  LEU  H   HD22     6.075  H     0.652     .     2  Z score missing (not enough data for atom)
+ 2144  A   200  LEU  H   HD23     6.075  H     0.652     .     2  Z score missing (not enough data for atom)
+ 2145  A   201  ASP  H   C        0.000  C   179.203    0.762  1  
+ 2146  A   201  ASP  H   H        0.000  H     9.557    2.429  1  
+ 2147  A   201  ASP  H   N        0.000  N   121.929    0.952  1  
+ 2148  A   201  ASP  H   CA       0.000  C    56.662   -0.592  1  
+ 2149  A   201  ASP  H   HA       0.000  H     4.032   -1.822  1  
+ 2150  A   201  ASP  H   CB       0.000  C    39.476   -0.769  1  
+ 2151  A   201  ASP  H   HB2      0.000  H     2.473   -1.136  2  
+ 2152  A   201  ASP  H   HB3      0.000  H     3.059    1.454  2  
+ 2153  A   202  LEU  H   C        0.000  C   180.542    1.724  1  
+ 2154  A   202  LEU  H   H        0.000  H     8.334    0.476  1  
+ 2155  A   202  LEU  H   N        0.000  N   120.080    0.111  1  
+ 2156  A   202  LEU  H   CA       0.000  C    58.706    0.871  1  
+ 2157  A   202  LEU  H   HA       0.000  H     4.029    0.190  1  
+ 2158  A   202  LEU  H   CB       0.000  C    41.562   -0.082  1  
+ 2159  A   202  LEU  H   HB2      0.000  H     2.008    0.770  2  
+ 2160  A   202  LEU  H   HB3      0.000  H     2.161    1.557  2  
+ 2161  A   202  LEU  H   CG       4.971  C    27.395    0.475  1  
+ 2162  A   202  LEU  H   HG       4.971  H     1.995    1.814  1  
+ 2163  A   202  LEU  H   CD1      0.552  C    23.132   -1.091  2  
+ 2164  A   202  LEU  H   CD2     29.270  C    26.019    1.650  2  
+ 2165  A   202  LEU  H   HD1*     0.552  H     0.858    0.360  2  
+ 2166  A   202  LEU  H   HD21    29.270  H     0.719     .     2  Z score missing (not enough data for atom)
+ 2167  A   202  LEU  H   HD22    29.270  H     0.719     .     2  Z score missing (not enough data for atom)
+ 2168  A   202  LEU  H   HD23    29.270  H     0.719     .     2  Z score missing (not enough data for atom)
+ 2169  A   203  VAL  H   C        0.000  C   177.571    0.052  1  
+ 2170  A   203  VAL  H   H        0.000  H     8.236    0.367  1  
+ 2171  A   203  VAL  H   N        0.000  N   120.667    0.411  1  
+ 2172  A   203  VAL  H   CA       4.418  C    68.142    1.880  1  
+ 2173  A   203  VAL  H   HA       4.418  H     3.431   -1.257  1  
+ 2174  A   203  VAL  H   CB       0.552  C    31.046   -1.070  1  
+ 2175  A   203  VAL  H   HB       0.552  H     2.130   -0.083  1  
+ 2176  A   203  VAL  H   CG1      0.000  C    22.622    0.259  2  
+ 2177  A   203  VAL  H   CG2     22.091  C    23.771    1.611  2  
+ 2178  A   203  VAL  H   HG11     0.000  H     0.835     .     2  Z score missing (not enough data for atom)
+ 2179  A   203  VAL  H   HG12     0.000  H     0.835     .     2  Z score missing (not enough data for atom)
+ 2180  A   203  VAL  H   HG13     0.000  H     0.835     .     2  Z score missing (not enough data for atom)
+ 2181  A   203  VAL  H   HG21    22.091  H     0.884     .     2  Z score missing (not enough data for atom)
+ 2182  A   203  VAL  H   HG22    22.091  H     0.884     .     2  Z score missing (not enough data for atom)
+ 2183  A   203  VAL  H   HG23    22.091  H     0.884     .     2  Z score missing (not enough data for atom)
+ 2184  A   204  THR  H   H        0.000  H     9.242    2.620  1  
+ 2185  A   204  THR  H   N        0.000  N   111.613   -0.823  1  
+ 2186  A   204  THR  H   CA       0.000  C    65.281   -0.573  1  
+ 2187  A   204  THR  H   HA       0.000  H     4.003    0.301  1  
+ 2188  A   204  THR  H   CB       0.000  C    69.829    1.340  1  
+ 2189  A   204  THR  H   HB       0.000  H     4.497    1.122  1  
+ 2190  A   204  THR  H   CG2      0.000  C    24.785    2.199  1  
+ 2191  A   204  THR  H   HG2*     0.000  H     1.655    1.892  1  
+ 2192  A   206  VAL  H   C        0.000  C   178.675    0.925  1  
+ 2193  A   206  VAL  H   H        0.000  H     7.680   -0.645  1  
+ 2194  A   206  VAL  H   N        0.000  N   121.757    0.851  1  
+ 2195  A   206  VAL  H   CA       0.000  C    66.457   -0.038  1  
+ 2196  A   206  VAL  H   HA       0.000  H     4.074    1.864  1  
+ 2197  A   206  VAL  H   CB       1.657  C    30.997   -0.749  1  
+ 2198  A   206  VAL  H   HB       1.657  H     2.469    1.768  1  
+ 2199  A   206  VAL  H   CG1     16.016  C    22.476    0.774  2  
+ 2200  A   206  VAL  H   CG2      0.000  C    24.204    1.062  2  
+ 2201  A   206  VAL  H   HG11    16.016  H     0.863     .     2  Z score missing (not enough data for atom)
+ 2202  A   206  VAL  H   HG12    16.016  H     0.863     .     2  Z score missing (not enough data for atom)
+ 2203  A   206  VAL  H   HG13    16.016  H     0.863     .     2  Z score missing (not enough data for atom)
+ 2204  A   206  VAL  H   HG21     0.000  H     1.256     .     2  Z score missing (not enough data for atom)
+ 2205  A   206  VAL  H   HG22     0.000  H     1.256     .     2  Z score missing (not enough data for atom)
+ 2206  A   206  VAL  H   HG23     0.000  H     1.256     .     2  Z score missing (not enough data for atom)
+ 2207  A   207  GLY  H   C        0.000  C   175.036   -0.137  1  
+ 2208  A   207  GLY  H   H        0.518  H     8.968    1.982  1  
+ 2209  A   207  GLY  H   N        0.518  N   110.730    1.718  1  
+ 2210  A   207  GLY  H   CA      16.016  C    48.534    1.691  1  
+ 2211  A   207  GLY  H   HA2     16.016  H     3.404   -3.085  2  Shift outlier
+ 2212  A   207  GLY  H   HA3     16.016  H     3.709   -0.627  2  
+ 2213  A   208  PHE  H   C        0.000  C   176.213   -0.502  1  
+ 2214  A   208  PHE  H   H        0.000  H     7.338   -1.413  1  
+ 2215  A   208  PHE  H   N        0.000  N   122.072    0.801  1  
+ 2216  A   208  PHE  H   CA       0.000  C    60.825   -0.169  1  
+ 2217  A   208  PHE  H   HA       0.000  H     3.710   -0.957  1  
+ 2218  A   208  PHE  H   CB       0.000  C    40.541    1.085  1  
+ 2219  A   208  PHE  H   HB2      0.000  H     2.853   -0.756  2  
+ 2220  A   208  PHE  H   HB3      0.000  H     3.092    0.091  2  
+ 2221  A   208  PHE  H   HD1      0.000  H     6.827   -0.682  1  
+ 2222  A   208  PHE  H   HD2      0.552  H     6.827   -0.814  1  
+ 2223  A   209  GLY  H   C        0.000  C   175.438    0.160  1  
+ 2224  A   209  GLY  H   H        0.000  H     7.907   -0.565  1  
+ 2225  A   209  GLY  H   N        0.000  N   104.725   -0.915  1  
+ 2226  A   209  GLY  H   CA       0.000  C    48.096    0.818  1  
+ 2227  A   210  PHE  H   C        2.209  C   178.593    1.362  1  
+ 2228  A   210  PHE  H   H        0.000  H     9.008    1.355  1  
+ 2229  A   210  PHE  H   N        0.000  N   122.440    0.911  1  
+ 2230  A   210  PHE  H   CA       0.000  C    62.264    0.608  1  
+ 2231  A   210  PHE  H   HA       0.000  H     4.436    0.778  1  
+ 2232  A   210  PHE  H   CB      12.702  C    38.357   -0.386  1  
+ 2233  A   210  PHE  H   HB2     12.702  H     3.253    0.546  2  
+ 2234  A   210  PHE  H   HB3     12.702  H     3.374    1.047  2  
+ 2235  A   210  PHE  H   CD1     12.702  C   130.994   -1.187  1  
+ 2236  A   210  PHE  H   CD2     12.150  C   130.994   -0.842  1  
+ 2237  A   210  PHE  H   HD1     12.702  H     7.392    1.031  1  
+ 2238  A   210  PHE  H   HD2     12.150  H     7.392    0.868  1  
+ 2239  A   210  PHE  H   CE1     19.882  C   130.684   -0.663  1  
+ 2240  A   210  PHE  H   CE2     15.464  C   130.684   -0.471  1  
+ 2241  A   210  PHE  H   HE1     19.882  H     7.075   -0.875  1  
+ 2242  A   210  PHE  H   HE2     15.464  H     7.075   -0.623  1  
+ 2243  A   210  PHE  H   CZ      14.359  C   128.677   -0.734  1  
+ 2244  A   210  PHE  H   HZ      14.359  H     6.924   -1.184  1  
+ 2245  A   211  ILE  H   C        0.000  C   178.876    1.101  1  
+ 2246  A   211  ILE  H   H        0.518  H     8.323    0.754  1  
+ 2247  A   211  ILE  H   N        0.518  N   121.910    0.816  1  
+ 2248  A   211  ILE  H   CA       3.314  C    65.041    0.220  1  
+ 2249  A   211  ILE  H   HA       3.314  H     3.676   -0.396  1  
+ 2250  A   211  ILE  H   CB       0.000  C    36.783   -0.774  1  
+ 2251  A   211  ILE  H   HB       0.000  H     1.911    0.100  1  
+ 2252  A   211  ILE  H   CG1     12.150  C    29.263    0.437  1  
+ 2253  A   211  ILE  H   CG2     21.539  C    17.153   -0.286  1  
+ 2254  A   211  ILE  H   HG12    12.150  H     1.089   -0.655  2  
+ 2255  A   211  ILE  H   HG13    12.150  H     1.823    1.384  2  
+ 2256  A   211  ILE  H   HG2*    21.539  H     0.700   -1.457  1  
+ 2257  A   211  ILE  H   CD1     22.091  C    13.763    0.266  1  
+ 2258  A   211  ILE  H   HD1*    22.091  H     0.759   -0.307  1  
+ 2259  A   212  ALA  H   C        1.105  C   178.763   -0.546  1  
+ 2260  A   212  ALA  H   H        0.000  H     7.668   -0.814  1  
+ 2261  A   212  ALA  H   N        0.000  N   122.905    0.524  1  
+ 2262  A   212  ALA  H   CA       0.000  C    55.320    0.200  1  
+ 2263  A   212  ALA  H   HA       0.000  H     3.984    0.164  1  
+ 2264  A   212  ALA  H   CB       5.523  C    17.555   -0.685  1  
+ 2265  A   212  ALA  H   HB*      5.523  H     1.284   -0.794  1  
+ 2266  A   213  LEU  H   C        2.209  C   180.442    1.106  1  
+ 2267  A   213  LEU  H   H        0.000  H     8.468    0.733  1  
+ 2268  A   213  LEU  H   N        0.000  N   117.955   -0.729  1  
+ 2269  A   213  LEU  H   CA       0.000  C    58.050    0.250  1  
+ 2270  A   213  LEU  H   HA       0.000  H     3.961   -0.076  1  
+ 2271  A   213  LEU  H   CB      12.702  C    41.684    0.239  1  
+ 2272  A   213  LEU  H   HB2     12.702  H     1.688   -0.194  2  
+ 2273  A   213  LEU  H   HB3     12.702  H     1.966    1.523  2  
+ 2274  A   213  LEU  H   CG       0.000  C    27.389    0.861  1  
+ 2275  A   213  LEU  H   HG       0.000  H     2.001    1.223  1  
+ 2276  A   213  LEU  H   CD1     11.598  C    23.935   -0.599  2  
+ 2277  A   213  LEU  H   CD2      2.209  C    25.244    0.790  2  
+ 2278  A   213  LEU  H   HD1*    11.598  H     0.931    0.487  2  
+ 2279  A   213  LEU  H   HD21     2.209  H     0.938     .     2  Z score missing (not enough data for atom)
+ 2280  A   213  LEU  H   HD22     2.209  H     0.938     .     2  Z score missing (not enough data for atom)
+ 2281  A   213  LEU  H   HD23     2.209  H     0.938     .     2  Z score missing (not enough data for atom)
+ 2282  A   214  ASP  H   C        0.000  C   177.956   -0.290  1  
+ 2283  A   214  ASP  H   H        2.591  H     8.247   -0.096  1  
+ 2284  A   214  ASP  H   N        2.591  N   121.524    0.912  1  
+ 2285  A   214  ASP  H   CA       5.523  C    57.170    0.218  1  
+ 2286  A   214  ASP  H   HA       5.523  H     4.415   -0.183  1  
+ 2287  A   214  ASP  H   CB      12.150  C    41.922    1.467  1  
+ 2288  A   214  ASP  H   HB2     12.150  H     2.670   -0.553  1  
+ 2289  A   214  ASP  H   HB3     12.150  H     2.670   -0.382  1  
+ 2290  A   215  ALA  H   C        0.000  C   179.769    0.482  1  
+ 2291  A   215  ALA  H   H        0.518  H     7.783   -0.318  1  
+ 2292  A   215  ALA  H   N        0.518  N   121.918    0.270  1  
+ 2293  A   215  ALA  H   CA       6.627  C    53.704   -2.065  1  
+ 2294  A   215  ALA  H   HA       6.627  H     4.273    1.001  1  
+ 2295  A   215  ALA  H   CB      10.493  C    19.596    1.730  1  
+ 2296  A   215  ALA  H   HB*     10.493  H     1.511    0.253  1  
+ 2297  A   216  ALA  H   C        0.000  C   179.451    0.242  1  
+ 2298  A   216  ALA  H   H        0.000  H     8.089   -0.039  1  
+ 2299  A   216  ALA  H   N        0.000  N   121.809    0.055  1  
+ 2300  A   216  ALA  H   CA       0.000  C    55.347    0.228  1  
+ 2301  A   216  ALA  H   HA       0.000  H     3.912   -0.107  1  
+ 2302  A   216  ALA  H   CB       8.836  C    18.181    0.000  1  
+ 2303  A   216  ALA  H   HB*      8.836  H     1.525    0.418  1  
+ 2304  A   217  ALA  H   C        2.209  C   180.668    0.540  1  
+ 2305  A   217  ALA  H   H        0.000  H     8.091   -0.036  1  
+ 2306  A   217  ALA  H   N        0.000  N   120.284   -0.598  1  
+ 2307  A   217  ALA  H   CA       0.000  C    54.922   -0.219  1  
+ 2308  A   217  ALA  H   HA       0.000  H     4.126    0.698  1  
+ 2309  A   217  ALA  H   CB      29.823  C    18.161   -0.060  1  
+ 2310  A   217  ALA  H   HB*     29.823  H     1.559    0.836  1  
+ 2311  A   218  THR  H   C        0.000  C   176.359    0.299  1  
+ 2312  A   218  THR  H   H        0.000  H     7.810   -0.495  1  
+ 2313  A   218  THR  H   N        0.000  N   114.821   -0.110  1  
+ 2314  A   218  THR  H   CA       1.105  C    65.069   -0.565  1  
+ 2315  A   218  THR  H   HA       1.105  H     4.100    0.651  1  
+ 2316  A   218  THR  H   CB       3.866  C    68.888    0.229  1  
+ 2317  A   218  THR  H   HB       3.866  H     4.291    0.138  1  
+ 2318  A   218  THR  H   CG2     53.018  C    21.744    0.085  1  
+ 2319  A   218  THR  H   HG2*    53.018  H     1.223   -0.201  1  
+ 2320  A   219  LEU  H   C        1.657  C   178.849    0.301  1  
+ 2321  A   219  LEU  H   H        0.000  H     7.879   -0.399  1  
+ 2322  A   219  LEU  H   N        0.000  N   122.848    1.205  1  
+ 2323  A   219  LEU  H   CA       0.000  C    57.067   -0.681  1  
+ 2324  A   219  LEU  H   HA       0.000  H     4.107    0.495  1  
+ 2325  A   219  LEU  H   CB       7.732  C    41.613    0.006  1  
+ 2326  A   219  LEU  H   HB2      7.732  H     1.484   -1.450  2  
+ 2327  A   219  LEU  H   HB3      7.732  H     1.791    0.619  2  
+ 2328  A   219  LEU  H   CG       0.000  C    26.744   -0.082  1  
+ 2329  A   219  LEU  H   HG       0.000  H     1.692    0.255  1  
+ 2330  A   219  LEU  H   CD1     24.300  C    23.026   -1.224  2  
+ 2331  A   219  LEU  H   CD2     19.330  C    25.060    0.942  2  
+ 2332  A   219  LEU  H   HD1*    24.300  H     0.672   -2.005  2  
+ 2333  A   219  LEU  H   HD21    19.330  H     0.689     .     2  Z score missing (not enough data for atom)
+ 2334  A   219  LEU  H   HD22    19.330  H     0.689     .     2  Z score missing (not enough data for atom)
+ 2335  A   219  LEU  H   HD23    19.330  H     0.689     .     2  Z score missing (not enough data for atom)
+ 2336  A   220  ARG  H   C        0.552  C   177.437   -0.537  1  
+ 2337  A   220  ARG  H   H        0.000  H     7.841   -0.393  1  
+ 2338  A   220  ARG  H   N        0.000  N   119.255    0.115  1  
+ 2339  A   220  ARG  H   CA       0.552  C    57.799   -1.084  1  
+ 2340  A   220  ARG  H   HA       0.552  H     4.127    0.544  1  
+ 2341  A   220  ARG  H   CB       2.761  C    29.902   -0.103  1  
+ 2342  A   220  ARG  H   HD2      0.552  H     3.243    0.451  1  
+ 2343  A   220  ARG  H   HD3      0.552  H     3.243    0.545  1  
+ 2344  A   221  ALA  H   C        1.657  C   178.680   -0.679  1  
+ 2345  A   221  ALA  H   H        0.000  H     7.696   -0.762  1  
+ 2346  A   221  ALA  H   N        0.000  N   123.204    0.652  1  
+ 2347  A   221  ALA  H   CA       5.523  C    53.228   -1.463  1  
+ 2348  A   221  ALA  H   HA       5.523  H     4.279    1.014  1  
+ 2349  A   221  ALA  H   CB      41.420  C    18.907    1.513  1  
+ 2350  A   221  ALA  H   HB*     41.420  H     1.481   -0.140  1  
+ 2351  A   222  GLU  H   C        2.209  C   177.028   -1.340  1  
+ 2352  A   222  GLU  H   H        0.518  H     7.956   -0.287  1  
+ 2353  A   222  GLU  H   N        0.518  N   119.490    0.040  1  
+ 2354  A   222  GLU  H   CA       9.941  C    57.161   -1.310  1  
+ 2355  A   222  GLU  H   HA       9.941  H     4.221    1.124  1  
+ 2356  A   222  GLU  H   CB      19.330  C    29.866    0.971  1  
+ 2357  A   222  GLU  H   HB2     19.330  H     1.997   -0.480  1  
+ 2358  A   222  GLU  H   HB3     19.330  H     1.997   -0.631  1  
+ 2359  A   222  GLU  H   HG2      2.209  H     2.207   -0.572  2  
+ 2360  A   222  GLU  H   HG3      2.209  H     2.313    0.040  2  
+ 2361  A   223  HIS  C   C        7.179  C   175.608    0.452  1  
+ 2362  A   223  HIS  C   H        0.000  H     8.130    0.022  1  
+ 2363  A   223  HIS  C   N        0.000  N   118.942   -0.089  1  
+ 2364  A   223  HIS  C   CA      10.493  C    55.655   -0.179  1  
+ 2365  A   223  HIS  C   HA      10.493  H     4.740    0.574  1  
+ 2366  A   223  HIS  C   CB      19.882  C    29.368   -0.287  1  
+ 2367  A   223  HIS  C   HB2     19.882  H     3.199    0.474  2  
+ 2368  A   223  HIS  C   HB3     19.882  H     3.369    1.625  2  
+ 2369  A   223  HIS  C   CD2      0.000  C   120.416    0.151  1  
+ 2370  A   223  HIS  C   HD2      0.000  H     7.268    0.942  1  
+ 2371  A   224  GLY  C   C        1.657  C   174.504    0.596  1  
+ 2372  A   224  GLY  C   H        2.591  H     8.208    0.165  1  
+ 2373  A   224  GLY  C   N        2.591  N   110.373    0.187  1  
+ 2374  A   224  GLY  C   CA      30.375  C    45.615    0.370  1  
+ 2375  A   224  GLY  C   HA2     30.375  H     4.004    0.454  1  
+ 2376  A   224  GLY  C   HA3     30.375  H     4.004    0.463  1  
+ 2377  A   225  GLU  C   C        0.552  C   176.778    0.493  1  
+ 2378  A   225  GLU  C   H        1.555  H     8.284   -0.118  1  
+ 2379  A   225  GLU  C   N        1.555  N   121.862    0.047  1  
+ 2380  A   225  GLU  C   CA       0.000  C    56.539    0.295  1  
+ 2381  A   225  GLU  C   HA       0.000  H     4.364    0.015  1  
+ 2382  A   225  GLU  C   CB      14.911  C    30.281    0.074  1  
+ 2383  A   225  GLU  C   HB2     14.911  H     1.962    0.011  2  
+ 2384  A   225  GLU  C   HB3     14.911  H     2.090    0.884  2  
+ 2385  A   225  GLU  C   HG2     30.927  H     2.291    0.409  1  
+ 2386  A   225  GLU  C   HG3     30.927  H     2.291    0.439  1  
+ 2387  A   226  SER  C   C        0.000  C   174.892    0.373  1  
+ 2388  A   226  SER  C   H        3.628  H     8.237   -0.230  1  
+ 2389  A   226  SER  C   N        3.628  N   117.488    0.213  1  
+ 2390  A   226  SER  C   CA       1.105  C    58.163    0.283  1  
+ 2391  A   226  SER  C   CB      22.643  C    63.464   -0.459  1  
+ 2392  A   226  SER  C   HB2     22.643  H     3.896    0.121  1  
+ 2393  A   226  SER  C   HB3     22.643  H     3.896   -0.020  1  
+ 2394  A   227  LEU  C   C        2.209  C   177.169    0.335  1  
+ 2395  A   227  LEU  C   H        6.738  H     8.188   -0.184  1  
+ 2396  A   227  LEU  C   N        6.738  N   125.242    0.636  1  
+ 2397  A   227  LEU  C   CA       2.761  C    55.125    0.338  1  
+ 2398  A   227  LEU  C   HA       2.761  H     4.332   -0.186  1  
+ 2399  A   227  LEU  C   CB      17.120  C    42.127   -0.202  1  
+ 2400  A   227  LEU  C   HB2     17.120  H     1.593   -0.072  2  
+ 2401  A   227  LEU  C   HB3     17.120  H     1.608   -0.018  2  
+ 2402  A   227  LEU  C   CG       2.761  C    26.923   -0.062  1  
+ 2403  A   227  LEU  C   HG       2.761  H     1.616    0.200  1  
+ 2404  A   227  LEU  C   CD1     60.750  C    23.454   -1.410  2  
+ 2405  A   227  LEU  C   CD2     45.839  C    25.023    1.229  2  
+ 2406  A   227  LEU  C   HD1*    60.750  H     0.846   -0.502  2  
+ 2407  A   227  LEU  C   HD21    45.839  H     0.875     .     2  Z score missing (not enough data for atom)
+ 2408  A   227  LEU  C   HD22    45.839  H     0.875     .     2  Z score missing (not enough data for atom)
+ 2409  A   227  LEU  C   HD23    45.839  H     0.875     .     2  Z score missing (not enough data for atom)
+ 2410  A   228  ALA  C   C        6.075  C   178.329    0.276  1  
+ 2411  A   228  ALA  C   H        8.293  H     8.060   -0.899  1  
+ 2412  A   228  ALA  C   N        8.293  N   124.922    0.003  1  
+ 2413  A   228  ALA  C   CA       8.284  C    52.491    0.001  1  
+ 2414  A   228  ALA  C   HA       8.284  H     4.331    0.296  1  
+ 2415  A   228  ALA  C   CB      51.914  C    19.089   -0.121  1  
+ 2416  A   228  ALA  C   HB*     51.914  H     1.389    0.102  1  
+ 2417  A   229  GLY  C   C        4.971  C   174.391    0.256  1  
+ 2418  A   229  GLY  C   H       17.104  H     8.176   -0.614  1  
+ 2419  A   229  GLY  C   N       17.104  N   109.189   -0.351  1  
+ 2420  A   229  GLY  C   CA      33.689  C    45.310   -0.015  1  
+ 2421  A   229  GLY  C   HA2     33.689  H     3.964    0.115  1  
+ 2422  A   229  GLY  C   HA3     33.689  H     3.964    0.178  1  
+ 2423  A   230  VAL  C   C        4.418  C   176.088    0.166  1  
+ 2424  A   230  VAL  C   H        4.665  H     7.784   -1.367  1  
+ 2425  A   230  VAL  C   N        4.665  N   119.501   -0.757  1  
+ 2426  A   230  VAL  C   CA       2.761  C    62.046    0.143  1  
+ 2427  A   230  VAL  C   HA       2.761  H     4.189    0.377  1  
+ 2428  A   230  VAL  C   CB       8.836  C    32.583   -0.108  1  
+ 2429  A   230  VAL  C   HB       8.836  H     2.114    0.720  1  
+ 2430  A   230  VAL  C   CG1     48.048  C    20.320   -1.136  2  
+ 2431  A   230  VAL  C   CG2     38.107  C    21.321    0.964  2  
+ 2432  A   230  VAL  C   HG11    48.048  H     0.916     .     2  Z score missing (not enough data for atom)
+ 2433  A   230  VAL  C   HG12    48.048  H     0.916     .     2  Z score missing (not enough data for atom)
+ 2434  A   230  VAL  C   HG13    48.048  H     0.916     .     2  Z score missing (not enough data for atom)
+ 2435  A   230  VAL  C   HG21    38.107  H     0.923     .     2  Z score missing (not enough data for atom)
+ 2436  A   230  VAL  C   HG22    38.107  H     0.923     .     2  Z score missing (not enough data for atom)
+ 2437  A   230  VAL  C   HG23    38.107  H     0.923     .     2  Z score missing (not enough data for atom)
+ 2438  A   231  ASP  C   C        0.000  C   176.596    0.586  1  
+ 2439  A   231  ASP  C   H        8.811  H     8.338    0.027  1  
+ 2440  A   231  ASP  C   N        8.811  N   124.509    1.376  1  
+ 2441  A   231  ASP  C   CA       2.761  C    54.301    0.321  1  
+ 2442  A   231  ASP  C   HA       2.761  H     4.707    0.250  1  
+ 2443  A   231  ASP  C   CB      28.166  C    40.835   -0.145  1  
+ 2444  A   231  ASP  C   HB2     28.166  H     2.652   -0.199  2  
+ 2445  A   231  ASP  C   HB3     28.166  H     2.744    0.426  2  
+ 2446  A   232  THR  C   C        2.209  C   174.576    0.151  1  
+ 2447  A   232  THR  C   H        4.146  H     7.962   -0.711  1  
+ 2448  A   232  THR  C   N        4.146  N   114.636   -0.277  1  
+ 2449  A   232  THR  C   CA       3.866  C    61.771    0.745  1  
+ 2450  A   232  THR  C   HA       3.866  H     4.333   -0.372  1  
+ 2451  A   232  THR  C   CB      13.807  C    69.515   -0.277  1  
+ 2452  A   232  THR  C   HB      13.807  H     4.281    0.203  1  
+ 2453  A   232  THR  C   CG2     32.032  C    21.366   -0.479  1  
+ 2454  A   232  THR  C   HG2*    32.032  H     1.191    0.016  1  
+ 2455  A   233  ASP  C   C        0.000  C   176.231    0.314  1  
+ 2456  A   233  ASP  C   H        2.591  H     8.282   -0.256  1  
+ 2457  A   233  ASP  C   N        2.591  N   123.744    0.539  1  
+ 2458  A   233  ASP  C   CA       6.075  C    54.388    0.209  1  
+ 2459  A   233  ASP  C   HA       6.075  H     4.695    0.418  1  
+ 2460  A   233  ASP  C   CB      33.136  C    40.882   -0.230  1  
+ 2461  A   233  ASP  C   HB2     33.136  H     2.686   -0.018  1  
+ 2462  A   233  ASP  C   HB3     33.136  H     2.686    0.073  1  
+ 2463  A   234  THR  C   C        0.000  C   173.086   -0.890  1  
+ 2464  A   234  THR  C   H        9.848  H     7.962   -0.711  1  
+ 2465  A   234  THR  C   N        9.848  N   117.567    0.759  1  
+ 2466  A   234  THR  C   CA       4.971  C    59.748   -1.283  1  
+ 2467  A   234  THR  C   HA       4.971  H     4.554    0.809  1  
+ 2468  A   234  THR  C   CB       6.075  C    69.717   -0.202  1  
+ 2469  A   234  THR  C   HB       6.075  H     4.123   -0.588  1  
+ 2470  A   234  THR  C   CG2     53.018  C    21.449   -0.615  1  
+ 2471  A   234  THR  C   HG2*    53.018  H     1.213    0.091  1  
+ 2472  A   235  PRO  C   C        1.657  C   176.817    0.115  1  
+ 2473  A   235  PRO  C   CA       4.418  C    63.064    0.399  1  
+ 2474  A   235  PRO  C   CB      30.927  C    31.441   -0.861  1  
+ 2475  A   236  ALA  C   C        0.552  C   178.089    0.781  1  
+ 2476  A   236  ALA  C   H        8.811  H     8.201   -0.282  1  
+ 2477  A   236  ALA  C   N        8.811  N   125.258    0.125  1  
+ 2478  A   236  ALA  C   CA       7.179  C    52.422   -0.061  1  
+ 2479  A   236  ALA  C   HA       7.179  H     4.314    0.130  1  
+ 2480  A   236  ALA  C   CB      61.855  C    18.899   -0.708  1  
+ 2481  A   236  ALA  C   HB*     61.855  H     1.377   -0.037  1  
+ 2482  A   237  VAL  C   C        1.657  C   176.240    0.645  1  
+ 2483  A   237  VAL  C   H        2.591  H     7.837   -0.769  1  
+ 2484  A   237  VAL  C   N        2.591  N   119.570   -0.477  1  
+ 2485  A   237  VAL  C   CA       4.971  C    62.272    0.119  1  
+ 2486  A   237  VAL  C   HA       4.971  H     4.062   -0.170  1  
+ 2487  A   237  VAL  C   CB       4.971  C    32.389   -0.219  1  
+ 2488  A   237  VAL  C   HB       4.971  H     2.069    0.156  1  
+ 2489  A   237  VAL  C   CG1     53.018  C    20.479   -0.719  2  
+ 2490  A   237  VAL  C   CG2     51.914  C    21.330    0.993  2  
+ 2491  A   237  VAL  C   HG11    53.018  H     0.920     .     2  Z score missing (not enough data for atom)
+ 2492  A   237  VAL  C   HG12    53.018  H     0.920     .     2  Z score missing (not enough data for atom)
+ 2493  A   237  VAL  C   HG13    53.018  H     0.920     .     2  Z score missing (not enough data for atom)
+ 2494  A   237  VAL  C   HG21    51.914  H     0.928     .     2  Z score missing (not enough data for atom)
+ 2495  A   237  VAL  C   HG22    51.914  H     0.928     .     2  Z score missing (not enough data for atom)
+ 2496  A   237  VAL  C   HG23    51.914  H     0.928     .     2  Z score missing (not enough data for atom)
+ 2497  A   238  ALA  C   C        5.523  C   177.557    0.170  1  
+ 2498  A   238  ALA  C   H        3.628  H     8.139   -0.275  1  
+ 2499  A   238  ALA  C   N        3.628  N   127.556    0.871  1  
+ 2500  A   238  ALA  C   CA       7.179  C    52.507    0.023  1  
+ 2501  A   238  ALA  C   HA       7.179  H     4.308    0.096  1  
+ 2502  A   238  ALA  C   CB      53.571  C    19.044   -0.058  1  
+ 2503  A   238  ALA  C   HB*     53.571  H     1.369   -0.171  1  
+ 2504  A   239  ASP  C   C        0.552  C   176.629    0.543  1  
+ 2505  A   239  ASP  C   H        1.037  H     8.058   -0.623  1  
+ 2506  A   239  ASP  C   N        1.037  N   120.230   -0.479  1  
+ 2507  A   239  ASP  C   CA       5.523  C    54.140   -0.027  1  
+ 2508  A   239  ASP  C   CB      30.375  C    40.695   -0.420  1  
+ 2509  A   239  ASP  C   HB2     30.375  H     2.663   -0.141  2  
+ 2510  A   239  ASP  C   HB3     30.375  H     2.749    0.456  2  
+ 2511  A   240  LEU  C   C        3.314  C   178.014    0.960  1  
+ 2512  A   240  LEU  C   H        6.738  H     8.006   -0.835  1  
+ 2513  A   240  LEU  C   N        6.738  N   123.178   -0.105  1  
+ 2514  A   240  LEU  C   CA       3.314  C    55.766    0.680  1  
+ 2515  A   240  LEU  C   HA       3.314  H     4.175   -0.780  1  
+ 2516  A   240  LEU  C   CB      12.702  C    42.114   -0.173  1  
+ 2517  A   240  LEU  C   HB2     12.702  H     1.586   -0.024  2  
+ 2518  A   240  LEU  C   HB3     12.702  H     1.620    0.434  2  
+ 2519  A   240  LEU  C   CG       2.761  C    26.976    0.052  1  
+ 2520  A   240  LEU  C   HG       2.761  H     1.620    0.223  1  
+ 2521  A   240  LEU  C   CD1     54.123  C    23.454   -1.410  2  
+ 2522  A   240  LEU  C   CD2     53.571  C    25.013    1.221  2  
+ 2523  A   240  LEU  C   HD1*    54.123  H     0.839   -0.580  2  
+ 2524  A   240  LEU  C   HD21    53.571  H     0.891     .     2  Z score missing (not enough data for atom)
+ 2525  A   240  LEU  C   HD22    53.571  H     0.891     .     2  Z score missing (not enough data for atom)
+ 2526  A   240  LEU  C   HD23    53.571  H     0.891     .     2  Z score missing (not enough data for atom)
+ 2527  A   241  GLU  C   C        0.000  C   176.745    0.620  1  
+ 2528  A   241  GLU  C   H        8.293  H     8.123   -0.876  1  
+ 2529  A   241  GLU  C   N        8.293  N   120.398   -0.426  1  
+ 2530  A   241  GLU  C   CA       6.075  C    56.773    0.266  1  
+ 2531  A   241  GLU  C   HA       6.075  H     4.175   -0.684  1  
+ 2532  A   241  GLU  C   CB      20.434  C    29.436   -0.722  1  
+ 2533  A   241  GLU  C   HB2     20.434  H     1.879   -0.650  1  
+ 2534  A   241  GLU  C   HB3     20.434  H     1.879   -0.628  1  
+ 2535  A   241  GLU  C   HG2     28.166  H     2.158   -1.072  1  
+ 2536  A   241  GLU  C   HG3     28.166  H     2.158   -0.996  1  
