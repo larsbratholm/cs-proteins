@@ -35,8 +35,8 @@ native_pdb = "mbp.pdb"
 noe = True
 
 noe_file = "mbp.upl"
-noe_non_redundant_file = "mbp_non_redundant.upl"
-noe_sparse_file = "mbp_sparse.upl"
+noe_non_redundant_file = "mbp_lange_non_redundant.upl"
+noe_sparse_file = "mbp_lange_sparse.upl"
 
 if len(sys.argv) == 3:
     noe = True
@@ -59,5 +59,7 @@ if noe:
         cmd.distance("noe_sparse", "native and resi %i and name ca" % (pair[0]),
                             "native and resi %i and name ca" % (pair[1]))
 cmd.hide("labels", "noe")
+cmd.hide("labels", "noe_non_redundant")
+cmd.hide("labels", "noe_sparse")
 cmd.color("grey", "native")
 

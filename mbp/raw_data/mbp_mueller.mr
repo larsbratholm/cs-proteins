@@ -1,32 +1,33 @@
-assi (resi 101 and name hn )(resi 102 and name hn ) 1.8 0 1.2 ! intense peak
-assi (resi 101 and name hn )(resi  99 and name hn ) 1.8 0 5.2 
-assi (resi 165 and name hn )(resi 164 and name hn ) 1.8 0 1.2 ! intense peak
-assi (resi 165 and name hn )(resi 163 and name hn ) 1.8 0 5.2 
-assi (resi 165 and name hn )(resi 166 and name hn ) 1.8 0 3.2 
-assi (resi 165 and name hn )(resi 162 and name hn ) 1.8 0 5.2 
-assi (resi 174 and name hn )(resi 172 and name hn ) 1.8 0 3.2
-assi (resi 174 and name hn )(resi 176 and name hn ) 1.8 0 5.2
-assi (resi 174 and name hn )(resi 175 and name hn ) 1.8 0 1.2 ! intense peak
-assi (resi 252 and name hn )(resi 250 and name hn ) 1.8 0 1.2 ! intense peak
-assi (resi 252 and name hn )(resi 253 and name hn ) 1.8 0 1.2 ! intense peak
-assi (resi 252 and name hn )(resi 251 and name hn ) 1.8 0 1.2 ! intense peak
-assi (resi 252 and name hn )(resi 249 and name hn ) 1.8 0 5.2 
-assi (resi 262 and name hn )(resi 108 and name hn ) 1.8 0 1.2 ! intense peak
-assi (resi 262 and name hn )(resi 109 and name hn ) 1.8 0 1.2
-assi (resi 262 and name hn )(resi 111 and name hn ) 1.8 0 3.2 
-assi (resi 262 and name hn )(resi 263 and name hn ) 1.8 0 5.2 
-assi (resi 262 and name hn )(resi 261 and name hn ) 1.8 0 5.2 
-assi (resi 300 and name hn )(resi 299 and name hn ) 1.8 0 1.2 ! intense peak
-! Not confident in these two
-!assi (resi 300 and name hn )(resi 311 and name hn ) 1.8 0 5.2 
-!assi (resi 300 and name hn )(resi 314 and name hn ) 1.8 0 5.2 
-! Met-amide peaks
-assi (resi 262 and name hn )(resi 261 and name hg1# ) 1.8 0 7.2 ! hcnh_noe_peaklist.2029
-assi (resi 262 and name hn )(resi 261 and name hg2# ) 1.8 0 7.2 ! hcnh_noe_peaklist.2027
-assi (resi 262 and name hn )(resi 110 and name hg1# ) 1.8 0 7.2 ! hcnh_noe_peaklist.2026
-assi (resi 262 and name hn )(resi 262 and name hd2# ) 1.8 0 7.2 ! hcnh_noe_peaklist.2020
-assi (resi 300 and name hn )(resi 317 and name hd1# ) 1.8 0 7.2 ! hcnh_noe_peaklist.551
-assi (resi 300 and name hn )(resi 302 and name hg1# ) 1.8 0 7.2 ! hcnh_noe_peaklist.541
+#Not used by Lange.
+#assi (resi 101 and name hn )(resi 102 and name hn ) 1.8 0 1.2 ! intense peak
+#assi (resi 101 and name hn )(resi  99 and name hn ) 1.8 0 5.2 
+#assi (resi 165 and name hn )(resi 164 and name hn ) 1.8 0 1.2 ! intense peak
+#assi (resi 165 and name hn )(resi 163 and name hn ) 1.8 0 5.2 
+#assi (resi 165 and name hn )(resi 166 and name hn ) 1.8 0 3.2 
+#assi (resi 165 and name hn )(resi 162 and name hn ) 1.8 0 5.2 
+#assi (resi 174 and name hn )(resi 172 and name hn ) 1.8 0 3.2
+#assi (resi 174 and name hn )(resi 176 and name hn ) 1.8 0 5.2
+#assi (resi 174 and name hn )(resi 175 and name hn ) 1.8 0 1.2 ! intense peak
+#assi (resi 252 and name hn )(resi 250 and name hn ) 1.8 0 1.2 ! intense peak
+#assi (resi 252 and name hn )(resi 253 and name hn ) 1.8 0 1.2 ! intense peak
+#assi (resi 252 and name hn )(resi 251 and name hn ) 1.8 0 1.2 ! intense peak
+#assi (resi 252 and name hn )(resi 249 and name hn ) 1.8 0 5.2 
+#assi (resi 262 and name hn )(resi 108 and name hn ) 1.8 0 1.2 ! intense peak
+#assi (resi 262 and name hn )(resi 109 and name hn ) 1.8 0 1.2
+#assi (resi 262 and name hn )(resi 111 and name hn ) 1.8 0 3.2 
+#assi (resi 262 and name hn )(resi 263 and name hn ) 1.8 0 5.2 
+#assi (resi 262 and name hn )(resi 261 and name hn ) 1.8 0 5.2 
+#assi (resi 300 and name hn )(resi 299 and name hn ) 1.8 0 1.2 ! intense peak
+#! Not confident in these two
+#!assi (resi 300 and name hn )(resi 311 and name hn ) 1.8 0 5.2 
+#!assi (resi 300 and name hn )(resi 314 and name hn ) 1.8 0 5.2 
+#! Met-amide peaks
+#assi (resi 262 and name hn )(resi 261 and name hg1# ) 1.8 0 7.2 ! hcnh_noe_peaklist.2029
+#assi (resi 262 and name hn )(resi 261 and name hg2# ) 1.8 0 7.2 ! hcnh_noe_peaklist.2027
+#assi (resi 262 and name hn )(resi 110 and name hg1# ) 1.8 0 7.2 ! hcnh_noe_peaklist.2026
+#assi (resi 262 and name hn )(resi 262 and name hd2# ) 1.8 0 7.2 ! hcnh_noe_peaklist.2020
+#assi (resi 300 and name hn )(resi 317 and name hd1# ) 1.8 0 7.2 ! hcnh_noe_peaklist.551
+#assi (resi 300 and name hn )(resi 302 and name hg1# ) 1.8 0 7.2 ! hcnh_noe_peaklist.541
 assi (resi 4 and name hn )(resi 5 and name hn )      1.800 0 3.2 ! pp_c035_4dnh_to_ref.716
 assi (resi 4 and name hn )(resi 6 and name hn )      1.800 0 5.2 ! pp_c035_4dnh_to_ref.760
 assi (resi 5 and name hn )(resi 6 and name hn )      1.800 0 1.7 ! pp_c035_4dnh_to_ref.1383
