@@ -1,4 +1,3 @@
-#AUTO
 102 VAL QG2   115 CYS H       5.29
 102 VAL QG2   103 PHE H       3.39
 102 VAL QG2   114 TYR H       5.42
@@ -588,54 +587,3 @@
 #142 ASN H     142 ASN QD2     4.69
 #144 LEU H     144 LEU QQD     4.56
 #144 LEU QQD   145 GLU H       3.66
-#MANUAL
- 52 PHE H      42 TYR H       4.0
- 54 SER H      40 GLY H       4.0
-124 VAL H      41 LEU H       4.0
-122 ARG H      43 VAL H       4.0
- 80 ASP H      87 ARG H       4.0
- 78 LYS H      89 GLU H       4.0
- 76 GLU H      91 ARG H       4.0
-100 GLY H      90 VAL H       4.0
-102 VAL H      88 THR H       4.0
-115 CYS H     101 HIS H       4.0
-113 ARG H     103 PHE H       4.0
-# 117 ASN  H     99 LEU  H   4.0
- 67 PHE H     114 TYR H       4.0
- 45 ILE QD1    12 LEU QD2     4.5
- 26 GLU H      19 VAL QG1     4.5
-  9 ILE QD1    46 VAL QG1     4.5
- 19 VAL QG1   117 ASN H       4.5
- 41 LEU QD2    52 PHE H       4.5
- 41 LEU QD2    51 LEU H       4.5
- 86 ILE QD1    80 ASP H       5.5
-#   9 ILE  CD1   46 VAL  CG1   4.0
-#   9 ILE  CD1   46 VAL  CG2   4.0
-# 112 ILE  CD2  102 VAL  CG1   4.0
-# 112 ILE  CD2  102 VAL  CG2   4.0
-#  90 VAL  CG2  102 VAL  CG1   4.0
-#  90 VAL  CG2  102 VAL  CG2   4.0
-#  90 VAL  CG1   75 VAL  CG1   4.0
- 41 LEU QD1    71 ILE QD1     4.0
- 41 LEU QD2    71 ILE QD1     4.0
- 41 LEU QD1   140 LEU QD1     4.0
- 41 LEU QD2   140 LEU QD1     4.0
- 43 VAL QG1   129 LEU QD1     6.0
- 90 VAL QG1    99 LEU QD1     5.5
- 90 VAL QG2    99 LEU QD1     5.5
- 90 VAL QG1    99 LEU QD2     5.5
- 90 VAL QG2    99 LEU QD2     5.5
- 90 VAL QG1   116 ILE QD1     5.5
- 90 VAL QG2   116 ILE QD1     5.5
- 71 ILE QD1   140 LEU QD1     4.5
- 51 LEU QD1   121 LEU QD1     5.0
- 51 LEU QD1   121 LEU QD2     4.0
-116 ILE QD1    99 LEU QD1     4.5
- 45 ILE QD1    12 LEU QD2     4.0
-117 ASN HD22   19 VAL QG1     5.0
- 34 TRP HE1    31 ASN H       4.5
- 64 TRP HE1    26 GLU H       5.5
- 13 ASN HD21   12 LEU QD1     6.0
- 13 ASN HD22   12 LEU QD1     6.0
- 17 TYR H      12 LEU QD1     6.0
- 16 GLN HE21   12 LEU QD2     6.0
