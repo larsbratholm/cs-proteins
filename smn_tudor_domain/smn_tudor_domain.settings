@@ -1,4 +1,4 @@
 PROTEIN=/kemi/lab/cs-proteins/smn_tudor_domain/smn_tudor_domain
 AA=${PROTEIN}.aa
 STR=${PROTEIN}.str
-RMSD_RANGE='4,53'
+RMSD_RANGE='2,56'
