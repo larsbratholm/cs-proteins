@@ -15,5 +15,5 @@ for line in lines:
         if abs(res1_id - res2_id) < 4:
             line = "# " + line
 
-    print line[:-1]
+        print line[:-1]
 

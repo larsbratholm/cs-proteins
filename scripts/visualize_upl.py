@@ -28,17 +28,23 @@ def parse_noe(filename):
 
     f.close()
 
-    return noe_pairs
+    return noe_pairs[:]
 
 
 native_pdb = sys.argv[1]
 noe = False
+noe2 = False
 
 noe_file = ""
 
 if len(sys.argv) == 3:
     noe = True
     noe_file = sys.argv[2]
+if len(sys.argv) == 4:
+    noe = True
+    noe_file = sys.argv[2]
+    noe2 = True
+    noe_file2 = sys.argv[3]
 
 # count_restraints(noe_file)
 
@@ -50,6 +56,11 @@ if noe:
     for pair in parse_noe(noe_file):
         cmd.distance("noe", "native and resi %i and name ca" % (pair[0]),
                             "native and resi %i and name ca" % (pair[1]))
+if noe2:
+    for pair in parse_noe(noe_file2):
+        cmd.distance("noe2", "native and resi %i and name ca" % (pair[0]),
+                            "native and resi %i and name ca" % (pair[1]))
+    cmd.hide("labels", "noe2")
 cmd.hide("labels", "noe")
 cmd.color("grey", "native")
 

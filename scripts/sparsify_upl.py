@@ -6,13 +6,17 @@ data = open(sys.argv[1],"r").readlines()
 
 noe_clusters = {}
 #if distance in sequence between an item from two different clusters is below r, then merge them.
-r = 4
+#r = 2,3,4 (sparse), r = 1 (non_redundant)
+r = 2
 
 #list with all pairs
 pair_list = []
 
 for line in data:
     tokens = line.split()
+    if tokens[0][0] == "#":
+        print "Remove all lines containing comments before proceding"
+        quit()
     res_1 = int(tokens[0])
     res_2 = int(tokens[3])
     distance = float(tokens[-1])
