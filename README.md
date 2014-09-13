@@ -46,16 +46,16 @@ Contents
 |                         | CS+NOE   | ?        |            |          | 0.92 Å     |            |          |
 | ubiquitin               | CS       | 4.2 Å    |            |          | 2.1 Å      |            |          |
 | ubiquitin               | CS+RDC(multiple)| ? |            |          | 0.7 Å      |            |          |
-| apo\_lfabp              | CS+EV    | 6.9 Å    |            |          | ?          |            |          |
+| apo\_lfabp              | CS+EV    | 5.3 Å    |            |          | ?          |            |          |
 | prolactin               |          | ?        |            |          | ?          |            |          |
 | top7                    |          | ?        |            |          | ?          |            |          |
 | msrb                    | CS+ILV   | 2.3 Å    |            |          | 2.2 Å      |            |          |
 | wr73                    | CS+ILV   | 4.5 Å    |            |          |            |            |          |
 | hr4660b                 | CS+ILV   | 4.2 Å    |            |          | 4.0 Å      |            |          |
 | rhodopsin               | CS+ILVAMT| 2.7 Å    |            |          | 1.9 Å      |            |          |
-| savinase                | CS+EV    | 5.1 Å    |            |          | 3.2 Å (pymol ? Å) |            |          |
+| savinase                | CS+EV    | 5.1 Å    |            |          | 3.1 Å (pymol 2.0 Å) |            |          |
 |                         | EV       | 6.0 Å    |            |          |  ?         |            |          |
-| mbp                     | CS+ILV   | ~10 Å    |            |          | 5.6 Å      |            |          |
+| mbp                     | CS+ILV   | ~10 Å    |            |          | 4.7 Å      |            |          |
 
 
 
