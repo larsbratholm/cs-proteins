@@ -22,7 +22,10 @@ filenames = sys.argv[2:]
 
 #get steps/day
 steps_per_day = 1e6
-log = open(filenames[0][:-6]+".log","r").readlines()
+try:
+    log = open(filenames[0][:-6]+".log","r").readlines()
+except IOError:
+    log = open(filenames[0][:-4]+".log","r").readlines()
 for line in log[::-1]:
     if "Steps/day" in line:
         steps_per_day = float(line.split()[-1][:-1])
