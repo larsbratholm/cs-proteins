@@ -1,5 +1,6 @@
 PROTEIN=$HOME/cs-proteins/wr73/
 NOE_LONG=${PROTEIN}wr73.upl
+NOE_LONG_NON_REDUNDANT=${PROTEIN}wr73_long_non_redundant.upl
 NOE_ALL=${PROTEIN}noe_rosetta_all_clean.upl
 NOE_ALL_NON_REDUNDANT=${PROTEIN}wr73_all_non_redundant.upl
 NOE_SHORT=${PROTEIN}noe_rosetta_all_clean_short_range.upl
