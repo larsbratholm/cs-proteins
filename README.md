@@ -21,7 +21,7 @@ Contents
 | apo\_lfabp              | 129     | 1lfo             | RefDB 15429 | Synthetic  | All               |
 | prolactin               | 199     | 1rws             | BMRB 5599   | Synthetic  | 6-183             |
 | top7                    | 120     | 2mbl             | BMRB 19404  | Synthetic  | 5-104             |
-| msrb                    | 141     | 3e0o             | BMRB 17008  | 2kzn / ILV | 13-25,36-105,111-141 |
+| msrb (sr10)             | 141     | 3e0o             | BMRB 17008  | 2kzn / ILV | 13-25,36-105,111-141 |
 | wr73                    | 183     | 2loy (MODEL 5)   | BMRB 16833  | 2loy / Lange PNAS | 1-37,66-180|
 | hr4660b                 | 165     | 2lmd (MODEL 7)   | BMRB 18112  | Lange PNAS | 36-162            |
 | rhodopsin               | 225     | 1h2s / 1h68 / 2ksy| BMRB 16678 | 2ksy / ILVAMT| 4-210             |
