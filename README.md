@@ -54,8 +54,8 @@ Contents
 | hr4660b                 | CS+ILV   | 4.2 Å    |            |          | 4.0 Å      |            |          |
 | rhodopsin               | CS+ILVAMT| 2.7 Å    |            |          | 1.9 Å      |            |          |
 | savinase                | CS+EV    | 5.1 Å    |            |          | 3.1 Å (pymol 2.0 Å) |            |          |
-|                         | EV       | 6.0 Å    |            |          |  ?         |            |          |
-| mbp                     | CS+ILV   | ~10 Å    |            |          | 4.7 Å      |            |          |
+|                         | EV       | 6.0 Å    |            |          | 5.3 Å      |            |          |
+| mbp                     | CS+ILV   | ~10 Å    |            |          | 4.5 Å      |            |          |
 
 
 
