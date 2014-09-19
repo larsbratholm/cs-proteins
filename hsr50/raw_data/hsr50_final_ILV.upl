@@ -1,0 +1,321 @@
+147 VAL  QG2   149 LEU  QD2     5.50            #peak 30 #SUP 1.00 #QF 0.98
+ 91 LEU  QD2   147 VAL  QG1     5.19            #peak 42 #SUP 0.94 #QF 0.94
+115 VAL  QG2   134 LEU  QD2     4.99            #peak 93 #SUP 1.00 #QF 0.94
+ 60 VAL  QG2    95 LEU  QD2     4.83            #peak 129 #SUP 0.98 #QF 0.52
+ 30 LEU  QD2    49 LEU  QD1     4.55            #peak 143 #SUP 0.85 #QF 0.85
+ 57 SER  H      59 ARG  H       4.86            #peak 2 #SUP 0.73 #QF 0.73
+ 58 PHE  H      59 ARG  H       4.16            #peak 5 #SUP 0.82 #QF 0.82
+123 ASP  H     124 ASP  H       4.15            #peak 27 #SUP 0.94 #QF 0.94
+123 ASP  H     125 GLY  H       4.67            #peak 28 #SUP 0.59 #QF 0.59
+ 76 GLU  H      83 ALA  H       5.27            #peak 57 #SUP 0.99 #QF 0.24
+ 83 ALA  H      84 GLU  H       5.50            #peak 57 #SUP 0.99 #QF 0.24
+ 65 GLN  H      90 VAL  H       3.42            #peak 79 #SUP 0.93 #QF 0.93
+145 ASP  H     146 GLU  H       4.64            #peak 81 #SUP 1.00
+ 17 ALA  H      19 ILE  H       4.74            #peak 85 #SUP 0.61 #QF 0.61
+113 LEU  H     137 ASP  H       4.92            #peak 89 #SUP 0.88 #QF 0.88
+188 ALA  H     189 ASP  H       4.61            #peak 105 #SUP 0.97 #QF 0.97
+189 ASP  H     190 LEU  H       5.16            #peak 107 #SUP 0.94 #QF 0.36
+106 ARG  H     107 VAL  H       4.65            #peak 109 #SUP 0.90 #QF 0.90
+190 LEU  H     191 GLU  H       3.48            #peak 112 #SUP 0.86 #QF 0.86
+ 71 GLU  H      87 ARG  H       3.86            #peak 113 #SUP 0.94 #QF 0.94
+125 GLY  H     127 THR  H       4.13            #peak 116 #SUP 0.91 #QF 0.91
+142 ASP  H     143 GLY  H       4.67            #peak 119 #SUP 0.99 #QF 0.99
+100 HIS  H     101 THR  H       4.82            #peak 126 #SUP 0.99 #QF 0.99
+162 GLY  H     163 GLY  H       4.77            #peak 132 #SUP 1.00
+173 ASP  H     175 HIS  H       4.35            #peak 137 #SUP 0.96 #QF 0.96
+ 11 THR  H      12 ASP  H       4.74            #peak 139 #SUP 0.78 #QF 0.78
+108 GLU  H     109 GLY  H       4.84            #peak 143 #SUP 1.00
+ 29 PHE  H      31 ALA  H       4.60            #peak 152 #SUP 0.68 #QF 0.68
+ 85 TYR  H      86 THR  H       4.65            #peak 153 #SUP 0.93 #QF 0.93
+ 73 VAL  H      86 THR  H       5.01            #peak 154 #SUP 0.76 #QF 0.76
+  8 VAL  H       9 THR  H       4.58            #peak 159 #SUP 0.99 #QF 0.99
+ 28 GLU  H      30 LEU  H       5.17            #peak 175 #SUP 0.90 #QF 0.90
+108 GLU  H     110 GLU  H       4.70            #peak 181 #SUP 0.60 #QF 0.60
+ 22 HIS  H      24 ALA  H       4.56            #peak 182 #SUP 0.22 #QF 0.22
+ 17 ALA  H      20 ALA  H       5.50            #peak 188 #SUP 0.95 #QF 0.93
+ 23 ARG  H      25 ASP  H       4.83            #peak 219 #SUP 0.65 #QF 0.65
+ 84 GLU  H      85 TYR  H       4.65            #peak 220 #SUP 0.85 #QF 0.85
+149 LEU  H     150 ASP  H       4.52            #peak 229 #SUP 0.99 #QF 0.99
+186 VAL  H     187 ASP  H       4.52            #peak 231 #SUP 0.99 #QF 0.99
+ 13 ASP  H      15 TRP  H       4.73            #peak 234 #SUP 0.58 #QF 0.58
+ 12 ASP  H      14 ALA  H       5.02            #peak 243 #SUP 0.64 #QF 0.64
+141 ALA  H     142 ASP  H       4.90            #peak 246 #SUP 0.96 #QF 0.96
+ 14 ALA  H      15 TRP  H       4.46            #peak 258 #SUP 0.94 #QF 0.94
+ 74 GLU  H      75 LEU  H       4.52            #peak 274 #SUP 0.95 #QF 0.95
+ 75 LEU  H      76 GLU  H       4.58            #peak 275 #SUP 0.98 #QF 0.98
+ 67 ALA  H      89 ALA  H       5.28            #peak 280 #SUP 0.62 #QF 0.34
+ 67 ALA  H      90 VAL  H       5.50            #peak 280 #SUP 0.62 #QF 0.34
+147 VAL  H     148 ALA  H       4.67            #peak 282 #SUP 0.98 #QF 0.98
+ 62 ALA  H     149 LEU  H       4.38            #peak 284 #SUP 0.87 #QF 0.87
+ 62 ALA  H     147 VAL  H       3.41            #peak 285 #SUP 0.88 #QF 0.88
+114 PHE  H     115 VAL  H       4.97            #peak 293 #SUP 0.78 #QF 0.72
+115 VAL  H     135 ASP  H       5.50            #peak 293 #SUP 0.78 #QF 0.72
+ 47 ASP  H      48 GLY  H       3.81            #peak 306 #SUP 0.57 #QF 0.57
+136 VAL  H     137 ASP  H       4.67            #peak 308 #SUP 0.99 #QF 0.99
+ 73 VAL  H      87 ARG  H       5.50            #peak 311 #SUP 1.00
+151 PHE  H     154 ALA  H       5.15            #peak 325 #SUP 0.56 #QF 0.56
+ 28 GLU  H      29 PHE  H       3.75            #peak 333 #SUP 0.85 #QF 0.85
+ 21 ALA  H      23 ARG  H       4.68            #peak 338 #SUP 0.47 #QF 0.47
+176 VAL  QG2   180 ILE  QD1     3.62            #peak 2 #SUP 0.95 #QF 0.95
+ 95 LEU  QD2   180 ILE  QD1     3.96            #peak 4 #SUP 0.91 #QF 0.91
+ 95 LEU  QD1   180 ILE  QD1     3.96            #peak 5 #SUP 0.94 #QF 0.94
+ 38 ILE  H      38 ILE  QD1     4.47            #peak 17 #SUP 0.51 #QF 0.51
+134 LEU  QD2   135 ASP  H       4.63            #peak 28 #SUP 0.92 #QF 0.92
+134 LEU  QD2   149 LEU  QD1     4.64            #peak 33 #SUP 0.97 #QF 0.97
+134 LEU  QD2   149 LEU  QD2     4.64            #peak 34 #SUP 0.98 #QF 0.98
+134 LEU  QD1   149 LEU  QD1     4.64            #peak 43 #SUP 0.99 #QF 0.99
+147 VAL  QG2   148 ALA  H       3.93            #peak 53 #SUP 0.57 #QF 0.57
+ 60 VAL  QG2    95 LEU  QD1     4.83            #peak 61 #SUP 0.80 #QF 0.80
+113 LEU  H     136 VAL  QG1     5.50            #peak 82 #SUP 0.70 #QF 0.70
+136 VAL  H     136 VAL  QG1     4.27            #peak 84 #SUP 0.57 #QF 0.57
+136 VAL  QG1   149 LEU  QD2     4.67            #peak 89 #SUP 0.92 #QF 0.92
+ 73 VAL  H      73 VAL  QG2     4.01            #peak 111 #SUP 0.73 #QF 0.73
+ 73 VAL  QG2    75 LEU  QD1     4.16            #peak 119 #SUP 0.95 #QF 0.95
+ 73 VAL  QG2    75 LEU  QD2     4.16            #peak 120 #SUP 0.98 #QF 0.98
+136 VAL  H     136 VAL  QG2     4.27            #peak 122 #SUP 0.69 #QF 0.69
+136 VAL  QG2   149 LEU  QD1     4.67            #peak 127 #SUP 0.97 #QF 0.97
+115 VAL  QG2   134 LEU  QD1     4.99            #peak 132 #SUP 0.94 #QF 0.94
+115 VAL  QG2   149 LEU  QD1     4.38            #peak 133 #SUP 0.88 #QF 0.88
+ 73 VAL  QG1    75 LEU  QD1     4.16            #peak 144 #SUP 0.96 #QF 0.96
+ 73 VAL  QG1    75 LEU  QD2     4.16            #peak 145 #SUP 0.90 #QF 0.90
+147 VAL  H     147 VAL  QG1     3.98            #peak 146 #SUP 0.73 #QF 0.73
+176 VAL  H     176 VAL  QG2     3.86            #peak 151 #SUP 0.92 #QF 0.92
+186 VAL  H     186 VAL  QG2     4.17            #peak 155 #SUP 0.77 #QF 0.77
+ 91 LEU  QD2   149 LEU  QD1     3.87            #peak 175 #SUP 0.97 #QF 0.43
+136 VAL  QG1   149 LEU  QD1     4.67            #peak 175 #SUP 0.97 #QF 0.43
+176 VAL  H     180 ILE  QD1     5.49            #peak 180 #SUP 0.81 #QF 0.81
+ 30 LEU  QD2    49 LEU  QD2     4.55            #peak 185 #SUP 0.97 #QF 0.97
+ 91 LEU  QD2   149 LEU  QD2     3.87            #peak 191 #SUP 0.89 #QF 0.47
+134 LEU  QD1   149 LEU  QD2     4.64            #peak 192 #SUP 0.93 #QF 0.93
+ 91 LEU  QD1   149 LEU  QD2     3.87            #peak 206 #SUP 0.96 #QF 0.96
+ 95 LEU  QD1    96 GLY  H       5.01            #peak 216 #SUP 0.49 #QF 0.49
+ 95 LEU  QD2    96 GLY  H       5.01            #peak 222 #SUP 0.57 #QF 0.57
+113 LEU  H     113 LEU  QD2     4.46            #peak 232 #SUP 0.81 #QF 0.81
+113 LEU  H     113 LEU  QD1     4.46            #peak 237 #SUP 0.56 #QF 0.56
+115 VAL  QG1   134 LEU  QD1     4.99            #peak 248 #SUP 0.78 #QF 0.78
+ 30 LEU  QD1    49 LEU  QD1     4.55            #peak 256 #SUP 0.98 #QF 0.98
+ 30 LEU  QD1    49 LEU  QD2     4.55            #peak 263 #SUP 0.98 #QF 0.98
+ 65 GLN  H      90 VAL  QG2     4.35            #peak 282 #SUP 0.60 #QF 0.60
+ 60 VAL  QG1    95 LEU  QD1     4.83            #peak 367 #SUP 0.95 #QF 0.95
+176 VAL  QG1   180 ILE  QD1     3.62            #peak 10000 #SUP 0.99 #QF 0.99
+ 19 ILE  QD1    54 ILE  QD1     4.03            #peak 10011 #SUP 0.97 #QF 0.33
+147 VAL  QG1   149 LEU  QD2     5.50            #peak 10017 #SUP 0.70 #QF 0.70
+ 91 LEU  QD1   149 LEU  QD1     3.87            #peak 10028 #SUP 0.88 #QF 0.84
+115 VAL  QG1   149 LEU  QD1     4.38            #peak 10028 #SUP 0.88 #QF 0.84
+147 VAL  QG1   149 LEU  QD1     5.50            #peak 10029 #SUP 0.93 #QF 0.69
+147 VAL  QG2   149 LEU  QD1     5.50            #peak 10029 #SUP 0.93 #QF 0.69
+115 VAL  QG1   134 LEU  QD2     4.99            #peak 10030 #SUP 0.86 #QF 0.86
+ 60 VAL  QG1    95 LEU  QD2     4.83            #peak 10066 #SUP 0.95 #QF 0.95
+ 91 LEU  QD1   147 VAL  QG2     5.19            #peak 10069 #SUP 0.95 #QF 0.95
+ 30 LEU  QD1    38 ILE  QD1     4.19            #peak 10072 #SUP 0.99 #QF 0.99
+ 19 ILE  QD1   153 LEU  QD1     4.33            #peak 10101 #SUP 0.84 #QF 0.84
+ 91 LEU  QD1   147 VAL  QG1     5.19            #peak 10106 #SUP 0.99 #QF 0.99
+136 VAL  QG2   137 ASP  H       4.04            #peak 10116 #SUP 0.59 #QF 0.59
+136 VAL  QG1   137 ASP  H       4.04            #peak 10147 #SUP 0.82 #QF 0.82
+ 30 LEU  QD2    38 ILE  QD1     4.19            #peak 10190 #SUP 0.89 #QF 0.89
+ 19 ILE  QD1   153 LEU  QD2     4.33            #peak 10203 #SUP 0.99 #QF 0.99
+115 VAL  QG1   149 LEU  QD2     4.38            #peak 10219 #SUP 0.93 #QF 0.93
+ 91 LEU  QD2   147 VAL  QG2     5.19            #peak 10239 #SUP 0.73 #QF 0.65
+136 VAL  QG2   149 LEU  QD2     4.67            #peak 10259 #SUP 0.79 #QF 0.79
+115 VAL  QG2   149 LEU  QD2     4.38            #peak 10260 #SUP 0.70 #QF 0.70
+ 54 ILE  H      54 ILE  QD1     4.13            #peak 10284 #SUP 0.46 #QF 0.46
+151 PHE  H     152 ASN  H       3.97            #peak 9 #SUP 0.41 #QF 0.41
+152 ASN  H     154 ALA  H       4.10            #peak 10 #SUP 0.46 #QF 0.46
+ 56 ALA  H      57 SER  H       4.08            #peak 13 #SUP 0.44 #QF 0.44
+ 57 SER  H      58 PHE  H       3.59            #peak 14 #SUP 0.56 #QF 0.56
+168 ALA  H     169 LEU  H       4.64            #peak 28 #SUP 0.77 #QF 0.77
+105 PHE  H     114 PHE  H       3.66            #peak 30 #SUP 0.39 #QF 0.39
+ 91 LEU  H     102 LEU  H       3.74            #peak 39 #SUP 0.77 #QF 0.77
+ 63 ARG  H      92 GLY  H       3.23            #peak 43 #SUP 0.52 #QF 0.52
+117 PHE  H     132 ARG  H       3.86            #peak 47 #SUP 0.51 #QF 0.51
+118 THR  H     176 VAL  H       3.98            #peak 48 #SUP 0.26 #QF 0.26
+115 VAL  H     134 LEU  H       3.87            #peak 53 #SUP 0.60 #QF 0.60
+115 VAL  H     115 VAL  QG2     3.97            #peak 55 #SUP 0.50 #QF 0.50
+115 VAL  H     115 VAL  QG1     3.97            #peak 56 #SUP 0.94 #QF 0.94
+129 GLU  H     131 GLY  H       4.49            #peak 59 #SUP 0.80 #QF 0.80
+ 19 ILE  H      21 ALA  H       4.79            #peak 67 #SUP 0.40 #QF 0.40
+ 19 ILE  H      20 ALA  H       3.24            #peak 68 #SUP 0.40 #QF 0.40
+ 44 GLY  H      45 ALA  H       3.27            #peak 75 #SUP 0.44 #QF 0.44
+113 LEU  H     136 VAL  QG2     5.50            #peak 82 #SUP 0.67 #QF 0.67
+ 60 VAL  H      60 VAL  QG1     3.60            #peak 87 #SUP 0.55 #QF 0.55
+ 60 VAL  H      60 VAL  QG2     3.60            #peak 88 #SUP 0.61 #QF 0.61
+ 43 ARG  H      44 GLY  H       3.91            #peak 109 #SUP 0.90 #QF 0.42
+125 GLY  H     126 ARG  H       3.61            #peak 110 #SUP 0.50 #QF 0.50
+124 ASP  H     125 GLY  H       3.72            #peak 111 #SUP 0.59 #QF 0.59
+158 PHE  H     159 CYS  H       4.05            #peak 114 #SUP 0.61 #QF 0.61
+ 13 ASP  H      14 ALA  H       3.46            #peak 116 #SUP 0.28 #QF 0.28
+124 ASP  H     126 ARG  H       4.04            #peak 118 #SUP 0.71 #QF 0.71
+ 20 ALA  H      21 ALA  H       3.47            #peak 122 #SUP 0.30 #QF 0.30
+ 71 GLU  H      72 ALA  H       4.49            #peak 127 #SUP 0.67 #QF 0.67
+ 31 ALA  H      32 THR  H       3.93            #peak 132 #SUP 0.75 #QF 0.75
+126 ARG  H     127 THR  H       3.52            #peak 134 #SUP 0.29 #QF 0.29
+143 GLY  H     144 GLY  H       5.33            #peak 138 #SUP 0.95 #QF 0.79
+139 ALA  H     140 GLY  H       3.52            #peak 142 #SUP 0.56 #QF 0.56
+140 GLY  H     141 ALA  H       3.36            #peak 143 #SUP 0.73 #QF 0.73
+ 65 GLN  H      92 GLY  H       5.16            #peak 152 #SUP 0.33 #QF 0.33
+ 78 THR  H      79 ARG  H       3.84            #peak 157 #SUP 0.47 #QF 0.47
+186 VAL  H     186 VAL  QG1     4.17            #peak 161 #SUP 0.61 #QF 0.61
+ 79 ARG  H      80 GLY  H       4.37            #peak 163 #SUP 0.77 #QF 0.77
+172 ALA  H     173 ASP  H       3.78            #peak 164 #SUP 0.43 #QF 0.43
+ 10 ASP  H      11 THR  H       4.52            #peak 168 #SUP 0.62 #QF 0.62
+109 GLY  H     110 GLU  H       3.22            #peak 174 #SUP 0.32 #QF 0.32
+ 97 ASP  H      98 SER  H       3.65            #peak 177 #SUP 0.59 #QF 0.59
+161 TYR  H     162 GLY  H       3.68            #peak 182 #SUP 0.62 #QF 0.62
+159 CYS  H     161 TYR  H       4.18            #peak 191 #SUP 0.58 #QF 0.58
+ 41 ALA  H      42 ASP  H       3.49            #peak 192 #SUP 0.56 #QF 0.56
+ 42 ASP  H      43 ARG  H       3.19            #peak 194 #SUP 0.61 #QF 0.61
+ 31 ALA  H      33 HIS  H       5.11            #peak 196 #SUP 0.68 #QF 0.68
+111 SER  H     112 SER  H       3.67            #peak 198 #SUP 0.60 #QF 0.60
+174 ASN  H     175 HIS  H       3.30            #peak 204 #SUP 0.80 #QF 0.80
+ 22 HIS  H      23 ARG  H       3.60            #peak 211 #SUP 0.46 #QF 0.24
+ 23 ARG  H      24 ALA  H       3.83            #peak 211 #SUP 0.46 #QF 0.24
+ 41 ALA  H      43 ARG  H       4.47            #peak 223 #SUP 0.69 #QF 0.69
+ 64 TYR  H     147 VAL  H       4.53            #peak 225 #SUP 0.46 #QF 0.46
+147 VAL  H     147 VAL  QG2     3.98            #peak 229 #SUP 0.29 #QF 0.29
+ 88 ALA  H      89 ALA  H       3.20            #peak 233 #SUP 0.33 #QF 0.33
+ 30 LEU  H      31 ALA  H       3.65            #peak 243 #SUP 0.48 #QF 0.48
+122 THR  H     123 ASP  H       3.91            #peak 254 #SUP 0.57 #QF 0.57
+102 LEU  H     103 THR  H       4.48            #peak 258 #SUP 0.67 #QF 0.67
+ 17 ALA  H      18 ARG  H       3.40            #peak 266 #SUP 0.41 #QF 0.41
+144 GLY  H     145 ASP  H       3.30            #peak 270 #SUP 0.69 #QF 0.69
+ 15 TRP  H      18 ARG  H       4.92            #peak 273 #SUP 0.30 #QF 0.30
+173 ASP  H     174 ASN  H       3.33            #peak 278 #SUP 0.54 #QF 0.54
+102 LEU  H     102 LEU  QD1     4.62            #peak 286 #SUP 0.77 #QF 0.77
+102 LEU  H     102 LEU  QD2     4.62            #peak 288 #SUP 0.96 #QF 0.96
+ 73 VAL  H      85 TYR  H       3.20            #peak 290 #SUP 0.50 #QF 0.50
+ 73 VAL  H      73 VAL  QG1     4.01            #peak 293 #SUP 0.26 #QF 0.26
+120 GLU  H     178 ALA  H       3.75            #peak 295 #SUP 0.52 #QF 0.52
+ 24 ALA  H      25 ASP  H       3.49            #peak 298 #SUP 0.36 #QF 0.36
+ 94 ASP  H      95 LEU  H       4.86            #peak 301 #SUP 0.85 #QF 0.61
+ 95 LEU  H      96 GLY  H       5.23            #peak 301 #SUP 0.85 #QF 0.61
+ 95 LEU  H      98 SER  H       4.00            #peak 302 #SUP 0.58 #QF 0.58
+ 21 ALA  H      22 HIS  H       3.24            #peak 313 #SUP 0.27 #QF 0.27
+134 LEU  QD1   150 ASP  H       4.05            #peak 322 #SUP 0.44 #QF 0.44
+134 LEU  QD2   150 ASP  H       4.05            #peak 323 #SUP 0.67 #QF 0.67
+187 ASP  H     188 ALA  H       4.70            #peak 326 #SUP 0.91 #QF 0.91
+186 VAL  QG1   187 ASP  H       3.92            #peak 329 #SUP 0.54 #QF 0.54
+186 VAL  QG2   187 ASP  H       3.92            #peak 330 #SUP 0.68 #QF 0.68
+ 15 TRP  H      17 ALA  H       4.80            #peak 335 #SUP 0.65 #QF 0.65
+ 73 VAL  H      74 GLU  H       4.60            #peak 342 #SUP 0.49 #QF 0.49
+ 12 ASP  H      13 ASP  H       4.03            #peak 348 #SUP 0.65 #QF 0.65
+113 LEU  H     136 VAL  H       3.27            #peak 349 #SUP 0.67 #QF 0.67
+115 VAL  H     136 VAL  H       5.01            #peak 350 #SUP 0.95 #QF 0.21
+  9 THR  H      10 ASP  H       4.37            #peak 358 #SUP 0.43 #QF 0.43
+169 LEU  H     169 LEU  QD1     3.99            #peak 370 #SUP 0.32 #QF 0.32
+169 LEU  H     169 LEU  QD2     3.99            #peak 371 #SUP 0.32 #QF 0.32
+ 75 LEU  QD1    85 TYR  H       5.42            #peak 374 #SUP 0.53 #QF 0.53
+ 75 LEU  QD2    85 TYR  H       5.42            #peak 375 #SUP 0.82 #QF 0.82
+134 LEU  QD1   135 ASP  H       4.63            #peak 378 #SUP 0.57 #QF 0.57
+ 68 ARG  H      69 ASP  H       3.99            #peak 386 #SUP 0.33 #QF 0.33
+ 75 LEU  H      83 ALA  H       3.65            #peak 390 #SUP 0.61 #QF 0.61
+158 PHE  H     160 ALA  H       4.64            #peak 406 #SUP 0.46 #QF 0.46
+159 CYS  H     160 ALA  H       3.63            #peak 408 #SUP 0.61 #QF 0.61
+160 ALA  H     161 TYR  H       3.67            #peak 409 #SUP 0.65 #QF 0.65
+ 61 ALA  H      62 ALA  H       4.52            #peak 411 #SUP 0.74 #QF 0.74
+ 60 VAL  QG1    61 ALA  H       4.03            #peak 414 #SUP 0.52 #QF 0.52
+ 60 VAL  QG2    61 ALA  H       4.03            #peak 415 #SUP 0.56 #QF 0.56
+148 ALA  H     149 LEU  H       4.70            #peak 420 #SUP 0.87 #QF 0.87
+147 VAL  QG1   148 ALA  H       3.93            #peak 423 #SUP 0.35 #QF 0.35
+ 89 ALA  H     104 ALA  H       3.82            #peak 425 #SUP 0.43 #QF 0.43
+ 65 GLN  H      90 VAL  QG1     4.35            #peak 431 #SUP 0.67 #QF 0.67
+ 60 VAL  H     149 LEU  H       3.70            #peak 438 #SUP 0.75 #QF 0.75
+147 VAL  QG1   149 LEU  H       5.50            #peak 441 #SUP 0.65 #QF 0.34
+147 VAL  QG2   149 LEU  H       5.50            #peak 441 #SUP 0.65 #QF 0.34
+ 32 THR  H      33 HIS  H       3.59            #peak 445 #SUP 0.67 #QF 0.67
+107 VAL  H     108 GLU  H       4.57            #peak 446 #SUP 0.64 #QF 0.64
+ 29 PHE  H      30 LEU  H       3.61            #peak 458 #SUP 0.51 #QF 0.51
+ 72 ALA  H      73 VAL  H       4.61            #peak 462 #SUP 0.94 #QF 0.94
+ 90 VAL  H      91 LEU  H       4.29            #peak 513 #SUP 0.54 #QF 0.54
+176 VAL  H     176 VAL  QG1     3.86            #peak 521 #SUP 0.45 #QF 0.45
+181 THR  H     182 ALA  H       4.53            #peak 528 #SUP 0.40 #QF 0.40
+133 TYR  H     155 TYR  H       4.17            #peak 531 #SUP 0.65 #QF 0.65
+  8 VAL  H       8 VAL  QQG     3.19            #peak 104
+ 19 ILE  QD1   153 LEU  QQD     3.51            #peak 10101
+ 29 PHE  H      30 LEU  QQD     5.26            #peak 461
+ 30 LEU  H      30 LEU  QQD     3.77            #peak 245
+ 30 LEU  QQD    38 ILE  QD1     3.31            #peak 10072
+ 30 LEU  QQD    49 LEU  QQD     3.29            #peak 185
+ 38 ILE  QD1    49 LEU  QQD     4.78            #peak 10009
+ 59 ARG  H      60 VAL  QQG     5.17            #peak 100
+ 60 VAL  H      60 VAL  QQG     3.04            #peak 87
+ 60 VAL  QQG    61 ALA  H       3.16            #peak 415
+ 60 VAL  QQG    62 ALA  H       4.36            #peak 402
+ 60 VAL  QQG    95 LEU  QQD     3.30            #peak 10066
+ 60 VAL  QQG   149 LEU  H       3.73            #peak 440
+ 60 VAL  QQG   149 LEU  QQD     3.41            #peak 63
+ 62 ALA  H     149 LEU  QQD     4.75            #peak 10191
+ 64 TYR  H      91 LEU  QQD     4.32            #peak 201
+ 64 TYR  H     147 VAL  QQG     4.35            #peak 52
+ 65 GLN  H      90 VAL  QQG     3.51            #peak 282
+ 65 GLN  H      91 LEU  QQD     3.76            #peak 432
+ 73 VAL  H      73 VAL  QQG     2.75            #peak 293
+ 73 VAL  QQG    74 GLU  H       2.90            #peak 345
+ 73 VAL  QQG    75 LEU  H       4.71            #peak 112
+ 73 VAL  QQG    75 LEU  QQD     2.79            #peak 119
+ 73 VAL  QQG    85 TYR  H       3.27            #peak 373
+ 74 GLU  H      75 LEU  QQD     4.17            #peak 168
+ 75 LEU  H      75 LEU  QQD     4.57            #peak 405
+ 75 LEU  QQD    76 GLU  H       4.62            #peak 168
+ 75 LEU  QQD    85 TYR  H       4.64            #peak 374
+ 75 LEU  QQD   169 LEU  H       4.43            #peak 372
+ 75 LEU  QQD   169 LEU  QQD     3.68            #peak 31
+ 90 VAL  H      90 VAL  QQG     2.97            #peak 218
+ 90 VAL  QQG    91 LEU  H       3.19            #peak 514
+ 90 VAL  QQG   102 LEU  H       3.51            #peak 287
+ 91 LEU  H     102 LEU  QQD     5.23            #peak 10205
+ 91 LEU  QQD    92 GLY  H       4.38            #peak 202
+ 91 LEU  QQD   115 VAL  QQG     4.12            #peak 92
+ 91 LEU  QQD   134 LEU  QQD     5.09            #peak 197
+ 91 LEU  QQD   136 VAL  QQG     3.50            #peak 364
+ 91 LEU  QQD   147 VAL  H       4.54            #peak 200
+ 91 LEU  QQD   147 VAL  QQG     2.77            #peak 10069
+ 91 LEU  QQD   149 LEU  QQD     2.74            #peak 191
+ 95 LEU  H      95 LEU  QQD     4.71            #peak 303
+ 95 LEU  QQD    96 GLY  H       4.08            #peak 222
+ 95 LEU  QQD   102 LEU  QQD     5.20            #peak 10270
+ 95 LEU  QQD   176 VAL  QQG     3.44            #peak 10041
+ 95 LEU  QQD   180 ILE  QD1     3.32            #peak 4
+102 LEU  H     102 LEU  QQD     3.77            #peak 286
+102 LEU  QQD   103 THR  H       4.42            #peak 264
+102 LEU  QQD   115 VAL  QQG     2.99            #peak 10215
+102 LEU  QQD   134 LEU  QQD     3.56            #peak 159
+102 LEU  QQD   149 LEU  QQD     3.31            #peak 10015
+102 LEU  QQD   176 VAL  QQG     3.10            #peak 10242
+102 LEU  QQD   180 ILE  QD1     5.44            #peak 145
+103 THR  H     115 VAL  QQG     4.61            #peak 263
+104 ALA  H     115 VAL  QQG     4.80            #peak 130
+107 VAL  H     107 VAL  QQG     2.76            #peak 5
+107 VAL  QQG   108 GLU  H       2.88            #peak 449
+113 LEU  H     136 VAL  QQG     4.16            #peak 82
+113 LEU  QQD   114 PHE  H       4.18            #peak 516
+113 LEU  QQD   136 VAL  QQG     3.04            #peak 124
+114 PHE  H     115 VAL  QQG     4.09            #peak 517
+115 VAL  H     115 VAL  QQG     3.01            #peak 55
+115 VAL  QQG   134 LEU  QQD     3.63            #peak 10030
+115 VAL  QQG   136 VAL  H       5.10            #peak 130
+115 VAL  QQG   136 VAL  QQG     3.80            #peak 77
+115 VAL  QQG   149 LEU  QQD     3.35            #peak 10219
+118 THR  H     176 VAL  QQG     4.06            #peak 530
+120 GLU  H     176 VAL  QQG     4.41            #peak 300
+134 LEU  QQD   135 ASP  H       3.26            #peak 378
+134 LEU  QQD   136 VAL  H       4.55            #peak 35
+134 LEU  QQD   136 VAL  QQG     3.14            #peak 40
+134 LEU  QQD   149 LEU  QQD     2.93            #peak 43
+134 LEU  QQD   150 ASP  H       3.36            #peak 322
+134 LEU  QQD   154 ALA  H       4.77            #peak 534
+135 ASP  H     136 VAL  QQG     4.33            #peak 377
+136 VAL  H     136 VAL  QQG     3.47            #peak 84
+136 VAL  QQG   149 LEU  QQD     2.95            #peak 175
+136 VAL  QQG   150 ASP  H       4.42            #peak 321
+147 VAL  H     147 VAL  QQG     2.82            #peak 229
+147 VAL  QQG   148 ALA  H       2.91            #peak 423
+147 VAL  QQG   149 LEU  QQD     3.60            #peak 10029
+149 LEU  H     149 LEU  QQD     4.18            #peak 442
+149 LEU  QQD   150 ASP  H       3.87            #peak 324
+152 ASN  H     153 LEU  QQD     4.28            #peak 185
+169 LEU  H     169 LEU  QQD     3.33            #peak 370
+176 VAL  H     176 VAL  QQG     3.13            #peak 521
+176 VAL  QQG   180 ILE  QD1     2.93            #peak 2
+186 VAL  H     186 VAL  QQG     3.63            #peak 155
+186 VAL  QQG   187 ASP  H       3.20            #peak 330
+186 VAL  QQG   188 ALA  H       4.66            #peak 10057
