@@ -1,0 +1,12 @@
+PROTEIN=$HOME/cs-proteins/hsr50/
+#NOE_SHORT=${PROTEIN}_short_upper.upl
+#NOE_LONG=${PROTEIN}_long_upper.upl
+#NOE_ALL=${PROTEIN}_all_upper.upl
+#NOE_ALL_NON_REDUNDANT=${PROTEIN}_all_non_redundant.upl
+#RDC=${PROTEIN}.rdc
+#NATIVE=${PROTEIN}.pdb
+#AA=${PROTEIN}hsr50.aa
+#SS=${PROTEIN}.ss
+#STR=${PROTEIN}.str
+RMSD_RANGE='0,13/44,147/156,171'
+RESTRAINTS=50

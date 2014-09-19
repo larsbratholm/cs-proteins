@@ -5,7 +5,7 @@ import cPickle
 #save cpickle of lowest rmsd vs step. Use: python program.py cpickle_out.cpickle *.dat
 
 rmsd_index = -2
-output_interval = 10000
+output_interval = None
 
 
 
@@ -47,6 +47,8 @@ for filename in filenames:
         if line[0] == "#":
             continue
         tokens = line.split()
+        if output_interval == None:
+            output_interval = int(tokens[0].split("_")[1])
         rmsds[-1].append(float(tokens[rmsd_index]))
 
 length = max([len(x) for x in rmsds])
