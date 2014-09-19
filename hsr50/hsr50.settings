@@ -1,8 +1,10 @@
 PROTEIN=$HOME/cs-proteins/hsr50/
 NOE_SHORT=${PROTEIN}hsr50_short.upl
 NOE_LONG=${PROTEIN}hsr50_long.upl
+NOE_SPARSE=${PROTEIN}hsr50_all_sparse.upl
 NOE_ALL=${PROTEIN}hsr50_all.upl
-#NOE_ALL_NON_REDUNDANT=${PROTEIN}_all_non_redundant.upl
+NOE_ALL_NON_REDUNDANT=${PROTEIN}hsr50_all_non_redundant.upl
+NOE_LONG_NON_REDUNDANT=${PROTEIN}hsr50_long_non_redundant.upl
 RDC=${PROTEIN}hsr50.rdc
 PDB=${PROTEIN}native.pdb
 NATIVE=${PROTEIN}2LOK_0006.pdb
