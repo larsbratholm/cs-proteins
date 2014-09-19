@@ -12,6 +12,7 @@ NOE_ALL_2KWB=${PROTEIN}2kwb_all.upl
 NOE_SHORT_2KWB=${PROTEIN}2kwb_short.upl
 RDC=${PROTEIN}wr73.rdc
 NATIVE=${PROTEIN}2loy_mod5.pdb
+PDB=${PROTEIN}2loy_mod5.pdb
 AA=${PROTEIN}wr73.aa
 STR=${PROTEIN}wr73.str
 RMSD_RANGE='0,35/65,180'
