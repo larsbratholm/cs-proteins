@@ -7,7 +7,7 @@ data = open(sys.argv[1],"r").readlines()
 noe_clusters = {}
 #if distance in sequence between an item from two different clusters is below r, then merge them.
 #r = 2,3,4 (sparse), r = 1 (non_redundant)
-r = 1
+r = 2
 
 #list with all pairs
 pair_list = []
