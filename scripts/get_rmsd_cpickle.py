@@ -7,12 +7,11 @@ import cPickle
 rmsd_index = -2
 output_interval = None
 
-
-
-
+kemi3_factor = 1.5
 
 
 pickle_name = sys.argv[1]
+kemi3 = False
 
 if ".cpickle" not in pickle_name:
     print "make sure first argument is cpickle name (.cpickle extension)"
@@ -30,6 +29,15 @@ for line in log[::-1]:
     if "Steps/day" in line:
         steps_per_day = float(line.split()[-1][:-1])
         break
+#check if on kemi2/3
+folder_name = ""
+for i in filenames[0].split("/")[:-1]:
+    folder_name += i
+qsub = open(folder_name+"/qsub.tmp","r").readlines()
+for line in qsub:
+    if "kemi3" in line:
+        print "Used kemi3"
+        steps_per_day *= 1.5
 
 
 
