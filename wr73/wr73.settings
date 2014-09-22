@@ -10,6 +10,7 @@ NOE_SHORT_2LOY=${PROTEIN}2loy_short.upl
 NOE_LONG_2KWB=${PROTEIN}2kwb_long.upl
 NOE_ALL_2KWB=${PROTEIN}2kwb_all.upl
 NOE_SHORT_2KWB=${PROTEIN}2kwb_short.upl
+NOE_SPARSE=${PROTEIN}wr73_all_sparse.upl
 RDC=${PROTEIN}wr73.rdc
 NATIVE=${PROTEIN}2loy_mod5.pdb
 PDB=${PROTEIN}2loy_mod5.pdb
