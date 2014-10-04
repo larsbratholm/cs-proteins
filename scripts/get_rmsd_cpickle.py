@@ -21,14 +21,17 @@ filenames = sys.argv[2:]
 
 #get steps/day
 steps_per_day = 1e6
-try:
-    log = open(filenames[0][:-6]+".log","r").readlines()
-except IOError:
-    log = open(filenames[0][:-4]+".log","r").readlines()
-for line in log[::-1]:
-    if "Steps/day" in line:
-        steps_per_day = float(line.split()[-1][:-1])
-        break
+
+log = []
+for i in range(2):
+    try:
+        log = open(filenames[i][:-6]+".log","r").readlines()
+    except IOError:
+        log = open(filenames[i][:-4]+".log","r").readlines()
+    for line in log[::-1]:
+        if "Steps/day" in line:
+            steps_per_day = float(line.split()[-1][:-1])
+            break
 #check if on kemi2/3
 folder_name = ""
 for i in filenames[0].split("/")[:-1]:
@@ -61,7 +64,7 @@ for filename in filenames:
 
 length = max([len(x) for x in rmsds])
 
-low_rmsds = [999 for _ in range(length)]
+low_rmsds = [40 for _ in range(length)]
 time = [(x+1)*output_interval/steps_per_day for x in range(length)]
 for r in rmsds:
     for i, I in enumerate(r):

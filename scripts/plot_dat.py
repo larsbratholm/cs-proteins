@@ -19,12 +19,12 @@ for line in lines:
         energy = float(string.split(line)[1])
         torus  = float(string.split(line)[-1])
         basilisk  = float(string.split(line)[-3])
-        mumu  = float(string.split(line)[-4])
-        noe_2  = float(string.split(line)[-14])
-        noe_1  = float(string.split(line)[-25])
+        mumu  = float(string.split(line)[-5])
+        #noe_2  = float(string.split(line)[-14])
+        #noe_1  = float(string.split(line)[-25])
         rmsd   = float(string.split(line)[-2])
 
-        #energy += torus
+        #energy += basilisk+torus
         energy += torus+basilisk
 
         if energy < min_energy:
