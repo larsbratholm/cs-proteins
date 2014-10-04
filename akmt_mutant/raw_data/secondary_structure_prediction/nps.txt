@@ -1,0 +1,21 @@
+akmt_mutant MSYVPHVPYVPTPEKVVRRMLEIAKVSQDDIVYALGCGDGRIIITAAKDFNVKKAVGVEINDERIREALA
+DSC         cccccccccccccchhhhhhhhhccccccceeeeeccccceeeeeeccccceeeeeeeeecccchhhhhh
+MLRC        cccccccccccchhhhhhhhhhhhcccccceeeeeecccceeeeeecccccccceeeeecchhhhhhhhh
+PHD         cccccccccccchhhhhhhhhhhhhhhccceeeeeeeccceeeeeecccceeecceeeeechhhhhhhhh
+Sec.Cons.   cccccccccccchhhhhhhhhhhhcccccceeeeeecccceeeeeeccccceeceeeeeechhhhhhhhh
+
+                    80        90       100       110       120       130       140
+                     |         |         |         |         |         |         |
+akmt_mutant NIEKNGVTGRASIVKGNFFEVDISEATVVTMFLLTNVNEMLKPKLEKELKPGTRVVSHEFEIRGWNPKEV
+DSC         cccccceeeeeeeeecceeeeeeccceeeeeeeeccccccccccccccccccceeeeeeeeeccccccee
+MLRC        hhhhcccccceeeeecceeeeeccchheeehehhhhhhhhhhhhhhhhccccceeeeeeeeeccccccee
+PHD         hhhhcccceeeeeeccceeeeeeeeeeeeeeeeeecchhhhcchhhhcccccceeeeeeeeeecccccee
+Sec.Cons.   hhhhcccceeeeeeecceeeeeecc?eeeeeeee?cchhhhcchhhhcccccceeeeeeeeeccccccee
+
+                   150       160
+                     |         |
+akmt_mutant IKVEDGNMNHTVYLYVIGEHK
+DSC         eeeeccccceeeeeeeecccc
+MLRC        eeeeccccceeeeeeeecccc
+PHD         eeeeccccceeeeeeeeeecc
+Sec.Cons.   eeeeccccceeeeeeeecccc

@@ -61,7 +61,7 @@ for filename in filenames:
 
 length = max([len(x) for x in rmsds])
 
-low_rmsds = [999 for _ in range(length)]
+low_rmsds = [25 for _ in range(length)]
 time = [(x+1)*output_interval/steps_per_day for x in range(length)]
 for r in rmsds:
     for i, I in enumerate(r):
