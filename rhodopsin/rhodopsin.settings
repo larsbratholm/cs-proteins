@@ -1,4 +1,4 @@
-PROTEIN=/kemi/lab/cs-proteins/rhodopsin/
+PROTEIN=$HOME/cs-proteins/rhodopsin/
 NOE_LONG=${PROTEIN}rhodopsin_long_upper.upl
 INIT=${PROTEIN}1h2s_225.pdb
 INIT_OLD=${PROTEIN}1h2s_219.pdb

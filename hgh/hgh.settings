@@ -1,0 +1,5 @@
+PROTEIN=/home/lab/cs-proteins/hgh/
+AA=${PROTEIN}1hwg.aa
+NATIVE=${PROTEIN}1hwg_swiss_model.pdb
+STR=${PROTEIN}25029.str
+RMSD_RANGE='3,147/153,186'
