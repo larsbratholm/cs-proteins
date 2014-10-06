@@ -14,7 +14,7 @@ def parse_noe(filename):
 
     for line in lines:
 
-            if string.split(line)[0] == "#":
+            if line[0] == "#":
                 continue
 
             res_a = int(string.split(line)[0])

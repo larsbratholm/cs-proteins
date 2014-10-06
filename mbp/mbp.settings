@@ -1,4 +1,4 @@
-PROTEIN=/kemi/lab/cs-proteins/mbp/mbp
+PROTEIN=$HOME/cs-proteins/mbp/mbp
 NOE_LONG=${PROTEIN}_lange_long_upper.upl
 NOE_LONG_RELAXED=${PROTEIN}_long_upper.upl
 NOE_SHORT=${PROTEIN}_lange_short_upper.upl

@@ -13,10 +13,7 @@
 135 ASP  H     136 GLU  H       4.64
  7 ALA  H      9 ILE  H       4.74
 103 LEU  H     127 ASP  H       4.92
-178 ALA  H     179 ASP  H       4.61
-179 ASP  H     180 LEU  H       5.16
 96 ARG  H     97 VAL  H       4.65
-180 LEU  H     181 GLU  H       3.48
  61 GLU  H      77 ARG  H       3.86
 115 GLY  H     117 THR  H       4.13
 132 ASP  H     133 GLY  H       4.67
@@ -156,7 +153,6 @@
 176 VAL  H     176 VAL  QG1     4.17
  69 ARG  H      70 GLY  H       4.37
 162 ALA  H     163 ASP  H       3.78
- 0 ASP  H      1 THR  H       4.52
 99 GLY  H     100 GLU  H       3.22
  87 ASP  H      88 SER  H       3.65
 151 TYR  H     152 GLY  H       3.68
@@ -191,7 +187,6 @@
  11 ALA  H      12 HIS  H       3.24
 124 LEU  QD1   140 ASP  H       4.05
 124 LEU  QD2   140 ASP  H       4.05
-177 ASP  H     178 ALA  H       4.70
 176 VAL  QG1   177 ASP  H       3.92
 176 VAL  QG2   177 ASP  H       3.92
  5 TRP  H      7 ALA  H       4.80
@@ -315,4 +310,3 @@
 166 VAL  QQG   170 ILE  QD1     2.93
 176 VAL  H     176 VAL  QQG     3.63
 176 VAL  QQG   177 ASP  H       3.20
-176 VAL  QQG   178 ALA  H       4.66

@@ -2,4 +2,4 @@ PROTEIN=/home/lab/cs-proteins/protein_g/protein_g
 AA=${PROTEIN}.aa
 NATIVE=${PROTEIN}.pdb
 STR=${PROTEIN}.str
-RMSD_RANGE='0,-1'
+RMSD_RANGE='2,-1'

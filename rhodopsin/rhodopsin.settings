@@ -1,7 +1,7 @@
-PROTEIN=/kemi/lab/cs-proteins/rhodopsin/
+PROTEIN=$HOME/cs-proteins/rhodopsin/
 NOE_LONG=${PROTEIN}rhodopsin_long_upper.upl
-PDB=${PROTEIN}1h2s_225.pdb
-PDB_OLD=${PROTEIN}1h2s_219.pdb
+INIT=${PROTEIN}1h2s_225.pdb
+INIT_OLD=${PROTEIN}1h2s_219.pdb
 NATIVE=${PROTEIN}1h68_225.pdb
 NATIVE_OLD=${PROTEIN}1h68_219.pdb
 AA=${PROTEIN}rhodopsin_225.aa
