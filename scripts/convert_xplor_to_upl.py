@@ -1,4 +1,6 @@
 # convert noes from xplor format to upl
+# Usage: python convert_xplot_to_upl.py xplor_file pdb_file upl_out_file
+# TODO: Add special cases for # and * in atom names
 
 import sys
 

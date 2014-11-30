@@ -1,3 +1,7 @@
+# Splits pdb-trajectory into files containing a single model each.
+# Usage: python chopper.py file1.pdb file2.pdb ...
+# outputs in same directory chopper.py is located in.
+
 import sys
 
 
