@@ -60,7 +60,8 @@ if len(sys.argv) == 3:
     noe = True
     noe_file = sys.argv[2]
 
-count_restraints(noe_file)
+#count_restraints(noe_file)
+parse_noe(noe_file)
 
 cmd.load(native_pdb, "native")
 cmd.hide("all")

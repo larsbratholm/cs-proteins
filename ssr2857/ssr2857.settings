@@ -1,0 +1,5 @@
+PROTEIN=/$HOME/cs-proteins/ssr2857/2xmj
+AA=${PROTEIN}.aa
+NATIVE=${PROTEIN}.pdb
+STR=${PROTEIN}.str
+RMSD_RANGE='1,-1'

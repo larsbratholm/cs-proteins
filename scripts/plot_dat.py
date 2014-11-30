@@ -30,7 +30,7 @@ for line in lines:
         if rmsd > max_rmsd:
             continue
 
-        cam = float(string.split(line)[2]) + float(string.split(line)[3])
+        cam = 0#float(string.split(line)[2]) + float(string.split(line)[3])
         ff = energy - cam
         #cam += noe_1
         if int(sys.argv[1]) == 1:
@@ -58,11 +58,12 @@ for line in lines:
         if int(sys.argv[1]) == 12:
             energy = torus+basilisk+cam+mumu*5
         #energy += torus#-float(string.split(line)[4])
->>>>>>> f00ec6bc8b255342fb3c773bfd21bb0940b282bf
 
         if energy < min_energy:
             print line
             min_energy = float(energy)
+        if energy > 5000:
+            continue
 
         #if energy < 10000:
         energies.append(float(energy))
