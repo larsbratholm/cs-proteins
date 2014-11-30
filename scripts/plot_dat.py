@@ -2,7 +2,7 @@
 
 import sys
 import string
-import pylab
+import matplotlib.pyplot as plt
 
 lines = sys.stdin.readlines()
 
@@ -11,7 +11,7 @@ energies = []
 rmsds = []
 
 min_energy = 1000000.0
-max_rmsd = 30
+max_rmsd = 50
 
 for line in lines:
 
@@ -29,8 +29,11 @@ for line in lines:
         
         if rmsd > max_rmsd:
             continue
+        if energy > 10000:
+            continue
 
         cam = float(string.split(line)[2]) + float(string.split(line)[3])
+        pp = float(string.split(line)[2])
         ff = energy - cam
         #cam += noe_1
         if int(sys.argv[1]) == 1:
@@ -57,20 +60,20 @@ for line in lines:
             energy = torus+basilisk+cam+mumu*3
         if int(sys.argv[1]) == 12:
             energy = torus+basilisk+cam+mumu*5
+        if int(sys.argv[1]) == 13:
+            energy = pp
         #energy += torus#-float(string.split(line)[4])
->>>>>>> f00ec6bc8b255342fb3c773bfd21bb0940b282bf
 
         if energy < min_energy:
             print line
             min_energy = float(energy)
 
-        #if energy < 10000:
         energies.append(float(energy))
         rmsds.append(float(rmsd))
 
 
-pylab.plot(rmsds, energies, "ko")
-pylab.savefig("temp.png")
+plt.plot(rmsds, energies, "ko")
+plt.savefig("temp.png")
 
 
 
