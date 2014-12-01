@@ -1,0 +1,1572 @@
+*HEADER    IMMUNE SYSTEM                           01-MAY-03   1P7F              
+*TITLE     GB3 SOLUTION STRUCTURE OBTAINED BY REFINEMENT OF X-RAY                
+*TITLE    2 STRUCTURE WITH DIPOLAR COUPLINGS                                     
+*COMPND    MOL_ID: 1;                                                            
+*COMPND   2 MOLECULE: IMMUNOGLOBULIN G BINDING PROTEIN G;                        
+*COMPND   3 CHAIN: A;                                                            
+*COMPND   4 FRAGMENT: THIRD IGG-BINDING DOMAIN;                                  
+*COMPND   5 SYNONYM: IGG BINDING PROTEIN G, GB3;                                 
+*COMPND   6 ENGINEERED: YES                                                      
+*SOURCE    MOL_ID: 1;                                                            
+*SOURCE   2 ORGANISM_SCIENTIFIC: STREPTOCOCCUS SP. (LANCEFIELD GROUP             
+*SOURCE   3 G);                                                                  
+*SOURCE   4 ORGANISM_COMMON: BACTERIA;                                           
+*SOURCE   5 EXPRESSION_SYSTEM: ESCHERICHIA COLI;                                 
+*SOURCE   6 EXPRESSION_SYSTEM_COMMON: BACTERIA;                                  
+*SOURCE   7 EXPRESSION_SYSTEM_STRAIN: HMS174;                                    
+*SOURCE   8 EXPRESSION_SYSTEM_VECTOR_TYPE: PLASMID;                              
+*SOURCE   9 EXPRESSION_SYSTEM_PLASMID: PET-11A                                   
+*KEYWDS    IMMUNE SYSTEM                                                         
+*EXPDTA    NMR                                                                   
+*AUTHOR    T.S.ULMER, B.E.RAMIREZ, F.DELAGLIO, A.BAX                             
+*REVDAT   1   05-AUG-03 1P7F    0                                                
+
+GB3 dipolar couplings measured in bicelle, PEG, Pf1 phage and negatively and positively
+charged polyacrylamide gel media.
+
+Medium A (bicelle)
+
+    2    GLN      C     2    GLN     CA    -1.579     
+    3    TYR      C     3    TYR     CA    -3.240     
+    4    LYS      C     4    LYS     CA    -0.906     
+    5    LEU      C     5    LEU     CA    -3.766     
+    6    VAL      C     6    VAL     CA    -0.942     
+    7    ILE      C     7    ILE     CA    -5.069     
+    8    ASN      C     8    ASN     CA    -0.653     
+    9    GLY      C     9    GLY     CA    -5.592     
+   12    LEU      C    12    LEU     CA     2.284     
+   13    LYS      C    13    LYS     CA    -2.267     
+   14    GLY      C    14    GLY     CA    -3.154     
+   15    GLU      C    15    GLU     CA    -1.073     
+   16    THR      C    16    THR     CA    -2.778     
+   17    THR      C    17    THR     CA    -1.404     
+   19    LYS      C    19    LYS     CA     1.123     
+   21    VAL      C    21    VAL     CA     3.047     
+   22    ASP      C    22    ASP     CA    -6.355     
+   23    ALA      C    23    ALA     CA     1.469     
+   27    GLU      C    27    GLU     CA     2.827     
+   28    LYS      C    28    LYS     CA     3.352     
+   29    ALA      C    29    ALA     CA    -5.988     
+   30    PHE      C    30    PHE     CA    -1.041     
+   31    LYS      C    31    LYS     CA     3.967     
+   32    GLN      C    32    GLN     CA    -0.380     
+   33    TYR      C    33    TYR     CA    -6.058     
+   34    ALA      C    34    ALA     CA     1.194     
+   35    ASN      C    35    ASN     CA     3.851     
+   36    ASP      C    36    ASP     CA    -3.454     
+   37    ASN      C    37    ASN     CA    -3.213     
+   38    GLY      C    38    GLY     CA     3.026     
+   42    VAL      C    42    VAL     CA    -1.931     
+   43    TRP      C    43    TRP     CA     3.132     
+   44    THR      C    44    THR     CA    -2.915     
+   45    TYR      C    45    TYR     CA     2.879     
+   47    ASP      C    47    ASP     CA     2.031     
+   48    ALA      C    48    ALA     CA     4.071     
+   49    THR      C    49    THR     CA     2.542     
+   50    LYS      C    50    LYS     CA    -1.149     
+   51    THR      C    51    THR     CA     1.065     
+   52    PHE      C    52    PHE     CA    -4.706     
+   53    THR      C    53    THR     CA     1.505     
+   54    VAL      C    54    VAL     CA    -5.869     
+   55    THR      C    55    THR     CA    -0.263
+
+    2    GLN      C     3    TYR      N    -0.320     
+    3    TYR      C     4    LYS      N    -1.906     
+    4    LYS      C     5    LEU      N    -0.024     
+    5    LEU      C     6    VAL      N    -0.476     
+    6    VAL      C     7    ILE      N     0.578     
+    7    ILE      C     8    ASN      N     0.944     
+    8    ASN      C     9    GLY      N     2.356     
+    9    GLY      C    10    LYS      N    -0.564     
+   12    LEU      C    13    LYS      N     1.016     
+   13    LYS      C    14    GLY      N    -1.894     
+   14    GLY      C    15    GLU      N    -1.914     
+   15    GLU      C    16    THR      N    -1.834     
+   17    THR      C    18    THR      N    -1.150     
+   18    THR      C    19    LYS      N    -2.606     
+   19    LYS      C    20    ALA      N     1.722     
+   20    ALA      C    21    VAL      N    -1.028     
+   21    VAL      C    22    ASP      N    -1.952     
+   22    ASP      C    23    ALA      N     0.950     
+   23    ALA      C    24    GLU      N    -0.274     
+   27    GLU      C    28    LYS      N    -1.928     
+   28    LYS      C    29    ALA      N     0.528     
+   30    PHE      C    31    LYS      N     1.348     
+   31    LYS      C    32    GLN      N    -1.522     
+   32    GLN      C    33    TYR      N     1.216     
+   33    TYR      C    34    ALA      N     1.898     
+   34    ALA      C    35    ASN      N    -0.472     
+   35    ASN      C    36    ASP      N    -0.618     
+   36    ASP      C    37    ASN      N     1.366     
+   37    ASN      C    38    GLY      N     1.742     
+   38    GLY      C    39    VAL      N    -0.444     
+   42    VAL      C    43    TRP      N    -2.984     
+   43    TRP      C    44    THR      N     0.968     
+   44    THR      C    45    TYR      N    -0.594     
+   45    TYR      C    46    ASP      N     0.940     
+   46    ASP      C    47    ASP      N    -0.402     
+   47    ASP      C    48    ALA      N    -0.194     
+   48    ALA      C    49    THR      N    -0.868     
+   49    THR      C    50    LYS      N     0.326     
+   50    LYS      C    51    THR      N    -2.602     
+   51    THR      C    52    PHE      N     1.666     
+   52    PHE      C    53    THR      N    -1.054     
+   53    THR      C    54    VAL      N     0.352     
+   54    VAL      C    55    THR      N     0.076     
+   55    THR      C    56    GLU      N    -0.386 
+
+    2    GLN     CA     2    GLN     HA    29.248     
+    3    TYR     CA     3    TYR     HA    36.404     
+    4    LYS     CA     4    LYS     HA    41.096     
+    5    LEU     CA     5    LEU     HA    42.639     
+    6    VAL     CA     6    VAL     HA    37.904     
+    7    ILE     CA     7    ILE     HA    26.974     
+    8    ASN     CA     8    ASN     HA    23.801     
+    9    GLY     CA     9    GLY     HA#   54.500     
+   12    LEU     CA    12    LEU     HA    30.329     
+   13    LYS     CA    13    LYS     HA    26.588     
+   14    GLY     CA    14    GLY     HA#   54.760     
+   15    GLU     CA    15    GLU     HA    34.267     
+   16    THR     CA    16    THR     HA    33.305     
+   17    THR     CA    17    THR     HA    39.254     
+   18    THR     CA    18    THR     HA    41.240     
+   19    LYS     CA    19    LYS     HA    31.762     
+   20    ALA     CA    20    ALA     HA    10.636     
+   21    VAL     CA    21    VAL     HA     9.944     
+   22    ASP     CA    22    ASP     HA    27.710     
+   23    ALA     CA    23    ALA     HA    19.491     
+   27    GLU     CA    27    GLU     HA   -34.244     
+   28    LYS     CA    28    LYS     HA   -20.276     
+   29    ALA     CA    29    ALA     HA    32.192     
+   30    PHE     CA    30    PHE     HA    33.187     
+   31    LYS     CA    31    LYS     HA   -51.346     
+   32    GLN     CA    32    GLN     HA     4.506     
+   33    TYR     CA    33    TYR     HA    42.230     
+   34    ALA     CA    34    ALA     HA    -3.207     
+   35    ASN     CA    35    ASN     HA   -41.750     
+   36    ASP     CA    36    ASP     HA    24.039     
+   37    ASN     CA    37    ASN     HA    37.686     
+   38    GLY     CA    38    GLY     HA#   -1.692     
+   42    VAL     CA    42    VAL     HA     6.185     
+   43    TRP     CA    43    TRP     HA    27.419     
+   44    THR     CA    44    THR     HA    23.599     
+   45    TYR     CA    45    TYR     HA    37.344     
+   46    ASP     CA    46    ASP     HA    40.329     
+   47    ASP     CA    47    ASP     HA    30.267     
+   48    ALA     CA    48    ALA     HA   -56.646     
+   49    THR     CA    49    THR     HA    -3.485     
+   50    LYS     CA    50    LYS     HA    23.735     
+   51    THR     CA    51    THR     HA    34.829     
+   52    PHE     CA    52    PHE     HA    43.214     
+   53    THR     CA    53    THR     HA    39.814     
+   54    VAL     CA    54    VAL     HA    36.424     
+   55    THR     CA    55    THR     HA    29.428
+
+    3    TYR     HN     3    TYR      N    17.168     
+    4    LYS     HN     4    LYS      N    21.874     
+    5    LEU     HN     5    LEU      N    20.181     
+    6    VAL     HN     6    VAL      N    17.237     
+    7    ILE     HN     7    ILE      N    16.428     
+    8    ASN     HN     8    ASN      N     5.470     
+    9    GLY     HN     9    GLY      N    12.408     
+   12    LEU     HN    12    LEU      N    16.178     
+   13    LYS     HN    13    LYS      N    15.896     
+   14    GLY     HN    14    GLY      N    19.671     
+   15    GLU     HN    15    GLU      N    19.811     
+   16    THR     HN    16    THR      N    21.622     
+   17    THR     HN    17    THR      N    21.296     
+   18    THR     HN    18    THR      N    19.770     
+   19    LYS     HN    19    LYS      N    19.137     
+   20    ALA     HN    20    ALA      N    12.772     
+   21    VAL     HN    21    VAL      N    14.060     
+   22    ASP     HN    22    ASP      N     7.346     
+   23    ALA     HN    23    ALA      N    10.892     
+   28    LYS     HN    28    LYS      N   -20.215     
+   29    ALA     HN    29    ALA      N    -2.426     
+   30    PHE     HN    30    PHE      N     0.908     
+   31    LYS     HN    31    LYS      N   -18.406     
+   32    GLN     HN    32    GLN      N   -20.754     
+   33    TYR     HN    33    TYR      N    -6.338     
+   34    ALA     HN    34    ALA      N    -5.420     
+   35    ASN     HN    35    ASN      N   -23.762     
+   36    ASP     HN    36    ASP      N   -15.885     
+   38    GLY     HN    38    GLY      N   -20.376     
+   42    VAL     HN    42    VAL      N   -11.010     
+   43    TRP     HN    43    TRP      N    12.075     
+   44    THR     HN    44    THR      N    18.342     
+   45    TYR     HN    45    TYR      N    19.799     
+   46    ASP     HN    46    ASP      N    20.868     
+   47    ASP     HN    47    ASP      N    15.362     
+   48    ALA     HN    48    ALA      N   -10.992     
+   49    THR     HN    49    THR      N    -2.067     
+   50    LYS     HN    50    LYS      N    19.409     
+   51    THR     HN    51    THR      N    21.409     
+   52    PHE     HN    52    PHE      N    18.507     
+   53    THR     HN    53    THR      N    16.459     
+   54    VAL     HN    54    VAL      N    15.767     
+   55    THR     HN    55    THR      N     9.279 
+
+excluded couplings
+#   10    LYS      C    10    LYS     CA     3.795       
+#   11    THR      C    11    THR     CA    -2.830       
+#   24    GLU      C    24    GLU     CA     3.502     
+#   25    THR      C    25    THR     CA    -2.526     
+#   26    ALA      C    26    ALA     CA    -2.976     
+#   39    VAL      C    39    VAL     CA     1.869     
+#   40    ASP      C    40    ASP     CA     1.813       
+#   41    GLY      C    41    GLY     CA     0.338     
+
+#   10    LYS      C    11    THR      N    -0.012 
+#   11    THR      C    12    LEU      N    -1.896 
+#   24    GLU      C    25    THR      N    -1.320     
+#   25    THR      C    26    ALA      N     1.084     
+#   26    ALA      C    27    GLU      N     1.820     
+#   39    VAL      C    40    ASP      N    -0.262     
+#   40    ASP      C    41    GLY      N     0.222 
+#   41    GLY      C    42    VAL      N     1.784     
+
+#   10    LYS     CA    10    LYS     HA    18.139 
+#   11    THR     CA    11    THR     HA   -23.085 
+#   24    GLU     CA    24    GLU     HA   -52.233     
+#   25    THR     CA    25    THR     HA    25.500     
+#   26    ALA     CA    26    ALA     HA    41.889     
+#   39    VAL     CA    39    VAL     HA   -59.692     
+#   40    ASP     CA    40    ASP     HA   -56.871 
+#   41    GLY     CA    41    GLY     HA#  -22.020     
+
+#   10    LYS     HN    10    LYS      N     5.028
+#   11    THR     HN    11    THR      N    -7.451
+#   24    GLU     HN    24    GLU      N   -13.218     
+#   26    ALA     HN    26    ALA      N     7.253     
+#   39    VAL     HN    39    VAL      N   -26.871     
+#   40    ASP     HN    40    ASP      N   -25.108
+#   41    GLY     HN    41    GLY      N   -22.136     
+#   56    GLU     HN    56    GLU      N    13.482
+
+
+Medium B (PEG)
+
+    2    GLN      C     2    GLN     CA    -0.668     
+    3    TYR      C     3    TYR     CA    -1.119     
+    4    LYS      C     4    LYS     CA    -2.096     
+    5    LEU      C     5    LEU     CA    -0.356     
+    6    VAL      C     6    VAL     CA    -2.366     
+    7    ILE      C     7    ILE     CA    -1.245     
+    8    ASN      C     8    ASN     CA    -2.399     
+    9    GLY      C     9    GLY     CA    -1.891     
+   12    LEU      C    12    LEU     CA     0.003     
+   13    LYS      C    13    LYS     CA    -1.538     
+   14    GLY      C    14    GLY     CA    -1.414     
+   15    GLU      C    15    GLU     CA     0.218     
+   16    THR      C    16    THR     CA    -1.506     
+   17    THR      C    17    THR     CA     0.815     
+   18    THR      C    18    THR     CA    -2.669     
+   19    LYS      C    19    LYS     CA     1.710     
+   20    ALA      C    20    ALA     CA    -0.999     
+   21    VAL      C    21    VAL     CA     2.162     
+   22    ASP      C    22    ASP     CA    -3.228     
+   23    ALA      C    23    ALA     CA    -0.822     
+   27    GLU      C    27    GLU     CA     0.415     
+   28    LYS      C    28    LYS     CA     2.127     
+   29    ALA      C    29    ALA     CA    -1.752     
+   30    PHE      C    30    PHE     CA    -2.436     
+   31    LYS      C    31    LYS     CA     1.240     
+   32    GLN      C    32    GLN     CA     1.045     
+   33    TYR      C    33    TYR     CA    -2.868     
+   34    ALA      C    34    ALA     CA    -1.379     
+   35    ASN      C    35    ASN     CA     2.113     
+   36    ASP      C    36    ASP     CA    -0.038     
+   37    ASN      C    37    ASN     CA    -1.703     
+   38    GLY      C    38    GLY     CA     1.854     
+   42    VAL      C    42    VAL     CA    -2.529     
+   43    TRP      C    43    TRP     CA     0.578     
+   44    THR      C    44    THR     CA    -2.334     
+   45    TYR      C    45    TYR     CA     0.307     
+   46    ASP      C    46    ASP     CA    -2.944     
+   47    ASP      C    47    ASP     CA    -0.043     
+   48    ALA      C    48    ALA     CA     2.287     
+   49    THR      C    49    THR     CA     1.483     
+   50    LYS      C    50    LYS     CA    -1.928     
+   51    THR      C    51    THR     CA    -0.942     
+   52    PHE      C    52    PHE     CA    -1.691     
+   53    THR      C    53    THR     CA    -1.022     
+   54    VAL      C    54    VAL     CA    -2.068     
+   55    THR      C    55    THR     CA    -2.146
+
+    2    GLN      C     3    TYR      N    -1.216     
+    3    TYR      C     4    LYS      N    -0.526     
+    4    LYS      C     5    LEU      N    -0.690     
+    5    LEU      C     6    VAL      N    -0.088     
+    6    VAL      C     7    ILE      N     0.050     
+    7    ILE      C     8    ASN      N     0.600     
+    8    ASN      C     9    GLY      N     1.006     
+    9    GLY      C    10    LYS      N    -1.232     
+   12    LEU      C    13    LYS      N     0.032     
+   13    LYS      C    14    GLY      N    -1.096     
+   14    GLY      C    15    GLU      N    -1.266     
+   15    GLU      C    16    THR      N    -0.114     
+   16    THR      C    17    THR      N    -0.838     
+   17    THR      C    18    THR      N    -0.286     
+   18    THR      C    19    LYS      N    -0.556     
+   19    LYS      C    20    ALA      N     0.938     
+   20    ALA      C    21    VAL      N     0.600     
+   21    VAL      C    22    ASP      N    -1.600     
+   22    ASP      C    23    ALA      N     0.840     
+   23    ALA      C    24    GLU      N     0.754     
+   27    GLU      C    28    LYS      N     0.146     
+   28    LYS      C    29    ALA      N    -0.318     
+   30    PHE      C    31    LYS      N     1.102     
+   31    LYS      C    32    GLN      N    -0.228     
+   32    GLN      C    33    TYR      N     0.200     
+   33    TYR      C    34    ALA      N     1.160     
+   34    ALA      C    35    ASN      N     0.622     
+   35    ASN      C    36    ASP      N    -0.586     
+   36    ASP      C    37    ASN      N     0.978     
+   37    ASN      C    38    GLY      N     1.126     
+   38    GLY      C    39    VAL      N    -1.030     
+   42    VAL      C    43    TRP      N    -1.152     
+   43    TRP      C    44    THR      N    -0.168     
+   44    THR      C    45    TYR      N    -0.788     
+   45    TYR      C    46    ASP      N     0.224     
+   46    ASP      C    47    ASP      N     0.050     
+   47    ASP      C    48    ALA      N     0.670     
+   48    ALA      C    49    THR      N    -1.290     
+   49    THR      C    50    LYS      N     0.984     
+   50    LYS      C    51    THR      N    -1.112     
+   51    THR      C    52    PHE      N     0.208     
+   52    PHE      C    53    THR      N    -0.974     
+   53    THR      C    54    VAL      N    -0.314     
+   54    VAL      C    55    THR      N    -0.102     
+   55    THR      C    56    GLU      N    -0.264
+
+    2    GLN     CA     2    GLN     HA    12.017     
+    3    TYR     CA     3    TYR     HA    14.734     
+    4    LYS     CA     4    LYS     HA    22.676     
+    5    LEU     CA     5    LEU     HA    23.759     
+    6    VAL     CA     6    VAL     HA    22.100     
+    7    ILE     CA     7    ILE     HA    19.873     
+    8    ASN     CA     8    ASN     HA    19.539     
+    9    GLY     CA     9    GLY     HA#   36.970     
+   12    LEU     CA    12    LEU     HA    21.038     
+   13    LYS     CA    13    LYS     HA    19.835     
+   14    GLY     CA    14    GLY     HA#   32.850     
+   15    GLU     CA    15    GLU     HA    19.452     
+   16    THR     CA    16    THR     HA    17.231     
+   17    THR     CA    17    THR     HA    21.852     
+   18    THR     CA    18    THR     HA    22.756     
+   19    LYS     CA    19    LYS     HA    15.474     
+   20    ALA     CA    20    ALA     HA    13.703     
+   21    VAL     CA    21    VAL     HA    -8.593     
+   22    ASP     CA    22    ASP     HA     4.420     
+   23    ALA     CA    23    ALA     HA    18.319     
+   27    GLU     CA    27    GLU     HA     0.694     
+   28    LYS     CA    28    LYS     HA   -23.575     
+   29    ALA     CA    29    ALA     HA    11.731     
+   30    PHE     CA    30    PHE     HA    22.091     
+   31    LYS     CA    31    LYS     HA   -11.487     
+   32    GLN     CA    32    GLN     HA   -15.368     
+   33    TYR     CA    33    TYR     HA    20.755     
+   34    ALA     CA    34    ALA     HA    12.615     
+   35    ASN     CA    35    ASN     HA   -21.200     
+   36    ASP     CA    36    ASP     HA    -0.657     
+   37    ASN     CA    37    ASN     HA    16.711     
+   38    GLY     CA    38    GLY     HA#    2.392     
+   42    VAL     CA    42    VAL     HA    14.010     
+   43    TRP     CA    43    TRP     HA    20.295     
+   44    THR     CA    44    THR     HA    20.218     
+   45    TYR     CA    45    TYR     HA    23.196     
+   46    ASP     CA    46    ASP     HA    23.105     
+   47    ASP     CA    47    ASP     HA    18.431     
+   48    ALA     CA    48    ALA     HA   -31.788     
+   49    THR     CA    49    THR     HA   -18.012     
+   50    LYS     CA    50    LYS     HA    18.733     
+   51    THR     CA    51    THR     HA    20.671     
+   52    PHE     CA    52    PHE     HA    23.543     
+   53    THR     CA    53    THR     HA    23.197     
+   54    VAL     CA    54    VAL     HA    22.685     
+   55    THR     CA    55    THR     HA    20.791
+
+    3    TYR     HN     3    TYR      N     8.878     
+    4    LYS     HN     4    LYS      N    10.584     
+    5    LEU     HN     5    LEU      N    11.162     
+    6    VAL     HN     6    VAL      N    10.768     
+    7    ILE     HN     7    ILE      N     8.784     
+    8    ASN     HN     8    ASN      N     7.791     
+    9    GLY     HN     9    GLY      N     5.210     
+   12    LEU     HN    12    LEU      N     8.599     
+   13    LYS     HN    13    LYS      N     9.598     
+   14    GLY     HN    14    GLY      N    11.174     
+   15    GLU     HN    15    GLU      N    11.160     
+   16    THR     HN    16    THR      N    11.281     
+   17    THR     HN    17    THR      N    10.417     
+   18    THR     HN    18    THR      N     7.495     
+   19    LYS     HN    19    LYS      N     6.883     
+   20    ALA     HN    20    ALA      N     3.734     
+   21    VAL     HN    21    VAL      N     5.021     
+   22    ASP     HN    22    ASP      N    -1.665     
+   23    ALA     HN    23    ALA      N     1.174     
+   28    LYS     HN    28    LYS      N   -13.783     
+   29    ALA     HN    29    ALA      N    -9.107     
+   30    PHE     HN    30    PHE      N    -3.803     
+   31    LYS     HN    31    LYS      N    -9.141     
+   32    GLN     HN    32    GLN      N   -15.848     
+   33    TYR     HN    33    TYR      N    -9.585     
+   34    ALA     HN    34    ALA      N    -4.899     
+   35    ASN     HN    35    ASN      N   -11.417     
+   36    ASP     HN    36    ASP      N   -14.628     
+   38    GLY     HN    38    GLY      N    -1.726     
+   42    VAL     HN    42    VAL      N     2.720     
+   43    TRP     HN    43    TRP      N     7.463     
+   44    THR     HN    44    THR      N    11.237     
+   45    TYR     HN    45    TYR      N    11.335     
+   46    ASP     HN    46    ASP      N    11.217     
+   47    ASP     HN    47    ASP      N     7.896     
+   48    ALA     HN    48    ALA      N    -6.654     
+   49    THR     HN    49    THR      N    -6.331     
+   50    LYS     HN    50    LYS      N    10.328     
+   51    THR     HN    51    THR      N    10.868     
+   52    PHE     HN    52    PHE      N    10.165     
+   53    THR     HN    53    THR      N    10.967     
+   54    VAL     HN    54    VAL      N     9.879     
+   55    THR     HN    55    THR      N     9.152
+
+excluded couplings
+#    1    MET      C     1    MET     CA    -1.825
+#   10    LYS      C    10    LYS     CA     2.207
+#   11    THR      C    11    THR     CA    -2.325
+#   24    GLU      C    24    GLU     CA     1.293     
+#   25    THR      C    25    THR     CA     0.103     
+#   26    ALA      C    26    ALA     CA    -2.514     
+#   39    VAL      C    39    VAL     CA     1.772     
+#   40    ASP      C    40    ASP     CA     1.321
+#   41    GLY      C    41    GLY     CA    -0.109     
+
+#    1    MET      C     2    GLN      N     0.568
+#   10    LYS      C    11    THR      N     0.600
+#   11    THR      C    12    LEU      N    -0.774
+#   24    GLU      C    25    THR      N    -1.230     
+#   25    THR      C    26    ALA      N     0.686     
+#   26    ALA      C    27    GLU      N     0.898     
+#   39    VAL      C    40    ASP      N    -0.050     
+#   40    ASP      C    41    GLY      N    -0.596
+#   41    GLY      C    42    VAL      N     0.910     
+
+#   1     MET     CA     1    MET     HA    -4.807
+#   10    LYS     CA    10    LYS     HA    13.756
+#   11    THR     CA    11    THR     HA     2.450
+#   24    GLU     CA    24    GLU     HA   -26.790     
+#   25    THR     CA    25    THR     HA    -1.300     
+#   26    ALA     CA    26    ALA     HA    22.898     
+#   39    VAL     CA    39    VAL     HA   -23.490     
+#   40    ASP     CA    40    ASP     HA   -25.074
+#   41    GLY     CA    41    GLY     HA#  -12.140     
+
+#   10    LYS     HN    10    LYS      N     6.090
+#   11    THR     HN    11    THR      N     3.032
+#   24    GLU     HN    24    GLU      N    -9.867     
+#   26    ALA     HN    26    ALA      N    -2.407     
+#   39    VAL     HN    39    VAL      N   -10.420     
+#   40    ASP     HN    40    ASP      N    -6.234
+#   41    GLY     HN    41    GLY      N    -6.378     
+#   56    GLU     HN    56    GLU      N     8.291
+
+
+Medium C (Pf1 phage)
+
+    2    GLN      C     2    GLN     CA     4.257     
+    3    TYR      C     3    TYR     CA    -1.986     
+    4    LYS      C     4    LYS     CA     5.443     
+    5    LEU      C     5    LEU     CA    -1.664     
+    6    VAL      C     6    VAL     CA     3.479     
+    7    ILE      C     7    ILE     CA     0.067     
+    8    ASN      C     8    ASN     CA     2.472     
+    9    GLY      C     9    GLY     CA     0.227     
+   12    LEU      C    12    LEU     CA    -2.137     
+   13    LYS      C    13    LYS     CA     5.354     
+   14    GLY      C    14    GLY     CA    -1.435     
+   15    GLU      C    15    GLU     CA     0.814     
+   16    THR      C    16    THR     CA    -1.437     
+   17    THR      C    17    THR     CA    -2.215     
+   18    THR      C    18    THR     CA    -0.076     
+   19    LYS      C    19    LYS     CA    -1.695     
+   20    ALA      C    20    ALA     CA    -1.508     
+   21    VAL      C    21    VAL     CA     0.389     
+   22    ASP      C    22    ASP     CA     2.703     
+   23    ALA      C    23    ALA     CA     0.426     
+   27    GLU      C    27    GLU     CA    -2.558     
+   28    LYS      C    28    LYS     CA    -2.154     
+   29    ALA      C    29    ALA     CA     0.348     
+   30    PHE      C    30    PHE     CA     4.765     
+   31    LYS      C    31    LYS     CA    -3.308     
+   32    GLN      C    32    GLN     CA    -2.472     
+   33    TYR      C    33    TYR     CA     3.782     
+   34    ALA      C    34    ALA     CA     0.238     
+   35    ASN      C    35    ASN     CA    -2.560     
+   36    ASP      C    36    ASP     CA    -1.487     
+   37    ASN      C    37    ASN     CA     4.592     
+   38    GLY      C    38    GLY     CA    -1.976     
+   42    VAL      C    42    VAL     CA     5.090     
+   43    TRP      C    43    TRP     CA    -2.883     
+   44    THR      C    44    THR     CA     5.853     
+   45    TYR      C    45    TYR     CA    -2.561     
+   46    ASP      C    46    ASP     CA     4.740     
+   47    ASP      C    47    ASP     CA     1.580     
+   48    ALA      C    48    ALA     CA    -1.084     
+   49    THR      C    49    THR     CA    -2.953     
+   50    LYS      C    50    LYS     CA    -1.010     
+   51    THR      C    51    THR     CA     4.045     
+   52    PHE      C    52    PHE     CA    -0.720     
+   53    THR      C    53    THR     CA     2.402     
+   54    VAL      C    54    VAL     CA    -0.041     
+   55    THR      C    55    THR     CA     3.011       
+
+    2    GLN      C     3    TYR      N     1.084     
+    3    TYR      C     4    LYS      N     1.268     
+    4    LYS      C     5    LEU      N    -0.954     
+    5    LEU      C     6    VAL      N     1.106     
+    6    VAL      C     7    ILE      N    -1.562     
+    7    ILE      C     8    ASN      N     1.758     
+    8    ASN      C     9    GLY      N    -1.514     
+    9    GLY      C    10    LYS      N     1.506     
+   12    LEU      C    13    LYS      N     0.896     
+   13    LYS      C    14    GLY      N    -0.416     
+   14    GLY      C    15    GLU      N     2.704     
+   15    GLU      C    16    THR      N    -0.978     
+   16    THR      C    17    THR      N     1.720     
+   17    THR      C    18    THR      N    -1.286     
+   18    THR      C    19    LYS      N     0.858     
+   19    LYS      C    20    ALA      N    -1.568     
+   20    ALA      C    21    VAL      N    -1.566     
+   21    VAL      C    22    ASP      N     2.992     
+   22    ASP      C    23    ALA      N     0.618     
+   23    ALA      C    24    GLU      N    -1.200     
+   27    GLU      C    28    LYS      N    -0.594     
+   28    LYS      C    29    ALA      N     2.416     
+   30    PHE      C    31    LYS      N    -0.522     
+   31    LYS      C    32    GLN      N     1.640     
+   32    GLN      C    33    TYR      N     0.370     
+   33    TYR      C    34    ALA      N    -0.146     
+   34    ALA      C    35    ASN      N    -1.280     
+   35    ASN      C    36    ASP      N     2.896     
+   36    ASP      C    37    ASN      N    -1.340     
+   37    ASN      C    38    GLY      N     0.664     
+   38    GLY      C    39    VAL      N    -0.212     
+   42    VAL      C    43    TRP      N    -0.660     
+   43    TRP      C    44    THR      N     1.136     
+   44    THR      C    45    TYR      N    -0.844     
+   45    TYR      C    46    ASP      N     1.404     
+   46    ASP      C    47    ASP      N    -1.384     
+   47    ASP      C    48    ALA      N    -1.210     
+   48    ALA      C    49    THR      N    -0.274     
+   49    THR      C    50    LYS      N    -0.994     
+   50    LYS      C    51    THR      N     2.212     
+   51    THR      C    52    PHE      N    -1.346     
+   52    PHE      C    53    THR      N     2.714     
+   53    THR      C    54    VAL      N    -1.484     
+   54    VAL      C    55    THR      N     2.454     
+   55    THR      C    56    GLU      N    -1.560       
+
+    2    GLN     CA     2    GLN     HA   -30.753     
+    3    TYR     CA     3    TYR     HA   -30.549     
+    4    LYS     CA     4    LYS     HA   -14.304     
+    5    LEU     CA     5    LEU     HA    -9.886     
+    6    VAL     CA     6    VAL     HA    -3.219     
+    7    ILE     CA     7    ILE     HA    -7.028     
+    8    ASN     CA     8    ASN     HA   -11.673     
+    9    GLY     CA     9    GLY     HA#  -14.710     
+   12    LEU     CA    12    LEU     HA   -10.696     
+   13    LYS     CA    13    LYS     HA   -16.938     
+   14    GLY     CA    14    GLY     HA#  -32.380     
+   15    GLU     CA    15    GLU     HA     6.533     
+   16    THR     CA    16    THR     HA    12.711     
+   17    THR     CA    17    THR     HA    -1.616     
+   18    THR     CA    18    THR     HA    -7.219     
+   19    LYS     CA    19    LYS     HA   -29.553     
+   20    ALA     CA    20    ALA     HA   -18.181     
+   21    VAL     CA    21    VAL     HA    27.473     
+   22    ASP     CA    22    ASP     HA   -19.749     
+   23    ALA     CA    23    ALA     HA   -20.083     
+   27    GLU     CA    27    GLU     HA   -18.974     
+   28    LYS     CA    28    LYS     HA    55.162     
+   29    ALA     CA    29    ALA     HA   -29.428     
+   30    PHE     CA    30    PHE     HA   -16.442     
+   31    LYS     CA    31    LYS     HA     7.185     
+   32    GLN     CA    32    GLN     HA    30.856     
+   33    TYR     CA    33    TYR     HA   -22.753     
+   34    ALA     CA    34    ALA     HA   -22.876     
+   35    ASN     CA    35    ASN     HA    44.819     
+   36    ASP     CA    36    ASP     HA    -9.526     
+   37    ASN     CA    37    ASN     HA   -27.666     
+   38    GLY     CA    38    GLY     HA#  -26.938     
+   42    VAL     CA    42    VAL     HA   -18.492     
+   43    TRP     CA    43    TRP     HA    -9.169     
+   44    THR     CA    44    THR     HA   -14.323     
+   45    TYR     CA    45    TYR     HA   -13.291     
+   46    ASP     CA    46    ASP     HA    -3.639     
+   47    ASP     CA    47    ASP     HA   -22.235     
+   48    ALA     CA    48    ALA     HA    14.762     
+   49    THR     CA    49    THR     HA    43.515     
+   50    LYS     CA    50    LYS     HA    -7.877     
+   51    THR     CA    51    THR     HA    -9.700     
+   52    PHE     CA    52    PHE     HA    -9.535     
+   53    THR     CA    53    THR     HA    -3.820     
+   54    VAL     CA    54    VAL     HA    -9.270     
+   55    THR     CA    55    THR     HA    -8.267
+
+    3    TYR     HN     3    TYR      N   -12.720     
+    4    LYS     HN     4    LYS      N   -10.641     
+    5    LEU     HN     5    LEU      N     1.384     
+    6    VAL     HN     6    VAL      N    -6.942     
+    7    ILE     HN     7    ILE      N     4.445     
+    8    ASN     HN     8    ASN      N    -9.344     
+    9    GLY     HN     9    GLY      N    15.914     
+   12    LEU     HN    12    LEU      N    -1.390     
+   13    LYS     HN    13    LYS      N    -9.651     
+   14    GLY     HN    14    GLY      N    -4.878     
+   15    GLU     HN    15    GLU      N    -5.053     
+   16    THR     HN    16    THR      N    -7.263     
+   17    THR     HN    17    THR      N   -12.536     
+   18    THR     HN    18    THR      N   -15.558     
+   19    LYS     HN    19    LYS      N   -13.134     
+   20    ALA     HN    20    ALA      N   -11.090     
+   21    VAL     HN    21    VAL      N   -12.548     
+   22    ASP     HN    22    ASP      N   -11.591     
+   23    ALA     HN    23    ALA      N   -15.371     
+   28    LYS     HN    28    LYS      N     2.314     
+   29    ALA     HN    29    ALA      N    -3.031     
+   30    PHE     HN    30    PHE      N   -10.815     
+   31    LYS     HN    31    LYS      N    -4.414     
+   32    GLN     HN    32    GLN      N     7.091     
+   33    TYR     HN    33    TYR      N    -4.535     
+   34    ALA     HN    34    ALA      N    -9.864     
+   35    ASN     HN    35    ASN      N    -0.132     
+   36    ASP     HN    36    ASP      N     2.161     
+   38    GLY     HN    38    GLY      N    -6.736     
+   42    VAL     HN    42    VAL      N   -11.635     
+   43    TRP     HN    43    TRP      N    -1.462     
+   44    THR     HN    44    THR      N    -6.081     
+   45    TYR     HN    45    TYR      N     0.637     
+   46    ASP     HN    46    ASP      N    -8.182     
+   47    ASP     HN    47    ASP      N    11.084     
+   48    ALA     HN    48    ALA      N    22.294     
+   49    THR     HN    49    THR      N    24.224     
+   50    LYS     HN    50    LYS      N    -7.604     
+   51    THR     HN    51    THR      N   -10.406     
+   52    PHE     HN    52    PHE      N     2.713     
+   53    THR     HN    53    THR      N    -5.031     
+   54    VAL     HN    54    VAL      N    -1.318     
+   55    THR     HN    55    THR      N    -9.796
+
+excluded couplings
+#   10    LYS      C    10    LYS     CA    -1.624       
+#   11    THR      C    11    THR     CA     5.840       
+#   24    GLU      C    24    GLU     CA    -3.326     
+#   25    THR      C    25    THR     CA    -2.260     
+#   26    ALA      C    26    ALA     CA     5.963     
+#   39    VAL      C    39    VAL     CA    -1.464     
+#   40    ASP      C    40    ASP     CA    -1.453       
+#   41    GLY      C    41    GLY     CA    -2.599     
+
+#   10    LYS      C    11    THR      N    -0.200       
+#   11    THR      C    12    LEU      N    -0.772       
+#   24    GLU      C    25    THR      N     2.694     
+#   25    THR      C    26    ALA      N    -1.338     
+#   26    ALA      C    27    GLU      N     0.172     
+#   39    VAL      C    40    ASP      N     1.462     
+#   40    ASP      C    41    GLY      N    -1.408       
+#   41    GLY      C    42    VAL      N    -1.544     
+
+#   10    LYS     CA    10    LYS     HA   -22.415
+#   11    THR     CA    11    THR     HA   -19.399
+#   24    GLU     CA    24    GLU     HA    42.271     
+#   25    THR     CA    25    THR     HA     0.500     
+#   26    ALA     CA    26    ALA     HA   -10.082     
+#   39    VAL     CA    39    VAL     HA    18.405     
+#   40    ASP     CA    40    ASP     HA    14.973
+#   41    GLY     CA    41    GLY     HA#   42.270     
+
+#   10    LYS     HN    10    LYS      N    -9.728
+#   11    THR     HN    11    THR      N   -11.940
+#   24    GLU     HN    24    GLU      N    -2.619     
+#   26    ALA     HN    26    ALA      N   -10.897     
+#   39    VAL     HN    39    VAL      N    15.549     
+#   40    ASP     HN    40    ASP      N    -2.658
+#   41    GLY     HN    41    GLY      N     5.299     
+
+
+
+
+Medium D (negatively charged polyacrylamide gel)
+
+    2    GLN      C     2    GLN     CA     3.557     
+    3    TYR      C     3    TYR     CA    -3.761     
+    4    LYS      C     4    LYS     CA     3.170     
+    5    LEU      C     5    LEU     CA    -2.637     
+    6    VAL      C     6    VAL     CA     1.092     
+    7    ILE      C     7    ILE     CA    -1.567     
+    8    ASN      C     8    ASN     CA     0.222     
+    9    GLY      C     9    GLY     CA    -2.496     
+   12    LEU      C    12    LEU     CA    -2.306     
+   13    LYS      C    13    LYS     CA     3.188     
+   14    GLY      C    14    GLY     CA    -3.692     
+   15    GLU      C    15    GLU     CA     1.132     
+   16    THR      C    16    THR     CA    -3.966     
+   17    THR      C    17    THR     CA    -1.043     
+   18    THR      C    18    THR     CA    -3.291     
+   19    LYS      C    19    LYS     CA     0.419     
+   20    ALA      C    20    ALA     CA    -3.543     
+   21    VAL      C    21    VAL     CA     2.381     
+   22    ASP      C    22    ASP     CA    -1.749     
+   23    ALA      C    23    ALA     CA     0.098     
+   27    GLU      C    27    GLU     CA    -1.802     
+   28    LYS      C    28    LYS     CA    -0.165     
+   29    ALA      C    29    ALA     CA    -2.287     
+   30    PHE      C    30    PHE     CA     2.133     
+   31    LYS      C    31    LYS     CA    -1.787     
+   32    GLN      C    32    GLN     CA    -1.490     
+   33    TYR      C    33    TYR     CA     0.204     
+   34    ALA      C    34    ALA     CA    -0.762     
+   35    ASN      C    35    ASN     CA    -0.379     
+   36    ASP      C    36    ASP     CA    -2.552     
+   37    ASN      C    37    ASN     CA     2.830     
+   38    GLY      C    38    GLY     CA     0.104     
+   42    VAL      C    42    VAL     CA     2.270     
+   43    TRP      C    43    TRP     CA    -2.329     
+   44    THR      C    44    THR     CA     3.125     
+   45    TYR      C    45    TYR     CA    -1.725     
+   46    ASP      C    46    ASP     CA     0.681     
+   47    ASP      C    47    ASP     CA     2.284     
+   48    ALA      C    48    ALA     CA     1.188     
+   49    THR      C    49    THR     CA    -0.895     
+   50    LYS      C    50    LYS     CA    -3.442     
+   51    THR      C    51    THR     CA     3.662     
+   52    PHE      C    52    PHE     CA    -3.241     
+   53    THR      C    53    THR     CA     1.615     
+   54    VAL      C    54    VAL     CA    -2.523     
+   55    THR      C    55    THR     CA     0.824
+
+    2    GLN      C     3    TYR      N    -0.282     
+    3    TYR      C     4    LYS      N     0.562     
+    4    LYS      C     5    LEU      N    -1.986     
+    5    LEU      C     6    VAL      N     1.236     
+    6    VAL      C     7    ILE      N    -1.790     
+    7    ILE      C     8    ASN      N     2.318     
+    8    ASN      C     9    GLY      N    -0.594     
+    9    GLY      C    10    LYS      N     0.348     
+   12    LEU      C    13    LYS      N     1.370     
+   13    LYS      C    14    GLY      N    -1.890     
+   14    GLY      C    15    GLU      N     1.538     
+   15    GLU      C    16    THR      N    -1.608     
+   16    THR      C    17    THR      N     0.674     
+   17    THR      C    18    THR      N    -1.918     
+   18    THR      C    19    LYS      N     0.080     
+   19    LYS      C    20    ALA      N    -0.828     
+   20    ALA      C    21    VAL      N    -1.022     
+   21    VAL      C    22    ASP      N     1.058     
+   22    ASP      C    23    ALA      N     1.376     
+   23    ALA      C    24    GLU      N    -0.516     
+   27    GLU      C    28    LYS      N    -0.776     
+   28    LYS      C    29    ALA      N     2.158     
+   30    PHE      C    31    LYS      N     0.712     
+   31    LYS      C    32    GLN      N     1.134     
+   32    GLN      C    33    TYR      N     0.700     
+   33    TYR      C    34    ALA      N     1.086     
+   34    ALA      C    35    ASN      N    -0.542     
+   35    ASN      C    36    ASP      N     2.254     
+   36    ASP      C    37    ASN      N    -0.236     
+   37    ASN      C    38    GLY      N     1.744     
+   38    GLY      C    39    VAL      N    -1.642     
+   42    VAL      C    43    TRP      N    -1.854     
+   43    TRP      C    44    THR      N     1.324     
+   44    THR      C    45    TYR      N    -1.994     
+   45    TYR      C    46    ASP      N     1.738     
+   46    ASP      C    47    ASP      N    -1.564     
+   47    ASP      C    48    ALA      N    -0.490     
+   49    THR      C    50    LYS      N     0.036     
+   50    LYS      C    51    THR      N     0.922     
+   51    THR      C    52    PHE      N    -1.054     
+   52    PHE      C    53    THR      N     1.932     
+   53    THR      C    54    VAL      N    -2.008     
+   54    VAL      C    55    THR      N     2.410     
+   55    THR      C    56    GLU      N    -2.142
+
+    2    GLN     CA     2    GLN     HA   -13.014     
+    3    TYR     CA     3    TYR     HA   -12.086     
+    4    LYS     CA     4    LYS     HA    11.765     
+    5    LEU     CA     5    LEU     HA    16.081     
+    6    VAL     CA     6    VAL     HA    21.995     
+    7    ILE     CA     7    ILE     HA    17.504     
+    8    ASN     CA     8    ASN     HA    11.796     
+    9    GLY     CA     9    GLY     HA#   28.990     
+   12    LEU     CA    12    LEU     HA    13.394     
+   13    LYS     CA    13    LYS     HA     4.464     
+   14    GLY     CA    14    GLY     HA#    9.803     
+   15    GLU     CA    15    GLU     HA    31.001     
+   16    THR     CA    16    THR     HA    35.424     
+   17    THR     CA    17    THR     HA    23.698     
+   18    THR     CA    18    THR     HA    18.721     
+   19    LYS     CA    19    LYS     HA    -8.793     
+   20    ALA     CA    20    ALA     HA    -0.009     
+   21    VAL     CA    21    VAL     HA    23.351     
+   22    ASP     CA    22    ASP     HA    -9.447     
+   23    ALA     CA    23    ALA     HA     0.387     
+   27    GLU     CA    27    GLU     HA   -21.934     
+   28    LYS     CA    28    LYS     HA    30.026     
+   29    ALA     CA    29    ALA     HA   -12.347     
+   30    PHE     CA    30    PHE     HA     6.836     
+   31    LYS     CA    31    LYS     HA    -9.116     
+   32    GLN     CA    32    GLN     HA    18.209     
+   33    TYR     CA    33    TYR     HA     1.079     
+   34    ALA     CA    34    ALA     HA    -9.747     
+   35    ASN     CA    35    ASN     HA    19.389     
+   36    ASP     CA    36    ASP     HA    -5.320     
+   37    ASN     CA    37    ASN     HA   -11.430     
+   38    GLY     CA    38    GLY     HA#  -25.541     
+   42    VAL     CA    42    VAL     HA    -0.258     
+   43    TRP     CA    43    TRP     HA    14.742     
+   44    THR     CA    44    THR     HA     8.327     
+   45    TYR     CA    45    TYR     HA    12.458     
+   46    ASP     CA    46    ASP     HA    22.070     
+   47    ASP     CA    47    ASP     HA    -0.320     
+   48    ALA     CA    48    ALA     HA   -25.743     
+   49    THR     CA    49    THR     HA    26.771     
+   50    LYS     CA    50    LYS     HA    16.038     
+   51    THR     CA    51    THR     HA    13.743     
+   52    PHE     CA    52    PHE     HA    16.933     
+   53    THR     CA    53    THR     HA    22.748     
+   54    VAL     CA    54    VAL     HA    16.989     
+   55    THR     CA    55    THR     HA    16.716
+
+    3    TYR     HN     3    TYR      N    -2.449     
+    4    LYS     HN     4    LYS      N     1.166     
+    5    LEU     HN     5    LEU      N    14.249     
+    6    VAL     HN     6    VAL      N     3.957     
+    7    ILE     HN     7    ILE      N    16.308     
+    8    ASN     HN     8    ASN      N    -1.247     
+    9    GLY     HN     9    GLY      N    22.454     
+   12    LEU     HN    12    LEU      N    10.887     
+   13    LYS     HN    13    LYS      N     0.741     
+   14    GLY     HN    14    GLY      N     7.872     
+   16    THR     HN    16    THR      N     5.804     
+   17    THR     HN    17    THR      N     0.284     
+   18    THR     HN    18    THR      N    -6.629     
+   19    LYS     HN    19    LYS      N    -4.832     
+   20    ALA     HN    20    ALA      N    -4.900     
+   21    VAL     HN    21    VAL      N    -4.989     
+   22    ASP     HN    22    ASP      N   -14.821     
+   23    ALA     HN    23    ALA      N   -15.514     
+   28    LYS     HN    28    LYS      N   -16.343     
+   29    ALA     HN    29    ALA      N   -14.487     
+   30    PHE     HN    30    PHE      N   -17.627     
+   31    LYS     HN    31    LYS      N   -18.509     
+   32    GLN     HN    32    GLN      N   -13.004     
+   33    TYR     HN    33    TYR      N   -16.955     
+   34    ALA     HN    34    ALA      N   -17.732     
+   36    ASP     HN    36    ASP      N   -15.581     
+   37    ASN     HN    37    ASN      N   -13.956     
+   38    GLY     HN    38    GLY      N   -10.461     
+   42    VAL     HN    42    VAL      N    -8.638     
+   43    TRP     HN    43    TRP      N     9.458     
+   44    THR     HN    44    THR      N     7.018     
+   46    ASP     HN    46    ASP      N     4.863     
+   47    ASP     HN    47    ASP      N    19.872     
+   48    ALA     HN    48    ALA      N    14.253     
+   49    THR     HN    49    THR      N    18.689     
+   50    LYS     HN    50    LYS      N     2.469     
+   51    THR     HN    51    THR      N     1.331     
+   52    PHE     HN    52    PHE      N    14.862     
+   53    THR     HN    53    THR      N     6.394     
+   54    VAL     HN    54    VAL      N    11.351     
+   55    THR     HN    55    THR      N     0.023
+
+excluded couplings
+#   10    LYS      C    10    LYS     CA     0.821
+#   11    THR      C    11    THR     CA     2.649
+#   24    GLU      C    24    GLU     CA    -1.004     
+#   25    THR      C    25    THR     CA    -2.694     
+#   26    ALA      C    26    ALA     CA     2.057     
+#   39    VAL      C    39    VAL     CA     0.261     
+#   40    ASP      C    40    ASP     CA     0.165
+#   41    GLY      C    41    GLY     CA    -3.256     
+
+#   10    LYS      C    11    THR      N     0.458
+#   11    THR      C    12    LEU      N    -1.822
+#   24    GLU      C    25    THR      N     1.714     
+#   25    THR      C    26    ALA      N    -0.418     
+#   26    ALA      C    27    GLU      N     1.446     
+#   39    VAL      C    40    ASP      N     1.476     
+#   40    ASP      C    41    GLY      N    -1.784
+#   41    GLY      C    42    VAL      N    -0.474     
+
+#    1    MET     CA     1    MET     HA    21.041
+#   10    LYS     CA    10    LYS     HA    -4.172
+#   11    THR     CA    11    THR     HA   -17.839
+#   24    GLU     CA    24    GLU     HA     9.113     
+#   25    THR     CA    25    THR     HA     3.429     
+#   26    ALA     CA    26    ALA     HA    15.209     
+#   39    VAL     CA    39    VAL     HA   -12.620     
+#   40    ASP     CA    40    ASP     HA   -18.765
+#   41    GLY     CA    41    GLY     HA#   30.559     
+
+#   10    LYS     HN    10    LYS      N    -0.844
+#   11    THR     HN    11    THR      N    -8.303
+#   24    GLU     HN    24    GLU      N   -17.036     
+#   26    ALA     HN    26    ALA      N   -15.210     
+#   39    VAL     HN    39    VAL      N     1.750     
+#   40    ASP     HN    40    ASP      N   -11.245
+#   41    GLY     HN    41    GLY      N    -4.503     
+#   56    GLU     HN    56    GLU      N    13.341
+
+
+
+Medium E (positively charged polyacrylamide gel)
+
+    2    GLN      C     2    GLN     CA    -2.088     
+    3    TYR      C     3    TYR     CA    -0.699     
+    4    LYS      C     4    LYS     CA    -1.676     
+    5    LEU      C     5    LEU     CA    -2.524     
+    6    VAL      C     6    VAL     CA    -0.591     
+    7    ILE      C     7    ILE     CA    -3.685     
+    8    ASN      C     8    ASN     CA     0.072     
+    9    GLY      C     9    GLY     CA    -3.076     
+   12    LEU      C    12    LEU     CA     3.499     
+   13    LYS      C    13    LYS     CA    -2.713     
+   14    GLY      C    14    GLY     CA    -0.078     
+   15    GLU      C    15    GLU     CA    -1.805     
+   16    THR      C    16    THR     CA     0.415     
+   17    THR      C    17    THR     CA    -1.440     
+   18    THR      C    18    THR     CA     0.178     
+   19    LYS      C    19    LYS     CA    -0.361     
+   20    ALA      C    20    ALA     CA     2.106     
+   21    VAL      C    21    VAL     CA     1.172     
+   22    ASP      C    22    ASP     CA    -3.042     
+   23    ALA      C    23    ALA     CA     1.366     
+   27    GLU      C    27    GLU     CA     3.243     
+   28    LYS      C    28    LYS     CA     2.297     
+   29    ALA      C    29    ALA     CA    -3.576     
+   30    PHE      C    30    PHE     CA    -1.041     
+   31    LYS      C    31    LYS     CA     3.893     
+   32    GLN      C    32    GLN     CA    -0.343     
+   33    TYR      C    33    TYR     CA    -4.089     
+   34    ALA      C    34    ALA     CA     1.765     
+   35    ASN      C    35    ASN     CA     3.473     
+   36    ASP      C    36    ASP     CA    -2.071     
+   37    ASN      C    37    ASN     CA    -3.170     
+   38    GLY      C    38    GLY     CA     2.337     
+   42    VAL      C    42    VAL     CA    -1.652     
+   43    TRP      C    43    TRP     CA     4.246     
+   44    THR      C    44    THR     CA    -2.653     
+   45    TYR      C    45    TYR     CA     3.557     
+   46    ASP      C    46    ASP     CA    -3.612     
+   47    ASP      C    47    ASP     CA     0.420     
+   48    ALA      C    48    ALA     CA     2.088     
+   49    THR      C    49    THR     CA     2.097     
+   50    LYS      C    50    LYS     CA     1.248     
+   51    THR      C    51    THR     CA    -0.927     
+   52    PHE      C    52    PHE     CA    -2.394     
+   53    THR      C    53    THR     CA     0.443     
+   54    VAL      C    54    VAL     CA    -3.452     
+   55    THR      C    55    THR     CA     0.123
+
+    2    GLN      C     3    TYR      N     0.282     
+    3    TYR      C     4    LYS      N    -1.846     
+    4    LYS      C     5    LEU      N     1.178     
+    5    LEU      C     6    VAL      N    -1.138     
+    6    VAL      C     7    ILE      N     1.486     
+    7    ILE      C     8    ASN      N    -0.256     
+    8    ASN      C     9    GLY      N     2.272     
+    9    GLY      C    10    LYS      N    -0.076     
+   12    LEU      C    13    LYS      N    -0.184     
+   13    LYS      C    14    GLY      N    -0.240     
+   14    GLY      C    15    GLU      N    -1.916     
+   15    GLU      C    16    THR      N    -0.900     
+   16    THR      C    17    THR      N    -2.150     
+   17    THR      C    18    THR      N     0.108     
+   18    THR      C    19    LYS      N    -2.016     
+   19    LYS      C    20    ALA      N     1.878     
+   20    ALA      C    21    VAL      N    -0.998     
+   21    VAL      C    22    ASP      N    -1.422     
+   22    ASP      C    23    ALA      N     0.138     
+   23    ALA      C    24    GLU      N    -0.556     
+   27    GLU      C    28    LYS      N    -1.506     
+   28    LYS      C    29    ALA      N    -0.408     
+   30    PHE      C    31    LYS      N     0.022     
+   31    LYS      C    32    GLN      N    -1.460     
+   32    GLN      C    33    TYR      N     0.600     
+   33    TYR      C    34    ALA      N     1.018     
+   34    ALA      C    35    ASN      N    -0.700     
+   35    ASN      C    36    ASP      N    -1.284     
+   36    ASP      C    37    ASN      N     0.984     
+   37    ASN      C    38    GLY      N     0.172     
+   38    GLY      C    39    VAL      N     0.918     
+   42    VAL      C    43    TRP      N    -1.432     
+   43    TRP      C    44    THR      N     0.126     
+   44    THR      C    45    TYR      N     0.960     
+   45    TYR      C    46    ASP      N    -0.204     
+   46    ASP      C    47    ASP      N     0.510     
+   47    ASP      C    48    ALA      N    -0.342     
+   48    ALA      C    49    THR      N     0.630     
+   49    THR      C    50    LYS      N    -0.284     
+   50    LYS      C    51    THR      N    -2.066     
+   51    THR      C    52    PHE      N     2.038     
+   52    PHE      C    53    THR      N    -1.590     
+   53    THR      C    54    VAL      N     1.468     
+   54    VAL      C    55    THR      N    -0.908     
+   55    THR      C    56    GLU      N     1.338
+
+    2    GLN     CA     2    GLN     HA    27.943     
+    3    TYR     CA     3    TYR     HA    35.052     
+    4    LYS     CA     4    LYS     HA    28.758     
+    5    LEU     CA     5    LEU     HA    24.381     
+    6    VAL     CA     6    VAL     HA    15.878     
+    7    ILE     CA     7    ILE     HA     7.264     
+    8    ASN     CA     8    ASN     HA     6.016     
+    9    GLY     CA     9    GLY     HA#   23.708     
+   12    LEU     CA    12    LEU     HA    12.875     
+   13    LYS     CA    13    LYS     HA    14.494     
+   14    GLY     CA    14    GLY     HA#   29.293     
+   15    GLU     CA    15    GLU     HA     9.201     
+   16    THR     CA    16    THR     HA     5.095     
+   17    THR     CA    17    THR     HA    21.154     
+   18    THR     CA    18    THR     HA    23.391     
+   19    LYS     CA    19    LYS     HA    29.109     
+   20    ALA     CA    20    ALA     HA     6.991     
+   21    VAL     CA    21    VAL     HA    -1.679     
+   22    ASP     CA    22    ASP     HA    25.020     
+   23    ALA     CA    23    ALA     HA     8.538     
+   27    GLU     CA    27    GLU     HA   -24.919     
+   28    LYS     CA    28    LYS     HA   -22.814     
+   29    ALA     CA    29    ALA     HA    30.398     
+   30    PHE     CA    30    PHE     HA    18.634     
+   31    LYS     CA    31    LYS     HA   -36.756     
+   32    GLN     CA    32    GLN     HA    -0.927     
+   33    TYR     CA    33    TYR     HA    34.939     
+   34    ALA     CA    34    ALA     HA    -8.558     
+   35    ASN     CA    35    ASN     HA   -35.709     
+   36    ASP     CA    36    ASP     HA    21.381     
+   37    ASN     CA    37    ASN     HA    37.140     
+   38    GLY     CA    38    GLY     HA#    2.507     
+   42    VAL     CA    42    VAL     HA    -5.519     
+   43    TRP     CA    43    TRP     HA     7.284     
+   44    THR     CA    44    THR     HA     9.185     
+   45    TYR     CA    45    TYR     HA    21.276     
+   46    ASP     CA    46    ASP     HA    21.746     
+   47    ASP     CA    47    ASP     HA    24.770     
+   48    ALA     CA    48    ALA     HA   -26.343     
+   49    THR     CA    49    THR     HA   -10.572     
+   50    LYS     CA    50    LYS     HA     3.608     
+   51    THR     CA    51    THR     HA    22.599     
+   52    PHE     CA    52    PHE     HA    25.207     
+   53    THR     CA    53    THR     HA    18.763     
+   54    VAL     CA    54    VAL     HA    16.600     
+   55    THR     CA    55    THR     HA     9.544
+
+    3    TYR     HN     3    TYR      N    15.140     
+    4    LYS     HN     4    LYS      N    18.345     
+    5    LEU     HN     5    LEU      N     8.644     
+    6    VAL     HN     6    VAL      N    10.578     
+    7    ILE     HN     7    ILE      N     1.981     
+    8    ASN     HN     8    ASN      N     0.314     
+    9    GLY     HN     9    GLY      N    -0.347     
+   12    LEU     HN    12    LEU      N     5.219     
+   13    LYS     HN    13    LYS      N    10.723     
+   14    GLY     HN    14    GLY      N    10.128     
+   16    THR     HN    16    THR      N    12.925     
+   17    THR     HN    17    THR      N    16.826     
+   18    THR     HN    18    THR      N    19.034     
+   19    LYS     HN    19    LYS      N    18.853     
+   20    ALA     HN    20    ALA      N    12.745     
+   21    VAL     HN    21    VAL      N    13.011     
+   22    ASP     HN    22    ASP      N    16.357     
+   23    ALA     HN    23    ALA      N    17.196     
+   28    LYS     HN    28    LYS      N    -4.470     
+   29    ALA     HN    29    ALA      N     9.454     
+   30    PHE     HN    30    PHE      N    12.013     
+   31    LYS     HN    31    LYS      N    -3.259     
+   32    GLN     HN    32    GLN      N    -5.652     
+   33    TYR     HN    33    TYR      N     7.249     
+   34    ALA     HN    34    ALA      N     6.827     
+   36    ASP     HN    36    ASP      N    -1.878     
+   37    ASN     HN    37    ASN      N    15.613     
+   38    GLY     HN    38    GLY      N   -13.673     
+   42    VAL     HN    42    VAL      N    -9.537     
+   43    TRP     HN    43    TRP      N     0.143     
+   44    THR     HN    44    THR      N     8.604     
+   45    TYR     HN    45    TYR      N     9.521     
+   46    ASP     HN    46    ASP      N    14.096     
+   47    ASP     HN    47    ASP      N     3.498     
+   48    ALA     HN    48    ALA      N   -13.468     
+   49    THR     HN    49    THR      N    -8.976     
+   50    LYS     HN    50    LYS      N    14.134     
+   51    THR     HN    51    THR      N    17.133     
+   52    PHE     HN    52    PHE      N     8.868     
+   53    THR     HN    53    THR      N     8.133     
+   54    VAL     HN    54    VAL      N     3.354     
+   55    THR     HN    55    THR      N     3.381
+
+excluded couplings
+#   10    LYS      C    10    LYS     CA     1.788
+#   11    THR      C    11    THR     CA    -2.574
+#   24    GLU      C    24    GLU     CA     2.713     
+#   25    THR      C    25    THR     CA    -1.328     
+#   26    ALA      C    26    ALA     CA    -1.819     
+#   39    VAL      C    39    VAL     CA     0.670     
+#   40    ASP      C    40    ASP     CA     1.390
+#   41    GLY      C    41    GLY     CA     1.990     
+
+#   10    LYS      C    11    THR      N    -0.098
+#   11    THR      C    12    LEU      N    -0.564
+#   24    GLU      C    25    THR      N    -1.724     
+#   25    THR      C    26    ALA      N     0.626     
+#   26    ALA      C    27    GLU      N     0.402     
+#   39    VAL      C    40    ASP      N    -0.824     
+#   40    ASP      C    41    GLY      N    -0.158
+#   41    GLY      C    42    VAL      N     1.396     
+
+#   10    LYS     CA    10    LYS     HA    13.896
+#   11    THR     CA    11    THR     HA   -16.749
+#   24    GLU     CA    24    GLU     HA   -39.239     
+#   25    THR     CA    25    THR     HA    15.789     
+#   26    ALA     CA    26    ALA     HA    26.731     
+#   39    VAL     CA    39    VAL     HA   -37.990     
+#   40    ASP     CA    40    ASP     HA   -32.065
+#   41    GLY     CA    41    GLY     HA#  -33.644     
+
+#   10    LYS     HN    10    LYS      N    -1.895
+#   11    THR     HN    11    THR      N    -7.125
+#   24    GLU     HN    24    GLU      N     0.695     
+#   26    ALA     HN    26    ALA      N    15.966     
+#   39    VAL     HN    39    VAL      N   -20.068     
+#   40    ASP     HN    40    ASP      N   -15.864
+#   41    GLY     HN    41    GLY      N   -14.876     
+#   56    GLU     HN    56    GLU      N     1.151
+
+
+
+
+  Entry H atom name         Submitted Coord H atom name
+    1   1H    MET   1          HT1       MET   1  -2.284 -13.420  -4.241
+    2   2H    MET   1          HT2       MET   1  -2.756 -14.951  -3.674
+    3   3H    MET   1          HT3       MET   1  -1.208 -14.727  -4.336
+    4    HA   MET   1           HA       MET   1  -1.620 -14.803  -1.797
+    5   1HB   MET   1          HB2       MET   1   0.559 -14.510  -2.975
+    6   2HB   MET   1          HB1       MET   1   0.225 -12.787  -3.117
+    7   1HG   MET   1          HG2       MET   1   0.838 -12.392  -0.970
+    8   2HG   MET   1          HG1       MET   1  -0.102 -13.754  -0.369
+    9   1HE   MET   1          HE1       MET   1   2.092 -16.782  -0.639
+   10   2HE   MET   1          HE2       MET   1   0.563 -16.165  -1.265
+   11   3HE   MET   1          HE3       MET   1   0.951 -15.989   0.447
+   12    H    GLN   2           HN       GLN   2  -2.011 -13.431  -0.031
+   13    HA   GLN   2           HA       GLN   2  -3.602 -11.048  -0.663
+   14   1HB   GLN   2          HB2       GLN   2  -3.666 -11.162   2.046
+   15   2HB   GLN   2          HB1       GLN   2  -4.779 -12.083   1.037
+   16   1HG   GLN   2          HG2       GLN   2  -2.098 -13.208   1.856
+   17   2HG   GLN   2          HG1       GLN   2  -3.523 -13.375   2.881
+   18   1HE2  GLN   2          HE21      GLN   2  -5.554 -14.232   1.560
+   19   2HE2  GLN   2          HE22      GLN   2  -5.235 -15.497   0.474
+   20    H    TYR   3           HN       TYR   3  -2.761  -9.096  -0.515
+   21    HA   TYR   3           HA       TYR   3  -0.124  -8.756   0.820
+   22   1HB   TYR   3          HB2       TYR   3  -1.325  -7.228  -1.527
+   23   2HB   TYR   3          HB1       TYR   3   0.158  -6.766  -0.698
+   24    HD1  TYR   3           HD1      TYR   3  -1.430  -9.264  -2.896
+   25    HD2  TYR   3           HD2      TYR   3   2.229  -8.019  -1.017
+   26    HE1  TYR   3           HE1      TYR   3  -0.152 -10.796  -4.371
+   27    HE2  TYR   3           HE2      TYR   3   3.507  -9.556  -2.487
+   28    HH   TYR   3           HH       TYR   3   3.001 -10.576  -4.940
+   29    H    LYS   4           HN       LYS   4   0.114  -6.887   2.067
+   30    HA   LYS   4           HA       LYS   4  -2.420  -5.694   2.891
+   31   1HB   LYS   4          HB2       LYS   4  -1.461  -7.187   4.616
+   32   2HB   LYS   4          HB1       LYS   4   0.078  -6.347   4.517
+   33   1HG   LYS   4          HG2       LYS   4  -0.889  -4.331   5.445
+   34   2HG   LYS   4          HG1       LYS   4  -2.507  -5.034   5.393
+   35   1HD   LYS   4          HD2       LYS   4  -0.258  -6.334   6.939
+   36   2HD   LYS   4          HD1       LYS   4  -1.286  -5.097   7.659
+   37   1HE   LYS   4          HE2       LYS   4  -3.283  -6.463   7.152
+   38   2HE   LYS   4          HE1       LYS   4  -2.252  -7.713   6.456
+   39   1HZ   LYS   4          HZ1       LYS   4  -2.987  -7.554   9.055
+   40   2HZ   LYS   4          HZ2       LYS   4  -1.424  -6.889   9.075
+   41   3HZ   LYS   4          HZ3       LYS   4  -1.677  -8.451   8.457
+   42    H    LEU   5           HN       LEU   5  -2.427  -3.522   3.269
+   43    HA   LEU   5           HA       LEU   5   0.023  -1.965   2.640
+   44   1HB   LEU   5          HB2       LEU   5  -1.572  -1.597   0.905
+   45   2HB   LEU   5          HB1       LEU   5  -2.835  -1.242   2.077
+   46    HG   LEU   5           HG       LEU   5  -1.456   0.700   2.881
+   47   1HD1  LEU   5          HD11      LEU   5   0.760   0.225   2.254
+   48   2HD1  LEU   5          HD12      LEU   5   0.277   1.468   1.101
+   49   3HD1  LEU   5          HD13      LEU   5   0.296  -0.228   0.616
+   50   1HD2  LEU   5          HD21      LEU   5  -2.130   0.728  -0.075
+   51   2HD2  LEU   5          HD22      LEU   5  -2.009   2.139   0.976
+   52   3HD2  LEU   5          HD23      LEU   5  -3.295   0.958   1.229
+   53    H    VAL   6           HN       VAL   6   0.689  -0.846   4.425
+   54    HA   VAL   6           HA       VAL   6  -1.137  -0.242   6.661
+   55    HB   VAL   6           HB       VAL   6   1.908  -0.432   6.489
+   56   1HG1  VAL   6          HG11      VAL   6   1.895  -0.092   8.928
+   57   2HG1  VAL   6          HG12      VAL   6   0.149   0.147   8.883
+   58   3HG1  VAL   6          HG13      VAL   6   1.217   1.299   8.083
+   59   1HG2  VAL   6          HG21      VAL   6   1.737  -2.418   7.825
+   60   2HG2  VAL   6          HG22      VAL   6   0.605  -2.603   6.485
+   61   3HG2  VAL   6          HG23      VAL   6   0.012  -2.166   8.087
+   62    H    ILE   7           HN       ILE   7  -1.739   1.826   6.706
+   63    HA   ILE   7           HA       ILE   7  -0.273   3.776   5.035
+   64    HB   ILE   7           HB       ILE   7  -3.114   4.033   5.989
+   65   1HG1  ILE   7          HG12      ILE   7  -2.612   3.449   3.134
+   66   2HG1  ILE   7          HG11      ILE   7  -2.254   2.110   4.219
+   67   1HG2  ILE   7          HG21      ILE   7  -1.524   5.434   3.823
+   68   2HG2  ILE   7          HG22      ILE   7  -1.969   6.124   5.384
+   69   3HG2  ILE   7          HG23      ILE   7  -3.220   5.729   4.205
+   70   1HD1  ILE   7          HD1       ILE   7  -4.506   2.318   5.220
+   71   2HD1  ILE   7          HD2       ILE   7  -4.590   2.004   3.487
+   72   3HD1  ILE   7          HD3       ILE   7  -4.870   3.634   4.103
+   73    H    ASN   8           HN       ASN   8   0.900   5.108   6.173
+   74    HA   ASN   8           HA       ASN   8  -0.031   5.978   8.843
+   75   1HB   ASN   8          HB2       ASN   8   2.786   5.719   7.804
+   76   2HB   ASN   8          HB1       ASN   8   2.364   6.570   9.288
+   77   1HD2  ASN   8          HD21      ASN   8   0.420   4.923  10.406
+   78   2HD2  ASN   8          HD22      ASN   8   1.071   3.391  10.736
+   79    H    GLY   9           HN       GLY   9  -1.339   7.503   7.477
+   80   1HA   GLY   9          HA2       GLY   9   0.138   9.555   6.005
+   81   2HA   GLY   9          HA1       GLY   9  -1.601   9.299   5.985
+   82    H    LYS  10           HN       LYS  10  -0.772  11.792   6.261
+   83    HA   LYS  10           HA       LYS  10  -0.295  12.759   8.871
+   84   1HB   LYS  10          HB2       LYS  10  -1.465  13.963   6.375
+   85   2HB   LYS  10          HB1       LYS  10  -1.412  14.886   7.868
+   86   1HG   LYS  10          HG2       LYS  10   0.878  15.118   7.819
+   87   2HG   LYS  10          HG1       LYS  10   1.126  13.573   7.010
+   88   1HD   LYS  10          HD2       LYS  10   1.319  14.653   5.042
+   89   2HD   LYS  10          HD1       LYS  10  -0.336  15.215   5.193
+   90   1HE   LYS  10          HE2       LYS  10   0.490  17.158   6.524
+   91   2HE   LYS  10          HE1       LYS  10   2.142  16.610   6.232
+   92   1HZ   LYS  10          HZ1       LYS  10   2.085  17.633   4.284
+   93   2HZ   LYS  10          HZ2       LYS  10   0.477  18.117   4.544
+   94   3HZ   LYS  10          HZ3       LYS  10   0.808  16.635   3.782
+   95    H    THR  11           HN       THR  11  -3.154  12.217   6.939
+   96    HA   THR  11           HA       THR  11  -4.903  12.755   9.263
+   97    HB   THR  11           HB       THR  11  -4.712  13.932   6.629
+   98    HG1  THR  11           HG1      THR  11  -6.641  14.781   8.362
+   99   1HG2  THR  11          HG21      THR  11  -7.462  12.878   7.291
+  100   2HG2  THR  11          HG22      THR  11  -6.457  12.366   5.935
+  101   3HG2  THR  11          HG23      THR  11  -7.068  14.019   6.006
+  102    H    LEU  12           HN       LEU  12  -4.292  10.471   6.655
+  103    HA   LEU  12           HA       LEU  12  -6.471   8.875   7.756
+  104   1HB   LEU  12          HB2       LEU  12  -6.633   9.404   5.258
+  105   2HB   LEU  12          HB1       LEU  12  -4.928   9.044   5.066
+  106    HG   LEU  12           HG       LEU  12  -5.407   6.643   5.487
+  107   1HD1  LEU  12          HD11      LEU  12  -7.878   6.003   5.335
+  108   2HD1  LEU  12          HD12      LEU  12  -8.241   7.694   5.677
+  109   3HD1  LEU  12          HD13      LEU  12  -7.369   6.722   6.862
+  110   1HD2  LEU  12          HD21      LEU  12  -6.452   6.239   3.332
+  111   2HD2  LEU  12          HD22      LEU  12  -5.444   7.679   3.189
+  112   3HD2  LEU  12          HD23      LEU  12  -7.193   7.839   3.345
+  113    H    LYS  13           HN       LYS  13  -5.943   7.170   8.995
+  114    HA   LYS  13           HA       LYS  13  -3.334   5.976   8.469
+  115   1HB   LYS  13          HB2       LYS  13  -4.629   6.526  11.167
+  116   2HB   LYS  13          HB1       LYS  13  -3.076   5.727  10.935
+  117   1HG   LYS  13          HG2       LYS  13  -2.232   7.790   9.807
+  118   2HG   LYS  13          HG1       LYS  13  -3.765   8.584  10.192
+  119   1HD   LYS  13          HD2       LYS  13  -3.375   8.009  12.608
+  120   2HD   LYS  13          HD1       LYS  13  -1.774   7.427  12.160
+  121   1HE   LYS  13          HE2       LYS  13  -1.082   9.613  11.459
+  122   2HE   LYS  13          HE1       LYS  13  -2.732  10.234  11.562
+  123   1HZ   LYS  13          HZ1       LYS  13  -1.851   9.012  13.998
+  124   2HZ   LYS  13          HZ2       LYS  13  -2.547  10.541  13.743
+  125   3HZ   LYS  13          HZ3       LYS  13  -0.873  10.324  13.548
+  126    H    GLY  14           HN       GLY  14  -3.403   3.619   8.606
+  127   1HA   GLY  14          HA2       GLY  14  -4.877   2.024  10.206
+  128   2HA   GLY  14          HA1       GLY  14  -5.974   2.372   8.872
+  129    H    GLU  15           HN       GLU  15  -5.964   0.268   8.283
+  130    HA   GLU  15           HA       GLU  15  -3.722  -0.483   6.509
+  131   1HB   GLU  15          HB2       GLU  15  -5.122  -2.342   8.446
+  132   2HB   GLU  15          HB1       GLU  15  -4.003  -2.845   7.189
+  133   1HG   GLU  15          HG2       GLU  15  -2.218  -1.512   8.292
+  134   2HG   GLU  15          HG1       GLU  15  -3.349  -1.127   9.589
+  135    H    THR  16           HN       THR  16  -4.337  -1.835   4.789
+  136    HA   THR  16           HA       THR  16  -7.046  -2.753   4.602
+  137    HB   THR  16           HB       THR  16  -7.210  -0.478   3.609
+  138    HG1  THR  16           HG1      THR  16  -7.447  -2.724   1.914
+  139   1HG2  THR  16          HG21      THR  16  -5.274  -1.515   1.518
+  140   2HG2  THR  16          HG22      THR  16  -4.892  -0.297   2.736
+  141   3HG2  THR  16          HG23      THR  16  -6.098   0.045   1.496
+  142    H    THR  17           HN       THR  17  -7.133  -4.067   2.365
+  143    HA   THR  17           HA       THR  17  -4.501  -5.301   1.888
+  144    HB   THR  17           HB       THR  17  -5.457  -7.556   2.065
+  145    HG1  THR  17           HG1      THR  17  -7.794  -6.204   2.926
+  146   1HG2  THR  17          HG21      THR  17  -5.985  -5.867   4.527
+  147   2HG2  THR  17          HG22      THR  17  -4.484  -6.702   4.126
+  148   3HG2  THR  17          HG23      THR  17  -5.931  -7.630   4.519
+  149    H    THR  18           HN       THR  18  -4.521  -6.722   0.012
+  150    HA   THR  18           HA       THR  18  -6.794  -6.646  -1.791
+  151    HB   THR  18           HB       THR  18  -5.400  -4.524  -2.229
+  152    HG1  THR  18           HG1      THR  18  -5.767  -4.797  -4.422
+  153   1HG2  THR  18          HG21      THR  18  -3.199  -5.880  -2.090
+  154   2HG2  THR  18          HG22      THR  18  -3.357  -4.706  -3.397
+  155   3HG2  THR  18          HG23      THR  18  -3.594  -6.423  -3.721
+  156    H    LYS  19           HN       LYS  19  -6.590  -8.268  -3.422
+  157    HA   LYS  19           HA       LYS  19  -4.465 -10.284  -2.851
+  158   1HB   LYS  19          HB2       LYS  19  -6.824 -10.895  -4.594
+  159   2HB   LYS  19          HB1       LYS  19  -5.952 -11.952  -3.509
+  160   1HG   LYS  19          HG2       LYS  19  -7.597  -9.770  -2.291
+  161   2HG   LYS  19          HG1       LYS  19  -8.457 -11.113  -3.032
+  162   1HD   LYS  19          HD2       LYS  19  -6.428 -11.256  -0.793
+  163   2HD   LYS  19          HD1       LYS  19  -8.146 -11.616  -0.696
+  164   1HE   LYS  19          HE2       LYS  19  -7.135 -13.278  -2.752
+  165   2HE   LYS  19          HE1       LYS  19  -5.971 -13.373  -1.433
+  166   1HZ   LYS  19          HZ1       LYS  19  -8.863 -13.981  -1.397
+  167   2HZ   LYS  19          HZ2       LYS  19  -7.985 -13.720   0.034
+  168   3HZ   LYS  19          HZ3       LYS  19  -7.566 -15.001  -1.001
+  169    H    ALA  20           HN       ALA  20  -3.069 -10.881  -4.467
+  170    HA   ALA  20           HA       ALA  20  -3.676 -10.198  -7.231
+  171   1HB   ALA  20          HB1       ALA  20  -1.117  -9.067  -6.191
+  172   2HB   ALA  20          HB2       ALA  20  -2.607  -8.146  -6.004
+  173   3HB   ALA  20          HB3       ALA  20  -2.056  -8.611  -7.612
+  174    H    VAL  21           HN       VAL  21  -2.228 -11.131  -8.715
+  175    HA   VAL  21           HA       VAL  21  -1.135 -13.631  -7.828
+  176    HB   VAL  21           HB       VAL  21  -0.374 -13.976 -10.094
+  177   1HG1  VAL  21          HG11      VAL  21  -2.567 -14.160 -11.072
+  178   2HG1  VAL  21          HG12      VAL  21  -3.202 -12.913  -9.999
+  179   3HG1  VAL  21          HG13      VAL  21  -2.708 -14.473  -9.342
+  180   1HG2  VAL  21          HG21      VAL  21  -1.350 -11.142 -10.473
+  181   2HG2  VAL  21          HG22      VAL  21  -1.128 -12.267 -11.813
+  182   3HG2  VAL  21          HG23      VAL  21   0.252 -11.791 -10.823
+  183    H    ASP  22           HN       ASP  22   0.326 -10.488  -8.199
+  184    HA   ASP  22           HA       ASP  22   2.819 -11.525  -7.170
+  185   1HB   ASP  22          HB2       ASP  22   4.230 -10.620  -8.972
+  186   2HB   ASP  22          HB1       ASP  22   3.199 -11.911  -9.574
+  187    H    ALA  23           HN       ALA  23   4.400  -9.766  -6.790
+  188    HA   ALA  23           HA       ALA  23   3.066  -7.815  -5.245
+  189   1HB   ALA  23          HB1       ALA  23   5.958  -7.744  -6.109
+  190   2HB   ALA  23          HB2       ALA  23   5.365  -8.812  -4.837
+  191   3HB   ALA  23          HB3       ALA  23   5.251  -7.063  -4.645
+  192    H    GLU  24           HN       GLU  24   4.478  -7.542  -8.487
+  193    HA   GLU  24           HA       GLU  24   4.264  -4.674  -8.444
+  194   1HB   GLU  24          HB2       GLU  24   5.302  -4.760 -10.449
+  195   2HB   GLU  24          HB1       GLU  24   5.550  -6.452 -10.072
+  196   1HG   GLU  24          HG2       GLU  24   3.750  -7.133 -11.469
+  197   2HG   GLU  24          HG1       GLU  24   3.152  -5.482 -11.629
+  198    H    THR  25           HN       THR  25   1.955  -7.155  -9.276
+  199    HA   THR  25           HA       THR  25   0.069  -5.286 -10.365
+  200    HB   THR  25           HB       THR  25  -0.403  -8.022  -9.132
+  201    HG1  THR  25           HG1      THR  25  -0.746  -8.135 -11.663
+  202   1HG2  THR  25          HG21      THR  25  -2.541  -7.914 -10.446
+  203   2HG2  THR  25          HG22      THR  25  -2.194  -6.220 -10.791
+  204   3HG2  THR  25          HG23      THR  25  -2.474  -6.742  -9.130
+  205    H    ALA  26           HN       ALA  26   0.715  -6.564  -7.137
+  206    HA   ALA  26           HA       ALA  26  -1.542  -5.329  -5.895
+  207   1HB   ALA  26          HB1       ALA  26  -0.481  -5.850  -3.812
+  208   2HB   ALA  26          HB2       ALA  26   1.098  -5.993  -4.585
+  209   3HB   ALA  26          HB3       ALA  26  -0.153  -7.195  -4.904
+  210    H    GLU  27           HN       GLU  27   1.801  -4.304  -6.463
+  211    HA   GLU  27           HA       GLU  27   1.649  -1.884  -5.000
+  212   1HB   GLU  27          HB2       GLU  27   3.815  -2.841  -5.960
+  213   2HB   GLU  27          HB1       GLU  27   3.222  -2.454  -7.575
+  214   1HG   GLU  27          HG2       GLU  27   3.089  -0.052  -6.919
+  215   2HG   GLU  27          HG1       GLU  27   3.765  -0.466  -5.344
+  216    H    LYS  28           HN       LYS  28   0.845  -2.500  -8.378
+  217    HA   LYS  28           HA       LYS  28   0.207   0.206  -8.994
+  218   1HB   LYS  28          HB2       LYS  28  -0.615  -2.482 -10.138
+  219   2HB   LYS  28          HB1       LYS  28  -1.386  -1.008 -10.716
+  220   1HG   LYS  28          HG2       LYS  28   0.713  -0.112 -11.474
+  221   2HG   LYS  28          HG1       LYS  28   1.613  -1.401 -10.677
+  222   1HD   LYS  28          HD2       LYS  28   0.399  -3.043 -12.182
+  223   2HD   LYS  28          HD1       LYS  28  -0.227  -1.656 -13.073
+  224   1HE   LYS  28          HE2       LYS  28   1.764  -1.287 -14.110
+  225   2HE   LYS  28          HE1       LYS  28   2.688  -1.552 -12.636
+  226   1HZ   LYS  28          HZ1       LYS  28   1.512  -3.970 -13.538
+  227   2HZ   LYS  28          HZ2       LYS  28   3.149  -3.605 -13.264
+  228   3HZ   LYS  28          HZ3       LYS  28   2.443  -3.268 -14.771
+  229    H    ALA  29           HN       ALA  29  -1.768  -2.387  -7.628
+  230    HA   ALA  29           HA       ALA  29  -4.209  -0.858  -7.693
+  231   1HB   ALA  29          HB1       ALA  29  -4.236  -3.325  -7.438
+  232   2HB   ALA  29          HB2       ALA  29  -5.019  -2.541  -6.065
+  233   3HB   ALA  29          HB3       ALA  29  -3.379  -3.171  -5.904
+  234    H    PHE  30           HN       PHE  30  -1.727  -1.312  -5.197
+  235    HA   PHE  30           HA       PHE  30  -3.104   0.303  -3.284
+  236   1HB   PHE  30          HB2       PHE  30  -0.267  -0.660  -3.533
+  237   2HB   PHE  30          HB1       PHE  30  -0.775   0.407  -2.237
+  238    HD1  PHE  30           HD1      PHE  30  -3.633  -0.877  -1.891
+  239    HD2  PHE  30           HD2      PHE  30   0.341  -2.499  -2.180
+  240    HE1  PHE  30           HE1      PHE  30  -4.328  -2.831  -0.547
+  241    HE2  PHE  30           HE2      PHE  30  -0.365  -4.459  -0.841
+  242    HZ   PHE  30           HZ       PHE  30  -2.687  -4.600   0.022
+  243    H    LYS  31           HN       LYS  31  -0.613   1.114  -5.755
+  244    HA   LYS  31           HA       LYS  31  -0.291   3.776  -4.809
+  245   1HB   LYS  31          HB2       LYS  31   0.071   2.595  -7.586
+  246   2HB   LYS  31          HB1       LYS  31   0.564   4.221  -7.132
+  247   1HG   LYS  31          HG2       LYS  31   1.581   2.104  -5.336
+  248   2HG   LYS  31          HG1       LYS  31   2.178   2.000  -6.989
+  249   1HD   LYS  31          HD2       LYS  31   2.999   4.280  -6.900
+  250   2HD   LYS  31          HD1       LYS  31   2.274   4.520  -5.314
+  251   1HE   LYS  31          HE2       LYS  31   4.312   3.929  -4.504
+  252   2HE   LYS  31          HE1       LYS  31   3.840   2.280  -4.901
+  253   1HZ   LYS  31          HZ1       LYS  31   5.142   2.250  -6.736
+  254   2HZ   LYS  31          HZ2       LYS  31   6.032   3.379  -5.831
+  255   3HZ   LYS  31          HZ3       LYS  31   4.968   3.908  -7.045
+  256    H    GLN  32           HN       GLN  32  -2.606   2.323  -7.057
+  257    HA   GLN  32           HA       GLN  32  -3.880   4.807  -7.776
+  258   1HB   GLN  32          HB2       GLN  32  -4.186   2.599  -9.023
+  259   2HB   GLN  32          HB1       GLN  32  -5.102   2.016  -7.633
+  260   1HG   GLN  32          HG2       GLN  32  -6.675   2.856  -9.273
+  261   2HG   GLN  32          HG1       GLN  32  -6.654   3.978  -7.915
+  262   1HE2  GLN  32          HE21      GLN  32  -6.188   6.148  -8.402
+  263   2HE2  GLN  32          HE22      GLN  32  -5.580   6.688  -9.892
+  264    H    TYR  33           HN       TYR  33  -4.491   2.486  -5.241
+  265    HA   TYR  33           HA       TYR  33  -6.770   3.739  -4.141
+  266   1HB   TYR  33          HB2       TYR  33  -6.243   1.504  -3.435
+  267   2HB   TYR  33          HB1       TYR  33  -4.597   1.948  -3.031
+  268    HD1  TYR  33           HD1      TYR  33  -8.127   2.087  -1.931
+  269    HD2  TYR  33           HD2      TYR  33  -4.044   2.942  -0.905
+  270    HE1  TYR  33           HE1      TYR  33  -8.772   2.318   0.453
+  271    HE2  TYR  33           HE2      TYR  33  -4.694   3.207   1.471
+  272    HH   TYR  33           HH       TYR  33  -7.967   3.330   2.500
+  273    H    ALA  34           HN       ALA  34  -3.330   4.194  -3.374
+  274    HA   ALA  34           HA       ALA  34  -3.743   6.140  -1.371
+  275   1HB   ALA  34          HB1       ALA  34  -1.400   6.783  -1.809
+  276   2HB   ALA  34          HB2       ALA  34  -1.395   5.704  -3.205
+  277   3HB   ALA  34          HB3       ALA  34  -1.613   5.047  -1.583
+  278    H    ASN  35           HN       ASN  35  -3.244   6.545  -4.915
+  279    HA   ASN  35           HA       ASN  35  -3.248   9.355  -4.817
+  280   1HB   ASN  35          HB2       ASN  35  -4.014   7.331  -6.969
+  281   2HB   ASN  35          HB1       ASN  35  -4.091   9.057  -7.274
+  282   1HD2  ASN  35          HD21      ASN  35  -2.515   7.979  -9.006
+  283   2HD2  ASN  35          HD22      ASN  35  -0.864   8.096  -8.628
+  284    H    ASP  36           HN       ASP  36  -5.877   7.049  -5.316
+  285    HA   ASP  36           HA       ASP  36  -7.926   8.955  -5.670
+  286   1HB   ASP  36          HB2       ASP  36  -7.919   6.109  -4.511
+  287   2HB   ASP  36          HB1       ASP  36  -9.410   7.005  -4.767
+  288    H    ASN  37           HN       ASN  37  -6.391   7.918  -2.774
+  289    HA   ASN  37           HA       ASN  37  -8.402   9.393  -1.109
+  290   1HB   ASN  37          HB2       ASN  37  -6.297   7.366  -0.434
+  291   2HB   ASN  37          HB1       ASN  37  -7.184   8.316   0.765
+  292   1HD2  ASN  37          HD21      ASN  37  -7.341   5.521  -1.234
+  293   2HD2  ASN  37          HD22      ASN  37  -8.978   5.153  -0.981
+  294    H    GLY  38           HN       GLY  38  -5.798  10.385  -2.766
+  295   1HA   GLY  38          HA2       GLY  38  -4.693  12.341  -2.564
+  296   2HA   GLY  38          HA1       GLY  38  -5.584  12.652  -1.091
+  297    H    VAL  39           HN       VAL  39  -3.664   9.750  -1.159
+  298    HA   VAL  39           HA       VAL  39  -1.897  10.949   0.841
+  299    HB   VAL  39           HB       VAL  39  -2.306   8.073  -0.047
+  300   1HG1  VAL  39          HG11      VAL  39   0.000   8.279   0.610
+  301   2HG1  VAL  39          HG12      VAL  39  -0.864   7.542   1.958
+  302   3HG1  VAL  39          HG13      VAL  39  -0.434   9.251   2.016
+  303   1HG2  VAL  39          HG21      VAL  39  -3.015   9.579   2.488
+  304   2HG2  VAL  39          HG22      VAL  39  -3.176   7.834   2.290
+  305   3HG2  VAL  39          HG23      VAL  39  -4.144   8.927   1.301
+  306    H    ASP  40           HN       ASP  40   0.064  11.559   0.428
+  307    HA   ASP  40           HA       ASP  40   1.484  10.611  -1.982
+  308   1HB   ASP  40          HB2       ASP  40   0.632  12.869  -2.434
+  309   2HB   ASP  40          HB1       ASP  40   1.341  13.454  -0.934
+  310    H    GLY  41           HN       GLY  41   2.728   9.182  -0.685
+  311   1HA   GLY  41          HA2       GLY  41   4.615  10.542   1.139
+  312   2HA   GLY  41          HA1       GLY  41   3.785   9.079   1.639
+  313    H    VAL  42           HN       VAL  42   6.017   8.417   1.988
+  314    HA   VAL  42           HA       VAL  42   7.429   7.556  -0.447
+  315    HB   VAL  42           HB       VAL  42   9.353   7.132   0.795
+  316   1HG1  VAL  42          HG11      VAL  42   9.773   9.612   1.060
+  317   2HG1  VAL  42          HG12      VAL  42   8.052   9.868   0.771
+  318   3HG1  VAL  42          HG13      VAL  42   9.061   9.151  -0.486
+  319   1HG2  VAL  42          HG21      VAL  42   9.527   8.207   3.021
+  320   2HG2  VAL  42          HG22      VAL  42   8.389   6.860   3.038
+  321   3HG2  VAL  42          HG23      VAL  42   7.791   8.519   2.994
+  322    H    TRP  43           HN       TRP  43   7.736   5.336  -0.701
+  323    HA   TRP  43           HA       TRP  43   6.129   3.473   0.975
+  324   1HB   TRP  43          HB2       TRP  43   7.059   3.314  -1.891
+  325   2HB   TRP  43          HB1       TRP  43   6.113   2.081  -1.063
+  326    HD1  TRP  43           HD1      TRP  43   5.761   5.879  -1.930
+  327    HE1  TRP  43           HE1      TRP  43   3.246   6.302  -2.340
+  328    HE3  TRP  43           HE3      TRP  43   3.946   1.250  -0.851
+  329    HZ2  TRP  43           HZ2      TRP  43   0.777   4.835  -2.219
+  330    HZ3  TRP  43           HZ3      TRP  43   1.523   0.777  -1.009
+  331    HH2  TRP  43           HH2      TRP  43  -0.057   2.559  -1.685
+  332    H    THR  44           HN       THR  44   6.841   1.588   1.722
+  333    HA   THR  44           HA       THR  44   9.368   0.487   0.689
+  334    HB   THR  44           HB       THR  44   9.770  -0.571   2.906
+  335    HG1  THR  44           HG1      THR  44   7.793   0.969   4.119
+  336   1HG2  THR  44          HG21      THR  44  10.246   1.422   4.343
+  337   2HG2  THR  44          HG22      THR  44   9.430   2.417   3.137
+  338   3HG2  THR  44          HG23      THR  44  10.894   1.532   2.706
+  339    H    TYR  45           HN       TYR  45   9.444  -1.725   0.803
+  340    HA   TYR  45           HA       TYR  45   6.906  -3.157   1.176
+  341   1HB   TYR  45          HB2       TYR  45   6.999  -2.797  -1.228
+  342   2HB   TYR  45          HB1       TYR  45   8.668  -3.369  -1.291
+  343    HD1  TYR  45           HD1      TYR  45   5.345  -4.535   0.047
+  344    HD2  TYR  45           HD2      TYR  45   8.989  -5.592  -1.972
+  345    HE1  TYR  45           HE1      TYR  45   4.556  -6.878  -0.151
+  346    HE2  TYR  45           HE2      TYR  45   8.196  -7.932  -2.175
+  347    HH   TYR  45           HH       TYR  45   5.384  -8.973  -2.038
+  348    H    ASP  46           HN       ASP  46   7.251  -4.968   2.359
+  349    HA   ASP  46           HA       ASP  46  10.026  -6.017   2.842
+  350   1HB   ASP  46          HB2       ASP  46   9.033  -5.060   4.716
+  351   2HB   ASP  46          HB1       ASP  46   7.727  -6.242   4.607
+  352    H    ASP  47           HN       ASP  47  10.119  -7.733   1.343
+  353    HA   ASP  47           HA       ASP  47   7.897  -9.189   0.376
+  354   1HB   ASP  47          HB2       ASP  47  10.125  -8.893  -0.710
+  355   2HB   ASP  47          HB1       ASP  47  10.678 -10.208   0.320
+  356    H    ALA  48           HN       ALA  48   9.822  -9.718   3.351
+  357    HA   ALA  48           HA       ALA  48   9.099 -12.406   3.635
+  358   1HB   ALA  48          HB1       ALA  48  10.990 -11.247   4.829
+  359   2HB   ALA  48          HB2       ALA  48   9.905 -12.059   5.959
+  360   3HB   ALA  48          HB3       ALA  48   9.804 -10.312   5.740
+  361    H    THR  49           HN       THR  49   7.503  -9.462   4.642
+  362    HA   THR  49           HA       THR  49   5.313 -11.112   5.810
+  363    HB   THR  49           HB       THR  49   4.646  -9.053   7.009
+  364    HG1  THR  49           HG1      THR  49   5.418  -7.606   5.414
+  365   1HG2  THR  49          HG21      THR  49   6.585  -8.830   8.518
+  366   2HG2  THR  49          HG22      THR  49   7.607  -9.633   7.325
+  367   3HG2  THR  49          HG23      THR  49   6.299 -10.521   8.107
+  368    H    LYS  50           HN       LYS  50   5.941  -9.698   2.913
+  369    HA   LYS  50           HA       LYS  50   4.718  -8.965   1.258
+  370   1HB   LYS  50          HB2       LYS  50   2.333 -10.338   2.586
+  371   2HB   LYS  50          HB1       LYS  50   2.579 -10.093   0.862
+  372   1HG   LYS  50          HG2       LYS  50   4.349 -11.835   2.594
+  373   2HG   LYS  50          HG1       LYS  50   3.004 -12.441   1.632
+  374   1HD   LYS  50          HD2       LYS  50   4.062 -11.685  -0.420
+  375   2HD   LYS  50          HD1       LYS  50   5.360 -10.911   0.492
+  376   1HE   LYS  50          HE2       LYS  50   5.999 -13.124   1.423
+  377   2HE   LYS  50          HE1       LYS  50   4.752 -13.880   0.429
+  378   1HZ   LYS  50          HZ1       LYS  50   5.840 -13.073  -1.541
+  379   2HZ   LYS  50          HZ2       LYS  50   6.957 -13.948  -0.606
+  380   3HZ   LYS  50          HZ3       LYS  50   7.001 -12.250  -0.619
+  381    H    THR  51           HN       THR  51   4.975  -7.169   3.201
+  382    HA   THR  51           HA       THR  51   2.395  -5.774   3.270
+  383    HB   THR  51           HB       THR  51   4.601  -5.683   5.363
+  384    HG1  THR  51           HG1      THR  51   2.475  -7.259   4.974
+  385   1HG2  THR  51          HG21      THR  51   1.971  -4.201   5.158
+  386   2HG2  THR  51          HG22      THR  51   3.586  -3.512   5.322
+  387   3HG2  THR  51          HG23      THR  51   2.857  -4.380   6.673
+  388    H    PHE  52           HN       PHE  52   2.333  -3.821   2.538
+  389    HA   PHE  52           HA       PHE  52   4.776  -2.333   1.699
+  390   1HB   PHE  52          HB2       PHE  52   1.856  -2.041   0.941
+  391   2HB   PHE  52          HB1       PHE  52   3.115  -0.915   0.469
+  392    HD1  PHE  52           HD1      PHE  52   1.848  -4.372   0.068
+  393    HD2  PHE  52           HD2      PHE  52   4.598  -1.385  -1.342
+  394    HE1  PHE  52           HE1      PHE  52   2.250  -5.711  -1.984
+  395    HE2  PHE  52           HE2      PHE  52   5.016  -2.732  -3.383
+  396    HZ   PHE  52           HZ       PHE  52   3.823  -4.882  -3.713
+  397    H    THR  53           HN       THR  53   5.026  -0.272   2.607
+  398    HA   THR  53           HA       THR  53   2.955   0.646   4.495
+  399    HB   THR  53           HB       THR  53   5.944   0.907   4.909
+  400    HG1  THR  53           HG1      THR  53   4.455  -0.541   6.685
+  401   1HG2  THR  53          HG21      THR  53   4.527   2.721   5.888
+  402   2HG2  THR  53          HG22      THR  53   5.342   1.747   7.112
+  403   3HG2  THR  53          HG23      THR  53   3.629   1.491   6.777
+  404    H    VAL  54           HN       VAL  54   2.510   2.794   4.228
+  405    HA   VAL  54           HA       VAL  54   4.280   4.415   2.486
+  406    HB   VAL  54           HB       VAL  54   2.414   3.879   1.141
+  407   1HG1  VAL  54          HG11      VAL  54   0.167   4.669   1.689
+  408   2HG1  VAL  54          HG12      VAL  54   0.741   5.292   3.236
+  409   3HG1  VAL  54          HG13      VAL  54   0.727   3.554   2.935
+  410   1HG2  VAL  54          HG21      VAL  54   3.585   6.119   1.097
+  411   2HG2  VAL  54          HG22      VAL  54   2.267   6.754   2.083
+  412   3HG2  VAL  54          HG23      VAL  54   1.940   6.141   0.462
+  413    H    THR  55           HN       THR  55   4.881   6.223   3.419
+  414    HA   THR  55           HA       THR  55   3.375   7.210   5.833
+  415    HB   THR  55           HB       THR  55   5.154   6.225   6.702
+  416    HG1  THR  55           HG1      THR  55   5.145   9.063   6.709
+  417   1HG2  THR  55          HG21      THR  55   7.398   6.889   6.327
+  418   2HG2  THR  55          HG22      THR  55   6.910   8.304   5.395
+  419   3HG2  THR  55          HG23      THR  55   6.724   6.690   4.709
+  420    H    GLU  56           HN       GLU  56   2.820   9.359   5.746
+  421    HA   GLU  56           HA       GLU  56   3.942  11.069   3.627
+  422   1HB   GLU  56          HB2       GLU  56   1.526  11.341   5.418
+  423   2HB   GLU  56          HB1       GLU  56   2.151  12.692   4.471
+  424   1HG   GLU  56          HG2       GLU  56   2.001  11.234   2.427
+  425   2HG   GLU  56          HG1       GLU  56   1.186  10.027   3.418

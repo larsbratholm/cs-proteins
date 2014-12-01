@@ -1,4 +1,5 @@
-PROTEIN=/kemi/lab/cs-proteins/smn_tudor_domain/smn_tudor_domain
-AA=${PROTEIN}.aa
-STR=${PROTEIN}.str
-RMSD_RANGE='0,57'
+PROTEIN=/kemi/lab/cs-proteins/smn_tudor_domain/
+AA=${PROTEIN}1mhn.aa
+NATIVE=${PROTEIN}1mhn.pdb
+STR=${PROTEIN}1g5v.str
+RMSD_RANGE='3,55'

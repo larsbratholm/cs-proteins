@@ -1,5 +1,5 @@
-PROTEIN=/$HOME/cs-proteins/ssr2857/2xmj
-AA=${PROTEIN}.aa
-NATIVE=${PROTEIN}.pdb
-STR=${PROTEIN}.str
-RMSD_RANGE='1,-1'
+PROTEIN=$HOME/cs-proteins/ssr2857/
+AA=${PROTEIN}2xmj.aa
+NATIVE=${PROTEIN}2xmj.pdb
+STR=${PROTEIN}1sb6.str
+RMSD_RANGE='0,-1'

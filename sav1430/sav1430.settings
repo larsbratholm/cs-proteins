@@ -1,0 +1,8 @@
+PROTEIN=$HOME/cs-proteins/sav1430
+AA=${PROTEIN}2ffm.aa
+STR=${PROTEIN}1pqx.str
+NATIVE=${PROTEIN}2ffm.pdb
+RMSD_RANGE='1,6/11,21/27,-1'
+NOE=${PROTEIN}.upl
+NOE_ALL=${PROTEIN}_all.upl
+RESTRAINTS=50

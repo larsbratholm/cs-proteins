@@ -1,5 +1,5 @@
-PROTEIN=/$HOME/cs-proteins/mrr16/1YWX
+PROTEIN=$HOME/cs-proteins/mrr16/1YWX
 AA=${PROTEIN}.aa
 NATIVE=${PROTEIN}.pdb
 STR=${PROTEIN}.str
-RMSD_RANGE='0,88'
+RMSD_RANGE='3,89'

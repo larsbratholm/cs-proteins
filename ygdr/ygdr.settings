@@ -1,0 +1,8 @@
+PROTEIN=$HOME/cs-proteins/ygdr/
+AA=${PROTEIN}3fif.aa
+STR=${PROTEIN}2jn0.str
+NATIVE=${PROTEIN}3fif.pdb
+RMSD_RANGE='3,49'
+NOE=${PROTEIN}.upl
+NOE_ALL=${PROTEIN}_all.upl
+RESTRAINTS=50

@@ -1,0 +1,5 @@
+PROTEIN=$HOME/cs-proteins/p02633/2bca
+AA=${PROTEIN}.aa
+NATIVE=${PROTEIN}.pdb
+STR=${PROTEIN}.str
+RMSD_RANGE='2,39/45,73'
