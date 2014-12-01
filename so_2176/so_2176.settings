@@ -1,0 +1,8 @@
+PROTEIN=$HOME/cs-proteins/so_2176/
+AA=${PROTEIN}2qti.aa
+STR=${PROTEIN}2juw.str
+NATIVE=${PROTEIN}2qti.pdb
+RMSD_RANGE='0,-1'
+NOE=${PROTEIN}.upl
+NOE_ALL=${PROTEIN}_all.upl
+RESTRAINTS=50

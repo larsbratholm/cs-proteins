@@ -1,0 +1,8 @@
+PROTEIN=$HOME/cs-proteins/this/
+AA=${PROTEIN}3cwi.aa
+STR=${PROTEIN}2k5p.str
+NATIVE=${PROTEIN}3cwi.pdb
+RMSD_RANGE='0,64'
+NOE=${PROTEIN}.upl
+NOE_ALL=${PROTEIN}_all.upl
+RESTRAINTS=50

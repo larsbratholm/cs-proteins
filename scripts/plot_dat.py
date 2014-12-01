@@ -32,8 +32,7 @@ for line in lines:
         if energy > 10000:
             continue
 
-        cam = float(string.split(line)[2]) + float(string.split(line)[3])
-        pp = float(string.split(line)[2])
+        cam = 0#float(string.split(line)[2]) + float(string.split(line)[3])
         ff = energy - cam
         #cam += noe_1
         if int(sys.argv[1]) == 1:
@@ -67,6 +66,8 @@ for line in lines:
         if energy < min_energy:
             print line
             min_energy = float(energy)
+        if energy > 5000:
+            continue
 
         energies.append(float(energy))
         rmsds.append(float(rmsd))
