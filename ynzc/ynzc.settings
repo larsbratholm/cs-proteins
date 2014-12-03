@@ -1,4 +1,4 @@
-PROTEIN=$HOME/cs-proteins/ynzc
+PROTEIN=$HOME/cs-proteins/ynzc/
 AA=${PROTEIN}3bhp.aa
 STR=${PROTEIN}2jvd.str
 NATIVE=${PROTEIN}3bhp.pdb

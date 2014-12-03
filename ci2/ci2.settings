@@ -1,4 +1,4 @@
-PROTEIN=/kemi/lab/cs-proteins/ci2/ci2
+PROTEIN=$HOME/cs-proteins/ci2/ci2
 AA=${PROTEIN}.aa
 STR=${PROTEIN}.str
 NATIVE=${PROTEIN}.pdb

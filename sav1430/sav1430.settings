@@ -1,4 +1,4 @@
-PROTEIN=$HOME/cs-proteins/sav1430
+PROTEIN=$HOME/cs-proteins/sav1430/
 AA=${PROTEIN}2ffm.aa
 STR=${PROTEIN}1pqx.str
 NATIVE=${PROTEIN}2ffm.pdb

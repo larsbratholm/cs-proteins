@@ -1,4 +1,4 @@
-PROTEIN=$HOME/cs-proteins/hr4527e.settings
+PROTEIN=$HOME/cs-proteins/hr4527e/
 AA=${PROTEIN}3P1X.aa
 STR=${PROTEIN}2L33.str
 NATIVE=${PROTEIN}3P1X.pdb

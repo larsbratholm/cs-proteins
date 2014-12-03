@@ -1,4 +1,4 @@
-PROTEIN=$HOME/cs-proteins/mrr110b
+PROTEIN=$HOME/cs-proteins/mrr110b/
 AA=${PROTEIN}2K5V.aa
 STR=${PROTEIN}2K5V.str
 NATIVE=${PROTEIN}2K5V.pdb
