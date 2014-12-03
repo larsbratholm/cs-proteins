@@ -1,0 +1,8 @@
+PROTEIN=$HOME/cs-proteins/yppr/
+AA=${PROTEIN}3lyw.aa
+STR=${PROTEIN}2kpu.str
+NATIVE=${PROTEIN}3lyw.pdb
+RMSD_RANGE='0,-1'
+NOE=${PROTEIN}.upl
+NOE_ALL=${PROTEIN}_all.upl
+RESTRAINTS=50

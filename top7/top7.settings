@@ -1,0 +1,8 @@
+PROTEIN=$HOME/cs-proteins/top7/top7
+AA=${PROTEIN}.aa
+STR=${PROTEIN}.str
+NATIVE=${PROTEIN}.pdb
+RMSD_RANGE='4,54/68,106'
+NOE=${PROTEIN}.upl
+NOE_ALL=${PROTEIN}_all.upl
+RESTRAINTS=50

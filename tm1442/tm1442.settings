@@ -1,0 +1,5 @@
+PROTEIN=$HOME/cs-proteins/tm1442/
+AA=${PROTEIN}1vc1.aa
+NATIVE=${PROTEIN}1vc1.pdb
+STR=${PROTEIN}1sbo.str
+RMSD_RANGE='3,-1'

@@ -2,7 +2,7 @@
 
 import sys
 import string
-import pylab
+import matplotlib.pyplot as plt
 
 lines = sys.stdin.readlines()
 
@@ -11,7 +11,7 @@ energies = []
 rmsds = []
 
 min_energy = 1000000.0
-max_rmsd = 30
+max_rmsd = 50
 
 for line in lines:
 
@@ -20,9 +20,9 @@ for line in lines:
         energy = float(string.split(line)[1])
         #energy_1 = float(string.split(line)[2])
         #energy_2 = float(string.split(line)[3])
-        torus  = float(string.split(line)[-1])
-        basilisk  = float(string.split(line)[-3])
-        mumu  = float(string.split(line)[-4])
+        #torus  = float(string.split(line)[-1])
+        #basilisk  = float(string.split(line)[-3])
+        #mumu  = float(string.split(line)[-4])
         #noe_2  = float(string.split(line)[-14])
         #noe_1  = float(string.split(line)[-25])
         #rmsd   = float(string.split(line)[-int(sys.argv[1])])
@@ -30,33 +30,53 @@ for line in lines:
         
         if rmsd > max_rmsd:
             continue
+        if energy > 10000:
+            continue
 
-        cam = float(string.split(line)[2])# + float(string.split(line)[3])
+        cam = 0#float(string.split(line)[2]) + float(string.split(line)[3])
         ff = energy - cam
-        ##cam += noe_1
+        #cam += noe_1
         #if int(sys.argv[1]) == 1:
-        #    energy = ff+torus+cam+mumu*0
+        #    energy = ff+torus+basilisk+cam+mumu*0
         #if int(sys.argv[1]) == 2:
-        #    energy = ff
+        #    energy = ff+torus+basilisk+cam+mumu*1
         #if int(sys.argv[1]) == 3:
-        #    energy = cam
+        #    energy = ff+torus+basilisk+cam+mumu*3
         #if int(sys.argv[1]) == 4:
-        #    energy = torus
+        #    energy = ff+torus+basilisk+cam+mumu*5
         #if int(sys.argv[1]) == 5:
         #    energy = ff+cam+mumu*0
+        #if int(sys.argv[1]) == 6:
+        #    energy = ff+cam+mumu*1
+        #if int(sys.argv[1]) == 7:
+        #    energy = ff+cam+mumu*3
+        #if int(sys.argv[1]) == 8:
+        #    energy = ff+cam+mumu*5
+        #if int(sys.argv[1]) == 9:
+        #    energy = torus+basilisk+cam+mumu*0
+        #if int(sys.argv[1]) == 10:
+        #    energy = torus+basilisk+cam+mumu*1
+        #if int(sys.argv[1]) == 11:
+        #    energy = torus+basilisk+cam+mumu*3
+        #if int(sys.argv[1]) == 12:
+        #    energy = torus+basilisk+cam+mumu*5
+        #if int(sys.argv[1]) == 13:
+        #    energy = pp
+        #energy += torus#-float(string.split(line)[4])
 
         if energy < min_energy:
             print line
             min_energy = float(energy)
+        if energy > 5000:
+            continue
 
-        #if energy < 10000:
         energies.append(float(energy))
         rmsds.append(float(rmsd))
 print min_energy
 
 
-#pylab.plot(rmsds, energies, "ko")
-#pylab.savefig("temp.png")
+#plt.plot(rmsds, energies, "ko")
+#plt.savefig("temp.png")
 
 
 

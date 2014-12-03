@@ -1,0 +1,101 @@
+*HEADER    PROTEIN BINDING                         06-JAN-09   2KDF              
+*TITLE     NMR STRUCTURE OF MINOR S5A (196-306):K48 LINKED DIUBIQUITIN           
+*TITLE    2 SPECIES                                                              
+*COMPND    MOL_ID: 1;                                                            
+*COMPND   2 MOLECULE: UBIQUITIN;                                                 
+*COMPND   3 CHAIN: B, C;                                                         
+*COMPND   4 ENGINEERED: YES;                                                     
+*COMPND   5 MOL_ID: 2;                                                           
+*COMPND   6 MOLECULE: 26S PROTEASOME NON-ATPASE REGULATORY SUBUNIT 4;            
+*COMPND   7 CHAIN: A;                                                            
+*COMPND   8 FRAGMENT: UNP RESIDUES 196-306, S5A FRAGMENT;                        
+*COMPND   9 SYNONYM: 26S PROTEASOME REGULATORY SUBUNIT S5A, RPN10,               
+*COMPND  10 MULTIUBIQUITIN CHAIN-BINDING PROTEIN, ANTISECRETORY FACTOR           
+*COMPND  11 1, ASF, AF;                                                          
+*COMPND  12 ENGINEERED: YES                                                      
+*SOURCE    MOL_ID: 1;                                                            
+*SOURCE   2 ORGANISM_SCIENTIFIC: HOMO SAPIENS;                                   
+*SOURCE   3 ORGANISM_COMMON: HUMAN;                                              
+*SOURCE   4 ORGANISM_TAXID: 9606;                                                
+*SOURCE   5 GENE: RPS27A, UBA80, UBCEP1, UBA52, UBCEP2, UBB, UBC;                
+*SOURCE   6 EXPRESSION_SYSTEM: ESCHERICHIA COLI;                                 
+*SOURCE   7 EXPRESSION_SYSTEM_TAXID: 562;                                        
+*SOURCE   8 EXPRESSION_SYSTEM_VECTOR: PET3A;                                     
+*SOURCE   9 MOL_ID: 2;                                                           
+*SOURCE  10 ORGANISM_SCIENTIFIC: HOMO SAPIENS;                                   
+*SOURCE  11 ORGANISM_COMMON: HUMAN;                                              
+*SOURCE  12 ORGANISM_TAXID: 9606;                                                
+*SOURCE  13 GENE: PSMD4, MCB1;                                                   
+*SOURCE  14 EXPRESSION_SYSTEM: ESCHERICHIA COLI;                                 
+*SOURCE  15 EXPRESSION_SYSTEM_TAXID: 562;                                        
+*SOURCE  16 EXPRESSION_SYSTEM_VECTOR: PET26B                                     
+*KEYWDS    PROTEIN COMPLEX, UBIQUITIN INTERACTING MOTIFS, CYTOPLASM,             
+*KEYWDS   2 NUCLEUS, PHOSPHOPROTEIN, UBL CONJUGATION, ALTERNATIVE                
+*KEYWDS   3 SPLICING, PROTEASOME, PROTEIN BINDING                                
+*EXPDTA    SOLUTION NMR                                                          
+*NUMMDL    7                                                                     
+*AUTHOR    N.ZHANG, Q.WANG, A.EHLINGER, L.RANDLES, J.W.LARY, Y.KANG,             
+*AUTHOR   2 A.HARIRINIA, J.L.COLE, D.FUSHMAN, K.J.WALTERS                        
+*REVDAT   1   01-SEP-09 2KDF    0                                                
+
+
+!inter-molecular NOEs for UIM1 and proximal Ub
+assign ((segid DIUB and resid    73 and name  HD1# ))     ((segid MLGP and resid    12 and name   HE# ) or
+                                                           (segid MLGP and resid    12 and name   HD# ) or
+                                                           (segid MLGP and resid    12 and name    HZ ))  5.00  3.20 0.50 
+assign ((segid DIUB and resid    73 and name  HD2# ))     ((segid MLGP and resid    12 and name   HE# ) or
+                                                           (segid MLGP and resid    12 and name   HD# ) or
+                                                           (segid MLGP and resid    12 and name    HZ ))  5.00  3.20 0.50
+assign ((segid DIUB and resid    44 and name  HD1# ))     ((segid MLGP and resid    12 and name   HE# ) or
+                                                           (segid MLGP and resid    12 and name   HD# ) or
+                                                           (segid MLGP and resid    12 and name    HZ ))  5.00  3.20 0.50
+assign (segid DIUB and resid    44 and name  HG2# )     (segid MLGP and resid    25 and name   HB# )  2.50  0.70 0.50
+assign (segid DIUB and resid    44 and name    HB )     (segid MLGP and resid    25 and name   HB# )  3.50  1.70 0.50
+assign (segid DIUB and resid    70 and name   HG# )     (segid MLGP and resid    25 and name   HB# )  2.50  0.70 0.50
+assign (segid DIUB and resid    44 and name  HG1# )     (segid MLGP and resid    25 and name   HB# )  5.00  3.20 0.50
+assign (segid DIUB and resid    44 and name  HG2# )     (segid MLGP and resid    26 and name   HD# )  3.50  1.70 0.50
+assign ((segid DIUB and resid    68 and name   HD2 ) or
+        (segid DIUB and resid    68 and name   HE1 ))     ((segid MLGP and resid    28 and name   HG# ))  2.50  0.70 0.50
+assign (segid DIUB and resid     8 and name   HD# )     (segid MLGP and resid    28 and name   HG# )  2.50  0.70 0.50
+assign ((segid DIUB and resid    71 and name   HD# ) or
+        (segid DIUB and resid    73 and name   HD# ))     ((segid MLGP and resid    21 and name   HB# ))  3.50  1.70 0.50
+assign ((segid DIUB and resid    71 and name   HD# ) or
+        (segid DIUB and resid    73 and name   HD# ))     ((segid MLGP and resid    21 and name   HG# ))  5.00  3.20 0.50 
+!!!!!
+!inter-molecular NOEs for UIM2 and distal Ub
+assign (segid DIUA and resid    44 and name  HG2# )     (segid MLGP and resid    96 and name   HB# )  2.50  0.70 0.50
+assign (segid DIUA and resid    44 and name  HG2# )     (segid MLGP and resid    97 and name   HE# )  2.50  0.70 0.50
+assign (segid DIUA and resid    44 and name  HG2# )     (segid MLGP and resid    97 and name   HG# )  5.00  3.20 0.50
+assign (segid DIUA and resid     8 and name   HD# )     (segid MLGP and resid    84 and name   HD# )  2.50  0.70 0.50
+assign (segid DIUA and resid     8 and name   HD# )     (segid MLGP and resid    87 and name   HE# )  2.50  0.70 0.50
+assign (segid DIUA and resid     9 and name  HG2# )     (segid MLGP and resid    84 and name   HD# )  3.50  1.70 0.50
+assign (segid DIUA and resid    48 and name    HA )     (segid MLGP and resid    97 and name   HE# )  2.50  0.70 0.50
+assign (segid DIUA and resid    49 and name   HG# )     (segid MLGP and resid    97 and name   HE# )  5.00  3.20 0.50
+assign (segid DIUA and resid    70 and name   HG# )     (segid MLGP and resid    96 and name   HB# )  2.50  0.70 0.50
+assign (segid DIUA and resid     8 and name   HB# )     (segid MLGP and resid    84 and name   HD# )  3.50  1.70 0.50
+assign (segid DIUA and resid    44 and name  HG2# )     (segid MLGP and resid    93 and name  HG2# )  2.50  0.70 0.50
+assign (segid DIUA and resid    44 and name  HG2# )     (segid MLGP and resid    93 and name  HD1# )  3.50  1.70 0.50
+assign (segid DIUA and resid    42 and name   HG# )     (segid MLGP and resid    93 and name  HD1# )  5.00  3.20 0.50
+assign (segid DIUA and resid    42 and name   HD# )     (segid MLGP and resid    93 and name  HD1# )  5.00  3.20 0.50
+assign (segid DIUA and resid    70 and name    HB )     (segid MLGP and resid    93 and name  HD1# )  5.00  3.20 0.50
+assign (segid DIUA and resid    44 and name    HB )     (segid MLGP and resid    96 and name   HB# )  3.50  1.70 0.50
+assign (segid DIUA and resid    68 and name   HB# )     (segid MLGP and resid    96 and name   HB# )  5.00  3.20 0.50
+assign (segid DIUA and resid    44 and name  HG2# )     (segid MLGP and resid    97 and name    HA )  3.50  1.70 0.50
+assign (segid DIUA and resid     8 and name   HD# )     (segid MLGP and resid    99 and name   HE# )  3.50  1.70 0.50
+assign ((segid DIUA and resid    68 and name   HD2 ) or
+        (segid DIUA and resid    68 and name   HE1 ))     ((segid MLGP and resid    99 and name   HE# ))  5.00  3.20 0.50
+assign (segid DIUA and resid    47 and name   HA# )     (segid MLGP and resid   101 and name   HD# )  5.00  3.20 0.50
+assign (segid DIUA and resid    46 and name   HB# )     (segid MLGP and resid   101 and name   HD# )  2.50  0.70 0.50
+assign ((segid DIUA and resid    48 and name   HB# ) or
+        (segid DIUA and resid    48 and name   HG# ) or
+        (segid DIUA and resid    48 and name   HD# ))     ((segid MLGP and resid   101 and name   HD# ))  3.00  1.20 0.50
+assign (segid DIUA and resid     8 and name    HA )     (segid MLGP and resid    84 and name   HD# )  3.50  1.70 0.50
+
+  Entry H atom name         Submitted Coord H atom name
+  Start of MODEL    1
+  Start of MODEL    2
+  Start of MODEL    3
+  Start of MODEL    4
+  Start of MODEL    5
+  Start of MODEL    6
+  Start of MODEL    7

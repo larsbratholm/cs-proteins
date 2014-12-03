@@ -1,0 +1,6 @@
+PROTEIN=$HOME/cs-proteins/fcrn/
+AA_NO_TAIL=${PROTEIN}fcrn_no_tail.aa
+AA_TAIL=${PROTEIN}fcrn_tail.aa
+NATIVE_NO_TAIL=${PROTEIN}fcrn_no_tail.pdb
+NATIVE_TAIL=${PROTEIN}fcrn_tail.pdb
+RMSD_RANGE='0,-1'

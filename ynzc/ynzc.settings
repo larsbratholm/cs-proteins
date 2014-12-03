@@ -1,0 +1,8 @@
+PROTEIN=$HOME/cs-proteins/ynzc/
+AA=${PROTEIN}3bhp.aa
+STR=${PROTEIN}2jvd.str
+NATIVE=${PROTEIN}3bhp.pdb
+RMSD_RANGE='3,39'
+NOE=${PROTEIN}.upl
+NOE_ALL=${PROTEIN}_all.upl
+RESTRAINTS=50

@@ -1,0 +1,8 @@
+PROTEIN=$HOME/cs-proteins/xcr50/
+AA=${PROTEIN}1ttz.aa
+STR=${PROTEIN}1xpv.str
+NATIVE=${PROTEIN}1ttz.pdb
+RMSD_RANGE='0,7/10,-1'
+NOE=${PROTEIN}.upl
+NOE_ALL=${PROTEIN}_all.upl
+RESTRAINTS=50

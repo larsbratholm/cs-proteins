@@ -1,0 +1,166 @@
+
+Content for NMR-STAR saveframe, "RDC_list_1"
+
+    save_RDC_list_1
+   _RDC_list.Sf_category                       RDCs
+   _RDC_list.Sf_framecode                      RDC_list_1
+   _RDC_list.Entry_ID                          19404
+   _RDC_list.ID                                1
+   _RDC_list.Sample_condition_list_ID          1
+   _RDC_list.Sample_condition_list_label      $sample_conditions_1
+   _RDC_list.Spectrometer_frequency_1H         600
+   _RDC_list.Bond_length_usage_flag            .
+   _RDC_list.Dipolar_constraint_calib_method   .
+   _RDC_list.Mol_align_tensor_axial_sym_mol    .
+   _RDC_list.Mol_align_tensor_rhombic_mol      .
+   _RDC_list.General_order_param_int_motions   .
+   _RDC_list.Assumed_H_N_bond_length           .
+   _RDC_list.Assumed_H_C_bond_length           .
+   _RDC_list.Assumed_C_N_bond_length           .
+   _RDC_list.Details                          'alignment media: Stretch Gel'
+   _RDC_list.Text_data_format                  .
+   _RDC_list.Text_data                         .
+
+   loop_
+      _RDC_experiment.Experiment_ID
+      _RDC_experiment.Experiment_name
+      _RDC_experiment.Sample_ID
+      _RDC_experiment.Sample_label
+      _RDC_experiment.Sample_state
+      _RDC_experiment.Entry_ID
+      _RDC_experiment.RDC_list_ID
+
+      10 '2D 1H-15N HSQC' . . . 19404 1 
+
+   stop_
+
+   loop_
+      _RDC.ID
+      _RDC.RDC_code
+      _RDC.Assembly_atom_ID_1
+      _RDC.Entity_assembly_ID_1
+      _RDC.Entity_ID_1
+      _RDC.Comp_index_ID_1
+      _RDC.Seq_ID_1
+      _RDC.Comp_ID_1
+      _RDC.Atom_ID_1
+      _RDC.Atom_type_1
+      _RDC.Atom_isotope_number_1
+      _RDC.Ambiguity_code_1
+      _RDC.Assembly_atom_ID_2
+      _RDC.Entity_assembly_ID_2
+      _RDC.Entity_ID_2
+      _RDC.Comp_index_ID_2
+      _RDC.Seq_ID_2
+      _RDC.Comp_ID_2
+      _RDC.Atom_ID_2
+      _RDC.Atom_type_2
+      _RDC.Atom_isotope_number_2
+      _RDC.Ambiguity_code_2
+      _RDC.Val
+      _RDC.Val_min
+      _RDC.Val_max
+      _RDC.Val_err
+      _RDC.Val_bond_length
+      _RDC.Resonance_ID_1
+      _RDC.Resonance_ID_2
+      _RDC.Auth_entity_assembly_ID_1
+      _RDC.Auth_seq_ID_1
+      _RDC.Auth_comp_ID_1
+      _RDC.Auth_atom_ID_1
+      _RDC.Auth_entity_assembly_ID_2
+      _RDC.Auth_seq_ID_2
+      _RDC.Auth_comp_ID_2
+      _RDC.Auth_atom_ID_2
+      _RDC.Entry_ID
+      _RDC.RDC_list_ID
+
+       1 DHN . 1 1   4   4 LYS H H 1 . . 1 1   4   4 LYS N N 15 .   3.246 . . 0.284 . . . . . . . . . . . 19404 1 
+       2 DHN . 1 1   6   6 VAL H H 1 . . 1 1   6   6 VAL N N 15 .   2.787 . . 0.590 . . . . . . . . . . . 19404 1 
+       3 DHN . 1 1   7   7 GLU H H 1 . . 1 1   7   7 GLU N N 15 .   3.039 . . 0.465 . . . . . . . . . . . 19404 1 
+       4 DHN . 1 1   8   8 VAL H H 1 . . 1 1   8   8 VAL N N 15 . -17.885 . . 1.006 . . . . . . . . . . . 19404 1 
+       5 DHN . 1 1   9   9 GLN H H 1 . . 1 1   9   9 GLN N N 15 . -10.164 . . 0.934 . . . . . . . . . . . 19404 1 
+       6 DHN . 1 1  10  10 VAL H H 1 . . 1 1  10  10 VAL N N 15 . -22.684 . . 1.179 . . . . . . . . . . . 19404 1 
+       7 DHN . 1 1  11  11 LYS H H 1 . . 1 1  11  11 LYS N N 15 . -17.399 . . 0.471 . . . . . . . . . . . 19404 1 
+       8 DHN . 1 1  12  12 ILE H H 1 . . 1 1  12  12 ILE N N 15 . -23.637 . . 1.130 . . . . . . . . . . . 19404 1 
+       9 DHN . 1 1  13  13 THR H H 1 . . 1 1  13  13 THR N N 15 . -20.238 . . 0.897 . . . . . . . . . . . 19404 1 
+      10 DHN . 1 1  14  14 CYS H H 1 . . 1 1  14  14 CYS N N 15 . -15.381 . . 0.728 . . . . . . . . . . . 19404 1 
+      11 DHN . 1 1  17  17 LYS H H 1 . . 1 1  17  17 LYS N N 15 .  -1.876 . . 0.952 . . . . . . . . . . . 19404 1 
+      12 DHN . 1 1  18  18 THR H H 1 . . 1 1  18  18 THR N N 15 . -17.564 . . 1.070 . . . . . . . . . . . 19404 1 
+      13 DHN . 1 1  19  19 TYR H H 1 . . 1 1  19  19 TYR N N 15 . -20.339 . . 0.526 . . . . . . . . . . . 19404 1 
+      14 DHN . 1 1  21  21 ARG H H 1 . . 1 1  21  21 ARG N N 15 . -22.408 . . 0.953 . . . . . . . . . . . 19404 1 
+      15 DHN . 1 1  23  23 TYR H H 1 . . 1 1  23  23 TYR N N 15 . -20.470 . . 1.088 . . . . . . . . . . . 19404 1 
+      16 DHN . 1 1  24  24 GLN H H 1 . . 1 1  24  24 GLN N N 15 .  -4.047 . . 0.625 . . . . . . . . . . . 19404 1 
+      17 DHN . 1 1  25  25 LEU H H 1 . . 1 1  25  25 LEU N N 15 .  -5.583 . . 0.569 . . . . . . . . . . . 19404 1 
+      18 DHN . 1 1  27  27 ALA H H 1 . . 1 1  27  27 ALA N N 15 .  15.643 . . 0.359 . . . . . . . . . . . 19404 1 
+      19 DHN . 1 1  28  28 VAL H H 1 . . 1 1  28  28 VAL N N 15 .  11.066 . . 0.955 . . . . . . . . . . . 19404 1 
+      20 DHN . 1 1  29  29 ARG H H 1 . . 1 1  29  29 ARG N N 15 .   4.845 . . 1.915 . . . . . . . . . . . 19404 1 
+      21 DHN . 1 1  32  32 GLU H H 1 . . 1 1  32  32 GLU N N 15 .  30.070 . . 1.101 . . . . . . . . . . . 19404 1 
+      22 DHN . 1 1  35  35 GLU H H 1 . . 1 1  35  35 GLU N N 15 .  13.507 . . 3.853 . . . . . . . . . . . 19404 1 
+      23 DHN . 1 1  37  37 LEU H H 1 . . 1 1  37  37 LEU N N 15 .   6.675 . . 0.845 . . . . . . . . . . . 19404 1 
+      24 DHN . 1 1  38  38 LYS H H 1 . . 1 1  38  38 LYS N N 15 .   5.317 . . 0.762 . . . . . . . . . . . 19404 1 
+      25 DHN . 1 1  39  39 LYS H H 1 . . 1 1  39  39 LYS N N 15 .  23.664 . . 1.983 . . . . . . . . . . . 19404 1 
+      26 DHN . 1 1  40  40 VAL H H 1 . . 1 1  40  40 VAL N N 15 .  16.772 . . 2.201 . . . . . . . . . . . 19404 1 
+      27 DHN . 1 1  42  42 ASN H H 1 . . 1 1  42  42 ASN N N 15 .  10.646 . . 1.215 . . . . . . . . . . . 19404 1 
+      28 DHN . 1 1  44  44 ARG H H 1 . . 1 1  44  44 ARG N N 15 .   9.403 . . 0.797 . . . . . . . . . . . 19404 1 
+      29 DHN . 1 1  45  45 MET H H 1 . . 1 1  45  45 MET N N 15 .   3.184 . . 0.975 . . . . . . . . . . . 19404 1 
+      30 DHN . 1 1  48  48 ILE H H 1 . . 1 1  48  48 ILE N N 15 .  15.493 . . 1.306 . . . . . . . . . . . 19404 1 
+      31 DHN . 1 1  49  49 LYS H H 1 . . 1 1  49  49 LYS N N 15 .   6.871 . . 0.561 . . . . . . . . . . . 19404 1 
+      32 DHN . 1 1  50  50 LYS H H 1 . . 1 1  50  50 LYS N N 15 .  21.284 . . 1.511 . . . . . . . . . . . 19404 1 
+      33 DHN . 1 1  51  51 LEU H H 1 . . 1 1  51  51 LEU N N 15 .  22.128 . . 0.492 . . . . . . . . . . . 19404 1 
+      34 DHN . 1 1  52  52 GLY H H 1 . . 1 1  52  52 GLY N N 15 .  -4.116 . . 0.710 . . . . . . . . . . . 19404 1 
+      35 DHN . 1 1  53  53 CYS H H 1 . . 1 1  53  53 CYS N N 15 .  -7.672 . . 0.724 . . . . . . . . . . . 19404 1 
+      36 DHN . 1 1  56  56 VAL H H 1 . . 1 1  56  56 VAL N N 15 . -17.287 . . 1.649 . . . . . . . . . . . 19404 1 
+      37 DHN . 1 1  57  57 ARG H H 1 . . 1 1  57  57 ARG N N 15 . -15.312 . . 1.474 . . . . . . . . . . . 19404 1 
+      38 DHN . 1 1  58  58 ILE H H 1 . . 1 1  58  58 ILE N N 15 . -20.706 . . 1.343 . . . . . . . . . . . 19404 1 
+      39 DHN . 1 1  59  59 SER H H 1 . . 1 1  59  59 SER N N 15 . -17.901 . . 0.641 . . . . . . . . . . . 19404 1 
+      40 DHN . 1 1  60  60 ILE H H 1 . . 1 1  60  60 ILE N N 15 . -21.256 . . 0.806 . . . . . . . . . . . 19404 1 
+      41 DHN . 1 1  61  61 ARG H H 1 . . 1 1  61  61 ARG N N 15 . -15.090 . . 0.892 . . . . . . . . . . . 19404 1 
+      42 DHN . 1 1  62  62 VAL H H 1 . . 1 1  62  62 VAL N N 15 . -19.337 . . 0.776 . . . . . . . . . . . 19404 1 
+      43 DHN . 1 1  63  63 LYS H H 1 . . 1 1  63  63 LYS N N 15 .  -5.086 . . 0.536 . . . . . . . . . . . 19404 1 
+      44 DHN . 1 1  64  64 HIS H H 1 . . 1 1  64  64 HIS N N 15 . -13.697 . . 0.938 . . . . . . . . . . . 19404 1 
+      45 DHN . 1 1  67  67 ALA H H 1 . . 1 1  67  67 ALA N N 15 .  -1.862 . . 0.861 . . . . . . . . . . . 19404 1 
+      46 DHN . 1 1  69  69 GLU H H 1 . . 1 1  69  69 GLU N N 15 .  -2.284 . . 0.695 . . . . . . . . . . . 19404 1 
+      47 DHN . 1 1  74  74 ALA H H 1 . . 1 1  74  74 ALA N N 15 .  19.507 . . 1.715 . . . . . . . . . . . 19404 1 
+      48 DHN . 1 1  75  75 LYS H H 1 . . 1 1  75  75 LYS N N 15 .  23.894 . . 2.722 . . . . . . . . . . . 19404 1 
+      49 DHN . 1 1  76  76 LYS H H 1 . . 1 1  76  76 LYS N N 15 .  16.157 . . 1.317 . . . . . . . . . . . 19404 1 
+      50 DHN . 1 1  77  77 PHE H H 1 . . 1 1  77  77 PHE N N 15 .   8.852 . . 0.789 . . . . . . . . . . . 19404 1 
+      51 DHN . 1 1  78  78 ALA H H 1 . . 1 1  78  78 ALA N N 15 .  28.699 . . 1.196 . . . . . . . . . . . 19404 1 
+      52 DHN . 1 1  79  79 ALA H H 1 . . 1 1  79  79 ALA N N 15 .  34.753 . . 1.542 . . . . . . . . . . . 19404 1 
+      53 DHN . 1 1  80  80 ILE H H 1 . . 1 1  80  80 ILE N N 15 .  21.395 . . 4.505 . . . . . . . . . . . 19404 1 
+      54 DHN . 1 1  81  81 LEU H H 1 . . 1 1  81  81 LEU N N 15 .  15.228 . . 3.400 . . . . . . . . . . . 19404 1 
+      55 DHN . 1 1  82  82 ASN H H 1 . . 1 1  82  82 ASN N N 15 .  34.032 . . 1.205 . . . . . . . . . . . 19404 1 
+      56 DHN . 1 1  83  83 LYS H H 1 . . 1 1  83  83 LYS N N 15 .  29.917 . . 0.685 . . . . . . . . . . . 19404 1 
+      57 DHN . 1 1  84  84 VAL H H 1 . . 1 1  84  84 VAL N N 15 .  17.324 . . 1.028 . . . . . . . . . . . 19404 1 
+      58 DHN . 1 1  85  85 PHE H H 1 . . 1 1  85  85 PHE N N 15 .  29.134 . . 1.884 . . . . . . . . . . . 19404 1 
+      59 DHN . 1 1  86  86 ALA H H 1 . . 1 1  86  86 ALA N N 15 .  33.940 . . 2.038 . . . . . . . . . . . 19404 1 
+      60 DHN . 1 1  87  87 GLU H H 1 . . 1 1  87  87 GLU N N 15 .  16.503 . . 1.668 . . . . . . . . . . . 19404 1 
+      61 DHN . 1 1  88  88 LEU H H 1 . . 1 1  88  88 LEU N N 15 .  -5.258 . . 1.589 . . . . . . . . . . . 19404 1 
+      62 DHN . 1 1  89  89 GLY H H 1 . . 1 1  89  89 GLY N N 15 .  16.982 . . 2.432 . . . . . . . . . . . 19404 1 
+      63 DHN . 1 1  91  91 ASN H H 1 . . 1 1  91  91 ASN N N 15 .   5.076 . . 0.871 . . . . . . . . . . . 19404 1 
+      64 DHN . 1 1  92  92 ASP H H 1 . . 1 1  92  92 ASP N N 15 . -12.230 . . 0.686 . . . . . . . . . . . 19404 1 
+      65 DHN . 1 1  93  93 SER H H 1 . . 1 1  93  93 SER N N 15 .   3.483 . . 0.580 . . . . . . . . . . . 19404 1 
+      66 DHN . 1 1  94  94 ASN H H 1 . . 1 1  94  94 ASN N N 15 .  -5.599 . . 1.007 . . . . . . . . . . . 19404 1 
+      67 DHN . 1 1  95  95 VAL H H 1 . . 1 1  95  95 VAL N N 15 . -20.749 . . 1.683 . . . . . . . . . . . 19404 1 
+      68 DHN . 1 1  96  96 THR H H 1 . . 1 1  96  96 THR N N 15 . -15.871 . . 0.761 . . . . . . . . . . . 19404 1 
+      69 DHN . 1 1  97  97 TRP H H 1 . . 1 1  97  97 TRP N N 15 . -20.719 . . 0.889 . . . . . . . . . . . 19404 1 
+      70 DHN . 1 1  98  98 ASP H H 1 . . 1 1  98  98 ASP N N 15 . -16.488 . . 0.464 . . . . . . . . . . . 19404 1 
+      71 DHN . 1 1 100 100 ASP H H 1 . . 1 1 100 100 ASP N N 15 .  -8.248 . . 0.937 . . . . . . . . . . . 19404 1 
+      72 DHN . 1 1 101 101 THR H H 1 . . 1 1 101 101 THR N N 15 . -17.699 . . 1.788 . . . . . . . . . . . 19404 1 
+      73 DHN . 1 1 102 102 VAL H H 1 . . 1 1 102 102 VAL N N 15 . -23.853 . . 0.643 . . . . . . . . . . . 19404 1 
+      74 DHN . 1 1 103 103 THR H H 1 . . 1 1 103 103 THR N N 15 . -17.097 . . 0.938 . . . . . . . . . . . 19404 1 
+      75 DHN . 1 1 104 104 VAL H H 1 . . 1 1 104 104 VAL N N 15 . -22.756 . . 0.674 . . . . . . . . . . . 19404 1 
+      76 DHN . 1 1 105 105 GLU H H 1 . . 1 1 105 105 GLU N N 15 . -19.577 . . 0.876 . . . . . . . . . . . 19404 1 
+      77 DHN . 1 1 106 106 GLY H H 1 . . 1 1 106 106 GLY N N 15 . -20.154 . . 0.669 . . . . . . . . . . . 19404 1 
+      78 DHN . 1 1 107 107 GLN H H 1 . . 1 1 107 107 GLN N N 15 . -13.498 . . 0.332 . . . . . . . . . . . 19404 1 
+      79 DHN . 1 1 108 108 LEU H H 1 . . 1 1 108 108 LEU N N 15 .  -3.603 . . 0.666 . . . . . . . . . . . 19404 1 
+      80 DHN . 1 1 109 109 GLU H H 1 . . 1 1 109 109 GLU N N 15 .   4.540 . . 0.751 . . . . . . . . . . . 19404 1 
+      81 DHN . 1 1 111 111 VAL H H 1 . . 1 1 111 111 VAL N N 15 .  -1.498 . . 0.514 . . . . . . . . . . . 19404 1 
+      82 DHN . 1 1 112 112 ASP H H 1 . . 1 1 112 112 ASP N N 15 .  -3.464 . . 0.405 . . . . . . . . . . . 19404 1 
+      83 DHN . 1 1 113 113 LEU H H 1 . . 1 1 113 113 LEU N N 15 .  -0.805 . . 0.212 . . . . . . . . . . . 19404 1 
+
+   stop_
+
+save_    
+
+
