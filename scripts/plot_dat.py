@@ -25,39 +25,25 @@ for line in lines:
         mumu  = float(string.split(line)[-4])
         #noe_2  = float(string.split(line)[-14])
         #noe_1  = float(string.split(line)[-25])
+        #rmsd   = float(string.split(line)[-int(sys.argv[1])])
         rmsd   = float(string.split(line)[-2])
         
         if rmsd > max_rmsd:
             continue
 
-        cam = float(string.split(line)[2]) + float(string.split(line)[3])
+        cam = float(string.split(line)[2])# + float(string.split(line)[3])
         ff = energy - cam
-        #cam += noe_1
-        if int(sys.argv[1]) == 1:
-            energy = ff+torus+basilisk+cam+mumu*0
-        if int(sys.argv[1]) == 2:
-            energy = ff+torus+basilisk+cam+mumu*1
-        if int(sys.argv[1]) == 3:
-            energy = ff+torus+basilisk+cam+mumu*3
-        if int(sys.argv[1]) == 4:
-            energy = ff+torus+basilisk+cam+mumu*5
-        if int(sys.argv[1]) == 5:
-            energy = ff+cam+mumu*0
-        if int(sys.argv[1]) == 6:
-            energy = ff+cam+mumu*1
-        if int(sys.argv[1]) == 7:
-            energy = ff+cam+mumu*3
-        if int(sys.argv[1]) == 8:
-            energy = ff+cam+mumu*5
-        if int(sys.argv[1]) == 9:
-            energy = torus+basilisk+cam+mumu*0
-        if int(sys.argv[1]) == 10:
-            energy = torus+basilisk+cam+mumu*1
-        if int(sys.argv[1]) == 11:
-            energy = torus+basilisk+cam+mumu*3
-        if int(sys.argv[1]) == 12:
-            energy = torus+basilisk+cam+mumu*5
-        #energy += torus#-float(string.split(line)[4])
+        ##cam += noe_1
+        #if int(sys.argv[1]) == 1:
+        #    energy = ff+torus+cam+mumu*0
+        #if int(sys.argv[1]) == 2:
+        #    energy = ff
+        #if int(sys.argv[1]) == 3:
+        #    energy = cam
+        #if int(sys.argv[1]) == 4:
+        #    energy = torus
+        #if int(sys.argv[1]) == 5:
+        #    energy = ff+cam+mumu*0
 
         if energy < min_energy:
             print line
@@ -66,10 +52,11 @@ for line in lines:
         #if energy < 10000:
         energies.append(float(energy))
         rmsds.append(float(rmsd))
+print min_energy
 
 
-pylab.plot(rmsds, energies, "ko")
-pylab.savefig("temp.png")
+#pylab.plot(rmsds, energies, "ko")
+#pylab.savefig("temp.png")
 
 
 
