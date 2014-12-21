@@ -1,8 +1,8 @@
-PROTEIN=/kemi/lab/cs-proteins/ff_domain/ff_domain
+PROTEIN=$HOME/cs-proteins/ff_domain/ff_domain
 AA=${PROTEIN}.aa
 STR=${PROTEIN}.str
 RDC=${PROTEIN}.rdc
 NATIVE=${PROTEIN}.pdb
-RMSD_RANGE='7,66'
+RMSD_RANGE='1,60'
 NOE=${PROTEIN}_long_range.upl
 RESTRAINTS=50
