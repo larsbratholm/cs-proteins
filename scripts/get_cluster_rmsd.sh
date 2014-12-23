@@ -1,6 +1,6 @@
 #!/bin/bash
 K_SIZE=$1
-#RMSD_COLUMN=$2
+RMSD_COLUMN=$2
 
 echo "NOT combining muninn logs"
 #~/cs-proteins/scripts/combine_muninn.sh
