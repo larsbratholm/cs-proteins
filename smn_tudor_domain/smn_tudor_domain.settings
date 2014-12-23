@@ -2,4 +2,4 @@ PROTEIN=$HOME/cs-proteins/smn_tudor_domain/
 AA=${PROTEIN}1mhn.aa
 NATIVE=${PROTEIN}1mhn.pdb
 STR=${PROTEIN}1g5v.str
-RMSD_RANGE='3,55'
+RMSD_RANGE='4,56'
