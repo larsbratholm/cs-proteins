@@ -12,6 +12,8 @@ residue_list = []
 
 for line in pdb:
     line_ = line.split()
+    if len(line_) < 2:
+        continue
     if line_[0] == "ATOM" and line_[2] == "N":
         residue_list.append(line_[3])
 
