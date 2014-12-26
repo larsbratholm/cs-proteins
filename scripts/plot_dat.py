@@ -20,9 +20,9 @@ for line in lines:
         energy = float(string.split(line)[1])
         #energy_1 = float(string.split(line)[2])
         #energy_2 = float(string.split(line)[3])
-        torus  = float(string.split(line)[-1])
-        basilisk  = float(string.split(line)[-3])
-        mumu  = float(string.split(line)[-4])
+        #torus  = float(string.split(line)[-1])
+        #basilisk  = float(string.split(line)[-3])
+        #mumu  = float(string.split(line)[-4])
         #noe_2  = float(string.split(line)[-14])
         #noe_1  = float(string.split(line)[-25])
         rmsd   = float(string.split(line)[-2])
@@ -70,8 +70,8 @@ for line in lines:
         rmsds.append(float(rmsd))
 
 
-pylab.plot(rmsds, energies, "ko")
-pylab.savefig("temp.png")
+#pylab.plot(rmsds, energies, "ko")
+#pylab.savefig("temp.png")
 
 
 
