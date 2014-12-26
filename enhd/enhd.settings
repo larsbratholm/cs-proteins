@@ -1,5 +1,5 @@
-PROTEIN=/kemi/lab/cs-proteins/enhd/enhd
+PROTEIN=$HOME/cs-proteins/enhd/enhd
 AA=${PROTEIN}.aa
 STR=${PROTEIN}.str
 NATIVE=${PROTEIN}.pdb
-RMSD_RANGE='5,-1'
+RMSD_RANGE='0,-1'

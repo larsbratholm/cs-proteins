@@ -1,4 +1,4 @@
-PROTEIN=$HOME/cs-proteins/xcr50
+PROTEIN=$HOME/cs-proteins/xcr50/
 AA=${PROTEIN}1ttz.aa
 STR=${PROTEIN}1xpv.str
 NATIVE=${PROTEIN}1ttz.pdb

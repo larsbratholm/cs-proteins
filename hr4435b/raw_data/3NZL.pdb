@@ -18,14 +18,15 @@ SOURCE   7 EXPRESSION_SYSTEM_TAXID: 469008;
 SOURCE   8 EXPRESSION_SYSTEM_STRAIN: BL21(DE3)+ MAGIC;                          
 SOURCE   9 EXPRESSION_SYSTEM_VECTOR_TYPE: PLASMID;                              
 SOURCE  10 EXPRESSION_SYSTEM_PLASMID: PET 14-15C                                
-KEYWDS    ALPHA-HELICAL DOMAIN, STRUCTURAL GENOMICS, PSI-2, PROTEIN STRUCTURE   
-KEYWDS   2 INITIATIVE, NORTHEAST STRUCTURAL GENOMICS CONSORTIUM, NESG,          
-KEYWDS   3 TRANSCRIPTION                                                        
+KEYWDS    ALPHA-HELICAL DOMAIN, STRUCTURAL GENOMICS, PSI-BIOLOGY, PROTEIN       
+KEYWDS   2 STRUCTURE INITIATIVE, NORTHEAST STRUCTURAL GENOMICS CONSORTIUM,      
+KEYWDS   3 NESG, TRANSCRIPTION                                                  
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    F.FOROUHAR,M.ABASHIDZE,J.SEETHARAMAN,A.P.KUZIN,P.PATEL,R.XIAO,        
 AUTHOR   2 C.CICCOSANTI,R.SHASTRY,J.K.EVERETT,R.NAIR,T.B.ACTON,B.ROST,          
 AUTHOR   3 G.T.MONTELIONE,J.F.HUNT,L.TONG,NORTHEAST STRUCTURAL GENOMICS         
 AUTHOR   4 CONSORTIUM (NESG)                                                    
+REVDAT   2   22-FEB-12 3NZL    1       VERSN  KEYWDS                            
 REVDAT   1   22-SEP-10 3NZL    0                                                
 JRNL        AUTH   F.FOROUHAR,M.ABASHIDZE,J.SEETHARAMAN,A.P.KUZIN,P.PATEL,      
 JRNL        AUTH 2 R.XIAO,C.CICCOSANTI,R.SHASTRY,J.K.EVERETT,R.NAIR,T.B.ACTON,  
@@ -136,7 +137,7 @@ REMARK   3   NUMBER OF NCS GROUPS : NULL
 REMARK   3                                                                      
 REMARK   3  OTHER REFINEMENT REMARKS: NULL                                      
 REMARK   4                                                                      
-REMARK   4 3NZL COMPLIES WITH FORMAT V. 3.20, 01-DEC-08                         
+REMARK   4 3NZL COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 20-JUL-10.                  
 REMARK 100 THE RCSB ID CODE IS RCSB060477.                                      

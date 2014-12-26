@@ -228,7 +228,6 @@ for line in file_text:
         rest = cut_string(line, 21, 66)+"\n"
 
 	#Convert name
-        print atom_name, residue_name
 	atom_name = get_v3_names(atom_name, residue_name)
 
 	if ((residue_number == last_residue_number)
