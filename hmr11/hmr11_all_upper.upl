@@ -3969,4 +3969,4 @@
   21 ARG O     25 GLU  H      2.10
   21 ARG O     25 GLU  N      3.00
 # sulfur bond
- 154 CYS SD   162 CYS SD      3.00
+ 154 CYS SG   162 CYS SG      3.00

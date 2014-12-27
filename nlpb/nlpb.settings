@@ -1,0 +1,9 @@
+PROTEIN=$HOME/cs-proteins/nlpb
+NOE_LONG=${PROTEIN}/nlpb_long_upper.upl
+RDC=${PROTEIN}/nlpb.rdc
+NATIVE=${PROTEIN}/modeller2.pdb
+AA=${PROTEIN}/nlpb.aa
+STR=${PROTEIN}/nlpb.str
+RMSD_RANGE='1,10/13,102'
+RMSD_RANGE2='128,-1'
+RESTRAINTS=50
