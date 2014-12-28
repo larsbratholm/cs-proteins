@@ -1,0 +1,10 @@
+PROTEIN=$HOME/cs-proteins/hmr11
+#NOE_SHORT=${PROTEIN}/hmr_short_upper.upl
+NOE_LONG=${PROTEIN}/hmr11_long_upper.upl
+#NOE_ALL=${PROTEIN}/sgr145_all_upper.upl
+RDC=${PROTEIN}/hmr11.rdc
+NATIVE=${PROTEIN}/result_0010.pdb
+AA=${PROTEIN}/2lnu.aa
+STR=${PROTEIN}/hmr11.str
+RMSD_RANGE='3,180'
+RESTRAINTS=50

@@ -26,6 +26,7 @@ for line in lines:
         #mumu  = float(string.split(line)[-4])
         #noe_2  = float(string.split(line)[-14])
         #noe_1  = float(string.split(line)[-25])
+        #rmsd   = float(string.split(line)[-int(sys.argv[1])])
         rmsd   = float(string.split(line)[-2])
         
         if rmsd > max_rmsd:
@@ -76,8 +77,7 @@ for line in lines:
 
 print min_rmsd
 
-#plt.plot(rmsds, energies, "ko")
-#plt.savefig("temp.png")
-
+#pylab.plot(rmsds, energies, "ko")
+#pylab.savefig("temp.png")
 
 
