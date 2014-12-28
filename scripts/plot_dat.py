@@ -11,6 +11,7 @@ energies = []
 rmsds = []
 
 min_energy = 1000000.0
+min_rmsd = 1000000.0
 max_rmsd = 50
 
 for line in lines:
@@ -64,17 +65,19 @@ for line in lines:
         #energy += torus#-float(string.split(line)[4])
 
         if energy < min_energy:
-            print line
             min_energy = float(energy)
+        if rmsd < min_rmsd:
+            min_rmsd = rmsd
         if energy > 5000:
             continue
 
-        energies.append(float(energy))
-        rmsds.append(float(rmsd))
+        #energies.append(float(energy))
+        #rmsds.append(float(rmsd))
 
+print min_rmsd
 
-plt.plot(rmsds, energies, "ko")
-plt.savefig("temp.png")
+#plt.plot(rmsds, energies, "ko")
+#plt.savefig("temp.png")
 
 
 
